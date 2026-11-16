@@ -283,7 +283,7 @@ function drawBubble(ctx, entity, blend, reducedMotion) {
   star(ctx, x + 3, y + 2, 2.3, '#fff7ce');
 }
 
-export function renderGame(ctx, engine, {now = 0, blend = 1, reducedMotion = false, particles = []} = {}) {
+export function renderGame(ctx, engine, {now = 0, blend = 1, bubbleBlend = blend, reducedMotion = false, particles = []} = {}) {
   ctx.save();
   ctx.lineCap = 'round'; ctx.lineJoin = 'round';
   background(ctx);
@@ -300,7 +300,7 @@ export function renderGame(ctx, engine, {now = 0, blend = 1, reducedMotion = fal
       else drawBlob(ctx, enemy, blend, now, reducedMotion);
     }
     drawChick(ctx, engine.player, blend, now, reducedMotion, engine.status === 'bumped');
-    for (const shot of engine.shots ?? []) drawBubble(ctx, shot, blend, reducedMotion);
+    for (const shot of engine.shots ?? []) drawBubble(ctx, shot, bubbleBlend, reducedMotion);
   }
   for (const particle of particles) {
     const life = clamp(particle.life);

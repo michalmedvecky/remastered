@@ -102,7 +102,7 @@ test('undo restores enemy RNG and motion, making replay of a decision determinis
   assert.deepEqual(state(engine), after);
 });
 
-test('undo restores collected mushrooms, ammunition, active projectiles and cooldowns', () => {
+test('undo restores collected mushrooms, ammunition, active projectiles and bubble readiness', () => {
   const engine = game({player: at(5, 18), egg: at(30, 18), mushrooms: [at(5, 18)]});
   engine.step();
   assert.equal(engine.ammo, 1);
@@ -110,10 +110,10 @@ test('undo restores collected mushrooms, ammunition, active projectiles and cool
   engine.step({dx: 1, fire: true});
   assert.equal(engine.ammo, 0);
   assert.equal(engine.shots.length, 1);
-  assert.equal(engine.fireCooldown, 4);
+  assert.equal(engine.fireCooldown, 0);
   const fired = state(engine);
   engine.step({dx: 1});
-  assert.equal(engine.fireCooldown, 3);
+  assert.equal(engine.fireCooldown, 0);
   assert.notEqual(engine.shots[0].x, fired.shots[0].x);
   assert.equal(engine.undo(), true);
   assert.deepEqual(state(engine), fired);
