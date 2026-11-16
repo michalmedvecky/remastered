@@ -14,7 +14,10 @@ context.setTransform(DPR, 0, 0, DPR, 0, 0);
 const STORAGE_KEY = 'tappy.progress.v1';
 const TAP_INTERVAL = 190;
 const FLOW_INTERVAL = 230;
+const BUBBLE_INTERVAL = 80;
 const vectors = {up:{dx:0,dy:-1}, down:{dx:0,dy:1}, left:{dx:-1,dy:0}, right:{dx:1,dy:0}};
+const aimArrows = {up:'↑',down:'↓',left:'←',right:'→'};
+const aimNames = {up:'nahoru',down:'dolů',left:'doleva',right:'doprava'};
 const keyDirections = {ArrowUp:'up',KeyW:'up',KeyE:'up',ArrowDown:'down',KeyS:'down',KeyY:'down',ArrowLeft:'left',KeyA:'left',ArrowRight:'right',KeyD:'right'};
 const held = new Map();
 const fireSources = new Set();
@@ -23,7 +26,7 @@ const completed = new Set(progress.completed);
 let mode = progress.mode;
 let sound = progress.sound;
 let engine, started = false, paused = false, overlayKind = '', audio;
-let lastFrame = 0, lastStep = 0, budget = 0, repeatBudget = 0, fireHeld = false;
+let lastFrame = 0, lastStep = 0, lastBubbleStep = 0, budget = 0, repeatBudget = 0, bubbleBudget = 0, fireHeld = false;
 let particles = [], overlayPrimary = () => {}, overlaySecondary = () => {}, currentTip = '';
 let boardGesture = null;
 
@@ -52,13 +55,17 @@ function defaultTip() {
   return mode==='steps' ? 'Ťukni vedle kuřátka: tím směrem udělá krok. Pak máš čas přemýšlet.' : 'Ťukni vedle kuřátka a vyber směr. Tlačítkem pauzy zastavíš svět.';
 }
 function clearHeld() {
-  held.clear();fireSources.clear();fireHeld=false;repeatBudget=0;budget=0;boardGesture=null;
+  held.clear();fireSources.clear();fireHeld=false;repeatBudget=0;budget=0;bubbleBudget=0;boardGesture=null;
   document.querySelectorAll('[data-direction]').forEach(button=>button.classList.remove('is-pressed'));
   $('bubble-button').classList.remove('is-pressed');
 }
+function releaseFire(source) {
+  fireSources.delete(source);fireHeld=fireSources.size>0;
+  $('bubble-button').classList.toggle('is-pressed',fireHeld);
+}
 function currentInput() {
   const direction=[...held.values()].at(-1);
-  return {...(vectors[direction] || {dx:0,dy:0}),fire:fireHeld};
+  return {...(vectors[direction] || {dx:0,dy:0}),fire:fireHeld&&Boolean(engine?.canFire)};
 }
 function focusGame() { canvas.focus({preventScroll:true}); }
 function sync() {
@@ -67,8 +74,12 @@ function sync() {
   $('steps-count').textContent=String(engine.moves);
   $('ammo-count').textContent=String(engine.ammo);
   $('undo-button').disabled=!engine.canUndo;
-  $('bubble-button').disabled=engine.ammo===0 || engine.status!=='playing';
-  $('bubble-button').setAttribute('aria-label',engine.ammo>0?`Poslat uspávací bublinu. Zbývá ${engine.ammo}.`:'Nejdřív seber modrou bublinku v bludišti.');
+  const bubbleLabel=engine.shots.length?'Bublina letí':engine.ammo>0?`Bublina ${aimArrows[engine.player.dir]}`:'Seber bublinu';
+  const bubbleHelp=engine.shots.length?'Bublina už letí k cíli.':engine.ammo>0?`Poslat uspávací bublinu ${aimNames[engine.player.dir]}. Zbývá ${engine.ammo}.`:'Nejdřív seber modrou bublinku v bludišti.';
+  $('bubble-button').disabled=!engine.canFire;
+  $('bubble-label').textContent=bubbleLabel;
+  $('bubble-button').setAttribute('aria-label',bubbleHelp);
+  $('bubble-button').title=bubbleHelp;
   $('mode-toggle').setAttribute('aria-pressed',String(mode==='steps'));
   $('mode-label').textContent=mode==='steps'?'Po krocích':'Plynule';
   $('mode-toggle').title=mode==='steps'?'Přepnout na plynulé hraní':'Přepnout na klidné hraní po krocích';
@@ -118,7 +129,8 @@ function handleEvents() {
         setTip('Máš bublinku! Pošli ji na žabku nebo obláček, aby si zdřímly.');
         break;
       case 'shoot':tone(420,.15,'sine',.035,740);break;
-      case 'sleep':tone(540,.25,'sine',.035,330);break;
+      case 'sleep':tone(540,.25,'sine',.035,330);setTip('Příšerka si zdřímla. Teď můžeš bezpečně kolem ní.');break;
+      case 'bubble-blocked':setTip('Bublina tímhle směrem neprojde. Otoč se šipkou a zkus to znovu.');say(currentTip);break;
       case 'break':confetti(event.x,event.y,'#d4b586',10);tone(175,.12,'triangle',.025,105);break;
       case 'crush':confetti(event.x,event.y,'#bdb5df',9);tone(260,.08,'sine',.025,390);break;
       case 'bump':
@@ -144,24 +156,27 @@ function advance(input) {
   if(!engine || engine.status!=='playing' || paused || modalOpen())return;
   started=true;
   engine.step(input);
-  lastStep=performance.now();
+  lastBubbleStep=lastStep=performance.now();bubbleBudget=0;
   handleEvents();sync();
 }
 function action(input) {
   if(!engine || engine.status!=='playing' || paused || modalOpen())return;
+  if(input.fire&&!input.dx&&!input.dy&&!engine.canFire){
+    setTip(engine.shots.length?'Bublina už letí k cíli.':'Nejdřív seber modrou bublinku v bludišti.');say(currentTip);return;
+  }
   repeatBudget=0;budget=0;
   advance(input);
 }
 function undo() {
   if(!engine?.undo())return;
-  clearHeld();started=false;paused=false;hideOverlay();lastStep=0;particles=[];
+  clearHeld();started=false;paused=false;hideOverlay();lastStep=0;lastBubbleStep=0;particles=[];
   tone(480,.13,'sine',.035,340);
   setTip('Krok je zpátky. Teď můžeš zkusit jinou cestu.');
   say('Krok vrácen.');sync();focusGame();
 }
 function setStage(stage) {
   if(!engine)return;
-  engine.reset(stage);started=false;paused=false;clearHeld();hideOverlay();particles=[];lastStep=0;
+  engine.reset(stage);started=false;paused=false;clearHeld();hideOverlay();particles=[];lastStep=0;lastBubbleStep=0;
   setTip(defaultTip());sync();saveProgress();renderLevels();
   const url=new URL(location.href);
   if(stage===1)url.searchParams.delete('stage');else url.searchParams.set('stage',String(stage));
@@ -235,14 +250,14 @@ for(const button of document.querySelectorAll('[data-direction]')) {
   });
 }
 $('bubble-button').addEventListener('pointerdown',event=>{
-  event.preventDefault();if(event.button!==0||!engine || engine.ammo===0 || paused || engine.status!=='playing'||modalOpen())return;
+  event.preventDefault();if(event.button!==0||!engine?.canFire || paused||modalOpen())return;
   $('bubble-button').setPointerCapture(event.pointerId);fireSources.add(event.pointerId);fireHeld=true;$('bubble-button').classList.add('is-pressed');
   action({...currentInput(),fire:true});focusGame();
 });
-for(const eventName of ['pointerup','pointercancel','lostpointercapture'])$('bubble-button').addEventListener(eventName,event=>{
-  fireSources.delete(event.pointerId);fireHeld=fireSources.size>0;
-  $('bubble-button').classList.toggle('is-pressed',fireHeld);
-});
+// Readiness disables the button during flight. Release the source even when a
+// browser retargets pointerup away from that now-disabled button.
+for(const eventName of ['pointerup','pointercancel'])window.addEventListener(eventName,event=>releaseFire(event.pointerId),{capture:true});
+$('bubble-button').addEventListener('lostpointercapture',event=>releaseFire(event.pointerId));
 $('bubble-button').addEventListener('click',event=>{
   if(event.detail===0){action({...currentInput(),fire:true});focusGame();}
 });
@@ -261,7 +276,7 @@ window.addEventListener('keydown',event=>{
   else if(event.code==='KeyP'||event.code==='Escape') {event.preventDefault();if(!event.repeat)togglePause();}
   else if(event.code==='Enter'&&overlayKind) {event.preventDefault();overlayPrimary();}
 });
-window.addEventListener('keyup',event=>{held.delete(event.code);if(event.code==='Space'){fireSources.delete('Space');fireHeld=fireSources.size>0;}repeatBudget=0;});
+window.addEventListener('keyup',event=>{held.delete(event.code);if(event.code==='Space')releaseFire('Space');repeatBudget=0;});
 canvas.addEventListener('pointerdown',event=>{
   event.preventDefault();
   if(!event.isPrimary||event.button!==0||!engine||paused||engine.status!=='playing'||modalOpen())return;
@@ -295,16 +310,22 @@ function frame(now) {
       if(mode==='flow'&&started) {
         budget+=delta;
         if(budget>=FLOW_INTERVAL){budget%=FLOW_INTERVAL;advance(currentInput());}
-      } else if(mode==='steps'&&(held.size||fireHeld)) {
+      } else if(mode==='steps'&&(held.size||(fireHeld&&engine.canFire))) {
         repeatBudget+=delta;
         if(repeatBudget>=TAP_INTERVAL){repeatBudget%=TAP_INTERVAL;advance(currentInput());}
       }
+      if(mode==='steps'&&engine.hasBubbleMotion){
+        bubbleBudget+=delta;
+        if(bubbleBudget>=BUBBLE_INTERVAL){
+          bubbleBudget%=BUBBLE_INTERVAL;engine.advanceBubbles();lastBubbleStep=now;handleEvents();sync();
+        }
+      }else bubbleBudget=0;
     }
     if(!reducedMotion){
       for(const particle of particles){particle.x+=particle.vx*delta/1000;particle.y+=particle.vy*delta/1000;particle.vy+=210*delta/1000;particle.life-=delta/1000;}
       particles=particles.filter(particle=>particle.life>0);
     }
-    renderGame(context,engine,{now,blend:reducedMotion||!lastStep?1:Math.min((now-lastStep)/130,1),reducedMotion,particles});
+    renderGame(context,engine,{now,blend:reducedMotion||!lastStep?1:Math.min((now-lastStep)/130,1),bubbleBlend:reducedMotion||!lastBubbleStep?1:Math.min((now-lastBubbleStep)/BUBBLE_INTERVAL,1),reducedMotion,particles});
   }
   requestAnimationFrame(frame);
 }

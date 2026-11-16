@@ -21,12 +21,14 @@ První spuštění začíná úrovní 1. Poslední vybraná úroveň, dokončen�
 | Velké šipky | Ťuknutí = krok; podržení = opakování |
 | Ťuknutí do bludiště | Jeden krok směrem od kuřátka k místu dotyku; ťuknutí přímo na kuřátko nic neprovede |
 | Přejetí po herní ploše | Jeden krok zvoleným směrem |
-| Bublina | Pošle sebranou bublinu ve směru pohledu; umí uspat žabku nebo obláček |
+| Bublina | Pošle sebranou bublinu ve směru šipky na tlačítku; sama doletí a uspí žabku nebo obláček |
 | Zpět | Vrátí poslední rozhodnutí |
 | Znovu | Spustí stejnou úroveň od začátku |
 | Úroveň | Výběr kterékoliv z 200 místností |
 | Šipky / WASD | Pohyb na klávesnici |
 | Mezerník / Z / R / P | Bublina / zpět / znovu / pauza |
+
+V režimu **Po krocích** letí vystřelená bublina sama, zatímco kuřátko, nepřátelé, kameny a vajíčko čekají na další rozhodnutí. Jediné **Zpět** vrátí i celý let a zásah. Další střela je připravená hned po dokončení letu, pokud zbývá náboj; není potřeba odchodit další tahy. Při letu tlačítko píše **Bublina letí**, bez náboje **Seber bublinu**. Prázdný pokus o střelbu neposouvá svět.
 
 Herní rozhraní včetně popisků neumožňuje náhodný výběr textu, přetahování ani kontextové nabídky při podržení. Text návodu zůstává běžně označitelný. Pohyb a bublinu lze ovládat dvěma prsty současně. Zrušený dotyk, opuštění stránky a otevření dialogu uvolní ovladače. Plynulé hraní se při opuštění okna pozastaví. Přidání stránky na plochu tabletu používá vlastní relativní web manifest; offline režim není součástí této verze.
 

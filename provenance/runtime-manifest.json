@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "snapshotSHA256": "9857d08bc545036cc36e5295eeb85d8de54f9b59982070708bcd4ef5765a3b0f",
+  "snapshotSHA256": "24ed14e86c44511d7dd6d60f44ae8f1cf489c93e7ad40da3bf10abef0aa282dd",
   "sites": {
     "flappy": {
       "schemaVersion": 1,
@@ -3960,19 +3960,19 @@
     },
     "tappy": {
       "schemaVersion": 1,
-      "snapshotSHA256": "ef5300140fb57a1e759cb8ad956383c9584e9c7850a77c968cebbc47a2191e0c",
+      "snapshotSHA256": "ae3f9c16b4c2354e81b3875dc07ebf2d36b4ae154fc18ef1690b4309947f6d7e",
       "excluded": [
         "build.json (injected per build)",
         "private/redundant source files"
       ],
       "files": {
         "app.js": {
-          "sha256": "c26f39f6a4b07976bb21ca563e6837c0bc2d475c64c21101c9ddafec765f2d34",
-          "size": 17497
+          "sha256": "d933d554590792595ac5cb2492c8d15ab42dd46c19507bc07dd6eea70d45fd7b",
+          "size": 19070
         },
         "art.js": {
-          "sha256": "66635f58f06554ce3cb58f0f4f2dbe49f44f4163451e7486264ae089dab33bc2",
-          "size": 15265
+          "sha256": "2a6c8fc4fcacaa2cab17f62a31c8d14fad6175ec49c7897b9756627bb85fe23e",
+          "size": 15292
         },
         "engine.js": {
           "sha256": "b059cd9d7ea7c7aa4059177310e8562c5608c39c69a8b24496daa4b6cf8267b7",
@@ -3987,8 +3987,8 @@
           "size": 2488
         },
         "index.html": {
-          "sha256": "ed419095988ebd4c98ed8a284240146ba886aa48de13817a05318ec5b0d386d9",
-          "size": 9880
+          "sha256": "7f56e1e36bc1c15cea6b6c8178e31efa65e4ecfcd8b79b452dded247ecc8561e",
+          "size": 9981
         },
         "levels.json": {
           "sha256": "3febaa8e665eac2cfbedd179ea61597be9ded37c90c74e0deebe29cc36ab1dcd",
@@ -4003,8 +4003,8 @@
           "size": 19134
         },
         "tappy-engine.js": {
-          "sha256": "767f7bf9e8c7b4c5bba486f4d17f6aef2ca392fb93fbeb5d03d2f6861eab41ab",
-          "size": 2648
+          "sha256": "12baf739e8eea5d0272b5b19633b119ce4bee6ef5d809c7ffa579f8e00b7ced6",
+          "size": 3821
         }
       }
     }

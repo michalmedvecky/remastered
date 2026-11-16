@@ -31,6 +31,35 @@ export class TappyEngine extends FlappyEngine {
     return this._retryCause;
   }
 
+  get canFire() {
+    return this.status === 'playing' && this.ammo > 0 && this.shots.length === 0;
+  }
+
+  get hasBubbleMotion() {
+    return this.shots.length > 0 || this.mushrooms.some(pod => pod.alive && pod.falling);
+  }
+
+  fire() {
+    if (!this.canFire) return false;
+    const fired = super.fire();
+    // Tappy waits for the current bubble to finish instead of requiring four
+    // otherwise unrelated walking turns before another bubble can be sent.
+    this.fireCooldown = 0;
+    if (!fired) this.events.push({type:'bubble-blocked'});
+    return fired;
+  }
+
+  advanceBubbles() {
+    this.events = [];
+    if (this.status !== 'playing') return this;
+    for (const shot of this.shots) {shot.prevX = shot.x; shot.prevY = shot.y;}
+    // Flight belongs to the firing decision. It must not create checkpoints,
+    // move hazards or spend sleeping time while a child is thinking.
+    this.updateShots();
+    this.updateDroppedMushrooms();
+    return this;
+  }
+
   checkpoint() {
     return structuredClone(Object.fromEntries(CHECKPOINT_FIELDS.map(key => [key, this[key]])));
   }
@@ -38,6 +67,11 @@ export class TappyEngine extends FlappyEngine {
   step(input = {}, {record = true} = {}) {
     if (this.status !== 'playing') {
       this.events = [];
+      return this;
+    }
+
+    if (input.fire && !Number(input.dx) && !Number(input.dy) && !this.canFire) {
+      this.events = [{type:'bubble-unavailable', reason:this.shots.length ? 'flying' : 'empty'}];
       return this;
     }
 
