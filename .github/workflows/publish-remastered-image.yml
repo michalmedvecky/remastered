@@ -29,7 +29,7 @@ jobs:
         with:
           node-version: '24'
           package-manager-cache: false
-      - name: Test portal and all three games
+      - name: Test portal and all four games
         run: npm test
       - name: Verify complete public package
         run: node scripts/verify-package.mjs
@@ -87,6 +87,7 @@ jobs:
             GA_SNAPSHOT=${{ env.GA_SNAPSHOT }}
             PRE2_SNAPSHOT=${{ env.PRE2_SNAPSHOT }}
             FLAPPY_SNAPSHOT=${{ env.FLAPPY_SNAPSHOT }}
+            TAPPY_SNAPSHOT=${{ env.TAPPY_SNAPSHOT }}
             SOURCE_DATE_EPOCH=${{ env.SOURCE_DATE_EPOCH }}
           cache-from: type=gha,scope=remastered
           cache-to: type=gha,mode=max,scope=remastered

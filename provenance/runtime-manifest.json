@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "snapshotSHA256": "b4209dd46b0d5aa086a13847abe0dc786358d184a0b9ffae74ffc498b0b36495",
+  "snapshotSHA256": "129ae007b69f153ad80d211460ce4ff02b7cb25702a04e6326f85bf90b93ee30",
   "sites": {
     "flappy": {
       "schemaVersion": 1,
@@ -2596,7 +2596,7 @@
     },
     "portal": {
       "schemaVersion": 1,
-      "snapshotSHA256": "cb4ee329387ee3be23b8f59f60a1d68ce22a1fb929a59bae7a55e805522d85ca",
+      "snapshotSHA256": "3386361e2cf9f1c90ef7af6cf9b79ab341ad454c716327328127063ba7dfe30c",
       "excluded": [
         "build.json (injected per build)",
         "private/redundant source files"
@@ -2614,6 +2614,10 @@
           "sha256": "a80f57d8f9e48b73be1d55dcd218fd42750bb07a5149edeb902db8b42227a179",
           "size": 1128636
         },
+        "assets/tappy.jpg": {
+          "sha256": "71da37011ebb807bac8cf064a4cee043a590a7e5df91dd33d2c571409bae7d69",
+          "size": 44332
+        },
         "build-info.js": {
           "sha256": "4df1877d5dd6b4688e00c354e287b69c69745be15e6bd5c67e6eb8c551a7d0b8",
           "size": 582
@@ -2623,12 +2627,12 @@
           "size": 209
         },
         "index.html": {
-          "sha256": "0f6d76e356132b4eca67d8d309002fad83196a3c2f6d65b1c528187b58a75bba",
-          "size": 5126
+          "sha256": "962398193ce399e246a72afd75fe0308373a08e8ffb216af6af4b2ddf47bcf7e",
+          "size": 5798
         },
         "style.css": {
-          "sha256": "ba54ae821ac3006ee5efd57874921e7c8b63dfcfc6e80cd7d157775f388ad889",
-          "size": 7387
+          "sha256": "d0a05129ecda8994a8f68ad372a3a4fa7a3a648a6b3190b88097af4d19267052",
+          "size": 7478
         }
       }
     },
@@ -3951,6 +3955,52 @@
         "terrain-review.html": {
           "sha256": "0c1dda26ea7d40049df500441dab19b3dfafb58ca8cfb6461bacb06de8fac98d",
           "size": 3367
+        }
+      }
+    },
+    "tappy": {
+      "schemaVersion": 1,
+      "snapshotSHA256": "79ed1f072d975ff1b0376d4fdb6033dca861693ce9dd7d99eb4f16c3b2141a0d",
+      "excluded": [
+        "build.json (injected per build)",
+        "private/redundant source files"
+      ],
+      "files": {
+        "app.js": {
+          "sha256": "7a041b67bc7ba1f7c9f493e2a1ab90bb39b31fcdd10f3661984cd90363c76e84",
+          "size": 16206
+        },
+        "art.js": {
+          "sha256": "66635f58f06554ce3cb58f0f4f2dbe49f44f4163451e7486264ae089dab33bc2",
+          "size": 15265
+        },
+        "engine.js": {
+          "sha256": "b059cd9d7ea7c7aa4059177310e8562c5608c39c69a8b24496daa4b6cf8267b7",
+          "size": 11879
+        },
+        "favicon.svg": {
+          "sha256": "4561856e8b910251eed9d9c1bd9f3d4449c11a4e07a2a724e3603612a53dcff4",
+          "size": 574
+        },
+        "index.html": {
+          "sha256": "3ccd8e9301bea74ae2ad61c33c795e88f87a7407fd215fa92d59710a405ede38",
+          "size": 9769
+        },
+        "levels.json": {
+          "sha256": "3febaa8e665eac2cfbedd179ea61597be9ded37c90c74e0deebe29cc36ab1dcd",
+          "size": 693747
+        },
+        "manifest.webmanifest": {
+          "sha256": "d52c0eca13a1fd2df04c3c7bcd975de072f89506d2f6762eb2db4d76a315dd5d",
+          "size": 430
+        },
+        "style.css": {
+          "sha256": "bead147caccd5ae51dc6c9e110b0ba20ab33fa11312c7dd7359581bf56b6f997",
+          "size": 19008
+        },
+        "tappy-engine.js": {
+          "sha256": "767f7bf9e8c7b4c5bba486f4d17f6aef2ca392fb93fbeb5d03d2f6861eab41ab",
+          "size": 2648
         }
       }
     }

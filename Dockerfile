@@ -9,11 +9,13 @@ ARG SOURCE_SNAPSHOT=unknown
 ARG GA_SNAPSHOT=unknown
 ARG PRE2_SNAPSHOT=unknown
 ARG FLAPPY_SNAPSHOT=unknown
+ARG TAPPY_SNAPSHOT=unknown
 COPY deploy/nginx.conf /etc/nginx/nginx.conf
 COPY portal/dist/ /usr/share/nginx/html/
 COPY pre2/dist/ /usr/share/nginx/html/pre2/
 COPY ga/dist/ /usr/share/nginx/html/ga/
 COPY flappy/dist/ /usr/share/nginx/html/flappy/
+COPY tappy/dist/ /usr/share/nginx/html/tappy/
 COPY scripts/write-build-info.sh /tmp/write-build-info.sh
 RUN case "$NGINX_IMAGE" in nginx@sha256:*|nginx:*@sha256:*|docker.io/library/nginx@sha256:*|docker.io/library/nginx:*@sha256:*) ;; *) echo 'Pin official nginx by SHA256 digest' >&2; exit 2;; esac \
     && digest="${NGINX_IMAGE##*@sha256:}" \
@@ -23,6 +25,7 @@ RUN case "$NGINX_IMAGE" in nginx@sha256:*|nginx:*@sha256:*|docker.io/library/ngi
     && SOURCE_SNAPSHOT="$PRE2_SNAPSHOT" /bin/sh /tmp/write-build-info.sh /usr/share/nginx/html/pre2/build.json \
     && SOURCE_SNAPSHOT="$GA_SNAPSHOT" /bin/sh /tmp/write-build-info.sh /usr/share/nginx/html/ga/build.json \
     && SOURCE_SNAPSHOT="$FLAPPY_SNAPSHOT" /bin/sh /tmp/write-build-info.sh /usr/share/nginx/html/flappy/build.json \
+    && SOURCE_SNAPSHOT="$TAPPY_SNAPSHOT" /bin/sh /tmp/write-build-info.sh /usr/share/nginx/html/tappy/build.json \
     && rm /tmp/write-build-info.sh
 LABEL org.opencontainers.image.title="Remastered games" \
       org.opencontainers.image.source="${BUILD_REPOSITORY}" \

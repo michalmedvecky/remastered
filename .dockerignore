@@ -16,6 +16,9 @@
 !flappy/
 !flappy/dist/
 !flappy/dist/**
+!tappy/
+!tappy/dist/
+!tappy/dist/**
 pre2/dist/assets/source/**
 pre2/dist/assets/executable-data.bin
 pre2/dist/assets/README.md
