@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "snapshotSHA256": "129ae007b69f153ad80d211460ce4ff02b7cb25702a04e6326f85bf90b93ee30",
+  "snapshotSHA256": "9857d08bc545036cc36e5295eeb85d8de54f9b59982070708bcd4ef5765a3b0f",
   "sites": {
     "flappy": {
       "schemaVersion": 1,
@@ -3960,15 +3960,15 @@
     },
     "tappy": {
       "schemaVersion": 1,
-      "snapshotSHA256": "79ed1f072d975ff1b0376d4fdb6033dca861693ce9dd7d99eb4f16c3b2141a0d",
+      "snapshotSHA256": "ef5300140fb57a1e759cb8ad956383c9584e9c7850a77c968cebbc47a2191e0c",
       "excluded": [
         "build.json (injected per build)",
         "private/redundant source files"
       ],
       "files": {
         "app.js": {
-          "sha256": "7a041b67bc7ba1f7c9f493e2a1ab90bb39b31fcdd10f3661984cd90363c76e84",
-          "size": 16206
+          "sha256": "c26f39f6a4b07976bb21ca563e6837c0bc2d475c64c21101c9ddafec765f2d34",
+          "size": 17497
         },
         "art.js": {
           "sha256": "66635f58f06554ce3cb58f0f4f2dbe49f44f4163451e7486264ae089dab33bc2",
@@ -3982,9 +3982,13 @@
           "sha256": "4561856e8b910251eed9d9c1bd9f3d4449c11a4e07a2a724e3603612a53dcff4",
           "size": 574
         },
+        "gestures.js": {
+          "sha256": "e18ee6daee1e4b7d536505795223a7f6a850f8467277bed4764c1ea2ed769fda",
+          "size": 2488
+        },
         "index.html": {
-          "sha256": "3ccd8e9301bea74ae2ad61c33c795e88f87a7407fd215fa92d59710a405ede38",
-          "size": 9769
+          "sha256": "ed419095988ebd4c98ed8a284240146ba886aa48de13817a05318ec5b0d386d9",
+          "size": 9880
         },
         "levels.json": {
           "sha256": "3febaa8e665eac2cfbedd179ea61597be9ded37c90c74e0deebe29cc36ab1dcd",
@@ -3995,8 +3999,8 @@
           "size": 430
         },
         "style.css": {
-          "sha256": "bead147caccd5ae51dc6c9e110b0ba20ab33fa11312c7dd7359581bf56b6f997",
-          "size": 19008
+          "sha256": "ae8fe0aca5e2aef228d2c3817754a11dff8d48af143bc7cfc79bcdbf79de3950",
+          "size": 19134
         },
         "tappy-engine.js": {
           "sha256": "767f7bf9e8c7b4c5bba486f4d17f6aef2ca392fb93fbeb5d03d2f6861eab41ab",
