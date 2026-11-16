@@ -1,0 +1,13 @@
+{
+  "id": "./",
+  "name": "Tappy — vajíčkové dobrodružství",
+  "short_name": "Tappy",
+  "description": "Pohodové bludiště s vajíčkem, velkým ovládáním a vracením kroků.",
+  "lang": "cs",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf8ef",
+  "theme_color": "#fbf8ef",
+  "icons": [{"src":"favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
