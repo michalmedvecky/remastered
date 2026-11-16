@@ -1,5 +1,6 @@
 import { TappyEngine } from './tappy-engine.js';
 import { renderGame, VIEW_WIDTH, VIEW_HEIGHT } from './art.js';
+import { resolveBoardGesture } from './gestures.js';
 
 const $ = id => document.getElementById(id);
 const canvas = $('game');
@@ -16,6 +17,7 @@ const FLOW_INTERVAL = 230;
 const vectors = {up:{dx:0,dy:-1}, down:{dx:0,dy:1}, left:{dx:-1,dy:0}, right:{dx:1,dy:0}};
 const keyDirections = {ArrowUp:'up',KeyW:'up',KeyE:'up',ArrowDown:'down',KeyS:'down',KeyY:'down',ArrowLeft:'left',KeyA:'left',ArrowRight:'right',KeyD:'right'};
 const held = new Map();
+const fireSources = new Set();
 const progress = readProgress();
 const completed = new Set(progress.completed);
 let mode = progress.mode;
@@ -23,6 +25,7 @@ let sound = progress.sound;
 let engine, started = false, paused = false, overlayKind = '', audio;
 let lastFrame = 0, lastStep = 0, budget = 0, repeatBudget = 0, fireHeld = false;
 let particles = [], overlayPrimary = () => {}, overlaySecondary = () => {}, currentTip = '';
+let boardGesture = null;
 
 function readProgress() {
   const defaults = {stage:1, completed:[], mode:'steps', sound:true};
@@ -46,10 +49,10 @@ function setTip(message) {
   $('game-tip').textContent=message;
 }
 function defaultTip() {
-  return mode==='steps' ? 'Po krocích: svět se hýbe jen s tebou. Klidně si to rozmysli.' : 'Plynule: svět se hýbe sám. Tlačítkem pauzy ho kdykoli zastavíš.';
+  return mode==='steps' ? 'Ťukni vedle kuřátka: tím směrem udělá krok. Pak máš čas přemýšlet.' : 'Ťukni vedle kuřátka a vyber směr. Tlačítkem pauzy zastavíš svět.';
 }
 function clearHeld() {
-  held.clear();fireHeld=false;repeatBudget=0;budget=0;
+  held.clear();fireSources.clear();fireHeld=false;repeatBudget=0;budget=0;boardGesture=null;
   document.querySelectorAll('[data-direction]').forEach(button=>button.classList.remove('is-pressed'));
   $('bubble-button').classList.remove('is-pressed');
 }
@@ -74,7 +77,7 @@ function sync() {
   $('pause-button').setAttribute('aria-pressed',String(paused));
   $('pause-label').textContent=paused?'Pokračovat':'Pauza';
   $('pause-button').setAttribute('aria-label',paused?'Pokračovat':'Pauza');
-  canvas.setAttribute('aria-label',`Tappy, úroveň ${engine.stage}. Vajíčko přesuň do svítícího hnízda. ${engine.moves} kroků, ${engine.ammo} bublinek. Pohyb šipkami, mezerník bublina, Z vrátí krok.`);
+  canvas.setAttribute('aria-label',`Tappy, úroveň ${engine.stage}. Vajíčko přesuň do svítícího hnízda. ${engine.moves} kroků, ${engine.ammo} bublinek. Ťukni vedle kuřátka pro krok tím směrem, nebo použij šipky. Mezerník bublina, Z vrátí krok.`);
 }
 function tone(frequency,duration=.1,type='sine',volume=.045,end=frequency) {
   if (!sound) return;
@@ -211,23 +214,38 @@ $('fullscreen-button').addEventListener('click',async()=>{
   catch{setTip('Celá obrazovka tady není dostupná. Hra funguje i tak.');}
 });
 
+// The play surface is an input device, including the labels between buttons.
+// Keep long presses and finger drift from starting browser selection or callouts.
+for(const eventName of ['contextmenu','selectstart','dragstart']) {
+  $('tappy-app').addEventListener(eventName,event=>event.preventDefault());
+}
+
 for(const button of document.querySelectorAll('[data-direction]')) {
   const direction=button.dataset.direction;
   button.addEventListener('pointerdown',event=>{
-    event.preventDefault();if(!engine || paused || engine.status!=='playing'||modalOpen())return;
+    event.preventDefault();if(event.button!==0||!engine || paused || engine.status!=='playing'||modalOpen())return;
     button.setPointerCapture(event.pointerId);held.set(event.pointerId,direction);button.classList.add('is-pressed');
     action({...vectors[direction],fire:fireHeld});focusGame();
+  });
+  button.addEventListener('click',event=>{
+    if(event.detail===0){action({...vectors[direction],fire:fireHeld});focusGame();}
   });
   for(const eventName of ['pointerup','pointercancel','lostpointercapture'])button.addEventListener(eventName,event=>{
     held.delete(event.pointerId);button.classList.remove('is-pressed');repeatBudget=0;
   });
 }
 $('bubble-button').addEventListener('pointerdown',event=>{
-  event.preventDefault();if(!engine || engine.ammo===0 || paused || engine.status!=='playing')return;
-  $('bubble-button').setPointerCapture(event.pointerId);fireHeld=true;$('bubble-button').classList.add('is-pressed');
+  event.preventDefault();if(event.button!==0||!engine || engine.ammo===0 || paused || engine.status!=='playing'||modalOpen())return;
+  $('bubble-button').setPointerCapture(event.pointerId);fireSources.add(event.pointerId);fireHeld=true;$('bubble-button').classList.add('is-pressed');
   action({...currentInput(),fire:true});focusGame();
 });
-for(const eventName of ['pointerup','pointercancel','lostpointercapture'])$('bubble-button').addEventListener(eventName,()=>{fireHeld=false;$('bubble-button').classList.remove('is-pressed');});
+for(const eventName of ['pointerup','pointercancel','lostpointercapture'])$('bubble-button').addEventListener(eventName,event=>{
+  fireSources.delete(event.pointerId);fireHeld=fireSources.size>0;
+  $('bubble-button').classList.toggle('is-pressed',fireHeld);
+});
+$('bubble-button').addEventListener('click',event=>{
+  if(event.detail===0){action({...currentInput(),fire:true});focusGame();}
+});
 
 window.addEventListener('keydown',event=>{
   if(!engine||event.metaKey||event.ctrlKey||event.altKey||modalOpen())return;
@@ -237,23 +255,30 @@ window.addEventListener('keydown',event=>{
     event.preventDefault();if(event.repeat)return;
     const direction=keyDirections[event.code];held.set(event.code,direction);action({...vectors[direction],fire:fireHeld});
   } else if(event.code==='Space') {
-    event.preventDefault();if(event.repeat)return;fireHeld=true;action({...currentInput(),fire:true});
+    event.preventDefault();if(event.repeat)return;fireSources.add('Space');fireHeld=true;action({...currentInput(),fire:true});
   } else if(event.code==='KeyZ'||event.code==='Backspace') {event.preventDefault();if(!event.repeat)undo();}
   else if(event.code==='KeyR') {event.preventDefault();if(!event.repeat)restart();}
   else if(event.code==='KeyP'||event.code==='Escape') {event.preventDefault();if(!event.repeat)togglePause();}
   else if(event.code==='Enter'&&overlayKind) {event.preventDefault();overlayPrimary();}
 });
-window.addEventListener('keyup',event=>{held.delete(event.code);if(event.code==='Space')fireHeld=false;repeatBudget=0;});
-let swipe=null;
-canvas.addEventListener('pointerdown',event=>{if(event.isPrimary){swipe={id:event.pointerId,x:event.clientX,y:event.clientY};canvas.setPointerCapture(event.pointerId);focusGame();}});
-canvas.addEventListener('pointerup',event=>{
-  if(!swipe||swipe.id!==event.pointerId)return;
-  const dx=event.clientX-swipe.x,dy=event.clientY-swipe.y;swipe=null;
-  if(Math.max(Math.abs(dx),Math.abs(dy))<18)return;
-  const direction=Math.abs(dx)>Math.abs(dy)?(dx>0?'right':'left'):(dy>0?'down':'up');
-  action({...vectors[direction],fire:false});
+window.addEventListener('keyup',event=>{held.delete(event.code);if(event.code==='Space'){fireSources.delete('Space');fireHeld=fireSources.size>0;}repeatBudget=0;});
+canvas.addEventListener('pointerdown',event=>{
+  event.preventDefault();
+  if(!event.isPrimary||event.button!==0||!engine||paused||engine.status!=='playing'||modalOpen())return;
+  boardGesture={id:event.pointerId,x:event.clientX,y:event.clientY};
+  canvas.setPointerCapture(event.pointerId);focusGame();
 });
-canvas.addEventListener('pointercancel',()=>swipe=null);
+canvas.addEventListener('pointerup',event=>{
+  if(!boardGesture||boardGesture.id!==event.pointerId)return;
+  event.preventDefault();
+  const start=boardGesture;boardGesture=null;
+  const direction=resolveBoardGesture(start,{x:event.clientX,y:event.clientY},canvas.getBoundingClientRect(),engine.player);
+  if(direction)action({...vectors[direction],fire:fireHeld});
+});
+for(const eventName of ['pointercancel','lostpointercapture'])canvas.addEventListener(eventName,event=>{
+  if(boardGesture?.id===event.pointerId)boardGesture=null;
+});
+window.addEventListener('resize',clearHeld);
 function backgroundPause() {
   clearHeld();
   if(mode==='flow'&&started&&!paused&&engine?.status==='playing'){

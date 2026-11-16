@@ -19,6 +19,7 @@ První spuštění začíná úrovní 1. Poslední vybraná úroveň, dokončen�
 | Ovladač | Co dělá |
 | --- | --- |
 | Velké šipky | Ťuknutí = krok; podržení = opakování |
+| Ťuknutí do bludiště | Jeden krok směrem od kuřátka k místu dotyku; ťuknutí přímo na kuřátko nic neprovede |
 | Přejetí po herní ploše | Jeden krok zvoleným směrem |
 | Bublina | Pošle sebranou bublinu ve směru pohledu; umí uspat žabku nebo obláček |
 | Zpět | Vrátí poslední rozhodnutí |
@@ -27,7 +28,7 @@ První spuštění začíná úrovní 1. Poslední vybraná úroveň, dokončen�
 | Šipky / WASD | Pohyb na klávesnici |
 | Mezerník / Z / R / P | Bublina / zpět / znovu / pauza |
 
-Pohyb a bublinu lze ovládat dvěma prsty současně. Zrušený dotyk, opuštění stránky a otevření dialogu uvolní ovladače. Plynulé hraní se při opuštění okna pozastaví. Přidání stránky na plochu tabletu používá vlastní relativní web manifest; offline režim není součástí této verze.
+Herní rozhraní včetně popisků neumožňuje náhodný výběr textu, přetahování ani kontextové nabídky při podržení. Text návodu zůstává běžně označitelný. Pohyb a bublinu lze ovládat dvěma prsty současně. Zrušený dotyk, opuštění stránky a otevření dialogu uvolní ovladače. Plynulé hraní se při opuštění okna pozastaví. Přidání stránky na plochu tabletu používá vlastní relativní web manifest; offline režim není součástí této verze.
 
 ## Vývoj a ověření
 
