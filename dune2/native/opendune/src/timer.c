@@ -38,6 +38,13 @@
 #include "os/error.h"
 
 #include "timer.h"
+#ifdef __EMSCRIPTEN__
+#include "hd_bridge.h"
+#define DUNE_HD(call) call
+#else
+#define DUNE_HD(call) ((void)0)
+#endif
+
 
 
 
@@ -408,6 +415,7 @@ bool Timer_SetTimer(TimerType timer, bool set)
 		s_timersActive &= ~t;
 	}
 
+	if (timer == TIMER_GAME) DUNE_HD(DuneHD_Timer(set));
 	return ret;
 }
 

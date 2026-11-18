@@ -7,6 +7,8 @@
     "native/opendune/src/audio/dsp_sdl.c",
     "native/opendune/src/audio/sound.c",
     "native/opendune/src/audio/sound.h",
+    "native/opendune/src/gui/gui.c",
+    "native/opendune/src/gui/viewport.c",
     "native/opendune/src/ini.c",
     "native/opendune/src/map.c",
     "native/opendune/src/object.c",
@@ -15,6 +17,7 @@
     "native/opendune/src/script/general.c",
     "native/opendune/src/script/structure.c",
     "native/opendune/src/script/unit.c",
+    "native/opendune/src/sprites.c",
     "native/opendune/src/table/houseanimation.c",
     "native/opendune/src/table/sound.c",
     "native/opendune/src/tile.c",
@@ -28,7 +31,9 @@
     "native/music/vendor/adplug/player.h"
   ],
   "noticesChanged": [
-    "native/opendune/src/wsa.c"
+    "native/opendune/src/gui/gui.c",
+    "native/opendune/src/gui/viewport.c",
+    "native/opendune/src/sprites.c"
   ],
   "missing": []
 }

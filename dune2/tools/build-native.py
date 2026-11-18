@@ -59,7 +59,7 @@ def source_files():
         elif active and line.endswith('.c'):
             if line=='audio/midi_none.c':files.append(BROWSER/'midi_browser.c')
             else:files.append(SOURCE/'src'/line)
-    files.extend([BROWSER/'probes.c',BROWSER/'music_bridge.c'])
+    files.extend([BROWSER/'probes.c',BROWSER/'music_bridge.c',BROWSER/'hd_bridge.c'])
     return files
 
 def prepare_data(input_dir):
@@ -90,7 +90,7 @@ def main():
     cutpatch=ROOT/'tools/patch-native-cutscenes.py'
     if cutpatch.exists():subprocess.run([sys.executable,str(cutpatch),str(SOURCE),'--write','--report',str(ROOT/'fidelity/cutscenes/applied-patch.json')],check=True)
     subprocess.run([sys.executable,str(ROOT/'tools/patch-native-browser-audio.py'),str(SOURCE)],check=True)
-    for patch in ['patch-native-ini.py','patch-native-wsa.py']:
+    for patch in ['patch-native-ini.py','patch-native-wsa.py','patch-native-hd.py']:
         subprocess.run([sys.executable,str(ROOT/'tools'/patch),str(SOURCE),'--write'],check=True)
     subprocess.run([sys.executable,str(ROOT/'tools/stamp-native-changes.py'),'--write','--report',str(ROOT/'fidelity/source-change-notices.json')],check=True)
     files=source_files()

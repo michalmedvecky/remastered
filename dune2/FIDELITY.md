@@ -1,4 +1,7 @@
-# V1.07 fidelity implementation, release 0.3
+# V1.07 fidelity implementation, release 0.4
+
+Release0.4 adds a separate [HD presentation](HD-GRAPHICS.md). Native simulation, original framebuffer and recorded DOS comparisons remain authoritative; the HD artwork intentionally changes the displayed pixels. New read-only C hooks capture actual terrain and sprite decisions without forcing extra native redraws. Historical release0.2/0.3 browser captures remain separately labeled; new HD acceptance is in `fidelity/hd/`.
+
 
 The default browser game now executes the complete recovered C core, replacing the first release’s approximate JavaScript terrain, combat and object state machines. The original UNIT, BUILD and TEAM EMC programs dispatch into native C callbacks operating on the engine’s own object pools, script state, map and game clocks. Native menus, campaign progression, WSA cutscenes and IFF save/load routines are retained. The browser executes the rebuilt C engine. The supplied DOS EXE was also executed in the separately authorized, bounded DOSBox-X comparisons on disposable copies described below.
 

@@ -131,3 +131,7 @@ been observed in a browser. Report browser smoke tests separately and state
 which sequences were actually exercised. Authorized bounded DOSBox-X comparisons cover the named terrain, combat,
 scene, music and save cases in `../FIDELITY.md`. Browser resampling, cooperative timing and OPL chip emulation
 also differ from original sound-card hardware.
+
+## HD presentation adapter
+
+Release0.4 adds `browser/hd_bridge.c` and `tools/patch-native-hd.py`, observing actual native draw calls and terrain state. `dist/hd-core.mjs` and `hd-renderer.mjs` display4× source-bound materials on a separate pointer-transparent canvas. Native simulation, original framebuffer, clipping and input remain authoritative. New generated image sources and the stdlib asset builder accompany the corresponding source archive. See `../HD-GRAPHICS.md`; movies use bounded contour scaling rather than an eager expanded WSA bank.

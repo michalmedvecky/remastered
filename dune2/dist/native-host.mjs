@@ -4,6 +4,9 @@ import {createClock} from './native-clock.mjs';
 const gameClock=createClock();
 const $=id=>document.getElementById(id);
 let core,music,started=false,syncing=false,saveTimer,overlayPaused=false;
+let hd,graphicsMode='hd';
+try{if(localStorage.getItem('dune2-graphics')==='original')graphicsMode='original';}catch{}
+$('graphics').value=graphicsMode;
 function updatePause(){const paused=document.hidden||overlayPaused;gameClock.visibility(paused);if(started)core?._dune_audio_visibility(paused?1:0);if(paused)music?.context.suspend().catch(()=>{});else music?.resume();}
 function showDialog(id){overlayPaused=true;updatePause();$(id).showModal();}
 for(const id of ['help-dialog','save-dialog'])$(id).addEventListener('close',()=>{overlayPaused=false;updatePause();if(started)$('canvas').focus();});
@@ -15,7 +18,8 @@ function files(){return core?core.FS.readdir('/save').filter(x=>x!=='.'&&x!=='..
 function download(name,bytes){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([bytes],{type:'application/octet-stream'}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
 async function prepare(){
   status('Loading the original campaign data…');
-  core=await createDuneNative({duneClock:gameClock.now,canvas:$('canvas'),locateFile:name=>new URL('./native/'+name,import.meta.url).href,print:line=>console.info('[Dune]',line),printErr:line=>console.warn('[Dune]',line),onAbort:message=>report('Engine stopped: '+message),duneMidi:()=>{},duneMusicPlay:(file,index,volume)=>music?.play(file,index,volume),duneAdlibEffect:(file,index,volume)=>music?.effect?.(file,index,volume),duneMusicStop:()=>music?.stop(),duneMusicFade:ms=>music?.fade(ms),duneMusicIsPlaying:()=>music?.isPlaying()??false});
+  const hdPromise=import('./hd-renderer.mjs').then(({createHDRenderer})=>createHDRenderer($('hd-canvas'),{mode:graphicsMode,onError:error=>console.warn('HD presentation:',error)})).catch(error=>{console.warn('HD artwork unavailable; original graphics remain available.',error);return null;});
+  core=await createDuneNative({duneClock:gameClock.now,duneHdEnabled:graphicsMode==='hd',duneHdPresent:frame=>hd?.present(frame),canvas:$('canvas'),locateFile:name=>new URL('./native/'+name,import.meta.url).href,print:line=>console.info('[Dune]',line),printErr:line=>console.warn('[Dune]',line),onAbort:message=>report('Engine stopped: '+message),duneMidi:()=>{},duneMusicPlay:(file,index,volume)=>music?.play(file,index,volume),duneAdlibEffect:(file,index,volume)=>music?.effect?.(file,index,volume),duneMusicStop:()=>music?.stop(),duneMusicFade:ms=>music?.fade(ms),duneMusicIsPlaying:()=>music?.isPlaying()??false});
   core.FS.mkdir('/save');
   core.FS.mount(core.IDBFS,{autoPersist:true},'/save');
   try{await new Promise((resolve,reject)=>core.FS.syncfs(true,e=>e?reject(e):resolve()));}catch(e){report('Persistent saves are unavailable in this browser. Export your saves before leaving.');}
@@ -23,6 +27,9 @@ async function prepare(){
   // The native writer opens uppercase first; avoid duplicate case variants.
   for(const name of files())if(/^_save\d{3}\.dat$/i.test(name)&&name!==name.toUpperCase()&&!files().includes(name.toUpperCase()))core.FS.rename('/save/'+name,'/save/'+name.toUpperCase());
   for(const name of ['DUNE.CFG','OPTIONS.CFG'])if(!files().some(file=>file.toUpperCase()===name))core.FS.writeFile('/save/'+name,core.FS.readFile('/data/'+name));
+  hd=await hdPromise;
+  if(!hd){graphicsMode='original';$('graphics').value=graphicsMode;core.duneHdEnabled=false;}
+  hd?.setMode(graphicsMode);core.duneHdEnabled=graphicsMode==='hd';
   $('launch').disabled=false;$('saves').disabled=false;status('Campaign data ready.');
 }
 async function launch(){
@@ -40,6 +47,7 @@ async function launch(){
 }
 $('launch').addEventListener('click',launch);
 $('volume').addEventListener('input',e=>music?.setVolume(Number(e.target.value)));
+$('graphics').addEventListener('change',e=>{graphicsMode=e.target.value;hd?.setMode(graphicsMode);if(core)core.duneHdEnabled=graphicsMode==='hd';try{localStorage.setItem('dune2-graphics',graphicsMode);}catch{}if(started)$('canvas').focus();});
 $('canvas').addEventListener('contextmenu',e=>e.preventDefault());
 $('fullscreen').addEventListener('click',()=>document.fullscreenElement?document.exitFullscreen():$('game-frame').requestFullscreen());
 $('help').addEventListener('click',()=>showDialog('help-dialog'));
@@ -50,5 +58,5 @@ $('import-save').addEventListener('change',async e=>{const imported=[];for(const
 addEventListener('pagehide',()=>{sync();music?.stop();});
 document.addEventListener('visibilitychange',updatePause);
 // Read-only diagnostics for QA; game input continues through the original SDL path.
-globalThis.duneDiagnostics=()=>({started,hidden:document.hidden,overlayPaused,clock:gameClock.now(),status:core?Array.from({length:8},(_,i)=>core._dune_status(i)):null,files:files(),errors:[...errors],music:music?.diagnostics?.()??null});
+globalThis.duneDiagnostics=()=>({started,hidden:document.hidden,overlayPaused,clock:gameClock.now(),status:core?Array.from({length:8},(_,i)=>core._dune_status(i)):null,files:files(),errors:[...errors],music:music?.diagnostics?.()??null,graphics:hd?.diagnostics()??{mode:'original',ready:false}});
 prepare().catch(report);

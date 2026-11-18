@@ -1,3 +1,7 @@
+/* Dune II browser port modifications: 2026-11-18.
+ * Changed for browser integration and/or V1.07 compatibility;
+ * original copyright and license notices are retained below.
+ */
 /** @file src/sprites.c Sprite routines. */
 
 #include <stdio.h>
@@ -12,6 +16,13 @@
 #include "os/error.h"
 
 #include "sprites.h"
+#ifdef __EMSCRIPTEN__
+#include "hd_bridge.h"
+#define DUNE_HD(call) call
+#else
+#define DUNE_HD(call) ((void)0)
+#endif
+
 
 #include "opendune.h"
 #include "codec/format80.h"
@@ -370,6 +381,7 @@ void Sprites_SetMouseSprite(uint16 hotSpotX, uint16 hotSpotY, const uint8 *sprit
 	uint16 size;
 
 	if (sprite == NULL || g_mouseDisabled != 0) return;
+	DUNE_HD(DuneHD_Cursor(sprite, hotSpotX, hotSpotY));
 
 	while (g_mouseLock != 0) sleepIdle();
 
@@ -515,11 +527,13 @@ void Sprites_Init(void)
 	Sprites_Load("CREDIT9.SHP", NULL, 1);                     /* 522 */
 	Sprites_Load("CREDIT10.SHP", NULL, 1);                    /* 523 */
 	Sprites_Load("CREDIT11.SHP", NULL, 1);                    /* 524 */
+	DUNE_HD(DuneHD_SpritesReady(s_spritesCount));
 }
 
 void Sprites_Uninit(void)
 {
 	uint16 i;
+	DUNE_HD(DuneHD_SpritesReady(0));
 
 	for (i = 0; i < s_spritesCount; i++) free(g_sprites[i]);
 	free(g_sprites); g_sprites = NULL;

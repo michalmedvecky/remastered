@@ -1,3 +1,7 @@
+/* Dune II browser port modifications: 2026-11-18.
+ * Changed for browser integration and/or V1.07 compatibility;
+ * original copyright and license notices are retained below.
+ */
 /** @file src/gui/viewport.c Viewport routines. */
 
 #include <stdio.h>
@@ -8,6 +12,13 @@
 #include "../os/error.h"
 
 #include "gui.h"
+#ifdef __EMSCRIPTEN__
+#include "hd_bridge.h"
+#define DUNE_HD(call) call
+#else
+#define DUNE_HD(call) ((void)0)
+#endif
+
 #include "widget.h"
 #include "../audio/driver.h"
 #include "../audio/sound.h"
@@ -349,6 +360,7 @@ void GUI_Widget_Viewport_Draw(bool forceRedraw, bool hasScrolled, bool drawToMai
 
 	PoolFindStruct find;
 
+	DUNE_HD(DuneHD_BeginViewport());
 	updateDisplay = forceRedraw;
 
 	memset(minX, 0xF, sizeof(minX));
@@ -420,6 +432,7 @@ void GUI_Widget_Viewport_Draw(bool forceRedraw, bool hasScrolled, bool drawToMai
 
 		if (!g_map[Tile_PackTile(u->o.position)].isUnveiled && !g_debugScenario) continue;
 
+		DUNE_HD(DuneHD_SetOwner(u->o.index, 0, Unit_GetHouseID(u)));
 		sprite = g_sprites[g_table_unitInfo[u->o.type].groundSpriteID];
 		GUI_Widget_Viewport_GetSprite_HousePalette(sprite, Unit_GetHouseID(u), paletteHouse);
 
@@ -487,6 +500,7 @@ void GUI_Widget_Viewport_Draw(bool forceRedraw, bool hasScrolled, bool drawToMai
 
 			if (!Map_IsPositionInViewport(u->o.position, &x, &y)) continue;
 
+			DUNE_HD(DuneHD_SetOwner(u->o.index, 1, Unit_GetHouseID(u)));
 			x += g_table_tilediff[0][u->wobbleIndex].x;
 			y += g_table_tilediff[0][u->wobbleIndex].y;
 
@@ -644,6 +658,7 @@ void GUI_Widget_Viewport_Draw(bool forceRedraw, bool hasScrolled, bool drawToMai
 		if (!g_map[curPos].isUnveiled && !g_debugScenario) continue;
 		if (!Map_IsPositionInViewport(e->position, &x, &y)) continue;
 
+		DUNE_HD(DuneHD_SetOwner(102 + i, 2, e->houseID));
 		/*GUI_Widget_Viewport_GetSprite_HousePalette(g_sprites[e->spriteID], e->houseID, paletteHouse);*/
 		GUI_DrawSprite(SCREEN_ACTIVE, g_sprites[e->spriteID], x, y, 2, DRAWSPRITE_FLAG_WIDGETPOS | DRAWSPRITE_FLAG_CENTER/*, paletteHouse*/);
 	}
@@ -684,6 +699,7 @@ void GUI_Widget_Viewport_Draw(bool forceRedraw, bool hasScrolled, bool drawToMai
 
 			if (!Map_IsPositionInViewport(u->o.position, &x, &y)) continue;
 
+			DUNE_HD(DuneHD_SetOwner(u->o.index, 3, Unit_GetHouseID(u)));
 			index = ui->groundSpriteID;
 			orientation = u->orientation[0].current;
 			spriteFlags = DRAWSPRITE_FLAG_WIDGETPOS | DRAWSPRITE_FLAG_CENTER;
@@ -867,6 +883,7 @@ void GUI_Widget_Viewport_Draw(bool forceRedraw, bool hasScrolled, bool drawToMai
 	GFX_Screen_SetActive(oldScreenID);
 
 	Widget_SetCurrentWidget(oldWidgetID);
+	DUNE_HD(DuneHD_EndViewport());
 }
 
 /**

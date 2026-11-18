@@ -1,4 +1,4 @@
-# V1.07 fidelity implementation — release 0.3
+# V1.07 fidelity implementation — release 0.4
 
 The default browser game runs the recovered C core. The historical JavaScript prototype remains at `dist/prototype.html`.
 
@@ -29,3 +29,5 @@ null commit. Site credentials/configuration and raw external research captures
 are excluded. No live cluster operation is performed by this preparation.
 
 Remaining limits include other adjacent-memory states, full explosion distribution/live battle scheduling, untested campaign branches and credits cycles, absent OK.VOC, physical sound hardware and universal save interchange. DOSBox-X comparisons and host-native/source/browser checks are distinct evidence categories.
+
+HD release0.4 adds complete original-frame asset coverage, material generation provenance, indexed pixel replay/mismatch repair, bounded native draw caches and an Original/HD switch. See `../HD-GRAPHICS.md` and `hd/` for its independent checks. Raw original DOS comparisons remain historical0.3 evidence and are not misreported as HD pixel equality.

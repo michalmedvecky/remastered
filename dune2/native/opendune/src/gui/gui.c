@@ -1,3 +1,7 @@
+/* Dune II browser port modifications: 2026-11-18.
+ * Changed for browser integration and/or V1.07 compatibility;
+ * original copyright and license notices are retained below.
+ */
 /** @file src/gui/gui.c Generic GUI definitions. */
 
 #include <assert.h>
@@ -14,6 +18,13 @@
 #include "../os/error.h"
 
 #include "gui.h"
+#ifdef __EMSCRIPTEN__
+#include "hd_bridge.h"
+#define DUNE_HD(call) call
+#else
+#define DUNE_HD(call) ((void)0)
+#endif
+
 
 #include "font.h"
 #include "mentat.h"
@@ -930,6 +941,9 @@ uint16 GUI_SplitText(char *str, uint16 maxwidth, char delimiter)
  */
 void GUI_DrawSprite(Screen screenID, const uint8 *sprite, int16 posX, int16 posY, uint16 windowID, int flags, ...)
 {
+#ifdef __EMSCRIPTEN__
+	const uint8 *hdOriginalSprite = sprite;
+#endif
 	/* variables for blur/sandworm effect */
 	static const uint8 blurOffsets[8] = {1, 3, 2, 5, 4, 3, 2, 1};
 	static uint16 s_blurIndex  = 0;	/* index into previous table */
@@ -1042,6 +1056,12 @@ void GUI_DrawSprite(Screen screenID, const uint8 *sprite, int16 posX, int16 posY
 		if ((flags & DRAWSPRITE_FLAG_PAL) == 0) palette = sprite;
 		sprite += 16;
 	}
+
+	/* Capture pre-clipping native geometry; the HD renderer applies the same widget clip. */
+	DUNE_HD(DuneHD_CaptureSprite(hdOriginalSprite, screenID, windowID,
+	    posX + (g_widgetProperties[windowID].xBase << 3), posY,
+	    spriteWidthZoomed, spriteHeight, flags, palette, remap, remapCount,
+	    g_widgetProperties[windowID].xBase << 3, top, width, bottom - top));
 
 	if ((spriteFlags & 0x2) == 0) {
 		Format80_Decode(spriteBuffer, sprite, spriteDecodedLength);

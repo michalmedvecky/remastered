@@ -1,6 +1,6 @@
 # Dune II research and evidence boundaries
 
-The imported release is the tested V1.07 reconstruction0.3. Its source and native binaries are unchanged by the collection migration. Tests, packaging, navigation and deployment paths were adapted for a clean checkout.
+The original collection import was the tested V1.07 reconstruction0.3. Release0.4 adds a read-only HD presentation observer and new material artwork, documented in [HD-GRAPHICS.md](HD-GRAPHICS.md). Its source and native binaries were unchanged by that initial collection migration. Tests, packaging, navigation and deployment paths were adapted for a clean checkout.
 
 ## Original identity
 

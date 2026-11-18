@@ -12,6 +12,13 @@
 #include "../os/error.h"
 
 #include "video.h"
+#ifdef __EMSCRIPTEN__
+#include "hd_bridge.h"
+#define DUNE_HD(call) call
+#else
+#define DUNE_HD(call) ((void)0)
+#endif
+
 
 #include "../file.h"
 #include "../gfx.h"
@@ -723,6 +730,7 @@ void Video_Tick(void)
 	if (draw) {
 		Video_DrawScreen();
 	}
+	DUNE_HD(DuneHD_Present(s_screenOffset));
 
 	s_video_lock = false;
 }

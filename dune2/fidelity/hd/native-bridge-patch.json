@@ -1,0 +1,35 @@
+{
+  "scope": "native renderer observation only; no simulation changes",
+  "files": [
+    {
+      "path": "src/gui/viewport.c",
+      "changed": false,
+      "beforeSha256": "e30f08e93df32abb5db395d092e7d517aedd7c388fd0b44028820b761afe1b1c",
+      "afterSha256": "e30f08e93df32abb5db395d092e7d517aedd7c388fd0b44028820b761afe1b1c"
+    },
+    {
+      "path": "src/gui/gui.c",
+      "changed": false,
+      "beforeSha256": "cb3cff5e6090aadfdbcc9afffea5bc53d639112afece49f5de4e705c9cc18717",
+      "afterSha256": "cb3cff5e6090aadfdbcc9afffea5bc53d639112afece49f5de4e705c9cc18717"
+    },
+    {
+      "path": "src/timer.c",
+      "changed": false,
+      "beforeSha256": "70adbffaa1903d571396b5c1fbba972534270f6eb2324732ce6f118315a4a470",
+      "afterSha256": "70adbffaa1903d571396b5c1fbba972534270f6eb2324732ce6f118315a4a470"
+    },
+    {
+      "path": "src/sprites.c",
+      "changed": false,
+      "beforeSha256": "31949f5c2c04a0b8a4c87a9cff9b2cd9efd97a3a0507180719df0d69c425f4c5",
+      "afterSha256": "31949f5c2c04a0b8a4c87a9cff9b2cd9efd97a3a0507180719df0d69c425f4c5"
+    },
+    {
+      "path": "src/video/video_sdl2.c",
+      "changed": false,
+      "beforeSha256": "00fdf4de928a9e8e53445f0fe1c5261a870422ce7fe13a972a023092920c7bf5",
+      "afterSha256": "00fdf4de928a9e8e53445f0fe1c5261a870422ce7fe13a972a023092920c7bf5"
+    }
+  ]
+}
