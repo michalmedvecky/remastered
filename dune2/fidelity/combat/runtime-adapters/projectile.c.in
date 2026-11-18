@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <assert.h>
+#include "types.h"
+#include "os/math.h"
+#include "os/common.h"
+#include "object.h"
+#include "unit.h"
+#include "structure.h"
+#include "map.h"
+#include "tile.h"
+#include "tools.h"
+#include "house.h"
+#include "animation.h"
+#include "explosion.h"
+#include "opendune.h"
+bool g_dune2_enhanced=false;
+HouseType g_playerHouseID=1;
+Unit *g_unitSelected;
+Tile g_map[4096];
+uint16 g_bloomTileID;
+const AnimationCommandStruct g_table_animation_unitMove[8][8]={0};
+static Unit projectile,target;
+static Structure building;
+static uint8 s_randomSeed[4];
+static uint16 *log_out,log_cursor,landscape_type,target_kind;
+Unit *Unit_Get_ByPackedTile(uint16 p){return target_kind==1?&target:NULL;}
+Structure *Structure_Get_ByPackedTile(uint16 p){return target_kind==2?&building:NULL;}
+uint16 Map_GetLandscapeType(uint16 p){return landscape_type;}
+void Unit_Remove(Unit*u){log_out[6]++;}
+void Unit_UpdateMap(uint16 m,Unit*u){}
+bool Unit_Damage(Unit*u,uint16 d,uint16 r){log_out[7]=d;return false;}
+bool Structure_Damage(Structure*s,uint16 d,uint16 r){log_out[8]=d;return false;}
+void Map_MakeExplosion(uint16 t,tile32 p,uint16 d,uint16 o){log_out[9]++;log_out[log_cursor++]=t;log_out[log_cursor++]=p.x;log_out[log_cursor++]=p.y;log_out[log_cursor++]=d;log_out[log_cursor++]=o;}
+void Map_DeviateArea(uint16 t,tile32 p,uint16 r,uint8 h){log_out[10]++;log_out[log_cursor++]=t;log_out[log_cursor++]=p.x;log_out[log_cursor++]=p.y;log_out[log_cursor++]=r;log_out[log_cursor++]=0;}
+void Unit_SetOrientation(Unit*u,int8 o,bool r,uint16 l){}
+void Unit_Select(Unit*u){}
+void Unit_UntargetMe(Unit*u){}
+void Unit_SetAction(Unit*u,ActionType a){}
+void Animation_Start(const AnimationCommandStruct*c,tile32 p,uint16 l,uint8 h,uint8 i){}
+uint8 Orientation_Orientation256ToOrientation8(uint8 o){return 0;}
+bool House_AreAllied(uint8 a,uint8 b){return a==b;}
+void Structure_HouseUnderAttack(uint8 h){}
+IndexType Tools_Index_GetType(uint16 n){return n>>14==1?IT_UNIT:n>>14==2?IT_STRUCTURE:n>>14==3?IT_TILE:IT_NONE;}
+tile32 Tools_Index_GetTile(uint16 n){tile32 t={0,0};return t;}
+uint16 Tools_Index_Encode(uint16 n,IndexType t){return 0;}
+void Unit_SetSpeed(Unit*u,uint16 s){}
+void Unit_EnterStructure(Unit*u,Structure*s){}
+uint8 Unit_GetHouseID(Unit*u){return u->o.houseID;}
+void Map_Bloom_ExplodeSpecial(uint16 p,uint8 h){}
+void Map_Bloom_ExplodeSpice(uint16 p,uint8 h){}
+@@_stepX@@
+@@_stepY@@
+@@Unit_Move@@
+@@Tile_GetDistance@@
+@@Tile_MoveByDirection@@
+@@Tools_Random_256@@
+@@Tools_Random_Seed@@
+void run_projectile(const uint16*in,uint16*out){
+ memset(&projectile,0,sizeof projectile);memset(&target,0,sizeof target);memset(&building,0,sizeof building);memset(g_map,0,sizeof g_map);memset(out,0,256);log_out=out;log_cursor=13;
+ projectile.o.type=in[0];projectile.o.hitpoints=in[1];projectile.fireDelay=in[2];projectile.orientation[0].current=in[3];projectile.o.position.x=in[5];projectile.o.position.y=in[6];projectile.currentDestination.x=in[7];projectile.currentDestination.y=in[8];projectile.distanceToDestination=in[9];projectile.o.flags.all=3;projectile.o.houseID=1;projectile.originEncoded=in[15];landscape_type=in[10];target_kind=in[11];target.o.type=in[12];Tools_Random_Seed(in[13]|(uint32)in[14]<<16);
+ out[0]=Unit_Move(&projectile,in[4]);out[1]=projectile.o.position.x;out[2]=projectile.o.position.y;out[3]=projectile.o.hitpoints;out[4]=projectile.o.flags.all&65535;out[5]=projectile.distanceToDestination;out[11]=s_randomSeed[0]|s_randomSeed[1]<<8;out[12]=s_randomSeed[2]|s_randomSeed[3]<<8;
+}

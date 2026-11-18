@@ -1,0 +1,5 @@
+{
+  "manifestSha256": "68f56c97755e0467d83566794f845945686c8bf24719f8d89d4cb8e09e70a4fb",
+  "manifestIdenticalAfterRebuild": true,
+  "method": "Same retained generated source, original preload and Python/zlib toolchain; two complete builds compare exact manifest/output hashes"
+}

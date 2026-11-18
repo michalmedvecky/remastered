@@ -1,0 +1,48 @@
+{
+  "apiVersion": "networking.k8s.io/v1",
+  "kind": "Ingress",
+  "metadata": {
+    "name": "remastered",
+    "namespace": "__NAMESPACE__",
+    "labels": {
+      "app.kubernetes.io/name": "remastered",
+      "app.kubernetes.io/part-of": "remastered"
+    },
+    "annotations": {
+      "traefik.ingress.kubernetes.io/router.tls": "true",
+      "traefik.ingress.kubernetes.io/router.entrypoints": "__HTTPS_ENTRYPOINT__"
+    }
+  },
+  "spec": {
+    "ingressClassName": "__INGRESS_CLASS__",
+    "tls": [
+      {
+        "hosts": [
+          "__HOST__"
+        ],
+        "secretName": "__TLS_SECRET__"
+      }
+    ],
+    "rules": [
+      {
+        "host": "__HOST__",
+        "http": {
+          "paths": [
+            {
+              "path": "/",
+              "pathType": "Prefix",
+              "backend": {
+                "service": {
+                  "name": "remastered",
+                  "port": {
+                    "number": 80
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "scope": "Self-contained checks for the imported Remastered Dune II build; no DOS execution and no original EXE/ZIP access in default tests",
+  "preloadVerification": {
+    "method": "Statically parse one Emscripten loadPackage JSON record without importing its module; verify mjs/data output hashes and original file slice SHA256 values",
+    "fileRecords": 17,
+    "originalHashVerified": 16,
+    "generatedFiles": [
+      "opendune.ini"
+    ],
+    "pakDuplicatePolicy": "First directory occurrence, matching the retained original resource audit; raw archive hash covers later duplicate names"
+  },
+  "defaultTestSources": {
+    "campaign": "All66 scenarios and three region INIs decoded directly from preloaded SCENARIO.PAK using CP437",
+    "emc": "Original BUILD/UNIT/TEAM resources decoded from preloaded DUNE.PAK",
+    "voc": "Actual223 unique VOC resources, selected by retained audit identity and verified by archive/member hashes",
+    "wsa": "Actual6 continuation resources and1 normal initial resource, selected and hash-verified against retained fixture metadata",
+    "cutscenes": "Retained original table rawHex and163 retained string excerpts; numeric/pointer/string correspondence and C patch idempotence. This is not fresh EXE verification."
+  },
+  "optionalFreshOriginalCheck": "python3 tools/check-original-cutscenes.py /path/to/original/DUNE2.EXE",
+  "requirements": [
+    "Node.js",
+    "Python3",
+    "C compiler with AddressSanitizer support",
+    "Clang++ with C++17 support for original-register golden regression"
+  ]
+}

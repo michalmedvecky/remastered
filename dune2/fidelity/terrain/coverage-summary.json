@@ -1,0 +1,53 @@
+{
+  "target": "DUNE2.EXE V1.07",
+  "targetSha256": "85f22bb82ea6f755835d5a94d257a67e11a3b854ec934854a69c3eeff7d0180f",
+  "provider": "saved REA/Ghidra evidence, independently checked against relocated original bytes",
+  "instructionVerifiedFunctions": 16,
+  "instructionRecordsVerified": 3241,
+  "suppliedScenarios": 66,
+  "uniqueMissionSeeds": 48,
+  "additionalDiagnosticSeeds": [
+    0,
+    1,
+    4294967295
+  ],
+  "fixtureSeedsTotal": 51,
+  "generatorFixtureComparison": "all 4096 icon IDs, raw terrain types, RNG bytes and draw count match independent compiled C",
+  "scenarioFixtureComparison": "terrain-only MAP section projections for all 66 supplied files match independent C icon maps, baseline/change IDs and RNG bytes/draw count; object creation is excluded",
+  "seed353": "already included among the 48 mission seeds",
+  "unpatchedDivisionChangesGeneratorCases": 49,
+  "nodeTestsPassing": 5,
+  "nativePatchIdempotence": "five changes applied on a pristine private source copy; five already-applied on second run",
+  "executedDosBinary": true,
+  "nativeRuntimeComparison": true,
+  "remainingUncertainty": [
+    "Actual post-load adjacent RAM was sampled for the named cases, not at every generator read. Immediate following memory was zero; wrapping neighbors had nonzero non-spice classes with equivalent spice-connectivity behavior. Other allocator histories and configurations remain unverified.",
+    "Explicit C... terrain records and Special overrides are statically implemented but absent from supplied scenario fixture inputs.",
+    "The scenario projections exclude unit/structure creation and occupancy, which precede MAP overrides in the full native loader.",
+    "Generator and scenario terrain fixtures do not independently verify all dynamic native world updates."
+  ],
+  "evidence": [
+    "source-verification.json",
+    "fixtures.json",
+    "tables.json",
+    "README.md"
+  ],
+  "nativeRuntimeScope": "Three original whole-game INFO-load seed cases, nine total loads including alternate-seed control and primary reload, plus controlled original-function probes; not full Scenario_Load object+Field snapshots.",
+  "runtimeEvidence": "../../../analysis/dune-2/dos-comparison/terrain/SUMMARY.json",
+  "runtimeFixtures": "dos-runtime-fixtures.json",
+  "runtimePrimarySeeds": [
+    392,
+    12,
+    4294967295
+  ],
+  "runtimeWholeGameLoads": 9,
+  "runtimeTileDifferences": 0,
+  "controlledOriginalRngDraws": {
+    "392": 2592,
+    "12": 1254,
+    "4294967295": 636
+  },
+  "runtimeControlledFieldCases": 2,
+  "runtimeControlledFieldScope": "Original Bloom/Field arithmetic instructions for SCENA022/SCENO008, object-free fixed cleared allocation, Map_Update view/cache callback stubbed; not full Scenario_Load.",
+  "runtimeControlledFieldDifferences": 0
+}

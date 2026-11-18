@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "date": "2026-11-18",
+  "checked": 198,
+  "modifiedUpstream": [
+    "native/opendune/src/audio/driver.c",
+    "native/opendune/src/audio/dsp_sdl.c",
+    "native/opendune/src/audio/sound.c",
+    "native/opendune/src/audio/sound.h",
+    "native/opendune/src/gui/gui.c",
+    "native/opendune/src/gui/viewport.c",
+    "native/opendune/src/ini.c",
+    "native/opendune/src/map.c",
+    "native/opendune/src/object.c",
+    "native/opendune/src/opendune.c",
+    "native/opendune/src/os/strings.h",
+    "native/opendune/src/script/general.c",
+    "native/opendune/src/script/structure.c",
+    "native/opendune/src/script/unit.c",
+    "native/opendune/src/sprites.c",
+    "native/opendune/src/table/houseanimation.c",
+    "native/opendune/src/table/sound.c",
+    "native/opendune/src/tile.c",
+    "native/opendune/src/timer.c",
+    "native/opendune/src/tools.c",
+    "native/opendune/src/unit.c",
+    "native/opendune/src/video/video_sdl2.c",
+    "native/opendune/src/wsa.c",
+    "native/music/vendor/adplug/adl.cpp",
+    "native/music/vendor/adplug/adl.h",
+    "native/music/vendor/adplug/player.h"
+  ],
+  "noticesChanged": [
+    "native/opendune/src/gui/gui.c",
+    "native/opendune/src/gui/viewport.c",
+    "native/opendune/src/sprites.c"
+  ],
+  "missing": []
+}

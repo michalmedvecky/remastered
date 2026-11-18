@@ -1,0 +1,8 @@
+{
+  "path": "native/opendune/src/ini.c",
+  "mode": "write",
+  "changed": true,
+  "beforeSha256": "7bdf2e8937d723294cbc7f5dc718f15da5156545ff252324eda5f580d2e01ae0",
+  "afterSha256": "01da947ff09d7c0f4d2dfde3f657b8d1c47629aa274b06069006c2178b629db3",
+  "reason": "ASan observed out-of-bounds missing-key probe at short final INI line"
+}

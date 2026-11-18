@@ -1,0 +1,1588 @@
+{
+  "referenceCommit": "ebea79aeba025be2fe9004570e9255044aacc0be",
+  "authority": "portable-C-reference-with-source-verified-V1.07-SAR-and-edge-check-patches; not native runtime",
+  "scenarioScope": "terrain-only MAP section projection; object creation and occupancy are excluded",
+  "clearedOutOfMapInterpolation": true,
+  "clearedOutOfMapSpiceNeighbors": true,
+  "sourceSha256": {
+    "map": "175be8c9a5dd679144fac9132ecfe3c3e3d7c303bd13cbeedb85b6c6f7b33013",
+    "tile": "05bd07c65d2fe41712942276a53b41fd55c94451cded3eee094718f0f358dc21",
+    "tools": "122aab53a4dac62d4bd051fd42a9449eced9bbe6549b617692c3a992fb1234d3"
+  },
+  "seeds": [
+    {
+      "seed": 0,
+      "tileIdsSha256": "15df6dbe1ec42baa2f53365b054b72cd53ccacebca127ea5ebc74d4affc83130",
+      "nativeTypesSha256": "5319f61b24412d4f3787ca8f786ea2d19e651b034bf78685148311f62e13d7f8",
+      "randomBytes": [
+        42,
+        227,
+        196,
+        0
+      ],
+      "randomDraws": 636,
+      "unpatchedOpenDuneTileIdsSha256": "f7514eb4541211ff454640bb2b60a7cd43ac1b9be4bb85b8e4c33df9d16afbf9",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 1,
+      "tileIdsSha256": "00888ce16f7a32caa0e6954428a6c50576e88fc7862fbf68f15e3a5a58a30217",
+      "nativeTypesSha256": "dd65951679b1a57c55b66e39f8c25ca2e355967bb278829154ddedfe3f791635",
+      "randomBytes": [
+        2,
+        138,
+        30,
+        0
+      ],
+      "randomDraws": 966,
+      "unpatchedOpenDuneTileIdsSha256": "00888ce16f7a32caa0e6954428a6c50576e88fc7862fbf68f15e3a5a58a30217",
+      "unpatchedDiffers": false
+    },
+    {
+      "seed": 5,
+      "tileIdsSha256": "e561f8f8549956f0b15b2ac7c44998e811a272537d6c92a5fb97ecd17d1ea91a",
+      "nativeTypesSha256": "21d601c5a3d1955bb45c4b57f97e5c3feeb8824ecffb11fd192b83f667280c05",
+      "randomBytes": [
+        247,
+        27,
+        209,
+        0
+      ],
+      "randomDraws": 2518,
+      "unpatchedOpenDuneTileIdsSha256": "03207d0c1637f7e10fae811d1153a6be9824dc0216959f5d1d03adb19ddf5461",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 12,
+      "tileIdsSha256": "dff884955d355c0d4850b18b2b587a131f0417b7da00c5fe423e5e08bbd854b9",
+      "nativeTypesSha256": "a7c86ea35139335ff7f517807e4d7a221937a89b5cf11a19071942ab73892260",
+      "randomBytes": [
+        224,
+        197,
+        244,
+        0
+      ],
+      "randomDraws": 1254,
+      "unpatchedOpenDuneTileIdsSha256": "e1f88bf7538779e3156da24da4ba9bb3b3cdf228711ba82df29e7df1c97a7f63",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 16,
+      "tileIdsSha256": "ed50e12e988b175e60dc45991ccd7bc37ea58a837c540d2384b8e9f0a037983e",
+      "nativeTypesSha256": "7cfa613aaae88d1772b8b98d4754b7b787014d33e8934b17c3b8ee4a99900888",
+      "randomBytes": [
+        223,
+        180,
+        145,
+        0
+      ],
+      "randomDraws": 1012,
+      "unpatchedOpenDuneTileIdsSha256": "3bc6e88555d283f58bc76ebd44dbeeb2322e8b744c77d8714798c5b36136819d",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 24,
+      "tileIdsSha256": "d59b071e3bbb5de94bfc91fc3787d87c82dbbd5eea4db37d4ce3327170f35618",
+      "nativeTypesSha256": "e10d6a8a27b7fc352be91eacc50dfbf1c7bc992ecb31b41e16dcda097665be49",
+      "randomBytes": [
+        32,
+        252,
+        106,
+        0
+      ],
+      "randomDraws": 1093,
+      "unpatchedOpenDuneTileIdsSha256": "18905143a8a4fe4151c3d88a885aab461ccfeac999509845167b8731351c73bc",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 27,
+      "tileIdsSha256": "b910199adccfcfce50d5fee21465f6aa6215208ca56bf582f1a5e6b473b71691",
+      "nativeTypesSha256": "361755729895277e820b57f9feade8c901066bc6e5a3b66e7e8f19d2e67820b8",
+      "randomBytes": [
+        193,
+        247,
+        63,
+        0
+      ],
+      "randomDraws": 2123,
+      "unpatchedOpenDuneTileIdsSha256": "69194c7a3c11d564c4580e933cbc5ffc994d41e4f90dfec83e3e3569be917034",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 33,
+      "tileIdsSha256": "c81fd0a6dcaf05f535470aebdda35f8515ab003bc23e64e145ebc5bd97925bdc",
+      "nativeTypesSha256": "eef4845369990796bb9bd6e37cbd6353df9c9855e9ca3c6cd2e6351ed49f9d0c",
+      "randomBytes": [
+        209,
+        128,
+        171,
+        0
+      ],
+      "randomDraws": 762,
+      "unpatchedOpenDuneTileIdsSha256": "c81fd0a6dcaf05f535470aebdda35f8515ab003bc23e64e145ebc5bd97925bdc",
+      "unpatchedDiffers": false
+    },
+    {
+      "seed": 53,
+      "tileIdsSha256": "af642b23ff8d4623fa007452562e955746704f02495cd70eff8839e05e855de3",
+      "nativeTypesSha256": "e41d33da6aaebe0506529a6cd07a50e11fc923fbe073e6d83a6865801419ea9e",
+      "randomBytes": [
+        13,
+        126,
+        205,
+        0
+      ],
+      "randomDraws": 2492,
+      "unpatchedOpenDuneTileIdsSha256": "7baa4608ec231da25b1ddcf9f87c3cd221a7107fb26489961e3f6fc7255f5281",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 57,
+      "tileIdsSha256": "fbdf2da6b13ab0a9914b89050483b6b4f3c22eba434821addeb98325f6fad049",
+      "nativeTypesSha256": "1f949305ee58bd5aae2c287b5fa1d7701cf302fb6f77086cc9c90fd54894d2d5",
+      "randomBytes": [
+        5,
+        255,
+        97,
+        0
+      ],
+      "randomDraws": 1359,
+      "unpatchedOpenDuneTileIdsSha256": "814493d1dd1f17ca7c6509b93a5c21d41713cb2b11b96ad07a7d7763b390932f",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 59,
+      "tileIdsSha256": "86a08d9879e600b0fc9c9507fa9a50fd29b7f9884b9bee89cc3dc7442b64c08c",
+      "nativeTypesSha256": "f0e1a64f08db97cadcc16f686f0069fcda14d66f979b0acb4bf43fc195e5b9f0",
+      "randomBytes": [
+        76,
+        191,
+        142,
+        0
+      ],
+      "randomDraws": 878,
+      "unpatchedOpenDuneTileIdsSha256": "db794b1c6015787d78537c84a958f50b1b2db7beb44bf7eecc50acd76be1aafe",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 62,
+      "tileIdsSha256": "f507ad38a6a9d959fb121faf4dc0405f2163116daa82a30d56dc0557c7d878ff",
+      "nativeTypesSha256": "6f25fca01de1cb0e072ee71416f31f61f737a2b5fd4064690202de5ad8710274",
+      "randomBytes": [
+        189,
+        131,
+        231,
+        0
+      ],
+      "randomDraws": 2637,
+      "unpatchedOpenDuneTileIdsSha256": "3a2244891c7f3784d920307da65306cd9859f4695e37716c4060dddf9632940f",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 89,
+      "tileIdsSha256": "6e915952dc25a1f5a49a498d10a01be0cf28a37cb1b590aacf3b312f108a92e8",
+      "nativeTypesSha256": "96184c24d05e2f3024e1ded3e4eb49aa6b4d995e15b1d7453515135119b5a619",
+      "randomBytes": [
+        229,
+        125,
+        15,
+        0
+      ],
+      "randomDraws": 1381,
+      "unpatchedOpenDuneTileIdsSha256": "aa24f781d32997ee009891d303a4f5aa1edcbf4fdc13d150df7362a6f69f2218",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 103,
+      "tileIdsSha256": "08a6e423091d183fd768844a813fa84759e4430a3b51811ef8da1d2741adf32e",
+      "nativeTypesSha256": "b10bea7656fd3cec70b8f009fdd668cb6d68e434e8161af74aa7bbeb03c28b28",
+      "randomBytes": [
+        61,
+        218,
+        133,
+        0
+      ],
+      "randomDraws": 2359,
+      "unpatchedOpenDuneTileIdsSha256": "78f6cd862e01033ab3c9c418832eb49679b49f4e1554b2191003c074f9d49f75",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 106,
+      "tileIdsSha256": "faf16ef71e32a639aa8997768799236d5b8d40b7f9c576c1386caed2f714ad2b",
+      "nativeTypesSha256": "e56fc72cdd42cb4188ea4aacb0b6829032d76803f9b977dfdcab35dc0695a2b6",
+      "randomBytes": [
+        255,
+        175,
+        171,
+        0
+      ],
+      "randomDraws": 2039,
+      "unpatchedOpenDuneTileIdsSha256": "9e57db46ea59fc616b8f6d592df7ffd90a82c07f03027384c0b20fca52d9e28f",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 113,
+      "tileIdsSha256": "1d47ec250f46d385488a359d45c41b2f5a2ef2cb95d06a98ef0d79c2f8a06c3f",
+      "nativeTypesSha256": "222bcbd57f9b8a3b377fcd9796b2247c7325df619b709e8014665c0a5e1bbbb9",
+      "randomBytes": [
+        77,
+        53,
+        95,
+        0
+      ],
+      "randomDraws": 2980,
+      "unpatchedOpenDuneTileIdsSha256": "e4b0d4b1c8cd6fb716810c7de0be7799eae7777351525826d2b338a492e2958d",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 117,
+      "tileIdsSha256": "6a4b3cdba7b4ba02077a2ee13b34e919cfc53b35356ba95b9da052ed57dd4a24",
+      "nativeTypesSha256": "81434d48e08bda135857533d5da2b916307f7a71872aaebf4559d5ea94ba638d",
+      "randomBytes": [
+        85,
+        207,
+        225,
+        0
+      ],
+      "randomDraws": 2849,
+      "unpatchedOpenDuneTileIdsSha256": "0e669d241dbd036bc1cc3960121b0db7b2d527a873afadc8953340b4371bc6c0",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 122,
+      "tileIdsSha256": "a22f131f50f90433689369f62b1e83023633352f5dc955ccbc30493c89eff259",
+      "nativeTypesSha256": "dbb83fd482f68976dedd0fc0393768f9bde305c235a3c5c2ec9e052c94ec0977",
+      "randomBytes": [
+        68,
+        120,
+        156,
+        0
+      ],
+      "randomDraws": 2422,
+      "unpatchedOpenDuneTileIdsSha256": "916650d49dcc406a383f7b1596f5db0f5560f3ff2faf2a95f0171a2fa1582fd7",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 123,
+      "tileIdsSha256": "8a9c31da677375becbfb4b776aa3225ffab29e2181291fd12a567d452589d68e",
+      "nativeTypesSha256": "da624e0cb2f0af6ec8b1ad5fc7e3b7cb9f57cda05699cccdf69513c57f3398b8",
+      "randomBytes": [
+        76,
+        151,
+        130,
+        0
+      ],
+      "randomDraws": 2407,
+      "unpatchedOpenDuneTileIdsSha256": "17f660c9dbecc4271e8cd6d95af0aece54d51a9ad865689ee21e6b62dc385cc8",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 157,
+      "tileIdsSha256": "c045d562a1b4dcac364e2933f8ada3ba28b01695a03dc820dbe5781495a81d78",
+      "nativeTypesSha256": "437ffc586fcd4913c56b4f35b50655954223fcae3cadeb74889ba683ed861bc4",
+      "randomBytes": [
+        16,
+        1,
+        12,
+        0
+      ],
+      "randomDraws": 1313,
+      "unpatchedOpenDuneTileIdsSha256": "6805a94735c5c7d5ec08502605f17223b258475cf467bde035916c6dba94b9d5",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 173,
+      "tileIdsSha256": "64799cdc2b9e6e16279c9e2461dd6fe64ac260638a93e9f6b472c6283e6fbe3c",
+      "nativeTypesSha256": "2808c1e90f3519698833396ea6fd68636d7261a8e53224fb68e3500b7f56a677",
+      "randomBytes": [
+        109,
+        152,
+        171,
+        0
+      ],
+      "randomDraws": 1970,
+      "unpatchedOpenDuneTileIdsSha256": "6efdac11cd6becebe989390874c6a2023ebc537782f796d7149d914c8b4d2131",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 182,
+      "tileIdsSha256": "23a47cd8e23260d7beb947cd0a8d59450cb52bafa3008a9a912fa0d87b2580f9",
+      "nativeTypesSha256": "900d9e05c7389d0cf96fc4146b3e3ba8e16bede1705d27866339588db9078986",
+      "randomBytes": [
+        244,
+        251,
+        204,
+        0
+      ],
+      "randomDraws": 2662,
+      "unpatchedOpenDuneTileIdsSha256": "8ffac27a43ad3b75f111b8af900ce2b0a77672009134ee77afd9c526f7883af7",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 203,
+      "tileIdsSha256": "11c83494423a125a76fde94222fa1c74638452b5d1c70af97b516420e50aa42b",
+      "nativeTypesSha256": "f7f73fce22124056f99db5be372e2b66008782eb46ecbc4ae7a928d16faa30a2",
+      "randomBytes": [
+        211,
+        217,
+        221,
+        0
+      ],
+      "randomDraws": 2087,
+      "unpatchedOpenDuneTileIdsSha256": "979a30ffcd6e8acfa214c9e97f3d7e12e2a072dd421d80215e5f24aac1e2de1b",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 207,
+      "tileIdsSha256": "d66faf84f44049c205c3d0b5f2e6a897f7b1a8834e5c7e2123dbc4ef913a352f",
+      "nativeTypesSha256": "727395d44d1cbfd68d6c27f871dccdc61a16328b52d8e2118d86a28b3cce80cd",
+      "randomBytes": [
+        225,
+        78,
+        193,
+        0
+      ],
+      "randomDraws": 2234,
+      "unpatchedOpenDuneTileIdsSha256": "48bf95a0df69c875a0965e9b04fab8a1033898265a149437d4bc26010bbcd5e6",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 223,
+      "tileIdsSha256": "f416ad03802c97c1c9d69e752e97c1bc4ff8e623f89e6a626c4c5384ff303960",
+      "nativeTypesSha256": "f58603514611e21b779e7f97172a80510811ccf0d95d9276979fb91b73c2984c",
+      "randomBytes": [
+        235,
+        38,
+        171,
+        0
+      ],
+      "randomDraws": 2409,
+      "unpatchedOpenDuneTileIdsSha256": "07a2d8bc3bc4bc38532a2b2da9fdb788ee15c38fcca474d8b562e0eb92883b5c",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 233,
+      "tileIdsSha256": "9a22a05d28e02ac887ba67759f75e9ac497b840470361d064308dc0261dd4563",
+      "nativeTypesSha256": "8cd0eaa0d58d078f4886e05ead40e0d46ebe0b9e5247ca0be2c19b0f60930111",
+      "randomBytes": [
+        161,
+        62,
+        99,
+        0
+      ],
+      "randomDraws": 1463,
+      "unpatchedOpenDuneTileIdsSha256": "93060f8b7f99f33ad47028563dc7ff0b0c4bee6ffc890c794875600a843631d6",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 268,
+      "tileIdsSha256": "40c01852b0fb31e7a4a467deae095816a4a9713b9f543dab004e5ead7906512c",
+      "nativeTypesSha256": "bbf4a7a4b4a3d955c7ec6febdf78b7fe73fe8652f0212a519dd929192bc40614",
+      "randomBytes": [
+        212,
+        134,
+        110,
+        0
+      ],
+      "randomDraws": 839,
+      "unpatchedOpenDuneTileIdsSha256": "e70cd910179ffda17bd90cfa66b365806cbb7908dc5316f5b6b598d0edb59a41",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 269,
+      "tileIdsSha256": "72b318e06e12f2cda673d4e7806a0c6f99ad48efae61ec551dc2791f38f30fad",
+      "nativeTypesSha256": "9b304238a2541aa4e6ecd0aabc93eb5104905ae13e9a4948117832f4680bf7b3",
+      "randomBytes": [
+        126,
+        147,
+        232,
+        0
+      ],
+      "randomDraws": 1961,
+      "unpatchedOpenDuneTileIdsSha256": "0921714aba271da77ca01c6cd2c51e0172e0c8310ba9b5a230ed922c15c46971",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 298,
+      "tileIdsSha256": "2beda37244aa7c1d0c7536a005f45573e32a9cd6759c36d673db3d7d9ebda5a3",
+      "nativeTypesSha256": "72797c4fad38f81593d2829670861613f9420bc69e3c7eaa40126a8635ba8a2d",
+      "randomBytes": [
+        253,
+        202,
+        121,
+        0
+      ],
+      "randomDraws": 1221,
+      "unpatchedOpenDuneTileIdsSha256": "e1e009dab0b6249ba81add96d81fc1d58b055b6f26245deb6621d563b6894cd2",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 305,
+      "tileIdsSha256": "b1af291f3ae26c9e15018dcac7ca3f6970933445e85316c02209c9560382a359",
+      "nativeTypesSha256": "cebec4146d63c5c027c294ffc1ca0f600902e75ce397e5096f434fb7bd7f4c71",
+      "randomBytes": [
+        157,
+        6,
+        25,
+        0
+      ],
+      "randomDraws": 1388,
+      "unpatchedOpenDuneTileIdsSha256": "29fe29c90d7987a2bb8d68379e6cdd2adde114f241d22d6a8fca2bf767eb8085",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 332,
+      "tileIdsSha256": "eca79bae3ee588566020cdd4c8b365cbf043f87c523d0a51a95378b99532e8ea",
+      "nativeTypesSha256": "1f1d0991b144a29a21934bac16020b37a15dfa8e3afd637455bf78846ebc41b4",
+      "randomBytes": [
+        30,
+        28,
+        194,
+        0
+      ],
+      "randomDraws": 2167,
+      "unpatchedOpenDuneTileIdsSha256": "ab31bb82746e7b81539cb3235b35506e1b2e5b4ceba3676cc44f45edc72e020e",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 353,
+      "tileIdsSha256": "adf960a6fcd6408ff78a2ed29ec8d9c2c3a047b27abcb3b162ea0f242a6f452a",
+      "nativeTypesSha256": "e7f4b23a7e7f72a18fe015216076cd062552d48f5998bc062203ec822afe1d65",
+      "randomBytes": [
+        151,
+        143,
+        171,
+        0
+      ],
+      "randomDraws": 2150,
+      "unpatchedOpenDuneTileIdsSha256": "540c57d6dcc41695a5b0ca266668d5631442f2f032c8e28dc6f47f9bf42ce8b5",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 355,
+      "tileIdsSha256": "8de8d7b3bd9bfaf3f89668bf4ea262841145dc4b87e0f5a665247be93e490747",
+      "nativeTypesSha256": "98dcb6109189bc173f39a536a5dcc9958c428278d2907e60df24fa76e11bf06a",
+      "randomBytes": [
+        34,
+        204,
+        24,
+        0
+      ],
+      "randomDraws": 2249,
+      "unpatchedOpenDuneTileIdsSha256": "42646914434f2d769f2ed07ac49c48d6b9684c2f6d49b638fb1ac5f24d0ed660",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 367,
+      "tileIdsSha256": "e3ee456d33ec6b5944c396defd61d8be874cb86bb5cff257c15183ca634806fe",
+      "nativeTypesSha256": "0391a540d10de46cf5dcbe9c1374b3c46335f89f31baafe32712601008adc318",
+      "randomBytes": [
+        67,
+        245,
+        97,
+        0
+      ],
+      "randomDraws": 763,
+      "unpatchedOpenDuneTileIdsSha256": "fe3b24335fba79638f85f21d0041153446e5a26b47c3ceda6d12b9e152f39b8d",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 392,
+      "tileIdsSha256": "54796f56a1276e970645b5eebbb7ad2a4ae07dcfc7ada6018ebdc67885bfeb2d",
+      "nativeTypesSha256": "ee6708828c817ce937ed66fe3ac38ba79d71d0690ce4576b7230f97aff8d9c69",
+      "randomBytes": [
+        199,
+        94,
+        141,
+        0
+      ],
+      "randomDraws": 2592,
+      "unpatchedOpenDuneTileIdsSha256": "e0a7fb99189ad6f27f3d90107a2afbb472ee83a10d41e57c58ee2d3d753d5211",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 500,
+      "tileIdsSha256": "e99deee15206f4b5e6bfdfe9efa8de2c104b630ecb3485125e7201c49a4a841c",
+      "nativeTypesSha256": "211b6200341a6ef507f362886b703315b5a09120e70690ad3e38aaf2fb02eeb3",
+      "randomBytes": [
+        238,
+        143,
+        140,
+        0
+      ],
+      "randomDraws": 2709,
+      "unpatchedOpenDuneTileIdsSha256": "de7fd1916541ff037247510bdb3a8f2de774081b168e0592bbc35b9267d08372",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 501,
+      "tileIdsSha256": "28c5a950f52796d7ea2d99d38a819fb93667f22fb3365a32e0611efa2bc589c1",
+      "nativeTypesSha256": "5d0a6906b650d73c8a12482147a57e96f9491509f90556a072759e69532cec76",
+      "randomBytes": [
+        144,
+        106,
+        154,
+        0
+      ],
+      "randomDraws": 3007,
+      "unpatchedOpenDuneTileIdsSha256": "03e85423ba3669e60fb12eae77b4b17b182cebbb5ac96c122c5e4dbdee4b5928",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 504,
+      "tileIdsSha256": "da5c59335da1c33f3c6b15709a8f6e39e1066b81abe50a29872625fe0240db02",
+      "nativeTypesSha256": "ca6315ebf430db10cb465e6c8b9c1fa61d0a2e1a3cf575c7263e5ebc9a622633",
+      "randomBytes": [
+        80,
+        38,
+        170,
+        0
+      ],
+      "randomDraws": 2709,
+      "unpatchedOpenDuneTileIdsSha256": "046a58b8c9353a837b9d402d94bcc8c126ce56d59cec88e45943ef74bd1a9077",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 552,
+      "tileIdsSha256": "36ffcbedfb929b8e955850e11d2d019121f2f2625ee2a221dd43cc185db154b4",
+      "nativeTypesSha256": "9085fe47e5dc286437f6b6c424d367a34064bd9b765b081667a70046017e4fe1",
+      "randomBytes": [
+        181,
+        225,
+        85,
+        0
+      ],
+      "randomDraws": 930,
+      "unpatchedOpenDuneTileIdsSha256": "de2396a1be41050d3bfe3d12ee4b9c56f1d31aeffe1640e767c6f73b78f53a0b",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 563,
+      "tileIdsSha256": "6d57171ea2e7c7f5927e8792a442a84cb8fa571814f6088b1520b93f6dc8c181",
+      "nativeTypesSha256": "101343b72c406e12a49f1e818aadc06ea3ef03c24da08680967394b9b51ec0ab",
+      "randomBytes": [
+        99,
+        131,
+        255,
+        0
+      ],
+      "randomDraws": 2686,
+      "unpatchedOpenDuneTileIdsSha256": "b81559dcf025108c534b0ba9cbe3650e29da864ad9db2aca93748ca1d4f63b95",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 582,
+      "tileIdsSha256": "2ce0812aabf3f8bb49877beec2b505df158f37c3a187065fd4778669937bced4",
+      "nativeTypesSha256": "52d221d53e47ef9f6cc8a22a20b5a4a1549ee39109109b3fafa582fd1307d832",
+      "randomBytes": [
+        57,
+        134,
+        65,
+        0
+      ],
+      "randomDraws": 2508,
+      "unpatchedOpenDuneTileIdsSha256": "96b517e8ddd37707008412f408b9af2985fca83d3f790aa176895eda7f4b0abc",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 604,
+      "tileIdsSha256": "4151054da8d20f0e014cda316c669f630588f132f7de1bf2694e3d77778e59de",
+      "nativeTypesSha256": "1de0e1aa82ffd0ef9115f03fc91c0dce9b36a1c73f20b8cf28dfbfca378bd33d",
+      "randomBytes": [
+        33,
+        0,
+        225,
+        0
+      ],
+      "randomDraws": 2293,
+      "unpatchedOpenDuneTileIdsSha256": "622de66b1b0866a244a43716cb246c7c8a114d87d33c6695971c10e8b09e79ec",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 717,
+      "tileIdsSha256": "a38b30acd59f1864bf8f41da9a12bd4a8e27ba2bed425196cc66cc2593de8938",
+      "nativeTypesSha256": "9db8ce408a5e74c966976b12487fda39690df8a27ddcb0d7aabb10816133acd1",
+      "randomBytes": [
+        161,
+        34,
+        67,
+        0
+      ],
+      "randomDraws": 2310,
+      "unpatchedOpenDuneTileIdsSha256": "462f213697aed2d00a0af212a1b6a2bd7be30d2e2e6af359b413992f94030118",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 723,
+      "tileIdsSha256": "a05dc32ddb937f7387d0b6337aadf9c29db8ebeefac6eea78a9768c1c1ade96c",
+      "nativeTypesSha256": "f9f28520ff62fa2dfcc280f64c4a90e5cabf7beb3801fffbd9d3f4724e2aeae5",
+      "randomBytes": [
+        237,
+        118,
+        41,
+        0
+      ],
+      "randomDraws": 2769,
+      "unpatchedOpenDuneTileIdsSha256": "943e5363d0a6401ff5fd186f3e4b9c5ca00b100a8a0b7b5c2ed1bb8953dca361",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 1498,
+      "tileIdsSha256": "e08a2312280104b77270670fcf844e088854193a4dba170a25ed1fd69161837e",
+      "nativeTypesSha256": "fd6ae63c30b913afab1651523c376cb8003b997244967460c9ead79437a4fe62",
+      "randomBytes": [
+        55,
+        170,
+        123,
+        0
+      ],
+      "randomDraws": 1144,
+      "unpatchedOpenDuneTileIdsSha256": "1ff0da655445dca8140a9c0c84aa5fb491863c63ef180ebea35feeb0e2a445ce",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 2106,
+      "tileIdsSha256": "65b1575deb378eb8c6112e2f311231fe20007db696472e149a045d51e951739a",
+      "nativeTypesSha256": "e39279f97b390372989a5cc840e9443e46c01863ed9fbaee7b2b2a712f37ba76",
+      "randomBytes": [
+        143,
+        239,
+        109,
+        0
+      ],
+      "randomDraws": 2288,
+      "unpatchedOpenDuneTileIdsSha256": "35b721a1bb7515f365a47ee46d432c7e974af7d8e8d80d72861a7fa0b914824f",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 2437,
+      "tileIdsSha256": "7ab3d3e82dc2e475b8aedf4fe82066ff356a4232b4b5540207cd552d6125f3e4",
+      "nativeTypesSha256": "a1870c948969ff0ea7d443708a63efba1308c203bf6d07ca2c8b8e22e625192c",
+      "randomBytes": [
+        62,
+        92,
+        224,
+        0
+      ],
+      "randomDraws": 2112,
+      "unpatchedOpenDuneTileIdsSha256": "f0ed2e44fa91c94234e301a37243c4641ed116dce7fdc524b3b0705630b61ec4",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 2620,
+      "tileIdsSha256": "1fa0aff857d0e5914767c32a70cbe1b5c9862737a1de95b79f74ed5099fb60f7",
+      "nativeTypesSha256": "3e3c6081b1caa04e3544f355049343a472dc919c3e5e17a03e46aa2c13314a72",
+      "randomBytes": [
+        171,
+        104,
+        189,
+        0
+      ],
+      "randomDraws": 2297,
+      "unpatchedOpenDuneTileIdsSha256": "4b4acf1e6192a63c8e0810c84f21d490f5e7084cfd38b8b9f4f60050cff5c480",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 2674,
+      "tileIdsSha256": "5aa93226342de8cc9f4659d0f4a9bc54f63c2fe47fc7c18d95fca3bb4fb4ae2b",
+      "nativeTypesSha256": "bf28c587cbe55cfc06fe0758c6756d176b804376990e0e8356c7b3c796f0153a",
+      "randomBytes": [
+        174,
+        99,
+        228,
+        0
+      ],
+      "randomDraws": 2125,
+      "unpatchedOpenDuneTileIdsSha256": "4728432baaaceacd3c29f5c251815e0b5a9c8a6680a3fd6633de0b499d963161",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 3161,
+      "tileIdsSha256": "a4659a067a89f7877af387486aca6e3f78d9c8735c3ecb7193628475ca175a31",
+      "nativeTypesSha256": "09b7d7887f45d0d63949266b306101c75978858509e243531763a29b2f4a2460",
+      "randomBytes": [
+        62,
+        55,
+        176,
+        0
+      ],
+      "randomDraws": 2620,
+      "unpatchedOpenDuneTileIdsSha256": "8aa039930c0ec8dc42b2003bb82aafeb7ded1f529e7196540fc2c0d40bc6316a",
+      "unpatchedDiffers": true
+    },
+    {
+      "seed": 4294967295,
+      "tileIdsSha256": "15df6dbe1ec42baa2f53365b054b72cd53ccacebca127ea5ebc74d4affc83130",
+      "nativeTypesSha256": "5319f61b24412d4f3787ca8f786ea2d19e651b034bf78685148311f62e13d7f8",
+      "randomBytes": [
+        213,
+        28,
+        59,
+        255
+      ],
+      "randomDraws": 636,
+      "unpatchedOpenDuneTileIdsSha256": "f7514eb4541211ff454640bb2b60a7cd43ac1b9be4bb85b8e4c33df9d16afbf9",
+      "unpatchedDiffers": true
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "SCENA001.INI",
+      "seed": 353,
+      "tileIdsSha256": "b760dc272af19a1aa9b38212ab468e4bde475436e2d36b74d949862e493a2a35",
+      "baselineTileIdsSha256": "3cc22e0d445cc1a61b741117c1bcf36569273c835a01ad97d834b31d3e2836bd",
+      "randomBytes": [
+        86,
+        154,
+        56,
+        0
+      ],
+      "randomDraws": 2206
+    },
+    {
+      "id": "SCENA002.INI",
+      "seed": 2620,
+      "tileIdsSha256": "d4c946177755b048f6bf2a9228201ea09daf7c1d83b2fea2b457b2c7d73836f1",
+      "baselineTileIdsSha256": "faabdc3468e9a856b911c64f338ae7db925e9690dc07c01f0fc9b18b0c4b8f82",
+      "randomBytes": [
+        171,
+        104,
+        189,
+        0
+      ],
+      "randomDraws": 2297
+    },
+    {
+      "id": "SCENA003.INI",
+      "seed": 5,
+      "tileIdsSha256": "fea1ad01e8f8d7d23d6a5ef5f7e7d4e2624b62eaed3b41806e02c5ade6029789",
+      "baselineTileIdsSha256": "44ae4b3d9de777e1fbd48a406e76184e1a1124e28750e9b162bef30004c779c7",
+      "randomBytes": [
+        247,
+        27,
+        209,
+        0
+      ],
+      "randomDraws": 2518
+    },
+    {
+      "id": "SCENA004.INI",
+      "seed": 62,
+      "tileIdsSha256": "61dbe0e3e7de0bea79eb7d03d49e32e56fbd4fd1d0b0591bc020ccd2a7bf3b07",
+      "baselineTileIdsSha256": "06c1be9df2aac35d900790e1f788e4c049f6487e0d3c08b60fe9e333c4812ed9",
+      "randomBytes": [
+        189,
+        131,
+        231,
+        0
+      ],
+      "randomDraws": 2637
+    },
+    {
+      "id": "SCENA005.INI",
+      "seed": 2106,
+      "tileIdsSha256": "a4aa774d81d4a3bfc39202118a789cb421fc037a7d4441d90242e7322c8a08ee",
+      "baselineTileIdsSha256": "a172ab37ed6463b34afeb1a1dd445a584d45c5144ac9e8c59ae94b1a59af3a5b",
+      "randomBytes": [
+        143,
+        239,
+        109,
+        0
+      ],
+      "randomDraws": 2288
+    },
+    {
+      "id": "SCENA006.INI",
+      "seed": 27,
+      "tileIdsSha256": "45bcf908750529f0cfa194342c4a20d2958a61f91348ced850ba1742d60ffca0",
+      "baselineTileIdsSha256": "617040d83530404f7700b766fb6dfe4910e5826493c99d4e1817d14a8efd1213",
+      "randomBytes": [
+        193,
+        247,
+        63,
+        0
+      ],
+      "randomDraws": 2123
+    },
+    {
+      "id": "SCENA007.INI",
+      "seed": 89,
+      "tileIdsSha256": "13360c762cffe08ee65cf1d77fa4a6adec26aa326e6de4382495f08367639607",
+      "baselineTileIdsSha256": "144aba0844c72d53229e51ba2874ac1803157f0bf18c18258e3f8fa407e45ab9",
+      "randomBytes": [
+        12,
+        116,
+        176,
+        0
+      ],
+      "randomDraws": 1409
+    },
+    {
+      "id": "SCENA008.INI",
+      "seed": 233,
+      "tileIdsSha256": "1be0fb4443c87ade988a7c1cb3f58a057f35dd4b458c83e14490ee5fc0bcc662",
+      "baselineTileIdsSha256": "b5c55750e80ac9c92c4bae144cdb425f8ea2b4955be8c3214b3d4bcb1c4bb70a",
+      "randomBytes": [
+        253,
+        243,
+        59,
+        0
+      ],
+      "randomDraws": 1561
+    },
+    {
+      "id": "SCENA009.INI",
+      "seed": 157,
+      "tileIdsSha256": "b3904ddf76bb0868b5bdc1490620b55939e393f67390b669391767766116b6f4",
+      "baselineTileIdsSha256": "cd108d267f4f323c665e0f7a783388b2df105179d4a1b39dc7941003f15ffcc0",
+      "randomBytes": [
+        96,
+        100,
+        254,
+        0
+      ],
+      "randomDraws": 1397
+    },
+    {
+      "id": "SCENA010.INI",
+      "seed": 268,
+      "tileIdsSha256": "a75a249f2721113ec49e7cfdde959c8e49d3098c8b2a5019b59fafa7c0862791",
+      "baselineTileIdsSha256": "ef620c5e14ecb79b59a827c096b989ed144271adba6031f18131d2cec99c6a5a",
+      "randomBytes": [
+        181,
+        43,
+        193,
+        0
+      ],
+      "randomDraws": 1081
+    },
+    {
+      "id": "SCENA011.INI",
+      "seed": 367,
+      "tileIdsSha256": "a9d8d50b2ef2634b735b4a98d589450024e5aeeaeb565ba0ceddc1b8fb656ef8",
+      "baselineTileIdsSha256": "74a7ffb488c6bad5d21a06ef348d55df12fa9fc2266ba0891c476ebafd1571ac",
+      "randomBytes": [
+        131,
+        103,
+        185,
+        0
+      ],
+      "randomDraws": 1006
+    },
+    {
+      "id": "SCENA012.INI",
+      "seed": 33,
+      "tileIdsSha256": "5c9b6adff7dda921cff72080c4c59115458d3c8c0185f4fa77556fdc4fa6f96a",
+      "baselineTileIdsSha256": "b845d9b2e048f188cedd9a9823fd874f983fb0c5c86415a34310f6b62c0d3b07",
+      "randomBytes": [
+        45,
+        131,
+        167,
+        0
+      ],
+      "randomDraws": 1116
+    },
+    {
+      "id": "SCENA013.INI",
+      "seed": 57,
+      "tileIdsSha256": "2437b2b1ff12223f1f654913ba435d8b5aed95242fd4898f216e9f8573e63e6d",
+      "baselineTileIdsSha256": "a5c23e5744691d04734dfa227daf428e5f25d3cdc300e3068b05fccde371297f",
+      "randomBytes": [
+        252,
+        145,
+        162,
+        0
+      ],
+      "randomDraws": 1546
+    },
+    {
+      "id": "SCENA014.INI",
+      "seed": 53,
+      "tileIdsSha256": "d1e207ab318356dc0d898cb77d1416b9ad00e0cb20db3f4738f746859ad5892b",
+      "baselineTileIdsSha256": "a8c83b2da55d213735110dbc004655cf96a40327f64288172194045c59143caa",
+      "randomBytes": [
+        44,
+        210,
+        182,
+        0
+      ],
+      "randomDraws": 2548
+    },
+    {
+      "id": "SCENA015.INI",
+      "seed": 59,
+      "tileIdsSha256": "f02545b0b8d939311b2fb694884407bc9fcfe695034084fee0c7a07e17fd941a",
+      "baselineTileIdsSha256": "b12294548484660cb709e930670be513e23a9dcd5a7745df693bb5e3a17c9e7f",
+      "randomBytes": [
+        182,
+        7,
+        68,
+        0
+      ],
+      "randomDraws": 1121
+    },
+    {
+      "id": "SCENA016.INI",
+      "seed": 89,
+      "tileIdsSha256": "d324f50a382e60bc33d5e215b9f6088bd18659abfc8ee37a491fe467b1ce6683",
+      "baselineTileIdsSha256": "a5286c5baee1ec38909c03812c554384a01dc78d207a9c60a06f2abc10f4eb01",
+      "randomBytes": [
+        109,
+        46,
+        63,
+        0
+      ],
+      "randomDraws": 1633
+    },
+    {
+      "id": "SCENA017.INI",
+      "seed": 500,
+      "tileIdsSha256": "bf25f30c984fff42ba8476fd5b52fb4cd47524b807e176d6a1f85519ae0e00d8",
+      "baselineTileIdsSha256": "75130192b8d8088da041c13a0ae90f5414fad780128753800fc38bde98d5f1ba",
+      "randomBytes": [
+        173,
+        25,
+        31,
+        0
+      ],
+      "randomDraws": 2737
+    },
+    {
+      "id": "SCENA018.INI",
+      "seed": 501,
+      "tileIdsSha256": "28c5a950f52796d7ea2d99d38a819fb93667f22fb3365a32e0611efa2bc589c1",
+      "baselineTileIdsSha256": "28c5a950f52796d7ea2d99d38a819fb93667f22fb3365a32e0611efa2bc589c1",
+      "randomBytes": [
+        144,
+        106,
+        154,
+        0
+      ],
+      "randomDraws": 3007
+    },
+    {
+      "id": "SCENA019.INI",
+      "seed": 355,
+      "tileIdsSha256": "2809103123c310b07d1084bf6f6f0126c024ee5e7e6e69fd20b42c551b24b252",
+      "baselineTileIdsSha256": "e68fdbd6808bf06702c6d494f24e5e8f296b769e4215491742c909d4c8fface3",
+      "randomBytes": [
+        197,
+        52,
+        51,
+        0
+      ],
+      "randomDraws": 2305
+    },
+    {
+      "id": "SCENA020.INI",
+      "seed": 604,
+      "tileIdsSha256": "fdf466e763e3f5a18194b9dcd2a4551e67cbb5ac05c552077b3e809a45f8292a",
+      "baselineTileIdsSha256": "b72ee22a217a90de4b2b6d5f203bfc3679d2ba2f4a69774db54a726db03cb3fe",
+      "randomBytes": [
+        94,
+        1,
+        118,
+        0
+      ],
+      "randomDraws": 2377
+    },
+    {
+      "id": "SCENA021.INI",
+      "seed": 717,
+      "tileIdsSha256": "a38b30acd59f1864bf8f41da9a12bd4a8e27ba2bed425196cc66cc2593de8938",
+      "baselineTileIdsSha256": "a38b30acd59f1864bf8f41da9a12bd4a8e27ba2bed425196cc66cc2593de8938",
+      "randomBytes": [
+        161,
+        34,
+        67,
+        0
+      ],
+      "randomDraws": 2310
+    },
+    {
+      "id": "SCENA022.INI",
+      "seed": 392,
+      "tileIdsSha256": "e482a37736601e034df41dc89a864f28e1dd8b1320061fa9339abbf81164768b",
+      "baselineTileIdsSha256": "8dd80dcd6294b3b6d9443f0c887d33a6a5453fc30a1aac9f2706347982ac5311",
+      "randomBytes": [
+        238,
+        134,
+        156,
+        0
+      ],
+      "randomDraws": 2727
+    },
+    {
+      "id": "SCENH001.INI",
+      "seed": 332,
+      "tileIdsSha256": "eca79bae3ee588566020cdd4c8b365cbf043f87c523d0a51a95378b99532e8ea",
+      "baselineTileIdsSha256": "eca79bae3ee588566020cdd4c8b365cbf043f87c523d0a51a95378b99532e8ea",
+      "randomBytes": [
+        30,
+        28,
+        194,
+        0
+      ],
+      "randomDraws": 2167
+    },
+    {
+      "id": "SCENH002.INI",
+      "seed": 223,
+      "tileIdsSha256": "8ec9635ef24fa51100ea397681b7512d8daeb53b413ae0d28c0cc673d059d82b",
+      "baselineTileIdsSha256": "b6237c5d3c971cb446e31d7ef5b34e56132eae7193dce4f8888c90934577476b",
+      "randomBytes": [
+        92,
+        105,
+        70,
+        0
+      ],
+      "randomDraws": 2437
+    },
+    {
+      "id": "SCENH003.INI",
+      "seed": 173,
+      "tileIdsSha256": "c36700d14d3cc99af534c1c45d6b6bf91245ce0cf8607ef9f739f59569bee3f7",
+      "baselineTileIdsSha256": "800c69fcbbd8a89a7d8cb1f4963329ee1361f4e4d3b82353dba58aea5dbdf0b0",
+      "randomBytes": [
+        109,
+        152,
+        171,
+        0
+      ],
+      "randomDraws": 1970
+    },
+    {
+      "id": "SCENH004.INI",
+      "seed": 182,
+      "tileIdsSha256": "5cee3b0a7a46851ac58e1e31001513e81f199e24fe5f2542d2734c4f1311deb2",
+      "baselineTileIdsSha256": "1847c43c540a52001923399d1ea7ef1043eb3b385df94364767ccce5b9a5b9c3",
+      "randomBytes": [
+        51,
+        252,
+        173,
+        0
+      ],
+      "randomDraws": 2718
+    },
+    {
+      "id": "SCENH005.INI",
+      "seed": 2674,
+      "tileIdsSha256": "5aa93226342de8cc9f4659d0f4a9bc54f63c2fe47fc7c18d95fca3bb4fb4ae2b",
+      "baselineTileIdsSha256": "5aa93226342de8cc9f4659d0f4a9bc54f63c2fe47fc7c18d95fca3bb4fb4ae2b",
+      "randomBytes": [
+        174,
+        99,
+        228,
+        0
+      ],
+      "randomDraws": 2125
+    },
+    {
+      "id": "SCENH006.INI",
+      "seed": 203,
+      "tileIdsSha256": "4446f2a8bbd28374705fc03c8be8aab3cc09cb51cc8cd12719cf87f8617d930b",
+      "baselineTileIdsSha256": "9ba5c3e33701c748bf8b3b7e679b75e63ae76c493c94b25ebb7b3546239a3b8c",
+      "randomBytes": [
+        127,
+        93,
+        101,
+        0
+      ],
+      "randomDraws": 2115
+    },
+    {
+      "id": "SCENH007.INI",
+      "seed": 233,
+      "tileIdsSha256": "d7f92c1c215f9cb5a96ac247c8a34a15253f52e45a1c11c5ecd29ceb508ff31b",
+      "baselineTileIdsSha256": "27f29aed841a01411643656e77c82861c788447c57f87331168991171b86957a",
+      "randomBytes": [
+        103,
+        246,
+        175,
+        0
+      ],
+      "randomDraws": 1547
+    },
+    {
+      "id": "SCENH008.INI",
+      "seed": 269,
+      "tileIdsSha256": "da2d82d017c9d2253308f27031378bceec5d3ed28834b2262e27f05644b205e1",
+      "baselineTileIdsSha256": "4c01a045c923b160806d346ad02af441fd3066e7cca9b727065ff04d6b59cba0",
+      "randomBytes": [
+        126,
+        147,
+        232,
+        0
+      ],
+      "randomDraws": 1961
+    },
+    {
+      "id": "SCENH009.INI",
+      "seed": 298,
+      "tileIdsSha256": "cd2dce5eeb1282d4468c06a590f92cd412a3361b7910ee9593291f860f506dee",
+      "baselineTileIdsSha256": "97be18e471804d7e576dde4d18e5121a968477264185b6d71f1e3de9dffe0079",
+      "randomBytes": [
+        21,
+        101,
+        97,
+        0
+      ],
+      "randomDraws": 1347
+    },
+    {
+      "id": "SCENH010.INI",
+      "seed": 305,
+      "tileIdsSha256": "1580100d9adbf5e973b4351d21bdd138037b9e62f2ff22cef116fd7c8baf9e61",
+      "baselineTileIdsSha256": "2cd56c5d8978c1a8b6b1022e9166459ad95e038a88b7f9677e8dc08a869ae026",
+      "randomBytes": [
+        141,
+        131,
+        139,
+        0
+      ],
+      "randomDraws": 1463
+    },
+    {
+      "id": "SCENH011.INI",
+      "seed": 103,
+      "tileIdsSha256": "5e55ea390ec0b02ee7b98e4e0b3ed0feb6d63a37d54f9d2e84983792dd091a84",
+      "baselineTileIdsSha256": "5557974aea9be84f1b8b4a63bb0a9d481a9ab8a7d01d957c1b1e9cd26b959fd5",
+      "randomBytes": [
+        83,
+        2,
+        175,
+        0
+      ],
+      "randomDraws": 2404
+    },
+    {
+      "id": "SCENH012.INI",
+      "seed": 106,
+      "tileIdsSha256": "9d52bb5c570b83d7ba32147f53a4c5a94776a15396f3afbfab8a38a4fc135dfe",
+      "baselineTileIdsSha256": "615f9515d68bfdcc46d0a786fdff5f6d72ebf029ad9e27bf43435b1c1d95d9be",
+      "randomBytes": [
+        175,
+        52,
+        215,
+        0
+      ],
+      "randomDraws": 2095
+    },
+    {
+      "id": "SCENH013.INI",
+      "seed": 123,
+      "tileIdsSha256": "8a9c31da677375becbfb4b776aa3225ffab29e2181291fd12a567d452589d68e",
+      "baselineTileIdsSha256": "8a9c31da677375becbfb4b776aa3225ffab29e2181291fd12a567d452589d68e",
+      "randomBytes": [
+        76,
+        151,
+        130,
+        0
+      ],
+      "randomDraws": 2407
+    },
+    {
+      "id": "SCENH014.INI",
+      "seed": 500,
+      "tileIdsSha256": "e99deee15206f4b5e6bfdfe9efa8de2c104b630ecb3485125e7201c49a4a841c",
+      "baselineTileIdsSha256": "e99deee15206f4b5e6bfdfe9efa8de2c104b630ecb3485125e7201c49a4a841c",
+      "randomBytes": [
+        238,
+        143,
+        140,
+        0
+      ],
+      "randomDraws": 2709
+    },
+    {
+      "id": "SCENH015.INI",
+      "seed": 53,
+      "tileIdsSha256": "af642b23ff8d4623fa007452562e955746704f02495cd70eff8839e05e855de3",
+      "baselineTileIdsSha256": "af642b23ff8d4623fa007452562e955746704f02495cd70eff8839e05e855de3",
+      "randomBytes": [
+        13,
+        126,
+        205,
+        0
+      ],
+      "randomDraws": 2492
+    },
+    {
+      "id": "SCENH016.INI",
+      "seed": 504,
+      "tileIdsSha256": "369a37443f6a50a99b9ba69eeaa96741a370ba7638d7a9c629c2cc340e934738",
+      "baselineTileIdsSha256": "789f0addb0c342663e065980fad54d9a45dc2ba36a1728e614c29be52ac5d3c6",
+      "randomBytes": [
+        213,
+        24,
+        215,
+        0
+      ],
+      "randomDraws": 2765
+    },
+    {
+      "id": "SCENH017.INI",
+      "seed": 552,
+      "tileIdsSha256": "b1cfe050050bf5128d6ec2031a50339cf51a4741adecbeee9b8e568822add5bb",
+      "baselineTileIdsSha256": "3da6de4060a5bd69c80fdc1613984c132be6d09c779b941458bf36e19fe92929",
+      "randomBytes": [
+        10,
+        1,
+        116,
+        0
+      ],
+      "randomDraws": 1249
+    },
+    {
+      "id": "SCENH018.INI",
+      "seed": 563,
+      "tileIdsSha256": "e2e8b188ba99f51148dd3c3c0aa33bfd4527b31f6f33249edf51b0ed33d5385c",
+      "baselineTileIdsSha256": "bf813aa6d61df3421d1ebfc9902092663be5185efe44d97b2ed245297e1173c7",
+      "randomBytes": [
+        174,
+        121,
+        38,
+        0
+      ],
+      "randomDraws": 2742
+    },
+    {
+      "id": "SCENH019.INI",
+      "seed": 582,
+      "tileIdsSha256": "3cc01660570fbbfe8061f3420fbf33d863f9ca58787dbcb0e3782a5982b287ce",
+      "baselineTileIdsSha256": "6398b07e7f00b1de35c01ef578b0a700f9a937ec97dc373e4dc4a5b0bc8fa199",
+      "randomBytes": [
+        165,
+        165,
+        67,
+        0
+      ],
+      "randomDraws": 2564
+    },
+    {
+      "id": "SCENH020.INI",
+      "seed": 604,
+      "tileIdsSha256": "ffcf5bbb81feb366abc5218542e56d88d41cb8b0c4623c1f91f44880fad589b0",
+      "baselineTileIdsSha256": "61f98692710b214ca419b98a83c9b171b4fbc5dde383be719db3bec3bf69b2ad",
+      "randomBytes": [
+        85,
+        171,
+        125,
+        0
+      ],
+      "randomDraws": 2318
+    },
+    {
+      "id": "SCENH021.INI",
+      "seed": 723,
+      "tileIdsSha256": "e999cc0fdf3b356c93108bf9cfd05659acae6232f33dfe08eeedb57399b0d827",
+      "baselineTileIdsSha256": "4afee39150569b3dc4c34ae4e9954c5ab0e222bb7bd8d0b7caca010319eddf05",
+      "randomBytes": [
+        38,
+        54,
+        60,
+        0
+      ],
+      "randomDraws": 2797
+    },
+    {
+      "id": "SCENH022.INI",
+      "seed": 392,
+      "tileIdsSha256": "9f1b3e8862831c0bdad719b0b561106c9580642bdd6341221b383837f1c06148",
+      "baselineTileIdsSha256": "e90408836730cb2ea72049f8d5bd3f80644f4df8fb6ace106cff8ed6536c238f",
+      "randomBytes": [
+        120,
+        166,
+        192,
+        0
+      ],
+      "randomDraws": 2687
+    },
+    {
+      "id": "SCENO001.INI",
+      "seed": 1498,
+      "tileIdsSha256": "e08a2312280104b77270670fcf844e088854193a4dba170a25ed1fd69161837e",
+      "baselineTileIdsSha256": "e08a2312280104b77270670fcf844e088854193a4dba170a25ed1fd69161837e",
+      "randomBytes": [
+        55,
+        170,
+        123,
+        0
+      ],
+      "randomDraws": 1144
+    },
+    {
+      "id": "SCENO002.INI",
+      "seed": 3161,
+      "tileIdsSha256": "a4659a067a89f7877af387486aca6e3f78d9c8735c3ecb7193628475ca175a31",
+      "baselineTileIdsSha256": "a4659a067a89f7877af387486aca6e3f78d9c8735c3ecb7193628475ca175a31",
+      "randomBytes": [
+        62,
+        55,
+        176,
+        0
+      ],
+      "randomDraws": 2620
+    },
+    {
+      "id": "SCENO003.INI",
+      "seed": 113,
+      "tileIdsSha256": "5998b14ef3f45c2cef6dfbcb7121b8a84df700745c79b1515a2c07b85cac1851",
+      "baselineTileIdsSha256": "4b54d6ece36f8a2498361259effb5c756bddcebaa4806fee372602a71d042998",
+      "randomBytes": [
+        78,
+        91,
+        36,
+        0
+      ],
+      "randomDraws": 3008
+    },
+    {
+      "id": "SCENO004.INI",
+      "seed": 117,
+      "tileIdsSha256": "6a4b3cdba7b4ba02077a2ee13b34e919cfc53b35356ba95b9da052ed57dd4a24",
+      "baselineTileIdsSha256": "6a4b3cdba7b4ba02077a2ee13b34e919cfc53b35356ba95b9da052ed57dd4a24",
+      "randomBytes": [
+        85,
+        207,
+        225,
+        0
+      ],
+      "randomDraws": 2849
+    },
+    {
+      "id": "SCENO005.INI",
+      "seed": 2437,
+      "tileIdsSha256": "28efb0e30d25f315313e45b4ef9df041bd006a75ca6d5d47c260f7f4f64253cc",
+      "baselineTileIdsSha256": "4656db250d161d8173a66e6b2c5133d43c4d3147bc72cf477e56c71921d5ed96",
+      "randomBytes": [
+        62,
+        92,
+        224,
+        0
+      ],
+      "randomDraws": 2112
+    },
+    {
+      "id": "SCENO006.INI",
+      "seed": 122,
+      "tileIdsSha256": "e3f9dec836bc7fa6ed66d0c0ee8b1a298400d1371364a460c496f59f9ff57871",
+      "baselineTileIdsSha256": "8180cf7986c28294dcfeef1c2630dfa9e9b6a825303ae193154c9b894fc223a9",
+      "randomBytes": [
+        68,
+        120,
+        156,
+        0
+      ],
+      "randomDraws": 2422
+    },
+    {
+      "id": "SCENO007.INI",
+      "seed": 157,
+      "tileIdsSha256": "5cf53342172cd7b68c3da42b72e7f032351bece36119928663173eca5174211f",
+      "baselineTileIdsSha256": "f1e4214629154a5264083c614f8073b9f897067d0387647e934f1790248821df",
+      "randomBytes": [
+        16,
+        1,
+        12,
+        0
+      ],
+      "randomDraws": 1313
+    },
+    {
+      "id": "SCENO008.INI",
+      "seed": 12,
+      "tileIdsSha256": "071b79af420e6a56dc336147e7be9e571bf29e0409bb7ae5f45ad488f8d413b7",
+      "baselineTileIdsSha256": "03dedbac8ac59d2a673f348e6a8eb2cf94004b51e2f1096a236fc5e1b6ce69e7",
+      "randomBytes": [
+        131,
+        88,
+        93,
+        0
+      ],
+      "randomDraws": 1350
+    },
+    {
+      "id": "SCENO009.INI",
+      "seed": 16,
+      "tileIdsSha256": "795a355b45534ecdbcdcd42f06c034d26015024d986372f9477c00a2b6f6640c",
+      "baselineTileIdsSha256": "da4fd40f785959417ab2dc9a38f4e9517ec608ce5e4adf984d1a6ecef7554c97",
+      "randomBytes": [
+        79,
+        211,
+        65,
+        0
+      ],
+      "randomDraws": 1180
+    },
+    {
+      "id": "SCENO010.INI",
+      "seed": 24,
+      "tileIdsSha256": "8d4edd655c4123053d94cd2ce82028f08bd957d927375b077d1dea7cd39bbfd3",
+      "baselineTileIdsSha256": "390369c0f4a91aae7a7c5114696677f464433a5d403ac3712599777502cb8492",
+      "randomBytes": [
+        62,
+        61,
+        194,
+        0
+      ],
+      "randomDraws": 1248
+    },
+    {
+      "id": "SCENO011.INI",
+      "seed": 203,
+      "tileIdsSha256": "ae6a670f3a65b5d0a5edb8921b6a9f941645405a8a4e087a37543c973031f577",
+      "baselineTileIdsSha256": "3973564e602893d1c7c9cadf8ef6e53e86d3fb4148b2cec0b722d93baea633a6",
+      "randomBytes": [
+        211,
+        217,
+        221,
+        0
+      ],
+      "randomDraws": 2087
+    },
+    {
+      "id": "SCENO012.INI",
+      "seed": 207,
+      "tileIdsSha256": "ae3367be5388b83b8323a158084e77191650fe80c975b15715d578a970d8cc87",
+      "baselineTileIdsSha256": "800d5921c04f1f370cf10638872d3d5817bc0ebedebbe8918546dcfee0c87fb4",
+      "randomBytes": [
+        46,
+        214,
+        164,
+        0
+      ],
+      "randomDraws": 2290
+    },
+    {
+      "id": "SCENO013.INI",
+      "seed": 233,
+      "tileIdsSha256": "45c27db48fed3589d68f5780f5ebcf129f647d7eba49404c7aa8222305b503e4",
+      "baselineTileIdsSha256": "43c8d204cc71bedeb646f48c1fbc01f7fb7b5accf9f01f69d938aa91ca829092",
+      "randomBytes": [
+        179,
+        15,
+        37,
+        0
+      ],
+      "randomDraws": 1596
+    },
+    {
+      "id": "SCENO014.INI",
+      "seed": 53,
+      "tileIdsSha256": "af642b23ff8d4623fa007452562e955746704f02495cd70eff8839e05e855de3",
+      "baselineTileIdsSha256": "af642b23ff8d4623fa007452562e955746704f02495cd70eff8839e05e855de3",
+      "randomBytes": [
+        13,
+        126,
+        205,
+        0
+      ],
+      "randomDraws": 2492
+    },
+    {
+      "id": "SCENO015.INI",
+      "seed": 53,
+      "tileIdsSha256": "af642b23ff8d4623fa007452562e955746704f02495cd70eff8839e05e855de3",
+      "baselineTileIdsSha256": "af642b23ff8d4623fa007452562e955746704f02495cd70eff8839e05e855de3",
+      "randomBytes": [
+        13,
+        126,
+        205,
+        0
+      ],
+      "randomDraws": 2492
+    },
+    {
+      "id": "SCENO016.INI",
+      "seed": 59,
+      "tileIdsSha256": "33bb220c3d7d6d1fc8f635a7ef81a57d66fa995250a1b3d4a5f388ca2cb4075a",
+      "baselineTileIdsSha256": "bfc07dc8d24bcdc676865de074a842cbb864899ee283c34ea1031fc9340b3aaf",
+      "randomBytes": [
+        182,
+        7,
+        68,
+        0
+      ],
+      "randomDraws": 1121
+    },
+    {
+      "id": "SCENO017.INI",
+      "seed": 500,
+      "tileIdsSha256": "e99deee15206f4b5e6bfdfe9efa8de2c104b630ecb3485125e7201c49a4a841c",
+      "baselineTileIdsSha256": "e99deee15206f4b5e6bfdfe9efa8de2c104b630ecb3485125e7201c49a4a841c",
+      "randomBytes": [
+        238,
+        143,
+        140,
+        0
+      ],
+      "randomDraws": 2709
+    },
+    {
+      "id": "SCENO018.INI",
+      "seed": 552,
+      "tileIdsSha256": "ac24bac5f8bead0482f5374a81105b4e111ed7ec5d2c3a650cdb30b2fdca1693",
+      "baselineTileIdsSha256": "d5ae622bffddc94ea6ea5de3ed8309f6133a7954842621bcfa5107655a9a61a6",
+      "randomBytes": [
+        104,
+        196,
+        30,
+        0
+      ],
+      "randomDraws": 1035
+    },
+    {
+      "id": "SCENO019.INI",
+      "seed": 563,
+      "tileIdsSha256": "6d57171ea2e7c7f5927e8792a442a84cb8fa571814f6088b1520b93f6dc8c181",
+      "baselineTileIdsSha256": "6d57171ea2e7c7f5927e8792a442a84cb8fa571814f6088b1520b93f6dc8c181",
+      "randomBytes": [
+        99,
+        131,
+        255,
+        0
+      ],
+      "randomDraws": 2686
+    },
+    {
+      "id": "SCENO020.INI",
+      "seed": 717,
+      "tileIdsSha256": "a38b30acd59f1864bf8f41da9a12bd4a8e27ba2bed425196cc66cc2593de8938",
+      "baselineTileIdsSha256": "a38b30acd59f1864bf8f41da9a12bd4a8e27ba2bed425196cc66cc2593de8938",
+      "randomBytes": [
+        161,
+        34,
+        67,
+        0
+      ],
+      "randomDraws": 2310
+    },
+    {
+      "id": "SCENO021.INI",
+      "seed": 723,
+      "tileIdsSha256": "a05dc32ddb937f7387d0b6337aadf9c29db8ebeefac6eea78a9768c1c1ade96c",
+      "baselineTileIdsSha256": "a05dc32ddb937f7387d0b6337aadf9c29db8ebeefac6eea78a9768c1c1ade96c",
+      "randomBytes": [
+        237,
+        118,
+        41,
+        0
+      ],
+      "randomDraws": 2769
+    },
+    {
+      "id": "SCENO022.INI",
+      "seed": 392,
+      "tileIdsSha256": "71b11c879acbf0c280608d0eef50af19dcb2548ee11cdf4b810f592d1e8c19b6",
+      "baselineTileIdsSha256": "5b303483461b0a4d53645839738fd63ee8d48ae9ab1e7a96fe852e2b932aa646",
+      "randomBytes": [
+        88,
+        62,
+        166,
+        0
+      ],
+      "randomDraws": 2755
+    }
+  ]
+}

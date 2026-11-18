@@ -1,0 +1,76 @@
+{
+  "version": "0.3.0",
+  "target": "final local browser WASM build; exact binaries recorded below",
+  "executedDosBinaryByBrowser": false,
+  "observed": [
+    "Full opening movie, including late continuation WSA scenes, returned to the original main menu without errors",
+    "DOS-produced3520-byte save imported into next free native slot _SAVE002.DAT",
+    "Native original menu listed DOS description cross and loaded the saved Atreides mission",
+    "Live native mission rendered units, terrain and construction yard; GUI/game clocks advanced",
+    "F2 opened original Options; Continue game resumed the mission",
+    "AudioWorklet running with nonzero score register writes; all21 banks prefetched"
+  ],
+  "input": {
+    "source": "analysis/dune-2/dos-comparison/media-save/save-cross-03/DOS_SAVE001.DAT",
+    "browserInput": "analysis/dune-2/dos-comparison/browser/SAVE000.DAT",
+    "bytes": 3520,
+    "sha256": "11ee9111bb792b870cd3e74c2825b291761a3d529796ca623194422b0f1264f2",
+    "modification": "Filename copy only; bytes unchanged"
+  },
+  "state": {
+    "clock": 279425.40000009537,
+    "errors": [],
+    "files": [
+      "ONETIME.DAT",
+      "OPTIONS.CFG",
+      "_SAVE000.DAT",
+      "_SAVE001.DAT",
+      "dune.cfg",
+      "options.cfg",
+      "_SAVE002.DAT"
+    ],
+    "hidden": false,
+    "music": {
+      "bank": "DUNE7",
+      "context": "running",
+      "generation": 13,
+      "lastError": null,
+      "loaded": true,
+      "playing": true,
+      "prefetchedBanks": 21,
+      "registerWrites": 1747,
+      "sampleRate": 48000,
+      "ticks": 8033,
+      "track": 6,
+      "volume": 0.65
+    },
+    "overlayPaused": false,
+    "started": true,
+    "status": [
+      16732,
+      2045,
+      1,
+      1,
+      1,
+      0,
+      1,
+      4
+    ]
+  },
+  "coreOutputs": {
+    "dune-native.mjs": "9e14c4e9d89b290073d161ad5a7554f382eebc0dca7663f364701331efb23bf7",
+    "dune-native.wasm": "1198897f62f27cb6e8bfeb57159e6c51386b5e7d64095f2378fed04b2bbb0321",
+    "dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
+  },
+  "musicWasmSha256": "e29b0487fc72d4c7c4691f96a11229bf0976d345d0385fa1656f1f55d8e3d9ef",
+  "errors": [],
+  "screenshot": {
+    "path": "analysis/dune-2/dos-comparison/browser/dos-save-loaded.jpg",
+    "sha256": "27549c756b5cd75dce804e8286b1fdeb1e138898607e042d4b642edc2dfbdbc8"
+  },
+  "limits": [
+    "Does not repeat a complete campaign or all special-weapon cases in the browser",
+    "Full original scene comparisons and ASan native checks are reported separately",
+    "Original save common fields were independently compared in the full headless native loader"
+  ]
+}

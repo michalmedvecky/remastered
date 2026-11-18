@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "scope": "actual presentation cache under ASan; no DOS/game execution",
+  "patchIdempotent": true,
+  "desktopSyntaxFiles": 4,
+  "bridgeSha256": "0b71d67434ddd07cb341c77139b7979a545efaaf4ae6968942bd09272ead3496",
+  "cases": [
+    "stationary persistence",
+    "camera translation",
+    "native insertion painter order",
+    "shadow/body ordering",
+    "reticle selection",
+    "owner replacement/pruning",
+    "palette/remap copies",
+    "bounded per-owner overflow",
+    "bounded UI command cache"
+  ]
+}

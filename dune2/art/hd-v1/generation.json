@@ -1,0 +1,28 @@
+{
+  "tool": "built-in imagegen",
+  "purpose": "New high-resolution material source for original-mask constrained HD terrain and sprites",
+  "sourceImage": "materials-source.png",
+  "sha256": "5d2a80ec0c49dbf37993f5a16dde88ca08ae2f66fbd13f1afca6040cecc09419",
+  "layout": "4x4 equal cells in row-major order",
+  "materials": [
+    "sand",
+    "dune",
+    "basalt",
+    "spice",
+    "dense-spice",
+    "concrete",
+    "steel",
+    "gunmetal",
+    "aluminum",
+    "red-paint",
+    "brass",
+    "rubber",
+    "glass",
+    "blue-emission",
+    "fire",
+    "green-gas"
+  ],
+  "invariants": "Original decoded resource frames, dimensions, palette indices and alpha masks control gameplay geometry. Generated materials add visual detail only.",
+  "promptFidelity": "retained description; not a verbatim tool-input transcript",
+  "promptDescriptionFile": "prompts.md#materials"
+}

@@ -1,0 +1,6 @@
+{
+  "url": "https://github.com/OpenDUNE/OpenDUNE",
+  "commit": "ebea79aeba025be2fe9004570e9255044aacc0be",
+  "license": "GPL-2.0-only",
+  "role": "Reverse-engineered native core; supplied V1.07 differences patched separately"
+}

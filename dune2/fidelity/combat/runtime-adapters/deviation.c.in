@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#include "types.h"
+#include "object.h"
+#include "unit.h"
+#include "house.h"
+#include "tools.h"
+#include "opendune.h"
+bool g_dune2_enhanced=false;
+HouseType g_playerHouseID=1;
+static Unit target;
+static uint8 s_randomSeed[4];
+static uint16 *log_out;
+void Unit_UpdateMap(uint16 m,Unit*u){log_out[6]++;}
+void Unit_SetAction(Unit*u,ActionType a){u->actionID=a;}
+void Unit_UntargetMe(Unit*u){log_out[7]++;}
+@@Unit_Deviate@@
+@@Unit_Deviation_Decrease@@
+@@Unit_GetHouseID@@
+@@Tools_Random_256@@
+@@Tools_Random_Seed@@
+void run_deviation(const uint16*in,uint16*out){
+ memset(&target,0,sizeof target);memset(out,0,24);log_out=out;
+ target.o.type=in[1];target.o.houseID=in[2];g_playerHouseID=in[3];target.deviated=in[6];Tools_Random_Seed(in[7]|(uint32)in[8]<<16);target.targetAttack=in[9];target.targetMove=in[10];target.o.flags.all=in[11];target.actionID=7;
+ out[0]=in[0]?Unit_Deviation_Decrease(&target,in[5]):Unit_Deviate(&target,in[5],in[4]);out[1]=target.deviated;out[2]=target.o.flags.all&65535;out[3]=target.targetAttack;out[4]=target.targetMove;out[5]=target.actionID;out[8]=s_randomSeed[0]|s_randomSeed[1]<<8;out[9]=s_randomSeed[2]|s_randomSeed[3]<<8;out[10]=Unit_GetHouseID(&target);
+}

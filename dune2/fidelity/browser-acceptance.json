@@ -1,0 +1,74 @@
+{
+  "version": "0.2.0",
+  "target": "local browser build from the same source being published",
+  "executedDosBinary": false,
+  "observed": [
+    "full opening sequence reached original menu",
+    "Westwood/intro/menu/briefing/game music cues advance with nonzero OPL register writes",
+    "direct launch skips initial movie while retaining original Replay Introduction menu",
+    "House selection, Atreides introduction, confirmation and first mission briefing",
+    "native first Atreides mission terrain, unit animation, selection and scrolling",
+    "F2 opens native Options and keyboard input enters a native save description",
+    "native save exported (3812 bytes), IFF chunks parsed and retained",
+    "exported save imported into contiguous second slot and loaded by original menu",
+    "page reload preserved both slots and native main menu Load a game option",
+    "new page loaded the persisted imported mission",
+    "browser help suspends native clock and both audio paths; close restores canvas focus",
+    "final host uses canonical uppercase native writer filenames without overwriting occupied slots"
+  ],
+  "errorsOnFinalSession": [],
+  "musicSample": {
+    "context": "running",
+    "sampleRate": 48000,
+    "bank": "DUNE18",
+    "track": 6,
+    "loaded": true,
+    "registerWrites": 1294,
+    "prefetchedBanks": 21
+  },
+  "saveArtifact": "browser/_save000.dat",
+  "saveInspection": "browser/save-inspection.json",
+  "notAcceptanceTested": [
+    "all campaign branches",
+    "all special-weapon interactions",
+    "three complete finale and credits paths",
+    "comparison with original executable or physical sound hardware",
+    "original DOS cross-loading of exported ODUN-extended save"
+  ],
+  "backgroundPause": "Clock model unit-tested; the IAB temporary-tab probe did not change document.hidden, so real background-tab dispatch is not independently acceptance-verified.",
+  "overlayPauseEvidence": {
+    "firstClockMs": 124540.2000002861,
+    "secondClockMs": 124540.2000002861,
+    "nativeTimerFirst": 7198,
+    "nativeTimerSecond": 7198,
+    "oplTicksFirst": 8626,
+    "oplTicksSecond": 8626,
+    "audioContext": "suspended",
+    "resumeObserved": true
+  },
+  "finalSnapshot": {
+    "nativeTimers": [
+      8551,
+      8551
+    ],
+    "gameMode": 1,
+    "house": 1,
+    "scenario": 1,
+    "campaign": 0,
+    "musicBank": "DUNE7",
+    "musicTrack": 6,
+    "musicContext": "running",
+    "oplTicks": 10260,
+    "oplRegisterWrites": 2090,
+    "canonicalSaves": [
+      "_SAVE000.DAT",
+      "_SAVE001.DAT"
+    ],
+    "errors": []
+  },
+  "screenshot": {
+    "path": "analysis/dune-2/fidelity-browser-gameplay.jpg",
+    "sha256": "b8fecfe9fd1bf4532b241e5cf86a616268fd6cce84ea20eeee76bd0996f1e363"
+  },
+  "phase": "Historical release0.2 browser observations; release0.3 checks are in dos-browser-acceptance.json"
+}

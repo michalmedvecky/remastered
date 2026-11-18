@@ -1,0 +1,344 @@
+[
+  {
+    "music_id": 0,
+    "bank": null,
+    "track": 0,
+    "original_file_offset": "0x385e0",
+    "original_bytes": "000000000000",
+    "source_symbol": "NULL",
+    "verified": true
+  },
+  {
+    "music_id": 1,
+    "bank": "DUNE1",
+    "track": 2,
+    "original_file_offset": "0x385e6",
+    "original_bytes": "1412f0320200",
+    "source_symbol": "_music_dune01",
+    "verified": true
+  },
+  {
+    "music_id": 2,
+    "bank": "DUNE1",
+    "track": 3,
+    "original_file_offset": "0x385ec",
+    "original_bytes": "1412f0320300",
+    "source_symbol": "_music_dune01",
+    "verified": true
+  },
+  {
+    "music_id": 3,
+    "bank": "DUNE1",
+    "track": 4,
+    "original_file_offset": "0x385f2",
+    "original_bytes": "1412f0320400",
+    "source_symbol": "_music_dune01",
+    "verified": true
+  },
+  {
+    "music_id": 4,
+    "bank": "DUNE1",
+    "track": 5,
+    "original_file_offset": "0x385f8",
+    "original_bytes": "1412f0320500",
+    "source_symbol": "_music_dune01",
+    "verified": true
+  },
+  {
+    "music_id": 5,
+    "bank": "DUNE17",
+    "track": 4,
+    "original_file_offset": "0x385fe",
+    "original_bytes": "1a12f0320400",
+    "source_symbol": "_music_dune17",
+    "verified": true
+  },
+  {
+    "music_id": 6,
+    "bank": "DUNE8",
+    "track": 3,
+    "original_file_offset": "0x38604",
+    "original_bytes": "2112f0320300",
+    "source_symbol": "_music_dune08",
+    "verified": true
+  },
+  {
+    "music_id": 7,
+    "bank": "DUNE8",
+    "track": 2,
+    "original_file_offset": "0x3860a",
+    "original_bytes": "2112f0320200",
+    "source_symbol": "_music_dune08",
+    "verified": true
+  },
+  {
+    "music_id": 8,
+    "bank": "DUNE1",
+    "track": 6,
+    "original_file_offset": "0x38610",
+    "original_bytes": "1412f0320600",
+    "source_symbol": "_music_dune01",
+    "verified": true
+  },
+  {
+    "music_id": 9,
+    "bank": "DUNE2",
+    "track": 6,
+    "original_file_offset": "0x38616",
+    "original_bytes": "2712f0320600",
+    "source_symbol": "_music_dune02",
+    "verified": true
+  },
+  {
+    "music_id": 10,
+    "bank": "DUNE3",
+    "track": 6,
+    "original_file_offset": "0x3861c",
+    "original_bytes": "2d12f0320600",
+    "source_symbol": "_music_dune03",
+    "verified": true
+  },
+  {
+    "music_id": 11,
+    "bank": "DUNE4",
+    "track": 6,
+    "original_file_offset": "0x38622",
+    "original_bytes": "3312f0320600",
+    "source_symbol": "_music_dune04",
+    "verified": true
+  },
+  {
+    "music_id": 12,
+    "bank": "DUNE5",
+    "track": 6,
+    "original_file_offset": "0x38628",
+    "original_bytes": "3912f0320600",
+    "source_symbol": "_music_dune05",
+    "verified": true
+  },
+  {
+    "music_id": 13,
+    "bank": "DUNE6",
+    "track": 6,
+    "original_file_offset": "0x3862e",
+    "original_bytes": "3f12f0320600",
+    "source_symbol": "_music_dune06",
+    "verified": true
+  },
+  {
+    "music_id": 14,
+    "bank": "DUNE9",
+    "track": 4,
+    "original_file_offset": "0x38634",
+    "original_bytes": "4512f0320400",
+    "source_symbol": "_music_dune09",
+    "verified": true
+  },
+  {
+    "music_id": 15,
+    "bank": "DUNE9",
+    "track": 5,
+    "original_file_offset": "0x3863a",
+    "original_bytes": "4512f0320500",
+    "source_symbol": "_music_dune09",
+    "verified": true
+  },
+  {
+    "music_id": 16,
+    "bank": "DUNE18",
+    "track": 6,
+    "original_file_offset": "0x38640",
+    "original_bytes": "4b12f0320600",
+    "source_symbol": "_music_dune18",
+    "verified": true
+  },
+  {
+    "music_id": 17,
+    "bank": "DUNE10",
+    "track": 7,
+    "original_file_offset": "0x38646",
+    "original_bytes": "5212f0320700",
+    "source_symbol": "_music_dune10",
+    "verified": true
+  },
+  {
+    "music_id": 18,
+    "bank": "DUNE11",
+    "track": 7,
+    "original_file_offset": "0x3864c",
+    "original_bytes": "5912f0320700",
+    "source_symbol": "_music_dune11",
+    "verified": true
+  },
+  {
+    "music_id": 19,
+    "bank": "DUNE12",
+    "track": 7,
+    "original_file_offset": "0x38652",
+    "original_bytes": "6012f0320700",
+    "source_symbol": "_music_dune12",
+    "verified": true
+  },
+  {
+    "music_id": 20,
+    "bank": "DUNE13",
+    "track": 7,
+    "original_file_offset": "0x38658",
+    "original_bytes": "6712f0320700",
+    "source_symbol": "_music_dune13",
+    "verified": true
+  },
+  {
+    "music_id": 21,
+    "bank": "DUNE14",
+    "track": 7,
+    "original_file_offset": "0x3865e",
+    "original_bytes": "6e12f0320700",
+    "source_symbol": "_music_dune14",
+    "verified": true
+  },
+  {
+    "music_id": 22,
+    "bank": "DUNE15",
+    "track": 7,
+    "original_file_offset": "0x38664",
+    "original_bytes": "7512f0320700",
+    "source_symbol": "_music_dune15",
+    "verified": true
+  },
+  {
+    "music_id": 23,
+    "bank": "DUNE1",
+    "track": 8,
+    "original_file_offset": "0x3866a",
+    "original_bytes": "1412f0320800",
+    "source_symbol": "_music_dune01",
+    "verified": true
+  },
+  {
+    "music_id": 24,
+    "bank": "DUNE7",
+    "track": 2,
+    "original_file_offset": "0x38670",
+    "original_bytes": "7c12f0320200",
+    "source_symbol": "_music_dune07",
+    "verified": true
+  },
+  {
+    "music_id": 25,
+    "bank": "DUNE7",
+    "track": 3,
+    "original_file_offset": "0x38676",
+    "original_bytes": "7c12f0320300",
+    "source_symbol": "_music_dune07",
+    "verified": true
+  },
+  {
+    "music_id": 26,
+    "bank": "DUNE7",
+    "track": 4,
+    "original_file_offset": "0x3867c",
+    "original_bytes": "7c12f0320400",
+    "source_symbol": "_music_dune07",
+    "verified": true
+  },
+  {
+    "music_id": 27,
+    "bank": "DUNE0",
+    "track": 2,
+    "original_file_offset": "0x38682",
+    "original_bytes": "8212f0320200",
+    "source_symbol": "_music_dune00",
+    "verified": true
+  },
+  {
+    "music_id": 28,
+    "bank": "DUNE7",
+    "track": 6,
+    "original_file_offset": "0x38688",
+    "original_bytes": "7c12f0320600",
+    "source_symbol": "_music_dune07",
+    "verified": true
+  },
+  {
+    "music_id": 29,
+    "bank": "DUNE16",
+    "track": 7,
+    "original_file_offset": "0x3868e",
+    "original_bytes": "8812f0320700",
+    "source_symbol": "_music_dune16",
+    "verified": true
+  },
+  {
+    "music_id": 30,
+    "bank": "DUNE19",
+    "track": 4,
+    "original_file_offset": "0x38694",
+    "original_bytes": "8f12f0320400",
+    "source_symbol": "_music_dune19",
+    "verified": true
+  },
+  {
+    "music_id": 31,
+    "bank": "DUNE19",
+    "track": 2,
+    "original_file_offset": "0x3869a",
+    "original_bytes": "8f12f0320200",
+    "source_symbol": "_music_dune19",
+    "verified": true
+  },
+  {
+    "music_id": 32,
+    "bank": "DUNE19",
+    "track": 3,
+    "original_file_offset": "0x386a0",
+    "original_bytes": "8f12f0320300",
+    "source_symbol": "_music_dune19",
+    "verified": true
+  },
+  {
+    "music_id": 33,
+    "bank": "DUNE20",
+    "track": 2,
+    "original_file_offset": "0x386a6",
+    "original_bytes": "9612f0320200",
+    "source_symbol": "_music_dune20",
+    "verified": true
+  },
+  {
+    "music_id": 34,
+    "bank": "DUNE16",
+    "track": 8,
+    "original_file_offset": "0x386ac",
+    "original_bytes": "8812f0320800",
+    "source_symbol": "_music_dune16",
+    "verified": true
+  },
+  {
+    "music_id": 35,
+    "bank": "DUNE0",
+    "track": 3,
+    "original_file_offset": "0x386b2",
+    "original_bytes": "8212f0320300",
+    "source_symbol": "_music_dune00",
+    "verified": true
+  },
+  {
+    "music_id": 36,
+    "bank": "DUNE0",
+    "track": 4,
+    "original_file_offset": "0x386b8",
+    "original_bytes": "8212f0320400",
+    "source_symbol": "_music_dune00",
+    "verified": true
+  },
+  {
+    "music_id": 37,
+    "bank": "DUNE0",
+    "track": 5,
+    "original_file_offset": "0x386be",
+    "original_bytes": "8212f0320500",
+    "source_symbol": "_music_dune00",
+    "verified": true
+  }
+]

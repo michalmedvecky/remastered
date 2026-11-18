@@ -1,0 +1,10 @@
+{
+  "tool": "built-in imagegen",
+  "source": "cover-source.png",
+  "sha256": "9953d70e7711094ebfa17ed1ddb65aee39a8650632a872680aa19775902a6abd",
+  "output": "dist/hd/cover.png",
+  "purpose": "HD launch artwork, separate from original native cinematic resources",
+  "promptFidelity": "retained description; not a verbatim tool-input transcript",
+  "promptDescriptionFile": "prompts.md#cover",
+  "promptDescription": "Painted landscape3:2 Arrakis desert RTS cover; ochre dunes, basalt, compact constructionyard/windtraps/refinery, bluefaction tanks andspiceharvester, warmupperleftsun. Faithful1990scompactmilitarysilhouettes. NoHUD,text,logos,actors,watermark."
+}

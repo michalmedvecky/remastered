@@ -1,0 +1,145 @@
+{
+  "scope": "Reconstructed browser engine only; ordinary player build/place commands, no state cheats and no DOS execution",
+  "house": 1,
+  "scenario": "SCENA001.INI",
+  "speed": 2,
+  "inputTape": [
+    {
+      "tick": 0,
+      "type": "build",
+      "kind": "structure",
+      "objectType": 9
+    },
+    {
+      "tick": 390,
+      "type": "place",
+      "tile": 1502
+    },
+    {
+      "tick": 390,
+      "type": "build",
+      "kind": "structure",
+      "objectType": 12
+    },
+    {
+      "tick": 1050,
+      "type": "place",
+      "tile": 1756
+    }
+  ],
+  "idleAtTwoMinutes": {
+    "tick": 7200,
+    "seconds": 120,
+    "outcome": null,
+    "credits": 1000,
+    "displayCredits": 1000,
+    "delivered": 0,
+    "liveUnits": 5,
+    "liveStructures": [
+      {
+        "type": 8,
+        "hp": 400,
+        "maxHp": 400
+      }
+    ],
+    "kills": 3,
+    "losses": 0,
+    "result": null
+  },
+  "idleAtAssessment": {
+    "tick": 7225,
+    "seconds": 120.41666666666667,
+    "outcome": "victory",
+    "credits": 1000,
+    "displayCredits": 1000,
+    "delivered": 0,
+    "liveUnits": 5,
+    "liveStructures": [
+      {
+        "type": 8,
+        "hp": 400,
+        "maxHp": 400
+      }
+    ],
+    "kills": 3,
+    "losses": 0,
+    "result": {
+      "outcome": "victory",
+      "ticks": 7225,
+      "minutes": 3,
+      "credits": 1000,
+      "delivered": 0,
+      "kills": 3,
+      "losses": 0,
+      "score": 60
+    }
+  },
+  "activeAtTwoMinutes": {
+    "tick": 7200,
+    "seconds": 120,
+    "outcome": null,
+    "credits": 1000,
+    "displayCredits": 1000,
+    "delivered": 700,
+    "liveUnits": 5,
+    "liveStructures": [
+      {
+        "type": 8,
+        "hp": 400,
+        "maxHp": 400
+      },
+      {
+        "type": 9,
+        "hp": 200,
+        "maxHp": 200
+      },
+      {
+        "type": 12,
+        "hp": 450,
+        "maxHp": 450
+      }
+    ],
+    "kills": 2,
+    "losses": 1,
+    "result": null
+  },
+  "activeAtAssessment": {
+    "tick": 7225,
+    "seconds": 120.41666666666667,
+    "outcome": "victory",
+    "credits": 1000,
+    "displayCredits": 1000,
+    "delivered": 700,
+    "liveUnits": 5,
+    "liveStructures": [
+      {
+        "type": 8,
+        "hp": 400,
+        "maxHp": 400
+      },
+      {
+        "type": 9,
+        "hp": 200,
+        "maxHp": 200
+      },
+      {
+        "type": 12,
+        "hp": 450,
+        "maxHp": 450
+      }
+    ],
+    "kills": 2,
+    "losses": 1,
+    "result": {
+      "outcome": "victory",
+      "ticks": 7225,
+      "minutes": 3,
+      "credits": 1000,
+      "delivered": 700,
+      "kills": 2,
+      "losses": 1,
+      "score": 66
+    }
+  },
+  "firstDeliveryTick": 3512
+}

@@ -1,0 +1,134 @@
+{
+  "release": "0.4.0",
+  "date": "2026-11-18",
+  "target": "http://127.0.0.1:6002/dune2/",
+  "runtime": "Rebuilt native WebAssembly, not the DOS executable",
+  "scenario": "Atreides mission 1",
+  "observations": [
+    "Native launch and house/briefing progression reach mission 1",
+    "Native IFF save _SAVE000.DAT, description hd qa, persisted and loaded after page reload",
+    "Original/HD selector switches presentation live and persists preference across reload",
+    "Selected Trike and native Move command change its location from left to right within unveiled sand",
+    "Native direction keys scroll camera; radar click returns to base; stationary units/building follow camera",
+    "Native F2 Options pauses game timer; returned to mission",
+    "Field manual dialog exposes browser pause state and returns to command",
+    "Fog, selection/cursor, command panel and faction blue remain visible during HD gameplay"
+  ],
+  "nativeOptionsPause": {
+    "gameTickBefore": 64377,
+    "gameTickAfter": 64377,
+    "guiTickBefore": 64804,
+    "guiTickAfter": 66304
+  },
+  "finalState": {
+    "clock": 1236715.8999996183,
+    "errors": [],
+    "files": [
+      "DUNE.CFG",
+      "ONETIME.DAT",
+      "OPTIONS.CFG",
+      "_SAVE000.DAT"
+    ],
+    "graphics": {
+      "cachedUIClipBytes": 16640,
+      "cachedUIClips": 64,
+      "cachedVariantBytes": 1164800,
+      "cachedVariants": 75,
+      "commands": 6,
+      "coverage": {
+        "materials": [
+          "sand",
+          "dune",
+          "basalt",
+          "spice",
+          "dense-spice",
+          "concrete",
+          "steel",
+          "gunmetal",
+          "aluminum",
+          "red-paint",
+          "brass",
+          "rubber",
+          "glass",
+          "blue-emission",
+          "fire",
+          "green-gas"
+        ],
+        "maxAtlasDimension": 4088,
+        "nativeSHPFrames": 525,
+        "nativeSHPIdsComplete": true,
+        "staticScreens": 16,
+        "tileFrames": 389,
+        "tileIdsComplete": true,
+        "uiFrames": 281,
+        "unitFrames": 244,
+        "worldFramePixels": 2782320,
+        "worldOpaquePixelsWithAddedMaterialDetail": 1554390,
+        "wsasStoredAsHD": 0
+      },
+      "cursorPainted": true,
+      "errors": 0,
+      "frames": 18637,
+      "height": 800,
+      "lastPaintMs": 8.7,
+      "maxPaintMs": 43.8,
+      "mode": "hd",
+      "nativeOverlayPixels": 0,
+      "paintMs": 8.7,
+      "ready": true,
+      "uiClipBytes": 16640,
+      "uiCommands": 1,
+      "unsupportedCommands": 0,
+      "variantBytes": 1164800,
+      "width": 1280,
+      "worldFrames": 17759
+    },
+    "hidden": false,
+    "music": {
+      "bank": "DUNE7",
+      "context": "running",
+      "generation": 4,
+      "lastError": null,
+      "loaded": true,
+      "playing": true,
+      "prefetchedBanks": 21,
+      "registerWrites": 18540,
+      "sampleRate": 48000,
+      "ticks": 88984,
+      "track": 6,
+      "volume": 0.65
+    },
+    "overlayPaused": false,
+    "started": true,
+    "status": [
+      74160,
+      72082,
+      1,
+      1,
+      1,
+      0,
+      1,
+      4
+    ]
+  },
+  "screenshotEvidence": {
+    "hd": "analysis/dune-2/hd-remaster/hd-gameplay.jpg",
+    "original": "analysis/dune-2/hd-remaster/original-gameplay.jpg",
+    "options": "analysis/dune-2/hd-remaster/options.jpg",
+    "portal": "portal/dist/assets/dune2.jpg"
+  },
+  "limits": [
+    "First-mission browser sample; not exhaustive campaign/cinematic acceptance",
+    "Observed paint times depend on this Mac and screenshot workload",
+    "HD artwork intentionally differs from original pixels; gameplay regression fixtures remain separate"
+  ],
+  "bindings": {
+    "dist/hd/manifest.json": "68f56c97755e0467d83566794f845945686c8bf24719f8d89d4cb8e09e70a4fb",
+    "dist/hd-renderer.mjs": "348c8e7cf3df89a2eda567feb30a7462d3a5469f59ef3f1882ba7de302182236",
+    "dist/hd-core.mjs": "c68fe0b461a15f3482d5ae4b82f07408d54d82ff5238b5a00775a435c7fdce60",
+    "dist/native-host.mjs": "1453a5d06a1647ff9fe6779bd135e5b4c4c3b8d1d21e4bc3c8cd60e2f4cb15cc",
+    "dist/native/dune-native.wasm": "34ad373984de31de1bd4f28df7f6a2c594c34c9773c7820111c881c98f009158",
+    "native/browser/hd_bridge.c": "0b71d67434ddd07cb341c77139b7979a545efaaf4ae6968942bd09272ead3496",
+    "native/browser/hd_bridge.h": "d9ca93e94145e7842bbae00ee85f4fcaf5fb6f6ab4c8c2f34ba95771774613bd"
+  }
+}

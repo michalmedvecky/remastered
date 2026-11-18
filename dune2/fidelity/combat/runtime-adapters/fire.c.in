@@ -1,0 +1,68 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "types.h"
+#include "os/math.h"
+#include "os/common.h"
+#include "object.h"
+#include "unit.h"
+#include "structure.h"
+#include "script/script.h"
+#include "config.h"
+#include "opendune.h"
+#include "tools.h"
+#include "tile.h"
+#include "dune107.h"
+Unit *g_scriptCurrentUnit;
+Object *g_scriptCurrentObject;
+bool g_dune2_enhanced=false;
+GameCfg g_gameConfig;
+static Unit attacker,target,bullet;
+static Structure building;
+static ScriptEngine script;
+static uint8 s_randomSeed[4];
+static uint16 log_type,log_damage,allow_bullet;
+IndexType Tools_Index_GetType(uint16 n){return n>>14==1?IT_UNIT:n>>14==2?IT_STRUCTURE:n>>14==3?IT_TILE:IT_NONE;}
+bool Tools_Index_IsValid(uint16 n){return n!=0;}
+uint16 Tools_Index_Encode(uint16 n,IndexType t){if(t==IT_UNIT)return n|0x4000;if(t==IT_STRUCTURE)return n|0x8000;return (((n&63)*2+1)|((n&0xfc0)*4+0x80))|0xc000;}
+Unit *Tools_Index_GetUnit(uint16 n){return Tools_Index_GetType(n)==IT_UNIT?&target:NULL;}
+Structure *Tools_Index_GetStructure(uint16 n){return Tools_Index_GetType(n)==IT_STRUCTURE?&building:NULL;}
+tile32 Tools_Index_GetTile(uint16 n){if(Tools_Index_GetType(n)==IT_STRUCTURE){tile32 p=building.o.position,d=g_table_structure_layoutTileDiff[g_table_structureInfo[building.o.type].layout];p.x+=d.x;p.y+=d.y;return p;}return target.o.position;}
+uint16 Tools_Index_GetPackedTile(uint16 n){return Tile_PackTile(target.o.position);}
+Object *Object_GetByPackedTile(uint16 n){return NULL;}
+void Unit_SetTarget(Unit *u,uint16 t){u->targetAttack=t;}
+uint8 Unit_GetHouseID(Unit *u){return u->deviated?2:u->o.houseID;}
+Unit *Unit_CreateBullet(tile32 p,UnitType t,uint8 h,uint16 d,uint16 target){log_type=t;log_damage=d;return allow_bullet?&bullet:NULL;}
+void Voice_PlayAtTile(int16 v,tile32 p){}
+bool Unit_Deviation_Decrease(Unit*u,uint16 a){return false;}
+void Unit_UpdateMap(uint16 mode,Unit*u){}
+void Unit_RemovePlayer(Unit*u){}
+void Unit_HouseUnitCount_Remove(Unit*u){}
+void Unit_Remove(Unit*u){}
+void Unit_SetAction(Unit*u,ActionType a){}
+void Map_MakeExplosion(uint16 t,tile32 p,uint16 h,uint16 o){}
+uint16 Tools_AdjustToGameSpeed(uint16 n,uint16 l,uint16 h,bool inverse){return Dune107_AdjustToGameSpeed(n,l,h,inverse,g_gameConfig.gameSpeed);}
+@@Script_Unit_Fire@@
+
+@@Tile_GetDirection@@
+
+@@Tile_GetDistance@@
+
+@@Tile_UnpackTile@@
+
+@@Object_GetDistanceToEncoded@@
+
+@@Tools_Random_256@@
+
+@@Tools_Random_Seed@@
+
+@@Orientation_Orientation256ToOrientation8@@
+void run_fire(const uint16 *in,uint16 *out){
+ memset(&attacker,0,sizeof attacker);memset(&target,0,sizeof target);memset(&building,0,sizeof building);memset(&bullet,0,sizeof bullet);memset(&script,0,sizeof script);
+ attacker.o.type=in[0];attacker.o.index=0;attacker.o.hitpoints=in[1];attacker.o.flags.all=3|(in[7]?0x10:0);attacker.o.houseID=1;attacker.o.position.x=0xa80;attacker.o.position.y=0xa80;
+ attacker.orientation[0].current=(uint8)in[2];attacker.orientation[1].current=(uint8)in[3];attacker.orientation[0].speed=(uint8)in[4];attacker.orientation[1].speed=(uint8)in[5];attacker.fireDelay=in[6];g_gameConfig.gameSpeed=in[8];attacker.targetAttack=in[9]==3?0x8001:0x4001;
+ target.o.index=1;target.o.type=in[10];target.o.flags.all=3;target.o.position.x=in[11];target.o.position.y=in[12];building.o=target.o;
+ g_scriptCurrentUnit=&attacker;g_scriptCurrentObject=&attacker.o;Tools_Random_Seed(in[13]|(uint32)in[14]<<16);allow_bullet=in[15];log_type=log_damage=65535;
+ out[8]=Object_GetDistanceToEncoded(&attacker.o,attacker.targetAttack);out[9]=(uint8)Tile_GetDirection(attacker.o.position,target.o.position);
+ out[0]=Script_Unit_Fire(&script);out[1]=attacker.fireDelay;out[2]=attacker.o.flags.all&65535;out[3]=log_type;out[4]=log_damage;out[5]=bullet.originEncoded;out[6]=s_randomSeed[0]|s_randomSeed[1]<<8;out[7]=s_randomSeed[2]|s_randomSeed[3]<<8;
+}

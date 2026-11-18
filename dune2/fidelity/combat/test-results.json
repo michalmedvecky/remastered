@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "method": "This arithmetic check compiles reconstruction C and compares saved-assembly models; separate authorized DOSBox runtime evidence is in analysis/dune-2/dos-comparison/combat",
+  "checked_vectors": {
+    "speed": 280126,
+    "ratio": 50108,
+    "scale": 50108
+  },
+  "patch_idempotent": true,
+  "patched_translation_units_syntax_checked": 7,
+  "limits": "The arithmetic models are transcriptions, not runtime observations of the original executable. Full gameplay equivalence is not established."
+}

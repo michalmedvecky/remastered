@@ -1,0 +1,56 @@
+{
+  "version": "0.3.0",
+  "scope": "Collection migration browser check; not a repeat full campaign/DOS comparison",
+  "baseCommit": "8b241d499a418d6892bc2dfc41b39aa5f64ad95a",
+  "observed": [
+    "Five portal game links including upstream Tappy and DuneII",
+    "Portal Dune card navigates to /dune2/",
+    "Native original main menu loads under /dune2/ with unchanged core/mjs/preload hashes",
+    "AudioWorklet running;21 banks prefetched; nonzero OPL writes; no engine/browser errors",
+    "Remastered collection link returns to root five-game portal"
+  ],
+  "state": {
+    "clock": 60478.59999990463,
+    "errors": [],
+    "files": [
+      "DUNE.CFG",
+      "ONETIME.DAT",
+      "OPTIONS.CFG"
+    ],
+    "hidden": false,
+    "music": {
+      "bank": "DUNE7",
+      "context": "running",
+      "generation": 4,
+      "lastError": null,
+      "loaded": true,
+      "playing": true,
+      "prefetchedBanks": 21,
+      "registerWrites": 1012,
+      "sampleRate": 48000,
+      "ticks": 4318,
+      "track": 6,
+      "volume": 0.65
+    },
+    "overlayPaused": false,
+    "started": true,
+    "status": [
+      3601,
+      3601,
+      0,
+      255,
+      1,
+      0,
+      1,
+      4
+    ]
+  },
+  "screenshot": {
+    "researchArchivePath": "analysis/dune-2/remastered-integration/dune2-prefix.jpg",
+    "sha256": "d554245a5de6588a2d00ef7de0c591dd32101641ca4de5c58d527070399fb8be"
+  },
+  "limits": [
+    "Local preview only; no container or cluster rollout",
+    "No new original DOS execution; prior golden comparisons remain separately scoped"
+  ]
+}

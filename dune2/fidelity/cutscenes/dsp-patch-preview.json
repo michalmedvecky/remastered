@@ -1,0 +1,13 @@
+{
+  "path": "/private/tmp/dune-fidelity-opendune/src/audio/dsp_sdl.c",
+  "mode": "preview",
+  "changed": true,
+  "beforeSha256": "cc4126c4330c4df4b75fe1974d8bfcde20911063f53d0e4b164a7df578cbda1f",
+  "afterSha256": "b7a5343cedc39d027ed5c9dbacb2a8dbbd4bc308f3a1dd44930f210e7cddddab",
+  "supportedVocBlocks": [
+    0,
+    1,
+    3
+  ],
+  "silenceDuration": "(LE16(count)+1)*(256-timeConstant)/1000000 seconds; nearest active-rate sample"
+}

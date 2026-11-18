@@ -1,0 +1,163 @@
+{
+  "compared_units": 27,
+  "compared_fields_per_unit": 39,
+  "compared_numeric_cells": 1053,
+  "original_table_file_offset": "0x2fcb0",
+  "original_record_stride": 90,
+  "mismatches": [
+    {
+      "unit": 18,
+      "name": "Death Hand",
+      "field": "actionAI",
+      "original": 65535,
+      "source": 255,
+      "file_offset": "0x3034c"
+    },
+    {
+      "unit": 19,
+      "name": "Rocket",
+      "field": "actionAI",
+      "original": 65535,
+      "source": 255,
+      "file_offset": "0x303a6"
+    },
+    {
+      "unit": 20,
+      "name": "ARocket",
+      "field": "actionAI",
+      "original": 65535,
+      "source": 255,
+      "file_offset": "0x30400"
+    },
+    {
+      "unit": 21,
+      "name": "GRocket",
+      "field": "actionAI",
+      "original": 65535,
+      "source": 255,
+      "file_offset": "0x3045a"
+    },
+    {
+      "unit": 22,
+      "name": "MiniRocket",
+      "field": "actionAI",
+      "original": 65535,
+      "source": 255,
+      "file_offset": "0x304b4"
+    },
+    {
+      "unit": 23,
+      "name": "Bullet",
+      "field": "actionAI",
+      "original": 65535,
+      "source": 255,
+      "file_offset": "0x3050e"
+    },
+    {
+      "unit": 24,
+      "name": "Sonic Blast",
+      "field": "actionAI",
+      "original": 65535,
+      "source": 255,
+      "file_offset": "0x30568"
+    },
+    {
+      "unit": 25,
+      "name": "Sandworm",
+      "field": "actionAI",
+      "original": 65535,
+      "source": 255,
+      "file_offset": "0x305c2"
+    },
+    {
+      "unit": 26,
+      "name": "Frigate",
+      "field": "actionAI",
+      "original": 65535,
+      "source": 255,
+      "file_offset": "0x3061c"
+    }
+  ],
+  "flags": {
+    "isBullet": {
+      "matching_original_masks": [
+        "0x2"
+      ],
+      "status": "unambiguous pattern match"
+    },
+    "explodeOnDeath": {
+      "matching_original_masks": [
+        "0x4"
+      ],
+      "status": "unambiguous pattern match"
+    },
+    "sonicProtection": {
+      "matching_original_masks": [
+        "0x8"
+      ],
+      "status": "unambiguous pattern match"
+    },
+    "canWobble": {
+      "matching_original_masks": [
+        "0x10"
+      ],
+      "status": "unambiguous pattern match"
+    },
+    "isTracked": {
+      "matching_original_masks": [
+        "0x20"
+      ],
+      "status": "unambiguous pattern match"
+    },
+    "isGroundUnit": {
+      "matching_original_masks": [
+        "0x40"
+      ],
+      "status": "unambiguous pattern match"
+    },
+    "mustStayInMap": {
+      "matching_original_masks": [
+        "0x80"
+      ],
+      "status": "unambiguous pattern match"
+    },
+    "firesTwice": {
+      "matching_original_masks": [
+        "0x400"
+      ],
+      "status": "unambiguous pattern match"
+    },
+    "impactOnSand": {
+      "matching_original_masks": [
+        "0x800"
+      ],
+      "status": "unambiguous pattern match"
+    },
+    "isNotDeviatable": {
+      "matching_original_masks": [
+        "0x1000"
+      ],
+      "status": "unambiguous pattern match"
+    },
+    "hasAnimationSet": {
+      "matching_original_masks": [
+        "0x2000"
+      ],
+      "status": "unambiguous pattern match"
+    },
+    "notAccurate": {
+      "matching_original_masks": [
+        "0x4000"
+      ],
+      "status": "unambiguous pattern match"
+    },
+    "isNormalUnit": {
+      "matching_original_masks": [
+        "0x8000"
+      ],
+      "status": "unambiguous pattern match"
+    }
+  },
+  "method": "Compile and inspect upstream constant initializer, compare individual values with supplied EXE bytes. No original game execution.",
+  "limits": "Pointer targets and names are already independently decoded; pointer ABI, padding and unnamed original flag bits are not compared. Values modified at runtime require separate analysis."
+}

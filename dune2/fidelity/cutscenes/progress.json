@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "scope": "Native cutscene tables and speech fidelity",
+  "sourceExecution": "none",
+  "complete": [
+    "Verified original EXE identity and reused Ghidra load-image evidence",
+    "Recovered all ten animation, subtitle and sound-event sequences",
+    "Compared 75 animation, 72 subtitle and 92 sound rows with pinned primary source",
+    "Recovered all 132 voice records, 94 feedback records and 120 logical voice mappings",
+    "Resolved all supplied speech assets and recorded absent OK.VOC",
+    "Implemented idempotent native table patcher preserving engine voice IDs",
+    "Audited all 223 supplied VOCs including silence-only FILLER",
+    "Implemented idempotent SDL DSP PCM/silence patcher",
+    "Compiled decoder and compared all 223 PCM streams against independent decoding",
+    "Saved evidence, contracts, tests and remaining limits"
+  ],
+  "integrationOwnedByParent": [
+    "Apply patchers in the reproducible native build",
+    "Compile native core and package original WSA/font/palette/credits data",
+    "Verify browser intro/interlude/finale/credits flows and audio activation"
+  ],
+  "unresolved": [
+    "Native OK.VOC entry has no supplied resource",
+    "Unused extra prepare pointer meaning",
+    "DOS runtime timing and rendering comparison not authorized or performed"
+  ]
+}

@@ -1,0 +1,11 @@
+#include <stdbool.h>
+#include "types.h"
+#include "os/math.h"
+#include "tile.h"
+bool g_dune2_enhanced=false;
+@@_stepY@@
+@@_stepX@@
+@@Tile_MoveByDirection@@
+void motion(unsigned short orientation,unsigned short distance,unsigned short*out){tile32 t={2048,2048};t=Tile_MoveByDirection(t,orientation,distance);out[0]=t.x;out[1]=t.y;}
+
+void run_motion(const uint16*in,uint16*out){motion(in[0],in[1],out);}

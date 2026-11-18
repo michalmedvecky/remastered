@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17130e">
+  <meta name="description" content="Return to Arrakis. A playable browser reconstruction of Dune II with the supplied original graphics and missions.">
+  <title>Dune II — The Battle for Arrakis</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2317130e'/%3E%3Cpath d='M4 25 13 8l5 10 4-7 7 14Z' fill='%23c79842'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="screen.css">
+</head>
+<body>
+  <main class="console">
+    <header class="masthead">
+      <a href="#" id="home" class="wordmark" aria-label="Dune II main menu"><span class="emblem" aria-hidden="true">Ⅱ</span><span>DUNE <b>II</b><small>THE BATTLE FOR ARRAKIS</small></span></a>
+      <div class="mission-label"><span id="house-marker"></span><span id="mission-name">Imperial campaign</span></div>
+      <nav aria-label="Game controls"><button id="mentat-button" disabled>Mentat <kbd>F1</kbd></button><button id="options-button" disabled>Options <kbd>Esc</kbd></button></nav>
+    </header>
+    <section id="front-end" class="front-end" aria-label="Main menu">
+      <div class="title-visual"><img id="title-image" alt="Dune II — The Battle for Arrakis" hidden><div class="title-vignette"></div><div class="title-copy"><p class="eyebrow">THE SPICE MUST FLOW</p><h1>The battle<br>for Arrakis.</h1><p>Choose your House. Establish your base.<br>Take control of the most valuable planet in the universe.</p></div></div>
+      <div class="title-menu"><span class="eyebrow">COMMAND TERMINAL</span><h2>Welcome, Commander.</h2><p id="loading-text">Decoding the incoming transmission…</p><div class="title-actions"><button id="new-game" class="primary" disabled>Begin a campaign <span>↗</span></button><button id="continue-game" hidden>Continue campaign <span>→</span></button><button id="mission-select" disabled>Mission selection <span>☰</span></button><button id="title-load" disabled>Load a saved game <span>↓</span></button></div><div class="title-footer"><span class="status-light"></span><span id="terminal-status">Establishing connection</span></div></div>
+    </section>
+    <section id="game-screen" hidden>
+      <div class="telemetry" aria-label="Mission telemetry"><div><span>House treasury</span><strong id="credits">0 <small>credits</small></strong></div><div><span>Power grid</span><strong id="power">—</strong></div><div><span id="objective-label">Mission objective</span><strong id="objective">—</strong></div><div><span>Mission time</span><strong id="mission-time">00:00</strong></div><button id="pause-toggle" aria-label="Pause simulation" aria-pressed="false">Ⅱ</button></div>
+      <div class="operations">
+        <section class="field">
+          <div class="field-heading"><span><i></i> <span id="field-label">Tactical command</span></span><span id="coordinates">ARRAKIS · SURFACE</span></div>
+          <div class="viewport"><canvas id="battlefield" width="320" height="200" tabindex="0" aria-label="Tactical map. Left click to select, right click to order. Arrow keys pan. Tab cycles units."></canvas><div id="pause-banner" class="pause-banner" hidden>SIMULATION PAUSED<span>Press Space to resume</span></div><div id="target-banner" class="target-banner" hidden></div></div>
+          <div class="field-foot"><span id="notice" role="status" aria-live="polite">Awaiting orders.</span><button id="center-base" title="Center on your construction yard (H)">⌖ Base</button><button id="fullscreen" title="Toggle fullscreen">⛶</button></div>
+          <div class="shortcuts"><span><kbd>Right click</kbd> Move / attack</span><span><kbd>A</kbd> Attack</span><span><kbd>G</kbd> Harvest</span><span><kbd>H</kbd> Base</span><span><kbd>Space</kbd> Pause</span></div>
+        </section>
+        <aside class="command-dock" aria-label="Command panel">
+          <section class="selected-panel"><div class="panel-title"><h2>Selected object</h2><span id="selection-count"></span></div><div id="selection" class="selection-empty">Select a unit or structure on the tactical map.</div><div id="orders" class="order-grid"></div></section>
+          <section class="production-panel"><div class="panel-title"><h2>Production</h2><span id="tech-level"></span></div><div id="production-status"></div><div class="catalog-tabs" role="tablist" aria-label="Production catalog"><button id="structures-tab" role="tab" aria-selected="true">Structures</button><button id="units-tab" role="tab" aria-selected="false">Units</button></div><div id="catalog" class="catalog"></div></section>
+          <section class="log-panel"><div class="panel-title"><h2>Field reports</h2><span class="live-dot"></span></div><ol id="event-log"></ol></section>
+        </aside>
+      </div>
+    </section>
+    <section id="campaign-screen" class="campaign-screen" hidden><div class="campaign-header"><div><p class="eyebrow">IMPERIAL CARTOGRAPHIC SERVICE</p><h1 id="campaign-title">The campaign for Arrakis</h1></div><button id="campaign-back">← Main menu</button></div><div class="campaign-layout"><div class="planet-map"><canvas id="campaign-map" width="640" height="400" aria-label="Campaign regions"></canvas><div id="region-buttons"></div><div class="map-caption"><span id="campaign-house"></span><span id="campaign-progress"></span></div></div><div class="region-brief"><span id="region-sector" class="eyebrow"></span><h2 id="region-title">Select your next operation.</h2><p id="region-summary"></p><div id="region-details"></div><button id="deploy-button" class="primary" disabled>Review mission briefing <span>→</span></button></div></div></section>
+    <footer class="console-footer"><span>DUNE II <span class="muted">/</span> BROWSER RECONSTRUCTION</span><button id="help-button">Controls & reconstruction notes</button><span id="footer-state">LOCAL SAVES · NO ACCOUNT REQUIRED</span></footer>
+  </main>
+  <dialog id="modal" aria-labelledby="modal-title"><div id="modal-content"></div></dialog>
+  <div id="fatal" hidden role="alert"><h1>Transmission interrupted</h1><p id="fatal-message"></p><button onclick="location.reload()">Reconnect</button></div>
+  <script type="module" src="main.mjs"></script>
+</body>
+</html>

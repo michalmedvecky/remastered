@@ -19,6 +19,9 @@
 !tappy/
 !tappy/dist/
 !tappy/dist/**
+!dune2/
+!dune2/dist/
+!dune2/dist/**
 pre2/dist/assets/source/**
 pre2/dist/assets/executable-data.bin
 pre2/dist/assets/README.md

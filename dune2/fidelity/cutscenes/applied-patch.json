@@ -1,0 +1,25 @@
+{
+  "sourceExeSha256": "85f22bb82ea6f755835d5a94d257a67e11a3b854ec934854a69c3eeff7d0180f",
+  "nativeTablesSha256": "7a78bb4aaaf2d1ced482285391adcffe054b2f296a831cf64d8d00410ce61f4f",
+  "mode": "write",
+  "files": [
+    {
+      "path": "src/table/houseanimation.c",
+      "changed": false,
+      "beforeSha256": "78b6480010059282ae0af3d48abcdc6bf0cd63005c484bb4a75725e8be46261d",
+      "afterSha256": "78b6480010059282ae0af3d48abcdc6bf0cd63005c484bb4a75725e8be46261d"
+    },
+    {
+      "path": "src/table/sound.c",
+      "changed": false,
+      "beforeSha256": "252bcaf0b7d4700309cc2a420d5fedc50ab24da22bbdec3b92faa93052251818",
+      "afterSha256": "252bcaf0b7d4700309cc2a420d5fedc50ab24da22bbdec3b92faa93052251818"
+    },
+    {
+      "path": "src/audio/sound.h",
+      "changed": false,
+      "beforeSha256": "e257a188da6abb487abafbc4fb5e7e463404de1d7ad587044f29e7c6b1a631d7",
+      "afterSha256": "e257a188da6abb487abafbc4fb5e7e463404de1d7ad587044f29e7c6b1a631d7"
+    }
+  ]
+}

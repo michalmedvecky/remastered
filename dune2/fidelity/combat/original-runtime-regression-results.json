@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "originalCodeExecutedByThisRegression": false,
+  "expectedValues": "retained actual DOSBox original-machine-code observations",
+  "fixtures": 5854,
+  "fixturePackSha256": "6b0ee1d49ddf519a6182c67d8b36628f5912c3b1c778122b025d70a667fa7bdc",
+  "matrices": [
+    {
+      "matrix": "speed",
+      "fixtures": 460,
+      "mismatches": 0,
+      "actualSourceBodySha256": {
+        "Tools_AdjustToGameSpeed": "e173da5ec80ac6398d1a4d52ac457916af52430ebff99a096fdc9f053dfe5400"
+      }
+    },
+    {
+      "matrix": "fire",
+      "fixtures": 111,
+      "mismatches": 0,
+      "actualSourceBodySha256": {
+        "Script_Unit_Fire": "bff7bbb6357f79431cccdcb4ad35bea784c48d37da47f7af11d8ceb2eb66ec51",
+        "Tile_GetDirection": "d8e68cb35d0ce4d6983b234c11a373dc0c91c8f9d8179c8b4ef5121634d6c2c3",
+        "Tile_GetDistance": "bb991936a225cc62c8a7118ec1ba814af0bcf8e8d1883a0fb2792a097b59c00a",
+        "Tile_UnpackTile": "bffd0f4bfec82a7352d7e1e316cda90abdccd24f5c23192d7659b9d7b01a96f2",
+        "Object_GetDistanceToEncoded": "f47d617f72ffbf1b0ac788cf88eda2acf3ca8be3c6c7bfb2839cc3bcf158f381",
+        "Tools_Random_256": "1ba984df097c54e7c738def69f30dd712ffa3dffba8f2937888ef162788592cc",
+        "Tools_Random_Seed": "d6700c71a103d7bea24b9aa46dd4ccf5bd2d1317ee92c5fe1936144078366d89",
+        "Orientation_Orientation256ToOrientation8": "e723dd5582bc638393fbb1e678b7db708ba33a75b3b50bacb412cc0947519e9a"
+      }
+    },
+    {
+      "matrix": "motion",
+      "fixtures": 4608,
+      "mismatches": 0,
+      "actualSourceBodySha256": {
+        "Tile_MoveByDirection": "a507b3a589ebaaaacfcb3760bea524e25cd02916a24f77972471c8b151d38ec8",
+        "_stepX": "df83b006babb8145611c1b7f9444955b42365331dcc50d37e3d1edd63f38fc1e",
+        "_stepY": "66f21df1dfab1bc9fc69f90ef14c62503d87ac165dac9f5330c70f602f146d78"
+      }
+    },
+    {
+      "matrix": "projectile",
+      "fixtures": 66,
+      "mismatches": 0,
+      "actualSourceBodySha256": {
+        "Unit_Move": "41e6f185a1228e978d1be1191329171348285ba268468974f913634e19244935",
+        "Tile_GetDistance": "bb991936a225cc62c8a7118ec1ba814af0bcf8e8d1883a0fb2792a097b59c00a",
+        "Tile_MoveByDirection": "a507b3a589ebaaaacfcb3760bea524e25cd02916a24f77972471c8b151d38ec8",
+        "Tools_Random_256": "1ba984df097c54e7c738def69f30dd712ffa3dffba8f2937888ef162788592cc",
+        "Tools_Random_Seed": "d6700c71a103d7bea24b9aa46dd4ccf5bd2d1317ee92c5fe1936144078366d89",
+        "_stepX": "df83b006babb8145611c1b7f9444955b42365331dcc50d37e3d1edd63f38fc1e",
+        "_stepY": "66f21df1dfab1bc9fc69f90ef14c62503d87ac165dac9f5330c70f602f146d78"
+      }
+    },
+    {
+      "matrix": "deviation",
+      "fixtures": 401,
+      "mismatches": 0,
+      "actualSourceBodySha256": {
+        "Unit_Deviate": "8fe73e30abcee5e743c356ce96d03296698192d2fb4637f1bed3931b731fce88",
+        "Unit_Deviation_Decrease": "d55d6d9e6f3baa761c16ad3997d3e4039d6e2770b7d021f1c4b7b14efc3121bc",
+        "Unit_GetHouseID": "f6786699938c55e4bd047b7aebdb3ea85bfe566fe65515beeb3fe35a6c456938",
+        "Tools_Random_256": "1ba984df097c54e7c738def69f30dd712ffa3dffba8f2937888ef162788592cc",
+        "Tools_Random_Seed": "d6700c71a103d7bea24b9aa46dd4ccf5bd2d1317ee92c5fe1936144078366d89"
+      }
+    },
+    {
+      "matrix": "damage",
+      "fixtures": 208,
+      "mismatches": 0,
+      "actualSourceBodySha256": {
+        "Unit_Damage": "113ae0ab57f3b8587f48bf9b252369cfc2c591e21c13897157945e966bf987b0",
+        "Unit_Deviation_Decrease": "d55d6d9e6f3baa761c16ad3997d3e4039d6e2770b7d021f1c4b7b14efc3121bc",
+        "Unit_GetHouseID": "f6786699938c55e4bd047b7aebdb3ea85bfe566fe65515beeb3fe35a6c456938",
+        "Tools_Random_256": "1ba984df097c54e7c738def69f30dd712ffa3dffba8f2937888ef162788592cc",
+        "Tools_Random_Seed": "d6700c71a103d7bea24b9aa46dd4ccf5bd2d1317ee92c5fe1936144078366d89"
+      }
+    }
+  ],
+  "limitations": "Controlled helper state and peripheral services listed per matrix; no claim of full gameplay equivalence."
+}

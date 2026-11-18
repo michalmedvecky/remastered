@@ -10,13 +10,14 @@ async function writeIfDifferent(path, contents) {
 }
 const json = value => JSON.stringify(value, null, 2) + '\n';
 const manifest = await combinedManifest();
-for (const directory of ['provenance','pre2/provenance']) await mkdir(resolve(project,directory),{recursive:true});
+for (const directory of ['provenance','pre2/provenance','dune2/provenance']) await mkdir(resolve(project,directory),{recursive:true});
 await writeIfDifferent(resolve(project,'provenance/runtime-manifest.json'),json(manifest));
 await writeIfDifferent(resolve(project,'pre2/provenance/runtime-manifest.json'),json(manifest.sites.pre2));
-for (const [directory,snapshot] of [['portal',manifest.snapshotSHA256],['pre2',manifest.sites.pre2.snapshotSHA256],['tappy',manifest.sites.tappy.snapshotSHA256]]) {
+await writeIfDifferent(resolve(project,'dune2/provenance/runtime-manifest.json'),json(manifest.sites.dune2));
+for (const [directory,snapshot] of Object.entries(manifest.sites).map(([site,value])=>[site,site==='portal'?manifest.snapshotSHA256:value.snapshotSHA256])) {
   const path = resolve(project,directory+'/dist/build.json');
   // A new collection member should not reformat/relabel an unchanged classic game.
-  if (directory === 'pre2') {
+  if (directory !== 'portal') {
     try { if (JSON.parse(await readFile(path,'utf8')).sourceSnapshot === snapshot) continue; }
     catch (error) { if (error.code !== 'ENOENT') throw error; }
   }

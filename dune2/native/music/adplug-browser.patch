@@ -1,0 +1,51 @@
+--- a/adl.cpp
++++ b/adl.cpp
+@@ -766,9 +766,13 @@
+ 	_sfxVelocity = ptr[3];
+ 
+ 	// Adjust the values.
+-	if (volume != 0xFF) {
++	// Dune II's ALFX version-3 driver scales even volume 255 by 255/256.
++	// The supplied game's captured SFX 65-69 require the inverse attenuation
++	// below (including the one-step loss at full volume). See fidelity/music.
++	if (_version == 3 || volume != 0xFF) {
+ 		if (_version >= 3) {
+-			int newVal = ((((ptr[3]) + 63) * volume) >> 8) & 0xFF;
++			int velocity = (_version == 3) ? 63 - ptr[3] : ptr[3] + 63;
++			int newVal = ((velocity * volume) >> 8) & 0xFF;
+ 			ptr[3] = -newVal + 63;
+ 			ptr[1] = ((ptr[1] * volume) >> 8) & 0xFF;
+ 		} else {
+@@ -2946,3 +2946,18 @@
+ CPlayer *CadlPlayer::factory(Copl *newopl) {
+ 	return new CadlPlayer(newopl);
+ }
++
++// Browser adapter additions: expose original channel status and explicit volume.
++void CadlPlayer::startTrack(uint16_t track, uint8_t volume) {
++    init();
++    _driver->stopAllChannels();
++    opl->init();
++    opl->write(1, 32);
++    cursubsong = track;
++    play(track, volume);
++}
++void CadlPlayer::stopPlayback() { _driver->stopAllChannels(); }
++bool CadlPlayer::isPlaying() const {
++    for (int i = 0; i < 10; ++i) if (_driver->isChannelPlaying(i)) return true;
++    return false;
++}
+--- a/adl.h
++++ b/adl.h
+@@ -52,6 +52,11 @@
+ 
+   void playSoundEffect(uint16_t track, uint8_t volume = 0xFF);
+ 
++  // Browser adapter additions; interpreter and program opcodes unchanged.
++  void startTrack(uint16_t track, uint8_t volume);
++  void stopPlayback();
++  bool isPlaying() const;
++
+  private:
+   enum { _musicEnabled = 1, _sfxEnabled = 1 };
+ 

@@ -1,0 +1,79 @@
+{
+  "version": "0.3.0",
+  "authorization": "User requested bounded DOSBox comparisons on disposable copies on2026-11-18",
+  "originalDosExecution": true,
+  "browserInterpretsDos": false,
+  "controlledCombatFixtures": 5854,
+  "controlledCombatMismatches": 0,
+  "terrainSeeds": [
+    392,
+    12,
+    4294967295
+  ],
+  "fullGameTerrainLoads": 9,
+  "fullGameBaselineCellsCompared": 36864,
+  "saveLoaderFiles": 3,
+  "saveUnitRecordsCompared": 47,
+  "saveBuildingRecordsCompared": 3,
+  "projectTests": 39,
+  "assemblyModelArithmeticVectors": 380342,
+  "evidence": [
+    {
+      "path": "analysis/dune-2/dos-comparison/combat/comparison-summary.json",
+      "sha256": "bda75af124915788c46571d321914a8db6c0821f4e9870945209fdded551be12"
+    },
+    {
+      "path": "analysis/dune-2/dos-comparison/terrain/SUMMARY.json",
+      "sha256": "9b2f02ff8c520ff4203a6fef8b745379e0559364d26319fa50aabfe0f43e3b05"
+    },
+    {
+      "path": "analysis/dune-2/dos-comparison/native-saves/comparison.json",
+      "sha256": "c29c8507e2c11ee46ae5bd5c746ed02941151caa49d8e7654a6656267901176a"
+    },
+    {
+      "path": "analysis/dune-2/dos-comparison/native-scenes/headless-summary.json",
+      "sha256": "116dd72f7bc1d83406ab74dd31bde1b5c3f3ff4060498551d257ed982b17be28"
+    },
+    {
+      "path": "analysis/dune-2/dos-comparison/media-save/wsa-comparison.json",
+      "sha256": "dbbf100d9fe5a107fce04a3bccf6622aa478b2efd5788ae29a0b90f746bae25e"
+    },
+    {
+      "path": "analysis/dune-2/dos-comparison/media-save/scene-comparison.json",
+      "sha256": "065f0772f1e3001258fcb8b378500a1c0da63b5dd7f27936b18d93160b43d391"
+    },
+    {
+      "path": "analysis/dune-2/dos-comparison/media-save/music-comparison-final.json",
+      "sha256": "057094a7b08b8b7d378f9a41b5afa2fd82fc5ff2ba50fbb30f705c9b622f3096"
+    },
+    {
+      "path": "analysis/dune-2/dos-comparison/media-save/cursor-diagnosis.json",
+      "sha256": "edb44366c21066b707efb6d9920f5123db5090b90d4c868b145365a6e8b1f7e6"
+    },
+    {
+      "path": "analysis/dune-2/dos-comparison/media-save/wsa-update-sample-diagnosis.json",
+      "sha256": "d1ecc3e6b70d435f6870859c560e793c05876cad15a16775e254021925978982"
+    }
+  ],
+  "limits": [
+    "Declared controlled service boundaries are not complete live combat equivalence",
+    "Scene snapshots/OPL streams do not establish physical hardware or exact wall-clock equality",
+    "Other allocator states, campaign branches, full credits cycles and save versions remain unexhausted"
+  ],
+  "activeAnimationRowsCompared": 54,
+  "musicGoldenRanges": {
+    "logo": 700,
+    "introFirst81Seconds": 3237,
+    "finales": [
+      2325,
+      943,
+      1380
+    ],
+    "fadeEachHouse": 60,
+    "creditsPrefixes": [
+      2219,
+      6517,
+      2252
+    ]
+  }
+}

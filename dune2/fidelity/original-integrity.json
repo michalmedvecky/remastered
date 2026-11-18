@@ -1,0 +1,106 @@
+{
+  "verifiedUtc": "2026-11-18T15:03:19.909717+00:00",
+  "sourceZipSha256": "f7c9048f1bee49e2d9e3690adaef027e6a2e5bd22f8c18af16408e55a2a2d228",
+  "zipUnchanged": true,
+  "members": [
+    {
+      "name": "ATRE.PAK",
+      "sha256": "c1aafc875fb03de63372de2c8dae2c807cc494f3ec11db166e69dc937a342c80",
+      "unchanged": true
+    },
+    {
+      "name": "DUNE.CFG",
+      "sha256": "29c570864fa306cb6a330d36a8de3ad730d569cc05637485ba8dc5117764e270",
+      "unchanged": true
+    },
+    {
+      "name": "DUNE.PAK",
+      "sha256": "a310947048e6ecd115ab323efd15916da6463904d1b1c067d9942eb597e82697",
+      "unchanged": true
+    },
+    {
+      "name": "DUNE2.EXE",
+      "sha256": "85f22bb82ea6f755835d5a94d257a67e11a3b854ec934854a69c3eeff7d0180f",
+      "unchanged": true
+    },
+    {
+      "name": "ENGLISH.PAK",
+      "sha256": "a22e19b861b3aafd855a782d63736842a4768a2406fd14d014e485ff2e52fb22",
+      "unchanged": true
+    },
+    {
+      "name": "FINALE.PAK",
+      "sha256": "a2c7a08a88ce5160420edb5efaa02fcea0e67acaed1f9f50230306e16495e879",
+      "unchanged": true
+    },
+    {
+      "name": "HARK.PAK",
+      "sha256": "3334ce3f083c850860189c399a19005c67a0924afa9629f5714f3bd15ca6f993",
+      "unchanged": true
+    },
+    {
+      "name": "INTRO.PAK",
+      "sha256": "6289dea784e2f49f0c50008f52424f87667ec7f160245b69dd4be7be75682c81",
+      "unchanged": true
+    },
+    {
+      "name": "INTROVOC.PAK",
+      "sha256": "272c8060265cf0ddfdf44fcead999caa393864b05a8476f7c1f75e270abc148c",
+      "unchanged": true
+    },
+    {
+      "name": "MENTAT.PAK",
+      "sha256": "3553b6210aab1502bf9a189a9d8fdae2c076ce9c39bc5998c3843316871b635e",
+      "unchanged": true
+    },
+    {
+      "name": "MERC.PAK",
+      "sha256": "772642c12a97d536689bc77e07c9fd1dca7c0ee33877ab59fdee9cabedd3ea0a",
+      "unchanged": true
+    },
+    {
+      "name": "ONETIME.DAT",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "name": "OPTIONS.CFG",
+      "sha256": "d97b12eeb1c4bb32cd703eef76d34f986436d2c13b00f2dd921b78e23a333b6d",
+      "unchanged": true
+    },
+    {
+      "name": "ORDOS.PAK",
+      "sha256": "f8f947648409ad8065796394c2a90b7e242862a372aadd7c30dbc7ec88306814",
+      "unchanged": true
+    },
+    {
+      "name": "SCENARIO.PAK",
+      "sha256": "948469aa556da82f59b48c0d032787c973d7062acf6ed028ba4b789b9b237821",
+      "unchanged": true
+    },
+    {
+      "name": "SETUP.EXE",
+      "sha256": "117dc92b837a62b795017d8ae2f11d19ef641792b9f9f8aa1ea752e2e0bd6e8d",
+      "unchanged": true
+    },
+    {
+      "name": "SETUPENG.DIP",
+      "sha256": "aa0a6687cdc61d0381723a2247fee5d4aa6d9a6d4925928c477a505f0c9d8d0e",
+      "unchanged": true
+    },
+    {
+      "name": "SOUND.PAK",
+      "sha256": "7f86259630dbdfc07f81dba4986723dc9a00545b1ddbf5b2c14242ebf6f692be",
+      "unchanged": true
+    },
+    {
+      "name": "VOC.PAK",
+      "sha256": "7d1abc99efba007017e163a306a1e11df9a41a4cc45e1c6dfa099d81636575ea",
+      "unchanged": true
+    }
+  ],
+  "membersUnchanged": 19,
+  "executedDosBinary": true,
+  "browserExecutesDosBinary": false,
+  "runtimeScope": "Explicitly authorized bounded DOSBox-X comparison experiments on disposable in-memory guest copies"
+}
