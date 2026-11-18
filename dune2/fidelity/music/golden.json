@@ -1,0 +1,171 @@
+{
+  "schema": 1,
+  "scope": "Actual original ALFX OPL2 register/value writes after21startup writes and beforefade/bank-switch; original run instrumented IO_WriteB without modifying game/driver instructions. Native initialization writes are excluded separately. Tick injections come from original PIC72Hz phase.",
+  "cases": [
+    {
+      "house": "harkonnen",
+      "bank": "DUNE19",
+      "track": 4,
+      "ticks": 3103,
+      "effects": [
+        [
+          2278,
+          69
+        ],
+        [
+          2345,
+          65
+        ],
+        [
+          2362,
+          68
+        ],
+        [
+          2564,
+          69
+        ],
+        [
+          2629,
+          65
+        ],
+        [
+          2637,
+          68
+        ],
+        [
+          2830,
+          66
+        ]
+      ],
+      "file": "harkonnen-score-sfx.opl",
+      "events": 2325,
+      "sha256": "5c52207134a37431ed93bf5591b8e9e6b3e53730698955cd9ecc16c8c3129d2a",
+      "originalTraceSha256": "dc94eea8e20acceacef7eecee2252d51afd9c277dabdcf4fb1060a4f1a7489b1",
+      "originalTrace": "analysis/dune-2/dos-comparison/media-save/finale-harkonnen-run-01/opl-trace.bin",
+      "originalEventRange": [
+        21,
+        2346
+      ],
+      "fade": {
+        "tick": 3104,
+        "track": 1,
+        "events": 60,
+        "file": "harkonnen-fade-prefix.opl",
+        "sha256": "91a5298ba026475449887094975d94dc00128bea6cea93ec7eb46155b70d6066",
+        "originalEventRange": [
+          2346,
+          2406
+        ],
+        "scope": "First10six-carrier fade steps before original bank switch cuts fade short."
+      }
+    },
+    {
+      "house": "atreides",
+      "bank": "DUNE19",
+      "track": 2,
+      "ticks": 2318,
+      "effects": [],
+      "file": "atreides-score-sfx.opl",
+      "events": 943,
+      "sha256": "60c95b0c8f2bd6f15525920c59c0983814ff222c4a8ba313e52ba157889bf2bc",
+      "originalTraceSha256": "25186d60f00d0f1be6c5415603ade17d4474070fab47aeb40646c1162dcf269f",
+      "originalTrace": "analysis/dune-2/dos-comparison/media-save/finale-atreides-run-02/opl-trace.bin",
+      "originalEventRange": [
+        21,
+        964
+      ],
+      "fade": {
+        "tick": 2319,
+        "track": 1,
+        "events": 60,
+        "file": "atreides-fade-prefix.opl",
+        "sha256": "9dacadc138d393a7a31b1cf74b6ba83f0a262c12c0692c68254897b3b93f6ea9",
+        "originalEventRange": [
+          964,
+          1024
+        ],
+        "scope": "First10six-carrier fade steps before original bank switch cuts fade short."
+      }
+    },
+    {
+      "house": "ordos",
+      "bank": "DUNE19",
+      "track": 3,
+      "ticks": 2829,
+      "effects": [
+        [
+          987,
+          67
+        ],
+        [
+          1650,
+          67
+        ]
+      ],
+      "file": "ordos-score-sfx.opl",
+      "events": 1380,
+      "sha256": "5b97c04f8cade1cecc9526746653587a254536df84f0a1abb2952c6ab62c7645",
+      "originalTraceSha256": "81ef0154b3424990b365e261c77702aafcfbc13d8d96e4e32e4ae39037682881",
+      "originalTrace": "analysis/dune-2/dos-comparison/media-save/finale-ordos-run-01/opl-trace.bin",
+      "originalEventRange": [
+        21,
+        1401
+      ],
+      "fade": {
+        "tick": 2830,
+        "track": 1,
+        "events": 60,
+        "file": "ordos-fade-prefix.opl",
+        "sha256": "91a5298ba026475449887094975d94dc00128bea6cea93ec7eb46155b70d6066",
+        "originalEventRange": [
+          1401,
+          1461
+        ],
+        "scope": "First10six-carrier fade steps before original bank switch cuts fade short."
+      }
+    }
+  ],
+  "introCases": [
+    {
+      "house": "intro-logo",
+      "bank": "DUNE0",
+      "track": 4,
+      "ticks": 585,
+      "effects": [],
+      "file": "intro-logo.opl",
+      "events": 700,
+      "sha256": "1b3ed3d0f5d4c9763ad73c2488ae2412693a2f740b6449e61e6b684a07b1081a",
+      "originalTraceSha256": "fce837440040eb190a5ed8afee4b26f9f11c6609f708772b8aa4619e4a5e6e52",
+      "originalTrace": "analysis/dune-2/dos-comparison/media-save/intro-run-01/opl-trace.bin",
+      "originalEventRange": [
+        21,
+        721
+      ],
+      "skipNativeEvents": 0,
+      "scope": "Complete logo score"
+    },
+    {
+      "house": "intro-score-first-sfx",
+      "bank": "DUNE0",
+      "track": 2,
+      "ticks": 5834,
+      "effects": [
+        [
+          3405,
+          109
+        ]
+      ],
+      "file": "intro-score-first-sfx.opl",
+      "events": 3237,
+      "sha256": "f9f7ba447fb85db243be16506470c39cdb548ac1135b62e1e59494ee061b8a50",
+      "originalTraceSha256": "fce837440040eb190a5ed8afee4b26f9f11c6609f708772b8aa4619e4a5e6e52",
+      "originalTrace": "analysis/dune-2/dos-comparison/media-save/intro-run-01/opl-trace.bin",
+      "originalEventRange": [
+        734,
+        3971
+      ],
+      "skipNativeEvents": 11,
+      "scope": "First81seconds intro score plus observed logical SFX109.11initial native write events that clear old instrumentlevels are excluded; original retains priorlogo driverstate."
+    }
+  ]
+}

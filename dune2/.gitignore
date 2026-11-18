@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+.openai/cache/
+.openai/artifacts/
+test-results/
+*.zip
+
+__pycache__/
+*.pyc
+native/data/
+!native/dependencies/SDL2-2.32.10-source.zip

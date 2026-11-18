@@ -1,0 +1,9 @@
+#include "types.h"
+#include "config.h"
+#include "tools.h"
+#include "opendune.h"
+#include "dune107.h"
+bool g_dune2_enhanced=false;
+GameCfg g_gameConfig;
+@@Tools_AdjustToGameSpeed@@
+void run_speed(const uint16*in,uint16*out){g_gameConfig.gameSpeed=in[4];out[0]=Tools_AdjustToGameSpeed(in[0],in[1],in[2],in[3]);}

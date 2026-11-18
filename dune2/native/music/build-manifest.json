@@ -1,0 +1,58 @@
+{
+  "scope": "Newly compiled licensed source only; no DOS/EXE interpreter",
+  "adplug_commit": "3d9457ac91121302a752577b2bf063b4aea202b8",
+  "compiler": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 7.0.0 (777e6e5db7b4990bcaeb1b9998ed642cc84e6629)",
+  "commands": [
+    [
+      "/private/tmp/dune-fidelity-emsdk/upstream/emscripten/emcc",
+      "-O3",
+      "-c",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/dune-ii-web/native/music/vendor/nuked-opl3/opl3.c",
+      "-o",
+      "/var/folders/1y/dm3107nd3gnc3l80537s3gm80000gn/T/dune-adl-build-yegvlwd7/opl3.o"
+    ],
+    [
+      "/private/tmp/dune-fidelity-emsdk/upstream/emscripten/em++",
+      "-std=c++17",
+      "-O3",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/dune-ii-web/native/music/renderer.cpp",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/dune-ii-web/native/music/vendor/adplug/adl.cpp",
+      "/var/folders/1y/dm3107nd3gnc3l80537s3gm80000gn/T/dune-adl-build-yegvlwd7/opl3.o",
+      "--no-entry",
+      "-sSTANDALONE_WASM=1",
+      "-sFILESYSTEM=0",
+      "-sALLOW_MEMORY_GROWTH=1",
+      "-sINITIAL_MEMORY=4194304",
+      "-sSTACK_SIZE=262144",
+      "-sASSERTIONS=0",
+      "-sEXPORTED_FUNCTIONS=[\"_malloc\", \"_free\", \"_adl_init\", \"_adl_load\", \"_adl_stop\", \"_adl_effect\", \"_adl_playing\", \"_adl_output\", \"_adl_ticks\", \"_adl_writes\", \"_adl_render\"]",
+      "-o",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/dune-ii-web/dist/music/adl.wasm"
+    ]
+  ],
+  "exports": [
+    "malloc",
+    "free",
+    "adl_init",
+    "adl_load",
+    "adl_stop",
+    "adl_effect",
+    "adl_playing",
+    "adl_output",
+    "adl_ticks",
+    "adl_writes",
+    "adl_render"
+  ],
+  "output_bytes": 38610,
+  "output_sha256": "e29b0487fc72d4c7c4691f96a11229bf0976d345d0385fa1656f1f55d8e3d9ef",
+  "source_sha256": {
+    "renderer.cpp": "2c2a08ef42332706cf8401ec48e1858a1d0254b5575c5236f866534974b18ea3",
+    "vendor/adplug/adl.cpp": "909ff0254ffc67c2de63476feeb763391445c6cc6b952448d5f9515693b79aa2",
+    "vendor/adplug/adl.h": "af681a807228019948ef03732612a2c216bd8a77177736bd00dbd3d3b92e2a5f",
+    "vendor/adplug/debug.h": "4c326f361477223111e145b7924fd88eb4be6bc850513093713bf9220ea65c9b",
+    "vendor/adplug/opl.h": "ebb0c68567fa70c6c1cf3079f31293506999d2632dd4f7d9bf4248cadc933fc7",
+    "vendor/adplug/player.h": "9c214c62e1d4cdc1951990fa8652c2ad517956dc58e3893d924d987102fd460e",
+    "vendor/nuked-opl3/opl3.c": "59eb873fdb6d52bc7977a0fcbb97c1bae03dd71cc88e3acddbcc01b7121bfe03",
+    "vendor/nuked-opl3/opl3.h": "a84266b8d71a4929f15f573afbe407fd24310b77757d855835dacabf68763679"
+  }
+}

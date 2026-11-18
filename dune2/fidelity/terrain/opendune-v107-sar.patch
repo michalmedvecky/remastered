@@ -1,0 +1,32 @@
+--- a/src/tile.c
++++ b/src/tile.c
+@@ -85,12 +85,12 @@
+  * @param packed_to The destination.
+  * @return The longest distance between the X or Y coordinates, plus half the shortest.
+  */
+-uint16 Tile_GetDistancePacked(uint16 packed_from, uint16 packed_to)
+-{
+-	tile32 from = Tile_UnpackTile(packed_from);
+-	tile32 to = Tile_UnpackTile(packed_to);
+-
+-	return Tile_GetDistance(from, to) >> 8;
++uint16 Tile_GetDistancePacked(uint16 from, uint16 to)
++{
++    /* Supplied V1.07 0x1d819 does not mask packed Y before subtraction. */
++    uint16 dx = abs((int)(from & 63) - (int)(to & 63));
++    uint16 dy = abs((int)(from >> 6) - (int)(to >> 6));
++    return max(dx, dy) + (min(dx, dy) >> 1);
+ }
+ 
+ /**
+@@ -321,8 +321,8 @@
+ 	distance = newDistance;
+ 
+ 	orientation = Tools_Random_256();
+-	x += ((_stepX[orientation] * distance) / 128) * 16;
+-	y -= ((_stepY[orientation] * distance) / 128) * 16;
++	x += ((_stepX[orientation] * distance) >> 7) * 16;
++	y += ((-_stepY[orientation] * distance) >> 7) * 16;
+ 
+ 	if (x > 16384 || y > 16384) return tile;
+ 

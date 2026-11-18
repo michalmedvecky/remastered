@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <string.h>
+#include "types.h"
+#include "object.h"
+#include "unit.h"
+#include "house.h"
+#include "tools.h"
+#include "tile.h"
+#include "explosion.h"
+#include "opendune.h"
+bool g_dune2_enhanced=false;
+HouseType g_playerHouseID=1;
+uint16 g_campaignID=1;
+static Unit target;
+static uint8 s_randomSeed[4];
+static uint16 *log_out;
+void Unit_UpdateMap(uint16 m,Unit*u){log_out[6]++;}
+void Unit_SetAction(Unit*u,ActionType a){u->actionID=a;log_out[20]++;}
+void Unit_UntargetMe(Unit*u){log_out[7]++;}
+void Unit_RemovePlayer(Unit*u){log_out[13]++;}
+void Sound_Output_Feedback(uint16 n){log_out[14]=n;}
+void Map_FillCircleWithSpice(uint16 p,uint16 r){log_out[15]=r;}
+void Map_MakeExplosion(uint16 t,tile32 p,uint16 d,uint16 o){log_out[16]++;log_out[17]=t;}
+@@Unit_Damage@@
+@@Unit_Deviation_Decrease@@
+@@Unit_GetHouseID@@
+@@Tools_Random_256@@
+@@Tools_Random_Seed@@
+void run_damage(const uint16*in,uint16*out){
+ memset(&target,0,sizeof target);memset(out,0,48);log_out=out;out[14]=out[15]=65535;
+ target.o.type=in[0];target.o.hitpoints=in[1];target.o.houseID=in[4];g_playerHouseID=in[5];g_campaignID=in[6];target.deviated=in[7];Tools_Random_Seed(in[8]|(uint32)in[9]<<16);target.o.flags.all=in[10];target.actionID=in[11];target.amount=in[12];target.targetAttack=in[13];target.targetMove=in[14];target.spriteOffset=5;target.timer=123;target.o.position.x=target.o.position.y=0x1080;
+ out[0]=Unit_Damage(&target,in[2],in[3]);out[1]=target.o.hitpoints;out[2]=target.o.type;out[3]=target.o.flags.all&65535;out[4]=target.deviated;out[5]=target.actionID;out[8]=s_randomSeed[0]|s_randomSeed[1]<<8;out[9]=s_randomSeed[2]|s_randomSeed[3]<<8;out[10]=Unit_GetHouseID(&target);out[11]=(uint8)target.spriteOffset;out[12]=target.timer;out[18]=target.targetAttack;out[19]=target.targetMove;
+}

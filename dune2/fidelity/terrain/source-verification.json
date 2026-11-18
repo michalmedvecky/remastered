@@ -1,0 +1,245 @@
+{
+  "target": "inputs/DUNE2.EXE",
+  "targetSha256": "85f22bb82ea6f755835d5a94d257a67e11a3b854ec934854a69c3eeff7d0180f",
+  "provider": "Ghidra saved exports via REA",
+  "verification": "MZ relocations and FBOV fixups reconstructed; every instruction byte in listed functions compared",
+  "functions": [
+    {
+      "address": "0x75f00",
+      "ranges": "0x75f00-0x76798",
+      "assembly": "game-final/assembly/0x75f00.asm",
+      "assemblySha256": "f653408fbea3ed1dea28896cca4415d813cde9408ba36e70053b440d516432d0",
+      "pseudocode": "game-final/pseudocode/raw/0x75f00.c",
+      "pseudocodeSha256": "703c843e000864021373afe3068cb2cda9e8c5c5a32c183c78031f7585faa949",
+      "instructionsVerified": 789,
+      "instructionBytesVerified": 2201,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv; evidence/fbov.json stub 0x426ce",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x76799",
+      "ranges": "0x76799-0x768b5",
+      "assembly": "game-final/assembly/0x76799.asm",
+      "assemblySha256": "09939abe8104c465617eb27d90af4cd73b5c643e82ca441488758a3647d1480f",
+      "pseudocode": "game-final/pseudocode/raw/0x76799.c",
+      "pseudocodeSha256": "b7671dfe952b405ea63c784df7b7cfec22a924e1432b99ec147db5e3378500e3",
+      "instructionsVerified": 112,
+      "instructionBytesVerified": 285,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv; evidence/fbov.json stub 0x426dd",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x768b6",
+      "ranges": "0x768b6-0x768cf",
+      "assembly": "game-final/assembly/0x768b6.asm",
+      "assemblySha256": "c83e058466389551d577e2126c6b322822fcca3e786138dd00b0130e38031921",
+      "pseudocode": "game-final/pseudocode/raw/0x768b6.c",
+      "pseudocodeSha256": "2378a83107f44d3c1aab08e530c7bd67ce5b89594d9a0f7ea0b85b3c12cd4a57",
+      "instructionsVerified": 14,
+      "instructionBytesVerified": 26,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv; evidence/fbov.json stub 0x426d8",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x39b86",
+      "ranges": "0x39b86-0x39bac",
+      "assembly": "game-final/assembly/0x39b86.asm",
+      "assemblySha256": "f72e0e67201a64822e4e9012ffacc5c382102c0fb06f8e878da5e66c747e47e3",
+      "pseudocode": "game-final/pseudocode/raw/0x39b86.c",
+      "pseudocodeSha256": "b80b2300c5984e8ae629da6384e886cd562938639f241fc6189ce2107cd736bd",
+      "instructionsVerified": 20,
+      "instructionBytesVerified": 39,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x1d65a",
+      "ranges": "0x1d65a-0x1d72d",
+      "assembly": "game-final/assembly/0x1d65a.asm",
+      "assemblySha256": "95debb6dd695c257e8ae609f5f761b8b39b58d9de1cf2b0d44bf0f2c986a0bf1",
+      "pseudocode": "game-final/pseudocode/raw/0x1d65a.c",
+      "pseudocodeSha256": "4a5097ed96083ddc201d5d3ada28922f3f69939ada06837e9f7fb7834518196d",
+      "instructionsVerified": 91,
+      "instructionBytesVerified": 212,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x1d556",
+      "ranges": "0x1d556-0x1d56c",
+      "assembly": "game-final/assembly/0x1d556.asm",
+      "assemblySha256": "79781467b13167b168451db9a097597812a504dc0654b81890d4ca37b7eca78e",
+      "pseudocode": "game-final/pseudocode/raw/0x1d556.c",
+      "pseudocodeSha256": "1f8a6ef91e10bc5ec3af8571f21b0ea065319e9e9a1f8213591caa07a07cac04",
+      "instructionsVerified": 12,
+      "instructionBytesVerified": 23,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x1d53f",
+      "ranges": "0x1d53f-0x1d555",
+      "assembly": "game-final/assembly/0x1d53f.asm",
+      "assemblySha256": "df82b3357635acb3725a8dd035c3c5b9736b16391c58162c7b780bc20ce67b07",
+      "pseudocode": "game-final/pseudocode/raw/0x1d53f.c",
+      "pseudocodeSha256": "047f47634e44f06595383271f5f52d59d0411ae0663d5494987f1f0facc404d5",
+      "instructionsVerified": 13,
+      "instructionBytesVerified": 23,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x1d7db",
+      "ranges": "0x1d7db-0x1d7ed",
+      "assembly": "game-final/assembly/0x1d7db.asm",
+      "assemblySha256": "41dadeafc05b7118e2908b1921d3fb17f01eda2234001de0541cec3969277a26",
+      "pseudocode": "game-final/pseudocode/raw/0x1d7db.c",
+      "pseudocodeSha256": "f2d406cf1df82c33c25744c4388b34e500a084b181af31ea24ca1bdb1c123370",
+      "instructionsVerified": 9,
+      "instructionBytesVerified": 19,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x1d7ee",
+      "ranges": "0x1d7ee-0x1d804",
+      "assembly": "game-final/assembly/0x1d7ee.asm",
+      "assemblySha256": "450749c348ba1a53fadc0d207809c8a283b6a5bba3fc4889747a3557c28f4492",
+      "pseudocode": "game-final/pseudocode/raw/0x1d7ee.c",
+      "pseudocodeSha256": "c36226ad16fec82435b23a5b23b2e70648ec09258d3e32eadcaeec4bdb08f893",
+      "instructionsVerified": 11,
+      "instructionBytesVerified": 23,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x1d805",
+      "ranges": "0x1d805-0x1d818",
+      "assembly": "game-final/assembly/0x1d805.asm",
+      "assemblySha256": "ee86aa6dc4af9c2c407ea15fa35e199957f2b7173ce026e160f06b1a1eaca429",
+      "pseudocode": "game-final/pseudocode/raw/0x1d805.c",
+      "pseudocodeSha256": "c3c92db2623e6d055020f4fe99273310027fce82ccd4bb99b4b0e84dd442c992",
+      "instructionsVerified": 10,
+      "instructionBytesVerified": 20,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x1d819",
+      "ranges": "0x1d819-0x1d850",
+      "assembly": "game-final/assembly/0x1d819.asm",
+      "assemblySha256": "7cba2159d2fdf3ef9125b1820d5cd2e27357ab13ca2ff9253810e2b3f77fe246",
+      "pseudocode": "game-final/pseudocode/raw/0x1d819.c",
+      "pseudocodeSha256": "4a9421b55f0188b86216d06a6d49a3afee72bd0c655b034f8d7936b40d552f25",
+      "instructionsVerified": 30,
+      "instructionBytesVerified": 56,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x74e80",
+      "ranges": "0x74e80-0x75eff",
+      "assembly": "game-final/assembly/0x74e80.asm",
+      "assemblySha256": "2597794ea22a87290e61680655f5c246858556acd1448a763aebdc875a516bee",
+      "pseudocode": "game-final/pseudocode/raw/0x74e80.c",
+      "pseudocodeSha256": "09296f4a4651390495b0d7c05be22c1789e9db236b7b965b4750036b0236e4dd",
+      "instructionsVerified": 1730,
+      "instructionBytesVerified": 4224,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv; game-final/literal-references.tsv at 0x74ec1, 0x74f3b, 0x74f40, 0x74f5a, 0x74f5f, 0x74f79, 0x74f9c, 0x74fa1, 0x74fbb, 0x74fc0, 0x74fdd, 0x74fe2, 0x74fff, 0x75004, 0x75023, 0x75028, 0x7502d, 0x75049, 0x7504e, 0x75053, 0x7506f, 0x75074, 0x75079, 0x750cb, 0x750d0, 0x750f2, 0x7513a, 0x7515d, 0x75181, 0x75265, 0x752a5, 0x75509, 0x75567, 0x755fe, 0x758e5, 0x75989, 0x75a2c, 0x75b16, 0x75b51, 0x75c09, 0x75d12, 0x75d3e, 0x75e69, 0x75ea8; evidence/fbov.json stub 0x42680",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x7a99c",
+      "ranges": "0x7a99c-0x7aa5b",
+      "assembly": "game-final/assembly/0x7a99c.asm",
+      "assemblySha256": "11ed3d68e3d5fbedc2ff177613e56ceb9e0d432759c52a1903d357cd27e545fd",
+      "pseudocode": "game-final/pseudocode/raw/0x7a99c.c",
+      "pseudocodeSha256": "9a506c53ecf4192bc3e4695cec910df4eb071d928642d0dbac53150170c7a4fb",
+      "instructionsVerified": 85,
+      "instructionBytesVerified": 192,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv; evidence/fbov.json stub 0x428a5",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x79ba0",
+      "ranges": "0x79ba0-0x79bc6,0x79bc8-0x79c43",
+      "assembly": "game-final/assembly/0x79ba0.asm",
+      "assemblySha256": "90cb463040b4a0faf6df8b2bb494a767843f201b6f2014320a6eaefb9ef64147",
+      "pseudocode": "game-final/pseudocode/raw/0x79ba0.c",
+      "pseudocodeSha256": "b6cb4bfcab44293d9e98a288cc9495ad623ad1bc52e8612e5eaa27ab91e014bd",
+      "instructionsVerified": 71,
+      "instructionBytesVerified": 163,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv; evidence/fbov.json stub 0x42841",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x79f4a",
+      "ranges": "0x79f4a-0x7a085",
+      "assembly": "game-final/assembly/0x79f4a.asm",
+      "assemblySha256": "b77be7ed97594558ebc79f91a184de45ba9c34289725cb29722888eeb3d9b09f",
+      "pseudocode": "game-final/pseudocode/raw/0x79f4a.c",
+      "pseudocodeSha256": "302103a34a4151cd6ccc00bf0f8a58464d1c496e5a1df068d33890581f895086",
+      "instructionsVerified": 122,
+      "instructionBytesVerified": 316,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv; evidence/fbov.json stub 0x4288c",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    },
+    {
+      "address": "0x7a086",
+      "ranges": "0x7a086-0x7a1c3",
+      "assembly": "game-final/assembly/0x7a086.asm",
+      "assemblySha256": "9fe9c55394c36d02f6c51491ff8ec819dae70d93b37f24502c9af6b92f5ebcf7",
+      "pseudocode": "game-final/pseudocode/raw/0x7a086.c",
+      "pseudocodeSha256": "1662326145d6b65bb90995d63f682a15e917a70e50fbe747880d023fe096b48b",
+      "instructionsVerified": 122,
+      "instructionBytesVerified": 318,
+      "reaEvidence": "game-final/references.tsv; game-final/symbols.tsv",
+      "allAssemblyBytesMatchRelocatedOriginal": true
+    }
+  ],
+  "keyInstructions": {
+    "0x1d6ba": {
+      "bytes": "f7ee",
+      "disassembly": "IMUL SI"
+    },
+    "0x1d6be": {
+      "bytes": "d3f8",
+      "disassembly": "SAR AX,CL"
+    },
+    "0x1d6d2": {
+      "bytes": "f7d8",
+      "disassembly": "NEG AX"
+    },
+    "0x1d6d4": {
+      "bytes": "f7ee",
+      "disassembly": "IMUL SI"
+    },
+    "0x1d6d8": {
+      "bytes": "d3f8",
+      "disassembly": "SAR AX,CL"
+    },
+    "0x7a0c8": {
+      "bytes": "9a1b034c1d",
+      "disassembly": "CALLF 0x1000:d7db"
+    },
+    "0x7a0d4": {
+      "bytes": "9a2e034c1d",
+      "disassembly": "CALLF 0x1000:d7ee"
+    },
+    "0x7a0e3": {
+      "bytes": "837ef640",
+      "disassembly": "CMP word ptr [BP + -0xa],0x40"
+    },
+    "0x7a0ef": {
+      "bytes": "837ef440",
+      "disassembly": "CMP word ptr [BP + -0xc],0x40"
+    }
+  },
+  "executedDosBinary": false,
+  "nativeRuntimeComparison": false,
+  "limitations": [
+    "Static byte verification does not validate every inferred algorithm semantic.",
+    "Original DOS memory adjacent to the map was not observed; cleared-neighbor model remains explicit.",
+    "Ghidra assembly text has segment-register operand display errors in some MOV instructions; instruction bytes are authoritative."
+  ]
+}

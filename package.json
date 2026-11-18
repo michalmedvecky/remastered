@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node scripts/serve.mjs",
-    "test": "node --test tests/*.test.mjs deploy/render.test.mjs && npm --prefix pre2 test && npm --prefix ga test && npm --prefix flappy test && npm --prefix tappy test",
+    "test": "node --test tests/*.test.mjs deploy/render.test.mjs && npm --prefix pre2 test && npm --prefix ga test && npm --prefix flappy test && npm --prefix tappy test && npm --prefix dune2 test",
     "verify": "node scripts/verify-package.mjs",
     "snapshot": "node scripts/refresh-manifest.mjs"
   }

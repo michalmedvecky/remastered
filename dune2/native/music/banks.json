@@ -1,0 +1,170 @@
+[
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE0.ADL",
+    "offset": 57110,
+    "size": 14473,
+    "sha256": "674965c1a896617cca3d7cca5b69c7b9a2c93ced66db8f1f8df798f44aeb64e4",
+    "prefix_hex": "000102ff46ffffffffffffffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE1.ADL",
+    "offset": 71583,
+    "size": 14063,
+    "sha256": "19fa41a2c162149dae77fee21b1667c9c4145eb7e5f88c7a6e8a4be047c19264",
+    "prefix_hex": "0001c59aa1acb3ffffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE2.ADL",
+    "offset": 85646,
+    "size": 12199,
+    "sha256": "2ba287c47ec4702e028b8a6ed5e877cb3bb367e32bdd5a096f12ea897ec06375",
+    "prefix_hex": "0001ffffffffb3ffffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE3.ADL",
+    "offset": 97845,
+    "size": 9300,
+    "sha256": "ac911f1b2ef09c43068124d729f3ced26239a3db4c6e65bf5690d89196be868e",
+    "prefix_hex": "0001ffffffffb3ffffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE4.ADL",
+    "offset": 107145,
+    "size": 10457,
+    "sha256": "e7f0c4476547d356763254a280a9409f8c69c5f8e11b423537917dc9dbe62533",
+    "prefix_hex": "0001ffffffffb3ffffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE5.ADL",
+    "offset": 117602,
+    "size": 12947,
+    "sha256": "cb22d9b0b43a10eba779d15c1f415fba02baf263fb19c15b26e7249020fd8a27",
+    "prefix_hex": "0001ffffffffb3ffffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE6.ADL",
+    "offset": 130549,
+    "size": 10552,
+    "sha256": "567db645217b7116ff6ac64af3d551e82f02b6a9496e86615d11fa23ba65800e",
+    "prefix_hex": "0001ffffffffb3ffffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE7.ADL",
+    "offset": 141101,
+    "size": 12860,
+    "sha256": "d8617e8706d68e0080de10cdb42c6a9afbdc5bc330e072ba859a5c7aff5d3870",
+    "prefix_hex": "0001081641ff0fffffffffffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE8.ADL",
+    "offset": 153961,
+    "size": 11697,
+    "sha256": "c58ea69441cfbeb8bca185d6897ebab52c4cb474045f520ffd5bfe6b2bc66014",
+    "prefix_hex": "0001c1d0a2ffffffffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE9.ADL",
+    "offset": 165658,
+    "size": 15519,
+    "sha256": "4402e11874ecf2cc7e6da55e76a33be7a613100973c6797643ffa3f276b35f10",
+    "prefix_hex": "0001ffff150cffffffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE10.ADL",
+    "offset": 181177,
+    "size": 14711,
+    "sha256": "58236991414b64c82aa5ba1763a7c42c881cc17651c0ae9d6074559ec0bdbfe5",
+    "prefix_hex": "0001c59aa1acffbaffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE11.ADL",
+    "offset": 195888,
+    "size": 13990,
+    "sha256": "789a3eedaf3e228b2c41ae5b35a50efaded37717f13372264ad502bc369e3157",
+    "prefix_hex": "0001ffffffffffbaffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE12.ADL",
+    "offset": 209878,
+    "size": 11129,
+    "sha256": "c50cbcb99cb88934dee005f221c36bbbd41a1418218547218908123cd8ffc90c",
+    "prefix_hex": "0001ffffffffffbaffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE13.ADL",
+    "offset": 221007,
+    "size": 11699,
+    "sha256": "8e5979d4c207f57b2fd55b1a3d34c047ac5df0a308f331f9e6b070937127e7bd",
+    "prefix_hex": "0001ffffffffffbaffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE14.ADL",
+    "offset": 232706,
+    "size": 10827,
+    "sha256": "6c75af2b63cafffa2dec01de4333658bd14d53b39c59d4b39d4a8f3dbefbd16e",
+    "prefix_hex": "0001ffffffffffbaffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE15.ADL",
+    "offset": 243533,
+    "size": 12414,
+    "sha256": "d332be1a79c1862b2ed7931843c5cfcdfab3dae6f04597477a6df4723b7665bc",
+    "prefix_hex": "0001ffffffffffbaffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE16.ADL",
+    "offset": 255947,
+    "size": 7406,
+    "sha256": "eb19e2490dfc3764c63fbfef08ed3386fa2d7942e73324efd60ed1f0cb8823cd",
+    "prefix_hex": "0001ffffffffff1d02ffffffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE17.ADL",
+    "offset": 263353,
+    "size": 7567,
+    "sha256": "e85025fc587cd00b65ba5ea3e401fcb864e2b0bed4a9944109933fd92f692a03",
+    "prefix_hex": "0001ffffa2ffffffffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE18.ADL",
+    "offset": 270920,
+    "size": 10813,
+    "sha256": "6f6acde56a6c05061653b57102dbe7665571cca2eff217ca7b942cfbba271ff6",
+    "prefix_hex": "0001ffffffff03ffffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE19.ADL",
+    "offset": 281733,
+    "size": 7257,
+    "sha256": "fcc1ff26a4b001da53b0e166d0190f5440b33ee754e68439f98d2e1678152e2d",
+    "prefix_hex": "0001030a11ffffffffff02ffffffffff"
+  },
+  {
+    "archive": "SOUND.PAK",
+    "name": "DUNE20.ADL",
+    "offset": 288990,
+    "size": 13808,
+    "sha256": "a3ee0eaceab209b2cb0f3079a425898e6fe630bd02e0f2ac227f84dc825b5c0f",
+    "prefix_hex": "000103ffffffffffffff02ffffffffff"
+  }
+]

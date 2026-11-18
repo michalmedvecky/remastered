@@ -1,0 +1,12 @@
+[
+  {
+    "path": "/Users/misko/Downloads/dune-2_1992.zip",
+    "sha256": "f7c9048f1bee49e2d9e3690adaef027e6a2e5bd22f8c18af16408e55a2a2d228",
+    "unchanged": true
+  },
+  {
+    "path": "analysis/dune-2/inputs/DUNE2.EXE",
+    "sha256": "85f22bb82ea6f755835d5a94d257a67e11a3b854ec934854a69c3eeff7d0180f",
+    "unchanged": true
+  }
+]

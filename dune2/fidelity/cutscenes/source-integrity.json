@@ -1,0 +1,7 @@
+{
+  "source": "native/opendune/src/cutscene.c",
+  "upstreamCommit": "ebea79aeba025be2fe9004570e9255044aacc0be",
+  "localSha256": "d7c5405d8f6a25ce459b651f2e3d0658b34f6ece4b7d45bd471c9ebedc4a1ac8",
+  "upstreamSha256": "d7c5405d8f6a25ce459b651f2e3d0658b34f6ece4b7d45bd471c9ebedc4a1ac8",
+  "unchanged": true
+}

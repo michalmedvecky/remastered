@@ -1,0 +1,40 @@
+{
+  "bytes": 3812,
+  "sha256": "d93fd61473bf9e7b2c41d76c08dd3dcda2c7e4615372c74b7573b8048c33d11b",
+  "chunks": [
+    {
+      "tag": "NAME",
+      "size": 12
+    },
+    {
+      "tag": "INFO",
+      "size": 330
+    },
+    {
+      "tag": "PLYR",
+      "size": 132
+    },
+    {
+      "tag": "UNIT",
+      "size": 1920
+    },
+    {
+      "tag": "BLDG",
+      "size": 88
+    },
+    {
+      "tag": "MAP ",
+      "size": 984
+    },
+    {
+      "tag": "TEAM",
+      "size": 0
+    },
+    {
+      "tag": "ODUN",
+      "size": 270
+    }
+  ],
+  "createdBy": "newly compiled browser C port",
+  "dosExecuted": false
+}

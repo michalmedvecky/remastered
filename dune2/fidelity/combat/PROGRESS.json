@@ -1,0 +1,26 @@
+{
+  "stage": "bounded DOSBox combat comparisons and verified original-mode fixes complete; production build owned by main task",
+  "completed": [
+    "Verified 104 original callback table slots and MZ pointer relocations",
+    "Mapped all 79 used slots / 76 original addresses to source and raw Ghidra exports",
+    "Preserved 86 native callback contracts and complete dispatch tables",
+    "Compared 1053 original unit definition fields and all 13 named combat flags",
+    "Applied reviewed V1.07 original-mode compatibility differences through idempotent patch script",
+    "Passed instruction-semantics arithmetic vectors and patched source syntax checks",
+    "Documented connected combat behavior and limits in COMBAT-FIDELITY.md",
+    "Rechecked original archive and executable hashes unchanged",
+    "Executed5854 bounded original-machine-code fixtures across speed/Fire/motion/projectile/deviation/damage",
+    "Corrected seven additional runtime-observed fidelity differences; retained before/after evidence",
+    "Regenerated callback contracts and passed seven translation-unit syntax/idempotence checks",
+    "Verified original ZIP and all19 original members unchanged",
+    "Shipped compact observed-original fixture pack and passed5854 regressions compiled from actual current patched function bodies"
+  ],
+  "remaining_coverage_limits": [
+    "Every native source branch has not been proven equivalent to supplied V1.07 machine code",
+    "Source callback coverage and Ghidra function inventory do not prove undiscovered code is absent",
+    "Full live combat scheduling, complete projectile creation/inaccuracy, explosion area damage, cross-object retaliation and original hardware timing remain outside these controlled matrices"
+  ],
+  "original_code_executed": true,
+  "resume_from": "analysis/dune-2/dos-comparison/combat/REPORT.md; comparison-summary.json; COMBAT-FIDELITY.md",
+  "native_original_runtime_regression": "original-runtime-regression-results.json"
+}

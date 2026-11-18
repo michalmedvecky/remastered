@@ -1,0 +1,4546 @@
+{
+  "sourceExecution": "none; static reads",
+  "files": [
+    {
+      "name": "AATTACK.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "65e20f00c47d24dd54bdb683bfe3933144e3ca632cdd9b695c933423654e5ce9",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 19395,
+          "nativeSamples": 19393,
+          "timeConstant": 171,
+          "durationSeconds": 1.648405
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 19393,
+      "decodedSha256": "f51afe03ddfa245e025f35d76788b0a9264e65d8a8c889451190d4cb568f80de",
+      "hardwareDurationSeconds": 1.648405,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AARRIVE.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "efa6f8706faf458fa53977fe760ac63219829ee52cafb1891307324480ee946d",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 11907,
+          "nativeSamples": 11905,
+          "timeConstant": 171,
+          "durationSeconds": 1.011925
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 11905,
+      "decodedSha256": "e09574ff484d0ed2ed7aaac7439bc9f5927dfd99c71a6273e6f324ffe64885bd",
+      "hardwareDurationSeconds": 1.011925,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AAPPRCH.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "26af31c8add3abe24052cf676012eaa849594282383c51567cc6bc3dbbb6d756",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8195,
+          "nativeSamples": 8193,
+          "timeConstant": 171,
+          "durationSeconds": 0.696405
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8193,
+      "decodedSha256": "6d2bc1f9fa3caf27c2916a83ce3b9cc066e147dbb401817bd44102e686bed33e",
+      "hardwareDurationSeconds": 0.696405,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AATRE.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "dd14563d14cf9732643e139543b6163897952f76ddab132bb2249464267cbeab",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 6403,
+          "nativeSamples": 6401,
+          "timeConstant": 171,
+          "durationSeconds": 0.544085
+        },
+        {
+          "type": 3,
+          "fileOffset": 6433,
+          "size": 3,
+          "nativeSamples": 310,
+          "timeConstant": 172,
+          "durationSeconds": 0.02604
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 6707,
+      "decodedSha256": "52a041e5c1eeff31b8ef80cd3f4a636dc36946ea545760523d89e43832a781d5",
+      "hardwareDurationSeconds": 0.570125,
+      "ignoredByStockSDLDSPSeconds": 0.02604
+    },
+    {
+      "name": "ABLOOM.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "69f340dcdf580b795b2e942808b91a091bc81b1ff1601f2479d8985ceaa915dd",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10243,
+          "nativeSamples": 10241,
+          "timeConstant": 171,
+          "durationSeconds": 0.870485
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10241,
+      "decodedSha256": "6255d2657af891ff922087611b3f24dfa3bc060453db54a4def4d9088efa446a",
+      "hardwareDurationSeconds": 0.870485,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ACONST.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "f684121745f02e3fe06cf29e12ac7cd8e280c6803e7d80078892c5cfc49f2f87",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 17091,
+          "nativeSamples": 17089,
+          "timeConstant": 171,
+          "durationSeconds": 1.452565
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 17089,
+      "decodedSha256": "4e06ef3a4ca31726cb896f9c3b4624c388257cf2a3cce5f6141f55b7a926b5ce",
+      "hardwareDurationSeconds": 1.452565,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ADEPLOY.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "64ccee667cfe2524355d09e2fa4f4975f6cc5d5c833bb2e092fb0d74fe994a0a",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8259,
+          "nativeSamples": 8257,
+          "timeConstant": 171,
+          "durationSeconds": 0.701845
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8257,
+      "decodedSha256": "09cb7d60f71e7e1d9a2e37a1988d6095277fdcfd8362f70415131c676a4f3d56",
+      "hardwareDurationSeconds": 0.701845,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ADESTROY.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "bc9235591d65ee6ae9cafa0c8eb6255b179d11306980abafe634cdad4bfade09",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9603,
+          "nativeSamples": 9601,
+          "timeConstant": 171,
+          "durationSeconds": 0.816085
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9601,
+      "decodedSha256": "36f1accb84a8e749aff3b02eaafd07f162f5c71d850b1adab93a92df6054bd86",
+      "hardwareDurationSeconds": 0.816085,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AEAST.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "086a1cc085107271ab6fe6a653a1e797c4412286adddb8acbe00cc804cd0ea16",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10051,
+          "nativeSamples": 10049,
+          "timeConstant": 171,
+          "durationSeconds": 0.854165
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10049,
+      "decodedSha256": "aeb18bf99a4a0c07f0b60286a0d6347f5d23a22aeb5bad5b39a4e57596ca79da",
+      "hardwareDurationSeconds": 0.854165,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AENEMY.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "890679d1ce070fc21ddc69467798941b66688663312054e4788e9415dcc07ab8",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5571,
+          "nativeSamples": 5569,
+          "timeConstant": 171,
+          "durationSeconds": 0.473365
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5569,
+      "decodedSha256": "6a62d299114dcc85e0950ca48045fde83d9203c243e6795c757d72b3191dcf91",
+      "hardwareDurationSeconds": 0.473365,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AFIELD.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "91f9d6bb680e0d6f4d1adccdae142ce830efb2b9c0603fb7f72580af92adad06",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9923,
+          "nativeSamples": 9921,
+          "timeConstant": 171,
+          "durationSeconds": 0.843285
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9921,
+      "decodedSha256": "332412c8a10b70d6da08894c8d48d44cb1d0adac7d1b8f91798ed1e4906e3f8e",
+      "hardwareDurationSeconds": 0.843285,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AFIVE.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "c3d818075e32785c0402aa3ba27c138c7540afaee7261db219e83040cde862ac",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4611,
+          "nativeSamples": 4609,
+          "timeConstant": 171,
+          "durationSeconds": 0.391765
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 4609,
+      "decodedSha256": "635d9d1a2089b3395b2d88af650f9d6b355096c7f23b6b93304c2ac27d12f22c",
+      "hardwareDurationSeconds": 0.391765,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AFOUR.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "c08b77c0569adcf81fcf5847d0be709d524d1f3f3ee07c8d43103af6ae85ba4e",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4099,
+          "nativeSamples": 4097,
+          "timeConstant": 171,
+          "durationSeconds": 0.348245
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 4097,
+      "decodedSha256": "f8ba42b8ca1cf547b6c2b923cf94bf05b89f3fa98fc1a13c4d6f34c31fabbe1a",
+      "hardwareDurationSeconds": 0.348245,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AFREMEN.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "55648a60962c9f1696332ba76ea313676a49d72931d242650ff7ba2c8df8caac",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4611,
+          "nativeSamples": 4609,
+          "timeConstant": 171,
+          "durationSeconds": 0.391765
+        },
+        {
+          "type": 3,
+          "fileOffset": 4641,
+          "size": 3,
+          "nativeSamples": 239,
+          "timeConstant": 172,
+          "durationSeconds": 0.020076
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 4845,
+      "decodedSha256": "572573dec2454131179be26d63b3cb2025360995abab76c88e7c0197af6cc965",
+      "hardwareDurationSeconds": 0.41184099999999996,
+      "ignoredByStockSDLDSPSeconds": 0.020076
+    },
+    {
+      "name": "AFRIGATE.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "cbc795523dc85ccb8b485bde07573bf43e71080106e4527efd6173527d212bd2",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 6979,
+          "nativeSamples": 6977,
+          "timeConstant": 171,
+          "durationSeconds": 0.593045
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 6977,
+      "decodedSha256": "3621160e08eec3d0ecee5a0d3a586f6e71f92b5aacf6ab2668068e390cbc1d62",
+      "hardwareDurationSeconds": 0.593045,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AHARK.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "b2c502786d48e246a78123a6cbd0ff0aebf6146dba08110edabf6797481f7036",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7491,
+          "nativeSamples": 7489,
+          "timeConstant": 171,
+          "durationSeconds": 0.636565
+        },
+        {
+          "type": 3,
+          "fileOffset": 7521,
+          "size": 3,
+          "nativeSamples": 250,
+          "timeConstant": 172,
+          "durationSeconds": 0.021
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7736,
+      "decodedSha256": "9eef06880e6c7e849a27e0a64918b700becf0eac3c26bfca59308c0f052a3f64",
+      "hardwareDurationSeconds": 0.6575650000000001,
+      "ignoredByStockSDLDSPSeconds": 0.021
+    },
+    {
+      "name": "ALOCATED.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "2c8ab7599e1367819ee49a3fc28d0ea6cf0e302c392e06ec4dc8f95dd7203432",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7747,
+          "nativeSamples": 7745,
+          "timeConstant": 171,
+          "durationSeconds": 0.658325
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7745,
+      "decodedSha256": "a5a3c9ac2f9ea5c0bdab6af0755cc6dbd2cf2097573c5533192498c6a00494ed",
+      "hardwareDurationSeconds": 0.658325,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ALOSE.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "61bff80f975073a600156e7138ef69c128ee474c2006838bd13adaa838f1b10c",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 17211,
+          "nativeSamples": 17209,
+          "timeConstant": 171,
+          "durationSeconds": 1.462765
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 17209,
+      "decodedSha256": "7019bfa629e8c4ff18f79f26deb05e15bec200be710676f67cef7009ea70a4f4",
+      "hardwareDurationSeconds": 1.462765,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AMERC.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "18e952a11684d43df68d0713e4dcca347df1513426cfa52c925a0616f9ac2e58",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8707,
+          "nativeSamples": 8705,
+          "timeConstant": 171,
+          "durationSeconds": 0.739925
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8705,
+      "decodedSha256": "a31ea870d52c52c1f69594aff56a56b6452b9d76496e1149e2c8fb2b63c90734",
+      "hardwareDurationSeconds": 0.739925,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AMISSILE.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "a8b55c829d0ac3320bc93d6da64867677047f784c961ab3e7d7dd21e7e650dcd",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5699,
+          "nativeSamples": 5697,
+          "timeConstant": 171,
+          "durationSeconds": 0.484245
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5697,
+      "decodedSha256": "51f236588d1d6e7bf15352506f0486e6bf1acc70b33a5d7319f7ebad1c6f8391",
+      "hardwareDurationSeconds": 0.484245,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ANORTH.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "af4cdae608fab86d1da1f8118c98b36fdccaf1c8e205cf858ca2ec0b09b90b8a",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 11843,
+          "nativeSamples": 11841,
+          "timeConstant": 171,
+          "durationSeconds": 1.006485
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 11841,
+      "decodedSha256": "4ca88071e2e742a5c3010f1f02f3d3cd7aeb25671a161c68266473bb77db8897",
+      "hardwareDurationSeconds": 1.006485,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AONE.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "8ddc43754cc7ce1262d31b90819656d671caf5c6ddc1f9454fde5f965da51384",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5123,
+          "nativeSamples": 5121,
+          "timeConstant": 171,
+          "durationSeconds": 0.435285
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5121,
+      "decodedSha256": "e45f5f4f78d2ab116d563d983fad704ec5709ce1d36e1dcbdeaae9b7206aa281",
+      "hardwareDurationSeconds": 0.435285,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AORDOS.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "ef9135a3b16fbabb97e72d62b606fc9d262281f33ed9a85d3b49967b5c094fc1",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4163,
+          "nativeSamples": 4161,
+          "timeConstant": 171,
+          "durationSeconds": 0.353685
+        },
+        {
+          "type": 3,
+          "fileOffset": 4193,
+          "size": 3,
+          "nativeSamples": 548,
+          "timeConstant": 172,
+          "durationSeconds": 0.046032
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 4703,
+      "decodedSha256": "39d376902b0c1fa018cf73e4a6cefc3afc517eddffe07d844179eae1c87e51e9",
+      "hardwareDurationSeconds": 0.39971700000000004,
+      "ignoredByStockSDLDSPSeconds": 0.046032
+    },
+    {
+      "name": "ARADAR.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "d9c64966c66bc2c3f3f49b80c2eb4522d1018c99e76834e5b8197293a9519237",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5507,
+          "nativeSamples": 5505,
+          "timeConstant": 171,
+          "durationSeconds": 0.467925
+        },
+        {
+          "type": 3,
+          "fileOffset": 5537,
+          "size": 3,
+          "nativeSamples": 241,
+          "timeConstant": 131,
+          "durationSeconds": 0.030125
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5859,
+      "decodedSha256": "919c2e58788d79bf1a2c4879aafd2364b501faf2bb369ae17c55693846246198",
+      "hardwareDurationSeconds": 0.49805,
+      "ignoredByStockSDLDSPSeconds": 0.030125
+    },
+    {
+      "name": "AOFF.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "b649ce1efcd355b3a8c7e508cb9e2d411dbae55339e65f93bfd883a98a0fb55f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9795,
+          "nativeSamples": 9793,
+          "timeConstant": 171,
+          "durationSeconds": 0.832405
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9793,
+      "decodedSha256": "330ed71488f525d0598027595bc96f5eaefc780f005091a8ca39d7fd093e51b6",
+      "hardwareDurationSeconds": 0.832405,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AON.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "71b2c3962bc2bb6448940b44c7919a5c680e51fa790cc1581a83cb09ffc58970",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8579,
+          "nativeSamples": 8577,
+          "timeConstant": 171,
+          "durationSeconds": 0.729045
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8577,
+      "decodedSha256": "3c3c443a56f438f7ebd03b4cd0cc1d394e8e68851265e7536579eb06ec0acc37",
+      "hardwareDurationSeconds": 0.729045,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ASABOT.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "a99b280de7d05a7096c579506e6d01c39fceb974d17b8e35a7fd4c61a4eab56a",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9283,
+          "nativeSamples": 9281,
+          "timeConstant": 171,
+          "durationSeconds": 0.788885
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9281,
+      "decodedSha256": "d1af1823434ded057069339fbf549d9bd9e6f3e2eac40301405009ad21569b89",
+      "hardwareDurationSeconds": 0.788885,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ASARD.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "751fccd5350f7917a6e36c30a2e285047f4756fa14be5d224ea223cb3f514666",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8451,
+          "nativeSamples": 8449,
+          "timeConstant": 171,
+          "durationSeconds": 0.718165
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8449,
+      "decodedSha256": "96e54a968c363f5caff63e25558c37bf87f1c7e8b6a3480d0cfe44383eb9e936",
+      "hardwareDurationSeconds": 0.718165,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ASOUTH.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "786c9218fcf49db68d2a46ba808336cf0c82b29d58579ca95750f82fac8e4bf4",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 12739,
+          "nativeSamples": 12737,
+          "timeConstant": 171,
+          "durationSeconds": 1.082645
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 12737,
+      "decodedSha256": "849812b4cc52a19fafb4dc0192134b9b68ea37d1ba72e3935a9d3aa87ebfe727",
+      "hardwareDurationSeconds": 1.082645,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ASTRUCT.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "8a491004dcc84e8f851d1ccbccbb537217e4d5f6dea0990002f1d6e3be1fd132",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 6147,
+          "nativeSamples": 6145,
+          "timeConstant": 171,
+          "durationSeconds": 0.522325
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 6145,
+      "decodedSha256": "2920b2e76dd0ca74467430d08b5559b2447311ddd6aeacda864c646f3e37b5be",
+      "hardwareDurationSeconds": 0.522325,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ATHREE.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "8570cde633c12676667fe3a2b8672e4959c355b5ff385e71c0228c5da7fa9bc3",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5635,
+          "nativeSamples": 5633,
+          "timeConstant": 171,
+          "durationSeconds": 0.478805
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5633,
+      "decodedSha256": "71539c11a507d68eb68e46a4f32b04f3f059f881a4ac493c9a20e758d9da3400",
+      "hardwareDurationSeconds": 0.478805,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ATWO.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "ec29118370174cce6fcf09af4580b071c8f75c65131f99e26819e6ce226ad1f5",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5635,
+          "nativeSamples": 5633,
+          "timeConstant": 171,
+          "durationSeconds": 0.478805
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5633,
+      "decodedSha256": "7ef6df82a136af5154786f4f36e9758e3d17cbfbfedd92d6f02b4068227afe8c",
+      "hardwareDurationSeconds": 0.478805,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AUNIT.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "bc3596de5625d9f5e2a48b2774632378a9f917c4612f0c38f50e27cba0bd4431",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 3523,
+          "nativeSamples": 3521,
+          "timeConstant": 171,
+          "durationSeconds": 0.299285
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 3521,
+      "decodedSha256": "83aae2904f343a138088b03ce5fa5e3d9fe3390ac109e3566d79d3c3cdf81ece",
+      "hardwareDurationSeconds": 0.299285,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AWARNING.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "c659762dc31033e9a383f2e77da91f091282c9862de674e0e5e9b5aead2beec1",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7811,
+          "nativeSamples": 7809,
+          "timeConstant": 171,
+          "durationSeconds": 0.663765
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7809,
+      "decodedSha256": "d8aa1a9edad0b35dfb10d003794502ee40e62daa23b9ab67a3277189c5d58b34",
+      "hardwareDurationSeconds": 0.663765,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AWEST.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "87f2b98cd9ce74dde35693eb4520f3cbe295ff835556cd79cb1f9856d5672388",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10179,
+          "nativeSamples": 10177,
+          "timeConstant": 171,
+          "durationSeconds": 0.865045
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10177,
+      "decodedSha256": "befc56347f4dde6b4625a20d0f8b250a81efa05e3b182960c0c90c1361e9be04",
+      "hardwareDurationSeconds": 0.865045,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AWIN.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "321af4c2e737f60e0bd0a31e20fa1dca8cb92a92620260c66600b5a5a4e31dfc",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 18755,
+          "nativeSamples": 18753,
+          "timeConstant": 171,
+          "durationSeconds": 1.594005
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 18753,
+      "decodedSha256": "f02661283652fca1314409beaea4b22cf4e9256a5f77d634015e93a9b5398f88",
+      "hardwareDurationSeconds": 1.594005,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ALAUNCH.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "89068e523b74ed894654752d061e0933bfffb614cd0b2d9992857028350d4d69",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 6147,
+          "nativeSamples": 6145,
+          "timeConstant": 171,
+          "durationSeconds": 0.522325
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 6145,
+      "decodedSha256": "b273ca891885ef279039f22cdb13a77186cc81a394f8d44115b308a1e9abb458",
+      "hardwareDurationSeconds": 0.522325,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AVEHICLE.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "c4d22f2c6930c32bc34bdd8d11d9d2a569874a3561cb199fd63d6067bc0c4f84",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7683,
+          "nativeSamples": 7681,
+          "timeConstant": 171,
+          "durationSeconds": 0.652885
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7681,
+      "decodedSha256": "a5d23eb8ddfca1f5653cf8ca5b9583bb22227d3caa129adfe8f865f380001264",
+      "hardwareDurationSeconds": 0.652885,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AREPAIR.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "7be21e5e412ed62a8db357754929679fb652133a2bea5e42a16a9e7ebbcf9ff9",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7683,
+          "nativeSamples": 7681,
+          "timeConstant": 171,
+          "durationSeconds": 0.652885
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7681,
+      "decodedSha256": "4fd79bb106c9ed2dab641c32886e068017edd5142217fdacaa0818d4aaf9e14b",
+      "hardwareDurationSeconds": 0.652885,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AHARVEST.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "f44eaa0f5b829c62d62f45fcd02121e2f31e5393263cb3abc5d09525c905071e",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8707,
+          "nativeSamples": 8705,
+          "timeConstant": 171,
+          "durationSeconds": 0.739925
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8705,
+      "decodedSha256": "55bf9849498b319cc2cb703a7dfc43e3a825a3611dfd622b892da6ed10fd462d",
+      "hardwareDurationSeconds": 0.739925,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AWORMY.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "8448b764f544935cafa5e7b21f30415dd7548725533a9e88922102a6a1c36269",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10755,
+          "nativeSamples": 10753,
+          "timeConstant": 171,
+          "durationSeconds": 0.914005
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10753,
+      "decodedSha256": "de687e1b8c4c063c2eb6bb0885fde804970b5487980a689ef3ce4d8183da58f2",
+      "hardwareDurationSeconds": 0.914005,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ACAPTURE.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "719d2a59c484d136445658cdaf369e3ac09cf863f5b3ee3c5ba6819baba349c8",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8195,
+          "nativeSamples": 8193,
+          "timeConstant": 171,
+          "durationSeconds": 0.696405
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8193,
+      "decodedSha256": "508e141d4a582426e5e60fc19c784c26318bc156219359d05cb7804fe5195ff7",
+      "hardwareDurationSeconds": 0.696405,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ANEXT.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "c93831da1da52199a7e081f872b17258f7790da1bf728f83616f1c4a67f238ef",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 6595,
+          "nativeSamples": 6593,
+          "timeConstant": 171,
+          "durationSeconds": 0.560405
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 6593,
+      "decodedSha256": "1acc9082d00ffb2507e5c76317ebf356f51bb9696eb62f048d1c03051912819e",
+      "hardwareDurationSeconds": 0.560405,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ANEXT2.VOC",
+      "archive": "ATRE.PAK",
+      "sourceSha256": "69f2bc9acd34b838234978e1d8398d4c2ce2e8de16c513810f5e0b1e0308e7a9",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 17155,
+          "nativeSamples": 17153,
+          "timeConstant": 171,
+          "durationSeconds": 1.458005
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 17153,
+      "decodedSha256": "d6d70615a435e97185ad09ad91d2a0a5a15e8a21281fd2de29345bc01323a5a1",
+      "hardwareDurationSeconds": 1.458005,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HATTACK.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "f6d76a9c51c15c04e07236e75a717869b009d64c735de7868783e353bdb7463a",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 17667,
+          "nativeSamples": 17665,
+          "timeConstant": 171,
+          "durationSeconds": 1.501525
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 17665,
+      "decodedSha256": "8d3805c29bac7a86953ab5610f36c1799542be2d96d52cf76b03a2ec95f94efd",
+      "hardwareDurationSeconds": 1.501525,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HARRIVE.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "90027ec8cb037ffe23c6b669a1ce9a13e4ff68695764f66ca4192a62c3e1e8ba",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 12995,
+          "nativeSamples": 12993,
+          "timeConstant": 171,
+          "durationSeconds": 1.104405
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 12993,
+      "decodedSha256": "7307d3d9856b83061170d433456a19556bb3dc33035f7b07afdcc6339546dcd0",
+      "hardwareDurationSeconds": 1.104405,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HAPPRCH.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "591c1eb16bf0131c6ce74157450186b37b2c279e58b4f58a4a121a5b3f75ff9f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7939,
+          "nativeSamples": 7937,
+          "timeConstant": 171,
+          "durationSeconds": 0.674645
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7937,
+      "decodedSha256": "4ff32316c472a57bb4452547811fa296ac044711631ce5719e40925395bd8632",
+      "hardwareDurationSeconds": 0.674645,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HATRE.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "e101da83fddb3faf2dcc80c86965d6f2da471fae2a7719d0bd35c9dad463a6aa",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5203,
+          "nativeSamples": 5201,
+          "timeConstant": 171,
+          "durationSeconds": 0.442085
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5201,
+      "decodedSha256": "7018a7c7d521a4aeb81e0d303e2e8eb61380e01c4a18cd8e51202ccc90a02b6a",
+      "hardwareDurationSeconds": 0.442085,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HBLOOM.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "b779b95e3845b5f6c557dfb40d154717a44dfa19d0bb65f28120745dddd0474a",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 11651,
+          "nativeSamples": 11649,
+          "timeConstant": 171,
+          "durationSeconds": 0.990165
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 11649,
+      "decodedSha256": "548f120ad2164419ab1375e976dcbf6ab9f9e8551142f06f464f32beb773c5ea",
+      "hardwareDurationSeconds": 0.990165,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HCONST.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "1a61fabda497b58f67a0b689245e06f8d078e9cfe805a8d1518c285563476675",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 17987,
+          "nativeSamples": 17985,
+          "timeConstant": 171,
+          "durationSeconds": 1.528725
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 17985,
+      "decodedSha256": "681a9b470e1085bcf1ffce8c70381967b0fa8638015effa2926ba89a7d4ab9c3",
+      "hardwareDurationSeconds": 1.528725,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HDEPLOY.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "36b45a5bc04439bb3e8df4f128924e09553283c5f9dcbac3c5300fa198f3f456",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7299,
+          "nativeSamples": 7297,
+          "timeConstant": 171,
+          "durationSeconds": 0.620245
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7297,
+      "decodedSha256": "02f3b86abca1f65b585681a56977dd7a13e9bcad477cd02842ed1b001b8cdc39",
+      "hardwareDurationSeconds": 0.620245,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HDESTROY.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "1af7d3fcf8761160b3b98190a19cc0be353c8b79d2cf772127d442b30760dc4f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9411,
+          "nativeSamples": 9409,
+          "timeConstant": 171,
+          "durationSeconds": 0.799765
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9409,
+      "decodedSha256": "02011cd6dea3c606a73dee90944332ebf6c344c107f9cfb862669a33c98747c9",
+      "hardwareDurationSeconds": 0.799765,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HEAST.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "3c7b42c41c5f95d1f652dc57ed053d874ff2eb8ad0d838cd64e7d932166cfb1f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 11203,
+          "nativeSamples": 11201,
+          "timeConstant": 171,
+          "durationSeconds": 0.952085
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 11201,
+      "decodedSha256": "fa569fb461152c21f1fcae686e0cc24af261397f4e2b884ac8221748b595be7e",
+      "hardwareDurationSeconds": 0.952085,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HENEMY.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "baac1392918b7edf1eabf162f9f36818a1a3082167530657817a2b24bba288a9",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4803,
+          "nativeSamples": 4801,
+          "timeConstant": 171,
+          "durationSeconds": 0.408085
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 4801,
+      "decodedSha256": "207baa5c24194e98263467fca481905810003a470ae1135efe7d9ca76af0fc41",
+      "hardwareDurationSeconds": 0.408085,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HFIELD.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "0c294fa57d6bfae0b6e703b2c0196215fd2712b0cbba3885ccceea89293a0f5b",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 11075,
+          "nativeSamples": 11073,
+          "timeConstant": 171,
+          "durationSeconds": 0.941205
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 11073,
+      "decodedSha256": "f1bc85aeca2bde878065d456ee3594ab1a57b89c89bbdfeb0b8cc709c5d10370",
+      "hardwareDurationSeconds": 0.941205,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HFIVE.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "5be41713ed692437a149aef91da3ba1452af7665ae95cbeb122cecb2c40a1806",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8643,
+          "nativeSamples": 8641,
+          "timeConstant": 171,
+          "durationSeconds": 0.734485
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8641,
+      "decodedSha256": "ca12b0cec9733feb18401dc80b6dda71753cb7f426885430357c693c9c902e4d",
+      "hardwareDurationSeconds": 0.734485,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HFOUR.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "2211e29788bc28e7b2e39ab343b1cd2363a69919a5a117e719a6b769df4ab025",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8195,
+          "nativeSamples": 8193,
+          "timeConstant": 171,
+          "durationSeconds": 0.696405
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8193,
+      "decodedSha256": "adf485438aaf454b53c06f2da710e23dc33e8e17d7a9e1718f15459a33740fba",
+      "hardwareDurationSeconds": 0.696405,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HFREMEN.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "9b41aa61624cd1a497b84d6f738a4f5202b5c11beda600f838657ed4ca6c641b",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5379,
+          "nativeSamples": 5377,
+          "timeConstant": 171,
+          "durationSeconds": 0.457045
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5377,
+      "decodedSha256": "02b9f09c6f52000c1bcc009ebbcc54cb6bf643f402b58eb7d40f3d3297fe25b2",
+      "hardwareDurationSeconds": 0.457045,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HFRIGATE.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "27ae4e0c91b31e13e97863eed29e22304e7b6f63ffbbf21e738eef73f74b1497",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5955,
+          "nativeSamples": 5953,
+          "timeConstant": 171,
+          "durationSeconds": 0.506005
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5953,
+      "decodedSha256": "4ccf50475ba88f047892ce45004e4b374e1da3b886406d66e2443d5d23520891",
+      "hardwareDurationSeconds": 0.506005,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HHARK.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "9b5de6a9090bf8fa335276ecd1635fb7cb070afd2cd4ec6b9a667f968e3cf618",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 6931,
+          "nativeSamples": 6929,
+          "timeConstant": 171,
+          "durationSeconds": 0.588965
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 6929,
+      "decodedSha256": "06168882d6cd5f384cc3200a47c2d654b17d07d1e8e9815f17f266daade08827",
+      "hardwareDurationSeconds": 0.588965,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HLOCATED.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "bebfa72384f9485edcd4cfd36d48940d0471413ed78f6857f2eacf487b6e6642",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7875,
+          "nativeSamples": 7873,
+          "timeConstant": 171,
+          "durationSeconds": 0.669205
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7873,
+      "decodedSha256": "f37fc9dfeb510df40c083b74819b6a904e8d0f436b6c286176dc16698c867c4b",
+      "hardwareDurationSeconds": 0.669205,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HLOSE.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "ade3a5bd348194007bbdcbc48146250bb4d312fad1d7c08ad225740f4cece472",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 17987,
+          "nativeSamples": 17985,
+          "timeConstant": 171,
+          "durationSeconds": 1.528725
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 17985,
+      "decodedSha256": "92014557fddf902ac4a42d1fa37d90c377799e789ea300f2cc575a238438c1d1",
+      "hardwareDurationSeconds": 1.528725,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HMERC.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "8dec86c3d0bcb7a2a21aa27307f2b9156a3e202f15d060949fb999fceff2ec11",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10243,
+          "nativeSamples": 10241,
+          "timeConstant": 171,
+          "durationSeconds": 0.870485
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10241,
+      "decodedSha256": "8f2083ed1e93fdc1246d8f10a2e08aae1a3abef8f54f2cd24346b83773b56ec2",
+      "hardwareDurationSeconds": 0.870485,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HMISSILE.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "fe276aafa482f1c74320544a559535dc19f798629b46219c65ccddb249b3ddd4",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5763,
+          "nativeSamples": 5761,
+          "timeConstant": 171,
+          "durationSeconds": 0.489685
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5761,
+      "decodedSha256": "e01a22f587602da6df7f5ffe188cb2e7eb0bcab9313ab8e04c68829c8b86ee5e",
+      "hardwareDurationSeconds": 0.489685,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HNORTH.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "4d7ae542eac96c1c1454f6193a9fd1f0ee10440d1aa2c3afd7f84af50e0df411",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10243,
+          "nativeSamples": 10241,
+          "timeConstant": 171,
+          "durationSeconds": 0.870485
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10241,
+      "decodedSha256": "0bda73982851810f4ffa818633115d493ffddbf227f85afae891665d9854e439",
+      "hardwareDurationSeconds": 0.870485,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HONE.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "fe304ed9d0dff3915bbb2615def30b3c5edc1bf970044ab070a0f750b191c547",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8323,
+          "nativeSamples": 8321,
+          "timeConstant": 171,
+          "durationSeconds": 0.707285
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8321,
+      "decodedSha256": "76e4f93f6f43f333d900f758f10a56c858b5ef78ea6f06f673d594cb3de839d7",
+      "hardwareDurationSeconds": 0.707285,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HORDOS.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "8293c688bca3e87d0f3190f8f36f9dbe7f367ad35ba145e56f18e2d7c97a9499",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4739,
+          "nativeSamples": 4737,
+          "timeConstant": 171,
+          "durationSeconds": 0.402645
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 4737,
+      "decodedSha256": "a8c618d7e7f33b78423b1300738eb6fc4f8c16d7474f0214c6be161663ac265a",
+      "hardwareDurationSeconds": 0.402645,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HRADAR.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "e6821bcc49c369cbe6dbfd15d20f4377599c48ac24cf85025aa2543481ad4641",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 6595,
+          "nativeSamples": 6593,
+          "timeConstant": 171,
+          "durationSeconds": 0.560405
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 6593,
+      "decodedSha256": "89f3cf3523b90d6ddcd3d5a54abf84134ea49b33eae1fb8323f3c3d6e154b5d5",
+      "hardwareDurationSeconds": 0.560405,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HOFF.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "2448fff56116080d7d2570b089ffff0c79634d7faba717e4f3ab42fa8555e389",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 11907,
+          "nativeSamples": 11905,
+          "timeConstant": 171,
+          "durationSeconds": 1.011925
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 11905,
+      "decodedSha256": "a1c1daffe3c245b17f377f8531de1875bce3294355dca37672b84c9d5f23cc5b",
+      "hardwareDurationSeconds": 1.011925,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HON.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "c555d5b8943854be657da046da7678cb30f171d963d975ee6f7d4d2122be3327",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8195,
+          "nativeSamples": 8193,
+          "timeConstant": 171,
+          "durationSeconds": 0.696405
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8193,
+      "decodedSha256": "f0eba94ec8a6d22b51e51b36c2ad14da4203d94b03c6415fcf4ea70703a20218",
+      "hardwareDurationSeconds": 0.696405,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HSABOT.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "0964b46a243f8a77510ce2b5e12ad246a3a26d16554c40b00ce31562ef8d1c24",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8387,
+          "nativeSamples": 8385,
+          "timeConstant": 171,
+          "durationSeconds": 0.712725
+        },
+        {
+          "type": 3,
+          "fileOffset": 8417,
+          "size": 3,
+          "nativeSamples": 81,
+          "timeConstant": 131,
+          "durationSeconds": 0.010125
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8504,
+      "decodedSha256": "4c966b9b9e1a11879cb846d7baf9f147f7772ba36f5725194c8bf0efba2a58f5",
+      "hardwareDurationSeconds": 0.7228500000000001,
+      "ignoredByStockSDLDSPSeconds": 0.010125
+    },
+    {
+      "name": "HSARD.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "963c46d9c13117021e42a0fb5b1bacd23ef7db95ef38af5226993ee69f3bbef5",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9859,
+          "nativeSamples": 9857,
+          "timeConstant": 171,
+          "durationSeconds": 0.837845
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9857,
+      "decodedSha256": "99c3cde8cfdfd71cc18d77acef08afc4fb13b89e2fb22d5512fb50cb70e19ef2",
+      "hardwareDurationSeconds": 0.837845,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HSOUTH.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "c3df6a0a4f5434c1e4ac924e122594ce843d400dabcf1d9ce515ecb1aef9cac4",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 11203,
+          "nativeSamples": 11201,
+          "timeConstant": 171,
+          "durationSeconds": 0.952085
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 11201,
+      "decodedSha256": "d05ae2368260c7c75729693d944d2289b59a56174dc47680dc3f7e404ed53ada",
+      "hardwareDurationSeconds": 0.952085,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HSTRUCT.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "0a58de349f3bea4d6552fc62a1896d37f41eac47afbe924115c4438c76a945ad",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7363,
+          "nativeSamples": 7361,
+          "timeConstant": 171,
+          "durationSeconds": 0.625685
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7361,
+      "decodedSha256": "dc5e556a19f836a439b5b3208eed872518fdbfdaae247435e2231c492557e769",
+      "hardwareDurationSeconds": 0.625685,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HTHREE.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "36516acdc11b73fc1abf0fb834cce69d6bead0b5ddcc0f728f7e52fca9b34c72",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7427,
+          "nativeSamples": 7425,
+          "timeConstant": 171,
+          "durationSeconds": 0.631125
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7425,
+      "decodedSha256": "8eea38d35284c3fc5f7787defc7bea61e0a8fb28a3f3731ff9959ed3b8dece8b",
+      "hardwareDurationSeconds": 0.631125,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HTWO.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "f4c80d2303e9538920d510d35e615700e03f4d34bf45223d51e36154943dac2e",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5635,
+          "nativeSamples": 5633,
+          "timeConstant": 171,
+          "durationSeconds": 0.478805
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5633,
+      "decodedSha256": "0dfcc59ef4c6f05221ef0c9dc03090fd153d22113d65c9386ad30744f117a737",
+      "hardwareDurationSeconds": 0.478805,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HUNIT.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "498ac964f786b4cabd5fc62f6de684fb7d9dc329ce56442698d7635ef6509ee0",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4803,
+          "nativeSamples": 4801,
+          "timeConstant": 171,
+          "durationSeconds": 0.408085
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 4801,
+      "decodedSha256": "fda6367816f0a0bf963ca59e989e426c9fefb3b0e38477f3af5d332da3725a53",
+      "hardwareDurationSeconds": 0.408085,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HWARNING.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "404e993b5f48c9c6acd8ff432dd96f6c57c9e92b3375e403aab454634c945e91",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5731,
+          "nativeSamples": 5729,
+          "timeConstant": 171,
+          "durationSeconds": 0.486965
+        },
+        {
+          "type": 3,
+          "fileOffset": 5761,
+          "size": 3,
+          "nativeSamples": 81,
+          "timeConstant": 131,
+          "durationSeconds": 0.010125
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5848,
+      "decodedSha256": "602d478d03674f6d754be28f3bd568fc5e9f4807b3bc13bf2eebe32782382507",
+      "hardwareDurationSeconds": 0.49709,
+      "ignoredByStockSDLDSPSeconds": 0.010125
+    },
+    {
+      "name": "HWEST.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "94a9f3d0b53c5c8fb9f594a4c6caa3cd6d00e34cb470c029db68aa7f6d77ad0f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10179,
+          "nativeSamples": 10177,
+          "timeConstant": 171,
+          "durationSeconds": 0.865045
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10177,
+      "decodedSha256": "2920cda1de1fbfd113e8faafb95224c05c26c86771fd3841f727c6305e80e04b",
+      "hardwareDurationSeconds": 0.865045,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HWIN.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "cc86619cdd2c699a79e7194978c7fe87e0ddfa032eacd7aa02e22863296c6a64",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 16387,
+          "nativeSamples": 16385,
+          "timeConstant": 171,
+          "durationSeconds": 1.392725
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 16385,
+      "decodedSha256": "a47f150f40da943eb755cdc63fd8b638c2d2aebee0b6b34c9d1d6f6595065aa4",
+      "hardwareDurationSeconds": 1.392725,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HLAUNCH.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "3c15e6494b0e956f81bd252ee8be15b49f6a167b8eb21ae8e80ff745f9c61027",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 6851,
+          "nativeSamples": 6849,
+          "timeConstant": 171,
+          "durationSeconds": 0.582165
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 6849,
+      "decodedSha256": "68e1b792bb5751e4d56e3d57d5ff23f0d2f1fbfa704ea51addb6ed5b477b69a7",
+      "hardwareDurationSeconds": 0.582165,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HVEHICLE.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "48ded6a56f0042d3a035660acff9f15a31f17fe654e1ae7fc3356ee703a7c22f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 6659,
+          "nativeSamples": 6657,
+          "timeConstant": 171,
+          "durationSeconds": 0.565845
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 6657,
+      "decodedSha256": "29cb8214b33342d6e1084cf4c8e4de8eff0a2df5f2b21742799d4f7f0f575d4f",
+      "hardwareDurationSeconds": 0.565845,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HREPAIR.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "800c3349290b8ad8fce43d9230f2c85986fa1ca38c4a8cbdd58ba6377240fe44",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9027,
+          "nativeSamples": 9025,
+          "timeConstant": 171,
+          "durationSeconds": 0.767125
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9025,
+      "decodedSha256": "93099714e421aaf8f9721b247173a5219b1121e4da1b17a9472e6e0c04d83910",
+      "hardwareDurationSeconds": 0.767125,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HHARVEST.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "c67d904f4dcb9f3b94a95f313cdeb5f97b0bbefacd42423dd89baf55ca9a4a6a",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9731,
+          "nativeSamples": 9729,
+          "timeConstant": 171,
+          "durationSeconds": 0.826965
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9729,
+      "decodedSha256": "226fe6ad62d761e8d9400db384a05997a2977d85f8b78dc1763a4186a6a58839",
+      "hardwareDurationSeconds": 0.826965,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HWORMY.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "c388cfe22dd9fb21fda0901e205f62a9e7fa0c1848c232bc2fa447bfbbe67159",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 15363,
+          "nativeSamples": 15361,
+          "timeConstant": 171,
+          "durationSeconds": 1.305685
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 15361,
+      "decodedSha256": "e921a4e09cd28969aaac0669c62ec98d5431189ef55e7f0dec6ec6e7f961cc11",
+      "hardwareDurationSeconds": 1.305685,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HCAPTURE.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "017bea8541197f7bfd32d2655ee2c1e8fc9856a067060f428e90948de17a6b4c",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9475,
+          "nativeSamples": 9473,
+          "timeConstant": 171,
+          "durationSeconds": 0.805205
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9473,
+      "decodedSha256": "1da88564cc15cb958a98ddc7444f235dc37f9b88c6cd3b3d02d86b8277282813",
+      "hardwareDurationSeconds": 0.805205,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HNEXT.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "c78fbc7b3ba5a83f063676970a9987930023656729a73c561ff7195d2b546fd3",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 13571,
+          "nativeSamples": 13569,
+          "timeConstant": 171,
+          "durationSeconds": 1.153365
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 13569,
+      "decodedSha256": "258e6ee695ad28e45b2b27c0e72d675781bc855191e5eb31dc7cce1166b56ff2",
+      "hardwareDurationSeconds": 1.153365,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HNEXT2.VOC",
+      "archive": "HARK.PAK",
+      "sourceSha256": "a4d760bb57c4e3e7ffcbdc09f0aec2117a79d7658a548bb40d275fbb54c0cf43",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 12547,
+          "nativeSamples": 12545,
+          "timeConstant": 171,
+          "durationSeconds": 1.066325
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 12545,
+      "decodedSha256": "aaed4de541748ffc390491661e0702c2d3216f7d7b92404ac4930af3ab1dbcc5",
+      "hardwareDurationSeconds": 1.066325,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "BLOWUP1.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "9a992fbe2f9c92b205f6b1706ba2ef5280a2fc4cf230125c84a815503ee7e4a8",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 11723,
+          "nativeSamples": 11721,
+          "timeConstant": 131,
+          "durationSeconds": 1.465125
+        }
+      ],
+      "decodedRate": 8000,
+      "decodedSamples": 11721,
+      "decodedSha256": "457c699bf2f9da1f82485dad64eb3a09d13c9fb01f660e288f6cba7300f15bf0",
+      "hardwareDurationSeconds": 1.465125,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "BLOWUP2.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "6921602aabc6d2c76273515b3210b8b8da59b89a5fd8c7d6ad04244eba97de0e",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 23111,
+          "nativeSamples": 23109,
+          "timeConstant": 114,
+          "durationSeconds": 3.281478
+        }
+      ],
+      "decodedRate": 7042,
+      "decodedSamples": 23109,
+      "decodedSha256": "6d7f06163fb605fd52f298066ceb1f12afc38d774c4785987d81b81a75647f3e",
+      "hardwareDurationSeconds": 3.281478,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "BRAKES2P.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "7f4b280241a7651085166a30035f5ed2339124661d564d63e9b92819f8dbac33",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 11911,
+          "nativeSamples": 11909,
+          "timeConstant": 34,
+          "durationSeconds": 2.643798
+        }
+      ],
+      "decodedRate": 4504,
+      "decodedSamples": 11909,
+      "decodedSha256": "d3d166cb8693017b0c1b2c7b9d01617b4fa04400c93851af0544eca51e3eb14a",
+      "hardwareDurationSeconds": 2.643798,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "CLANK.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "8caa0b390e8a2f45d66e87976425030c17810bfed56d82bb80d189ec92ef5eb7",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 2099,
+          "nativeSamples": 2097,
+          "timeConstant": 24,
+          "durationSeconds": 0.486504
+        }
+      ],
+      "decodedRate": 4310,
+      "decodedSamples": 2097,
+      "decodedSha256": "973534ef401793339ab7a0e63cb66bba802a9c456b3c4ed99d5a95519dbc9633",
+      "hardwareDurationSeconds": 0.486504,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "GLASS.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "b10627e65a64bffc227b59a6ab9371bc7dc8ca74c1c32166da8ef4c53fc7818b",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4692,
+          "nativeSamples": 4690,
+          "timeConstant": 165,
+          "durationSeconds": 0.42679
+        }
+      ],
+      "decodedRate": 10989,
+      "decodedSamples": 4690,
+      "decodedSha256": "d209ddbdaf1075ab65099311f9b24a720c9e1c535491ed8ae22d201cc662a408",
+      "hardwareDurationSeconds": 0.42679,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "GUNSHOT.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "9c41db18ee93e5541bce47aa1b5f25ff1705fed63d5940a9800303305b7a4871",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 576,
+          "nativeSamples": 574,
+          "timeConstant": 33,
+          "durationSeconds": 0.128002
+        }
+      ],
+      "decodedRate": 4484,
+      "decodedSamples": 574,
+      "decodedSha256": "c55730802ce0ac509ffd7bf8c9f5814fb9bda3368b3edeb2cf5e05d16dfaf3c0",
+      "hardwareDurationSeconds": 0.128002,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "MISSLE8.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "20def735d16b75842388aeb668e602b7cb978d814c458a33d29afb90ec88af39",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 3919,
+          "nativeSamples": 3917,
+          "timeConstant": 45,
+          "durationSeconds": 0.826487
+        }
+      ],
+      "decodedRate": 4739,
+      "decodedSamples": 3917,
+      "decodedSha256": "a71094b716f122cbb9d6720c9569f55e648acb39c588dd8399e3bd6382492f13",
+      "hardwareDurationSeconds": 0.826487,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "WIND2BP.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "d640113b8e8a4cd703bb294464d8bf3ec68f252bff068efdfa2f749061f0344d",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 26243,
+          "nativeSamples": 26241,
+          "timeConstant": 63,
+          "durationSeconds": 5.064513
+        }
+      ],
+      "decodedRate": 5181,
+      "decodedSamples": 26241,
+      "decodedSha256": "635731b7d0c750bc7edeacf50c48a46b0d2f97c6c5ffb7b8156cba62bfd3187f",
+      "hardwareDurationSeconds": 5.064513,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "BLASTER.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "a5e25ccef8471d7770afa29b020e64ceb8a5d6329e47741c1aa4873b2042af6d",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8731,
+          "nativeSamples": 8729,
+          "timeConstant": 171,
+          "durationSeconds": 0.741965
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8729,
+      "decodedSha256": "daa9de6d16b0842d05f713a7ad4011a42b9bb972964ad2cda4810f9a9755de8e",
+      "hardwareDurationSeconds": 0.741965,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "GLASS6.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "f434129a5435567687b347cc66546e2c29e1c990ebba3b061a3ab3afc58201b9",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 15363,
+          "nativeSamples": 15361,
+          "timeConstant": 171,
+          "durationSeconds": 1.305685
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 15361,
+      "decodedSha256": "c2c69a38fc562e1d3ad0177540dbcee841d14d801f629c1fb950e0a97e9efd60",
+      "hardwareDurationSeconds": 1.305685,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "LIZARD1.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "5a5f2e5cea35a480e973ff0a0f50265351157cfb783168d72df7ffc4a2796b1c",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 17475,
+          "nativeSamples": 17473,
+          "timeConstant": 172,
+          "durationSeconds": 1.467732
+        }
+      ],
+      "decodedRate": 11904,
+      "decodedSamples": 17473,
+      "decodedSha256": "8e9ba25f83f361c1a123d520296e655799b48f98fb04406dcc6e15f69dfb54a5",
+      "hardwareDurationSeconds": 1.467732,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "FLESH.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "4e2ae79bcfe541069e0de5c2eb9aac1a94ae74e9ac006516a549dea3095c01dc",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5507,
+          "nativeSamples": 5505,
+          "timeConstant": 6,
+          "durationSeconds": 1.37625
+        }
+      ],
+      "decodedRate": 4000,
+      "decodedSamples": 5505,
+      "decodedSha256": "23e704c2511b2b0eac104bcaeb2c90fa16c27d5fd8e48ffaf5a31ac8845704c1",
+      "hardwareDurationSeconds": 1.37625,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "CLICK.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "a44dce97ada9000302c58f8389e61d3a563282c0203dd8d4b5f17f7b3975a276",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 2115,
+          "nativeSamples": 2113,
+          "timeConstant": 171,
+          "durationSeconds": 0.179605
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 2113,
+      "decodedSha256": "d1d698719b0c286c91e9453eeec709c07c612147dab13e0de169d4ddb525af70",
+      "hardwareDurationSeconds": 0.179605,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "3HOUSES.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "36e7e4eca15294776583c483e29a6799d9759b08af2b7331fc1f7995cbcf3f40",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 25347,
+          "nativeSamples": 25345,
+          "timeConstant": 188,
+          "durationSeconds": 1.72346
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 25345,
+      "decodedSha256": "a4aa024a1d860ad59b548fac3fc10cfa7157b3478faa8393e91c8a9e841e7aca",
+      "hardwareDurationSeconds": 1.72346,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ANDNOW.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "d92f7ea992e87a393c45bc82a219a330fe31f3d5885e4c81ccbd85ee410bdb15",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 13955,
+          "nativeSamples": 13953,
+          "timeConstant": 188,
+          "durationSeconds": 0.948804
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 13953,
+      "decodedSha256": "5127596636f456b3876d8d45e128ec8503ff736cfe869b1040fbddb71c5c03b8",
+      "hardwareDurationSeconds": 0.948804,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ARRIVED.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "b0af4755d105e591fa7a6ea83d0df6838c37f2233521bfee7783098a1b0f4c29",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 20995,
+          "nativeSamples": 20993,
+          "timeConstant": 188,
+          "durationSeconds": 1.427524
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 20993,
+      "decodedSha256": "fd8525f1e4fbb9f505aa6ef6ca8df8ac3151f0cce4e1e2e9da4162d9d88fa79a",
+      "hardwareDurationSeconds": 1.427524,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "BATTLE.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "a4bcc6a31ee588292bfeaa2983c33b7f07e8ac54ccf51a55c1e08d08d07658af",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 18691,
+          "nativeSamples": 18689,
+          "timeConstant": 188,
+          "durationSeconds": 1.270852
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 18689,
+      "decodedSha256": "cdbfbdb6d41af8983afe40c8c069dccedb91c331484938adab1b4c23a6c0dd34",
+      "hardwareDurationSeconds": 1.270852,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "BEGINS.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "65d8765277302817e7ab3a7b09ae11e383d7eeed25be922c67bb39806489eb1e",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 22083,
+          "nativeSamples": 22081,
+          "timeConstant": 188,
+          "durationSeconds": 1.501508
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 22081,
+      "decodedSha256": "1c17b6deed655e2172e344abcdf9e53bbfb3c4999a4f40a01ad3851881b8e431",
+      "hardwareDurationSeconds": 1.501508,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "BLDING.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "aace54341016a233358e51a6084aea899d3a3e06d0208fe016fdd0fe343c5e9b",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 19203,
+          "nativeSamples": 19201,
+          "timeConstant": 188,
+          "durationSeconds": 1.305668
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 19201,
+      "decodedSha256": "c50a168dade9d21d8c9e823ce2c0777cc9213c700d60297250cbbf372fc037b7",
+      "hardwareDurationSeconds": 1.305668,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "CONTROL2.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "72fbbefe3e817d09cb66b3308fac643ea59312bc9158b7f5eb33beb3a59dd79f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 24387,
+          "nativeSamples": 24385,
+          "timeConstant": 188,
+          "durationSeconds": 1.65818
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 24385,
+      "decodedSha256": "72980a61f318909bbb0c89d3e436a7868396b3281b9fad06191adbec6f1eddaa",
+      "hardwareDurationSeconds": 1.65818,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "CONTROL3.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "5f81b011e851b87b941b334b573d2fe332c3de28f2a32d3ce5c2edb0e31c8ab5",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 27749,
+          "nativeSamples": 27747,
+          "timeConstant": 188,
+          "durationSeconds": 1.886796
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 27747,
+      "decodedSha256": "86ffe3d342d32f11058785fb3b0e8937e66ee46653dbd9117733f7ea5d30b26c",
+      "hardwareDurationSeconds": 1.886796,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "CONTROL4.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "e984ab2825cdbe5db99271572dc698b3fadf059763c9dd9a881a5d8c38e5b441",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 15715,
+          "nativeSamples": 15713,
+          "timeConstant": 188,
+          "durationSeconds": 1.068484
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 15713,
+      "decodedSha256": "15b77815cbf2e21f5da904018d0d82e70dcdd6e758f172eeb21d38d65f05b6ec",
+      "hardwareDurationSeconds": 1.068484,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "CONTROLS.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "343c13a1fc43ac7fe4e6c3c01306dd1bfb2535d6b87da729d79802a2199a522e",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 13955,
+          "nativeSamples": 13953,
+          "timeConstant": 188,
+          "durationSeconds": 0.948804
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 13953,
+      "decodedSha256": "f6cbd3daa863e96ebb4a7233fbcf1e9d957960d04c200e9a907727beaad68e7b",
+      "hardwareDurationSeconds": 0.948804,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "DUNE.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "fd4dc6d4c208ec6541ea4fb5a16c99ff2138f7d598027d035791406d77341ac1",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 15235,
+          "nativeSamples": 15233,
+          "timeConstant": 188,
+          "durationSeconds": 1.035844
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 15233,
+      "decodedSha256": "6ddb8b0ba79fe0d70c4f7ed1c690786fe2e087a45baf38a106ad104d4c1cd941",
+      "hardwareDurationSeconds": 1.035844,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "DYNASTY.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "f432bf6a41cb8580830416a79f3c811642eb9ac886b5919c3476619df5ea7889",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 24305,
+          "nativeSamples": 24303,
+          "timeConstant": 188,
+          "durationSeconds": 1.652604
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 24303,
+      "decodedSha256": "6557c85dbe1b051ae5523a1fd637b5b4199a2384e904936bdcc93b6978ecbd33",
+      "hardwareDurationSeconds": 1.652604,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EACHHOME.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "c4c69e97f5b6bb81d311f77e45e40f02b59fcfc2b5b727e2304f2d31d74056ee",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 27762,
+          "nativeSamples": 27760,
+          "timeConstant": 188,
+          "durationSeconds": 1.88768
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 27760,
+      "decodedSha256": "9d4eb2dc34af16eb3df3fdd56f030d787446a5b5117aeec9361fba3043d67871",
+      "hardwareDurationSeconds": 1.88768,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EANDNO.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "a25a2313d6ed29290179e9b02d2d6874166b26c98d6b3721274c4c3f13488894",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7107,
+          "nativeSamples": 7105,
+          "timeConstant": 167,
+          "durationSeconds": 0.632345
+        }
+      ],
+      "decodedRate": 11235,
+      "decodedSamples": 7105,
+      "decodedSha256": "379ae3bf5cb0e3c04971d2dad72df93a82f28c5052c995886ac9bfbf25027a21",
+      "hardwareDurationSeconds": 0.632345,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ECONTROL.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "946e779977d1afaea3ccd0b3997d7f8c495b450bb991d96bed6c4459cb776bec",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 20739,
+          "nativeSamples": 20737,
+          "timeConstant": 167,
+          "durationSeconds": 1.845593
+        }
+      ],
+      "decodedRate": 11235,
+      "decodedSamples": 20737,
+      "decodedSha256": "e974629433bbb5240f4282544b1ec28d96c3f8c85d970ba8975869b11a9a9ff5",
+      "hardwareDurationSeconds": 1.845593,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EHOUSE.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "ed6076b8a65af480658b47ef674d543389def8b933e1c300afc99cf9ac21af73",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10051,
+          "nativeSamples": 10049,
+          "timeConstant": 167,
+          "durationSeconds": 0.894361
+        }
+      ],
+      "decodedRate": 11235,
+      "decodedSamples": 10049,
+      "decodedSha256": "c82de66b3ab9d161a469b926106528f6afbec68a07f5a75bbc273b13d0b4ab5b",
+      "hardwareDurationSeconds": 0.894361,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EMPIRE.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "0baf7c75a368ac8461a0e4cf357cbb564c9f1873d3cb502a4f13332a2bebbd4d",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 19363,
+          "nativeSamples": 19361,
+          "timeConstant": 188,
+          "durationSeconds": 1.316548
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 19361,
+      "decodedSha256": "7b26f37b22e60a3e0fb155dc997a073297a3ea957a372713086c5b81d9b3c544",
+      "hardwareDurationSeconds": 1.316548,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EPRODUCE.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "6d049b177c46d72f2b49e678a7023ea9c9c7f8d41fe106b52bafdae2f8088c13",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10563,
+          "nativeSamples": 10561,
+          "timeConstant": 167,
+          "durationSeconds": 0.939929
+        }
+      ],
+      "decodedRate": 11235,
+      "decodedSamples": 10561,
+      "decodedSha256": "74a6a41fd650340edf64e91fe2514bee47bf5a330a5975366357c514e8ad0197",
+      "hardwareDurationSeconds": 0.939929,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ERULES.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "cfcc1f8c5b58c6ef84d9a4547c2d27997f1e20d5ea7c322aef309f76fc2ac321",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 20547,
+          "nativeSamples": 20545,
+          "timeConstant": 167,
+          "durationSeconds": 1.828505
+        }
+      ],
+      "decodedRate": 11235,
+      "decodedSamples": 20545,
+      "decodedSha256": "f6ff30f756e5c7b653e4058a098e87bb6a6e7380830c34cc699fda6fa4b97c7d",
+      "hardwareDurationSeconds": 1.828505,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ETERRIT.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "a353fb0c18f468ab215f20a7e6069e802263796772a81920e1d396ecd024f280",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 14531,
+          "nativeSamples": 14529,
+          "timeConstant": 167,
+          "durationSeconds": 1.293081
+        }
+      ],
+      "decodedRate": 11235,
+      "decodedSamples": 14529,
+      "decodedSha256": "603e4216c29589880e091cf536acb9be186bf87a4bd646f7298c266912bd0180",
+      "hardwareDurationSeconds": 1.293081,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EMOST.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "5bc4a115fbe7d153e8e7b1b2d2d84e126bb23c3b2420abec8b6c99368d536abe",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 16483,
+          "nativeSamples": 16481,
+          "timeConstant": 167,
+          "durationSeconds": 1.466809
+        }
+      ],
+      "decodedRate": 11235,
+      "decodedSamples": 16481,
+      "decodedSha256": "ef3504a00f9b8706c1e5b7d6e75cc8becd275970c2ca073e1503c91b7a43bf32",
+      "hardwareDurationSeconds": 1.466809,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ENOSET.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "9ed97fbeca9cbd3aa7486eae770c87a4981854a3f5286c9564d18d25e0ede985",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 14339,
+          "nativeSamples": 14337,
+          "timeConstant": 167,
+          "durationSeconds": 1.275993
+        }
+      ],
+      "decodedRate": 11235,
+      "decodedSamples": 14337,
+      "decodedSha256": "64e1c6b2ff9f493c7be2ac79598fc0e1168bb630db02b6833adc984be7487a41",
+      "hardwareDurationSeconds": 1.275993,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EVIL.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "3d2e2bfdc875e1799270b49c51e996caa92bbb0bce1d87bdfa5d33fd0918945a",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10307,
+          "nativeSamples": 10305,
+          "timeConstant": 188,
+          "durationSeconds": 0.70074
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 10305,
+      "decodedSha256": "f7abd09982c9df08fcfe806d829de35951d4d4331c0b62453dd23c7c9744e571",
+      "hardwareDurationSeconds": 0.70074,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HARK.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "d23254df45b923bd1d1f5da06f2c44ea8c3cd4638fd6c39299d5008f6c86746c",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 27908,
+          "nativeSamples": 27906,
+          "timeConstant": 188,
+          "durationSeconds": 1.897608
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 27906,
+      "decodedSha256": "1a941f07eba7206746bd07ef09414700f40f260d7ed775f433128dfb78bb48be",
+      "hardwareDurationSeconds": 1.897608,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HOME.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "52c242d034509bcda5a92f220a2de385320c836f247a08d0131a996f9f2a4814",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 15107,
+          "nativeSamples": 15105,
+          "timeConstant": 188,
+          "durationSeconds": 1.02714
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 15105,
+      "decodedSha256": "e6b21d92f7da838212d7e28526c8621ddc3de96e5940d051d98329492bd37b6f",
+      "hardwareDurationSeconds": 1.02714,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "HOUSE2.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "df8222cffb5f5d6dacd9229836f3992ba56260e675930dc47aa1930c0f77fbe7",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 22787,
+          "nativeSamples": 22785,
+          "timeConstant": 188,
+          "durationSeconds": 1.54938
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 22785,
+      "decodedSha256": "b4b561c0c3e769038980db6b0b101046f2b71e3831d05a37ca690c8e6d7c7ed5",
+      "hardwareDurationSeconds": 1.54938,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "INSID.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "1cdc31f290b38f1fc9b9873d5832c15b9b1d23824aa87a89550adc9f269744d6",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 23427,
+          "nativeSamples": 23425,
+          "timeConstant": 188,
+          "durationSeconds": 1.5929
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 23425,
+      "decodedSha256": "353626db520c7d31f14c796e7929733350fccf60b254df981269e7222db5c990",
+      "hardwareDurationSeconds": 1.5929,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "KING.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "3819b4857a5421b548bb2ee7d15ca2594e3c073cbc6163d3046eb2c143caba8f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 14339,
+          "nativeSamples": 14337,
+          "timeConstant": 188,
+          "durationSeconds": 0.974916
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 14337,
+      "decodedSha256": "93eda8cf151735b3d89ed54cd9ab730fce3bfbf092f064119c91cfb07ae10c66",
+      "hardwareDurationSeconds": 0.974916,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "KNOWN.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "ccefd1e27b85863bf08a78778ffc6e4165ae6d094f904d206ea2788d78aa2119",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 27779,
+          "nativeSamples": 27777,
+          "timeConstant": 188,
+          "durationSeconds": 1.888836
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 27777,
+      "decodedSha256": "3a43ffc02cb60c059cdc13fc5408e29358dc446e2acbd4073eee841543ef0a31",
+      "hardwareDurationSeconds": 1.888836,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "MELANGE.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "c839a41b339928f0268ceed8fbadfad6a670d8d341612169de581f9b30c6c88a",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 19459,
+          "nativeSamples": 19457,
+          "timeConstant": 188,
+          "durationSeconds": 1.323076
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 19457,
+      "decodedSha256": "7c7f2945188a3c192d050df1334acbb4be1777e572d1dda54105cc12e078f0f7",
+      "hardwareDurationSeconds": 1.323076,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "NOBLE.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "a2361203ba34afed304c5baad024ccf62a9f135a07469e89e2927557a57f16c8",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 27188,
+          "nativeSamples": 27186,
+          "timeConstant": 188,
+          "durationSeconds": 1.848648
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 27186,
+      "decodedSha256": "5715cd8b7fd3767434058d6c993c95763864161d926a8cd73ba136b6c7baf69f",
+      "hardwareDurationSeconds": 1.848648,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "NOW.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "82177c22eaad1529eef23e7804d651c125c7ce1e95c359b6f80e68165f1c927f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 27011,
+          "nativeSamples": 27009,
+          "timeConstant": 188,
+          "durationSeconds": 1.836612
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 27009,
+      "decodedSha256": "1afeb4b13bea81a7cd04e6bd55d2f92e70fdf81db491dfedfb0cfc755cc484f0",
+      "hardwareDurationSeconds": 1.836612,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OFDUNE.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "932a0cd92f50fa8ea8d065357e25746dec427d8d3fd6c636c898454e0c808730",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 20739,
+          "nativeSamples": 20737,
+          "timeConstant": 188,
+          "durationSeconds": 1.410116
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 20737,
+      "decodedSha256": "c9f9814f90aad9f78bae404e67535e08c8c4c065a2f77f9626ec383350f9fc51",
+      "hardwareDurationSeconds": 1.410116,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ORD.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "a5d83a2a2d5989dae099e99ab76e6ca727df20eab2145a401ebaa2038fe0f874",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 17219,
+          "nativeSamples": 17217,
+          "timeConstant": 188,
+          "durationSeconds": 1.170756
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 17217,
+      "decodedSha256": "7e996c81d27dfff34b6fa04e539d306abca8d39eaef4cdf3942a5c59c6fc0b3b",
+      "hardwareDurationSeconds": 1.170756,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "PLANET.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "de7dea1ff66c06ad6eed0e214b35bac1bb765505b0458683755c30a467efc956",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 27181,
+          "nativeSamples": 27179,
+          "timeConstant": 188,
+          "durationSeconds": 1.848172
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 27179,
+      "decodedSha256": "49905b8fc40953b665bd46070820c674ec690c724152fb933f4e1e8d86c282bf",
+      "hardwareDurationSeconds": 1.848172,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "PREVAIL.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "80fa259a4b22f3d4754910069146bd1a136f36f159ec3ba15ca0f26d1cb0ba2c",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 27907,
+          "nativeSamples": 27905,
+          "timeConstant": 188,
+          "durationSeconds": 1.89754
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 27905,
+      "decodedSha256": "c2c927181bd6c78ed8902ae684037b20cbe6bd1ec2de506b6d59cf44713d8e46",
+      "hardwareDurationSeconds": 1.89754,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "PROPOSED.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "f4ea57f2c37167a69d3e2051b7fa7d985f9076182e3d5a057c4d71bd12fe5ba0",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 27772,
+          "nativeSamples": 27770,
+          "timeConstant": 188,
+          "durationSeconds": 1.88836
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 27770,
+      "decodedSha256": "6c06d4720990e786b5a2fc9ee5c1c1e4bbfc82c9f621c12eef781db0b2e701a4",
+      "hardwareDurationSeconds": 1.88836,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "SANDLAND.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "45ab0f79d1b0104a8005c9d4d616a16f30e531205c0172c4cf3d464844a8467a",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 27919,
+          "nativeSamples": 27917,
+          "timeConstant": 188,
+          "durationSeconds": 1.898356
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 27917,
+      "decodedSha256": "b1b411ba0907bd691b1bf15e77108347594c6203d54771be845b15fe0178edf3",
+      "hardwareDurationSeconds": 1.898356,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "SPICE.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "0ad7a7e9a2d5b3ad43cb0c9cac1f24a4c20f247ad5a5f2e05a169757322899f0",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 23619,
+          "nativeSamples": 23617,
+          "timeConstant": 188,
+          "durationSeconds": 1.605956
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 23617,
+      "decodedSha256": "da27d399106edb8c979a777da2245b853d0afe5102f76c63ca8f96a2b23b00df",
+      "hardwareDurationSeconds": 1.605956,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "SPICE2.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "b6527a29ae2b94020ba07cf07c23ccb0046e32a3ed51ddd51b1a9c127e5f0937",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 13891,
+          "nativeSamples": 13889,
+          "timeConstant": 188,
+          "durationSeconds": 0.944452
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 13889,
+      "decodedSha256": "1fdf47b200a5b064ccaf3bedebcb5cc65d6e488d648f71fb1df6c967fc059683",
+      "hardwareDurationSeconds": 0.944452,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "VAST.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "e7f74f944e5aef18be49ec9eab55911ac64ec81b4408faba114961b03d6566bf",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 14723,
+          "nativeSamples": 14721,
+          "timeConstant": 188,
+          "durationSeconds": 1.001028
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 14721,
+      "decodedSha256": "d50be8b185e2b3c78f762bf28a877a558a02cf328cd3b5856d7c1c40cebc319b",
+      "hardwareDurationSeconds": 1.001028,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "WHOEVER.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "07bee90d7c7e46c1a0aad0663ccc733d4ffc5476961e4b5da6abdcfc7e598894",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10755,
+          "nativeSamples": 10753,
+          "timeConstant": 188,
+          "durationSeconds": 0.731204
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 10753,
+      "decodedSha256": "a2ca237e7dcc73571beeb1eee3a1cc87e3e9d8f185e3e791561345d2d422d2e1",
+      "hardwareDurationSeconds": 0.731204,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "YOUR.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "9610cdc8ea25c2a0d4b364ec29fefb6d8dbf7917ce92f776e862d55e8f46cff7",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9219,
+          "nativeSamples": 9217,
+          "timeConstant": 188,
+          "durationSeconds": 0.626756
+        }
+      ],
+      "decodedRate": 14705,
+      "decodedSamples": 9217,
+      "decodedSha256": "09baafa3c3b12b68304361ecb2be188c5215632dea3dd5312617ba4b27e8c20a",
+      "hardwareDurationSeconds": 0.626756,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "FILLER.VOC",
+      "archive": "INTROVOC.PAK",
+      "sourceSha256": "ca61876e8ef3157cc6a670e1ff28cf38f1355d814c33e9c97cb04eba063a98f6",
+      "blocks": [
+        {
+          "type": 3,
+          "fileOffset": 26,
+          "size": 3,
+          "nativeSamples": 7993,
+          "timeConstant": 131,
+          "durationSeconds": 0.999125
+        }
+      ],
+      "decodedRate": 8000,
+      "decodedSamples": 7993,
+      "decodedSha256": "337d04e681c77fabc2ac1b83aa6df2009a01346d091f4b5ae0a287d8c64f3eb9",
+      "hardwareDurationSeconds": 0.999125,
+      "ignoredByStockSDLDSPSeconds": 0.999125
+    },
+    {
+      "name": "MATRE.VOC",
+      "archive": "MERC.PAK",
+      "sourceSha256": "b121994680e9d3af605990b9500f673714f6cf5f1708c935e8e45e0999fe8ac8",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 15363,
+          "nativeSamples": 15361,
+          "timeConstant": 171,
+          "durationSeconds": 1.305685
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 15361,
+      "decodedSha256": "9ff3b7b231c66e047f2ef7b074d6c81cb59168b5cdbdba67cf8075391b4f89bb",
+      "hardwareDurationSeconds": 1.305685,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "MHARK.VOC",
+      "archive": "MERC.PAK",
+      "sourceSha256": "86844cf4cf5e1c812ac3735233ccc02f19bb48b03697f1ea5e6c74d9b29e2a41",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 13827,
+          "nativeSamples": 13825,
+          "timeConstant": 171,
+          "durationSeconds": 1.175125
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 13825,
+      "decodedSha256": "d8cca6e3eb67b9dd771ebd1297919916f8f403713364661962da35629247131b",
+      "hardwareDurationSeconds": 1.175125,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "MORDOS.VOC",
+      "archive": "MERC.PAK",
+      "sourceSha256": "3475ccdfabe8cbbbaca89cc44a9d9a55de025931a831ac06c2f60cc490578a06",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 16259,
+          "nativeSamples": 16257,
+          "timeConstant": 171,
+          "durationSeconds": 1.381845
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 16257,
+      "decodedSha256": "afeda0c5b2eb266f8e175447829707fa6f5a5e9edf35c0675867c6f34133d621",
+      "hardwareDurationSeconds": 1.381845,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OATTACK.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "7166850c6b7bbe09e9d2daa65ee7290f3e1e029c78482ec2f9dfafa47df349d3",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 19409,
+          "nativeSamples": 19407,
+          "timeConstant": 171,
+          "durationSeconds": 1.649595
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 19407,
+      "decodedSha256": "86ae2ec75cf3e383de0dc50615af8859054be4047e7e7bc291dfef63ede95a5b",
+      "hardwareDurationSeconds": 1.649595,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OARRIVE.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "b9052f9004b04799888ca0a3cd513760fd4ece49d10fea2d5547bd430d0cb7ff",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 13571,
+          "nativeSamples": 13569,
+          "timeConstant": 171,
+          "durationSeconds": 1.153365
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 13569,
+      "decodedSha256": "260c85ed4143a5d9d9591c91de64932414e4c9190eeb45588ee47948a0c89445",
+      "hardwareDurationSeconds": 1.153365,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OAPPRCH.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "183721d6e875e2c24c1c4244c9f1609687f434c829f0448c28866eb00f6bc171",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 11715,
+          "nativeSamples": 11713,
+          "timeConstant": 171,
+          "durationSeconds": 0.995605
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 11713,
+      "decodedSha256": "3317984154fdf0c1dfd83371c54085c27bff2c339809d6629014b848cb3769c7",
+      "hardwareDurationSeconds": 0.995605,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OATRE.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "967b83d0292e4d2331beb57fb4f18e232d51c3aca000f06bb320b40b05f7cc38",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7939,
+          "nativeSamples": 7937,
+          "timeConstant": 171,
+          "durationSeconds": 0.674645
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7937,
+      "decodedSha256": "c47089fb7b77be41dca9dbb5a5ebbefa0f32ec27bc864cec069f911c53343de2",
+      "hardwareDurationSeconds": 0.674645,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OBLOOM.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "1c52c315cf30e8bfe9841458658e777331cadefbecc8eaf149d38c53f5359e91",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10627,
+          "nativeSamples": 10625,
+          "timeConstant": 171,
+          "durationSeconds": 0.903125
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10625,
+      "decodedSha256": "7d9cf07685c28947371809a41648ce63807d506e15c1652ff883127d42a3f9ae",
+      "hardwareDurationSeconds": 0.903125,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OCONST.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "2893c8cbb4134ce76c0557c4df93b4f6b9a843c9a838290f6807c57f5b3ef8bb",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 19911,
+          "nativeSamples": 19909,
+          "timeConstant": 171,
+          "durationSeconds": 1.692265
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 19909,
+      "decodedSha256": "43cde700363ac2036b537e87ad7fdfbc42693b0ae2182cbbb2970571ba56a77b",
+      "hardwareDurationSeconds": 1.692265,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ODEPLOY.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "bc66543882612e5e768e93f880dabf17c4186aa9baba659d2c5649d65b648163",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8771,
+          "nativeSamples": 8769,
+          "timeConstant": 171,
+          "durationSeconds": 0.745365
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8769,
+      "decodedSha256": "bb163838c606e56d994ecb1fe6db48100bfb0ba0169a35d151deb038bad9fdfa",
+      "hardwareDurationSeconds": 0.745365,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ODESTROY.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "04fff66da6a694a4bee8062529a50da45f1e08afd2a417639c3d0cc4b6af1022",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 11075,
+          "nativeSamples": 11073,
+          "timeConstant": 171,
+          "durationSeconds": 0.941205
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 11073,
+      "decodedSha256": "621aab0a075d44fb7a0498b87959008b2d31781100e25034999c6ae3fc66fa7f",
+      "hardwareDurationSeconds": 0.941205,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OEAST.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "f7f637807cf8450c38af5f0c06771475f25ce0413cd21eb8e9bfd60f9082e4e9",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 11459,
+          "nativeSamples": 11457,
+          "timeConstant": 171,
+          "durationSeconds": 0.973845
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 11457,
+      "decodedSha256": "685a8022ea5ec086c54326bf4b1a2593c31aaefa6838603079f5017bde483a5f",
+      "hardwareDurationSeconds": 0.973845,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OENEMY.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "046f462bed48cd22942abb7b13bb07f2334d6ad6052b0170fba5b99222244f9c",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4563,
+          "nativeSamples": 4561,
+          "timeConstant": 171,
+          "durationSeconds": 0.387685
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 4561,
+      "decodedSha256": "9012f4bd3472d87303576fec58895d0cafe9ae6a9990ed23afe4dae13e0ab3e3",
+      "hardwareDurationSeconds": 0.387685,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OFIELD.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "bd16010a5b51e5a8f96d29af80ebaba3f212ccfbf1a20045e2fc32eea734f109",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10307,
+          "nativeSamples": 10305,
+          "timeConstant": 171,
+          "durationSeconds": 0.875925
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10305,
+      "decodedSha256": "c8ca92bfe3fb67f72354eeaae7123f0014257133d4f24421ceaca5d9b700694f",
+      "hardwareDurationSeconds": 0.875925,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OFIVE.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "fffca7dfb09ced7f57bf10581c5a2cfb70eeea2cc147beecff24c90e3fb18ce4",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8899,
+          "nativeSamples": 8897,
+          "timeConstant": 171,
+          "durationSeconds": 0.756245
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8897,
+      "decodedSha256": "97244bfbd140b3c5285fbb585d3561ed64360b02971229d5820918f8951c1dde",
+      "hardwareDurationSeconds": 0.756245,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OFOUR.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "65868d9ceb82db35b73c183d60ee6f1788a7420207631c8f186a02e531289161",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7171,
+          "nativeSamples": 7169,
+          "timeConstant": 171,
+          "durationSeconds": 0.609365
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7169,
+      "decodedSha256": "e13c0dc851e8103e48429b4c80904fde009d746b1ef1ccc1c9f4c7984bcdda0f",
+      "hardwareDurationSeconds": 0.609365,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OFREMEN.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "ddd27a1535e61121b238b3157a19f7cb88140ad1b401d70eccf985a75bf0aa29",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4611,
+          "nativeSamples": 4609,
+          "timeConstant": 171,
+          "durationSeconds": 0.391765
+        },
+        {
+          "type": 3,
+          "fileOffset": 4641,
+          "size": 3,
+          "nativeSamples": 310,
+          "timeConstant": 172,
+          "durationSeconds": 0.02604
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 4915,
+      "decodedSha256": "3b43cbd6d075ce2f48f6f2b820e1443e3542d385e7527c3a6b811ce78662b345",
+      "hardwareDurationSeconds": 0.417805,
+      "ignoredByStockSDLDSPSeconds": 0.02604
+    },
+    {
+      "name": "OFRIGATE.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "d4e1aef45b336996c623cf526ec3058c403dc93922be57c860c2ad15ab685c7f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7427,
+          "nativeSamples": 7425,
+          "timeConstant": 171,
+          "durationSeconds": 0.631125
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7425,
+      "decodedSha256": "da80758a967fd59ca48fe30fef052d15fe9b9952f82e48a81133d93b56686411",
+      "hardwareDurationSeconds": 0.631125,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OHARK.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "fa1d62d12528d5faab7c0e126a5a8364be4abee85eb1c994a822247d9ca18728",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 6339,
+          "nativeSamples": 6337,
+          "timeConstant": 171,
+          "durationSeconds": 0.538645
+        },
+        {
+          "type": 3,
+          "fileOffset": 6369,
+          "size": 3,
+          "nativeSamples": 250,
+          "timeConstant": 172,
+          "durationSeconds": 0.021
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 6584,
+      "decodedSha256": "237369daaf765396086919de003041b88c1c0e21bb28d83089f4ab8144381e6b",
+      "hardwareDurationSeconds": 0.5596450000000001,
+      "ignoredByStockSDLDSPSeconds": 0.021
+    },
+    {
+      "name": "OLOCATED.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "62bbf8f98f8b983e6b9afd0da669e34b76c78bf5fb0f4df5b179f26ef79178e0",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9283,
+          "nativeSamples": 9281,
+          "timeConstant": 171,
+          "durationSeconds": 0.788885
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9281,
+      "decodedSha256": "eb3953fffc5cfddc921cf1dce3a7ddefa7a1274b3f3a86fb2df68c005c19904a",
+      "hardwareDurationSeconds": 0.788885,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OLOSE.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "ea34f96b412465459c7ab1d3ac010a96632740c85345e3e5ac13cb825641b88b",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 19455,
+          "nativeSamples": 19453,
+          "timeConstant": 171,
+          "durationSeconds": 1.653505
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 19453,
+      "decodedSha256": "8ed88f5d32cc5957cfe3542e6db74242ac5bd55d36a71c9b17f57b5df3213870",
+      "hardwareDurationSeconds": 1.653505,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OMERC.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "4251bb8e2a022aa840412b1ed89cee303cf50379a0febdbd96dd51a2aa60848e",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8795,
+          "nativeSamples": 8793,
+          "timeConstant": 171,
+          "durationSeconds": 0.747405
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8793,
+      "decodedSha256": "4931da5f28a1a136a4b3d86e399190ac8ee872e220a2e1f70695d40a54fd55d1",
+      "hardwareDurationSeconds": 0.747405,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OMISSILE.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "d0d64acacf2fdc7969b69e96405ad1ce3c30ea83e7b22cd13e3fc8495c30a111",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7363,
+          "nativeSamples": 7361,
+          "timeConstant": 171,
+          "durationSeconds": 0.625685
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7361,
+      "decodedSha256": "15dc56ddee55a75c1810c9a28a6c5061c0e9c2c435bcb42719f7fed69d4b5898",
+      "hardwareDurationSeconds": 0.625685,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ONORTH.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "0412c9ebe97196402c91fc39dae15e9688369398ec8796636184258096e0ed82",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10563,
+          "nativeSamples": 10561,
+          "timeConstant": 171,
+          "durationSeconds": 0.897685
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10561,
+      "decodedSha256": "5648d3c2879bfdf9c69c3e2fdb197bad4b41a44dc3380a8808eb7418fec11f6f",
+      "hardwareDurationSeconds": 0.897685,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OONE.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "1df3e4a5a5f50bf17f60c5e619006d00beeffb6c09adda158d810beb386909a1",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8067,
+          "nativeSamples": 8065,
+          "timeConstant": 171,
+          "durationSeconds": 0.685525
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8065,
+      "decodedSha256": "ccd0835acb864c3f83a9e2b46e6497732c90c4561ab9f17a1baa3c4a984fc0fe",
+      "hardwareDurationSeconds": 0.685525,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OORDOS.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "d00f6027445f1a228168f7c61bffbf393bdeac84fe11701362c66703478a8a2f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5891,
+          "nativeSamples": 5889,
+          "timeConstant": 171,
+          "durationSeconds": 0.500565
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5889,
+      "decodedSha256": "7a5fabc78a93830ee268141625747b98df33334038006b47a87d7dcab06626ca",
+      "hardwareDurationSeconds": 0.500565,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ORADAR.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "463b88ba4a13a36904cbab51f8c01ad428368a939683f2cecdddb4b4a9f296a9",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9411,
+          "nativeSamples": 9409,
+          "timeConstant": 171,
+          "durationSeconds": 0.799765
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9409,
+      "decodedSha256": "3356fb8378f5a2249cec33b1dc7ab8db6a032680b32afd2ac438cb1e9dc3f133",
+      "hardwareDurationSeconds": 0.799765,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OOFF.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "88a8fbc2ecfd8b357f24b1d18245afa8781c8493affbf62b4a347835419b854b",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 15171,
+          "nativeSamples": 15169,
+          "timeConstant": 171,
+          "durationSeconds": 1.289365
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 15169,
+      "decodedSha256": "39d9cb85f6467f52997f3fee39a4a16cdcc52283d9e198bd7ddf875102e4d50b",
+      "hardwareDurationSeconds": 1.289365,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OON.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "8fa3323f04b061a01ce7a01837f5b05070b1c5e078736daebfecd7d5e294b362",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 12483,
+          "nativeSamples": 12481,
+          "timeConstant": 171,
+          "durationSeconds": 1.060885
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 12481,
+      "decodedSha256": "85d6bc725d80820b5dc66e40920b4caf637ea851171f777a91f165455ba026e4",
+      "hardwareDurationSeconds": 1.060885,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OSABOT.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "0d80190ecfc6e3e91df39af9c78dd26962f33f08b562fd3fd2bc4cab33425e4c",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10947,
+          "nativeSamples": 10945,
+          "timeConstant": 171,
+          "durationSeconds": 0.930325
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10945,
+      "decodedSha256": "63a20e7797830b631c12c05286661ef2066ee9f6654f03e945ead206af6c7ba1",
+      "hardwareDurationSeconds": 0.930325,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OSARD.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "76427930e9b4f4955e797f15245268e7834c34a2f33736c2baacd689dc6a7abe",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9219,
+          "nativeSamples": 9217,
+          "timeConstant": 171,
+          "durationSeconds": 0.783445
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9217,
+      "decodedSha256": "c7b0b3fb4fc23821008f5a74628fce73431d86bfa63b08cfce415ee276229896",
+      "hardwareDurationSeconds": 0.783445,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OSOUTH.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "ff751c76d4083ed2f82c22289e5162715f3a3c26b2b67646a6e7939dc8aca8e5",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 13507,
+          "nativeSamples": 13505,
+          "timeConstant": 171,
+          "durationSeconds": 1.147925
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 13505,
+      "decodedSha256": "00e2f3992a98a32237177262a328fda3137c605358cceee4310b6335c142677e",
+      "hardwareDurationSeconds": 1.147925,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OSTRUCT.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "d490d8c19833e31108691a682caaeba0bac66e0b0355b97711fa37bdbba8423c",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 6787,
+          "nativeSamples": 6785,
+          "timeConstant": 171,
+          "durationSeconds": 0.576725
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 6785,
+      "decodedSha256": "9a1c1446bb79cb00e739ceb33826408267d102bfd64dac5b25c1bf9a858bdce8",
+      "hardwareDurationSeconds": 0.576725,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OTHREE.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "131166300e73042d991e968c937f8ddd066e177353d8dab3bbeb6328b6a0113f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7875,
+          "nativeSamples": 7873,
+          "timeConstant": 171,
+          "durationSeconds": 0.669205
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7873,
+      "decodedSha256": "e8f05b6fbbefb00af91e21176b067f8881506a4b4da99f2d2864262951ef794a",
+      "hardwareDurationSeconds": 0.669205,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OTWO.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "8507fb43341670f9549f65548c8237131c851c5e116bdfa94e3dcd6152559ebf",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5059,
+          "nativeSamples": 5057,
+          "timeConstant": 171,
+          "durationSeconds": 0.429845
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 5057,
+      "decodedSha256": "2545bcc5061125d6329578d3f8cea5ec0e11b49c4b3020d7b7eeff5e9a451a8f",
+      "hardwareDurationSeconds": 0.429845,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OUNIT.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "439026ce702307b311bfbca4a060a87cd71d6d2fdc5f78f0770e346f4cc9d3af",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4035,
+          "nativeSamples": 4033,
+          "timeConstant": 171,
+          "durationSeconds": 0.342805
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 4033,
+      "decodedSha256": "18efc1ddbba851faa6ac2d63b1db885d50918aae24642861f308c8c83a8e89ee",
+      "hardwareDurationSeconds": 0.342805,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OWARNING.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "9126d1dfcafa349812def3954b73af537b9ea229389053d60cf28c45b516283f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8387,
+          "nativeSamples": 8385,
+          "timeConstant": 171,
+          "durationSeconds": 0.712725
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8385,
+      "decodedSha256": "0584e4f96837f7f78889035309fdb17b0f9e37d4a6a4f08f94951f17c1d7c627",
+      "hardwareDurationSeconds": 0.712725,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OWEST.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "fc64c0b83482ef9bfce7579c72f7483b33e5b30485bb9b7641d999d68cd7c4b7",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 12611,
+          "nativeSamples": 12609,
+          "timeConstant": 171,
+          "durationSeconds": 1.071765
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 12609,
+      "decodedSha256": "a9ed8bf65ae3ee3b403fbc0d04b944aff14e54a865945700c3745ccdcd6453b8",
+      "hardwareDurationSeconds": 1.071765,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OWIN.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "fcadf119d0a44177f9d3e7a62a4cd1a62ce5bfcd49857125ac9f1226012169e2",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 19651,
+          "nativeSamples": 19649,
+          "timeConstant": 171,
+          "durationSeconds": 1.670165
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 19649,
+      "decodedSha256": "069b5d1a98181bc7b857f6e96304d54814bb5ba94da36d48734359238c8e2ea2",
+      "hardwareDurationSeconds": 1.670165,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OLAUNCH.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "a83913d4c8c16a6c07032bbd49e1811fe837202cc999aca25bfb5db4240b936a",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10755,
+          "nativeSamples": 10753,
+          "timeConstant": 171,
+          "durationSeconds": 0.914005
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10753,
+      "decodedSha256": "bd8ef51319006aeae36d1d8a65aeb1982e8934166b9c7216b7c4ba7533c069bb",
+      "hardwareDurationSeconds": 0.914005,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OVEHICLE.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "3db036ee771a414470abbf549ce942f6ced80685731ee829c85c135124d4133c",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 6275,
+          "nativeSamples": 6273,
+          "timeConstant": 171,
+          "durationSeconds": 0.533205
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 6273,
+      "decodedSha256": "49d9a80390f7202b059385ff5909e50aafc791bfe67d25e4481379866cf0e568",
+      "hardwareDurationSeconds": 0.533205,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OREPAIR.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "40aa50a402fee589ed67179914cf4d4f9112e86ecc9fce02927bd1b3da41d214",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8011,
+          "nativeSamples": 8009,
+          "timeConstant": 171,
+          "durationSeconds": 0.680765
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8009,
+      "decodedSha256": "1807a67c004c58ae285bee5972ff4b08eceffdac1c38ddacc5316c9c84e11621",
+      "hardwareDurationSeconds": 0.680765,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OHARVEST.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "37aaf5d45e4858d0442eca5a19ee2100ede39bbc16135282d0fe72dc40a5272b",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7293,
+          "nativeSamples": 7291,
+          "timeConstant": 171,
+          "durationSeconds": 0.619735
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7291,
+      "decodedSha256": "e7b9104757ea53bea27fafe11571ba03fcdde72558a70107f30ec72869fe90c6",
+      "hardwareDurationSeconds": 0.619735,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OWORMY.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "73d82f3559b9ea2414a27d24ef7f831d15150334b4ce7d689fb89f9a1f3f27c8",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9539,
+          "nativeSamples": 9537,
+          "timeConstant": 171,
+          "durationSeconds": 0.810645
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9537,
+      "decodedSha256": "6a8df458f463436b22f8001615bf67e0eac44874c8cbd092eb489211113e5305",
+      "hardwareDurationSeconds": 0.810645,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OCAPTURE.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "f559e91d2a63c14c5a0b9f05a95d5dfa2857e607279cc334d3f5ba3865d66bf7",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 6299,
+          "nativeSamples": 6297,
+          "timeConstant": 171,
+          "durationSeconds": 0.535245
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 6297,
+      "decodedSha256": "257f6e8043a097918141cd5bed1d94e45dffbed210216a8fb140c8b5b3e73028",
+      "hardwareDurationSeconds": 0.535245,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ONEXT.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "abe815074d1ef4f6f463a3c393d773173bc9833e748e0a66886cc1af4e225729",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7683,
+          "nativeSamples": 7681,
+          "timeConstant": 171,
+          "durationSeconds": 0.652885
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 7681,
+      "decodedSha256": "525e8454455f82455b97c9e264bc78e853f2b5a35670af295904fb4c13db744c",
+      "hardwareDurationSeconds": 0.652885,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ONEXT2.VOC",
+      "archive": "ORDOS.PAK",
+      "sourceSha256": "c812383e64bd318034ded63ab3a875a38858e24cd861cb4c1fba4279f64ec68a",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 16771,
+          "nativeSamples": 16769,
+          "timeConstant": 171,
+          "durationSeconds": 1.425365
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 16769,
+      "decodedSha256": "2eec91130f6c4bb8fd337199654c3ca4c65e7f11d0a44c77eee3c04799fe0579",
+      "hardwareDurationSeconds": 1.425365,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "VSCREAM1.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "5c82f419b287eb2c3bdeed7857ba73624630326942dcf4e173ab8e5119ae456c",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5819,
+          "nativeSamples": 5817,
+          "timeConstant": 131,
+          "durationSeconds": 0.727125
+        }
+      ],
+      "decodedRate": 8000,
+      "decodedSamples": 5817,
+      "decodedSha256": "c33d25af3a3e451b366bfb5054d43cdfd1acb99bb2d1ab98764742bf10c3ca36",
+      "hardwareDurationSeconds": 0.727125,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "VSCREAM2.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "40dfcff7e4ad30740fa552a48fbe3e9e1876e599290f4eec9c4dda650b464749",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5039,
+          "nativeSamples": 5037,
+          "timeConstant": 131,
+          "durationSeconds": 0.629625
+        }
+      ],
+      "decodedRate": 8000,
+      "decodedSamples": 5037,
+      "decodedSha256": "b91d2734e6d2132db0b34478798f609da1e1a9a69618f0f1f8a1ab436cac4bca",
+      "hardwareDurationSeconds": 0.629625,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "VSCREAM3.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "90afb6dbd1da3f00312c6b46673b94c328545b3fc8e8c8992c591f4e2d6bdbad",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5834,
+          "nativeSamples": 5832,
+          "timeConstant": 131,
+          "durationSeconds": 0.729
+        }
+      ],
+      "decodedRate": 8000,
+      "decodedSamples": 5832,
+      "decodedSha256": "addb6a96da3f0a3de761119ca76c7de1231e9a4b1d4eeb3cece09f061fa2efc2",
+      "hardwareDurationSeconds": 0.729,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "VSCREAM4.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "be72a915a7d35f90cc9a07a9f5caf60b7bb2ca0ce0cff930e39c69cebd645116",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4611,
+          "nativeSamples": 4609,
+          "timeConstant": 131,
+          "durationSeconds": 0.576125
+        }
+      ],
+      "decodedRate": 8000,
+      "decodedSamples": 4609,
+      "decodedSha256": "2feac49fdf86b5bbdbf9855639a355e071c283d02c6805cac2a26fb16b22f1e8",
+      "hardwareDurationSeconds": 0.576125,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "VSCREAM5.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "044b41cca895b74f01935350137fdbe42d7c0cb249516ec40aa55603d9382d0f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5571,
+          "nativeSamples": 5569,
+          "timeConstant": 131,
+          "durationSeconds": 0.696125
+        }
+      ],
+      "decodedRate": 8000,
+      "decodedSamples": 5569,
+      "decodedSha256": "53ad026ab91878cf7ca3f715495ba4d65394727c22816d52a544ab0c4531cb58",
+      "hardwareDurationSeconds": 0.696125,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "AFFIRM.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "ffe252b7147add97b1495e8f6eaaec4f7a5835fbf1e0c1a3314125f4f7910a4a",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10479,
+          "nativeSamples": 10477,
+          "timeConstant": 171,
+          "durationSeconds": 0.890545
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10477,
+      "decodedSha256": "8f06b90c76ca1967e92c5ccb2eaee031bef23f08fc60156081ce3f8b4cf8101f",
+      "hardwareDurationSeconds": 0.890545,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "BUTTON.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "88f55c054ccc7d94dfc26eae3f7daf05d0c05d9cdd6eb39cec28a7158d89234e",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 1091,
+          "nativeSamples": 1089,
+          "timeConstant": 165,
+          "durationSeconds": 0.099099
+        }
+      ],
+      "decodedRate": 10989,
+      "decodedSamples": 1089,
+      "decodedSha256": "b09d044ade71cd5f73d5fd609521bde32d37275142022b3d338f1c70984eb1a9",
+      "hardwareDurationSeconds": 0.099099,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "CRUMBLE.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "c4ad82a0ee9e93a585fe7b0691d77723bae349f9b79223da80c96edc3c0665e6",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5379,
+          "nativeSamples": 5377,
+          "timeConstant": 6,
+          "durationSeconds": 1.34425
+        }
+      ],
+      "decodedRate": 4000,
+      "decodedSamples": 5377,
+      "decodedSha256": "31a705b8455560b18fe3c5b8bee9cad0d53b16ba777a51e0c6932941725552e3",
+      "hardwareDurationSeconds": 1.34425,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "DROPEQ2P.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "1d5efe1af1b1015814cf7b78a64292951eda64e733c31ce7a5f4c3bac583d97d",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4921,
+          "nativeSamples": 4919,
+          "timeConstant": 166,
+          "durationSeconds": 0.44271
+        }
+      ],
+      "decodedRate": 11111,
+      "decodedSamples": 4919,
+      "decodedSha256": "9c366956b3aea954bca3edc83ccd20ec1b847458b75fb1e4bcee09d3a18c659f",
+      "hardwareDurationSeconds": 0.44271,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EXCANNON.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "0c7331c1b7e09f29ab2e055e0752560b816f043b3895ac1fb6251afc4022e40b",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 3139,
+          "nativeSamples": 3137,
+          "timeConstant": 6,
+          "durationSeconds": 0.78425
+        }
+      ],
+      "decodedRate": 4000,
+      "decodedSamples": 3137,
+      "decodedSha256": "51748b705c98f2f14903b78a9729ccade53503d63b09e79e429765a09a0872fd",
+      "hardwareDurationSeconds": 0.78425,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EXDUD.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "733e0ef5e4cd091d10df5e018e83e64418b31527c579ace1fe67d20dd9c3b1d4",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 3931,
+          "nativeSamples": 3929,
+          "timeConstant": 24,
+          "durationSeconds": 0.911528
+        }
+      ],
+      "decodedRate": 4310,
+      "decodedSamples": 3929,
+      "decodedSha256": "d70b30de2037d2e4a3165af492e263eaf522d170e9462b8c0b7ad464747a663b",
+      "hardwareDurationSeconds": 0.911528,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EXGAS.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "9f32006bed6726a4c58ee00359a640b148413f812cf0c8f1fff8782138dd9287",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 4995,
+          "nativeSamples": 4993,
+          "timeConstant": 45,
+          "durationSeconds": 1.053523
+        }
+      ],
+      "decodedRate": 4739,
+      "decodedSamples": 4993,
+      "decodedSha256": "05dcc392d79e9f77fafbd8521d36063c978c5bf375d1a8771447a8cb710496ff",
+      "hardwareDurationSeconds": 1.053523,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EXLARGE.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "d0ff84849612b39e82cb3d1b9f246f2d66c00ed669fda1a0c30c036c7871dabb",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 17051,
+          "nativeSamples": 17049,
+          "timeConstant": 131,
+          "durationSeconds": 2.131125
+        }
+      ],
+      "decodedRate": 8000,
+      "decodedSamples": 17049,
+      "decodedSha256": "c785ad543e765102bd44246c80e2f972eea211ba4dfce9dabd8cb15a1581895b",
+      "hardwareDurationSeconds": 2.131125,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EXMED.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "aca24be39d4e71b6e3abe6276284dacb7e4e1b702097e20a67f5ed7a7d57e273",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7171,
+          "nativeSamples": 7169,
+          "timeConstant": 6,
+          "durationSeconds": 1.79225
+        }
+      ],
+      "decodedRate": 4000,
+      "decodedSamples": 7169,
+      "decodedSha256": "2447049acf2f913265cd4030bca9134322ca4f1cc221bcb9d527bf0003117efe",
+      "hardwareDurationSeconds": 1.79225,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EXSAND.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "f1eb513d809d23c46b4c7ca3536c2e4b5370a600e2087639b2d22da68c9c0d4e",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 5639,
+          "nativeSamples": 5637,
+          "timeConstant": 59,
+          "durationSeconds": 1.110489
+        }
+      ],
+      "decodedRate": 5076,
+      "decodedSamples": 5637,
+      "decodedSha256": "197eb334fe20bd70d71ffc1c7c4ada15d2b7c1153b1d892331779b7847b8d446",
+      "hardwareDurationSeconds": 1.110489,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EXSMALL.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "0c7331c1b7e09f29ab2e055e0752560b816f043b3895ac1fb6251afc4022e40b",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 3139,
+          "nativeSamples": 3137,
+          "timeConstant": 6,
+          "durationSeconds": 0.78425
+        }
+      ],
+      "decodedRate": 4000,
+      "decodedSamples": 3137,
+      "decodedSha256": "51748b705c98f2f14903b78a9729ccade53503d63b09e79e429765a09a0872fd",
+      "hardwareDurationSeconds": 0.78425,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "EXTINY.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "37a9ab40e595e23cae831bb39fdd8f0354a4daf195609687b203899c3e1788f4",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8421,
+          "nativeSamples": 8419,
+          "timeConstant": 166,
+          "durationSeconds": 0.75771
+        }
+      ],
+      "decodedRate": 11111,
+      "decodedSamples": 8419,
+      "decodedSha256": "8db039a2d513b443565c557fd4c7fc958fffa52b7ee58973b6a13c2fa821e498",
+      "hardwareDurationSeconds": 0.75771,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "GUN.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "16521df5958209fbf589d95a50ffb77494c210ce0da8c5d32c99ce6217beb7ed",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 3279,
+          "nativeSamples": 3277,
+          "timeConstant": 131,
+          "durationSeconds": 0.409625
+        }
+      ],
+      "decodedRate": 8000,
+      "decodedSamples": 3277,
+      "decodedSha256": "fbbcf085f72e97178f55704d75fd61f7346aaac839a08301559d5e5cf9626121",
+      "hardwareDurationSeconds": 0.409625,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "GUNMULTI.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "a9f5354bf9bfb402427e8665afe6c2966fa1696e5a6ad4722b924000ad6f4221",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 7303,
+          "nativeSamples": 7301,
+          "timeConstant": 131,
+          "durationSeconds": 0.912625
+        }
+      ],
+      "decodedRate": 8000,
+      "decodedSamples": 7301,
+      "decodedSha256": "a5177c12da67b60901a5df391167592b4efdb9c06d68958da396b9a0e327b05f",
+      "hardwareDurationSeconds": 0.912625,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "MISLTINP.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "ea8baa50aed3886fb054a6f0244908aea725e31d0be356a9b00cfe94c431d835",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9979,
+          "nativeSamples": 9977,
+          "timeConstant": 167,
+          "durationSeconds": 0.887953
+        }
+      ],
+      "decodedRate": 11235,
+      "decodedSamples": 9977,
+      "decodedSha256": "43e0a738440f0374dffed7b1f4b837c95413f4fe608d07aa547b98221e54a25a",
+      "hardwareDurationSeconds": 0.887953,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "MOVEOUT.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "2814058425c91badfee7cbfd8328db1fe098e292b4ad919803f775ca21566cb2",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10359,
+          "nativeSamples": 10357,
+          "timeConstant": 171,
+          "durationSeconds": 0.880345
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 10357,
+      "decodedSha256": "e4e3136f7618c579961e681d6d5a6c31db0ae04d772fe39a381327523ea61862",
+      "hardwareDurationSeconds": 0.880345,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "OVEROUT.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "8e960920f5e6173e92feef6aeba58b60172ccc1ad4ac09d5b655181f7810126f",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 15335,
+          "nativeSamples": 15333,
+          "timeConstant": 171,
+          "durationSeconds": 1.303305
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 15333,
+      "decodedSha256": "7c206b17e4a7882365a1857bbf243d2a80801a633b6425c4fe3c49ccb9335c23",
+      "hardwareDurationSeconds": 1.303305,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "POPPA.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "dac681a8d742b978f89ca02cb94470a25b3f6b032aff049670b49bd84be1ce67",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 15383,
+          "nativeSamples": 15381,
+          "timeConstant": 171,
+          "durationSeconds": 1.307385
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 15381,
+      "decodedSha256": "d366b9e2759a674b5b86c4c7dd09fae5edd751a92dcc157c5e2423b1653d4824",
+      "hardwareDurationSeconds": 1.307385,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "REPORT1.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "15c6c5a08b972dd7f3f28e4a86f3bb7fda643dda3500060a4a67d79fad186700",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 9769,
+          "nativeSamples": 9767,
+          "timeConstant": 171,
+          "durationSeconds": 0.830195
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 9767,
+      "decodedSha256": "d36022743ee8e26d13dcd01d6d7d764b597c884ad1fdaa6edd23204d5aa7a096",
+      "hardwareDurationSeconds": 0.830195,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "REPORT2.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "6c7c829526b3ca04f853728139a4d297a9f70442168c6ff5fa736e32cab60f43",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 11218,
+          "nativeSamples": 11216,
+          "timeConstant": 171,
+          "durationSeconds": 0.95336
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 11216,
+      "decodedSha256": "b79cd97174e4b4cc9dc0e455de2854cdacdf549abd225b2d902a0c484169b99e",
+      "hardwareDurationSeconds": 0.95336,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "REPORT3.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "847e866c2f93a95dd6ca13981ae14f8c02821878803e16abfb71ed375a896740",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 12101,
+          "nativeSamples": 12099,
+          "timeConstant": 171,
+          "durationSeconds": 1.028415
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 12099,
+      "decodedSha256": "7f1b62d9f17566323ff917211c459685431625cf4b821047efcef775f29074fb",
+      "hardwareDurationSeconds": 1.028415,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "ROCKET.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "fc37483521126838bc94ff99cd16f89a7f021a9b658c4c9d7a9599d2ea0b0f6e",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8744,
+          "nativeSamples": 8742,
+          "timeConstant": 159,
+          "durationSeconds": 0.847974
+        }
+      ],
+      "decodedRate": 10309,
+      "decodedSamples": 8742,
+      "decodedSha256": "91eb84f09e7ecf542757217ccc7a24a38b12e766dc1f7f74a2415645b7368010",
+      "hardwareDurationSeconds": 0.847974,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "SANDBUG.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "83907d1db48a521625cbaae0c892d462bc7cd81d0f62115b06fa4a96ba8a0ecb",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 17404,
+          "nativeSamples": 17402,
+          "timeConstant": 171,
+          "durationSeconds": 1.47917
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 17402,
+      "decodedSha256": "a185fa68bfdf5c49cd2476238b135db8c508bfcc846baed578b884fe4d5b10ca",
+      "hardwareDurationSeconds": 1.47917,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "SQUISH2.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "3c0e6b47a6b65a49a431584e11b094f1a1595c882480bd0b82b0b9c6f1f5c34a",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 8216,
+          "nativeSamples": 8214,
+          "timeConstant": 171,
+          "durationSeconds": 0.69819
+        }
+      ],
+      "decodedRate": 11764,
+      "decodedSamples": 8214,
+      "decodedSha256": "21ca03e39bd6364e43e50cf4079c8be4a90062766ca10efc4bcae68fb1bcf915",
+      "hardwareDurationSeconds": 0.69819,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "STATICP.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "93e90135371a1c79e35c269a48580450778ec81c09ac405a65483aebe39c9489",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 19653,
+          "nativeSamples": 19651,
+          "timeConstant": 167,
+          "durationSeconds": 1.748939
+        }
+      ],
+      "decodedRate": 11235,
+      "decodedSamples": 19651,
+      "decodedSha256": "7059dd9e56a9fd8c47b4c872715e4e64126af2c3ae208a07f825bcd97f17e5c9",
+      "hardwareDurationSeconds": 1.748939,
+      "ignoredByStockSDLDSPSeconds": 0
+    },
+    {
+      "name": "WORMET3P.VOC",
+      "archive": "VOC.PAK",
+      "sourceSha256": "115e7edb945cf05e9b09b3b5af2de43610b9d65e754c67755018878ab378026b",
+      "blocks": [
+        {
+          "type": 1,
+          "fileOffset": 26,
+          "size": 10311,
+          "nativeSamples": 10309,
+          "timeConstant": 106,
+          "durationSeconds": 1.54635
+        }
+      ],
+      "decodedRate": 6666,
+      "decodedSamples": 10309,
+      "decodedSha256": "d7e09214cde65e835de86b95dc03649b748fe1bb48e131228f9c8c4d5fb08dab",
+      "hardwareDurationSeconds": 1.54635,
+      "ignoredByStockSDLDSPSeconds": 0
+    }
+  ],
+  "blockCounts": {
+    "1": 222,
+    "3": 10
+  },
+  "schemes": {
+    "1": 213,
+    "1,3": 9,
+    "3": 1
+  }
+}

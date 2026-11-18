@@ -1,0 +1,13 @@
+{
+  "path": "/Users/misko/Documents/ChatGPT/Prehistorik/dune-ii-web/native/opendune/src/audio/dsp_sdl.c",
+  "mode": "write",
+  "changed": false,
+  "beforeSha256": "acf02e68922e3d152e9ad81738c134ad76f64cfc08fb9b19dceba5c83e6ec2f1",
+  "afterSha256": "acf02e68922e3d152e9ad81738c134ad76f64cfc08fb9b19dceba5c83e6ec2f1",
+  "supportedVocBlocks": [
+    0,
+    1,
+    3
+  ],
+  "silenceDuration": "(LE16(count)+1)*(256-timeConstant)/1000000 seconds; nearest active-rate sample"
+}

@@ -1,0 +1,12 @@
+{
+  "path": "dist/native/source.tar.gz",
+  "files": 453,
+  "bytes": 9777767,
+  "sha256": "2eec362692c9897b24149f3e5ca7e858499674e1dbbc384104e27b6bce83912d",
+  "coreOutputs": {
+    "dune-native.mjs": "9e14c4e9d89b290073d161ad5a7554f382eebc0dca7663f364701331efb23bf7",
+    "dune-native.wasm": "1198897f62f27cb6e8bfeb57159e6c51386b5e7d64095f2378fed04b2bbb0321",
+    "dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
+  },
+  "musicWasmSha256": "e29b0487fc72d4c7c4691f96a11229bf0976d345d0385fa1656f1f55d8e3d9ef"
+}

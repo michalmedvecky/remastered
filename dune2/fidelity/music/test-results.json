@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "scope": "Actual original ALFX OPL2 register/value writes after21startup writes and beforefade/bank-switch; original run instrumented IO_WriteB without modifying game/driver instructions. Native initialization writes are excluded separately. Tick injections come from original PIC72Hz phase.",
+  "cases": [
+    {
+      "house": "harkonnen",
+      "events": 2325,
+      "sha256": "5c52207134a37431ed93bf5591b8e9e6b3e53730698955cd9ecc16c8c3129d2a",
+      "fadePrefixEvents": 60,
+      "fadePrefixSha256": "91a5298ba026475449887094975d94dc00128bea6cea93ec7eb46155b70d6066"
+    },
+    {
+      "house": "atreides",
+      "events": 943,
+      "sha256": "60c95b0c8f2bd6f15525920c59c0983814ff222c4a8ba313e52ba157889bf2bc",
+      "fadePrefixEvents": 60,
+      "fadePrefixSha256": "9dacadc138d393a7a31b1cf74b6ba83f0a262c12c0692c68254897b3b93f6ea9"
+    },
+    {
+      "house": "ordos",
+      "events": 1380,
+      "sha256": "5b97c04f8cade1cecc9526746653587a254536df84f0a1abb2952c6ab62c7645",
+      "fadePrefixEvents": 60,
+      "fadePrefixSha256": "91a5298ba026475449887094975d94dc00128bea6cea93ec7eb46155b70d6066"
+    }
+  ],
+  "introCases": [
+    {
+      "house": "intro-logo",
+      "events": 700,
+      "sha256": "1b3ed3d0f5d4c9763ad73c2488ae2412693a2f740b6449e61e6b684a07b1081a"
+    },
+    {
+      "house": "intro-score-first-sfx",
+      "events": 3237,
+      "sha256": "f9f7ba447fb85db243be16506470c39cdb548ac1135b62e1e59494ee061b8a50"
+    }
+  ],
+  "interpreterSha256": "909ff0254ffc67c2de63476feeb763391445c6cc6b952448d5f9515693b79aa2"
+}

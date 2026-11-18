@@ -8,3 +8,8 @@ node_modules/
 .env.*
 deploy/config.local.json
 deploy/*.rendered.json
+!dune2/dist/native/source.tar.gz
+dune2/native/data/
+dune2/test-results/
+**/__pycache__/
+**/*.pyc

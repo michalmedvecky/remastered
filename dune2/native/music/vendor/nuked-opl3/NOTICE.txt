@@ -1,0 +1,8 @@
+Nuked-OPL3 revision 765ec962e473aeb767e4cba74ffdc8f588ffbfe8.
+Copyright (C) 2013-2020 Nuke.YKT. LGPL-2.1-or-later; see LICENSE.
+The unmodified opl3.c and opl3.h sources are retained in this directory.
+Original upstream: https://github.com/nukeykt/Nuked-OPL3
+Browser build and adapter: ../../build.py and ../../renderer.cpp.
+This is an OPL sound-chip emulator, not an EXE or DOS interpreter.
+The Dune II ADL score banks are separately extracted from the user-supplied
+SOUND.PAK. See ../../banks.json and ../../PROVENANCE.md.

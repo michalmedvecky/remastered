@@ -1,0 +1,8 @@
+{
+  "path": "native/opendune/src/wsa.c",
+  "mode": "write",
+  "changed": true,
+  "beforeSha256": "3890c5c1d7772d717c7663403499f762f36eb57e9760f05b5cc087a6e9f0c01e",
+  "afterSha256": "694c801bf60a1298273aa9de52e05ce769827c71bcf4727e3b3b5f851514dd0d",
+  "reason": "ASan observed stale-buffer Format80 decode for INTRO7b/OFINALB, which have zero initial-stream length"
+}

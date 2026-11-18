@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "scope": "All six original continuation files plus a normal initial stream; actual C loader under ASan, poisoned reused screenbuffer, first/delta display assertions",
+  "sourceExeSha256": "85f22bb82ea6f755835d5a94d257a67e11a3b854ec934854a69c3eeff7d0180f",
+  "records": [
+    {
+      "name": "HFINALC.WSA",
+      "archive": "FINALE.PAK",
+      "archiveSha256": "a2c7a08a88ce5160420edb5efaa02fcea0e67acaed1f9f50230306e16495e879",
+      "offset": 186415,
+      "size": 87693,
+      "sha256": "8ebd6dd4bb550c6fa406b6e5b05025cbabb985f560938483260ad487b5e7d697",
+      "frames": 36,
+      "lengthHeader": 10,
+      "firstFrameOffset": 0,
+      "secondFrameOffset": 162,
+      "initialStreamLength": 0
+    },
+    {
+      "name": "OFINALB.WSA",
+      "archive": "FINALE.PAK",
+      "archiveSha256": "a2c7a08a88ce5160420edb5efaa02fcea0e67acaed1f9f50230306e16495e879",
+      "offset": 313676,
+      "size": 6075,
+      "sha256": "c29ef8e59f015d22a1e70354fbc20cbf3e4cf6214c83818f8c338faa5238b7f4",
+      "frames": 13,
+      "lengthHeader": 10,
+      "firstFrameOffset": 0,
+      "secondFrameOffset": 70,
+      "initialStreamLength": 0
+    },
+    {
+      "name": "OFINALC.WSA",
+      "archive": "FINALE.PAK",
+      "archiveSha256": "a2c7a08a88ce5160420edb5efaa02fcea0e67acaed1f9f50230306e16495e879",
+      "offset": 319751,
+      "size": 14836,
+      "sha256": "f0f40014e84e828e7ee4d99a17d0af3c665bc430d46fb87551a04e08d4dbe6f4",
+      "frames": 9,
+      "lengthHeader": 10,
+      "firstFrameOffset": 0,
+      "secondFrameOffset": 54,
+      "initialStreamLength": 0
+    },
+    {
+      "name": "INTRO7A.WSA",
+      "archive": "INTRO.PAK",
+      "archiveSha256": "6289dea784e2f49f0c50008f52424f87667ec7f160245b69dd4be7be75682c81",
+      "offset": 504197,
+      "size": 123884,
+      "sha256": "0dad5526d7363c878aebfa5fb95e5f34dd756b3be111816a19e0ebd9fa4f2852",
+      "frames": 27,
+      "lengthHeader": 10,
+      "firstFrameOffset": 126,
+      "secondFrameOffset": 7612,
+      "initialStreamLength": 7486
+    },
+    {
+      "name": "INTRO7B.WSA",
+      "archive": "INTRO.PAK",
+      "archiveSha256": "6289dea784e2f49f0c50008f52424f87667ec7f160245b69dd4be7be75682c81",
+      "offset": 628081,
+      "size": 77045,
+      "sha256": "5c63c04a8d77dc46e04e9fd16fed7b9995e782e8a01df90a0c687710e1e99258",
+      "frames": 22,
+      "lengthHeader": 10,
+      "firstFrameOffset": 0,
+      "secondFrameOffset": 106,
+      "initialStreamLength": 0
+    },
+    {
+      "name": "INTRO8B.WSA",
+      "archive": "INTRO.PAK",
+      "archiveSha256": "6289dea784e2f49f0c50008f52424f87667ec7f160245b69dd4be7be75682c81",
+      "offset": 825981,
+      "size": 37900,
+      "sha256": "3c3520310c2dacf8ed7610699ed9b51f02a7ec3786ee8cd5de7fe32e15f4b751",
+      "frames": 19,
+      "lengthHeader": 10,
+      "firstFrameOffset": 0,
+      "secondFrameOffset": 94,
+      "initialStreamLength": 0
+    },
+    {
+      "name": "INTRO8C.WSA",
+      "archive": "INTRO.PAK",
+      "archiveSha256": "6289dea784e2f49f0c50008f52424f87667ec7f160245b69dd4be7be75682c81",
+      "offset": 863881,
+      "size": 56868,
+      "sha256": "9ba7cf1e254f0d98a812c2795ae7d35ee318e8e0562987bfdfd0017ae6d22403",
+      "frames": 29,
+      "lengthHeader": 10,
+      "firstFrameOffset": 0,
+      "secondFrameOffset": 134,
+      "initialStreamLength": 0
+    }
+  ]
+}

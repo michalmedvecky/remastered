@@ -1,5 +1,16 @@
 # Unified infrastructure validation
 
+## Dune II integration — 18 November 2026
+
+The unified image now serves five games: `/pre2/`, `/ga/`, `/flappy/`, `/tappy/` and `/dune2/`. The Dockerfile, public-file allowlist, preview routing, combined/per-game snapshots, CI build arguments and actual-image smoke checks all carry the Dune runtime and `DUNE2_SNAPSHOT`. The checked-in k3s workload/Ingress templates are consumed by the existing offline renderer; required cluster values remain unset in the example.
+
+- Thirteen routing and manifest tests passed with `node --test tests/routing.test.mjs deploy/render.test.mjs`: all five prefix redirects, distinct pages, missing-asset404s, native WASM magic/MIME, preload delivery, gzip source download and JPEG tile MIME, plus positive/negative renderer checks. The tests used an ephemeral loopback server and closed it.
+- The template-backed renderer produces exactly the same resources as the previous renderer for four configurations: Traefik, internal-only, existing pull Secret and standard ingress controller. No cluster was contacted.
+- Installed Homebrew NGINX accepted the final config with only its local MIME-file and temporary PID-path substitutions. No server was started for that syntax check.
+- Docker is unavailable locally. CI must still build/smoke the actual image and verify both architectures before an immutable image digest can be selected for rollout. No registry publication or cluster operation is asserted by these local checks.
+
+## Historical unified migration checks
+
 Implemented one root Docker build context and a strict public-file allowlist; portal at `/`, games at `/pre2/`, `/ga/`, `/flappy/`. The root metadata writer is supplied by the coordinator; the Dockerfile passes each game's snapshot independently and the combined snapshot to the portal. Base nginx is pinned to the previously verified official digest. Existing standalone publishers are disabled outside `.github/workflows/`; the sole active workflow targets only `ghcr.io/michalmedvecky/remastered` after the repository rename.
 
 Checks performed:

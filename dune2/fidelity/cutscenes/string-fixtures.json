@@ -1,0 +1,985 @@
+{
+  "schema": 1,
+  "sourceOriginalSha256": "85f22bb82ea6f755835d5a94d257a67e11a3b854ec934854a69c3eeff7d0180f",
+  "method": "Retained static string excerpts exported from the original hash-verified V1.07 EXE; portable checks do not re-read the original EXE",
+  "records": [
+    {
+      "fileOffset": "0x386c6",
+      "rawHex": "2b5653435245414d312e564f4300",
+      "sha256": "14a5be7cfaeee3f4abdd4c7ad1f1d8bc691d47407e157cbeca384aabc4ebc5f5",
+      "text": "+VSCREAM1.VOC"
+    },
+    {
+      "fileOffset": "0x386d4",
+      "rawHex": "2b455853414e442e564f4300",
+      "sha256": "6536820c482d7ef5e4fd0fd48cfd32242624455c948b6595a995bfd8e853c30a",
+      "text": "+EXSAND.VOC"
+    },
+    {
+      "fileOffset": "0x386e0",
+      "rawHex": "2b524f434b45542e564f4300",
+      "sha256": "60e3260c44301475254cdfc7259a39ccf4e73b522013dbbd65396795c8155d6e",
+      "text": "+ROCKET.VOC"
+    },
+    {
+      "fileOffset": "0x386ec",
+      "rawHex": "2b425554544f4e2e564f4300",
+      "sha256": "6bc1d48e99a84bfdda017e77df82b1fca68769e22cb1b10a67e0f69d23de0647",
+      "text": "+BUTTON.VOC"
+    },
+    {
+      "fileOffset": "0x386f8",
+      "rawHex": "2b5653435245414d352e564f4300",
+      "sha256": "9286fb4d04b85fd347b1fc86b4b5380c7c862e6884d1df1336c8d100c53215e5",
+      "text": "+VSCREAM5.VOC"
+    },
+    {
+      "fileOffset": "0x38706",
+      "rawHex": "2b4352554d424c452e564f4300",
+      "sha256": "0b481014d9ba2231596b629e268b926fc0787546426f67dcaea70498c70e168f",
+      "text": "+CRUMBLE.VOC"
+    },
+    {
+      "fileOffset": "0x38713",
+      "rawHex": "2b4558534d414c4c2e564f4300",
+      "sha256": "cf54b9bac69f16cbe9850756221a3cb9c11163dc990bfe342c1625c06549e451",
+      "text": "+EXSMALL.VOC"
+    },
+    {
+      "fileOffset": "0x38720",
+      "rawHex": "2b45584d45442e564f4300",
+      "sha256": "070384baa5267794a925a342c88f84b3aebf977e188b3a70a327057762df6343",
+      "text": "+EXMED.VOC"
+    },
+    {
+      "fileOffset": "0x3872b",
+      "rawHex": "2b45584c415247452e564f4300",
+      "sha256": "9b8fe4d8ff3f2b4a0957ca9a24194789de1884d8c3bfa066dacd52a66b03b2b0",
+      "text": "+EXLARGE.VOC"
+    },
+    {
+      "fileOffset": "0x38738",
+      "rawHex": "2b455843414e4e4f4e2e564f4300",
+      "sha256": "cd91929bb0c80eab319b00647b4f5bbf24f3a1fb69d05cab67b5f2a31850e714",
+      "text": "+EXCANNON.VOC"
+    },
+    {
+      "fileOffset": "0x38746",
+      "rawHex": "2b47554e4d554c54492e564f4300",
+      "sha256": "e71080388d5b06c35d7957401ec2996770346b8f01863d8020eae9062700575d",
+      "text": "+GUNMULTI.VOC"
+    },
+    {
+      "fileOffset": "0x38754",
+      "rawHex": "2b47554e2e564f4300",
+      "sha256": "a331a155d4c918b88632708899730ea2f1b996f898b1a2b9d4bbf4db38ced82e",
+      "text": "+GUN.VOC"
+    },
+    {
+      "fileOffset": "0x3875d",
+      "rawHex": "2b45584741532e564f4300",
+      "sha256": "4a469eb474a594593e7906e2441c0cc45444c27da40f7b11ee48d7df5f00c9f5",
+      "text": "+EXGAS.VOC"
+    },
+    {
+      "fileOffset": "0x38768",
+      "rawHex": "2b45584455442e564f4300",
+      "sha256": "69ffe18efd49bf67685e14611489b754f66371de205f3e99ea174cdf0fc8f727",
+      "text": "+EXDUD.VOC"
+    },
+    {
+      "fileOffset": "0x38773",
+      "rawHex": "2b5653435245414d322e564f4300",
+      "sha256": "b7f8dc2d0de646c79e3698db9cde497cb1613092e51573a12d47e555960de079",
+      "text": "+VSCREAM2.VOC"
+    },
+    {
+      "fileOffset": "0x38781",
+      "rawHex": "2b5653435245414d332e564f4300",
+      "sha256": "8015bc1dc41ba72d28df2b9e3785830136e045859ebefc1d7fef98338cf4f7d8",
+      "text": "+VSCREAM3.VOC"
+    },
+    {
+      "fileOffset": "0x3878f",
+      "rawHex": "2b5653435245414d342e564f4300",
+      "sha256": "c9acf77a1a9fd004e2d4c870d23778bc8dbe44cb921b18605ba5d3cb98a742af",
+      "text": "+VSCREAM4.VOC"
+    },
+    {
+      "fileOffset": "0x3879d",
+      "rawHex": "2b41464649524d2e564f4300",
+      "sha256": "09d603c4472ed5b5ef581c288e7a13e7a407dfa7f66038c57087aeb3dea68fac",
+      "text": "+AFFIRM.VOC"
+    },
+    {
+      "fileOffset": "0x387a9",
+      "rawHex": "2b5245504f5254312e564f4300",
+      "sha256": "17c0e7fe79d2e81f16d2a2e5ec7ba617d581e3c5aebbc1da2aecc14ac4b4941a",
+      "text": "+REPORT1.VOC"
+    },
+    {
+      "fileOffset": "0x387b6",
+      "rawHex": "2b5245504f5254322e564f4300",
+      "sha256": "6a6588112b28482d6ef0baf31b390b431bc77a5c1f4ee43c0eb0a713bec9e4d0",
+      "text": "+REPORT2.VOC"
+    },
+    {
+      "fileOffset": "0x387c3",
+      "rawHex": "2b5245504f5254332e564f4300",
+      "sha256": "ce3b13124659fea04ce844042914177118c3c6867d01d535d27d53a9f97aacf0",
+      "text": "+REPORT3.VOC"
+    },
+    {
+      "fileOffset": "0x387d0",
+      "rawHex": "2b4f5645524f55542e564f4300",
+      "sha256": "ee0b09cd47cdf04a406453dc436f947ebaf0f4bdbc3e035053a65e388233e96b",
+      "text": "+OVEROUT.VOC"
+    },
+    {
+      "fileOffset": "0x387dd",
+      "rawHex": "2b4d4f56454f55542e564f4300",
+      "sha256": "eb67d042314a028d34ee1f0a83fa9d56ab03d8c73f5221591b57489852ca899c",
+      "text": "+MOVEOUT.VOC"
+    },
+    {
+      "fileOffset": "0x387ea",
+      "rawHex": "2b4f4b2e564f4300",
+      "sha256": "31092a4c049702a1817e254400c401f29c85dfc8c659cb3c6ec3a2579c76ce34",
+      "text": "+OK.VOC"
+    },
+    {
+      "fileOffset": "0x387f2",
+      "rawHex": "3f504f5050412e564f4300",
+      "sha256": "93ca435a789d4c6a96b69160a3d88f1323929063df36318f3aa19453f7d3077a",
+      "text": "?POPPA.VOC"
+    },
+    {
+      "fileOffset": "0x387fd",
+      "rawHex": "3f53414e444255472e564f4300",
+      "sha256": "906fc24b63dfd96d8d98eab8dab539afa88cc0ee55cf276451315e4861bb95f1",
+      "text": "?SANDBUG.VOC"
+    },
+    {
+      "fileOffset": "0x3880a",
+      "rawHex": "2b535441544943502e564f4300",
+      "sha256": "752e734a4ecb1837c83e46738eea3d9b2698e03b9b34c03fecbc96efe3944f7a",
+      "text": "+STATICP.VOC"
+    },
+    {
+      "fileOffset": "0x38817",
+      "rawHex": "2b574f524d455433502e564f4300",
+      "sha256": "6798e7530d6d0c58bce504bc666975079f71b1843dc809a4ab9bd1cf78d54c4f",
+      "text": "+WORMET3P.VOC"
+    },
+    {
+      "fileOffset": "0x38825",
+      "rawHex": "2b4d49534c54494e502e564f4300",
+      "sha256": "39bc545ac9bab32e7bddf73c6402db0ac796211626bb0e3bb3c18dcdd493c1f0",
+      "text": "+MISLTINP.VOC"
+    },
+    {
+      "fileOffset": "0x38833",
+      "rawHex": "2b535155495348322e564f4300",
+      "sha256": "80c9306f0ca18201dbf78b876f801972d8287591a79aa6761d05879f4c6f509d",
+      "text": "+SQUISH2.VOC"
+    },
+    {
+      "fileOffset": "0x38840",
+      "rawHex": "2563454e454d592e564f4300",
+      "sha256": "330dcf9190080ae9aae9b29cab3c2c59e5ca8b791a2c1b89f833775670a08bb0",
+      "text": "%cENEMY.VOC"
+    },
+    {
+      "fileOffset": "0x3884c",
+      "rawHex": "25634841524b2e564f4300",
+      "sha256": "e6d049a4ba729f2501a4ed4776af3cc87c0c77315ecd9434822994c1b6b752f2",
+      "text": "%cHARK.VOC"
+    },
+    {
+      "fileOffset": "0x38857",
+      "rawHex": "2563415452452e564f4300",
+      "sha256": "3b046bd33255904346ec28743f318dfb39c59b0729833bc090dc4dcd792f07fb",
+      "text": "%cATRE.VOC"
+    },
+    {
+      "fileOffset": "0x38862",
+      "rawHex": "25634f52444f532e564f4300",
+      "sha256": "be4ceeb0203838c1b7d83cf33a495846fe5a33aff93eaedcb6ddaafbfa647cde",
+      "text": "%cORDOS.VOC"
+    },
+    {
+      "fileOffset": "0x3886e",
+      "rawHex": "25634652454d454e2e564f4300",
+      "sha256": "80fb4ae6e58bb56e9d82b3c9ea3d5f76b9657f23f51e68c277d58b7e710f9573",
+      "text": "%cFREMEN.VOC"
+    },
+    {
+      "fileOffset": "0x3887b",
+      "rawHex": "2563534152442e564f4300",
+      "sha256": "9e7b4f6f178d02215b9e91e8a09146d8ddd58d6c0fb4a6431e6b8fa28ba1ad91",
+      "text": "%cSARD.VOC"
+    },
+    {
+      "fileOffset": "0x38886",
+      "rawHex": "46494c4c45522e564f4300",
+      "sha256": "99d3379dd03d45961e0576cea51b7fe601bd2f7167c221251a27f5dc7ef18b95",
+      "text": "FILLER.VOC"
+    },
+    {
+      "fileOffset": "0x38891",
+      "rawHex": "2563554e49542e564f4300",
+      "sha256": "86b971d8bac25caa8ae2dd2c83a404419c727d9a828e8b7b85b017ad9303033c",
+      "text": "%cUNIT.VOC"
+    },
+    {
+      "fileOffset": "0x3889c",
+      "rawHex": "25635354525543542e564f4300",
+      "sha256": "956e0919697a25fc81ec7e341443c8f059189ee8b7d3a97b90c3fd73a90f188f",
+      "text": "%cSTRUCT.VOC"
+    },
+    {
+      "fileOffset": "0x388a9",
+      "rawHex": "25634f4e452e564f4300",
+      "sha256": "07b18f9fad918b27e3a660d8cbc77c4bf4ac5f6c31cb400c41b1da2914e7de1a",
+      "text": "%cONE.VOC"
+    },
+    {
+      "fileOffset": "0x388b3",
+      "rawHex": "256354574f2e564f4300",
+      "sha256": "05c7271cd25c875dae56b10ba66f97bebbc5627769e6a8015fb4cb5167c6bf03",
+      "text": "%cTWO.VOC"
+    },
+    {
+      "fileOffset": "0x388bd",
+      "rawHex": "256354485245452e564f4300",
+      "sha256": "5d9eece6a916b66e29c0cd730141a9bc8fa0c847186a8f84f6abf06f9160f68c",
+      "text": "%cTHREE.VOC"
+    },
+    {
+      "fileOffset": "0x388c9",
+      "rawHex": "2563464f55522e564f4300",
+      "sha256": "26d9a026497ae6bf4f90167b14d2336a755f609f65e09c4757f8f5750373ca4e",
+      "text": "%cFOUR.VOC"
+    },
+    {
+      "fileOffset": "0x388d4",
+      "rawHex": "2563464956452e564f4300",
+      "sha256": "18aa7c917f8afd8f7cf80bf581a86f277af46990dfecd3c362aa4507364e2724",
+      "text": "%cFIVE.VOC"
+    },
+    {
+      "fileOffset": "0x388df",
+      "rawHex": "2563434f4e53542e564f4300",
+      "sha256": "35b85a776041ef029d3d057aae82fe85d712b9609c1b16a452b9255e649c9f70",
+      "text": "%cCONST.VOC"
+    },
+    {
+      "fileOffset": "0x388eb",
+      "rawHex": "256352414441522e564f4300",
+      "sha256": "aed0af308fc59bf9f80f3ec019e0440e8814a5c58afc7cf0b4815ff5be59ecf5",
+      "text": "%cRADAR.VOC"
+    },
+    {
+      "fileOffset": "0x388f7",
+      "rawHex": "25634f46462e564f4300",
+      "sha256": "6d6efa941370f21f724c002e272ff5852047534594d6ba378e9fa6751d823f24",
+      "text": "%cOFF.VOC"
+    },
+    {
+      "fileOffset": "0x38901",
+      "rawHex": "25634f4e2e564f4300",
+      "sha256": "11a1e3744e96f20193d3531af0161875e146d3520f2902d407e57990e7e2ec18",
+      "text": "%cON.VOC"
+    },
+    {
+      "fileOffset": "0x3890a",
+      "rawHex": "2563465249474154452e564f4300",
+      "sha256": "3cabd81438de8b90ffc990c887fd8cb4abee1d041c44d1f55bb28772247f95cf",
+      "text": "%cFRIGATE.VOC"
+    },
+    {
+      "fileOffset": "0x38918",
+      "rawHex": "3f25634152524956452e564f4300",
+      "sha256": "7d944789b886aaeabe7fd2acb5e9ed1277aef2a5f0b2aec542b8a80f9df8bccf",
+      "text": "?%cARRIVE.VOC"
+    },
+    {
+      "fileOffset": "0x38926",
+      "rawHex": "25635741524e494e472e564f4300",
+      "sha256": "0faebcc72146c86d8653057b986857c86febfece443fe4cd06bb6774a7501d09",
+      "text": "%cWARNING.VOC"
+    },
+    {
+      "fileOffset": "0x38934",
+      "rawHex": "25635341424f542e564f4300",
+      "sha256": "4ae40524395f9a7c38853998ef68fa0c233b40ad2b2b55bc6b4e8cc7dbab7abd",
+      "text": "%cSABOT.VOC"
+    },
+    {
+      "fileOffset": "0x38940",
+      "rawHex": "25634d495353494c452e564f4300",
+      "sha256": "278d3a4a0b8046cdd3ea4142d814b33fc0f1ba3c3985eea47662c913cb992b53",
+      "text": "%cMISSILE.VOC"
+    },
+    {
+      "fileOffset": "0x3894e",
+      "rawHex": "2563424c4f4f4d2e564f4300",
+      "sha256": "de0004163d70d035b6a68221d1c7298984c376effd7d21882cb2ab2bfa599255",
+      "text": "%cBLOOM.VOC"
+    },
+    {
+      "fileOffset": "0x3895a",
+      "rawHex": "256344455354524f592e564f4300",
+      "sha256": "d48c2cbb83b5d2c1276c861368d5250f97e18308eee8366c75c16d7052b4abde",
+      "text": "%cDESTROY.VOC"
+    },
+    {
+      "fileOffset": "0x38968",
+      "rawHex": "25634445504c4f592e564f4300",
+      "sha256": "8ab907800ca2fde640fbfcc839c5e7d8207db8cf40627124a5544eba2d8fafa3",
+      "text": "%cDEPLOY.VOC"
+    },
+    {
+      "fileOffset": "0x38975",
+      "rawHex": "25634150505243482e564f4300",
+      "sha256": "54199b1836015f4ab00830598a7bf9237bab4ed79794daf89c8db93e47eb0b7d",
+      "text": "%cAPPRCH.VOC"
+    },
+    {
+      "fileOffset": "0x38982",
+      "rawHex": "25634c4f43415445442e564f4300",
+      "sha256": "bd7de4c61539446803de39b16cfec845d387d0815a6ee1f5cfd6d962b16b682f",
+      "text": "%cLOCATED.VOC"
+    },
+    {
+      "fileOffset": "0x38990",
+      "rawHex": "25634e4f5254482e564f4300",
+      "sha256": "0913a0c387777a27296745027eb6f74e3c0846596d4c9f9a28847dde9f6a256b",
+      "text": "%cNORTH.VOC"
+    },
+    {
+      "fileOffset": "0x3899c",
+      "rawHex": "2563454153542e564f4300",
+      "sha256": "a009581b03ce9e1a33c14bcad631dcee798293c2c725d90e89362f3fe3f3b92f",
+      "text": "%cEAST.VOC"
+    },
+    {
+      "fileOffset": "0x389a7",
+      "rawHex": "2563534f5554482e564f4300",
+      "sha256": "137792c3f67668ebba4bd0d3efb5263f4d261fe5d84d6487b244bcfbe9679877",
+      "text": "%cSOUTH.VOC"
+    },
+    {
+      "fileOffset": "0x389b3",
+      "rawHex": "2563574553542e564f4300",
+      "sha256": "b1abc5ff9c550c11577e0203dca325e0b7211b089b6f9c2dfc9447cfcecb5af7",
+      "text": "%cWEST.VOC"
+    },
+    {
+      "fileOffset": "0x389be",
+      "rawHex": "3f256357494e2e564f4300",
+      "sha256": "9e31258a0249e8e329a2b66d937245e1a204470e409d7e36bdbc61b639e22a57",
+      "text": "?%cWIN.VOC"
+    },
+    {
+      "fileOffset": "0x389c9",
+      "rawHex": "3f25634c4f53452e564f4300",
+      "sha256": "cc69dc5e38c4e0aaddd25c63e0ee7f9e65ddc13272174a521ad19e50747bd4dc",
+      "text": "?%cLOSE.VOC"
+    },
+    {
+      "fileOffset": "0x389d5",
+      "rawHex": "25634c41554e43482e564f4300",
+      "sha256": "07fe5b5e9912bd287ab4b79cb534b851a821b1748a3289f94c5f0dd21bcd7507",
+      "text": "%cLAUNCH.VOC"
+    },
+    {
+      "fileOffset": "0x389e2",
+      "rawHex": "256341545441434b2e564f4300",
+      "sha256": "df280e5ba73b91b649740cf5733e55d898df0147314ff4ea8648f958f3299806",
+      "text": "%cATTACK.VOC"
+    },
+    {
+      "fileOffset": "0x389ef",
+      "rawHex": "256356454849434c452e564f4300",
+      "sha256": "51fa90b810fe895bf13358bda1c1edf88320b82602bdb493a66aa470de3c2e36",
+      "text": "%cVEHICLE.VOC"
+    },
+    {
+      "fileOffset": "0x389fd",
+      "rawHex": "25635245504149522e564f4300",
+      "sha256": "e89d31a36b9790235d2e32acbdeb2ab7aa1355c912cf5eec8968ecc22c19732e",
+      "text": "%cREPAIR.VOC"
+    },
+    {
+      "fileOffset": "0x38a0a",
+      "rawHex": "2563484152564553542e564f4300",
+      "sha256": "ab89ee3515dd40f0e32280a024e5407dba99d0894976ede7b37b7504041a4965",
+      "text": "%cHARVEST.VOC"
+    },
+    {
+      "fileOffset": "0x38a18",
+      "rawHex": "2563574f524d592e564f4300",
+      "sha256": "fe3969691aa77e759e00a6666b94d1a786b44ab8dbd688959afe12f46c8e5538",
+      "text": "%cWORMY.VOC"
+    },
+    {
+      "fileOffset": "0x38a24",
+      "rawHex": "2563434150545552452e564f4300",
+      "sha256": "7761985083fb2e3650674d8836aec73973c56d38736d4de4bd5767e6ba9f81f2",
+      "text": "%cCAPTURE.VOC"
+    },
+    {
+      "fileOffset": "0x38a32",
+      "rawHex": "25634e4558542e564f4300",
+      "sha256": "c6c6131cddbe3e35374394c50bbdc5deb58b0af3e01f9d1d8f6f0e11b22b6569",
+      "text": "%cNEXT.VOC"
+    },
+    {
+      "fileOffset": "0x38a3d",
+      "rawHex": "25634e455854322e564f4300",
+      "sha256": "1bfbeef2da4c7188133998135c4f9fc9979f5cad7a52a46d7418fd6297abd125",
+      "text": "%cNEXT2.VOC"
+    },
+    {
+      "fileOffset": "0x38a49",
+      "rawHex": "2f424c41535445522e564f4300",
+      "sha256": "4f0f12744ef4aca8c85b864bec80117f5e801f79ea9a3f3507f50919d78a9e7f",
+      "text": "/BLASTER.VOC"
+    },
+    {
+      "fileOffset": "0x38a56",
+      "rawHex": "2f474c415353362e564f4300",
+      "sha256": "381ae82ce0826473e38df7798b0d84b176f537124f9b18a5dcef3057759fb75d",
+      "text": "/GLASS6.VOC"
+    },
+    {
+      "fileOffset": "0x38a62",
+      "rawHex": "2f4c495a415244312e564f4300",
+      "sha256": "e494f2a7250c35daf254c3a8fb640866378da81875ce2baea5d1a26a73fa672b",
+      "text": "/LIZARD1.VOC"
+    },
+    {
+      "fileOffset": "0x38a6f",
+      "rawHex": "2f464c4553482e564f4300",
+      "sha256": "6ac7aa61342278a346bb3ecb5ba45c441b1f93e0684e43ea0ca39cf242be9959",
+      "text": "/FLESH.VOC"
+    },
+    {
+      "fileOffset": "0x38a7a",
+      "rawHex": "2f434c49434b2e564f4300",
+      "sha256": "05fcd47c73387720fe7457042749f3790b869d0e847ca6ff5425dedd098a0a7d",
+      "text": "/CLICK.VOC"
+    },
+    {
+      "fileOffset": "0x38a85",
+      "rawHex": "2d33484f555345532e564f4300",
+      "sha256": "699e605947852c4abb352a692b626dbb2fefb4c1674dce3672e21f9e8bfba9b8",
+      "text": "-3HOUSES.VOC"
+    },
+    {
+      "fileOffset": "0x38a92",
+      "rawHex": "2d414e444e4f572e564f4300",
+      "sha256": "b185791e02c8d6c7f63338e07d522a004eab63626cfb5e9982c1fc5c045e76ab",
+      "text": "-ANDNOW.VOC"
+    },
+    {
+      "fileOffset": "0x38a9e",
+      "rawHex": "2d415252495645442e564f4300",
+      "sha256": "466ef20baa4b60bed050370b535f60cf7bc4b8f4f6047c3c9b1d8dd94d49eac9",
+      "text": "-ARRIVED.VOC"
+    },
+    {
+      "fileOffset": "0x38aab",
+      "rawHex": "2d424154544c452e564f4300",
+      "sha256": "c42b576b010931b28f4867eba46728694aa76b64b0bc80ef07b5a816c0cb01f6",
+      "text": "-BATTLE.VOC"
+    },
+    {
+      "fileOffset": "0x38ab7",
+      "rawHex": "2d424547494e532e564f4300",
+      "sha256": "3e643613defa0d2a58dccdc2d9660647df2629aaaec5396c753810b41615d86e",
+      "text": "-BEGINS.VOC"
+    },
+    {
+      "fileOffset": "0x38ac3",
+      "rawHex": "2d424c44494e472e564f4300",
+      "sha256": "38a03093b223321af0de5c4f3ca63123d220910eb695cfabaae57e23e5211c34",
+      "text": "-BLDING.VOC"
+    },
+    {
+      "fileOffset": "0x38acf",
+      "rawHex": "2d434f4e54524f4c322e564f4300",
+      "sha256": "593f59944e255daacb26674dc6961d2319c0e1117617f07fc500928e935e5490",
+      "text": "-CONTROL2.VOC"
+    },
+    {
+      "fileOffset": "0x38add",
+      "rawHex": "2d434f4e54524f4c332e564f4300",
+      "sha256": "82e465faf87823783f8c529b61225e841242b7f9d8a05d17347073f33ebc85db",
+      "text": "-CONTROL3.VOC"
+    },
+    {
+      "fileOffset": "0x38aeb",
+      "rawHex": "2d434f4e54524f4c342e564f4300",
+      "sha256": "e4d429994b7c7eb65c03821627c96a419ea3389223eef8ac5d1f904e13f8347e",
+      "text": "-CONTROL4.VOC"
+    },
+    {
+      "fileOffset": "0x38af9",
+      "rawHex": "2d434f4e54524f4c532e564f4300",
+      "sha256": "52b24f5ddb977b03b38af85d988df65bb486a9b58c0ef27f3d7a3abc532376e7",
+      "text": "-CONTROLS.VOC"
+    },
+    {
+      "fileOffset": "0x38b07",
+      "rawHex": "2d44554e452e564f4300",
+      "sha256": "bc05943aa47ba5bc7ab8666c08b74e2cc9c4a398e49da5a5862b59b792a39172",
+      "text": "-DUNE.VOC"
+    },
+    {
+      "fileOffset": "0x38b11",
+      "rawHex": "2d44594e415354592e564f4300",
+      "sha256": "8dd3f03498ca7981acb7158d69c5afbfb0f5b7c1cd130fdf7995bba5ebf23a6f",
+      "text": "-DYNASTY.VOC"
+    },
+    {
+      "fileOffset": "0x38b1e",
+      "rawHex": "2d45414348484f4d452e564f4300",
+      "sha256": "9d245ecbeabdfbafdf440b0479eb58a42d5d8b8ea2aeec4bd735a68a05c03206",
+      "text": "-EACHHOME.VOC"
+    },
+    {
+      "fileOffset": "0x38b2c",
+      "rawHex": "2d45414e444e4f2e564f4300",
+      "sha256": "83f711f5f6eaf754fda5f86b0bafc25760210f0345283a7a387dc25f474d61c5",
+      "text": "-EANDNO.VOC"
+    },
+    {
+      "fileOffset": "0x38b38",
+      "rawHex": "2d45434f4e54524f4c2e564f4300",
+      "sha256": "349d465bb1af4f6bf31f9b2a9b4e037088ffc84153a0857d2b1f576f4ad8d5b7",
+      "text": "-ECONTROL.VOC"
+    },
+    {
+      "fileOffset": "0x38b46",
+      "rawHex": "2d45484f5553452e564f4300",
+      "sha256": "73ba200917d0579e764ae980b7a029c9a1a0fbd57e7e16e8bfe0da931fee230b",
+      "text": "-EHOUSE.VOC"
+    },
+    {
+      "fileOffset": "0x38b52",
+      "rawHex": "2d454d504952452e564f4300",
+      "sha256": "3c1bd81814eddd49de10e690f69bd93a60c5ae7bf01420a1765eba1151a9e622",
+      "text": "-EMPIRE.VOC"
+    },
+    {
+      "fileOffset": "0x38b5e",
+      "rawHex": "2d4550524f445543452e564f4300",
+      "sha256": "87b3bfcbc46e274111e5a0069d555e01a057519b4037ac0f766bdcfaf35690bf",
+      "text": "-EPRODUCE.VOC"
+    },
+    {
+      "fileOffset": "0x38b6c",
+      "rawHex": "2d4552554c45532e564f4300",
+      "sha256": "aef376d34375c31675621c87e17b7c5fc736cfa4be48fd6672f4dcf3f4f25123",
+      "text": "-ERULES.VOC"
+    },
+    {
+      "fileOffset": "0x38b78",
+      "rawHex": "2d455445525249542e564f4300",
+      "sha256": "e9d4a0367be061a52d84fae12909963e6f47809d2ac735629c5014d838fca4cc",
+      "text": "-ETERRIT.VOC"
+    },
+    {
+      "fileOffset": "0x38b85",
+      "rawHex": "2d454d4f53542e564f4300",
+      "sha256": "337138830e21ed66adc3a09f468c66dfcdc528986fa8e908c3d015a30f9a691d",
+      "text": "-EMOST.VOC"
+    },
+    {
+      "fileOffset": "0x38b90",
+      "rawHex": "2d454e4f5345542e564f4300",
+      "sha256": "5a9e739a4917da6feaf7aa87b14a79a1d6d866bac93d86e29f1843d460977886",
+      "text": "-ENOSET.VOC"
+    },
+    {
+      "fileOffset": "0x38b9c",
+      "rawHex": "2d4556494c2e564f4300",
+      "sha256": "2f2aaa8f6349192c434cfa2f776bf4a3f46c3deab7f0cdab32dc2f6d2114e780",
+      "text": "-EVIL.VOC"
+    },
+    {
+      "fileOffset": "0x38ba6",
+      "rawHex": "2d4841524b2e564f4300",
+      "sha256": "687bd0e00dafcbd570b8fc88f5cc3aeed2be40064b5484d3cc76bde91d671b63",
+      "text": "-HARK.VOC"
+    },
+    {
+      "fileOffset": "0x38bb0",
+      "rawHex": "2d484f4d452e564f4300",
+      "sha256": "c481472571afd9f5d8bbbc991998e759c615c81c51ddb3f92337d8e9c5b08069",
+      "text": "-HOME.VOC"
+    },
+    {
+      "fileOffset": "0x38bba",
+      "rawHex": "2d484f555345322e564f4300",
+      "sha256": "1c603018b747612ae680b31c36faee124bcaf47d2f8a6e06e0de63af4c341662",
+      "text": "-HOUSE2.VOC"
+    },
+    {
+      "fileOffset": "0x38bc6",
+      "rawHex": "2d494e5349442e564f4300",
+      "sha256": "2cb8587c415a0f1b7cf199d6a17b13772b9d02567ee762052bdd57ae55105857",
+      "text": "-INSID.VOC"
+    },
+    {
+      "fileOffset": "0x38bd1",
+      "rawHex": "2d4b494e472e564f4300",
+      "sha256": "e05e0be123b1904e6277f4240837c41880bc1faf1dfd02e1bb540c4074411098",
+      "text": "-KING.VOC"
+    },
+    {
+      "fileOffset": "0x38bdb",
+      "rawHex": "2d4b4e4f574e2e564f4300",
+      "sha256": "fa779502de3ed05f8148df0d3797f837685164a1644fb9e41098bf314ba1f05f",
+      "text": "-KNOWN.VOC"
+    },
+    {
+      "fileOffset": "0x38be6",
+      "rawHex": "2d4d454c414e47452e564f4300",
+      "sha256": "75a171c8b62ed2092336f28c00655b1a0f264d419d89e7d8d6916e169a14ad12",
+      "text": "-MELANGE.VOC"
+    },
+    {
+      "fileOffset": "0x38bf3",
+      "rawHex": "2d4e4f424c452e564f4300",
+      "sha256": "9fd7e6a9530075b2754ed07d979b49aec6c057bbe251f1985553c9042a3fbf78",
+      "text": "-NOBLE.VOC"
+    },
+    {
+      "fileOffset": "0x38bfe",
+      "rawHex": "3f4e4f572e564f4300",
+      "sha256": "63dd92476dd37c67125aa446aaccddafdf5f1021eb311fb316278c23ccabd8ad",
+      "text": "?NOW.VOC"
+    },
+    {
+      "fileOffset": "0x38c07",
+      "rawHex": "2d4f4644554e452e564f4300",
+      "sha256": "4a71497e54df1d123563539ea66082c9068dd315d6feeb6ab7ca896d08d055f8",
+      "text": "-OFDUNE.VOC"
+    },
+    {
+      "fileOffset": "0x38c13",
+      "rawHex": "2d4f52442e564f4300",
+      "sha256": "632da66870f869f538c7624914313ea4c6e9010aae65fd2e6b932d0f8604ed19",
+      "text": "-ORD.VOC"
+    },
+    {
+      "fileOffset": "0x38c1c",
+      "rawHex": "2d504c414e45542e564f4300",
+      "sha256": "40d0cd2ddedf96dabc60b5ad2e3f641fd033b485bef6d296ab52d66bbb6b9cde",
+      "text": "-PLANET.VOC"
+    },
+    {
+      "fileOffset": "0x38c28",
+      "rawHex": "2d5052455641494c2e564f4300",
+      "sha256": "60fddcace52f0675d7e8ce43155c3d221fb18516645fafff1ea60381028101f3",
+      "text": "-PREVAIL.VOC"
+    },
+    {
+      "fileOffset": "0x38c35",
+      "rawHex": "2d50524f504f5345442e564f4300",
+      "sha256": "e5ce01a4b543048a32ffecf164829b7c0681bdf61bb59d2b90c97f0a1ff8473e",
+      "text": "-PROPOSED.VOC"
+    },
+    {
+      "fileOffset": "0x38c43",
+      "rawHex": "2d53414e444c414e442e564f4300",
+      "sha256": "5825b184cfb04c5e820ae94d4965c8eb76dc9ab2820984c6fa0a2ccd3f0cc26b",
+      "text": "-SANDLAND.VOC"
+    },
+    {
+      "fileOffset": "0x38c51",
+      "rawHex": "2d53504943452e564f4300",
+      "sha256": "7955c19fdccd4f2814acfa6b2382ecbeb032366db0d285919e97c8fc863e5dcc",
+      "text": "-SPICE.VOC"
+    },
+    {
+      "fileOffset": "0x38c5c",
+      "rawHex": "2d5350494345322e564f4300",
+      "sha256": "9df1d1b136c1f97c3eed5d92c3b386e728c9ed7cf2bd15a4a2e39f7e18ed189e",
+      "text": "-SPICE2.VOC"
+    },
+    {
+      "fileOffset": "0x38c68",
+      "rawHex": "2d564153542e564f4300",
+      "sha256": "a33b42059f3df4a7c528dd4e19ae163240b6aba78a8a2e1f3633a9144388a97d",
+      "text": "-VAST.VOC"
+    },
+    {
+      "fileOffset": "0x38c72",
+      "rawHex": "2d57484f455645522e564f4300",
+      "sha256": "6193852079e588fbc58ce169cd270e1abc59c62e2c256b8b9fef58ab17ba832a",
+      "text": "-WHOEVER.VOC"
+    },
+    {
+      "fileOffset": "0x38c7f",
+      "rawHex": "3f594f55522e564f4300",
+      "sha256": "6290455614874ae9120dac38faf574937de6abe0a20ddd61af66f51f7635bc86",
+      "text": "?YOUR.VOC"
+    },
+    {
+      "fileOffset": "0x38c89",
+      "rawHex": "3f46494c4c45522e564f4300",
+      "sha256": "c589ff12db2da480268ecbea2b01a516a36c48dc256087bd2b0e38c2e270cd81",
+      "text": "?FILLER.VOC"
+    },
+    {
+      "fileOffset": "0x38c95",
+      "rawHex": "2d44524f50455132502e564f4300",
+      "sha256": "3438e4d88d3ea2d169e2b8b606a7201dfd8e6a50926364534748e14616d07903",
+      "text": "-DROPEQ2P.VOC"
+    },
+    {
+      "fileOffset": "0x38ca3",
+      "rawHex": "2f455854494e592e564f4300",
+      "sha256": "7aa2b4bdaa55a30cf6db878049a1dd30af4998886eaa80704dcb547999197b4f",
+      "text": "/EXTINY.VOC"
+    },
+    {
+      "fileOffset": "0x38caf",
+      "rawHex": "2d57494e443242502e564f4300",
+      "sha256": "51bbc78d22b043abd3916727e4401c45b3068f7fe999939fbb948c2aea8386aa",
+      "text": "-WIND2BP.VOC"
+    },
+    {
+      "fileOffset": "0x38cbc",
+      "rawHex": "2d4252414b455332502e564f4300",
+      "sha256": "1cb358c0257c8995dff9a97a34e08db5b2235dc835d3a2ea7fac64e2dbaac1b6",
+      "text": "-BRAKES2P.VOC"
+    },
+    {
+      "fileOffset": "0x38cca",
+      "rawHex": "2d47554e53484f542e564f4300",
+      "sha256": "632a65d79cd4a2ace21e7ef606fc8cc007dff487ee32a78d5102904f6b24946e",
+      "text": "-GUNSHOT.VOC"
+    },
+    {
+      "fileOffset": "0x38cd7",
+      "rawHex": "2d474c4153532e564f4300",
+      "sha256": "c1c8d7de8ea68e7511c0baefebdff78b0333da68c637331946a96bef3b4e1068",
+      "text": "-GLASS.VOC"
+    },
+    {
+      "fileOffset": "0x38ce2",
+      "rawHex": "2d4d4953534c45382e564f4300",
+      "sha256": "6f4de91c1037301c4ace92a4c73b402008f7006e699de38cdf559dfb5cadae24",
+      "text": "-MISSLE8.VOC"
+    },
+    {
+      "fileOffset": "0x38cef",
+      "rawHex": "2d434c414e4b2e564f4300",
+      "sha256": "7d64a8c1743c9f4446b4493cd69fe36568c499f5fca712ac4ec01f200a1de606",
+      "text": "-CLANK.VOC"
+    },
+    {
+      "fileOffset": "0x38cfa",
+      "rawHex": "2d424c4f575550312e564f4300",
+      "sha256": "dc0b1358882ad4c8963862ce22af0763b0cce9e40f0b82eeda2fc8c01d89d2e6",
+      "text": "-BLOWUP1.VOC"
+    },
+    {
+      "fileOffset": "0x38d07",
+      "rawHex": "2d424c4f575550322e564f4300",
+      "sha256": "b65ad7aa83c83673787ef46648b1e738e20dba00d56dfd5f48979e27a80cf880",
+      "text": "-BLOWUP2.VOC"
+    },
+    {
+      "fileOffset": "0x3912c",
+      "rawHex": "4146494e414c4100",
+      "sha256": "2638ea394a441c3e92d0226fabb8dd64be0ebeabe9224a87b9a4cfce6f3a939a",
+      "text": "AFINALA"
+    },
+    {
+      "fileOffset": "0x39133",
+      "rawHex": "00",
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "text": ""
+    },
+    {
+      "fileOffset": "0x39134",
+      "rawHex": "4546494e414c4100",
+      "sha256": "3b1cf91c0d943d548d9060e616e630e26c5e5a546be2054e2e7da225ff648615",
+      "text": "EFINALA"
+    },
+    {
+      "fileOffset": "0x3913c",
+      "rawHex": "4546494e414c4200",
+      "sha256": "4108885a2299e5a0a14c33d4f1086327234797b8547a9410675cb2125ce54a41",
+      "text": "EFINALB"
+    },
+    {
+      "fileOffset": "0x39144",
+      "rawHex": "4146494e414c4200",
+      "sha256": "1950669d136c3b6adeafe2246f934227b3e54e71fc1f84794b17b09813142c27",
+      "text": "AFINALB"
+    },
+    {
+      "fileOffset": "0x3914c",
+      "rawHex": "4846494e414c4100",
+      "sha256": "c2638a90df7de3c55a351244e0e24765e623b954a95194797a87463f7daf30ec",
+      "text": "HFINALA"
+    },
+    {
+      "fileOffset": "0x39154",
+      "rawHex": "4846494e414c4200",
+      "sha256": "b913912e4c67b8e76f98608b871829e988d8e8df683d426f14a53e4555c190c9",
+      "text": "HFINALB"
+    },
+    {
+      "fileOffset": "0x3915c",
+      "rawHex": "4846494e414c4300",
+      "sha256": "922fba1fecf2eea5a212429a0aa24db76dcd7447ebbfebd9d7b3b71306d97287",
+      "text": "HFINALC"
+    },
+    {
+      "fileOffset": "0x39164",
+      "rawHex": "4f46494e414c4100",
+      "sha256": "f160d93eaa18bc1485848e9618085905f0bc88183ec4045765754f939ae0c1a3",
+      "text": "OFINALA"
+    },
+    {
+      "fileOffset": "0x3916c",
+      "rawHex": "4f46494e414c4200",
+      "sha256": "e85ddbb45d16daa0f6c314a192d3e12d3ffbf0df6f8600d2974775479cc511c8",
+      "text": "OFINALB"
+    },
+    {
+      "fileOffset": "0x39174",
+      "rawHex": "4f46494e414c4300",
+      "sha256": "3bf4c6d8dc0ebda003925a2e053ab56ef2accbbb3aad7d4f0449ccd17b251fc9",
+      "text": "OFINALC"
+    },
+    {
+      "fileOffset": "0x3917c",
+      "rawHex": "4f46494e414c4400",
+      "sha256": "c9312ba2ad7626e3edc90321861b1d870c76767bdd140bdb6bec0f6d554a6401",
+      "text": "OFINALD"
+    },
+    {
+      "fileOffset": "0x39410",
+      "rawHex": "00",
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "text": ""
+    },
+    {
+      "fileOffset": "0x39411",
+      "rawHex": "4d45414e5748494c00",
+      "sha256": "55338d45b1b945b88729d672851810f3564b8ee30845f6fc635780ad75f5c4bc",
+      "text": "MEANWHIL"
+    },
+    {
+      "fileOffset": "0x3941a",
+      "rawHex": "4546494e414c4100",
+      "sha256": "3b1cf91c0d943d548d9060e616e630e26c5e5a546be2054e2e7da225ff648615",
+      "text": "EFINALA"
+    },
+    {
+      "fileOffset": "0x3989c",
+      "rawHex": "00",
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "text": ""
+    },
+    {
+      "fileOffset": "0x3989d",
+      "rawHex": "494e54524f3100",
+      "sha256": "bcdfc21f2f2f0ec37fbee9b2d71733b9f9b8b0e55640f236c4de1cfc2a9900f1",
+      "text": "INTRO1"
+    },
+    {
+      "fileOffset": "0x398a4",
+      "rawHex": "494e54524f3200",
+      "sha256": "c3e9ca61e0dd7cf7dcf3088bb6f349d3df526be731cd23828d15af9518034456",
+      "text": "INTRO2"
+    },
+    {
+      "fileOffset": "0x398ab",
+      "rawHex": "494e54524f3300",
+      "sha256": "7b6a4dd8bf1fdb6e1a2ca4c449b1c09aecaea46bce64b13a553dcaf6c4d4655b",
+      "text": "INTRO3"
+    },
+    {
+      "fileOffset": "0x398b2",
+      "rawHex": "494e54524f3900",
+      "sha256": "eb530cca2c2460d304aaa17e5010639b584738b04ec1f3fe363f293540fb4150",
+      "text": "INTRO9"
+    },
+    {
+      "fileOffset": "0x398b9",
+      "rawHex": "494e54524f313000",
+      "sha256": "fa622eada751d584ea373c80f9d61bd2439eb10e711e9583a81c21fe25849cd8",
+      "text": "INTRO10"
+    },
+    {
+      "fileOffset": "0x398c1",
+      "rawHex": "4546494e414c4100",
+      "sha256": "3b1cf91c0d943d548d9060e616e630e26c5e5a546be2054e2e7da225ff648615",
+      "text": "EFINALA"
+    },
+    {
+      "fileOffset": "0x398c9",
+      "rawHex": "494e54524f313100",
+      "sha256": "75468c5161e23613dd4a8f3e702041ab0f1fd791e92c7f4d233fb28e747fc509",
+      "text": "INTRO11"
+    },
+    {
+      "fileOffset": "0x398d1",
+      "rawHex": "494e54524f3400",
+      "sha256": "d9af8841a7fecce2fcaf9ccad8d068f866c64a8322480d043df66adbe97dc788",
+      "text": "INTRO4"
+    },
+    {
+      "fileOffset": "0x398d8",
+      "rawHex": "494e54524f3600",
+      "sha256": "b42f142aacb6ffdb17ddc3f8ad06f393c5659aa0ac439e06088524d45a8243ee",
+      "text": "INTRO6"
+    },
+    {
+      "fileOffset": "0x398df",
+      "rawHex": "494e54524f376100",
+      "sha256": "a943f8be15887685c6d1294b8cc945ff4545c8e01009d34d22446395d307e393",
+      "text": "INTRO7a"
+    },
+    {
+      "fileOffset": "0x398e7",
+      "rawHex": "494e54524f376200",
+      "sha256": "3e5b113e8eb8d8dd94ea257453450aca70befe3eae6247a74fb2f50c837e2949",
+      "text": "INTRO7b"
+    },
+    {
+      "fileOffset": "0x398ef",
+      "rawHex": "494e54524f386100",
+      "sha256": "381e1babf116acf4f98c1f1b7f8f66515ad10e15546a905fbcbc63309d9a9667",
+      "text": "INTRO8a"
+    },
+    {
+      "fileOffset": "0x398f7",
+      "rawHex": "494e54524f386200",
+      "sha256": "7cb31e89893310e21813baed44ef06d3ee8e5b8440c9f38ee2f801d30fd7cf6e",
+      "text": "INTRO8b"
+    },
+    {
+      "fileOffset": "0x398ff",
+      "rawHex": "494e54524f386300",
+      "sha256": "3c7592878804dbba3e8b753d95c258154462d8c43a6d8eb5dd6f48227dfc1100",
+      "text": "INTRO8c"
+    },
+    {
+      "fileOffset": "0x39907",
+      "rawHex": "494e54524f3500",
+      "sha256": "c768e101b668f1458b2b20b18600e7783a641d7e8c6e15b545d6df766587745e",
+      "text": "INTRO5"
+    }
+  ]
+}
