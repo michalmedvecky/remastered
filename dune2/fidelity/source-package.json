@@ -1,8 +1,8 @@
 {
   "path": "dist/native/source.tar.gz",
-  "files": 479,
-  "bytes": 16328506,
-  "sha256": "5c571706c3c16461d2f7a73d62adf2b5964c13719bfe582fb237ec3b0b1ee6b9",
+  "files": 478,
+  "bytes": 9823745,
+  "sha256": "5d640e632406794945f3cfcd3f7d571be767a965fb728a8b54a00adecd59f449",
   "coreOutputs": {
     "dune-native.mjs": "47a184430b0bd50030f39eb0167cdcb15b85c156a5ee5f322513bd5705d99e72",
     "dune-native.wasm": "34ad373984de31de1bd4f28df7f6a2c594c34c9773c7820111c881c98f009158",

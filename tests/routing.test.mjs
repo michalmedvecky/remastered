@@ -12,16 +12,16 @@ test('Tappy launcher card uses a real JPEG gameplay capture with its own applica
 
 test('Dune native binaries and corresponding source are served at their own prefix',async()=>{for(const[path,mime,signature]of[['/dune2/native/dune-native.wasm',/application\/wasm/,[0,97,115,109]],['/dune2/music/adl.wasm',/application\/wasm/,[0,97,115,109]],['/dune2/native/source.tar.gz',/application\/gzip/,[31,139]]]){const r=await fetch(base+path);assert.equal(r.status,200,path);assert.match(r.headers.get('content-type'),mime);assert.equal(r.headers.get('cache-control'),'no-cache');assert.deepEqual([...new Uint8Array(await r.arrayBuffer()).slice(0,signature.length)],signature,path);}const data=await fetch(base+'/dune2/native/dune-native.data',{method:'HEAD'});assert.equal(data.status,200);assert.match(data.headers.get('content-type'),/application\/octet-stream/);assert(Number(data.headers.get('content-length'))>1000000);const preview=await fetch(base+'/assets/dune2.jpg',{method:'HEAD'});assert.equal(preview.status,200);assert.match(preview.headers.get('content-type'),/image\/jpeg/);});
 
-test('Dune HD content-addressed PNGs are immutable while modes, manifest and cover revalidate',async()=>{
- const hd=JSON.parse(await readFile(new URL('../dune2/dist/hd/manifest.json',import.meta.url))),atlas=hd.atlases.tiles,path='/dune2/'+atlas.src;
- const response=await fetch(base+path);assert.equal(response.status,200);assert.match(response.headers.get('content-type'),/image\/png/);assert.equal(response.headers.get('cache-control'),'public, max-age=31536000, immutable');
- const bytes=Buffer.from(await response.arrayBuffer()),{createHash}=await import('node:crypto');assert.equal(createHash('sha256').update(bytes).digest('hex'),atlas.sha256);assert.equal(bytes.readUInt32BE(16),atlas.width);assert.equal(bytes.readUInt32BE(20),atlas.height);assert(path.endsWith('-'+atlas.sha256.slice(0,16)+'.png'));
- for(const[asset,mime]of [['/dune2/hd/manifest.json',/application\/json/],['/dune2/hd/cover.png',/image\/png/],['/dune2/hd-core.mjs',/javascript/],['/dune2/hd-renderer.mjs',/javascript/]]){
-  const r=await fetch(base+asset,{method:'HEAD'});assert.equal(r.status,200,asset);assert.match(r.headers.get('content-type'),mime);assert.equal(r.headers.get('cache-control'),'no-cache',asset);
+test('Dune upscaler modules, shader sources and license revalidate and bind pinned provenance',async()=>{
+ const provenanceResponse=await fetch(base+'/dune2/upscale/provenance.json');assert.equal(provenanceResponse.status,200);assert.match(provenanceResponse.headers.get('content-type'),/application\/json/);assert.equal(provenanceResponse.headers.get('cache-control'),'no-cache');
+ const provenance=await provenanceResponse.json();assert.equal(provenance.algorithm,'Hyllian xBR-lv2');assert.equal(provenance.license,'MIT');assert.match(provenance.upstreamCommit,/^[a-f0-9]{40}$/);
+ const {createHash}=await import('node:crypto');
+ for(const name of ['xbr-lv2.upstream.glsl','xbr-lv2.fragment.glsl','xbr.vertex.glsl','LICENSE.txt']){
+  const path='/dune2/upscale/'+name,response=await fetch(base+path);assert.equal(response.status,200,path);assert.match(response.headers.get('content-type'),/text\/plain/);assert.equal(response.headers.get('cache-control'),'no-cache');
+  assert.equal(createHash('sha256').update(Buffer.from(await response.arrayBuffer())).digest('hex'),provenance.files[name],name+' delivered bytes');
  }
- const query=await fetch(base+'/dune2/hd/cover.png?looks=asset-0123456789abcdef.png',{method:'HEAD'});assert.equal(query.headers.get('cache-control'),'no-cache');
- const hashedQuery=await fetch(base+path+'?manifest=changed',{method:'HEAD'});assert.equal(hashedQuery.headers.get('cache-control'),'public, max-age=31536000, immutable');
- const missing=await fetch(base+'/dune2/hd/not-shipped-0123456789abcdef.png');assert.equal(missing.status,404);assert(!missing.headers.get('cache-control')?.includes('immutable'));
- // The actual NGINX image uses the same narrowly scoped positive rule.
- const nginx=await readFile(new URL('../deploy/nginx.conf',import.meta.url),'utf8'),match=nginx.match(/location ~ "(\^\/dune2\/hd\/[^"\n]+)" \{([\s\S]*?)\n        \}/);assert(match,'Dune production cache location');const rule=new RegExp(match[1]);assert(rule.test(path));assert(!rule.test('/dune2/hd/cover.png'));assert(!rule.test('/dune2/hd/manifest.json'));assert(!rule.test('/dune2/hd-core.mjs'));assert(!rule.test('/ga/hd/'+atlas.src.split('/').at(-1)));assert(match[2].includes('max-age=31536000, immutable'));
+ for(const path of ['/dune2/upscale-core.mjs','/dune2/upscale-renderer.mjs']){const response=await fetch(base+path,{method:'HEAD'});assert.equal(response.status,200,path);assert.match(response.headers.get('content-type'),/javascript/);assert.equal(response.headers.get('cache-control'),'no-cache');}
+ const query=await fetch(base+'/dune2/upscale/xbr-lv2.fragment.glsl?looks=asset-0123456789abcdef.png',{method:'HEAD'});assert.equal(query.status,200);assert.equal(query.headers.get('cache-control'),'no-cache');
+ for(const path of ['/dune2/hd/manifest.json','/dune2/hd/cover.png','/dune2/hd-renderer.mjs','/dune2/upscale/missing.glsl'])assert.equal((await fetch(base+path)).status,404,path);
+ const nginx=await readFile(new URL('../deploy/nginx.conf',import.meta.url),'utf8');assert(nginx.includes('location ~ \\.glsl$ { types {} default_type text/plain;'));assert(!nginx.includes('^/dune2/hd/'),'retired HD immutable rule removed');
 });

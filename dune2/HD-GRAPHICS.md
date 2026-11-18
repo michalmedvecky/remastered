@@ -1,37 +1,19 @@
-# Dune II 4× HD graphics
+# Original artwork upscaling — release 0.5
 
-The default HD mode renders a 1280×800 presentation over the native 320×200 input surface. Graphics → Original 1992 returns to the original framebuffer without restarting or changing the simulation. The native scene still chooses every animation frame, turret/facing, coordinate, palette remap, house, clip rectangle, fog state and draw order.
+The active renderer enlarges the complete original 320×200 framebuffer to 1280×800 with Hyllian’s xBR level-2 pixel-art filter. The game keeps its original 4:3 display aspect. Graphics → Original · 1992 shows the unfiltered native output; changing the selector never restarts the game. The old generated-material remaster was rejected and is no longer loaded or shown.
 
-## Artwork and coverage
+## Source and presentation
 
-Generated sand, dune, basalt, spice, concrete and industrial material swatches supply fine relief inside the recovered original shapes. All 389 ICON tiles cover terrain transitions, buildings, walls, damage, rubble and fog overlays. All 244 unit/effect SHP frames and 281 remaining native UI shapes retain global IDs 0–524, original source indices, palette tables and alpha. Shape footprints and native collision/input coordinates stay unchanged. Two indexed Scale2x passes resolve display contours inside each original rectangle; this is not an enlargement of every original pixel into a flat 4× block.
+The existing native observer supplies only the original indexed pixels and current 256-colour palette to the new presentation path. The upscaler ignores all terrain, sprite and UI reconstruction commands. It converts six-bit palette channels with the same `(value * 65) >> 4` rule as the native SDL backend, then uploads the resulting 320×200 image to the GPU. xBR detects nearby colour edges and blends along them at four times the resolution. It does not invent textures, repaint units, reconstruct buildings or use generated material atlases.
 
-The HD builder uses the original PAKs already embedded in the hashed preload. Original-mode ICON faction remapping includes indices 144–159; sprite house palettes come from the native call. Runtime color changes use shared luminance gain, preserving blue/green faction paint even where red source pixels had zero channels. The new launch illustration is separate from in-game geometry and cinematics.
+The same path handles terrain, units, cursor, text, fog, palette fades, menus, advisor screens and native WSA movies. Original animation choices, compositing and clipping have already happened in the native framebuffer. Simulation, input, saves, music and timing are unchanged. The pointer-transparent overlay stays aligned with the original canvas, which remains the only input target.
 
-Built-in imagegen produced the new material source and cover. Inputs, hashes, retained prompt descriptions, deterministic build audit and reproducibility record are in [art/hd-v1](art/hd-v1/README.md). `python3 tools/build-hd-assets.py` rebuilds lossless content-addressed PNG atlases and metadata using Python's standard library. The source download includes those generated source images and the complete patch/build material; original game assets remain external inputs.
+The filter uses WebGL2. If WebGL is unavailable or its context is lost, the renderer falls back to two indexed Scale2x passes. That fallback uses only original palette colours and is labeled in diagnostics; it is not claimed to be identical to xBR. The Original selector remains available. No generated images are downloaded. Historical 0.4 artwork and its evidence are separate from the active source package and runtime.
 
-HD rebuilding also reads the owned decoded reference bundle: `dist/assets/content.json`
-provides atlas placement and the `graphics.images` table, and its 16 original screen
-PNGs supply the static-screen inputs. The full repository/runtime already contains
-this bundle. The source-only download excludes these original-asset derivatives,
-so supply the same reference bundle as well as the original game files before
-running the HD builder. Supplying only PAKs does not recreate that additional
-bundle automatically. The generated source images are retained byte for byte;
-the saved descriptions document the requested art, rather than claiming a verbatim
-record of every imagegen tool input.
+## Provenance and verification
 
-## Renderer architecture
+The shader is adapted from the MIT-licensed [Hyllian xBR-lv2 implementation](https://github.com/libretro/glsl-shaders/blob/master/xbr/shaders/xbr-lv2.glsl). The exact retained upstream revision, original and adapted shader hashes, license and adaptation notes accompany `dist/upscale/`. The corresponding source download includes these files. xBRZ is a different implementation and is not used here.
 
-[Native observer](fidelity/hd/NATIVE-BRIDGE.md) hooks existing draw decisions, preserving cached stationary units across dirty redraws and camera changes. It reads original pools and records no simulation commands or random draws. A bounded UI candidate cache records actual native draw calls; the browser only upgrades candidates that match the current original indexed pixels. Unsupported distortion stays on the native presentation path.
+Pixel regression checks cover exact original palette conversion, border/diagonal cases, all-colour and zero-colour frames, immutable source data and the CPU fallback. Package checks bind the shader, modules, source archive and graphics control. Browser acceptance compares the original and upscaled view of the same native scene and checks that the GPU shader compiles, orientation and faction colours agree, and menus and mode switching remain usable. The acceptance record is saved in `fidelity/upscale/`.
 
-The browser reconstructs original indexed world pixels from terrain/sprite descriptors and compares them with the authoritative framebuffer. Differences are restored after HD drawing, preserving messages, placement/selection markers, the cursor and unpredicted effects. The native clip window prevents art from bleeding over the command panel. Dedicated HD cursor art uses the native position and hotspot. Native timers hide the world upgrade during modals, advisor scenes and incomplete fades.
-
-Texture variants are bounded by both item count and 32 MiB RGBA storage. UI clips use exact native-overlap masks with a 16 MiB/64-entry bound. HD painting is capped near 30 Hz; original simulation/input/timers continue in the native engine. Switching to Original suppresses HD snapshot serialization, while retaining observer caches for a later switch. The original canvas remains the only input target.
-
-## Validation and limits
-
-Independent tests decode the original SHP/ICON banks and compare every source index/mask, every 4× resolved index/alpha pixel, atlas hashes, frame geometry and material-detail coverage. Pixel tests cover palette rounding, full tile faction range, flips, clips, source remaps versus destination shadows, optional zoom, fog, original draw order and immutable inputs. Native cache tests run under ASan and verify stationary persistence, pruning, camera translation, painter order, selection and bounded UI/owner caches.
-
-The 16 static screen resources and native movie frames use bounded contour-aware scaling. The 1049 WSA frames are not expanded into a roughly 2.1 GiB eager HD movie bank, and no newly painted or generatively invented cutscenes are claimed. Worm blur and unusual unpredicted overdraw retain original pixels. Generated detail is an artistic remaster, not evidence that new artwork existed in the original executable. Existing source-derived gameplay fidelity findings and remaining campaign/hardware limits continue to apply.
-
-The browser acceptance record is saved under `fidelity/hd/` after live mission, Original/HD switch, unit movement, scrolling, native menus and save/reload checks. Local tests and preview checks are distinct from the actual container/cluster acceptance performed by CI and the operator.
+Upscaling adds no recovered detail. xBR can soften small text or merge adjacent pixels; the original mode is the reference for judging those tradeoffs. First-mission visual acceptance is a bounded sample, not exhaustive campaign coverage. Existing native gameplay, DOS comparison and sound fidelity limits still apply.

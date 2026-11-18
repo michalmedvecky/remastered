@@ -132,6 +132,6 @@ which sequences were actually exercised. Authorized bounded DOSBox-X comparisons
 scene, music and save cases in `../FIDELITY.md`. Browser resampling, cooperative timing and OPL chip emulation
 also differ from original sound-card hardware.
 
-## HD presentation adapter
+## Original-frame presentation adapter
 
-Release0.4 adds `browser/hd_bridge.c` and `tools/patch-native-hd.py`, observing actual native draw calls and terrain state. `dist/hd-core.mjs` and `hd-renderer.mjs` display4× source-bound materials on a separate pointer-transparent canvas. Native simulation, original framebuffer, clipping and input remain authoritative. New generated image sources and the stdlib asset builder accompany the corresponding source archive. See `../HD-GRAPHICS.md`; movies use bounded contour scaling rather than an eager expanded WSA bank.
+Release 0.4 added `browser/hd_bridge.c` and `tools/patch-native-hd.py` to observe the native framebuffer and draw decisions without changing simulation. Release 0.5 retains that binary ABI but uses only its original indexed pixels and current palette. `dist/upscale-renderer.mjs` filters the complete original image with MIT-licensed xBR on a pointer-transparent canvas; generated material atlases, native scene replay and the generated cover are removed from the active runtime. Native controls, movie animation and framebuffer compositing remain authoritative. The shader, upstream source, notices and browser adapter accompany the matching source archive. See `../HD-GRAPHICS.md`.

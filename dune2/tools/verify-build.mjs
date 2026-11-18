@@ -5,10 +5,10 @@ import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import {verifyPreload} from './preload-data.mjs';
-import {verifyHDPackage} from './verify-hd.mjs';
+import {verifyUpscalePackage} from './verify-hd.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url)),dist=path.join(root,'dist');
 const version=JSON.parse(fs.readFileSync(path.join(root,'package.json'))).version;
-const hd=verifyHDPackage(root);
+const upscale=verifyUpscalePackage(root);
 const data=JSON.parse(fs.readFileSync(path.join(dist,'assets/content.json')));
 const urls=new Set();
 function visit(value){if(typeof value==='string'&&value.startsWith('assets/')&&/\.(png|wav|json)$/.test(value))urls.add(value);else if(value&&typeof value==='object')Object.values(value).forEach(visit);}
@@ -33,6 +33,11 @@ from pathlib import Path
 root=Path(sys.argv[1])
 with tarfile.open(root/'dist/native/source.tar.gz') as tar:
     manifest=json.load(tar.extractfile('dune2/SOURCE-MANIFEST.json'))
+    assert manifest['generatedHDArtIncluded'] is False
+    assert manifest['originalFramebufferUpscalerIncluded'] is True
+    assert not any(name.startswith('art/hd-v1/') for name in manifest['files'])
+    for name in ['upscale-core.mjs','upscale-renderer.mjs','upscale/xbr-lv2.upstream.glsl','upscale/xbr-lv2.fragment.glsl','upscale/xbr.vertex.glsl','upscale/LICENSE.txt','upscale/provenance.json']:
+        assert 'dist/'+name in manifest['files'],name
     for name,digest in manifest['files'].items():
         current=(root/name).resolve()
         assert current.is_relative_to(root.resolve()),name
@@ -41,5 +46,5 @@ with tarfile.open(root/'dist/native/source.tar.gz') as tar:
         assert hashlib.sha256(member.read()).hexdigest()==digest,name
 `,root],{stdio:'inherit'});
 const hashes={};for(const file of fs.readdirSync(dist).filter(n=>/\.(mjs|css|html)$/.test(n)))hashes[file]=sha(path.join(dist,file));
-fs.mkdirSync(path.join(root,'test-results'),{recursive:true});fs.writeFileSync(path.join(root,'test-results/build.json'),JSON.stringify({version,hd,modules,assetReferences:urls.size,scenarios:66,units:27,structures:19,preloadedOriginalsVerified:preload.files.filter(f=>f.originalHashVerified).length,nativeSources:Object.keys(build.sources).length,nativeOutputs:build.outputs,sourcePackage:pkg.sha256,hashes},null,2));
-console.log(`Verified ${modules} modules, ${urls.size} asset references, 66 scenarios, HD assets, embedded original data and matching corresponding source. Original ZIP/EXE verification is a separate explicit check.`);
+fs.mkdirSync(path.join(root,'test-results'),{recursive:true});fs.writeFileSync(path.join(root,'test-results/build.json'),JSON.stringify({version,upscale,modules,assetReferences:urls.size,scenarios:66,units:27,structures:19,preloadedOriginalsVerified:preload.files.filter(f=>f.originalHashVerified).length,nativeSources:Object.keys(build.sources).length,nativeOutputs:build.outputs,sourcePackage:pkg.sha256,hashes},null,2));
+console.log(`Verified ${modules} modules, ${urls.size} asset references, 66 scenarios, original-framebuffer upscaler, embedded original data and matching corresponding source. Original ZIP/EXE verification is a separate explicit check.`);
