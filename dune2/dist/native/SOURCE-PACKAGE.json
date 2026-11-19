@@ -1,20 +1,20 @@
 {
   "schema": 2,
-  "version": "0.7.0",
+  "version": "0.8.0",
   "path": "dist/native/source.tar.gz",
   "src": "native/source.tar.gz",
-  "sha256": "ed179bfba858624f5b2b773cdcb9a6c1fa6ab6fee55888696b685c87f3f5f302",
-  "bytes": 16767775,
-  "uncompressedBytes": 38522880,
-  "unpackedBytes": 37894226,
-  "files": 3002,
+  "sha256": "497f941164864d2f76bac6a03a9f1f8424a2be68bc7f9d5da406642fc9d38c55",
+  "bytes": 19391270,
+  "uncompressedBytes": 43878400,
+  "unpackedBytes": 43143010,
+  "files": 3155,
   "coreOutputs": {
-    "dune-native.mjs": "dac4057430c2e6e874f015f010b785409d787fc306956752dabebddcd330f56f",
-    "dune-native.wasm": "3cd5679e96c900b0a22b08cc805e1060bf9020a44c6829fc7a13adc80b039ea7",
+    "dune-native.mjs": "851da2f19b4f68adc5e468051756d1184d4c21e7dad7561fe02d5d352f22b5c9",
+    "dune-native.wasm": "1c01dc9701c592de66d8e0846060a19edf2ec56b29b387e14c56734de011a1aa",
     "dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
   },
   "musicWasmSha256": "e29b0487fc72d4c7c4691f96a11229bf0976d345d0385fa1656f1f55d8e3d9ef",
-  "manifestSha256": "6eb74086aedd4699dade0b06c9eea88a88f9d7d5124ad144fa7fbe833f443c05",
+  "manifestSha256": "7b652db20f242b176e6f19ff38de8ed72593cb2554f32096ce9eb82764fc94b8",
   "artParts": [
     {
       "sha256": "59f24e4478e8815da1d6cc5ad7bc15961e778bfa27cf2bb63c15f527722f5c8f",
@@ -47,48 +47,48 @@
       "src": "native/source-art-03-65dd46dc11102a9e.tar.gz"
     },
     {
-      "sha256": "3b4f5d2b015f87bb81cdfa42c3bb7cafaee677e8efb29824ddeddb2e2887b4c3",
-      "bytes": 41829195,
-      "uncompressedBytes": 48916480,
-      "unpackedBytes": 48307051,
-      "files": 759,
-      "archive": "source-art-04-3b4f5d2b015f87bb.tar.gz",
-      "path": "dist/native/source-art-04-3b4f5d2b015f87bb.tar.gz",
-      "src": "native/source-art-04-3b4f5d2b015f87bb.tar.gz"
+      "sha256": "c3918fcd825a98b7c41e25d6a91e59560274283ec7578dd0c6fd3cf65ba4deae",
+      "bytes": 42186694,
+      "uncompressedBytes": 49377280,
+      "unpackedBytes": 48750585,
+      "files": 772,
+      "archive": "source-art-04-c3918fcd825a98b7.tar.gz",
+      "path": "dist/native/source-art-04-c3918fcd825a98b7.tar.gz",
+      "src": "native/source-art-04-c3918fcd825a98b7.tar.gz"
     },
     {
-      "sha256": "9801fcc9194f3bdf63f6ba985b10a7c773dafbaeaab56a3c1d7c8ea865443153",
-      "bytes": 47276649,
-      "uncompressedBytes": 47585280,
-      "unpackedBytes": 47502376,
-      "files": 99,
-      "archive": "source-art-05-9801fcc9194f3bdf.tar.gz",
-      "path": "dist/native/source-art-05-9801fcc9194f3bdf.tar.gz",
-      "src": "native/source-art-05-9801fcc9194f3bdf.tar.gz"
+      "sha256": "793ecadbe74a53e28e39fb21b26b6aaaaf0615d69591033e0a1d96512b617405",
+      "bytes": 48655950,
+      "uncompressedBytes": 48998400,
+      "unpackedBytes": 48912609,
+      "files": 103,
+      "archive": "source-art-05-793ecadbe74a53e2.tar.gz",
+      "path": "dist/native/source-art-05-793ecadbe74a53e2.tar.gz",
+      "src": "native/source-art-05-793ecadbe74a53e2.tar.gz"
     },
     {
-      "sha256": "90b201978476321e21a3d14b55b82b61b7e8dca2ec26b9e8cc9350aa36708279",
-      "bytes": 45526054,
-      "uncompressedBytes": 45629440,
-      "unpackedBytes": 45613006,
-      "files": 13,
-      "archive": "source-art-06-90b201978476321e.tar.gz",
-      "path": "dist/native/source-art-06-90b201978476321e.tar.gz",
-      "src": "native/source-art-06-90b201978476321e.tar.gz"
+      "sha256": "ae3ccadd18887337d244566c70de7cf02a2419acab37fabddeffc087e7de85d8",
+      "bytes": 43755529,
+      "uncompressedBytes": 43878400,
+      "unpackedBytes": 43858649,
+      "files": 14,
+      "archive": "source-art-06-ae3ccadd18887337.tar.gz",
+      "path": "dist/native/source-art-06-ae3ccadd18887337.tar.gz",
+      "src": "native/source-art-06-ae3ccadd18887337.tar.gz"
     },
     {
-      "sha256": "d7d870976cc6fa4795662b462ea74f8a0564701ebf0267890ddde9ecebb2fbb7",
-      "bytes": 27003421,
-      "uncompressedBytes": 27033600,
-      "unpackedBytes": 27025110,
-      "files": 6,
-      "archive": "source-art-07-d7d870976cc6fa47.tar.gz",
-      "path": "dist/native/source-art-07-d7d870976cc6fa47.tar.gz",
-      "src": "native/source-art-07-d7d870976cc6fa47.tar.gz"
+      "sha256": "cba70bae11c8f01192d0a1532c5dd3f763ce1c97b53183864456226c2c1d7004",
+      "bytes": 37293449,
+      "uncompressedBytes": 37324800,
+      "unpackedBytes": 37312189,
+      "files": 7,
+      "archive": "source-art-07-cba70bae11c8f011.tar.gz",
+      "path": "dist/native/source-art-07-cba70bae11c8f011.tar.gz",
+      "src": "native/source-art-07-cba70bae11c8f011.tar.gz"
     }
   ],
   "partUncompressedLimit": 50331648,
   "sourceIndex": "dist/native/source.html",
   "sourceReadme": "dist/native/SOURCE-README.md",
-  "allArchiveBytes": 317933468
+  "allArchiveBytes": 330813266
 }

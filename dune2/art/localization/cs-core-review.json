@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "source": "art/localization/en.json",
+  "sourceSHA256": "9757454572eac85bb8ea5ef90e17c3e35825bc28fb17aa3dbb02fda62d00bfae",
+  "output": "art/localization/cs-core.json",
+  "outputSHA256": "df63d152cdd0876cf9a5fc2ee2be6756ce34b65cdc43d42f443820c720daf625",
+  "records": 529,
+  "resourceCounts": {
+    "DUNE.ENG": 340,
+    "MESSAGE.ENG": 30,
+    "INTRO.ENG": 39,
+    "CREDITS.ENG": 120
+  },
+  "printfSequencesPreserved": true,
+  "controlSequencesPreserved": true,
+  "cp1250Encodable": true,
+  "properCreditNamesPreserved": true,
+  "terminology": {
+    "spice": "koření",
+    "credits": "kredity",
+    "House Atreides": "rod Atreidů",
+    "House Harkonnen": "rod Harkonnenů",
+    "House Ordos": "rod Ordosů",
+    "Harvester": "Sklízeč",
+    "Carryall": "Nosič",
+    "Construction Yard": "Stavební dvůr",
+    "Windtrap": "Větrná elektrárna",
+    "Outpost": "Radarová základna"
+  },
+  "notes": [
+    "Original printf conversion specifiers, control sequence order, line breaks and credit formatting codes are retained.",
+    "Names, company names and copyright lines in credits are preserved; credit role labels are translated.",
+    "Gender-neutral dash/status fragments avoid Czech agreement errors for mixed unit/structure names.",
+    "No runtime or original resources changed by this translation artifact."
+  ],
+  "fixedHUDAbbreviations": {
+    "DUNE.ENG:005": "Hlídka",
+    "DUNE.ENG:006": "Těžit",
+    "DUNE.ENG:012": "Lovit",
+    "DUNE.ENG:049": "ŠKD",
+    "DUNE.ENG:200": "Těž. pěchota",
+    "DUNE.ENG:214": "Obléh. tank",
+    "DUNE.ENG:218": "Son. tank",
+    "DUNE.ENG:222": "Přep. třík."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "status": "static-tests-deterministic-build-and-parent-browser-review-passed",
+  "manifestSHA256": "52d4906c1b8d64d123e70d59eca98403235900502e62e1f05c725daaf5d1d634",
+  "rawArtSHA256": "a3f048db371d594a14731d5b6032f1a87fcfff73810fbfd779bf90ae208c6c82",
+  "resourceCount": 46,
+  "nativePhaseCount": 268,
+  "distinctNativeImages": 214,
+  "witnessCoordinates": 33,
+  "previous42Resources": 42,
+  "previous42NativePhases": 264,
+  "previous42AtlasCount": 10,
+  "previous42AtlasBytesUnchanged": true,
+  "newAtlas": {
+    "src": "painted/media-outcomes-0ea320ec9189653b.png",
+    "sha256": "0ea320ec9189653b145967396a45871974a5577901950a17c081a330a2736b8d",
+    "w": 1472,
+    "h": 896
+  },
+  "sourceExtractionRepeatSHA256": {
+    "art/hd-v3/media/outcome-motion/inventory.json": "fe5a3abf8b3b576e66de983a7e1d560f31d6abd8d0a102834679548b13d7cfaf",
+    "art/hd-v3/media/outcome-motion/global-frame-witnesses.json": "a31e28c1c3a9323fb5c6063cb0d21e7ebf22ff5b32177713d6d36235d1b433b0",
+    "art/hd-v3/media/outcome-motion/ordinary-coverage-audit.json": "292f6cf71eef0bd7fe9f4fcd9cc457b9ec3b5a763f7f7f61dde3d72ff08a2872"
+  },
+  "sourceExtractionDeterministic": true,
+  "packingRepeatManifestSHA256": "52d4906c1b8d64d123e70d59eca98403235900502e62e1f05c725daaf5d1d634",
+  "packingDeterministic": true,
+  "focusedTests": {
+    "command": "node --test tests/painted-media.test.mjs tests/painted-extra-media.test.mjs tests/painted-media-assets.test.mjs tests/painted-outcome-media.test.mjs",
+    "passed": 17,
+    "failed": 0
+  },
+  "ordinaryCoverage": {
+    "scenarios": 66,
+    "helpResources": 40,
+    "missing": [],
+    "useCounts": {
+      "BriefPicture": {
+        "HARVEST.WSA": 3,
+        "HEADQRTS.WSA": 9,
+        "HVYFTRY.WSA": 9,
+        "IX.WSA": 9,
+        "LTANK.WSA": 9,
+        "PALACE.WSA": 6,
+        "QUAD.WSA": 9,
+        "REPAIR.WSA": 9,
+        "SARDUKAR.WSA": 3
+      },
+      "WinPicture": {
+        "WIN1.WSA": 27,
+        "WIN2.WSA": 39
+      },
+      "LosePicture": {
+        "LOSTBILD.WSA": 36,
+        "LOSTVEHC.WSA": 30
+      }
+    }
+  },
+  "browserFixtures": {
+    "media": "fidelity/painted-polish/media-canvas-review.py",
+    "fullUI": "fidelity/painted-polish/outcome-advisor-canvas-review.py",
+    "fullUICases": 12,
+    "mediaPhases": 268
+  },
+  "originalExecution": false,
+  "browserReview": {
+    "evidenceProvider": "Parent agent /root private CUA review",
+    "parentReported": true,
+    "wholeOutcomeUICases": 12,
+    "wholeOutcomeUIPassed": 12,
+    "nativePhasesRendered": 268,
+    "missingAssets": 0,
+    "errors": 0,
+    "representativeWIN1WholeScene": "Parent reports coherent whole advisor/preview composition; selector added for a full-width screenshot.",
+    "notes": "FullUI12 and media268 results were reported by the parent, not executed by the source extractor."
+  }
+}

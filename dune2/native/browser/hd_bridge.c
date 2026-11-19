@@ -171,7 +171,7 @@ static HdCommand s_uiSpriteCommands[HD_UI_RECORDS], s_uiSpritePending;
 static int s_uiSpritePendingValid, s_uiSpriteScreen, s_uiSpriteRecord=-1, s_uiSpritePrecise,s_uiSpriteCursor;
 static int s_glyphWrite, s_copyDirty, s_notifyOnly, s_widgetBorderDepth;
 static int s_copyScreen, s_copyX, s_copyY, s_copyW, s_copyH;
-static unsigned s_mentatReplacement;
+static unsigned s_mentatReplacement,s_worldModal;
 
 static int32_t s_viewOffsetXQ8,s_viewOffsetYQ8;
 static int s_viewOffsetViewport=-1;
@@ -221,9 +221,17 @@ void DuneHD_MentatReplacement(int enter)
     if(enter)s_mentatReplacement++;
     else if(s_mentatReplacement)s_mentatReplacement--;
 }
+void DuneHD_WorldModal(int enter)
+{
+    if(enter)s_worldModal++;
+    else if(s_worldModal)s_worldModal--;
+}
 static int hd_world_visible(int normal,int selectionEligible,int offset)
 {
-    return normal&&s_worldFront.valid&&selectionEligible&&offset==0&&!s_mentatReplacement;
+    /* LevelEnd selects MENTAT before its victory/defeat dialog, while the
+     * committed map is still the front raster. Only that explicit modal scope
+     * may retain it; the scope ends before the actual advisor screen. */
+    return normal&&s_worldFront.valid&&(selectionEligible||s_worldModal)&&offset==0&&!s_mentatReplacement;
 }
 
 static void hd_promote_world(void)
@@ -443,6 +451,7 @@ static void hd_reset(void)
     s_scope = 0;
     s_viewportSeen = 0;
     s_worldFront.valid = s_worldBack.valid = s_worldPending = 0;
+    s_worldModal = 0;
     memset(s_rasterTiles, 0, sizeof(s_rasterTiles));
 }
 
@@ -896,6 +905,7 @@ EM_JS(void, hd_present_js,
     }
     textGlyphs.sort((a,b)=>a.serial-b.serial);borders.sort((a,b)=>a.serial-b.serial);uiCommands.sort((a,b)=>a.serial-b.serial);
     const runPlacements=new Map(),cp437='ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜ¢£¥₧ƒáíóúñÑªº¿⌐¬½¼¡«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■ ';
+    const decodeText=bytes=>typeof Module['duneDecodeText']==='function'?Module['duneDecodeText'](bytes):bytes.map(c=>c<128?String.fromCharCode(c):(cp437[c-128]||" ")).join("");
     for(let at=0;at<64000;at++){
         const token=HEAPU32[(textOwner>>2)+at];if(!token)continue;
         const slot=(token-1)%512,rp=runs+slot*1576;
@@ -916,7 +926,7 @@ EM_JS(void, hd_present_js,
             item={runId:token,placementId:key,sourceSerial,serial:epoch+sourceSerial/4294967296,
                 x:left,y:top,width:right-left,height:bottom-top,font:HEAPU32[(rp+12)>>2],fontHeight:HEAPU32[(rp+16)>>2],
                 colours:Array.from(HEAPU8.subarray(rp+24,rp+40)),textBytes:bytes,
-                text:bytes.map(c=>c<128?String.fromCharCode(c):(cp437[c-128]||" ")).join(""),
+                text:decodeText(bytes),
                 glyphs,screen:0,visibleInk:0,totalInk:HEAPU32[(rp+20)>>2],ink:[],rows:[]};
             runPlacements.set(key,item);
         }
@@ -940,14 +950,16 @@ EM_JS(void, hd_present_js,
         textRuns.push(item);
     }
     textRuns.sort((a,b)=>a.serial-b.serial||a.sourceSerial-b.sourceSerial);
-    callback({version:2,pixels:HEAPU8.slice(pixels,pixels+64000),
+    const messageBytes=[];
+    if(message)for(let p=message;p<message+4096&&HEAPU8[p];p++)messageBytes.push(HEAPU8[p]);
+    callback({version:2,textEncoding:Module['duneTextEncoding']||'cp437',pixels:HEAPU8.slice(pixels,pixels+64000),
         palette:HEAPU8.slice(palette,palette+768),
         tiles:HEAPU16.slice(tiles>>1,(tiles>>1)+600),commands:result,
         worldVisible:!!visible,viewport:viewport,selectedUnit:selected,
         selection:{position:position,width:width,height:height,state:state,type:type},
         gameTick:tick,playerHouse:house,
         cursor:{id:cursor,x:mouseX,y:mouseY,hotX:hotX,hotY:hotY,visible:!!mouseVisible},
-        message:message ? UTF8ToString(message) : "",cacheOverflow:overflow,
+        message:decodeText(messageBytes),cacheOverflow:overflow,
         screenOffset:screenOffset,veiledTileId:veiledTileId,uiCommands:uiCommands,
         worldAvailable:!!available,worldRevision:revision,worldCommitTick:commitTick,worldEpoch:epoch,
         gameplayActive:!!gameActive,viewportRendering:!!viewportRendering,debugScenario:!!debug,

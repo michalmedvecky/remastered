@@ -1,0 +1,47 @@
+{
+  "version": "0.8.0",
+  "testCommand": "npm test",
+  "suiteTests": [
+    16,
+    382,
+    269,
+    26,
+    34,
+    168
+  ],
+  "totalTests": 895,
+  "failures": 0,
+  "nativeOutputs": {
+    "dune-native.mjs": "851da2f19b4f68adc5e468051756d1184d4c21e7dad7561fe02d5d352f22b5c9",
+    "dune-native.wasm": "1c01dc9701c592de66d8e0846060a19edf2ec56b29b387e14c56734de011a1aa",
+    "dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
+  },
+  "sourceCoverage": {
+    "corpusRecords": 1347,
+    "translations": 1338,
+    "missing": [],
+    "runtimeStringSlots": 941,
+    "runtimeSourceRows": 939,
+    "runtimeAliases": [
+      {
+        "nativeStringId": 339,
+        "aliasOfNativeStringId": 92,
+        "symbol": "STR_LOAD_GAME"
+      }
+    ],
+    "runtimeFillSlots": [
+      {
+        "nativeStringId": 940,
+        "status": "Native trailing unused fill slot; no source string copied here"
+      }
+    ],
+    "runtimeStringBytes": 35423,
+    "nativeStringLimitBytes": 49152,
+    "longestNativeString": 407
+  },
+  "originalFilesVerified": 19,
+  "originalZipVerified": true,
+  "originalDosExecuted": false,
+  "sourcePackage": "Verified separately against final SOURCE-PACKAGE.json; collection snapshot binds public files.",
+  "periodStylesheetRebuildRegression": true
+}

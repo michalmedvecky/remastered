@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "scope": "Read-only audit of default game typography before period-face replacement; legacy prototype and documentation identified separately.",
+  "sourceFontInventory": "art/hd-v3/icons/fonts.json",
+  "sourceFontInventorySHA256": "8a822fa67eede4ab1235c4deab5f2ef3fc186204ec6e18b64d95bc25f88e568a",
+  "nativeReferenceContact": "fidelity/presentation-fixes/original-fonts-reference.png",
+  "contactFontOrder": [
+    "INTRO.FNT",
+    "NEW8P.FNT",
+    "NEW6P.FNT",
+    "NEW10P.FNT",
+    "STD3P.FNT"
+  ],
+  "nativeFontFacts": [
+    {
+      "resource": "NEW10P.FNT",
+      "height": 10,
+      "maxWidth": 10,
+      "characters": 160,
+      "sha256": "50aa34ad9c79a2cd7cb4804d25de1e0bd631299e99d75eff00e6a2374f2cff8f",
+      "activelyLoaded": false
+    },
+    {
+      "resource": "NEW6P.FNT",
+      "height": 8,
+      "maxWidth": 8,
+      "characters": 226,
+      "sha256": "cb5b1d46628bea2530d6a264619581ba3d70c4bbd0709cfb68f2dc40f6cc41cf",
+      "activelyLoaded": true
+    },
+    {
+      "resource": "NEW8P.FNT",
+      "height": 11,
+      "maxWidth": 10,
+      "characters": 226,
+      "sha256": "732f2875e11e387329509afa7ddfd87e727693dcf62075b904b835c24a46035d",
+      "activelyLoaded": true
+    },
+    {
+      "resource": "STD3P.FNT",
+      "height": 4,
+      "maxWidth": 5,
+      "characters": 126,
+      "sha256": "306b01665fdf1aa2fb2386abd84287bb32547576be2b8d88c76f9dd161866750",
+      "activelyLoaded": false
+    },
+    {
+      "resource": "INTRO.FNT",
+      "height": 19,
+      "maxWidth": 17,
+      "characters": 174,
+      "sha256": "6b19561cfaa68c9067128466589876f5721055e2d662bccc9e62ab2ca708c81f",
+      "activelyLoaded": true
+    }
+  ],
+  "defaultEntry": "dist/index.html -> native-shell.css -> screen.css; native-host.mjs uses painted-ui.mjs",
+  "canvasTextEntryPoints": [
+    {
+      "function": "text",
+      "roles": [
+        "Observed native glyphs/runs including menus, save/load, advisor speech, help list and reports",
+        "Semantic HUD, factory and advisor buttons",
+        "Rolling credit digits",
+        "Static title/menu labels",
+        "House confirmation question and house name"
+      ],
+      "baselineFamilies": [
+        "Georgia,serif",
+        "Trebuchet MS,Arial,sans-serif"
+      ],
+      "recommendation": "Replace single text measurement/draw boundary consistently; retain literal native captions, immutable source advances, stable whole-run layout, strict clipping and existing six-column credit geometry."
+    }
+  ],
+  "defaultDOMFontRoles": [
+    {
+      "file": "dist/screen.css",
+      "selector": ":root",
+      "family": "Verdana,Arial,sans-serif",
+      "roles": [
+        "Wrapper navigation",
+        "Graphics/audio controls",
+        "Status",
+        "Manual/save dialogs"
+      ]
+    },
+    {
+      "file": "dist/screen.css",
+      "selector": ".wordmark,.emblem,h2",
+      "family": "Georgia,serif",
+      "roles": [
+        "Brand",
+        "Emblem",
+        "Dialog headings"
+      ]
+    },
+    {
+      "file": "dist/native-shell.css",
+      "selector": ".arrival-copy h1",
+      "family": "Georgia,serif",
+      "roles": [
+        "Landing headline"
+      ]
+    }
+  ],
+  "secondarySurfaces": [
+    {
+      "file": "dist/prototype.html -> screen.css/main.mjs/renderer.mjs",
+      "status": "Legacy alternate game, not default compiled-native route",
+      "families": [
+        "Georgia",
+        "monospace",
+        "Verdana"
+      ]
+    },
+    {
+      "file": "dist/fidelity.html, dist/artwork.html, dist/native/source.html",
+      "status": "Documentation/gallery/source pages use separate DOM heading/body styling; do not confuse their typography with native game captions"
+    }
+  ],
+  "recommendations": [
+    {
+      "role": "Default buttons, gameplay labels, normal dialogue",
+      "face": "NEW8P.FNT",
+      "style": "Angular proportional Westwood sans; preserve square counters, clipped diagonals and original uppercase/lowercase relationships. Avoid synthetic bold and system fallback.",
+      "size": "Fit foreground ink within existing content rectangle; ordinary native font box11px, visibly painted caps about7px. Keep current semantic button padding and fit the whole literal label."
+    },
+    {
+      "role": "Small HUD/help lists/status",
+      "face": "NEW6P.FNT",
+      "style": "Compact8px box, uppercase forms even for lowercase source; use only where original font1 is observed or needed for narrow tiny UI.",
+      "size": "Preserve original font1 geometry/advances and original line heights. Do not force ALL dialogue into compact all-caps."
+    },
+    {
+      "role": "Title/cinematic accent only",
+      "face": "INTRO.FNT or angular display treatment",
+      "style": "Original19px face has deliberately old Roman/pointed flourishes. Its period character differs from modern Georgia; avoid using its broad proportions as the blanket UI body face.",
+      "size": "Keep title image and native cinematic ownership; use explicit title roles rather than font0 automatically selecting Georgia."
+    },
+    {
+      "role": "Rolling credits",
+      "face": "NEW8P-derived tabular digits",
+      "style": "Retain each native column and leading blanks; no proportional digit recentering or tracking between six slots.",
+      "size": "Use CREDIT_COUNTER safe field and existing clipping/y motion."
+    }
+  ],
+  "fidelityChecks": [
+    "Whole caption unchanged by cursor occlusion",
+    "Deterministic per-string metrics; cursor positions must not change scale or spacing",
+    "Six rolling columns stay inside safe interior for all carry offsets",
+    "Zero text-fit violations for long menus/house names and all observed font roles",
+    "No original UI strings or native command positions changed merely to fit new face"
+  ],
+  "runtimeEdited": false
+}

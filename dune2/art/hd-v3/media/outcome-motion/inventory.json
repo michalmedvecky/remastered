@@ -1,0 +1,361 @@
+{
+  "schema": 1,
+  "resourceCount": 4,
+  "frameCount": 4,
+  "sourcePreloadSha256": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071",
+  "sourcePaletteSha256": "219926bd453b55522db80b16fd0d0157bc398299974920e2ff17e0e865291c80",
+  "resources": [
+    {
+      "resource": "WIN1.WSA",
+      "archive": "DUNE.PAK",
+      "resourceSha256": "0770e4021cad9e1a9b6b90b8cbd20f81ae868202ac021b3ac8f93990b0609687",
+      "paletteResource": "IBM.PAL",
+      "paletteSha256": "219926bd453b55522db80b16fd0d0157bc398299974920e2ff17e0e865291c80",
+      "nativeWidth": 184,
+      "nativeHeight": 112,
+      "frameCount": 1,
+      "loopRecordFrame": 1,
+      "loopMatchesFirst": true,
+      "rawHeader": {
+        "rawCount": 1,
+        "width": 184,
+        "height": 112,
+        "bufferHint": 15583,
+        "flags": 0,
+        "littleEndianHex": "0100b8007000df3c0000",
+        "sourceBytes": 10186
+      },
+      "decoderEvidence": {
+        "frame_count": 1,
+        "width": 184,
+        "height": 112,
+        "buffer_hint": 15583,
+        "flags": 0,
+        "raw_frame_count": 1,
+        "continuation": false,
+        "palette_bytes": 0,
+        "frames": [
+          {
+            "index": 0,
+            "status": "decoded",
+            "offset": 22,
+            "size": 10156,
+            "expanded_delta_bytes": 15548,
+            "compressed_bytes_consumed": 10156,
+            "unused_extent_bytes": 0,
+            "delta_bytes_consumed": 15548,
+            "pixels_advanced": 20608,
+            "pixel_sha256": "ac0c3310fb548f52b2056fed781cef5b7614e94c6780e69ad8d1d0889410e681"
+          },
+          {
+            "index": 1,
+            "status": "decoded",
+            "offset": 10178,
+            "size": 8,
+            "expanded_delta_bytes": 6,
+            "compressed_bytes_consumed": 8,
+            "unused_extent_bytes": 0,
+            "delta_bytes_consumed": 6,
+            "pixels_advanced": 20608,
+            "pixel_sha256": "ac0c3310fb548f52b2056fed781cef5b7614e94c6780e69ad8d1d0889410e681"
+          }
+        ],
+        "loop_matches_first": true
+      },
+      "changedPixelUnion": 0,
+      "changedBounds": null,
+      "motionComponents": [],
+      "frames": [
+        {
+          "frame": 0,
+          "pixelSha256": "ac0c3310fb548f52b2056fed781cef5b7614e94c6780e69ad8d1d0889410e681",
+          "indexFile": "native/win1/frame-000.idx",
+          "png": "native/win1/frame-000.png",
+          "changedFromFirst": 0,
+          "changedBounds": null,
+          "changedFromPrevious": 0,
+          "previousDeltaBounds": null,
+          "components": []
+        }
+      ],
+      "visualPhaseSequence": [
+        0
+      ],
+      "distinctVisualPhases": 1,
+      "classification": "static-mission-outcome",
+      "semanticParts": [],
+      "visualObservation": "Victorious olive-uniformed, rust/tan-armoured troops run right across sand; large foreground soldier at right, smaller cheering troops at left; smoke columns under cyan sky.",
+      "owners": [
+        {
+          "kind": "scenario-win",
+          "name": "WIN1"
+        }
+      ]
+    },
+    {
+      "resource": "WIN2.WSA",
+      "archive": "DUNE.PAK",
+      "resourceSha256": "cd7dcea0b121b382f934300b1f60aad34f9e00a9952a7fdd3ac8fc7b65b98887",
+      "paletteResource": "IBM.PAL",
+      "paletteSha256": "219926bd453b55522db80b16fd0d0157bc398299974920e2ff17e0e865291c80",
+      "nativeWidth": 184,
+      "nativeHeight": 112,
+      "frameCount": 1,
+      "loopRecordFrame": 1,
+      "loopMatchesFirst": true,
+      "rawHeader": {
+        "rawCount": 1,
+        "width": 184,
+        "height": 112,
+        "bufferHint": 16554,
+        "flags": 0,
+        "littleEndianHex": "0100b8007000aa400000",
+        "sourceBytes": 10519
+      },
+      "decoderEvidence": {
+        "frame_count": 1,
+        "width": 184,
+        "height": 112,
+        "buffer_hint": 16554,
+        "flags": 0,
+        "raw_frame_count": 1,
+        "continuation": false,
+        "palette_bytes": 0,
+        "frames": [
+          {
+            "index": 0,
+            "status": "decoded",
+            "offset": 22,
+            "size": 10489,
+            "expanded_delta_bytes": 16519,
+            "compressed_bytes_consumed": 10489,
+            "unused_extent_bytes": 0,
+            "delta_bytes_consumed": 16519,
+            "pixels_advanced": 20608,
+            "pixel_sha256": "42dcc5761a11001c68c1fdb6a64434be6474e049b6a2dbcb682495b30e3d7356"
+          },
+          {
+            "index": 1,
+            "status": "decoded",
+            "offset": 10511,
+            "size": 8,
+            "expanded_delta_bytes": 6,
+            "compressed_bytes_consumed": 8,
+            "unused_extent_bytes": 0,
+            "delta_bytes_consumed": 6,
+            "pixels_advanced": 20608,
+            "pixel_sha256": "42dcc5761a11001c68c1fdb6a64434be6474e049b6a2dbcb682495b30e3d7356"
+          }
+        ],
+        "loop_matches_first": true
+      },
+      "changedPixelUnion": 0,
+      "changedBounds": null,
+      "motionComponents": [],
+      "frames": [
+        {
+          "frame": 0,
+          "pixelSha256": "42dcc5761a11001c68c1fdb6a64434be6474e049b6a2dbcb682495b30e3d7356",
+          "indexFile": "native/win2/frame-000.idx",
+          "png": "native/win2/frame-000.png",
+          "changedFromFirst": 0,
+          "changedBounds": null,
+          "changedFromPrevious": 0,
+          "previousDeltaBounds": null,
+          "components": []
+        }
+      ],
+      "visualPhaseSequence": [
+        0
+      ],
+      "distinctVisualPhases": 1,
+      "classification": "static-mission-outcome",
+      "semanticParts": [],
+      "visualObservation": "Victory celebration: cropped armed soldier at foreground left, two standing soldiers at centre, one with arms raised overhead; troops and armoured vehicles at right in a sandy battlefield under cyan sky.",
+      "owners": [
+        {
+          "kind": "scenario-win",
+          "name": "WIN2"
+        }
+      ]
+    },
+    {
+      "resource": "LOSTBILD.WSA",
+      "archive": "DUNE.PAK",
+      "resourceSha256": "45db9dbc6bd6b337524b783a7be6c61314d3072f293152abb172b15188c0f57f",
+      "paletteResource": "IBM.PAL",
+      "paletteSha256": "219926bd453b55522db80b16fd0d0157bc398299974920e2ff17e0e865291c80",
+      "nativeWidth": 184,
+      "nativeHeight": 112,
+      "frameCount": 1,
+      "loopRecordFrame": 1,
+      "loopMatchesFirst": true,
+      "rawHeader": {
+        "rawCount": 1,
+        "width": 184,
+        "height": 112,
+        "bufferHint": 16333,
+        "flags": 0,
+        "littleEndianHex": "0100b8007000cd3f0000",
+        "sourceBytes": 11016
+      },
+      "decoderEvidence": {
+        "frame_count": 1,
+        "width": 184,
+        "height": 112,
+        "buffer_hint": 16333,
+        "flags": 0,
+        "raw_frame_count": 1,
+        "continuation": false,
+        "palette_bytes": 0,
+        "frames": [
+          {
+            "index": 0,
+            "status": "decoded",
+            "offset": 22,
+            "size": 10986,
+            "expanded_delta_bytes": 16298,
+            "compressed_bytes_consumed": 10986,
+            "unused_extent_bytes": 0,
+            "delta_bytes_consumed": 16298,
+            "pixels_advanced": 20608,
+            "pixel_sha256": "f16ef16d5185a0d021d2df2c91fb289c7affc8bb1f0d22778dbe422333d67746"
+          },
+          {
+            "index": 1,
+            "status": "decoded",
+            "offset": 11008,
+            "size": 8,
+            "expanded_delta_bytes": 6,
+            "compressed_bytes_consumed": 8,
+            "unused_extent_bytes": 0,
+            "delta_bytes_consumed": 6,
+            "pixels_advanced": 20608,
+            "pixel_sha256": "f16ef16d5185a0d021d2df2c91fb289c7affc8bb1f0d22778dbe422333d67746"
+          }
+        ],
+        "loop_matches_first": true
+      },
+      "changedPixelUnion": 0,
+      "changedBounds": null,
+      "motionComponents": [],
+      "frames": [
+        {
+          "frame": 0,
+          "pixelSha256": "f16ef16d5185a0d021d2df2c91fb289c7affc8bb1f0d22778dbe422333d67746",
+          "indexFile": "native/lostbild/frame-000.idx",
+          "png": "native/lostbild/frame-000.png",
+          "changedFromFirst": 0,
+          "changedBounds": null,
+          "changedFromPrevious": 0,
+          "previousDeltaBounds": null,
+          "components": []
+        }
+      ],
+      "visualPhaseSequence": [
+        0
+      ],
+      "distinctVisualPhases": 1,
+      "classification": "static-mission-outcome",
+      "semanticParts": [],
+      "visualObservation": "Destroyed base: diagonal foreground rubble slabs and shattered industrial structures fill a grey/olive wasteland; large twisted beams and multiple dark smoke columns under cyan/yellow sky. No live characters.",
+      "owners": [
+        {
+          "kind": "scenario-loss",
+          "name": "LOSTBILD"
+        }
+      ]
+    },
+    {
+      "resource": "LOSTVEHC.WSA",
+      "archive": "DUNE.PAK",
+      "resourceSha256": "593a9d6777f8c086602cccf757cedbd5b81fb40682944df84cb323e6228e3361",
+      "paletteResource": "IBM.PAL",
+      "paletteSha256": "219926bd453b55522db80b16fd0d0157bc398299974920e2ff17e0e865291c80",
+      "nativeWidth": 184,
+      "nativeHeight": 112,
+      "frameCount": 1,
+      "loopRecordFrame": 1,
+      "loopMatchesFirst": true,
+      "rawHeader": {
+        "rawCount": 1,
+        "width": 184,
+        "height": 112,
+        "bufferHint": 17011,
+        "flags": 0,
+        "littleEndianHex": "0100b800700073420000",
+        "sourceBytes": 12377
+      },
+      "decoderEvidence": {
+        "frame_count": 1,
+        "width": 184,
+        "height": 112,
+        "buffer_hint": 17011,
+        "flags": 0,
+        "raw_frame_count": 1,
+        "continuation": false,
+        "palette_bytes": 0,
+        "frames": [
+          {
+            "index": 0,
+            "status": "decoded",
+            "offset": 22,
+            "size": 12347,
+            "expanded_delta_bytes": 16976,
+            "compressed_bytes_consumed": 12347,
+            "unused_extent_bytes": 0,
+            "delta_bytes_consumed": 16976,
+            "pixels_advanced": 20608,
+            "pixel_sha256": "7a55d2939556b81708b309da43d3f5d6713897d09bbec272fe6eb8ac0a42414c"
+          },
+          {
+            "index": 1,
+            "status": "decoded",
+            "offset": 12369,
+            "size": 8,
+            "expanded_delta_bytes": 6,
+            "compressed_bytes_consumed": 8,
+            "unused_extent_bytes": 0,
+            "delta_bytes_consumed": 6,
+            "pixels_advanced": 20608,
+            "pixel_sha256": "7a55d2939556b81708b309da43d3f5d6713897d09bbec272fe6eb8ac0a42414c"
+          }
+        ],
+        "loop_matches_first": true
+      },
+      "changedPixelUnion": 0,
+      "changedBounds": null,
+      "motionComponents": [],
+      "frames": [
+        {
+          "frame": 0,
+          "pixelSha256": "7a55d2939556b81708b309da43d3f5d6713897d09bbec272fe6eb8ac0a42414c",
+          "indexFile": "native/lostvehc/frame-000.idx",
+          "png": "native/lostvehc/frame-000.png",
+          "changedFromFirst": 0,
+          "changedBounds": null,
+          "changedFromPrevious": 0,
+          "previousDeltaBounds": null,
+          "components": []
+        }
+      ],
+      "visualPhaseSequence": [
+        0
+      ],
+      "distinctVisualPhases": 1,
+      "classification": "static-mission-outcome",
+      "semanticParts": [],
+      "visualObservation": "Vehicle defeat: a fallen helmeted olive-armoured soldier lies across foreground, wrecked tracked tank at right middle distance, white wreckage at left, scattered debris and multiple smoke columns across sand under cyan sky.",
+      "owners": [
+        {
+          "kind": "scenario-loss",
+          "name": "LOSTVEHC"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "No DOS execution; checked Format80/40 static extraction.",
+    "The stored loop record repeats frame0 and is not an extra animation phase."
+  ]
+}

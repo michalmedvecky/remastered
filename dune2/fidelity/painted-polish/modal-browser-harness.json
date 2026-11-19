@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "purpose": "Bounded live browser mission-modal presentation experiment; no claim of original timing/rule equivalence",
+  "preparedOnly": true,
+  "executedOriginalDosBinary": false,
+  "startsServer": false,
+  "launchesBrowser": false,
+  "productionFilesModified": false,
+  "clockMultiplier": 16,
+  "skipIntroDefault": true,
+  "source": {
+    "preloadSHA256": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071",
+    "scenarioArchive": "SCENARIO.PAK",
+    "scenarioArchiveSHA256": "948469aa556da82f59b48c0d032787c973d7062acf6ed028ba4b789b9b237821",
+    "scenarioMember": "SCENA001.INI",
+    "scenarioMemberSHA256": "9ffa5465e913b7b928d529af7d14c45ac0bcca7adcd3fd8b8619301d76226322",
+    "indexSHA256": "6fdaafb8990130eca451cccdca5393be8adb56e2dcf475cb2678a1527c011b49",
+    "hostSHA256": "e01694fdbbebeee0030e2824386de83fe11faec0c0e41bbc0e360c5d3b9381ac",
+    "nativeBuildOutputs": {
+      "dune-native.mjs": "851da2f19b4f68adc5e468051756d1184d4c21e7dad7561fe02d5d352f22b5c9",
+      "dune-native.wasm": "1c01dc9701c592de66d8e0846060a19edf2ec56b29b387e14c56734de011a1aa",
+      "dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
+    }
+  },
+  "virtualScenario": {
+    "originalBytes": 1173,
+    "qaBytes": 1170,
+    "qaSHA256": "af53d3d637349bbe7c4b1a54851821123d89bfc2ed8c992c87af3960b09a173c",
+    "controlledKeys": [
+      {
+        "section": "BASIC",
+        "key": "LoseFlags",
+        "original": "4",
+        "qa": "4",
+        "changed": false
+      },
+      {
+        "section": "BASIC",
+        "key": "WinFlags",
+        "original": "6",
+        "qa": "4",
+        "changed": true
+      },
+      {
+        "section": "Atreides",
+        "key": "Quota",
+        "original": "1000",
+        "qa": "1",
+        "changed": true
+      }
+    ],
+    "allOtherBytesPreserved": true
+  },
+  "temporaryFiles": [
+    {
+      "path": "dist/modal-qa.html",
+      "sha256": "c666735f2117f37be9d3777f7fea751ae1d61583e110ea0f7fe84eb985989f65"
+    },
+    {
+      "path": "dist/modal-qa-host.mjs",
+      "sha256": "331d0cbf2b14e283e65e652365de12a015a5fe080c557835e795d5ce3e7ec5c7"
+    }
+  ],
+  "instructions": [
+    "Serve the current dist directory on an isolated loopback origin such as port6003; do not reuse production origin/save storage.",
+    "Open modal-qa.html visibly. Keep \u010ce\u0161tina and HD, skip intro, launch normally, select Atreides and advance Cyril through the visible buttons.",
+    "Wait approximately8 seconds of visible native gameplay for its minimum7200 game ticks at the QA-only16x clock. Do not call hidden game functions.",
+    "Capture success modal with worldVisible:true and a painted map/HUD; advance via the visible native modal input and verify actual WIN1 advisor has worldVisible:false.",
+    "Remove dist/modal-qa.html and dist/modal-qa-host.mjs before release packaging. Retain this generator and evidence report."
+  ]
+}

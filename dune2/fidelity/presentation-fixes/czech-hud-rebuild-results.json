@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "method": "Build all overlays in isolated staging; verify every payload; atomically replace changed complete files; publish manifest last.",
+  "stagingDirectory": "/tmp/cs-locale-staging-l8f0rcdg",
+  "beforeRuntimeStringBytes": 35460,
+  "runtimeStringBytes": 35423,
+  "byteReduction": 37,
+  "translations": 1338,
+  "runtimeSlots": 941,
+  "missing": [],
+  "changedFiles": [
+    "cs/DUNE.ENG",
+    "cs.json"
+  ],
+  "beforeManifestSHA256": "37ba5c51bf817aea6e1e79a9f9a0a259970acf14575bd3e27a62d7f9484fe693",
+  "manifestSHA256": "75d3fb74e35ea351a59c7742e7216c38681d6edd63c12ae93ead3a3f7488c729",
+  "changedSHA256": {
+    "cs/DUNE.ENG": {
+      "before": "6b76c8b66be1509fbe73e01eb77bb0982d162efa590224011b35cb91076352c7",
+      "after": "9e44bf697f07c510700e99c9e828aa961baf2dee99ddfe4bcee781248fe6ec2e"
+    },
+    "cs.json": {
+      "before": "37ba5c51bf817aea6e1e79a9f9a0a259970acf14575bd3e27a62d7f9484fe693",
+      "after": "75d3fb74e35ea351a59c7742e7216c38681d6edd63c12ae93ead3a3f7488c729"
+    }
+  },
+  "unchangedPayloads": [
+    "cs/AND.ENG",
+    "cs/BTTN.ENG",
+    "cs/CHOAM.ENG",
+    "cs/CREDITS.ENG",
+    "cs/HERALD.ENG",
+    "cs/INTRO.ENG",
+    "cs/INTRO.FNT",
+    "cs/MENTAT.ENG",
+    "cs/MENTATA.ENG",
+    "cs/MENTATH.ENG",
+    "cs/MENTATO.ENG",
+    "cs/MESSAGE.ENG",
+    "cs/MISC.ENG",
+    "cs/NEW6P.FNT",
+    "cs/NEW8P.FNT",
+    "cs/PROTECT.ENG",
+    "cs/TEXTA.ENG",
+    "cs/TEXTH.ENG",
+    "cs/TEXTO.ENG",
+    "cs/TITLE.ENG"
+  ],
+  "focusedTests": {
+    "command": "node --test tests/localization-assets.test.mjs tests/native-locale.test.mjs tests/painted-locale-presentation.test.mjs tests/localization-hud-footprint.test.mjs",
+    "passed": 17,
+    "failed": 0
+  },
+  "fixedFootprintCoverage": {
+    "unitTableRows": 27,
+    "structureTableRows": 19,
+    "displayedHeadings": 38,
+    "actionRows": 14,
+    "maximumHeadingAdvance": 58,
+    "maximumActionAdvance": 57,
+    "allowedAdvance": 60,
+    "damageOriginalAdvance": 16,
+    "damageCzechAdvance": 15
+  }
+}

@@ -24,8 +24,8 @@ const surface=(w=1280,h=800)=>Object.assign(document.createElement('canvas'),{wi
 const check=(ok,message)=>{if(!ok)throw Error(message);};
 try{
  const media=await createPaintedMedia(),manifest=media.manifest;
- check(Object.keys(manifest.resources).length===42&&manifest.motion.frames.length===264&&manifest.motion.coordinates.length===33,'Active42 manifest coverage');
- const cases=[['barrac',0],['barrac',1],['headqrts',5],['carryall',0],['carryall',1],['palace',10],['windtrap',0],['windtrap',5],['starport',16],['harvest',9],['gold-bb',3],['liteftry',2],['fartr',15],['fhark',20],['fordos',10],['fremen',1],['worm',0],['sardukar',7]],results=[];
+ check(Object.keys(manifest.resources).length===46&&manifest.motion.frames.length===268&&manifest.motion.coordinates.length===33,'Active46 manifest coverage');
+ const cases=[['barrac',0],['barrac',1],['headqrts',5],['carryall',0],['carryall',1],['palace',10],['windtrap',0],['windtrap',5],['starport',16],['harvest',9],['gold-bb',3],['liteftry',2],['fartr',15],['fhark',20],['fordos',10],['fremen',1],['worm',0],['sardukar',7],['win1',0],['win2',0],['lostbild',0],['lostvehc',0]],results=[];
  for(const[name,index]of cases){
   const f=document.createElement('figure'),caption=document.createElement('figcaption'),canvas=surface(736,448);
   caption.textContent=name+' native frame '+index;f.append(caption,canvas);gallery.append(f);
@@ -34,8 +34,9 @@ try{
  }
  const allCanvas=surface(),ac=allCanvas.getContext('2d',{willReadFrequently:true});
  let framesRendered=0,factoryFrames=0,bakedFramesCompared=0,bakedReverseCompared=0;
+ const outcomeNames=new Set(['WIN1.WSA','WIN2.WSA','LOSTBILD.WSA','LOSTVEHC.WSA']),subsetCoverage={original36:{resources:0,phases:0},extra6:{resources:0,phases:0},outcome4:{resources:0,phases:0},previous42:{resources:0,phases:0}};
  const images=new Map();
- await Promise.all(Object.entries(manifest.atlases).filter(([id])=>id.startsWith('extra')).map(async([id,row])=>{
+ await Promise.all(Object.entries(manifest.atlases).filter(([id])=>id.startsWith('extra')||id==='outcomeBases').map(async([id,row])=>{
   const image=new Image();await new Promise((resolve,reject)=>{image.onload=resolve;image.onerror=reject;image.src=new URL(row.src,location.href);});images.set(id,image);
  }));
  const expected=surface(736,448),ec=expected.getContext('2d',{willReadFrequently:true});
@@ -48,6 +49,9 @@ try{
   for(let i=0;i<actual.length;i++)if(actual[i]!==want[i])throw Error('Baked Canvas byte mismatch '+name+':'+index+' byte '+i);
  };
  for(const[name,row]of Object.entries(manifest.resources)){
+  const subset=outcomeNames.has(name)?'outcome4':row.renderMode==='painted-frame-sequence'?'extra6':'original36';
+  subsetCoverage[subset].resources++;subsetCoverage[subset].phases+=row.frameCount;
+  if(subset!=='outcome4'){subsetCoverage.previous42.resources++;subsetCoverage.previous42.phases+=row.frameCount;}
   for(let index=0;index<row.frameCount;index++){
    ac.clearRect(0,0,1280,800);const rendered=media.draw(ac,nativeFrame(name,index),{scene:'mentat'});
    check(rendered.drawn&&!rendered.missingMotionAssets.length&&rendered.resource===name&&rendered.samples===33,'Missing actual Canvas phase '+name+':'+index);framesRendered++;
@@ -59,8 +63,9 @@ try{
    media.draw(ac,nativeFrame(name,index),{scene:'mentat'});compareBaked(name,row,index);bakedReverseCompared++;
   }
  }
- check(framesRendered===264&&factoryFrames===42&&bakedFramesCompared===103&&bakedReverseCompared===103,'Canvas coverage counts');
- result.textContent=JSON.stringify({manifestSHA256,results,allFrameCanvasCoverage:{resources:42,framesRendered,witnessCoordinates:33,factoryFrames,bakedFramesCompared,bakedReverseCompared,missingAssets:0,errors:0},diagnostics:media.diagnostics()});
+ check(framesRendered===268&&factoryFrames===46&&bakedFramesCompared===107&&bakedReverseCompared===107,'Canvas coverage counts');
+ check(subsetCoverage.original36.resources===36&&subsetCoverage.original36.phases===161&&subsetCoverage.extra6.resources===6&&subsetCoverage.extra6.phases===103&&subsetCoverage.outcome4.resources===4&&subsetCoverage.outcome4.phases===4&&subsetCoverage.previous42.resources===42&&subsetCoverage.previous42.phases===264,'Preserved native inventory subsets');
+ result.textContent=JSON.stringify({manifestSHA256,results,allFrameCanvasCoverage:{resources:46,framesRendered,witnessCoordinates:33,factoryFrames,bakedFramesCompared,bakedReverseCompared,subsetCoverage,missingAssets:0,errors:0},diagnostics:media.diagnostics()});
 }catch(error){result.textContent=JSON.stringify({error:String(error),stack:error.stack});document.body.dataset.error='true';}
 document.body.dataset.done='true';
 </script>'''
@@ -71,7 +76,7 @@ def main():
  args=parser.parse_args()
  frames={}
  resources=set()
- for folder,expected in [('motion',161),('extra-motion',103)]:
+ for folder,expected in [('motion',161),('extra-motion',103),('outcome-motion',4)]:
   source=ROOT/'art/hd-v3/media'/folder
   inventory=json.loads((source/'inventory.json').read_text())
   count=0
@@ -85,10 +90,10 @@ def main():
     frames[row['resource']+':'+str(frame['frame'])]=base64.b64encode(raw).decode()
     count+=1
   assert count==expected
- assert len(frames)==264 and len(resources)==42
+ assert len(frames)==268 and len(resources)==46
  manifest_sha=hashlib.sha256((ROOT/'dist/painted/media.json').read_bytes()).hexdigest()
  destination=args.output.resolve()
  assert destination.parent==(ROOT/'dist').resolve(),'Temporary fixture must be directly inside dune2/dist'
  destination.write_text(TEMPLATE.replace('__NATIVE_FIXTURES__',json.dumps(frames,separators=(',',':'))).replace('__MANIFEST_SHA256__',json.dumps(manifest_sha)))
- print(json.dumps({'output':str(destination),'resources':42,'nativeFrames':264,'manifestSHA256':manifest_sha,'launchesServer':False,'executesDos':False}))
+ print(json.dumps({'output':str(destination),'resources':46,'nativeFrames':268,'manifestSHA256':manifest_sha,'launchesServer':False,'executesDos':False}))
 if __name__=='__main__':main()

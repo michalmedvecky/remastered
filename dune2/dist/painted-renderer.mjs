@@ -13,14 +13,15 @@ const readJSON = async file => {const response=await fetch(new URL('./'+file,imp
 const loadImage = file => new Promise((resolve,reject)=>{const image=new Image();image.onload=()=>resolve(image);image.onerror=()=>reject(Error('Painted atlas unavailable: '+file));image.src=new URL('./'+file,import.meta.url).href;});
 const hasPaint = (desc,tile=false) => desc?.paletteMode==='local16'&&desc.palette?.some((index,code)=>index>=144&&index<=(tile?159:152)&&desc.indices.some((value,i)=>value===code&&desc.mask[i]));
 
-export async function createPaintedRenderer(canvas,{mode='painted',onError=()=>{},setViewOffset=()=>{}}={}) {
+export async function createPaintedRenderer(canvas,{mode='painted',locale=null,onError=()=>{},setViewOffset=()=>{}}={}) {
   const [original,units,buildings,terrain] = await Promise.all([
     readJSON('painted/native.json'),readJSON('painted/units.json'),readJSON('painted/buildings.json'),createPaintedTerrain(),
   ]);
   if(original.schema!==1||units.schema!==1||buildings.schema!==1||units.scale!==4||buildings.scale!==4)throw Error('Unsupported painted asset schema');
+  for(const[id,patch]of Object.entries(locale?.uiFrames??{}))if(original.frames.ui[id])original.frames.ui[id]={...original.frames.ui[id],...patch};
   const frames={tiles:{},units:{},ui:{}};
   for(const kind of Object.keys(frames))for(const[id,desc]of Object.entries(original.frames[kind]))frames[kind][id]=prepareFrameDescriptor(desc);
-  const ui = await createPaintedUI({sourceFrames: frames});
+  const ui = await createPaintedUI({sourceFrames: frames,locale});
   const atlases={};
   await Promise.all([['unit',units],['building',buildings]].flatMap(([bank,manifest])=>Object.entries(manifest.atlases).map(async([key,row])=>{atlases[bank+':'+key]=await loadImage(row.src);})));
   canvas.width=W*SCALE;canvas.height=H*SCALE;
@@ -254,7 +255,14 @@ export async function createPaintedRenderer(canvas,{mode='painted',onError=()=>{
     const offset=cameraInputOffsetQ8(displayed,accepted);
     setViewOffset(offset.x,offset.y,frame.viewport);dirty=true;schedule();
   }
-  motionPreference.addEventListener('change',event=>{camera.setReducedMotion(event.matches,performance.now());schedule();});
-  document.addEventListener('visibilitychange',()=>{camera.reset(latestFrame,performance.now(),'visibility');setViewOffset(0,0,latestFrame?.viewport??0);lastCamera=null;lastAnimationAt=null;if(document.hidden){if(animation)cancelAnimationFrame(animation);animation=0;}else{dirty=!!latestFrame;schedule();}});
-  setMode(mode);return{present,setMode,diagnostics};
+  const onMotionChange=event=>{camera.setReducedMotion(event.matches,performance.now());schedule();};
+  const onVisibilityChange=()=>{camera.reset(latestFrame,performance.now(),'visibility');setViewOffset(0,0,latestFrame?.viewport??0);lastCamera=null;lastAnimationAt=null;if(document.hidden){if(animation)cancelAnimationFrame(animation);animation=0;}else{dirty=!!latestFrame;schedule();}};
+  motionPreference.addEventListener('change',onMotionChange);
+  document.addEventListener('visibilitychange',onVisibilityChange);
+  function dispose(){
+    if(animation)cancelAnimationFrame(animation);animation=0;
+    motionPreference.removeEventListener('change',onMotionChange);document.removeEventListener('visibilitychange',onVisibilityChange);
+    latestFrame=null;uiFrame=null;variants.clear();nativeVariants.clear();setViewOffset(0,0,0);
+  }
+  setMode(mode);return{present,setMode,diagnostics,dispose};
 }

@@ -1,0 +1,3879 @@
+{
+  "schema": 1,
+  "pass_": true,
+  "sourceSHA256": {
+    "tools/audit-localization-hud.py": "d4c5bd4e51e9bdd11311b668a3a1c792d7e63f51f9461768deeae1e0bbcfab46",
+    "art/localization/en.json": "c7aca8defe10991c745528059899ca7607888747c38ae22175ca1d05375b7d18",
+    "art/localization/cs-core.json": "df63d152cdd0876cf9a5fc2ee2be6756ce34b65cdc43d42f443820c720daf625",
+    "dist/locales/cs.json": "75d3fb74e35ea351a59c7742e7216c38681d6edd63c12ae93ead3a3f7488c729",
+    "dist/locales/cs/NEW6P.FNT": "a06c54460fe918c07f559e29c94eba4800208d4c962cedf73bc9f92b83db63c3",
+    "native/opendune/src/table/strings.h": "27a6cb1471eddb9eb4f3006fd7f18957f947eaf575daa0040d1de0968f0ab510",
+    "native/opendune/src/table/unitinfo.c": "61020d4dc2524c5b06d4afa46d413c9343ebdc550d20668c69332d68e37929b0",
+    "native/opendune/src/table/structureinfo.c": "44b9669eea5044c0e4df7ed22f4f39f5b4860e0ac5ddc68d2746fec4744f4e74",
+    "native/opendune/src/table/actioninfo.c": "a9a0e228370ef480e6917975f0fbb9e5c33b8786e6cdfaf0474c53c7ddefbd08",
+    "native/opendune/src/table/widgetinfo.c": "f9b6a4cfea1134eddda84eff72add5b9b2d247b648bc3a7d8589af7aaa9a2b17",
+    "native/opendune/src/gui/gui.c": "c9cab41502e22137e44726445ab394c96eb78902110e57ca42e630d9a659f06f",
+    "native/opendune/src/gui/widget_draw.c": "9fbe3c48ff103a68d278fa7b081689fbe846796f125d6a7bb34e5af2ea52a094"
+  },
+  "font": {
+    "resource": "NEW6P.FNT",
+    "count": 254,
+    "height": 8
+  },
+  "headerSettings": {
+    "flags": "0x111",
+    "font": "NEW6P.FNT",
+    "charOffset": -2
+  },
+  "actionSettings": {
+    "flags": "0x121",
+    "font": "NEW6P.FNT",
+    "charOffset": -1
+  },
+  "actionWidgetRects": [
+    [
+      258,
+      77,
+      60,
+      10
+    ],
+    [
+      258,
+      88,
+      60,
+      10
+    ],
+    [
+      258,
+      99,
+      60,
+      10
+    ],
+    [
+      258,
+      110,
+      60,
+      10
+    ]
+  ],
+  "damage": {
+    "nativeStringId": 49,
+    "recordId": "DUNE.ENG:049",
+    "original": "DMG",
+    "czech": "ŠKD",
+    "sourceSettings": {
+      "flags": "0x11",
+      "font": "NEW6P.FNT",
+      "charOffset": -2
+    },
+    "originalFootprint": {
+      "advance": 16,
+      "origin": [
+        296,
+        65
+      ],
+      "foregroundBounds": [
+        297,
+        66,
+        312,
+        71
+      ],
+      "glyphBoxes": [
+        [
+          296,
+          65,
+          7,
+          8
+        ],
+        [
+          301,
+          65,
+          8,
+          8
+        ],
+        [
+          307,
+          65,
+          7,
+          8
+        ]
+      ]
+    },
+    "translatedFootprint": {
+      "advance": 15,
+      "origin": [
+        296,
+        65
+      ],
+      "foregroundBounds": [
+        297,
+        65,
+        311,
+        72
+      ],
+      "glyphBoxes": [
+        [
+          296,
+          65,
+          7,
+          8
+        ],
+        [
+          301,
+          65,
+          7,
+          8
+        ],
+        [
+          306,
+          65,
+          7,
+          8
+        ]
+      ]
+    }
+  },
+  "headers": [
+    {
+      "kind": "unit",
+      "index": 0,
+      "internalName": "Carryall",
+      "symbol": "STR_CARRYALL",
+      "nativeStringId": 194,
+      "fullSymbol": "STR_ALLPURPOSE_CARRYALL",
+      "fullNativeStringId": 195,
+      "recordId": "DUNE.ENG:194",
+      "original": "Carryall",
+      "czech": "Nosič",
+      "footprint": {
+        "advance": 24,
+        "origin": [
+          276,
+          43
+        ],
+        "foregroundBounds": [
+          277,
+          43,
+          300,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            276,
+            43,
+            8,
+            8
+          ],
+          [
+            282,
+            43,
+            7,
+            8
+          ],
+          [
+            287,
+            43,
+            7,
+            8
+          ],
+          [
+            292,
+            43,
+            6,
+            8
+          ],
+          [
+            296,
+            43,
+            6,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 1,
+      "internalName": "'Thopter",
+      "symbol": "STR_THOPTER",
+      "nativeStringId": 196,
+      "fullSymbol": "STR_ORNITHIPTER",
+      "fullNativeStringId": 197,
+      "recordId": "DUNE.ENG:196",
+      "original": "'Thopter",
+      "czech": "Ornitoptéra",
+      "footprint": {
+        "advance": 56,
+        "origin": [
+          260,
+          43
+        ],
+        "foregroundBounds": [
+          261,
+          43,
+          316,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            260,
+            43,
+            7,
+            8
+          ],
+          [
+            265,
+            43,
+            7,
+            8
+          ],
+          [
+            270,
+            43,
+            8,
+            8
+          ],
+          [
+            276,
+            43,
+            6,
+            8
+          ],
+          [
+            280,
+            43,
+            8,
+            8
+          ],
+          [
+            286,
+            43,
+            7,
+            8
+          ],
+          [
+            291,
+            43,
+            7,
+            8
+          ],
+          [
+            296,
+            43,
+            8,
+            8
+          ],
+          [
+            302,
+            43,
+            6,
+            8
+          ],
+          [
+            306,
+            43,
+            7,
+            8
+          ],
+          [
+            311,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 2,
+      "internalName": "Infantry",
+      "symbol": "STR_INFANTRY",
+      "nativeStringId": 198,
+      "fullSymbol": "STR_LIGHT_INFANTRY_SQUAD",
+      "fullNativeStringId": 199,
+      "recordId": "DUNE.ENG:198",
+      "original": "Infantry",
+      "czech": "Pěchota",
+      "footprint": {
+        "advance": 34,
+        "origin": [
+          271,
+          43
+        ],
+        "foregroundBounds": [
+          272,
+          43,
+          305,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            271,
+            43,
+            7,
+            8
+          ],
+          [
+            276,
+            43,
+            6,
+            8
+          ],
+          [
+            280,
+            43,
+            6,
+            8
+          ],
+          [
+            284,
+            43,
+            7,
+            8
+          ],
+          [
+            289,
+            43,
+            7,
+            8
+          ],
+          [
+            294,
+            43,
+            8,
+            8
+          ],
+          [
+            300,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 3,
+      "internalName": "Troopers",
+      "symbol": "STR_TROOPERS",
+      "nativeStringId": 200,
+      "fullSymbol": "STR_HEAVY_TROOPER_SQUAD",
+      "fullNativeStringId": 201,
+      "recordId": "DUNE.ENG:200",
+      "original": "Troopers",
+      "czech": "Těž. pěchota",
+      "footprint": {
+        "advance": 57,
+        "origin": [
+          260,
+          43
+        ],
+        "foregroundBounds": [
+          261,
+          43,
+          317,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            260,
+            43,
+            8,
+            8
+          ],
+          [
+            266,
+            43,
+            6,
+            8
+          ],
+          [
+            270,
+            43,
+            8,
+            8
+          ],
+          [
+            276,
+            43,
+            4,
+            8
+          ],
+          [
+            278,
+            43,
+            7,
+            8
+          ],
+          [
+            283,
+            43,
+            7,
+            8
+          ],
+          [
+            288,
+            43,
+            6,
+            8
+          ],
+          [
+            292,
+            43,
+            6,
+            8
+          ],
+          [
+            296,
+            43,
+            7,
+            8
+          ],
+          [
+            301,
+            43,
+            7,
+            8
+          ],
+          [
+            306,
+            43,
+            8,
+            8
+          ],
+          [
+            312,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 4,
+      "internalName": "Soldier",
+      "symbol": "STR_SOLDIER",
+      "nativeStringId": 202,
+      "fullSymbol": "STR_INFANTRY_SOLDIER",
+      "fullNativeStringId": 203,
+      "recordId": "DUNE.ENG:202",
+      "original": "Soldier",
+      "czech": "Pěšák",
+      "footprint": {
+        "advance": 24,
+        "origin": [
+          276,
+          43
+        ],
+        "foregroundBounds": [
+          277,
+          43,
+          300,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            276,
+            43,
+            7,
+            8
+          ],
+          [
+            281,
+            43,
+            6,
+            8
+          ],
+          [
+            285,
+            43,
+            7,
+            8
+          ],
+          [
+            290,
+            43,
+            7,
+            8
+          ],
+          [
+            295,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 5,
+      "internalName": "Trooper",
+      "symbol": "STR_TROOPER",
+      "nativeStringId": 204,
+      "fullSymbol": "STR_HEAVY_TROOPER",
+      "fullNativeStringId": 205,
+      "recordId": "DUNE.ENG:204",
+      "original": "Trooper",
+      "czech": "Těžký pěšák",
+      "footprint": {
+        "advance": 56,
+        "origin": [
+          260,
+          43
+        ],
+        "foregroundBounds": [
+          261,
+          43,
+          316,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            260,
+            43,
+            8,
+            8
+          ],
+          [
+            266,
+            43,
+            6,
+            8
+          ],
+          [
+            270,
+            43,
+            8,
+            8
+          ],
+          [
+            276,
+            43,
+            7,
+            8
+          ],
+          [
+            281,
+            43,
+            8,
+            8
+          ],
+          [
+            287,
+            43,
+            7,
+            8
+          ],
+          [
+            292,
+            43,
+            7,
+            8
+          ],
+          [
+            297,
+            43,
+            6,
+            8
+          ],
+          [
+            301,
+            43,
+            7,
+            8
+          ],
+          [
+            306,
+            43,
+            7,
+            8
+          ],
+          [
+            311,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 6,
+      "internalName": "Saboteur",
+      "symbol": "STR_SABOTEUR",
+      "nativeStringId": 44,
+      "fullSymbol": "STR_SABOTEUR",
+      "fullNativeStringId": 44,
+      "recordId": "DUNE.ENG:044",
+      "original": "Saboteur",
+      "czech": "Sabotér",
+      "footprint": {
+        "advance": 35,
+        "origin": [
+          271,
+          43
+        ],
+        "foregroundBounds": [
+          272,
+          43,
+          306,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            271,
+            43,
+            7,
+            8
+          ],
+          [
+            276,
+            43,
+            7,
+            8
+          ],
+          [
+            281,
+            43,
+            7,
+            8
+          ],
+          [
+            286,
+            43,
+            7,
+            8
+          ],
+          [
+            291,
+            43,
+            8,
+            8
+          ],
+          [
+            297,
+            43,
+            6,
+            8
+          ],
+          [
+            301,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 7,
+      "internalName": "Launcher",
+      "symbol": "STR_LAUNCHER",
+      "nativeStringId": 208,
+      "fullSymbol": "STR_ROCKET_LAUNCHER",
+      "fullNativeStringId": 209,
+      "recordId": "DUNE.ENG:208",
+      "original": "Launcher",
+      "czech": "Raketomet",
+      "footprint": {
+        "advance": 46,
+        "origin": [
+          265,
+          43
+        ],
+        "foregroundBounds": [
+          266,
+          44,
+          311,
+          49
+        ],
+        "glyphBoxes": [
+          [
+            265,
+            43,
+            7,
+            8
+          ],
+          [
+            270,
+            43,
+            7,
+            8
+          ],
+          [
+            275,
+            43,
+            7,
+            8
+          ],
+          [
+            280,
+            43,
+            6,
+            8
+          ],
+          [
+            284,
+            43,
+            8,
+            8
+          ],
+          [
+            290,
+            43,
+            7,
+            8
+          ],
+          [
+            295,
+            43,
+            8,
+            8
+          ],
+          [
+            301,
+            43,
+            6,
+            8
+          ],
+          [
+            305,
+            43,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 8,
+      "internalName": "Deviator",
+      "symbol": "STR_DEVIATOR",
+      "nativeStringId": 210,
+      "fullSymbol": "STR_DEVIATOR_LAUNCHER",
+      "fullNativeStringId": 211,
+      "recordId": "DUNE.ENG:210",
+      "original": "Deviator",
+      "czech": "Deviátor",
+      "footprint": {
+        "advance": 40,
+        "origin": [
+          268,
+          43
+        ],
+        "foregroundBounds": [
+          269,
+          43,
+          308,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            268,
+            43,
+            7,
+            8
+          ],
+          [
+            273,
+            43,
+            6,
+            8
+          ],
+          [
+            277,
+            43,
+            8,
+            8
+          ],
+          [
+            283,
+            43,
+            6,
+            8
+          ],
+          [
+            287,
+            43,
+            7,
+            8
+          ],
+          [
+            292,
+            43,
+            8,
+            8
+          ],
+          [
+            298,
+            43,
+            7,
+            8
+          ],
+          [
+            303,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 9,
+      "internalName": "Tank",
+      "symbol": "STR_TANK",
+      "nativeStringId": 212,
+      "fullSymbol": "STR_COMBAT_TANK",
+      "fullNativeStringId": 213,
+      "recordId": "DUNE.ENG:212",
+      "original": "Tank",
+      "czech": "Tank",
+      "footprint": {
+        "advance": 22,
+        "origin": [
+          277,
+          43
+        ],
+        "foregroundBounds": [
+          278,
+          44,
+          299,
+          49
+        ],
+        "glyphBoxes": [
+          [
+            277,
+            43,
+            8,
+            8
+          ],
+          [
+            283,
+            43,
+            7,
+            8
+          ],
+          [
+            288,
+            43,
+            8,
+            8
+          ],
+          [
+            294,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 10,
+      "internalName": "Siege Tank",
+      "symbol": "STR_SIEGE_TANK",
+      "nativeStringId": 214,
+      "fullSymbol": "STR_HEAVY_SIEGE_TANK",
+      "fullNativeStringId": 215,
+      "recordId": "DUNE.ENG:214",
+      "original": "Siege Tank",
+      "czech": "Obléh. tank",
+      "footprint": {
+        "advance": 52,
+        "origin": [
+          262,
+          43
+        ],
+        "foregroundBounds": [
+          263,
+          43,
+          314,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            262,
+            43,
+            7,
+            8
+          ],
+          [
+            267,
+            43,
+            7,
+            8
+          ],
+          [
+            272,
+            43,
+            6,
+            8
+          ],
+          [
+            276,
+            43,
+            6,
+            8
+          ],
+          [
+            280,
+            43,
+            7,
+            8
+          ],
+          [
+            285,
+            43,
+            4,
+            8
+          ],
+          [
+            287,
+            43,
+            7,
+            8
+          ],
+          [
+            292,
+            43,
+            8,
+            8
+          ],
+          [
+            298,
+            43,
+            7,
+            8
+          ],
+          [
+            303,
+            43,
+            8,
+            8
+          ],
+          [
+            309,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 11,
+      "internalName": "Devastator",
+      "symbol": "STR_DEVASTATOR",
+      "nativeStringId": 216,
+      "fullSymbol": "STR_DEVASTATOR_TANK",
+      "fullNativeStringId": 217,
+      "recordId": "DUNE.ENG:216",
+      "original": "Devastator",
+      "czech": "Devastátor",
+      "footprint": {
+        "advance": 52,
+        "origin": [
+          262,
+          43
+        ],
+        "foregroundBounds": [
+          263,
+          43,
+          314,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            262,
+            43,
+            7,
+            8
+          ],
+          [
+            267,
+            43,
+            6,
+            8
+          ],
+          [
+            271,
+            43,
+            8,
+            8
+          ],
+          [
+            277,
+            43,
+            7,
+            8
+          ],
+          [
+            282,
+            43,
+            7,
+            8
+          ],
+          [
+            287,
+            43,
+            8,
+            8
+          ],
+          [
+            293,
+            43,
+            7,
+            8
+          ],
+          [
+            298,
+            43,
+            8,
+            8
+          ],
+          [
+            304,
+            43,
+            7,
+            8
+          ],
+          [
+            309,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 12,
+      "internalName": "Sonic Tank",
+      "symbol": "STR_SONIC_TANK",
+      "nativeStringId": 218,
+      "fullSymbol": "STR_SONIC_WAVE_TANK",
+      "fullNativeStringId": 219,
+      "recordId": "DUNE.ENG:218",
+      "original": "Sonic Tank",
+      "czech": "Son. tank",
+      "footprint": {
+        "advance": 45,
+        "origin": [
+          266,
+          43
+        ],
+        "foregroundBounds": [
+          267,
+          44,
+          311,
+          49
+        ],
+        "glyphBoxes": [
+          [
+            266,
+            43,
+            7,
+            8
+          ],
+          [
+            271,
+            43,
+            7,
+            8
+          ],
+          [
+            276,
+            43,
+            8,
+            8
+          ],
+          [
+            282,
+            43,
+            4,
+            8
+          ],
+          [
+            284,
+            43,
+            7,
+            8
+          ],
+          [
+            289,
+            43,
+            8,
+            8
+          ],
+          [
+            295,
+            43,
+            7,
+            8
+          ],
+          [
+            300,
+            43,
+            8,
+            8
+          ],
+          [
+            306,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 13,
+      "internalName": "Trike",
+      "symbol": "STR_TRIKE",
+      "nativeStringId": 220,
+      "fullSymbol": "STR_LIGHT_ATTACK_TRIKE",
+      "fullNativeStringId": 221,
+      "recordId": "DUNE.ENG:220",
+      "original": "Trike",
+      "czech": "Tříkolka",
+      "footprint": {
+        "advance": 39,
+        "origin": [
+          269,
+          43
+        ],
+        "foregroundBounds": [
+          270,
+          43,
+          308,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            269,
+            43,
+            8,
+            8
+          ],
+          [
+            275,
+            43,
+            7,
+            8
+          ],
+          [
+            280,
+            43,
+            6,
+            8
+          ],
+          [
+            284,
+            43,
+            7,
+            8
+          ],
+          [
+            289,
+            43,
+            7,
+            8
+          ],
+          [
+            294,
+            43,
+            6,
+            8
+          ],
+          [
+            298,
+            43,
+            7,
+            8
+          ],
+          [
+            303,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 14,
+      "internalName": "Raider Trike",
+      "symbol": "STR_RAIDER_TRIKE",
+      "nativeStringId": 222,
+      "fullSymbol": "STR_FAST_RAIDER_TRIKE",
+      "fullNativeStringId": 223,
+      "recordId": "DUNE.ENG:222",
+      "original": "Raider Trike",
+      "czech": "Přep. třík.",
+      "footprint": {
+        "advance": 48,
+        "origin": [
+          264,
+          43
+        ],
+        "foregroundBounds": [
+          265,
+          43,
+          312,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            264,
+            43,
+            7,
+            8
+          ],
+          [
+            269,
+            43,
+            7,
+            8
+          ],
+          [
+            274,
+            43,
+            6,
+            8
+          ],
+          [
+            278,
+            43,
+            7,
+            8
+          ],
+          [
+            283,
+            43,
+            4,
+            8
+          ],
+          [
+            285,
+            43,
+            7,
+            8
+          ],
+          [
+            290,
+            43,
+            8,
+            8
+          ],
+          [
+            296,
+            43,
+            7,
+            8
+          ],
+          [
+            301,
+            43,
+            6,
+            8
+          ],
+          [
+            305,
+            43,
+            7,
+            8
+          ],
+          [
+            310,
+            43,
+            4,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 15,
+      "internalName": "Quad",
+      "symbol": "STR_QUAD",
+      "nativeStringId": 224,
+      "fullSymbol": "STR_HEAVY_ATTACK_QUAD",
+      "fullNativeStringId": 225,
+      "recordId": "DUNE.ENG:224",
+      "original": "Quad",
+      "czech": "Čtyřkolka",
+      "footprint": {
+        "advance": 45,
+        "origin": [
+          266,
+          43
+        ],
+        "foregroundBounds": [
+          267,
+          43,
+          311,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            266,
+            43,
+            6,
+            8
+          ],
+          [
+            270,
+            43,
+            8,
+            8
+          ],
+          [
+            276,
+            43,
+            8,
+            8
+          ],
+          [
+            282,
+            43,
+            7,
+            8
+          ],
+          [
+            287,
+            43,
+            7,
+            8
+          ],
+          [
+            292,
+            43,
+            7,
+            8
+          ],
+          [
+            297,
+            43,
+            6,
+            8
+          ],
+          [
+            301,
+            43,
+            7,
+            8
+          ],
+          [
+            306,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 16,
+      "internalName": "Harvester",
+      "symbol": "STR_HARVESTER",
+      "nativeStringId": 226,
+      "fullSymbol": "STR_SPICE_HARVESTER",
+      "fullNativeStringId": 227,
+      "recordId": "DUNE.ENG:226",
+      "original": "Harvester",
+      "czech": "Sklízeč",
+      "footprint": {
+        "advance": 32,
+        "origin": [
+          272,
+          43
+        ],
+        "foregroundBounds": [
+          273,
+          43,
+          304,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            272,
+            43,
+            7,
+            8
+          ],
+          [
+            277,
+            43,
+            7,
+            8
+          ],
+          [
+            282,
+            43,
+            6,
+            8
+          ],
+          [
+            286,
+            43,
+            6,
+            8
+          ],
+          [
+            290,
+            43,
+            8,
+            8
+          ],
+          [
+            296,
+            43,
+            6,
+            8
+          ],
+          [
+            300,
+            43,
+            6,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 17,
+      "internalName": "MCV",
+      "symbol": "STR_MCV",
+      "nativeStringId": 228,
+      "fullSymbol": "STR_MOBILE_CONST_VEHICLE",
+      "fullNativeStringId": 229,
+      "recordId": "DUNE.ENG:228",
+      "original": "MCV",
+      "czech": "MSV",
+      "footprint": {
+        "advance": 17,
+        "origin": [
+          280,
+          43
+        ],
+        "foregroundBounds": [
+          281,
+          44,
+          297,
+          49
+        ],
+        "glyphBoxes": [
+          [
+            280,
+            43,
+            8,
+            8
+          ],
+          [
+            286,
+            43,
+            7,
+            8
+          ],
+          [
+            291,
+            43,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 18,
+      "internalName": "Death Hand",
+      "symbol": "STR_NULL",
+      "nativeStringId": 0,
+      "fullSymbol": "STR_NULL",
+      "fullNativeStringId": 0,
+      "displayed": false
+    },
+    {
+      "kind": "unit",
+      "index": 19,
+      "internalName": "Rocket",
+      "symbol": "STR_NULL",
+      "nativeStringId": 0,
+      "fullSymbol": "STR_NULL",
+      "fullNativeStringId": 0,
+      "displayed": false
+    },
+    {
+      "kind": "unit",
+      "index": 20,
+      "internalName": "ARocket",
+      "symbol": "STR_NULL",
+      "nativeStringId": 0,
+      "fullSymbol": "STR_NULL",
+      "fullNativeStringId": 0,
+      "displayed": false
+    },
+    {
+      "kind": "unit",
+      "index": 21,
+      "internalName": "GRocket",
+      "symbol": "STR_NULL",
+      "nativeStringId": 0,
+      "fullSymbol": "STR_NULL",
+      "fullNativeStringId": 0,
+      "displayed": false
+    },
+    {
+      "kind": "unit",
+      "index": 22,
+      "internalName": "MiniRocket",
+      "symbol": "STR_NULL",
+      "nativeStringId": 0,
+      "fullSymbol": "STR_NULL",
+      "fullNativeStringId": 0,
+      "displayed": false
+    },
+    {
+      "kind": "unit",
+      "index": 23,
+      "internalName": "Bullet",
+      "symbol": "STR_NULL",
+      "nativeStringId": 0,
+      "fullSymbol": "STR_NULL",
+      "fullNativeStringId": 0,
+      "displayed": false
+    },
+    {
+      "kind": "unit",
+      "index": 24,
+      "internalName": "Sonic Blast",
+      "symbol": "STR_NULL",
+      "nativeStringId": 0,
+      "fullSymbol": "STR_NULL",
+      "fullNativeStringId": 0,
+      "displayed": false
+    },
+    {
+      "kind": "unit",
+      "index": 25,
+      "internalName": "Sandworm",
+      "symbol": "STR_SANDWORM",
+      "nativeStringId": 230,
+      "fullSymbol": "STR_SANDWORM2",
+      "fullNativeStringId": 231,
+      "recordId": "DUNE.ENG:230",
+      "original": "Sandworm",
+      "czech": "Písečný červ",
+      "footprint": {
+        "advance": 58,
+        "origin": [
+          259,
+          43
+        ],
+        "foregroundBounds": [
+          260,
+          43,
+          317,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            259,
+            43,
+            7,
+            8
+          ],
+          [
+            264,
+            43,
+            6,
+            8
+          ],
+          [
+            268,
+            43,
+            7,
+            8
+          ],
+          [
+            273,
+            43,
+            6,
+            8
+          ],
+          [
+            277,
+            43,
+            6,
+            8
+          ],
+          [
+            281,
+            43,
+            8,
+            8
+          ],
+          [
+            287,
+            43,
+            8,
+            8
+          ],
+          [
+            293,
+            43,
+            7,
+            8
+          ],
+          [
+            298,
+            43,
+            6,
+            8
+          ],
+          [
+            302,
+            43,
+            6,
+            8
+          ],
+          [
+            306,
+            43,
+            7,
+            8
+          ],
+          [
+            311,
+            43,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "unit",
+      "index": 26,
+      "internalName": "Frigate",
+      "symbol": "STR_NULL",
+      "nativeStringId": 0,
+      "fullSymbol": "STR_NULL",
+      "fullNativeStringId": 0,
+      "displayed": false
+    },
+    {
+      "kind": "structure",
+      "index": 0,
+      "internalName": "Concrete",
+      "symbol": "STR_CONCRETE",
+      "nativeStringId": 232,
+      "fullSymbol": "STR_SMALL_CONCRETE_SLAB",
+      "fullNativeStringId": 233,
+      "recordId": "DUNE.ENG:232",
+      "original": "Concrete",
+      "czech": "Beton",
+      "footprint": {
+        "advance": 26,
+        "origin": [
+          275,
+          43
+        ],
+        "foregroundBounds": [
+          276,
+          44,
+          301,
+          49
+        ],
+        "glyphBoxes": [
+          [
+            275,
+            43,
+            7,
+            8
+          ],
+          [
+            280,
+            43,
+            6,
+            8
+          ],
+          [
+            284,
+            43,
+            8,
+            8
+          ],
+          [
+            290,
+            43,
+            7,
+            8
+          ],
+          [
+            295,
+            43,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 1,
+      "internalName": "Concrete4",
+      "symbol": "STR_CONCRETE_4",
+      "nativeStringId": 234,
+      "fullSymbol": "STR_LARGE_CONCRETE_SLAB",
+      "fullNativeStringId": 235,
+      "recordId": "DUNE.ENG:234",
+      "original": "Concrete 4",
+      "czech": "Beton 4",
+      "footprint": {
+        "advance": 37,
+        "origin": [
+          270,
+          43
+        ],
+        "foregroundBounds": [
+          271,
+          44,
+          307,
+          49
+        ],
+        "glyphBoxes": [
+          [
+            270,
+            43,
+            7,
+            8
+          ],
+          [
+            275,
+            43,
+            6,
+            8
+          ],
+          [
+            279,
+            43,
+            8,
+            8
+          ],
+          [
+            285,
+            43,
+            7,
+            8
+          ],
+          [
+            290,
+            43,
+            8,
+            8
+          ],
+          [
+            296,
+            43,
+            7,
+            8
+          ],
+          [
+            301,
+            43,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 2,
+      "internalName": "Palace",
+      "symbol": "STR_PALACE",
+      "nativeStringId": 236,
+      "fullSymbol": "STR_HOUSE_PALACE",
+      "fullNativeStringId": 237,
+      "recordId": "DUNE.ENG:236",
+      "original": "Palace",
+      "czech": "Palác",
+      "footprint": {
+        "advance": 23,
+        "origin": [
+          277,
+          43
+        ],
+        "foregroundBounds": [
+          278,
+          43,
+          300,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            277,
+            43,
+            7,
+            8
+          ],
+          [
+            282,
+            43,
+            7,
+            8
+          ],
+          [
+            287,
+            43,
+            6,
+            8
+          ],
+          [
+            291,
+            43,
+            7,
+            8
+          ],
+          [
+            296,
+            43,
+            6,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 3,
+      "internalName": "Light Fctry",
+      "symbol": "STR_LIGHT_FCTRY",
+      "nativeStringId": 238,
+      "fullSymbol": "STR_LIGHT_VEHICLE_FACTORY",
+      "fullNativeStringId": 239,
+      "recordId": "DUNE.ENG:238",
+      "original": "Light Fctry",
+      "czech": "Lehká tov.",
+      "footprint": {
+        "advance": 47,
+        "origin": [
+          265,
+          43
+        ],
+        "foregroundBounds": [
+          266,
+          43,
+          312,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            265,
+            43,
+            6,
+            8
+          ],
+          [
+            269,
+            43,
+            6,
+            8
+          ],
+          [
+            273,
+            43,
+            7,
+            8
+          ],
+          [
+            278,
+            43,
+            7,
+            8
+          ],
+          [
+            283,
+            43,
+            7,
+            8
+          ],
+          [
+            288,
+            43,
+            7,
+            8
+          ],
+          [
+            293,
+            43,
+            8,
+            8
+          ],
+          [
+            299,
+            43,
+            7,
+            8
+          ],
+          [
+            304,
+            43,
+            8,
+            8
+          ],
+          [
+            310,
+            43,
+            4,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 4,
+      "internalName": "Heavy Fctry",
+      "symbol": "STR_HEAVY_FCTRY",
+      "nativeStringId": 240,
+      "fullSymbol": "STR_HEAVY_VEHICLE_FACTORY",
+      "fullNativeStringId": 241,
+      "recordId": "DUNE.ENG:240",
+      "original": "Heavy Fctry",
+      "czech": "Těžká tov.",
+      "footprint": {
+        "advance": 50,
+        "origin": [
+          263,
+          43
+        ],
+        "foregroundBounds": [
+          264,
+          43,
+          313,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            263,
+            43,
+            8,
+            8
+          ],
+          [
+            269,
+            43,
+            6,
+            8
+          ],
+          [
+            273,
+            43,
+            8,
+            8
+          ],
+          [
+            279,
+            43,
+            7,
+            8
+          ],
+          [
+            284,
+            43,
+            7,
+            8
+          ],
+          [
+            289,
+            43,
+            7,
+            8
+          ],
+          [
+            294,
+            43,
+            8,
+            8
+          ],
+          [
+            300,
+            43,
+            7,
+            8
+          ],
+          [
+            305,
+            43,
+            8,
+            8
+          ],
+          [
+            311,
+            43,
+            4,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 5,
+      "internalName": "Hi-Tech",
+      "symbol": "STR_HITECH",
+      "nativeStringId": 242,
+      "fullSymbol": "STR_HITECH_FACTORY",
+      "fullNativeStringId": 243,
+      "recordId": "DUNE.ENG:242",
+      "original": "Hi-Tech",
+      "czech": "Hi-tech",
+      "footprint": {
+        "advance": 34,
+        "origin": [
+          271,
+          43
+        ],
+        "foregroundBounds": [
+          272,
+          44,
+          305,
+          49
+        ],
+        "glyphBoxes": [
+          [
+            271,
+            43,
+            7,
+            8
+          ],
+          [
+            276,
+            43,
+            6,
+            8
+          ],
+          [
+            280,
+            43,
+            8,
+            8
+          ],
+          [
+            286,
+            43,
+            8,
+            8
+          ],
+          [
+            292,
+            43,
+            6,
+            8
+          ],
+          [
+            296,
+            43,
+            6,
+            8
+          ],
+          [
+            300,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 6,
+      "internalName": "IX",
+      "symbol": "STR_IX",
+      "nativeStringId": 244,
+      "fullSymbol": "STR_HOUSE_OF_IX",
+      "fullNativeStringId": 245,
+      "recordId": "DUNE.ENG:244",
+      "original": "IX",
+      "czech": "IX",
+      "footprint": {
+        "advance": 10,
+        "origin": [
+          283,
+          43
+        ],
+        "foregroundBounds": [
+          284,
+          44,
+          293,
+          49
+        ],
+        "glyphBoxes": [
+          [
+            283,
+            43,
+            6,
+            8
+          ],
+          [
+            287,
+            43,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 7,
+      "internalName": "WOR",
+      "symbol": "STR_WOR",
+      "nativeStringId": 246,
+      "fullSymbol": "STR_WOR_TROOPER_FACILITY",
+      "fullNativeStringId": 247,
+      "recordId": "DUNE.ENG:246",
+      "original": "WOR",
+      "czech": "WOR",
+      "footprint": {
+        "advance": 16,
+        "origin": [
+          280,
+          43
+        ],
+        "foregroundBounds": [
+          281,
+          44,
+          296,
+          49
+        ],
+        "glyphBoxes": [
+          [
+            280,
+            43,
+            8,
+            8
+          ],
+          [
+            286,
+            43,
+            7,
+            8
+          ],
+          [
+            291,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 8,
+      "internalName": "Const Yard",
+      "symbol": "STR_CONST_YARD",
+      "nativeStringId": 248,
+      "fullSymbol": "STR_CONSTRUCTION_YARD",
+      "fullNativeStringId": 249,
+      "recordId": "DUNE.ENG:248",
+      "original": "Const. Yard",
+      "czech": "Stav. dvůr",
+      "footprint": {
+        "advance": 50,
+        "origin": [
+          263,
+          43
+        ],
+        "foregroundBounds": [
+          264,
+          43,
+          313,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            263,
+            43,
+            7,
+            8
+          ],
+          [
+            268,
+            43,
+            8,
+            8
+          ],
+          [
+            274,
+            43,
+            7,
+            8
+          ],
+          [
+            279,
+            43,
+            8,
+            8
+          ],
+          [
+            285,
+            43,
+            4,
+            8
+          ],
+          [
+            287,
+            43,
+            7,
+            8
+          ],
+          [
+            292,
+            43,
+            7,
+            8
+          ],
+          [
+            297,
+            43,
+            8,
+            8
+          ],
+          [
+            303,
+            43,
+            7,
+            8
+          ],
+          [
+            308,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 9,
+      "internalName": "Windtrap",
+      "symbol": "STR_WINDTRAP",
+      "nativeStringId": 250,
+      "fullSymbol": "STR_WINDTRAP_POWER_CENTER",
+      "fullNativeStringId": 251,
+      "recordId": "DUNE.ENG:250",
+      "original": "Windtrap",
+      "czech": "Větrná el.",
+      "footprint": {
+        "advance": 47,
+        "origin": [
+          265,
+          43
+        ],
+        "foregroundBounds": [
+          266,
+          43,
+          312,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            265,
+            43,
+            8,
+            8
+          ],
+          [
+            271,
+            43,
+            6,
+            8
+          ],
+          [
+            275,
+            43,
+            8,
+            8
+          ],
+          [
+            281,
+            43,
+            7,
+            8
+          ],
+          [
+            286,
+            43,
+            8,
+            8
+          ],
+          [
+            292,
+            43,
+            7,
+            8
+          ],
+          [
+            297,
+            43,
+            7,
+            8
+          ],
+          [
+            302,
+            43,
+            6,
+            8
+          ],
+          [
+            306,
+            43,
+            6,
+            8
+          ],
+          [
+            310,
+            43,
+            4,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 10,
+      "internalName": "Barracks",
+      "symbol": "STR_BARRACKS",
+      "nativeStringId": 252,
+      "fullSymbol": "STR_INFANTRY_BARRACKS",
+      "fullNativeStringId": 253,
+      "recordId": "DUNE.ENG:252",
+      "original": "Barracks",
+      "czech": "Kasárna",
+      "footprint": {
+        "advance": 36,
+        "origin": [
+          270,
+          43
+        ],
+        "foregroundBounds": [
+          271,
+          43,
+          306,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            270,
+            43,
+            7,
+            8
+          ],
+          [
+            275,
+            43,
+            7,
+            8
+          ],
+          [
+            280,
+            43,
+            7,
+            8
+          ],
+          [
+            285,
+            43,
+            7,
+            8
+          ],
+          [
+            290,
+            43,
+            7,
+            8
+          ],
+          [
+            295,
+            43,
+            8,
+            8
+          ],
+          [
+            301,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 11,
+      "internalName": "Starport",
+      "symbol": "STR_STARPORT",
+      "nativeStringId": 254,
+      "fullSymbol": "STR_STARPORT_FACILITY",
+      "fullNativeStringId": 255,
+      "recordId": "DUNE.ENG:254",
+      "original": "Starport",
+      "czech": "Kosmodrom",
+      "footprint": {
+        "advance": 47,
+        "origin": [
+          265,
+          43
+        ],
+        "foregroundBounds": [
+          266,
+          44,
+          312,
+          49
+        ],
+        "glyphBoxes": [
+          [
+            265,
+            43,
+            7,
+            8
+          ],
+          [
+            270,
+            43,
+            7,
+            8
+          ],
+          [
+            275,
+            43,
+            7,
+            8
+          ],
+          [
+            280,
+            43,
+            8,
+            8
+          ],
+          [
+            286,
+            43,
+            7,
+            8
+          ],
+          [
+            291,
+            43,
+            7,
+            8
+          ],
+          [
+            296,
+            43,
+            7,
+            8
+          ],
+          [
+            301,
+            43,
+            7,
+            8
+          ],
+          [
+            306,
+            43,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 12,
+      "internalName": "Refinery",
+      "symbol": "STR_REFINERY",
+      "nativeStringId": 256,
+      "fullSymbol": "STR_SPICE_REFINERY",
+      "fullNativeStringId": 257,
+      "recordId": "DUNE.ENG:256",
+      "original": "Refinery",
+      "czech": "Rafinérie",
+      "footprint": {
+        "advance": 41,
+        "origin": [
+          268,
+          43
+        ],
+        "foregroundBounds": [
+          269,
+          43,
+          309,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            268,
+            43,
+            7,
+            8
+          ],
+          [
+            273,
+            43,
+            7,
+            8
+          ],
+          [
+            278,
+            43,
+            6,
+            8
+          ],
+          [
+            282,
+            43,
+            6,
+            8
+          ],
+          [
+            286,
+            43,
+            8,
+            8
+          ],
+          [
+            292,
+            43,
+            6,
+            8
+          ],
+          [
+            296,
+            43,
+            7,
+            8
+          ],
+          [
+            301,
+            43,
+            6,
+            8
+          ],
+          [
+            305,
+            43,
+            6,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 13,
+      "internalName": "Repair",
+      "symbol": "STR_REPAIR2",
+      "nativeStringId": 258,
+      "fullSymbol": "STR_REPAIR_FACILITY",
+      "fullNativeStringId": 259,
+      "recordId": "DUNE.ENG:258",
+      "original": "Repair",
+      "czech": "Opravna",
+      "footprint": {
+        "advance": 37,
+        "origin": [
+          270,
+          43
+        ],
+        "foregroundBounds": [
+          271,
+          44,
+          307,
+          49
+        ],
+        "glyphBoxes": [
+          [
+            270,
+            43,
+            7,
+            8
+          ],
+          [
+            275,
+            43,
+            7,
+            8
+          ],
+          [
+            280,
+            43,
+            7,
+            8
+          ],
+          [
+            285,
+            43,
+            7,
+            8
+          ],
+          [
+            290,
+            43,
+            8,
+            8
+          ],
+          [
+            296,
+            43,
+            8,
+            8
+          ],
+          [
+            302,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 14,
+      "internalName": "Wall",
+      "symbol": "STR_WALL",
+      "nativeStringId": 260,
+      "fullSymbol": "STR_BASE_DEFENSE_WALL",
+      "fullNativeStringId": 261,
+      "recordId": "DUNE.ENG:260",
+      "original": "Wall",
+      "czech": "Zeď",
+      "footprint": {
+        "advance": 15,
+        "origin": [
+          281,
+          43
+        ],
+        "foregroundBounds": [
+          282,
+          43,
+          296,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            281,
+            43,
+            8,
+            8
+          ],
+          [
+            287,
+            43,
+            6,
+            8
+          ],
+          [
+            291,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 15,
+      "internalName": "Turret",
+      "symbol": "STR_TURRET",
+      "nativeStringId": 262,
+      "fullSymbol": "STR_CANNON_TURRET",
+      "fullNativeStringId": 263,
+      "recordId": "DUNE.ENG:262",
+      "original": "Turret",
+      "czech": "Věž",
+      "footprint": {
+        "advance": 16,
+        "origin": [
+          280,
+          43
+        ],
+        "foregroundBounds": [
+          281,
+          43,
+          296,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            280,
+            43,
+            8,
+            8
+          ],
+          [
+            286,
+            43,
+            6,
+            8
+          ],
+          [
+            290,
+            43,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 16,
+      "internalName": "R-Turret",
+      "symbol": "STR_RTURRET",
+      "nativeStringId": 264,
+      "fullSymbol": "STR_ROCKET_TURRET",
+      "fullNativeStringId": 265,
+      "recordId": "DUNE.ENG:264",
+      "original": "R-Turret",
+      "czech": "Raket. věž",
+      "footprint": {
+        "advance": 48,
+        "origin": [
+          264,
+          43
+        ],
+        "foregroundBounds": [
+          265,
+          43,
+          312,
+          50
+        ],
+        "glyphBoxes": [
+          [
+            264,
+            43,
+            7,
+            8
+          ],
+          [
+            269,
+            43,
+            7,
+            8
+          ],
+          [
+            274,
+            43,
+            7,
+            8
+          ],
+          [
+            279,
+            43,
+            6,
+            8
+          ],
+          [
+            283,
+            43,
+            8,
+            8
+          ],
+          [
+            289,
+            43,
+            4,
+            8
+          ],
+          [
+            291,
+            43,
+            7,
+            8
+          ],
+          [
+            296,
+            43,
+            8,
+            8
+          ],
+          [
+            302,
+            43,
+            6,
+            8
+          ],
+          [
+            306,
+            43,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 17,
+      "internalName": "Spice Silo",
+      "symbol": "STR_SPICE_SILO",
+      "nativeStringId": 266,
+      "fullSymbol": "STR_SPICE_STORAGE_SILO",
+      "fullNativeStringId": 267,
+      "recordId": "DUNE.ENG:266",
+      "original": "Spice Silo",
+      "czech": "Silo",
+      "footprint": {
+        "advance": 18,
+        "origin": [
+          279,
+          43
+        ],
+        "foregroundBounds": [
+          280,
+          44,
+          297,
+          49
+        ],
+        "glyphBoxes": [
+          [
+            279,
+            43,
+            7,
+            8
+          ],
+          [
+            284,
+            43,
+            6,
+            8
+          ],
+          [
+            288,
+            43,
+            6,
+            8
+          ],
+          [
+            292,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "kind": "structure",
+      "index": 18,
+      "internalName": "Outpost",
+      "symbol": "STR_OUTPOST",
+      "nativeStringId": 268,
+      "fullSymbol": "STR_RADAR_OUTPOST",
+      "fullNativeStringId": 269,
+      "recordId": "DUNE.ENG:268",
+      "original": "Outpost",
+      "czech": "Radar",
+      "footprint": {
+        "advance": 25,
+        "origin": [
+          276,
+          43
+        ],
+        "foregroundBounds": [
+          277,
+          44,
+          301,
+          49
+        ],
+        "glyphBoxes": [
+          [
+            276,
+            43,
+            7,
+            8
+          ],
+          [
+            281,
+            43,
+            7,
+            8
+          ],
+          [
+            286,
+            43,
+            7,
+            8
+          ],
+          [
+            291,
+            43,
+            7,
+            8
+          ],
+          [
+            296,
+            43,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    }
+  ],
+  "actions": [
+    {
+      "index": 0,
+      "internalName": "Attack",
+      "symbol": "STR_ATTACK",
+      "nativeStringId": 1,
+      "recordId": "DUNE.ENG:001",
+      "original": "Attack",
+      "czech": "Útok",
+      "footprint": {
+        "advance": 25,
+        "origin": [
+          276,
+          78
+        ],
+        "foregroundBounds": [
+          277,
+          78,
+          300,
+          85
+        ],
+        "glyphBoxes": [
+          [
+            276,
+            78,
+            7,
+            8
+          ],
+          [
+            282,
+            78,
+            8,
+            8
+          ],
+          [
+            289,
+            78,
+            7,
+            8
+          ],
+          [
+            295,
+            78,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "index": 1,
+      "internalName": "Move",
+      "symbol": "STR_MOVE",
+      "nativeStringId": 2,
+      "recordId": "DUNE.ENG:002",
+      "original": "Move",
+      "czech": "Přesun",
+      "footprint": {
+        "advance": 36,
+        "origin": [
+          270,
+          78
+        ],
+        "foregroundBounds": [
+          271,
+          78,
+          305,
+          85
+        ],
+        "glyphBoxes": [
+          [
+            270,
+            78,
+            7,
+            8
+          ],
+          [
+            276,
+            78,
+            7,
+            8
+          ],
+          [
+            282,
+            78,
+            6,
+            8
+          ],
+          [
+            287,
+            78,
+            7,
+            8
+          ],
+          [
+            293,
+            78,
+            7,
+            8
+          ],
+          [
+            299,
+            78,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "index": 2,
+      "internalName": "Retreat",
+      "symbol": "STR_RETREAT",
+      "nativeStringId": 3,
+      "recordId": "DUNE.ENG:003",
+      "original": "Retreat",
+      "czech": "Ústup",
+      "footprint": {
+        "advance": 31,
+        "origin": [
+          273,
+          78
+        ],
+        "foregroundBounds": [
+          274,
+          78,
+          303,
+          85
+        ],
+        "glyphBoxes": [
+          [
+            273,
+            78,
+            7,
+            8
+          ],
+          [
+            279,
+            78,
+            7,
+            8
+          ],
+          [
+            285,
+            78,
+            8,
+            8
+          ],
+          [
+            292,
+            78,
+            7,
+            8
+          ],
+          [
+            298,
+            78,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "index": 3,
+      "internalName": "Guard",
+      "symbol": "STR_GUARD",
+      "nativeStringId": 4,
+      "recordId": "DUNE.ENG:004",
+      "original": "Guard",
+      "czech": "Hlídat",
+      "footprint": {
+        "advance": 35,
+        "origin": [
+          271,
+          78
+        ],
+        "foregroundBounds": [
+          272,
+          78,
+          305,
+          85
+        ],
+        "glyphBoxes": [
+          [
+            271,
+            78,
+            7,
+            8
+          ],
+          [
+            277,
+            78,
+            6,
+            8
+          ],
+          [
+            282,
+            78,
+            6,
+            8
+          ],
+          [
+            287,
+            78,
+            7,
+            8
+          ],
+          [
+            293,
+            78,
+            7,
+            8
+          ],
+          [
+            299,
+            78,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "index": 4,
+      "internalName": "Area Guard",
+      "symbol": "STR_AREA_GUARD",
+      "nativeStringId": 5,
+      "recordId": "DUNE.ENG:005",
+      "original": "Area Guard",
+      "czech": "Hlídka",
+      "footprint": {
+        "advance": 34,
+        "origin": [
+          271,
+          78
+        ],
+        "foregroundBounds": [
+          272,
+          78,
+          304,
+          85
+        ],
+        "glyphBoxes": [
+          [
+            271,
+            78,
+            7,
+            8
+          ],
+          [
+            277,
+            78,
+            6,
+            8
+          ],
+          [
+            282,
+            78,
+            6,
+            8
+          ],
+          [
+            287,
+            78,
+            7,
+            8
+          ],
+          [
+            293,
+            78,
+            7,
+            8
+          ],
+          [
+            299,
+            78,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "index": 5,
+      "internalName": "Harvest",
+      "symbol": "STR_HARVEST",
+      "nativeStringId": 6,
+      "recordId": "DUNE.ENG:006",
+      "original": "Harvest",
+      "czech": "Těžit",
+      "footprint": {
+        "advance": 31,
+        "origin": [
+          273,
+          78
+        ],
+        "foregroundBounds": [
+          274,
+          78,
+          303,
+          85
+        ],
+        "glyphBoxes": [
+          [
+            273,
+            78,
+            8,
+            8
+          ],
+          [
+            280,
+            78,
+            6,
+            8
+          ],
+          [
+            285,
+            78,
+            8,
+            8
+          ],
+          [
+            292,
+            78,
+            6,
+            8
+          ],
+          [
+            297,
+            78,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "index": 6,
+      "internalName": "Return",
+      "symbol": "STR_RETURN",
+      "nativeStringId": 7,
+      "recordId": "DUNE.ENG:007",
+      "original": "Return",
+      "czech": "Návrat",
+      "footprint": {
+        "advance": 39,
+        "origin": [
+          269,
+          78
+        ],
+        "foregroundBounds": [
+          270,
+          78,
+          307,
+          85
+        ],
+        "glyphBoxes": [
+          [
+            269,
+            78,
+            8,
+            8
+          ],
+          [
+            276,
+            78,
+            7,
+            8
+          ],
+          [
+            282,
+            78,
+            8,
+            8
+          ],
+          [
+            289,
+            78,
+            7,
+            8
+          ],
+          [
+            295,
+            78,
+            7,
+            8
+          ],
+          [
+            301,
+            78,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "index": 7,
+      "internalName": "Stop",
+      "symbol": "STR_STOP2",
+      "nativeStringId": 37,
+      "recordId": "DUNE.ENG:037",
+      "original": "Stop",
+      "czech": "Zastavit",
+      "footprint": {
+        "advance": 51,
+        "origin": [
+          263,
+          78
+        ],
+        "foregroundBounds": [
+          264,
+          79,
+          313,
+          84
+        ],
+        "glyphBoxes": [
+          [
+            263,
+            78,
+            8,
+            8
+          ],
+          [
+            270,
+            78,
+            7,
+            8
+          ],
+          [
+            276,
+            78,
+            7,
+            8
+          ],
+          [
+            282,
+            78,
+            8,
+            8
+          ],
+          [
+            289,
+            78,
+            7,
+            8
+          ],
+          [
+            295,
+            78,
+            8,
+            8
+          ],
+          [
+            302,
+            78,
+            6,
+            8
+          ],
+          [
+            307,
+            78,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "index": 8,
+      "internalName": "Ambush",
+      "symbol": "STR_AMBUSH",
+      "nativeStringId": 9,
+      "recordId": "DUNE.ENG:009",
+      "original": "Ambush",
+      "czech": "Přepad",
+      "footprint": {
+        "advance": 35,
+        "origin": [
+          271,
+          78
+        ],
+        "foregroundBounds": [
+          272,
+          78,
+          305,
+          85
+        ],
+        "glyphBoxes": [
+          [
+            271,
+            78,
+            7,
+            8
+          ],
+          [
+            277,
+            78,
+            7,
+            8
+          ],
+          [
+            283,
+            78,
+            6,
+            8
+          ],
+          [
+            288,
+            78,
+            7,
+            8
+          ],
+          [
+            294,
+            78,
+            7,
+            8
+          ],
+          [
+            300,
+            78,
+            7,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "index": 9,
+      "internalName": "Sabotage",
+      "symbol": "STR_SABOTAGE",
+      "nativeStringId": 10,
+      "recordId": "DUNE.ENG:010",
+      "original": "Sabotage",
+      "czech": "Sabotáž",
+      "footprint": {
+        "advance": 44,
+        "origin": [
+          266,
+          78
+        ],
+        "foregroundBounds": [
+          267,
+          78,
+          309,
+          85
+        ],
+        "glyphBoxes": [
+          [
+            266,
+            78,
+            7,
+            8
+          ],
+          [
+            272,
+            78,
+            7,
+            8
+          ],
+          [
+            278,
+            78,
+            7,
+            8
+          ],
+          [
+            284,
+            78,
+            7,
+            8
+          ],
+          [
+            290,
+            78,
+            8,
+            8
+          ],
+          [
+            297,
+            78,
+            7,
+            8
+          ],
+          [
+            303,
+            78,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "index": 10,
+      "internalName": "Die",
+      "symbol": "STR_DIE",
+      "nativeStringId": 11,
+      "recordId": "DUNE.ENG:011",
+      "original": "Die",
+      "czech": "Zahynout",
+      "footprint": {
+        "advance": 52,
+        "origin": [
+          262,
+          78
+        ],
+        "foregroundBounds": [
+          263,
+          79,
+          313,
+          84
+        ],
+        "glyphBoxes": [
+          [
+            262,
+            78,
+            8,
+            8
+          ],
+          [
+            269,
+            78,
+            7,
+            8
+          ],
+          [
+            275,
+            78,
+            7,
+            8
+          ],
+          [
+            281,
+            78,
+            8,
+            8
+          ],
+          [
+            288,
+            78,
+            8,
+            8
+          ],
+          [
+            295,
+            78,
+            7,
+            8
+          ],
+          [
+            301,
+            78,
+            7,
+            8
+          ],
+          [
+            307,
+            78,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "index": 11,
+      "internalName": "Hunt",
+      "symbol": "STR_HUNT",
+      "nativeStringId": 12,
+      "recordId": "DUNE.ENG:012",
+      "original": "Hunt",
+      "czech": "Lovit",
+      "footprint": {
+        "advance": 30,
+        "origin": [
+          273,
+          78
+        ],
+        "foregroundBounds": [
+          274,
+          79,
+          302,
+          84
+        ],
+        "glyphBoxes": [
+          [
+            273,
+            78,
+            6,
+            8
+          ],
+          [
+            278,
+            78,
+            7,
+            8
+          ],
+          [
+            284,
+            78,
+            8,
+            8
+          ],
+          [
+            291,
+            78,
+            6,
+            8
+          ],
+          [
+            296,
+            78,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "index": 12,
+      "internalName": "Deploy",
+      "symbol": "STR_DEPLOY",
+      "nativeStringId": 31,
+      "recordId": "DUNE.ENG:031",
+      "original": "Deploy",
+      "czech": "Rozvinout",
+      "footprint": {
+        "advance": 57,
+        "origin": [
+          260,
+          78
+        ],
+        "foregroundBounds": [
+          261,
+          79,
+          316,
+          84
+        ],
+        "glyphBoxes": [
+          [
+            260,
+            78,
+            7,
+            8
+          ],
+          [
+            266,
+            78,
+            7,
+            8
+          ],
+          [
+            272,
+            78,
+            8,
+            8
+          ],
+          [
+            279,
+            78,
+            8,
+            8
+          ],
+          [
+            286,
+            78,
+            6,
+            8
+          ],
+          [
+            291,
+            78,
+            8,
+            8
+          ],
+          [
+            298,
+            78,
+            7,
+            8
+          ],
+          [
+            304,
+            78,
+            7,
+            8
+          ],
+          [
+            310,
+            78,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    },
+    {
+      "index": 13,
+      "internalName": "Destruct",
+      "symbol": "STR_DESTRUCT",
+      "nativeStringId": 153,
+      "recordId": "DUNE.ENG:153",
+      "original": "Destruct",
+      "czech": "Zničit",
+      "footprint": {
+        "advance": 36,
+        "origin": [
+          270,
+          78
+        ],
+        "foregroundBounds": [
+          271,
+          78,
+          305,
+          85
+        ],
+        "glyphBoxes": [
+          [
+            270,
+            78,
+            8,
+            8
+          ],
+          [
+            277,
+            78,
+            8,
+            8
+          ],
+          [
+            284,
+            78,
+            6,
+            8
+          ],
+          [
+            289,
+            78,
+            6,
+            8
+          ],
+          [
+            294,
+            78,
+            6,
+            8
+          ],
+          [
+            299,
+            78,
+            8,
+            8
+          ]
+        ]
+      },
+      "nativeBudget": 60
+    }
+  ],
+  "coverage": {
+    "unitRows": 27,
+    "structureRows": 19,
+    "actionRows": 14,
+    "displayedHeadingRows": 38
+  },
+  "failures": [],
+  "runtimeStringBytes": 35423,
+  "translationRecords": 1338,
+  "limitations": [
+    "Static font/table footprints, not an execution of the original DOS binary.",
+    "Only narrow HUD abbreviation/action roles are shortened; full names, help and campaign prose are retained."
+  ]
+}

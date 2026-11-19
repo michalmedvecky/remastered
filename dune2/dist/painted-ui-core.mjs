@@ -1,5 +1,6 @@
 // Read-only presentation helpers. Native layout and ink decide what is visible.
 import {mappedIndex} from './hd-core.mjs';
+import {decodeNativeCharacter} from './native-text.mjs';
 
 export function intersectRect(a, b) {
   const x = Math.max(a[0], b[0]), y = Math.max(a[1], b[1]);
@@ -12,12 +13,9 @@ export function insideRect(x, y, rect) {
   return x >= rect[0] && y >= rect[1] && x < rect[0] + rect[2] && y < rect[1] + rect[3];
 }
 
-export function glyphCharacter(value) {
-  if (!Number.isInteger(value) || value < 32 || value > 255) return '';
-  if (value < 127) return String.fromCharCode(value);
-  // The original DOS text is CP437, including user-entered save descriptions.
-  const high = 'ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜ¢£¥₧ƒáíóúñÑªº¿⌐¬½¼¡«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■ ';
-  return high[value - 128] ?? '';
+export function glyphCharacter(value,encoding='cp437') {
+  if (!Number.isInteger(value) || value < 32 || value === 127 || value > 255) return '';
+  return decodeNativeCharacter(value,encoding);
 }
 
 export function glyphInkVisibility(glyph, pixels) {
@@ -55,10 +53,10 @@ export function uiSpriteVisibility(command, source, pixels) {
 }
 
 /** Merge only native-adjacent glyphs. Never reflow or invent semantic text. */
-export function glyphRuns(glyphs) {
+export function glyphRuns(glyphs,{encoding='cp437'}={}) {
   const runs = [];
   for (const glyph of [...glyphs].sort((a, b) => a.serial - b.serial)) {
-    const char = glyphCharacter(glyph.char);
+    const char = glyphCharacter(glyph.char,encoding);
     if (!char || glyph.visibleInk === 0) continue;
     const previous = runs.at(-1);
     const style = [glyph.font, glyph.fontHeight ?? glyph.height, ...(glyph.colours ?? [])].join(':');
@@ -82,7 +80,7 @@ export function glyphRuns(glyphs) {
  * literal line or its layout. A missing glyph may have the same advance as a
  * space: reconstructing words from surviving ink cannot distinguish them. */
 export function observedTextRuns(frame) {
-  if (!Array.isArray(frame.textRuns)) return glyphRuns(frame.textGlyphs ?? []);
+  if (!Array.isArray(frame.textRuns)) return glyphRuns(frame.textGlyphs ?? [],{encoding:frame.textEncoding??'cp437'});
   return frame.textRuns.filter(run => typeof run.text === 'string' && run.text.length && run.visibleInk > 0 && run.width > 0 && (run.fontHeight ?? run.height) > 0 && Array.isArray(run.clips) && run.clips.length)
     .map(run => ({...run, stable: true, full: true}));
 }

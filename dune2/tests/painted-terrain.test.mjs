@@ -15,10 +15,14 @@ test('all135 terrain states bind independently decoded original ICON geometry an
  assert.equal(manifest.coverage.landscapeStates,81);assert.equal(manifest.coverage.fogStates,16);assert.equal(manifest.coverage.smudgeStates,32);assert.equal(manifest.coverage.bloomStates,2);
 });
 
-test('fog geometry remains exact and all native interior terrain endpoints fully cover their class',()=>{
+test('fog geometry remains exact and rock/mountain interior masks cover their class',()=>{
  const originals=originalIcons(),atlas=decodePNG(read('dist/'+manifest.assets.masks.src));
  for(let id=108;id<=123;id++){const m=manifest.tiles[id].fogMask;for(let y=0;y<64;y++)for(let x=0;x<64;x++)assert.equal(atlas.pixels[((m.y+y)*atlas.width+m.x+x)*4+3],originals[id].mask[(y>>2)*16+(x>>2)]*255,'fog '+id);}
- for(const id of [143,159,175,191,207])assert(Buffer.from(manifest.tiles[id].layers[0].mask.nativeMaskBase64,'base64').every(v=>v===1),'full class '+id);
+ // Dune/spice/dense IDs now use the continuous global material field. Their
+ // semantic class remains full; its visible mineral/ridge ink must be sparse.
+ // That opacity contract is checked in painted-material-field.test.mjs rather
+ // than asserting opaque alpha on the unused legacy159/191/207 atlas masks.
+ for(const id of [143,175])assert(Buffer.from(manifest.tiles[id].layers[0].mask.nativeMaskBase64,'base64').every(v=>v===1),'full class '+id);
  const slab=Buffer.from(manifest.tiles[124].layers[0].mask.nativeMaskBase64,'base64');assert.deepEqual([...slab],[...originals[124].mask]);
 });
 

@@ -8,10 +8,10 @@ import{decodePNG,alphaBounds}from'../tools/painted-png.mjs';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),read=p=>fs.readFileSync(path.join(ROOT,p)),hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 const m=JSON.parse(read('dist/painted/media.json')),inventory=JSON.parse(read('art/hd-v3/media/motion/inventory.json')),atlases=Object.fromEntries(Object.entries(m.atlases).map(([id,a])=>[id,decodePNG(read('dist/'+a.src))]));
 
-test('all42 native portrait resources retain the original36 opaque736x448 base subset',()=>{
- assert.equal(m.scale,4);assert.equal(Object.keys(m.resources).length,42);let frameCount=0;
+test('all46 ordinary preview resources retain the original36 opaque736x448 base subset',()=>{
+ assert.equal(m.scale,4);assert.equal(Object.keys(m.resources).length,46);let frameCount=0;
  for(const source of inventory.resources){const r=m.resources[source.resource],f=r.frames['0'],a=atlases[f.atlas];assert.equal(r.sourceSHA256,source.resourceSha256);assert.deepEqual(r.nativeRect,[128,48,184,112]);assert.equal(r.housePaint,false);assert.deepEqual(f.rect.slice(2),[736,448]);assert.equal(f.status,'painted-whole-preview');assert.equal(r.frameCount,source.frameCount);assert.deepEqual(r.visualPhaseSequence,source.visualPhaseSequence);frameCount+=r.nativeFrames.length;for(let y=0;y<448;y++)for(let x=0;x<736;x++)assert.equal(a.pixels[((f.rect[1]+y)*a.width+f.rect[0]+x)*4+3],255);}
- assert.equal(frameCount,161);assert.equal(m.motion.totalFrames,264);assert.equal(m.motion.distinctFrameCount,210);assert.equal(m.motion.coordinates.length,33);
+ assert.equal(frameCount,161);assert.equal(m.motion.totalFrames,268);assert.equal(m.motion.distinctFrameCount,214);assert.equal(m.motion.coordinates.length,33);
 });
 
 test('new motion parts and matched cleanplates are bounded, complete and hash-bound',()=>{

@@ -1,0 +1,246 @@
+{
+  "schema": 1,
+  "manifestSHA256": "5e42af94e6d4ade99e19d1b95c49a9faff420ebec182f5aa3259c1ba01d266dd",
+  "resources": [
+    "SLAB.WSA",
+    "4SLAB.WSA",
+    "WALL.WSA",
+    "WINDTRAP.WSA",
+    "CONSTRUC.WSA",
+    "PALACE.WSA",
+    "BARRAC.WSA",
+    "WOR.WSA",
+    "LITEFTRY.WSA",
+    "HVYFTRY.WSA",
+    "HITCFTRY.WSA",
+    "IX.WSA",
+    "REFINERY.WSA",
+    "REPAIR.WSA",
+    "HEADQRTS.WSA",
+    "STORAGE.WSA",
+    "STARPORT.WSA",
+    "TURRET.WSA",
+    "RTURRET.WSA",
+    "GOLD-BB.WSA",
+    "CARRYALL.WSA",
+    "ORNI.WSA",
+    "MCV.WSA",
+    "HARVEST.WSA",
+    "LTANK.WSA",
+    "HTANK.WSA",
+    "HARKTANK.WSA",
+    "STANK.WSA",
+    "RTANK.WSA",
+    "ORDRTANK.WSA",
+    "TRIKE.WSA",
+    "OTRIKE.WSA",
+    "INFANTRY.WSA",
+    "HYINFY.WSA",
+    "SABOTURE.WSA",
+    "QUAD.WSA",
+    "FARTR.WSA",
+    "FHARK.WSA",
+    "FORDOS.WSA",
+    "WORM.WSA",
+    "FREMEN.WSA",
+    "SARDUKAR.WSA"
+  ],
+  "atlases": {
+    "media0": {
+      "src": "painted/media0-5b62f876fa973cb9.png",
+      "sha256": "5b62f876fa973cb904162cf49f8e55417f40fc1987548eb328831f5b5f5cd153",
+      "w": 2944,
+      "h": 1344
+    },
+    "media1": {
+      "src": "painted/media1-e6d1338fcab78d04.png",
+      "sha256": "e6d1338fcab78d04415e0a616fff8a513985c0ddfd58d4cbf4429ed7e10a04af",
+      "w": 2944,
+      "h": 1344
+    },
+    "media2": {
+      "src": "painted/media2-64c880242367c943.png",
+      "sha256": "64c880242367c9430f449731dc4c404dab6b12b8bc161a50d7bce5c9c0f481a4",
+      "w": 2944,
+      "h": 1344
+    },
+    "parts": {
+      "src": "painted/media-parts-795800c801ca9c0e.png",
+      "sha256": "795800c801ca9c0ee2e3a3a3acbef6fe0e06eacef485d9c29bd44458e4670038",
+      "w": 512,
+      "h": 256
+    },
+    "cleanplates": {
+      "src": "painted/media-cleanplates-ae654f0b05f4e6aa.png",
+      "sha256": "ae654f0b05f4e6aaabbb309e2aaf56b876af405fe8c63ef1f1202eddcb326fa5",
+      "w": 512,
+      "h": 128
+    },
+    "extraBases": {
+      "src": "painted/media-extra-extraBases-1742d763e86eb3b5.png",
+      "sha256": "1742d763e86eb3b5ea69ba66be3fee50abfd8dad9194a227e70a330d032c3bff",
+      "w": 2208,
+      "h": 896
+    },
+    "extraPlanet0": {
+      "src": "painted/media-extra-extraPlanet0-d6483b0406f024f0.png",
+      "sha256": "d6483b0406f024f037107f5458921ff5e4d8def934c966cbc7a50ad1477eef9b",
+      "w": 1640,
+      "h": 1848
+    },
+    "extraPlanet1": {
+      "src": "painted/media-extra-extraPlanet1-6fce28a19f418c48.png",
+      "sha256": "6fce28a19f418c48a1ba42ccb790efc6af50bdc29554667a13930330ab332eed",
+      "w": 1640,
+      "h": 1848
+    },
+    "extraPlanet2": {
+      "src": "painted/media-extra-extraPlanet2-137a43db3dacc788.png",
+      "sha256": "137a43db3dacc7882fba41c63929008ee92fc4f077580e7e59b9a57c7517a982",
+      "w": 1640,
+      "h": 1848
+    },
+    "extraIndicators": {
+      "src": "painted/media-extra-extraIndicators-077700e8c583c892.png",
+      "sha256": "077700e8c583c8925aa7e3d16c0c2a091e780e33e22f42bcb429702646c658bd",
+      "w": 512,
+      "h": 128
+    }
+  },
+  "nativePhases": 264,
+  "distinctNativeImages": 210,
+  "witnessCoordinates": [
+    [
+      59,
+      72
+    ],
+    [
+      84,
+      89
+    ],
+    [
+      174,
+      73
+    ],
+    [
+      22,
+      58
+    ],
+    [
+      101,
+      71
+    ],
+    [
+      63,
+      76
+    ],
+    [
+      139,
+      72
+    ],
+    [
+      110,
+      62
+    ],
+    [
+      73,
+      87
+    ],
+    [
+      12,
+      96
+    ],
+    [
+      150,
+      57
+    ],
+    [
+      32,
+      70
+    ],
+    [
+      15,
+      76
+    ],
+    [
+      114,
+      80
+    ],
+    [
+      74,
+      91
+    ],
+    [
+      90,
+      14
+    ],
+    [
+      74,
+      42
+    ],
+    [
+      131,
+      88
+    ],
+    [
+      14,
+      75
+    ],
+    [
+      133,
+      80
+    ],
+    [
+      112,
+      62
+    ],
+    [
+      145,
+      88
+    ],
+    [
+      162,
+      93
+    ],
+    [
+      88,
+      13
+    ],
+    [
+      103,
+      66
+    ],
+    [
+      1,
+      70
+    ],
+    [
+      44,
+      70
+    ],
+    [
+      12,
+      75
+    ],
+    [
+      160,
+      90
+    ],
+    [
+      69,
+      93
+    ],
+    [
+      35,
+      20
+    ],
+    [
+      38,
+      23
+    ],
+    [
+      29,
+      33
+    ]
+  ]
+}

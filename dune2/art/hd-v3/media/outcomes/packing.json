@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "packing": [
+    {
+      "resource": "WIN1.WSA",
+      "sourceRect": [
+        1,
+        1,
+        802,
+        487
+      ],
+      "atlas": "outcomeBases",
+      "rect": [
+        0,
+        0,
+        736,
+        448
+      ]
+    },
+    {
+      "resource": "WIN2.WSA",
+      "sourceRect": [
+        805,
+        1,
+        802,
+        487
+      ],
+      "atlas": "outcomeBases",
+      "rect": [
+        736,
+        0,
+        736,
+        448
+      ]
+    },
+    {
+      "resource": "LOSTBILD.WSA",
+      "sourceRect": [
+        1,
+        490,
+        802,
+        487
+      ],
+      "atlas": "outcomeBases",
+      "rect": [
+        0,
+        448,
+        736,
+        448
+      ]
+    },
+    {
+      "resource": "LOSTVEHC.WSA",
+      "sourceRect": [
+        805,
+        490,
+        802,
+        487
+      ],
+      "atlas": "outcomeBases",
+      "rect": [
+        736,
+        448,
+        736,
+        448
+      ]
+    }
+  ],
+  "art": {
+    "path": "art/hd-v3/media/outcomes/outcomes.png",
+    "sha256": "a3f048db371d594a14731d5b6032f1a87fcfff73810fbfd779bf90ae208c6c82",
+    "prompt": "art/hd-v3/media/outcomes/outcomes-prompt.txt",
+    "promptSHA256": "9f2d172e31e6db2317ab4ed6671dff03277652a9eb43fb81261c8fe817875626",
+    "method": "built-in-imagegen-whole-outcome-previews",
+    "dimensions": [
+      1608,
+      978
+    ],
+    "references": [
+      {
+        "path": "art/hd-v3/media/outcome-motion/review/all-first-frames-native.png",
+        "sha256": "c59a3da3db677cb3940efab458353a9c881560f331b308c9d844a9fb54679e95",
+        "role": "composition-only"
+      },
+      {
+        "path": "art/hd-v3/media/review/infantry-base.png",
+        "sha256": "5706d694624f9e054388b92b0128b827bdd4121d3e1bdb19cfccbf45a828d24a",
+        "role": "style-and-material-reference"
+      },
+      {
+        "path": "art/hd-v3/media/review/headqrts-base.png",
+        "sha256": "4952c2221384ac1e0ea6ec9e7b3cc9cba8a9f880acd907fe5eb710f98983f6db",
+        "role": "style-and-material-reference"
+      }
+    ]
+  },
+  "atlas": {
+    "src": "painted/media-outcomes-0ea320ec9189653b.png",
+    "sha256": "0ea320ec9189653b145967396a45871974a5577901950a17c081a330a2736b8d",
+    "w": 1472,
+    "h": 896
+  },
+  "preserved42Atlases": {
+    "media0": {
+      "src": "painted/media0-5b62f876fa973cb9.png",
+      "sha256": "5b62f876fa973cb904162cf49f8e55417f40fc1987548eb328831f5b5f5cd153",
+      "w": 2944,
+      "h": 1344
+    },
+    "media1": {
+      "src": "painted/media1-e6d1338fcab78d04.png",
+      "sha256": "e6d1338fcab78d04415e0a616fff8a513985c0ddfd58d4cbf4429ed7e10a04af",
+      "w": 2944,
+      "h": 1344
+    },
+    "media2": {
+      "src": "painted/media2-64c880242367c943.png",
+      "sha256": "64c880242367c9430f449731dc4c404dab6b12b8bc161a50d7bce5c9c0f481a4",
+      "w": 2944,
+      "h": 1344
+    },
+    "parts": {
+      "src": "painted/media-parts-795800c801ca9c0e.png",
+      "sha256": "795800c801ca9c0ee2e3a3a3acbef6fe0e06eacef485d9c29bd44458e4670038",
+      "w": 512,
+      "h": 256
+    },
+    "cleanplates": {
+      "src": "painted/media-cleanplates-ae654f0b05f4e6aa.png",
+      "sha256": "ae654f0b05f4e6aaabbb309e2aaf56b876af405fe8c63ef1f1202eddcb326fa5",
+      "w": 512,
+      "h": 128
+    },
+    "extraBases": {
+      "src": "painted/media-extra-extraBases-1742d763e86eb3b5.png",
+      "sha256": "1742d763e86eb3b5ea69ba66be3fee50abfd8dad9194a227e70a330d032c3bff",
+      "w": 2208,
+      "h": 896
+    },
+    "extraPlanet0": {
+      "src": "painted/media-extra-extraPlanet0-d6483b0406f024f0.png",
+      "sha256": "d6483b0406f024f037107f5458921ff5e4d8def934c966cbc7a50ad1477eef9b",
+      "w": 1640,
+      "h": 1848
+    },
+    "extraPlanet1": {
+      "src": "painted/media-extra-extraPlanet1-6fce28a19f418c48.png",
+      "sha256": "6fce28a19f418c48a1ba42ccb790efc6af50bdc29554667a13930330ab332eed",
+      "w": 1640,
+      "h": 1848
+    },
+    "extraPlanet2": {
+      "src": "painted/media-extra-extraPlanet2-137a43db3dacc788.png",
+      "sha256": "137a43db3dacc7882fba41c63929008ee92fc4f077580e7e59b9a57c7517a982",
+      "w": 1640,
+      "h": 1848
+    },
+    "extraIndicators": {
+      "src": "painted/media-extra-extraIndicators-077700e8c583c892.png",
+      "sha256": "077700e8c583c8925aa7e3d16c0c2a091e780e33e22f42bcb429702646c658bd",
+      "w": 512,
+      "h": 128
+    }
+  },
+  "originalRGBShading": false
+}

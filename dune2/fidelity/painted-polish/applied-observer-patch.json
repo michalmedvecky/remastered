@@ -1,5 +1,5 @@
 {
-  "scope": "native renderer observation only; no simulation changes",
+  "scope": "native renderer observation and presentation-only viewport picking; no simulation rule changes",
   "files": [
     {
       "path": "src/gui/viewport.c",
@@ -27,9 +27,15 @@
     },
     {
       "path": "src/gui/mentat.c",
+      "changed": false,
+      "beforeSha256": "0e01f1f25c1d2d50d514c1e2a3b995c7e3436458ad28f01f4d8aadb5b92a35b6",
+      "afterSha256": "0e01f1f25c1d2d50d514c1e2a3b995c7e3436458ad28f01f4d8aadb5b92a35b6"
+    },
+    {
+      "path": "src/opendune.c",
       "changed": true,
-      "beforeSha256": "1cad5eb228f095a3ad7128eacfe17e606c76d172e2d4058e61de84a859532ef0",
-      "afterSha256": "8bd5c2f94e94fd58068809bcfac085cb3fef7642ad575ab2cb76552d486e0ac1"
+      "beforeSha256": "dbcd09cea3e23ee112a42f853b64ff34b4a9cbcdfd841dd77f3349a421767530",
+      "afterSha256": "692fdb2535c52fd915cb29010cd7ece97ade76eacd192f998d5680e886caf267"
     },
     {
       "path": "src/timer.c",

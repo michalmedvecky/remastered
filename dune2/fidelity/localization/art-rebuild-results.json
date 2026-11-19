@@ -1,0 +1,293 @@
+{
+  "schema": 1,
+  "command": "npm --prefix dune2 run build:art",
+  "workingDirectory": "/Users/misko/Documents/ChatGPT/Prehistorik/web",
+  "startedUtc": "2026-11-19T16:15:13.942830+00:00",
+  "completedUtc": "2026-11-19T16:15:51.214568+00:00",
+  "elapsedSeconds": 37.271,
+  "exitCode": 0,
+  "executesDos": false,
+  "pass": true,
+  "generated": {
+    "beforeCount": 58,
+    "afterCount": 58,
+    "paintedCount": 32,
+    "byteIdenticalCount": 58,
+    "beforeAggregateSHA256": "d95eb7dde56dd5373d1006cea46ddc91e23c3a2fa5baf488ffe4033b930802cb",
+    "afterAggregateSHA256": "d95eb7dde56dd5373d1006cea46ddc91e23c3a2fa5baf488ffe4033b930802cb",
+    "added": [],
+    "removed": [],
+    "changed": [],
+    "files": {
+      "dist/fonts/arrakis-console.json": {
+        "sha256": "3065868de5b845e177070e89f9c46aca8edea67bce648e2cd41c84ab9f38112e",
+        "bytes": 3082
+      },
+      "dist/fonts/arrakis-console.woff": {
+        "sha256": "502829d76235427994120086899160c5ec698598ed0279ae1b2f2b8cdf1d54ac",
+        "bytes": 5660
+      },
+      "dist/locales/cs/AND.ENG": {
+        "sha256": "17e1c6fd9fd7745131ae9ffd67dccd89bc60c3c3f517589720f4af3da57ccfbd",
+        "bytes": 64778
+      },
+      "dist/locales/cs/BTTN.ENG": {
+        "sha256": "a0cbb53c15e6eba0e44e4f455591321ad120475185d97f23b79fea95848efffd",
+        "bytes": 6300
+      },
+      "dist/locales/cs/CHOAM.ENG": {
+        "sha256": "8627b63ba488ec7c1e1671ab795131f92faaede89157e329019dd5cd0cf15b32",
+        "bytes": 23074
+      },
+      "dist/locales/cs/CREDITS.ENG": {
+        "sha256": "f5dd6c83482a8b5acb4f18f4ae10f9ef559e70d3c83ff189adeb15cb4596cc4c",
+        "bytes": 1285
+      },
+      "dist/locales/cs/DUNE.ENG": {
+        "sha256": "9e44bf697f07c510700e99c9e828aa961baf2dee99ddfe4bcee781248fe6ec2e",
+        "bytes": 7097
+      },
+      "dist/locales/cs/HERALD.ENG": {
+        "sha256": "1ffae8fa8e1e7c62c9be92732355379ef020ea8791699c72c70cc884761d30fd",
+        "bytes": 64010
+      },
+      "dist/locales/cs/INTRO.ENG": {
+        "sha256": "bbbf845bbe333b3439a6f0bed91d8a4e0c607b17051ed20ce6c9dc31b104ef07",
+        "bytes": 1172
+      },
+      "dist/locales/cs/INTRO.FNT": {
+        "sha256": "b2524550aa6dde99a6f1d580f7b89b06ade5608795f81eab854606a31c27731d",
+        "bytes": 10753
+      },
+      "dist/locales/cs/MENTAT.ENG": {
+        "sha256": "84b41cc9c49b44292bba47aa1f5fc793ec3c32f0dca2a957b2781f8fc74633ca",
+        "bytes": 11594
+      },
+      "dist/locales/cs/MENTATA.ENG": {
+        "sha256": "859a39b9306ac8dbc72327c3599692da619fa0e2f9e8cee108e69d385a3dffc3",
+        "bytes": 7804
+      },
+      "dist/locales/cs/MENTATH.ENG": {
+        "sha256": "3d83bb52d4293610eec89d3a6307c6d4f2705d5ee70f2e2c7859b064fed381b3",
+        "bytes": 7296
+      },
+      "dist/locales/cs/MENTATO.ENG": {
+        "sha256": "903e5be082e86419a6f56ff3e64bd8df918fde143074e068974fb89709490b04",
+        "bytes": 7874
+      },
+      "dist/locales/cs/MESSAGE.ENG": {
+        "sha256": "c46a63579243e36cfe2fe2174f5d1f985564190619167aee2018f13e68a100a4",
+        "bytes": 1762
+      },
+      "dist/locales/cs/MISC.ENG": {
+        "sha256": "95e4bdac7649afb6ffdce213a0c71662a30c4e06b275b5365f3961cb3d769c76",
+        "bytes": 64010
+      },
+      "dist/locales/cs/NEW6P.FNT": {
+        "sha256": "a06c54460fe918c07f559e29c94eba4800208d4c962cedf73bc9f92b83db63c3",
+        "bytes": 6197
+      },
+      "dist/locales/cs/NEW8P.FNT": {
+        "sha256": "de88c6f6fcbd9e5dd06bcef876315396641b4110297fb54980ede351af71f3e6",
+        "bytes": 7248
+      },
+      "dist/locales/cs/PROTECT.ENG": {
+        "sha256": "a11c0e3b90e9aa36acf025953cbfb4f70b35a6a84f39575003fc7164b59a5bbc",
+        "bytes": 7693
+      },
+      "dist/locales/cs/TEXTA.ENG": {
+        "sha256": "a3060eeff818f35a156621b16e321b9aac2af7ade7b3763cd013de51a97b7691",
+        "bytes": 5611
+      },
+      "dist/locales/cs/TEXTH.ENG": {
+        "sha256": "e00995452fac6309078f43ad1aac07788cd1ed448e6bf943f0a3874a9ff6dded",
+        "bytes": 5502
+      },
+      "dist/locales/cs/TEXTO.ENG": {
+        "sha256": "9dc8aef567e55b74b91d48c14587eed2855551c4ce25a0bc5fe7db00a56ce818",
+        "bytes": 5545
+      },
+      "dist/locales/cs/TITLE.ENG": {
+        "sha256": "3b3b7aa697a08ae2e685ec734baa9db71dd8a0c5678dab8081f7b02fa9e28d74",
+        "bytes": 64010
+      },
+      "dist/locales/cs.json": {
+        "sha256": "75d3fb74e35ea351a59c7742e7216c38681d6edd63c12ae93ead3a3f7488c729",
+        "bytes": 605596
+      },
+      "dist/painted/arrakis-3be13331eeb0ba22.png": {
+        "sha256": "3be13331eeb0ba22cba0a46499776f7c58d0d808510c6b5e9f93843cd586d251",
+        "bytes": 999646
+      },
+      "dist/painted/buildings-733d96bdc1d1a864.png": {
+        "sha256": "733d96bdc1d1a864991ab7c68966aececac9d7261df8955adac4902b334a90b1",
+        "bytes": 2765975
+      },
+      "dist/painted/buildings.json": {
+        "sha256": "0b78b9ccf708e03a15bb4f5055cdd182ca1810b00931b25bead854b97976ef23",
+        "bytes": 100633
+      },
+      "dist/painted/icons.json": {
+        "sha256": "c899ac4cb2453d020454340523623f99921566705e2d6e152eea60de89b590d7",
+        "bytes": 1952458
+      },
+      "dist/painted/icons0-280d75768701d5a2.png": {
+        "sha256": "280d75768701d5a29d2e335ceea1ab2261e0a0f606c85f978ec3a5ca8ec127e6",
+        "bytes": 3801429
+      },
+      "dist/painted/icons1-99f51e709937fe74.png": {
+        "sha256": "99f51e709937fe742d9113ff859bd3de3b347a13f19ebbdba22466981d76ca74",
+        "bytes": 4883578
+      },
+      "dist/painted/icons2-6f8e7366f7e7eb38.png": {
+        "sha256": "6f8e7366f7e7eb3802339d1e9ff476dcb8ed901fadd53464ece956727bad0d86",
+        "bytes": 3975052
+      },
+      "dist/painted/interface-205e4858cb0f653c.png": {
+        "sha256": "205e4858cb0f653c4f318a38f6dc3201f3ffd11d165ab33ba83965da9495c5e1",
+        "bytes": 4035611
+      },
+      "dist/painted/interface-advisors-65882090de707013.png": {
+        "sha256": "65882090de707013f9621ab3c1a32d654299455929c1b2f9da7aba6df8c639a4",
+        "bytes": 6072152
+      },
+      "dist/painted/interface-campaign-6b3b20023b47c8e2.png": {
+        "sha256": "6b3b20023b47c8e25cb793121826579f8bc00f8556ec9221fbe7fd026a1cd2cb",
+        "bytes": 4632632
+      },
+      "dist/painted/interface-postgame-d5aca620b296eb33.png": {
+        "sha256": "d5aca620b296eb3347859e7ab04e60bac6c1528c262538f8b2f79dbb3ea56fc7",
+        "bytes": 1299618
+      },
+      "dist/painted/interface.json": {
+        "sha256": "b3a40ee2f494b50d74fdba2bdb4b64be7ca11ed102f3ed4d37811434a119d0d0",
+        "bytes": 1712813
+      },
+      "dist/painted/landing.json": {
+        "sha256": "27634cd625577fc98f38961052b23b076a742625dbe9a478230c5a9e2e0c1b2a",
+        "bytes": 597
+      },
+      "dist/painted/media-cleanplates-ae654f0b05f4e6aa.png": {
+        "sha256": "ae654f0b05f4e6aaabbb309e2aaf56b876af405fe8c63ef1f1202eddcb326fa5",
+        "bytes": 62153
+      },
+      "dist/painted/media-extra-extraBases-1742d763e86eb3b5.png": {
+        "sha256": "1742d763e86eb3b5ea69ba66be3fee50abfd8dad9194a227e70a330d032c3bff",
+        "bytes": 4208313
+      },
+      "dist/painted/media-extra-extraIndicators-077700e8c583c892.png": {
+        "sha256": "077700e8c583c8925aa7e3d16c0c2a091e780e33e22f42bcb429702646c658bd",
+        "bytes": 14631
+      },
+      "dist/painted/media-extra-extraPlanet0-d6483b0406f024f0.png": {
+        "sha256": "d6483b0406f024f037107f5458921ff5e4d8def934c966cbc7a50ad1477eef9b",
+        "bytes": 3797980
+      },
+      "dist/painted/media-extra-extraPlanet1-6fce28a19f418c48.png": {
+        "sha256": "6fce28a19f418c48a1ba42ccb790efc6af50bdc29554667a13930330ab332eed",
+        "bytes": 1980935
+      },
+      "dist/painted/media-extra-extraPlanet2-137a43db3dacc788.png": {
+        "sha256": "137a43db3dacc7882fba41c63929008ee92fc4f077580e7e59b9a57c7517a982",
+        "bytes": 5190913
+      },
+      "dist/painted/media-outcomes-0ea320ec9189653b.png": {
+        "sha256": "0ea320ec9189653b145967396a45871974a5577901950a17c081a330a2736b8d",
+        "bytes": 3649144
+      },
+      "dist/painted/media-parts-795800c801ca9c0e.png": {
+        "sha256": "795800c801ca9c0ee2e3a3a3acbef6fe0e06eacef485d9c29bd44458e4670038",
+        "bytes": 55937
+      },
+      "dist/painted/media.json": {
+        "sha256": "52d4906c1b8d64d123e70d59eca98403235900502e62e1f05c725daaf5d1d634",
+        "bytes": 297614
+      },
+      "dist/painted/media0-5b62f876fa973cb9.png": {
+        "sha256": "5b62f876fa973cb904162cf49f8e55417f40fc1987548eb328831f5b5f5cd153",
+        "bytes": 10287079
+      },
+      "dist/painted/media1-e6d1338fcab78d04.png": {
+        "sha256": "e6d1338fcab78d04415e0a616fff8a513985c0ddfd58d4cbf4429ed7e10a04af",
+        "bytes": 9753581
+      },
+      "dist/painted/media2-64c880242367c943.png": {
+        "sha256": "64c880242367c9430f449731dc4c404dab6b12b8bc161a50d7bce5c9c0f481a4",
+        "bytes": 9695921
+      },
+      "dist/painted/native.json": {
+        "sha256": "16519dfea0fd5dc39a0cb65f1d16ec5b3349567e8bef576a4c2429a5eaf874a5",
+        "bytes": 1987635
+      },
+      "dist/painted/terrain-masks-7487623e89a650c4.png": {
+        "sha256": "7487623e89a650c43328b4359cd7d586c291e941b91ff86e2032db96d5193af0",
+        "bytes": 20127
+      },
+      "dist/painted/terrain-overlays-ba3b0f1f85779784.png": {
+        "sha256": "ba3b0f1f857797840095718e5582b7d9ada70c91e9fbf98161a34cc008d19ddb",
+        "bytes": 133045
+      },
+      "dist/painted/terrain-surfaces-abf95e454c8c66b3.png": {
+        "sha256": "abf95e454c8c66b331b144ce13fae49ed625cba0c1e684f147f4d800b9992822",
+        "bytes": 5784970
+      },
+      "dist/painted/terrain.json": {
+        "sha256": "435c0f3109bf31519293b074044a6a511d607caf7d2b2e04001ddfcab79d980e",
+        "bytes": 209366
+      },
+      "dist/painted/units.json": {
+        "sha256": "a8b8a548be60b15b750b574d4051bb718b45beaa7b794661d3e4bb6044859995",
+        "bytes": 2586722
+      },
+      "dist/painted/units0-41a53c9b857a74e2.png": {
+        "sha256": "41a53c9b857a74e2bb4dbfed11fe5d152038846caaa1386836e4264def490d78",
+        "bytes": 1637466
+      },
+      "dist/painted-font-data.mjs": {
+        "sha256": "d4db895346914b0c379b7baa6b9ed90a42ec442d6c973cf03e251a169755e624",
+        "bytes": 156971
+      },
+      "dist/painted-title-data.mjs": {
+        "sha256": "8798600dbe11e87a0893db9190e0d098b2da26e301aaaa0a0de27214f89931bb",
+        "bytes": 8453
+      }
+    }
+  },
+  "protected": {
+    "count": 24,
+    "nativeRuntimeAndDataCount": 4,
+    "originalInputCount": 19,
+    "originalZipUnchanged": true,
+    "originalsMatchReferenceHashes": true,
+    "changed": [],
+    "referenceMismatches": [],
+    "files": {
+      "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/dist/native/dune-native.mjs": "851da2f19b4f68adc5e468051756d1184d4c21e7dad7561fe02d5d352f22b5c9",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/dist/native/dune-native.wasm": "1c01dc9701c592de66d8e0846060a19edf2ec56b29b387e14c56734de011a1aa",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/dist/native/dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/dist/music/adl.wasm": "e29b0487fc72d4c7c4691f96a11229bf0976d345d0385fa1656f1f55d8e3d9ef",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/ATRE.PAK": "c1aafc875fb03de63372de2c8dae2c807cc494f3ec11db166e69dc937a342c80",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/DUNE.CFG": "29c570864fa306cb6a330d36a8de3ad730d569cc05637485ba8dc5117764e270",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/DUNE.PAK": "a310947048e6ecd115ab323efd15916da6463904d1b1c067d9942eb597e82697",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/DUNE2.EXE": "85f22bb82ea6f755835d5a94d257a67e11a3b854ec934854a69c3eeff7d0180f",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/ENGLISH.PAK": "a22e19b861b3aafd855a782d63736842a4768a2406fd14d014e485ff2e52fb22",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/FINALE.PAK": "a2c7a08a88ce5160420edb5efaa02fcea0e67acaed1f9f50230306e16495e879",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/HARK.PAK": "3334ce3f083c850860189c399a19005c67a0924afa9629f5714f3bd15ca6f993",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/INTRO.PAK": "6289dea784e2f49f0c50008f52424f87667ec7f160245b69dd4be7be75682c81",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/INTROVOC.PAK": "272c8060265cf0ddfdf44fcead999caa393864b05a8476f7c1f75e270abc148c",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/MENTAT.PAK": "3553b6210aab1502bf9a189a9d8fdae2c076ce9c39bc5998c3843316871b635e",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/MERC.PAK": "772642c12a97d536689bc77e07c9fd1dca7c0ee33877ab59fdee9cabedd3ea0a",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/ONETIME.DAT": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/OPTIONS.CFG": "d97b12eeb1c4bb32cd703eef76d34f986436d2c13b00f2dd921b78e23a333b6d",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/ORDOS.PAK": "f8f947648409ad8065796394c2a90b7e242862a372aadd7c30dbc7ec88306814",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/SCENARIO.PAK": "948469aa556da82f59b48c0d032787c973d7062acf6ed028ba4b789b9b237821",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/SETUP.EXE": "117dc92b837a62b795017d8ae2f11d19ef641792b9f9f8aa1ea752e2e0bd6e8d",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/SETUPENG.DIP": "aa0a6687cdc61d0381723a2247fee5d4aa6d9a6d4925928c477a505f0c9d8d0e",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/SOUND.PAK": "7f86259630dbdfc07f81dba4986723dc9a00545b1ddbf5b2c14242ebf6f692be",
+      "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/inputs/VOC.PAK": "7d1abc99efba007017e163a306a1e11df9a41a4cc45e1c6dfa099d81636575ea",
+      "/Users/misko/Downloads/dune-2_1992.zip": "f7c9048f1bee49e2d9e3690adaef027e6a2e5bd22f8c18af16408e55a2a2d228"
+    }
+  },
+  "buildLogSHA256": "da1c20636ea6313134d61f1a6baa42fe65dd1b7392ca3c682f895013c82bba42",
+  "buildOutputLines": 47
+}

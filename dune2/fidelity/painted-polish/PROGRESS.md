@@ -13,10 +13,13 @@ User report: substantial low-resolution artwork remains; placing concrete can sh
 - [x] Implement separate RAF camera trajectory and cached committed17×12 overscan layers; retain native timing and RNG.
 - [x] Verify signed Q8 world-picking projection, smooth scrolling, edge visibility, map jumps, reduced motion and browser frame cadence.
 - [x] Verify new assets, native observation-only hooks, package/source reproducibility and original hashes.
-- [ ] Save screenshots/evidence and commit/push existing remastered branch after clean-checkout validation.
+- [x] Save screenshots/evidence and commit/push existing remastered branch after clean-checkout validation (0.7: f424076).
 
 No original DOS execution, Sites deployment, registry publication or cluster rollout is part of this presentation pass.
 
 Implementation and browser evidence are complete. All31 runtime art files rebuild byte-identically; original19 inputs and ZIP hashes pass. Complete corresponding-source volumes and strict reconstruction checks pass. Collection snapshot, final release checks and commit remain release-stage work tracked in the external analysis checklist.
 Native intro/finale cinematic art is separately scoped; UI-bank completeness does
 not imply every cinematic frame has been repainted.
+
+Follow-up whole-scene, counter, outcome and spice fixes are tracked in
+[0.7.1 presentation evidence](../presentation-fixes/README.md).

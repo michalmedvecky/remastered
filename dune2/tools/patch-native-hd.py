@@ -135,6 +135,15 @@ def changes(root):
         ('\tGUI_DrawInterfaceAndRadar(SCREEN_0);\n\n\tMusic_Play(Tools_RandomLCG_Range(0, 5) + 8);',
          '\tGUI_DrawInterfaceAndRadar(SCREEN_0);\n\tDUNE_HD(DuneHD_MentatReplacement(0));\n\n\tMusic_Play(Tools_RandomLCG_Range(0, 5) + 8);'),
     ], 'DuneHD_MentatReplacement')
+    add('src/opendune.c', [
+        ('#include "opendune.h"', '#include "opendune.h"\n' + PREFIX),
+        ('\t\tGUI_ChangeSelectionType(SELECTIONTYPE_MENTAT);\n\n\t\tif (GameLoop_IsLevelWon()) {',
+         '\t\tDUNE_HD(DuneHD_WorldModal(1));\n\t\tGUI_ChangeSelectionType(SELECTIONTYPE_MENTAT);\n\n\t\tif (GameLoop_IsLevelWon()) {'),
+        ('\t\t\tGUI_DisplayModalMessage(String_Get_ByIndex(STR_YOU_HAVE_SUCCESSFULLY_COMPLETED_YOUR_MISSION), 0xFFFF);\n\n\t\t\tGUI_Mentat_ShowWin();',
+         '\t\t\tGUI_DisplayModalMessage(String_Get_ByIndex(STR_YOU_HAVE_SUCCESSFULLY_COMPLETED_YOUR_MISSION), 0xFFFF);\n\t\t\tDUNE_HD(DuneHD_WorldModal(0));\n\n\t\t\tGUI_Mentat_ShowWin();'),
+        ('\t\t\tGUI_DisplayModalMessage(String_Get_ByIndex(STR_YOU_HAVE_FAILED_YOUR_MISSION), 0xFFFF);\n\n\t\t\tGUI_Mentat_ShowLose();',
+         '\t\t\tGUI_DisplayModalMessage(String_Get_ByIndex(STR_YOU_HAVE_FAILED_YOUR_MISSION), 0xFFFF);\n\t\t\tDUNE_HD(DuneHD_WorldModal(0));\n\n\t\t\tGUI_Mentat_ShowLose();'),
+    ], 'DuneHD_WorldModal')
     add('src/timer.c', [
         ('#include "timer.h"', '#include "timer.h"\n' + PREFIX),
         ('\treturn ret;\n}\n\n/**\n * Sleep', '\tif (timer == TIMER_GAME) DUNE_HD(DuneHD_Timer(set));\n\treturn ret;\n}\n\n/**\n * Sleep'),

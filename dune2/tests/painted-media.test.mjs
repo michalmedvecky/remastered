@@ -4,8 +4,10 @@ import fs from 'node:fs';
 import {compileMediaWitnesses,identifyMediaFrame,mediaSceneKind,nativeMediaPhase} from '../dist/painted-media-core.mjs';
 const motionURL=new URL('../art/hd-v3/media/motion/',import.meta.url);
 const extraURL=new URL('../art/hd-v3/media/extra-motion/',import.meta.url);
+const outcomeURL=new URL('../art/hd-v3/media/outcome-motion/',import.meta.url);
 const inventory=JSON.parse(fs.readFileSync(new URL('inventory.json',motionURL),'utf8'));
 const extras=JSON.parse(fs.readFileSync(new URL('inventory.json',extraURL),'utf8'));
+const outcomes=JSON.parse(fs.readFileSync(new URL('inventory.json',outcomeURL),'utf8'));
 const bank=compileMediaWitnesses(JSON.parse(fs.readFileSync(new URL('frame-witnesses.json',motionURL),'utf8')));
 const manifest=JSON.parse(fs.readFileSync(new URL('../dist/painted/media.json',import.meta.url),'utf8'));
 const globalBank=compileMediaWitnesses(manifest.motion);
@@ -13,18 +15,18 @@ const embed=bytes=>{const pixels=new Uint8Array(64000);for(let y=0;y<112;y++)pix
 test('every original object preview is exactly identified, with duplicate holds explicit',()=>{
  let n=0;for(const row of inventory.resources)for(const f of row.frames){const frame=embed(fs.readFileSync(new URL(f.indexFile,motionURL))),match=identifyMediaFrame(frame,bank);assert.equal(match.status,'matched');assert(match.equivalentFrames.some(r=>r.resource===row.resource&&r.frame===f.frame));n++;}assert.equal(n,161);
 });
-test('active42 bank identifies all264 original phases using33 immutable global witnesses',async()=>{
+test('active46 bank identifies all268 original phases using33 immutable global witnesses',async()=>{
  const {createHash}=await import('node:crypto');
- assert.equal(Object.keys(manifest.resources).length,42);assert.equal(globalBank.coordinates.length,33);assert.equal(globalBank.frames.length,264);
- assert.deepEqual(manifest.motion,JSON.parse(fs.readFileSync(new URL('global-frame-witnesses.json',extraURL),'utf8')));
+ assert.equal(Object.keys(manifest.resources).length,46);assert.equal(globalBank.coordinates.length,33);assert.equal(globalBank.frames.length,268);
+ assert.deepEqual(manifest.motion,JSON.parse(fs.readFileSync(new URL('global-frame-witnesses.json',outcomeURL),'utf8')));
  let n=0;
- for(const [source,folder]of [[inventory,motionURL],[extras,extraURL]])for(const row of source.resources)for(const f of row.frames){
+ for(const [source,folder]of [[inventory,motionURL],[extras,extraURL],[outcomes,outcomeURL]])for(const row of source.resources)for(const f of row.frames){
   const bytes=fs.readFileSync(new URL(f.indexFile,folder));assert.equal(bytes.length,184*112);assert.equal(createHash('sha256').update(bytes).digest('hex'),f.pixelSha256);
   const match=identifyMediaFrame(embed(bytes),globalBank);
   assert.equal(match.status,'matched',row.resource+':'+f.frame);assert.equal(match.samples,33);
   assert.equal(match.pixelSha256,f.pixelSha256);assert(match.equivalentFrames.some(r=>r.resource===row.resource&&r.frame===f.frame));n++;
  }
- assert.equal(n,264);
+ assert.equal(n,268);
 });
 test('matching excludes only actual observed UI ink; mismatch never chooses nearest',()=>{
  const row=inventory.resources[0],frame=embed(fs.readFileSync(new URL(row.frames[0].indexFile,motionURL))),[x,y]=bank.coordinates[0],at=(48+y)*320+128+x;frame.pixels[at]^=255;
@@ -39,7 +41,7 @@ test('source phase tables preserve authored holds; factory/world scene gates are
  assert.equal(mediaSceneKind('factory-shell',{worldVisible:false}),'factory');assert.equal(mediaSceneKind('advisor-a',{worldVisible:false}),'mentat');assert.equal(mediaSceneKind('factory',{worldVisible:true}),null);assert.throws(()=>nativeMediaPhase(starport,25));
 });
 
-test('all264 production phases preserve the36 semantic plans and6 explicit baked sequences',async()=>{
+test('all268 production phases preserve the36 semantic plans,6 animated extras and4 static outcomes',async()=>{
  const {mediaMotionPlan}=await import('../dist/painted-media-core.mjs');
  const hashes=new Map();let frames=0,animated=0,semanticFrames=0,semanticAnimated=0,bakedFrames=0,bakedResources=0,patches=0;
  for(const row of Object.values(manifest.resources)){
@@ -64,17 +66,17 @@ test('all264 production phases preserve the36 semantic plans and6 explicit baked
    else hashes.set(key,signature);
   }
  }
- assert.equal(frames,264);assert.equal(animated,19);assert.equal(hashes.size,210);
- assert.equal(semanticFrames,161);assert.equal(semanticAnimated,14);assert.equal(bakedResources,6);assert.equal(bakedFrames,103);assert.equal(patches,97);
+ assert.equal(frames,268);assert.equal(animated,19);assert.equal(hashes.size,214);
+ assert.equal(semanticFrames,161);assert.equal(semanticAnimated,14);assert.equal(bakedResources,10);assert.equal(bakedFrames,107);assert.equal(patches,97);
 });
 
-test('production atlas hashes/geometry and all42 whole preview bindings are complete',async()=>{
+test('production atlas hashes/geometry and all46 whole preview bindings are complete',async()=>{
  const crypto=await import('node:crypto');
  for(const row of Object.values(manifest.atlases)){
   const bytes=fs.readFileSync(new URL('../dist/'+row.src,import.meta.url));
   assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),row.sha256);
   assert.equal(bytes.readUInt32BE(16),row.w);assert.equal(bytes.readUInt32BE(20),row.h);
  }
- assert.equal(Object.keys(manifest.resources).length,42);
+ assert.equal(Object.keys(manifest.resources).length,46);
  for(const row of Object.values(manifest.resources)){const b=row.frames['0'],atlas=manifest.atlases[b.atlas];assert.deepEqual(b.rect.slice(2),[736,448]);assert(b.rect[0]+b.rect[2]<=atlas.w&&b.rect[1]+b.rect[3]<=atlas.h);}
 });

@@ -1,8 +1,12 @@
-# Dune II — painted HD browser reconstruction 0.7
+# Dune II — painted HD browser reconstruction 0.8.0
 
 Dune II uses the approved painted HD style for all world buildings, units and terrain. Complete new RGBA drawings retain native footprints, pivots, facings and animation decisions. The original engine still controls game rules, input, damage, fog and timing. The HUD, menus, advisors, object previews and campaign interface use matching new art and fitted vector text. A render-time camera interpolates committed tile steps with a current-snapshot terrain fringe, while native world picking compensates for the displayed offset. Graphics switches live between **HD · painted** and **Original · 1992**. [Artwork gallery](dist/artwork.html) and [graphics architecture/coverage](HD-GRAPHICS.md) distinguishes painted art, derived states and retained native effects.
 
 Dune II runs at `/dune2/` in the Remastered collection. The complete recovered OpenDUNE C core runs as WebAssembly with V1.07 compatibility fixes. Original PAKs supply campaigns, graphics, UNIT/BUILD/TEAM scripts, voices and ADL music. Native callbacks, routing, combat, WSA cutscenes and IFF saves remain in the compiled engine. The browser does not execute or interpret the DOS EXE.
+
+Release 0.8 adds Czech text for the interface, campaigns, Mentat help and scene captions, with an English/Czech choice before launch. The original-derived angular vector font and matching local webfont include Czech diacritics. Translation files are verified in-memory overlays; original PAKs and saves retain their formats. [Localization coverage and limits](fidelity/localization/README.md).
+
+The presentation fixes keep whole advisor scenes coherent through speech, confirmation and mission results, fit all six rolling credit columns inside the painted frame, and render granular spice over continuous sand. The ordinary preview bank covers 46 resources and 268 native phases, including all four mission outcome pictures. [Presentation evidence and limits](fidelity/presentation-fixes/README.md) records complete UI checks separately from native gameplay tests.
 
 From the collection root:
 

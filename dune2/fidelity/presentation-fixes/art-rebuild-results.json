@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "command": [
+    "npm",
+    "--prefix",
+    "dune2",
+    "run",
+    "build:art"
+  ],
+  "workingDirectory": "/Users/misko/Documents/ChatGPT/Prehistorik/web",
+  "startedUTC": "2026-11-19T15:15:44.837689+00:00",
+  "finishedUTC": "2026-11-19T15:16:29.120527+00:00",
+  "elapsedSeconds": 44.283,
+  "exitCode": 0,
+  "publicPainted": {
+    "beforeFiles": 32,
+    "afterFiles": 32,
+    "beforeTreeSHA256": "3edaf10bf878decabb4cc71d6f799520147298563d76bdfcf4bd2d904f28ba17",
+    "afterTreeSHA256": "3edaf10bf878decabb4cc71d6f799520147298563d76bdfcf4bd2d904f28ba17",
+    "byteIdentical": true,
+    "changed": [],
+    "added": [],
+    "removed": []
+  },
+  "retainedNativeBinaries": {
+    "byteIdentical": true,
+    "files": {
+      "dist/native/dune-native.mjs": {
+        "beforeSHA256": "dac4057430c2e6e874f015f010b785409d787fc306956752dabebddcd330f56f",
+        "afterSHA256": "dac4057430c2e6e874f015f010b785409d787fc306956752dabebddcd330f56f"
+      },
+      "dist/native/dune-native.wasm": {
+        "beforeSHA256": "3cd5679e96c900b0a22b08cc805e1060bf9020a44c6829fc7a13adc80b039ea7",
+        "afterSHA256": "3cd5679e96c900b0a22b08cc805e1060bf9020a44c6829fc7a13adc80b039ea7"
+      },
+      "dist/native/dune-native.data": {
+        "beforeSHA256": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071",
+        "afterSHA256": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
+      }
+    }
+  },
+  "retainedInputData": {
+    "beforeFiles": 17,
+    "afterFiles": 17,
+    "beforeTreeSHA256": "afc8ce26bcbbc0939faf55fdf484d0ffe47e78e3973a4830f2bd25f55ac95b86",
+    "afterTreeSHA256": "afc8ce26bcbbc0939faf55fdf484d0ffe47e78e3973a4830f2bd25f55ac95b86",
+    "byteIdentical": true,
+    "changed": [],
+    "added": [],
+    "removed": []
+  },
+  "originalZIP": {
+    "path": "/Users/misko/Downloads/dune-2_1992.zip",
+    "beforeSHA256": "f7c9048f1bee49e2d9e3690adaef027e6a2e5bd22f8c18af16408e55a2a2d228",
+    "afterSHA256": "f7c9048f1bee49e2d9e3690adaef027e6a2e5bd22f8c18af16408e55a2a2d228",
+    "byteIdentical": true
+  },
+  "ordinaryMediaCoverage": {
+    "resources": 46,
+    "nativePhases": 268,
+    "distinctNativeImages": 214,
+    "witnessCoordinates": 33,
+    "outcomeResources": {
+      "WIN1.WSA": true,
+      "WIN2.WSA": true,
+      "LOSTBILD.WSA": true,
+      "LOSTVEHC.WSA": true
+    },
+    "outcomeAtlas": {
+      "src": "painted/media-outcomes-0ea320ec9189653b.png",
+      "sha256": "0ea320ec9189653b145967396a45871974a5577901950a17c081a330a2736b8d",
+      "w": 1472,
+      "h": 896
+    },
+    "manifestSHA256": "52d4906c1b8d64d123e70d59eca98403235900502e62e1f05c725daaf5d1d634"
+  },
+  "buildStdoutSHA256": "346bf1fb22220db68927887bdac26352649dde4d4a12d8c160e8805e159e7184",
+  "buildStderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "buildOutputTail": "painted-media.mjs && node tools/build-painted-landing.mjs\n\n{\"path\": \"dist/painted/native.json\", \"bytes\": 1987635, \"sha256\": \"16519dfea0fd5dc39a0cb65f1d16ec5b3349567e8bef576a4c2429a5eaf874a5\", \"tiles\": 389, \"worldShapes\": 244, \"uiShapes\": 281, \"allShapes\": 525}\n{\"coverage\":{\"expected\":244,\"available\":244,\"complete\":true,\"missing\":[],\"statuses\":{\"painted\":233,\"procedural-effect\":5,\"native-empty\":6},\"nativeUnitTypes\":27},\"atlas\":\"units0-41a53c9b857a74e2.png\",\"width\":2048,\"height\":836,\"bytes\":1637466}\n{\"covered\": 254, \"expected\": 254, \"complete\": true, \"atlas\": \"buildings-733d96bdc1d1a864.png\"}\n{\"owned\":135,\"masks\":99,\"overlays\":44,\"assets\":{\"surfaces\":{\"src\":\"painted/terrain-surfaces-abf95e454c8c66b3.png\",\"width\":2048,\"height\":1536,\"sha256\":\"abf95e454c8c66b331b144ce13fae49ed625cba0c1e684f147f4d800b9992822\",\"bytes\":5784970},\"masks\":{\"src\":\"painted/terrain-masks-7487623e89a650c4.png\",\"width\":1024,\"height\":448,\"sha256\":\"7487623e89a650c43328b4359cd7d586c291e941b91ff86e2032db96d5193af0\",\"bytes\":20127},\"overlays\":{\"src\":\"painted/terrain-overlays-ba3b0f1f85779784.png\",\"width\":1024,\"height\":192,\"sha256\":\"ba3b0f1f857797840095718e5582b7d9ada70c91e9fbf98161a34cc008d19ddb\",\"bytes\":133045}}}\n{\"manifest\":\"dist/painted/interface.json\",\"atlas\":\"interface-205e4858cb0f653c.png\",\"sha256\":\"205e4858cb0f653c4f318a38f6dc3201f3ffd11d165ab33ba83965da9495c5e1\",\"frames\":23,\"scenes\":14}\n{\"atlases\":{\"icons0\":{\"src\":\"painted/icons0-280d75768701d5a2.png\",\"width\":2048,\"height\":2040,\"sha256\":\"280d75768701d5a29d2e335ceea1ab2261e0a0f606c85f978ec3a5ca8ec127e6\",\"bytes\":3801429},\"icons1\":{\"src\":\"painted/icons1-99f51e709937fe74.png\",\"width\":2048,\"height\":1988,\"sha256\":\"99f51e709937fe742d9113ff859bd3de3b347a13f19ebbdba22466981d76ca74\",\"bytes\":4883578},\"icons2\":{\"src\":\"painted/icons2-6f8e7366f7e7eb38.png\",\"width\":2048,\"height\":1332,\"sha256\":\"6f8e7366f7e7eb3802339d1e9ff476dcb8ed901fadd53464ece956727bad0d86\",\"bytes\":3975052}},\"coverage\":{\"expectedNativeSlots\":281,\"available\":281,\"paintedPortraits\":49,\"paintedCreditIllustrations\":11,\"complete\":true,\"statuses\":{\"analytic-vector\":105,\"painted\":102,\"painted-derived\":7,\"native-empty\":10,\"painted-native-alias\":20,\"semantic-text\":37},\"remaining\":0}}\n{\"resources\":46,\"atlases\":11,\"frames\":268,\"distinctNativeImages\":214,\"parts\":9,\"manifestSHA256\":\"52d4906c1b8d64d123e70d59eca98403235900502e62e1f05c725daaf5d1d634\"}\n{\"src\":\"painted/arrakis-3be13331eeb0ba22.png\",\"width\":1536,\"height\":1024,\"sha256\":\"3be13331eeb0ba22cba0a46499776f7c58d0d808510c6b5e9f93843cd586d251\"}\n",
+  "buildStderrTail": "",
+  "pass": true
+}

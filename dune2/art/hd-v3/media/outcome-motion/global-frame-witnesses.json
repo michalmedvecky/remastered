@@ -1,0 +1,4681 @@
+{
+  "schema": 1,
+  "sourcePreloadSha256": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071",
+  "nativeRect": [
+    128,
+    48,
+    184,
+    112
+  ],
+  "indexDomain": "native global IBM palette indices; independent of display RGB/palette fade",
+  "coordinates": [
+    [
+      59,
+      72
+    ],
+    [
+      84,
+      89
+    ],
+    [
+      174,
+      73
+    ],
+    [
+      22,
+      58
+    ],
+    [
+      101,
+      71
+    ],
+    [
+      63,
+      76
+    ],
+    [
+      139,
+      72
+    ],
+    [
+      110,
+      62
+    ],
+    [
+      73,
+      87
+    ],
+    [
+      12,
+      96
+    ],
+    [
+      150,
+      57
+    ],
+    [
+      32,
+      70
+    ],
+    [
+      15,
+      76
+    ],
+    [
+      114,
+      80
+    ],
+    [
+      74,
+      91
+    ],
+    [
+      90,
+      14
+    ],
+    [
+      74,
+      42
+    ],
+    [
+      131,
+      88
+    ],
+    [
+      14,
+      75
+    ],
+    [
+      133,
+      80
+    ],
+    [
+      112,
+      62
+    ],
+    [
+      145,
+      88
+    ],
+    [
+      162,
+      93
+    ],
+    [
+      88,
+      13
+    ],
+    [
+      103,
+      66
+    ],
+    [
+      1,
+      70
+    ],
+    [
+      44,
+      70
+    ],
+    [
+      12,
+      75
+    ],
+    [
+      160,
+      90
+    ],
+    [
+      69,
+      93
+    ],
+    [
+      35,
+      20
+    ],
+    [
+      38,
+      23
+    ],
+    [
+      29,
+      33
+    ]
+  ],
+  "distinctFrameCount": 214,
+  "totalFrames": 268,
+  "frames": [
+    {
+      "resource": "4SLAB.WSA",
+      "frame": 0,
+      "pixelSha256": "4e19e494fde4b54d906e494e58875ec1f3302ad671bfc8c42418676dd88f2fab",
+      "signatureBase64": "FhYWFhcVFhcWFhYWFhYWIBYWFhYWFyAgFiAWFosXFhYW",
+      "equivalentFrames": [
+        {
+          "resource": "4SLAB.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "BARRAC.WSA",
+      "frame": 0,
+      "pixelSha256": "3c278b4e3a13adcd8c729bcf7bd0bdf05d501b577960225a55d9bbc9a21ba1fc",
+      "signatureBase64": "FRYfHRMTfh8XHRwdHRkXFh2CHYEfhB8WFhcWHB0XIhYT",
+      "equivalentFrames": [
+        {
+          "resource": "BARRAC.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "BARRAC.WSA",
+      "frame": 1,
+      "pixelSha256": "c762a70350121ecefaf8a0f6eaf8f592d5ec112ea9b365f3670515d760e98036",
+      "signatureBase64": "FRYfHRMTfh8XHRwdHRkXFh2CHYMfhB8WFhcWHB0XIhYT",
+      "equivalentFrames": [
+        {
+          "resource": "BARRAC.WSA",
+          "frame": 1
+        }
+      ]
+    },
+    {
+      "resource": "BARRAC.WSA",
+      "frame": 2,
+      "pixelSha256": "d3f44fc5b717e1513ae2c4c5630302cecbfe5158a1b4a3ca7c978854fe7b5954",
+      "signatureBase64": "FRYfHRMTfh8XHRwdHRkXFh2CHYUfhB8WFhcWHB0XIhYT",
+      "equivalentFrames": [
+        {
+          "resource": "BARRAC.WSA",
+          "frame": 2
+        }
+      ]
+    },
+    {
+      "resource": "CARRYALL.WSA",
+      "frame": 0,
+      "pixelSha256": "81620d4714328569e66c2e210fe6273d8546ac24906aa86c989424f80b095825",
+      "signatureBase64": "mByYg5iYmJgcHJ+YpxYcmX+DmBaYgxeZmJiYmLAcmZmF",
+      "equivalentFrames": [
+        {
+          "resource": "CARRYALL.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "CARRYALL.WSA",
+      "frame": 1,
+      "pixelSha256": "3e7d7ad2e634eaaf5c1dbdccf290d36360065a019d19575056250862984e69bc",
+      "signatureBase64": "mByYg5iYmJgcHJ+YpxYcmX+DmBaYgxeZmJiYmBwcmZmF",
+      "equivalentFrames": [
+        {
+          "resource": "CARRYALL.WSA",
+          "frame": 1
+        }
+      ]
+    },
+    {
+      "resource": "CONSTRUC.WSA",
+      "frame": 0,
+      "pixelSha256": "78c632e6e209025b31ee605b09b08758523ec3bc0d8b0bb49738ab4e5c60d3a6",
+      "signatureBase64": "Doh/vIAOf3+IhUSnhCZ+RIGGhoEkhYBERYaJhoF+RUZF",
+      "equivalentFrames": [
+        {
+          "resource": "CONSTRUC.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 0,
+      "pixelSha256": "549a9e037cc535e82fdd15203a080ff6a656e00f9e330ea064e451727dc3c23e",
+      "signatureBase64": "R4pGR4BHhUeLj0dHR4SOSYOPRotHjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 9
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 10
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 13
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 14
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 1,
+      "pixelSha256": "5c32baa6b3139e8ff9215d554a532138e16d9ae366ecb070ef019e671e2afd0c",
+      "signatureBase64": "R4pGR4BHhQ+Lj0dHR4SOSYOPRouAjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 1
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 2,
+      "pixelSha256": "15b3f60652c88e7a3e2353e2c8d917ec9e78df8aec54faefa55cb2d25e2c271e",
+      "signatureBase64": "R4pGR4BHhQ+Lj0dHR4SOSYOPRosPjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 2
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 3,
+      "pixelSha256": "f323018ba150916c64dcb3a19fd1942a708996d4ff0ce971afa4da93ac57a96e",
+      "signatureBase64": "R4pGR4BHhYCLj0dHR4SOSYOPRosPjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 3
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 4,
+      "pixelSha256": "efcd610b54494730f39b9e6b106fd9e9bd95b47ccb7488340543950c833067b5",
+      "signatureBase64": "R4pGR4BHhYCLj0dHR4SOSYOPRouAjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 4
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 5,
+      "pixelSha256": "e47bd45b9e73cacf7ce133ddbe95dedf00eb9c556be071443e19197e97f39be7",
+      "signatureBase64": "R4pGR4BHhX6Lj0dHR4SOSYOPRotHjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 5
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 6,
+      "pixelSha256": "549a9e037cc535e82fdd15203a080ff6a656e00f9e330ea064e451727dc3c23e",
+      "signatureBase64": "R4pGR4BHhUeLj0dHR4SOSYOPRotHjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 9
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 10
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 13
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 14
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 7,
+      "pixelSha256": "549a9e037cc535e82fdd15203a080ff6a656e00f9e330ea064e451727dc3c23e",
+      "signatureBase64": "R4pGR4BHhUeLj0dHR4SOSYOPRotHjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 9
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 10
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 13
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 14
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 8,
+      "pixelSha256": "549a9e037cc535e82fdd15203a080ff6a656e00f9e330ea064e451727dc3c23e",
+      "signatureBase64": "R4pGR4BHhUeLj0dHR4SOSYOPRotHjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 9
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 10
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 13
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 14
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 9,
+      "pixelSha256": "549a9e037cc535e82fdd15203a080ff6a656e00f9e330ea064e451727dc3c23e",
+      "signatureBase64": "R4pGR4BHhUeLj0dHR4SOSYOPRotHjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 9
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 10
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 13
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 14
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 10,
+      "pixelSha256": "549a9e037cc535e82fdd15203a080ff6a656e00f9e330ea064e451727dc3c23e",
+      "signatureBase64": "R4pGR4BHhUeLj0dHR4SOSYOPRotHjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 9
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 10
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 13
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 14
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 11,
+      "pixelSha256": "549a9e037cc535e82fdd15203a080ff6a656e00f9e330ea064e451727dc3c23e",
+      "signatureBase64": "R4pGR4BHhUeLj0dHR4SOSYOPRotHjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 9
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 10
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 13
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 14
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 12,
+      "pixelSha256": "549a9e037cc535e82fdd15203a080ff6a656e00f9e330ea064e451727dc3c23e",
+      "signatureBase64": "R4pGR4BHhUeLj0dHR4SOSYOPRotHjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 9
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 10
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 13
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 14
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 13,
+      "pixelSha256": "549a9e037cc535e82fdd15203a080ff6a656e00f9e330ea064e451727dc3c23e",
+      "signatureBase64": "R4pGR4BHhUeLj0dHR4SOSYOPRotHjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 9
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 10
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 13
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 14
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 14,
+      "pixelSha256": "549a9e037cc535e82fdd15203a080ff6a656e00f9e330ea064e451727dc3c23e",
+      "signatureBase64": "R4pGR4BHhUeLj0dHR4SOSYOPRotHjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 9
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 10
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 13
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 14
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "frame": 15,
+      "pixelSha256": "549a9e037cc535e82fdd15203a080ff6a656e00f9e330ea064e451727dc3c23e",
+      "signatureBase64": "R4pGR4BHhUeLj0dHR4SOSYOPRotHjotJg0dHRo6KSUhI",
+      "equivalentFrames": [
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 9
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 10
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 13
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 14
+        },
+        {
+          "resource": "GOLD-BB.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "HARKTANK.WSA",
+      "frame": 0,
+      "pixelSha256": "b6276b22cd205755313cc822a3cd4a6e98075e965ea5ea4959c9f8e1bc93d035",
+      "signatureBase64": "lQx6laOVDJaFOpaEhaIMDDkMhgwMDIUMxAzFDAyEDAzA",
+      "equivalentFrames": [
+        {
+          "resource": "HARKTANK.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "frame": 0,
+      "pixelSha256": "02c246ae101cb6caa22f874356e369c72af15e81f12257281debed85645b12b7",
+      "signatureBase64": "jY9Hh46PjIsMJY79io8MR4zm/Y+L+ClHi0KKjgz4RkZF",
+      "equivalentFrames": [
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 12
+        }
+      ]
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "frame": 1,
+      "pixelSha256": "02c246ae101cb6caa22f874356e369c72af15e81f12257281debed85645b12b7",
+      "signatureBase64": "jY9Hh46PjIsMJY79io8MR4zm/Y+L+ClHi0KKjgz4RkZF",
+      "equivalentFrames": [
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 12
+        }
+      ]
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "frame": 2,
+      "pixelSha256": "02c246ae101cb6caa22f874356e369c72af15e81f12257281debed85645b12b7",
+      "signatureBase64": "jY9Hh46PjIsMJY79io8MR4zm/Y+L+ClHi0KKjgz4RkZF",
+      "equivalentFrames": [
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 12
+        }
+      ]
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "frame": 3,
+      "pixelSha256": "02c246ae101cb6caa22f874356e369c72af15e81f12257281debed85645b12b7",
+      "signatureBase64": "jY9Hh46PjIsMJY79io8MR4zm/Y+L+ClHi0KKjgz4RkZF",
+      "equivalentFrames": [
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 12
+        }
+      ]
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "frame": 4,
+      "pixelSha256": "02c246ae101cb6caa22f874356e369c72af15e81f12257281debed85645b12b7",
+      "signatureBase64": "jY9Hh46PjIsMJY79io8MR4zm/Y+L+ClHi0KKjgz4RkZF",
+      "equivalentFrames": [
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 12
+        }
+      ]
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "frame": 5,
+      "pixelSha256": "02c246ae101cb6caa22f874356e369c72af15e81f12257281debed85645b12b7",
+      "signatureBase64": "jY9Hh46PjIsMJY79io8MR4zm/Y+L+ClHi0KKjgz4RkZF",
+      "equivalentFrames": [
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 12
+        }
+      ]
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "frame": 6,
+      "pixelSha256": "2f9cf6084535ff76a2ff85012e3a5332964b6300ad3effd4f9c3e081bd3fcb73",
+      "signatureBase64": "jY9Hh46PjIscJY79io8MR4zm/Y+L+ClHi0KKjgz4RkZF",
+      "equivalentFrames": [
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 6
+        }
+      ]
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "frame": 7,
+      "pixelSha256": "78f8acaeb43f64badf2f2779fa104a980ded3b8b7db7c5149542a2b553e4066f",
+      "signatureBase64": "jY9Hh46PjIscJY79io8MR4zm/Y+LjClHi0KKjgz4RkZF",
+      "equivalentFrames": [
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 7
+        }
+      ]
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "frame": 8,
+      "pixelSha256": "c9327fa5750f551bd917204ea6657f631f53b7f0db4df3e1ae497bd6b3bb7998",
+      "signatureBase64": "jY9Hh46PjIscJY79io8cR4zm/Y+LjClHi0KKjgz4RkZF",
+      "equivalentFrames": [
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "frame": 9,
+      "pixelSha256": "1faf713ed8c4735d9df9e432a2bc680c2616cfa8781aabc1939d2e3e368b414d",
+      "signatureBase64": "jY9Hh46PjIscJY79io8cR4zm/Y+L+ClHi0KKjgz4RkZF",
+      "equivalentFrames": [
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "frame": 10,
+      "pixelSha256": "2458f3f181db30521b9f8e8a125c2d6029dbdfe66d6ef1864f7507815faa1163",
+      "signatureBase64": "jY9Hh46PjIsMJY79io8cR4zm/Y+L+ClHi0KKjgyMRkZF",
+      "equivalentFrames": [
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 10
+        }
+      ]
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "frame": 11,
+      "pixelSha256": "e620c6dae791f80cafad18e184d24765b05c7b6d7f33e1fe799bd89cd4ab1985",
+      "signatureBase64": "jY9Hh46PjIsMJY79io8MR4zm/Y+L+ClHi0KKjgyMRkZF",
+      "equivalentFrames": [
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 11
+        }
+      ]
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "frame": 12,
+      "pixelSha256": "02c246ae101cb6caa22f874356e369c72af15e81f12257281debed85645b12b7",
+      "signatureBase64": "jY9Hh46PjIsMJY79io8MR4zm/Y+L+ClHi0KKjgz4RkZF",
+      "equivalentFrames": [
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HARVEST.WSA",
+          "frame": 12
+        }
+      ]
+    },
+    {
+      "resource": "HEADQRTS.WSA",
+      "frame": 0,
+      "pixelSha256": "a70b35a5885abcc8d14a7773100d83515758182eab92c10924622ea4fa725db6",
+      "signatureBase64": "hIRXhIGBhICE439/f4KESYCED4SAp4tJf38dD4yESUhH",
+      "equivalentFrames": [
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 3
+        }
+      ]
+    },
+    {
+      "resource": "HEADQRTS.WSA",
+      "frame": 1,
+      "pixelSha256": "a70b35a5885abcc8d14a7773100d83515758182eab92c10924622ea4fa725db6",
+      "signatureBase64": "hIRXhIGBhICE439/f4KESYCED4SAp4tJf38dD4yESUhH",
+      "equivalentFrames": [
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 3
+        }
+      ]
+    },
+    {
+      "resource": "HEADQRTS.WSA",
+      "frame": 2,
+      "pixelSha256": "a70b35a5885abcc8d14a7773100d83515758182eab92c10924622ea4fa725db6",
+      "signatureBase64": "hIRXhIGBhICE439/f4KESYCED4SAp4tJf38dD4yESUhH",
+      "equivalentFrames": [
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 3
+        }
+      ]
+    },
+    {
+      "resource": "HEADQRTS.WSA",
+      "frame": 3,
+      "pixelSha256": "a70b35a5885abcc8d14a7773100d83515758182eab92c10924622ea4fa725db6",
+      "signatureBase64": "hIRXhIGBhICE439/f4KESYCED4SAp4tJf38dD4yESUhH",
+      "equivalentFrames": [
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 3
+        }
+      ]
+    },
+    {
+      "resource": "HEADQRTS.WSA",
+      "frame": 4,
+      "pixelSha256": "8f8bb5fb7fe4b957451250d4ad10df4a058f5c00f5397746cb9a72dbeab7d915",
+      "signatureBase64": "hIRXhIGBhICE44B/f4KESYCED4SAp4tJf38dD4yESUhH",
+      "equivalentFrames": [
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "HEADQRTS.WSA",
+      "frame": 5,
+      "pixelSha256": "0fccd07ce86a2ba82bf327e551ebb6bb1194619597215583527cc9d06c6f3934",
+      "signatureBase64": "hIRXhIGBhICE42l/f4KESYCED4SAp4tJf38dD4yESUhH",
+      "equivalentFrames": [
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "HEADQRTS.WSA",
+      "frame": 6,
+      "pixelSha256": "0fccd07ce86a2ba82bf327e551ebb6bb1194619597215583527cc9d06c6f3934",
+      "signatureBase64": "hIRXhIGBhICE42l/f4KESYCED4SAp4tJf38dD4yESUhH",
+      "equivalentFrames": [
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "HEADQRTS.WSA",
+      "frame": 7,
+      "pixelSha256": "0fccd07ce86a2ba82bf327e551ebb6bb1194619597215583527cc9d06c6f3934",
+      "signatureBase64": "hIRXhIGBhICE42l/f4KESYCED4SAp4tJf38dD4yESUhH",
+      "equivalentFrames": [
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "HEADQRTS.WSA",
+      "frame": 8,
+      "pixelSha256": "0fccd07ce86a2ba82bf327e551ebb6bb1194619597215583527cc9d06c6f3934",
+      "signatureBase64": "hIRXhIGBhICE42l/f4KESYCED4SAp4tJf38dD4yESUhH",
+      "equivalentFrames": [
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "HEADQRTS.WSA",
+      "frame": 9,
+      "pixelSha256": "8f8bb5fb7fe4b957451250d4ad10df4a058f5c00f5397746cb9a72dbeab7d915",
+      "signatureBase64": "hIRXhIGBhICE44B/f4KESYCED4SAp4tJf38dD4yESUhH",
+      "equivalentFrames": [
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "HEADQRTS.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "HITCFTRY.WSA",
+      "frame": 0,
+      "pixelSha256": "24eb4df5ac7437272c4d1771c99a4c11b11c2efab0cfff05f48bad10aa3dc98f",
+      "signatureBase64": "D5+fgH6Dn36BgISCgp9/SYB/gpB+d4FIkH+DnYCfnn+d",
+      "equivalentFrames": [
+        {
+          "resource": "HITCFTRY.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "HITCFTRY.WSA",
+      "frame": 1,
+      "pixelSha256": "f1e303b81104c2812fb39cb3f772bb31571a83700d2e10619a3cc4b014e58a04",
+      "signatureBase64": "D5+fgH6Dn36BgISCgp9/SYB/gpB+d4FIU3+DnYCfnn+d",
+      "equivalentFrames": [
+        {
+          "resource": "HITCFTRY.WSA",
+          "frame": 1
+        }
+      ]
+    },
+    {
+      "resource": "HTANK.WSA",
+      "frame": 0,
+      "pixelSha256": "6c9912e7975c528a3db910b68f28a53fd4a9bc7a1072a4ab0159bd9d966a6afc",
+      "signatureBase64": "hiQhRoaJgogjKIiJioSJSUYhUI6IICBIiEWJIiKISEdH",
+      "equivalentFrames": [
+        {
+          "resource": "HTANK.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "HVYFTRY.WSA",
+      "frame": 0,
+      "pixelSha256": "9b300bae444349748aa4a0ef1542a8509d4b5b0c24438577b1be95d18ef694af",
+      "signatureBase64": "iX7Eg4OIiIF+iH93gox/SoF+goiBHIBKgoOFg39/goJ/",
+      "equivalentFrames": [
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "HVYFTRY.WSA",
+      "frame": 1,
+      "pixelSha256": "07ea8a4b6c1ec13c0949949150961bc912e16c896ecc56e09585e3a799592459",
+      "signatureBase64": "iX6Gg4OIiIF+iH+Ggox/SoF+goiBHIBKgoOFg39/goJ/",
+      "equivalentFrames": [
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 4
+        }
+      ]
+    },
+    {
+      "resource": "HVYFTRY.WSA",
+      "frame": 2,
+      "pixelSha256": "71eb3a946e1de6a3d36bb166bcca5ea1d085c15d8e6c9dbbd2bb13c501cfe937",
+      "signatureBase64": "iX6Gg4OIiIF+iH93gox/SoF+goiBHIBKgoOFg39/goJ/",
+      "equivalentFrames": [
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 2
+        }
+      ]
+    },
+    {
+      "resource": "HVYFTRY.WSA",
+      "frame": 3,
+      "pixelSha256": "5730e0de78cdaa84c52a32522e14025d711895f0685c37089ffdc9efc256ab0e",
+      "signatureBase64": "iX7Eg4OIiIF+iH+Ggox/SoF+goiBHIBKgoOFg39/goJ/",
+      "equivalentFrames": [
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 6
+        }
+      ]
+    },
+    {
+      "resource": "HVYFTRY.WSA",
+      "frame": 4,
+      "pixelSha256": "07ea8a4b6c1ec13c0949949150961bc912e16c896ecc56e09585e3a799592459",
+      "signatureBase64": "iX6Gg4OIiIF+iH+Ggox/SoF+goiBHIBKgoOFg39/goJ/",
+      "equivalentFrames": [
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 4
+        }
+      ]
+    },
+    {
+      "resource": "HVYFTRY.WSA",
+      "frame": 5,
+      "pixelSha256": "5730e0de78cdaa84c52a32522e14025d711895f0685c37089ffdc9efc256ab0e",
+      "signatureBase64": "iX7Eg4OIiIF+iH+Ggox/SoF+goiBHIBKgoOFg39/goJ/",
+      "equivalentFrames": [
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 6
+        }
+      ]
+    },
+    {
+      "resource": "HVYFTRY.WSA",
+      "frame": 6,
+      "pixelSha256": "5730e0de78cdaa84c52a32522e14025d711895f0685c37089ffdc9efc256ab0e",
+      "signatureBase64": "iX7Eg4OIiIF+iH+Ggox/SoF+goiBHIBKgoOFg39/goJ/",
+      "equivalentFrames": [
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "HVYFTRY.WSA",
+          "frame": 6
+        }
+      ]
+    },
+    {
+      "resource": "HYINFY.WSA",
+      "frame": 0,
+      "pixelSha256": "3b24426032bcaff989895dde1e271e0f71a06ca8a5ff4329cc9163996260dc9d",
+      "signatureBase64": "gC0kjYWGJIgtHkWIjiItSUeNjoqHISBKj48tjiAmjY+G",
+      "equivalentFrames": [
+        {
+          "resource": "HYINFY.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "INFANTRY.WSA",
+      "frame": 0,
+      "pixelSha256": "f48f646937de327ac13469c5d3b08e614927155a106faf2c3e18d46de79c813b",
+      "signatureBase64": "jHokh4WOIIaHjERjt1+LSkZft12DWSBJhIdieiBkSUhg",
+      "equivalentFrames": [
+        {
+          "resource": "INFANTRY.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "IX.WSA",
+      "frame": 0,
+      "pixelSha256": "2adee51dca3045e0a78f996d7dcd1b36e0933661a2ce066d949ee5c822bfd66d",
+      "signatureBase64": "zIuAQg2Ag89WWUqAgItZRpdWgYrPVlpHgoCZgVlZRkZE",
+      "equivalentFrames": [
+        {
+          "resource": "IX.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 0,
+      "pixelSha256": "affe1b0029fcc9c726b8fbc5b92a154fe409f5ed894866b32883cc85500a76f5",
+      "signatureBase64": "f4Mddx2GhR2BgIYff36FSR+Ef34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 1,
+      "pixelSha256": "96b328614fbf24da81c25f8153c1011d88a24773528766043c5b0c07a82fe153",
+      "signatureBase64": "f4Mdch2GhR2BgKMff36FSYKEf34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 7
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 2,
+      "pixelSha256": "8d394d6de15ee32a523b0ad5e4ca961dde1024f408cfbb1ddfd380f863689f47",
+      "signatureBase64": "f4Mdch2GhR2BgIYff36FSR+Ef34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 3,
+      "pixelSha256": "96b328614fbf24da81c25f8153c1011d88a24773528766043c5b0c07a82fe153",
+      "signatureBase64": "f4Mdch2GhR2BgKMff36FSYKEf34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 7
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 4,
+      "pixelSha256": "763f1ed33411b46eeb9d38f8ba3687343f08825b5ce1f2e93f4a7527e7048a76",
+      "signatureBase64": "f4Mdch2GhR2BgKMff36FSR+Ef34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 4
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 5,
+      "pixelSha256": "96b328614fbf24da81c25f8153c1011d88a24773528766043c5b0c07a82fe153",
+      "signatureBase64": "f4Mdch2GhR2BgKMff36FSYKEf34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 7
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 6,
+      "pixelSha256": "637d0bb37621d69d99882887e0e55a54f4bdd80f05ac8b66a30f433af436540e",
+      "signatureBase64": "f4Mdch2GhR2BgIYff36FSYKEf34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 6
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 7,
+      "pixelSha256": "96b328614fbf24da81c25f8153c1011d88a24773528766043c5b0c07a82fe153",
+      "signatureBase64": "f4Mdch2GhR2BgKMff36FSYKEf34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 7
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 8,
+      "pixelSha256": "8d394d6de15ee32a523b0ad5e4ca961dde1024f408cfbb1ddfd380f863689f47",
+      "signatureBase64": "f4Mdch2GhR2BgIYff36FSR+Ef34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 9,
+      "pixelSha256": "44dff9c109713542764e42a052ea1b542283e0ad65566f0ab699997e34a443a9",
+      "signatureBase64": "f4Mddx2GhR2BgIYff36FSYKEf34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 10,
+      "pixelSha256": "4176cd892220b24873276d71a1edbb47468fc730bba3844cf03ced49ce7e5f9e",
+      "signatureBase64": "f4Mdhh2GhR2BgIYff36FSR+Ef34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 10
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 11,
+      "pixelSha256": "9823fabf31f7871ab5a49881a3fb2493afb3a07c1d4980da9a645ec7d32ad948",
+      "signatureBase64": "f4Mdhh2GhR2BgKMff36FSYKEf34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 11
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 12,
+      "pixelSha256": "e2541a936335f62ac17aff322dab1e06b1768d3df23571f46ba44197582ef6b6",
+      "signatureBase64": "f4Mdhh2GhR2BgIYff36FSYKEf34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 13
+        }
+      ]
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "frame": 13,
+      "pixelSha256": "e2541a936335f62ac17aff322dab1e06b1768d3df23571f46ba44197582ef6b6",
+      "signatureBase64": "f4Mdhh2GhR2BgIYff36FSYKEf34ag35Khh+Pf4OCSEiD",
+      "equivalentFrames": [
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "LITEFTRY.WSA",
+          "frame": 13
+        }
+      ]
+    },
+    {
+      "resource": "LTANK.WSA",
+      "frame": 0,
+      "pixelSha256": "f3d510bba1d737c3c3fbd0545cc4648c3458e27e910e26b718bc4ed636b3ab18",
+      "signatureBase64": "jyMgIY8gjYMjJI8hICEjRIciISCDICBEjyOGISIjRUVG",
+      "equivalentFrames": [
+        {
+          "resource": "LTANK.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "MCV.WSA",
+      "frame": 0,
+      "pixelSha256": "22263bda0c097a03ebfc1d3941cd557685d51d2b7b3e429cb4f2f69ebacfb0e8",
+      "signatureBase64": "HlZVjIZXHotYVoaBWiFWSRwhXVWLVVVJHUwfW1ZVSUlJ",
+      "equivalentFrames": [
+        {
+          "resource": "MCV.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "ORDRTANK.WSA",
+      "frame": 0,
+      "pixelSha256": "c17c1a0196a1dcb97ff643eb26a71ebafcb3a9f55fb7f21ed7507c80e968c546",
+      "signatureBase64": "j39/RoaBhoN/fxMPf38PTR5/gA+Df39Njw+Pf3+ATEtK",
+      "equivalentFrames": [
+        {
+          "resource": "ORDRTANK.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "ORNI.WSA",
+      "frame": 0,
+      "pixelSha256": "f3c18f32a874f410f76ee3f167a15970acad8470b7d1b929ef7b3e7d9f622029",
+      "signatureBase64": "SZ4QSp5Ig3mCIUqeEHchnkwPSQ95hSGenklJECAgTk5N",
+      "equivalentFrames": [
+        {
+          "resource": "ORNI.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "OTRIKE.WSA",
+      "frame": 0,
+      "pixelSha256": "7bf5a7625d781200b6cd1f2c9d07925405043c5652dc0aeebd65519942e767db",
+      "signatureBase64": "j39/D4B/Hg9/f0YPf38PTBx/gA8Pf39NDw8ef3+ATEtK",
+      "equivalentFrames": [
+        {
+          "resource": "OTRIKE.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 0,
+      "pixelSha256": "fbeb6d0db71d84218bff5df64567dc67f8ba64e9407ba634ad85afb569491251",
+      "signatureBase64": "cg8bY3JtGBZ0BhkZYhZ/FBcZZBkWGIEUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 16
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 1,
+      "pixelSha256": "2f1bbd34cdf7179eb54fd84ca40551bccb0062f8cb3bade8f441fa460eea1087",
+      "signatureBase64": "cg8bY3JtGBZ05hkZYhZ/FBcZZBkWGFwUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 1
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 2,
+      "pixelSha256": "f567bf7ab415def97c6930b956b6edca9dca667710add7b1880dc8044c78c3e2",
+      "signatureBase64": "cg8bY3JtGBZ0BhkZYhZ/FBcZZBkWGFwUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 2
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 3,
+      "pixelSha256": "f5dec1e4a4cafd055502d8de3e0fb9cffca8928c6e0a7bf5f4418ff170d95465",
+      "signatureBase64": "coAbY3JtGBZ0BhkZYhZ/FBeBZBkWGFwUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 4
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 4,
+      "pixelSha256": "f5dec1e4a4cafd055502d8de3e0fb9cffca8928c6e0a7bf5f4418ff170d95465",
+      "signatureBase64": "coAbY3JtGBZ0BhkZYhZ/FBeBZBkWGFwUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 4
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 5,
+      "pixelSha256": "6d3ad6fba4a6eafd1c5ed00144b92b30d9a969a88cbd105e3c4d8ff11b30aba0",
+      "signatureBase64": "coAbY3JtGBZ05hkZYhZ/FBeBZBkWGFwUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 5
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 6,
+      "pixelSha256": "d43ddbefdb8a1d7ee176a4face7878c068786fd7e652865dba56041c40901544",
+      "signatureBase64": "coAbY3JtGBZ05hkZYhZ/FBcZZBkWGFwUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 6
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 7,
+      "pixelSha256": "e2775ded9157ecc06e785a6dbd5404583de2b550f8b10bc5043844e4d2c8fd19",
+      "signatureBase64": "cn8bY3JtGBZ0BhkZYhZ/FBcZZBkWGFwUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 8,
+      "pixelSha256": "e2775ded9157ecc06e785a6dbd5404583de2b550f8b10bc5043844e4d2c8fd19",
+      "signatureBase64": "cn8bY3JtGBZ0BhkZYhZ/FBcZZBkWGFwUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 9,
+      "pixelSha256": "e2775ded9157ecc06e785a6dbd5404583de2b550f8b10bc5043844e4d2c8fd19",
+      "signatureBase64": "cn8bY3JtGBZ0BhkZYhZ/FBcZZBkWGFwUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 10,
+      "pixelSha256": "b74d28eaf228b2f0b9abd089578b6d58f843a69a6f2b18db83ff1bd5fc1f1b48",
+      "signatureBase64": "cn8bY3JtGBZ05hkZYhZ/FBcZZBkWGIEUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 10
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 11,
+      "pixelSha256": "d2652f423080b26b1a49e1f451cbfab73fb758519a10ef9aca098f1cd672f2de",
+      "signatureBase64": "cn8bY3JtGBZ0BhkZYhZ/FBeBZBkWGIEUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 13
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 12,
+      "pixelSha256": "d2652f423080b26b1a49e1f451cbfab73fb758519a10ef9aca098f1cd672f2de",
+      "signatureBase64": "cn8bY3JtGBZ0BhkZYhZ/FBeBZBkWGIEUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 13
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 13,
+      "pixelSha256": "d2652f423080b26b1a49e1f451cbfab73fb758519a10ef9aca098f1cd672f2de",
+      "signatureBase64": "cn8bY3JtGBZ0BhkZYhZ/FBeBZBkWGIEUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 11
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 12
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 13
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 14,
+      "pixelSha256": "2ce3b55ffb7c32e3a26907fe5951696de785adfb468d190fb8dd8e0756a96a51",
+      "signatureBase64": "cn8bY3JtGBZ05hkZYhZ/FBeBZBkWGIEUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 14
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 15,
+      "pixelSha256": "a54d504a05c32e861dbf1929fd5989fbe0fbd8ecca75d44a69ab10f3087db393",
+      "signatureBase64": "cn8bY3JtGBZ0BhkZYhZ/FBcZZBkWGIEUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "PALACE.WSA",
+      "frame": 16,
+      "pixelSha256": "fbeb6d0db71d84218bff5df64567dc67f8ba64e9407ba634ad85afb569491251",
+      "signatureBase64": "cg8bY3JtGBZ0BhkZYhZ/FBcZZBkWGIEUcGEWYRh/FBgY",
+      "equivalentFrames": [
+        {
+          "resource": "PALACE.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "PALACE.WSA",
+          "frame": 16
+        }
+      ]
+    },
+    {
+      "resource": "QUAD.WSA",
+      "frame": 0,
+      "pixelSha256": "36c5d127b2f72690604bdfaba9c18bf1811c5d8f0259d0994d33efff47b16d4f",
+      "signatureBase64": "jyAgj0EdhogjIhsfIiIiTR8jVVCIICJNjUCPVSIhTEtL",
+      "equivalentFrames": [
+        {
+          "resource": "QUAD.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "REFINERY.WSA",
+      "frame": 0,
+      "pixelSha256": "d6cbdf0f7f04a11d95785ee17070a1bfab21fe41b70c48e6bc07dbdf0635918b",
+      "signatureBase64": "gSGBgYSEgoUgg4OCg0EhhJwPheGFDw+bgYaCgg8hg4OB",
+      "equivalentFrames": [
+        {
+          "resource": "REFINERY.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "REFINERY.WSA",
+      "frame": 1,
+      "pixelSha256": "5d1c2a93e12aa7434f7d6aa5ba40089790fac89fd35e992667a63e2d44938e45",
+      "signatureBase64": "gSGBgYSEgoUgg4OCgyIhhJwPheGFDw+bgYaCgg8hg4OB",
+      "equivalentFrames": [
+        {
+          "resource": "REFINERY.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "REFINERY.WSA",
+          "frame": 5
+        }
+      ]
+    },
+    {
+      "resource": "REFINERY.WSA",
+      "frame": 2,
+      "pixelSha256": "3b4b6d004b4ee7e8687462bfebe507296767c32f3885643fa5d2209e6de3558b",
+      "signatureBase64": "gSGBgYSEgoUgg4OCgychhJwPheGFDw+bgYaCgg8hg4OB",
+      "equivalentFrames": [
+        {
+          "resource": "REFINERY.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "REFINERY.WSA",
+          "frame": 4
+        }
+      ]
+    },
+    {
+      "resource": "REFINERY.WSA",
+      "frame": 3,
+      "pixelSha256": "817c2422444497036cf771e964dca775e99a89a785c30cff0b5e89684a134b4f",
+      "signatureBase64": "gSGBgYSEgoUgg4OCgy0hhJwPheGFDw+bgYaCgg8hg4OB",
+      "equivalentFrames": [
+        {
+          "resource": "REFINERY.WSA",
+          "frame": 3
+        }
+      ]
+    },
+    {
+      "resource": "REFINERY.WSA",
+      "frame": 4,
+      "pixelSha256": "3b4b6d004b4ee7e8687462bfebe507296767c32f3885643fa5d2209e6de3558b",
+      "signatureBase64": "gSGBgYSEgoUgg4OCgychhJwPheGFDw+bgYaCgg8hg4OB",
+      "equivalentFrames": [
+        {
+          "resource": "REFINERY.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "REFINERY.WSA",
+          "frame": 4
+        }
+      ]
+    },
+    {
+      "resource": "REFINERY.WSA",
+      "frame": 5,
+      "pixelSha256": "5d1c2a93e12aa7434f7d6aa5ba40089790fac89fd35e992667a63e2d44938e45",
+      "signatureBase64": "gSGBgYSEgoUgg4OCgyIhhJwPheGFDw+bgYaCgg8hg4OB",
+      "equivalentFrames": [
+        {
+          "resource": "REFINERY.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "REFINERY.WSA",
+          "frame": 5
+        }
+      ]
+    },
+    {
+      "resource": "REPAIR.WSA",
+      "frame": 0,
+      "pixelSha256": "b843cc8e887f253a0dfc9508c39310ce8888589c8d8c8d88db5f33ed4417eed6",
+      "signatureBase64": "g4yDg4tcGIOJiIaEg4OLhYkWgxYfgxSDhIOEg4SJgpeD",
+      "equivalentFrames": [
+        {
+          "resource": "REPAIR.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "RTANK.WSA",
+      "frame": 0,
+      "pixelSha256": "08ca6c4121a23c6e720ad8801cd804fb31e298921dba1fb3ff5e35518825d0f4",
+      "signatureBase64": "jyIiRoYlhoMhI4khJCMhTY8jIyGDIyJNjyGPIyQiTEtK",
+      "equivalentFrames": [
+        {
+          "resource": "RTANK.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "RTURRET.WSA",
+      "frame": 0,
+      "pixelSha256": "c4a115c87fe55baf4d0c5d4ec5016bb773b04831fa3bb89c70570d19956b2fe7",
+      "signatureBase64": "GxgJCRcXFxoXIBoJCRcXmRkXCRcZGUCZHAkJCSAamZmY",
+      "equivalentFrames": [
+        {
+          "resource": "RTURRET.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "SABOTURE.WSA",
+      "frame": 0,
+      "pixelSha256": "870ce4f2e7d2464314a65bc25b6230fa0ebec37b3375d23a5acb739da7ea8dcb",
+      "signatureBase64": "GgwLjqMao6Maj6Qcj6MapgyjjwujPKUuC4+Nj6YaDAyn",
+      "equivalentFrames": [
+        {
+          "resource": "SABOTURE.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "SLAB.WSA",
+      "frame": 0,
+      "pixelSha256": "d549c686b1672ac1112665dec5fbf8082c7d44e5b363d532b54dda936d6c596b",
+      "signatureBase64": "FyAhIhooIRYgISEgISAhIhYhISEWISAhFiAiICEhISEh",
+      "equivalentFrames": [
+        {
+          "resource": "SLAB.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "STANK.WSA",
+      "frame": 0,
+      "pixelSha256": "e8bb3e89df2b742b17107f388158bc6a8550fecb5ecce4b7c5fd9c323073b297",
+      "signatureBase64": "jrMEhh+zjRexs4+GurmznJmxtLkVsoqcjgSPtLqznJ2d",
+      "equivalentFrames": [
+        {
+          "resource": "STANK.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 0,
+      "pixelSha256": "77358ed1eafd0f41850238c4f5c3014a9df953f0b26e56e625c3762e50751dc1",
+      "signatureBase64": "h4GJh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 1,
+      "pixelSha256": "77358ed1eafd0f41850238c4f5c3014a9df953f0b26e56e625c3762e50751dc1",
+      "signatureBase64": "h4GJh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 2,
+      "pixelSha256": "77358ed1eafd0f41850238c4f5c3014a9df953f0b26e56e625c3762e50751dc1",
+      "signatureBase64": "h4GJh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 3,
+      "pixelSha256": "77358ed1eafd0f41850238c4f5c3014a9df953f0b26e56e625c3762e50751dc1",
+      "signatureBase64": "h4GJh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 4,
+      "pixelSha256": "77358ed1eafd0f41850238c4f5c3014a9df953f0b26e56e625c3762e50751dc1",
+      "signatureBase64": "h4GJh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 5,
+      "pixelSha256": "77358ed1eafd0f41850238c4f5c3014a9df953f0b26e56e625c3762e50751dc1",
+      "signatureBase64": "h4GJh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 6,
+      "pixelSha256": "77358ed1eafd0f41850238c4f5c3014a9df953f0b26e56e625c3762e50751dc1",
+      "signatureBase64": "h4GJh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 7,
+      "pixelSha256": "77358ed1eafd0f41850238c4f5c3014a9df953f0b26e56e625c3762e50751dc1",
+      "signatureBase64": "h4GJh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 8,
+      "pixelSha256": "77358ed1eafd0f41850238c4f5c3014a9df953f0b26e56e625c3762e50751dc1",
+      "signatureBase64": "h4GJh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 9,
+      "pixelSha256": "77358ed1eafd0f41850238c4f5c3014a9df953f0b26e56e625c3762e50751dc1",
+      "signatureBase64": "h4GJh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 0
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 7
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 8
+        },
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 10,
+      "pixelSha256": "f0d69d7db7a37aaa5b586b6b0d69478bc30339e409028f5ffbb91c7d9a4ab736",
+      "signatureBase64": "h4GDh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 10
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 11,
+      "pixelSha256": "bb9ded0386f3fcd53ecd90dc4b0f8a89db213cb5c42e549047f406a2b9dcda3a",
+      "signatureBase64": "h4GFh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 11
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 12,
+      "pixelSha256": "37b70e076d8f2d0daf7f3df6e7a6843bf59099568164b49ed8c11bfbf9197dcf",
+      "signatureBase64": "h4GEh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 12
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 13,
+      "pixelSha256": "ecee185a46f7e7f56e32a1602676c671a9e73c815f6cbf31170ba4409ce49be4",
+      "signatureBase64": "h4GJh4J/f4h+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 13
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 14,
+      "pixelSha256": "30e592f66b935abacc022142fea8978b20c0a0614b8760dbe043c63d40fef9c7",
+      "signatureBase64": "h4GJh4J/g4h+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 14
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 15,
+      "pixelSha256": "93ae7178335132f814a362c7cc3862a98c6023815f98b0a1b58941ef71e2c8c5",
+      "signatureBase64": "h4GJh4J/hIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 16,
+      "pixelSha256": "8346a2c473ab9fc7974a2380877ec139135dd15671b8d5aaa54260806d008b5a",
+      "signatureBase64": "h4GJh1N/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 16
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 17,
+      "pixelSha256": "ef0c34faec4118a0b375b29f432dc2d1ecc13d3214f29d42477b3daddd1adc42",
+      "signatureBase64": "h4GJh39/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 17
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 18,
+      "pixelSha256": "6c1f0fa6b1e1d7fd8574df85bb9b2f8797ab4461a4fddc899d95c3577bef63ee",
+      "signatureBase64": "h4GJh4B/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 18
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 19,
+      "pixelSha256": "f9725e4ab4ea79051e8ec6d47a9913fd1891dd244a9cc02794032f3e16db674a",
+      "signatureBase64": "gIGJh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 19
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 20,
+      "pixelSha256": "c0964318820f6f500f766d635dc5d61a223235bc796cf0371fa98c3180cfac2d",
+      "signatureBase64": "g4GJh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 20
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 21,
+      "pixelSha256": "a9d6ce590fe9df28a6e4a8f69c99effcdad2a978443c9e8978830faf79326142",
+      "signatureBase64": "g4GJh4J/jIh+gYiJD36BmZiBD4CIgoKaiIyAD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 21
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 22,
+      "pixelSha256": "3ff9ea31ea33a9ec63409850bc5fa391610a8928a5806926634faf0a3ca69908",
+      "signatureBase64": "h4GJh4J/jIh+gYh/D36BmZiBD4CIgoKaiIyAD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 22
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 23,
+      "pixelSha256": "075e570cbdd6be6c04cf582d9c978c6f78f2d97612b1bd5cdb5e191b0f2d27e7",
+      "signatureBase64": "h4GJh4J/jIh+gYiAD36BmZiBD4CIgoKaiIyDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 23
+        }
+      ]
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "frame": 24,
+      "pixelSha256": "6eef8701de4da9bfca0ceb127d85d0e02582e2ca4a60cae199d4fa428c35d2d9",
+      "signatureBase64": "h4GJh4J/jIh+gYiJD36BmZiBD4CIgoKaiICDD4OBgYCY",
+      "equivalentFrames": [
+        {
+          "resource": "STARPORT.WSA",
+          "frame": 24
+        }
+      ]
+    },
+    {
+      "resource": "STORAGE.WSA",
+      "frame": 0,
+      "pixelSha256": "d958f113c6be403d5fa851eef5c06c461256b18540f705b93209c0da4a4f9d8f",
+      "signatureBase64": "hYGBgn+Fg4GBgoGDgX+Dg35/gYOBg4JTf4GEgX+DICB+",
+      "equivalentFrames": [
+        {
+          "resource": "STORAGE.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "STORAGE.WSA",
+      "frame": 1,
+      "pixelSha256": "b84c130469c88f5aafe4ba2574cd8092eb0d76e85152c5a55aa5c929c8ee269c",
+      "signatureBase64": "hYGBgn+Fg4GBgoGDgX+DU35/gYOBg4JTf4GEgX+DICB+",
+      "equivalentFrames": [
+        {
+          "resource": "STORAGE.WSA",
+          "frame": 1
+        }
+      ]
+    },
+    {
+      "resource": "STORAGE.WSA",
+      "frame": 2,
+      "pixelSha256": "9794868863bf01946a00be782a2d383616110f0a8156ff5362410f1b8448ef49",
+      "signatureBase64": "hYGBgn+Fg4GBgoGDgX+DhH5/gYOBg4KDf4GEgX+DICB+",
+      "equivalentFrames": [
+        {
+          "resource": "STORAGE.WSA",
+          "frame": 2
+        }
+      ]
+    },
+    {
+      "resource": "STORAGE.WSA",
+      "frame": 3,
+      "pixelSha256": "a33a8567c5d6698bae788c0f7244e32c4b026de7c18e431a74238d62cab27178",
+      "signatureBase64": "hYGBgn+Fg4GBgoGDgX+Dg35/gYOBg4KDf4GEgX+DICB+",
+      "equivalentFrames": [
+        {
+          "resource": "STORAGE.WSA",
+          "frame": 3
+        }
+      ]
+    },
+    {
+      "resource": "TRIKE.WSA",
+      "frame": 0,
+      "pixelSha256": "7f57d9e0dfad85642d1c9e4f3df83f2a08d0cd3067e48f5a15fcad206d21803b",
+      "signatureBase64": "ICMhRiAhICAiJUYjIyMiTYogIiQgIiBNICIlIiIiS0xK",
+      "equivalentFrames": [
+        {
+          "resource": "TRIKE.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "TURRET.WSA",
+      "frame": 0,
+      "pixelSha256": "6d3b9477c0f550fbf4623d7357b93984b8d01ef22d8d8f094b16e587fa2f2651",
+      "signatureBase64": "FxcJCRsYCRwYQAkcCRcWmRkZCRgcISCaGwkYCUAZmZiZ",
+      "equivalentFrames": [
+        {
+          "resource": "TURRET.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "WALL.WSA",
+      "frame": 0,
+      "pixelSha256": "4b1250ae5c983ca1c2e8e0fa98e5ff2f96c2e78b5c47ea3896440438f373d5ff",
+      "signatureBase64": "FhYVGBYWFRUWIRUWFxUWFhYVFxUWFRUVFhcWFxUWEVgW",
+      "equivalentFrames": [
+        {
+          "resource": "WALL.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "WINDTRAP.WSA",
+      "frame": 0,
+      "pixelSha256": "161d5375ac01292c14be5c9c5920497e45c6472b5961ccca4c4544191691bbc8",
+      "signatureBase64": "hoNug4SFbIR/c4SCg3+EhIRyhX+Ac3SAhIOChXNyRkZE",
+      "equivalentFrames": [
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "WINDTRAP.WSA",
+      "frame": 1,
+      "pixelSha256": "329a4a2bcf29a06454c91764fe6fb0119c049f14691fb9c7c659c9150afcf8d6",
+      "signatureBase64": "hoNug4SFbIR/c4SChX+EhIRyhX+Ac3SAhIOChXNyRkZE",
+      "equivalentFrames": [
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 11
+        }
+      ]
+    },
+    {
+      "resource": "WINDTRAP.WSA",
+      "frame": 2,
+      "pixelSha256": "0d59558d9ade42ce29f7b877a54cf9c49fc32ae6c98e3b20904f5840f74c6c18",
+      "signatureBase64": "o4Nug4SjbIR/c4SCg3+EhIRyhX+Ac3SAhIOChXNyRkZE",
+      "equivalentFrames": [
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 10
+        }
+      ]
+    },
+    {
+      "resource": "WINDTRAP.WSA",
+      "frame": 3,
+      "pixelSha256": "08f0076692ffda43b7359dcdd0914248e80a71659ff9682f335d06336700f807",
+      "signatureBase64": "ooNug4SFbIR/c4SChX+EhIRyhX+Ac3SAhIOChXNyRkZE",
+      "equivalentFrames": [
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "WINDTRAP.WSA",
+      "frame": 4,
+      "pixelSha256": "d19496e53e4f3fe4063284a703cf72fd9c73a4013a2fbfd49e035243a8cd30ae",
+      "signatureBase64": "oYNug4WFbIR/c6KCg3+EhKNyhX+Ac3SAhYOChXNyRkZE",
+      "equivalentFrames": [
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "WINDTRAP.WSA",
+      "frame": 5,
+      "pixelSha256": "ccf95c29f89a068142495f4568228385cf008be3aa0bf28321ef7d269fcf44d1",
+      "signatureBase64": "oYNug4WFbIR/c6KChX+EhKNyhX+Ac3SAhYOChXNyRkZE",
+      "equivalentFrames": [
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 7
+        }
+      ]
+    },
+    {
+      "resource": "WINDTRAP.WSA",
+      "frame": 6,
+      "pixelSha256": "d19496e53e4f3fe4063284a703cf72fd9c73a4013a2fbfd49e035243a8cd30ae",
+      "signatureBase64": "oYNug4WFbIR/c6KCg3+EhKNyhX+Ac3SAhYOChXNyRkZE",
+      "equivalentFrames": [
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "WINDTRAP.WSA",
+      "frame": 7,
+      "pixelSha256": "ccf95c29f89a068142495f4568228385cf008be3aa0bf28321ef7d269fcf44d1",
+      "signatureBase64": "oYNug4WFbIR/c6KChX+EhKNyhX+Ac3SAhYOChXNyRkZE",
+      "equivalentFrames": [
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 5
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 7
+        }
+      ]
+    },
+    {
+      "resource": "WINDTRAP.WSA",
+      "frame": 8,
+      "pixelSha256": "d19496e53e4f3fe4063284a703cf72fd9c73a4013a2fbfd49e035243a8cd30ae",
+      "signatureBase64": "oYNug4WFbIR/c6KCg3+EhKNyhX+Ac3SAhYOChXNyRkZE",
+      "equivalentFrames": [
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 4
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 6
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "WINDTRAP.WSA",
+      "frame": 9,
+      "pixelSha256": "08f0076692ffda43b7359dcdd0914248e80a71659ff9682f335d06336700f807",
+      "signatureBase64": "ooNug4SFbIR/c4SChX+EhIRyhX+Ac3SAhIOChXNyRkZE",
+      "equivalentFrames": [
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 3
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "WINDTRAP.WSA",
+      "frame": 10,
+      "pixelSha256": "0d59558d9ade42ce29f7b877a54cf9c49fc32ae6c98e3b20904f5840f74c6c18",
+      "signatureBase64": "o4Nug4SjbIR/c4SCg3+EhIRyhX+Ac3SAhIOChXNyRkZE",
+      "equivalentFrames": [
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 2
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 10
+        }
+      ]
+    },
+    {
+      "resource": "WINDTRAP.WSA",
+      "frame": 11,
+      "pixelSha256": "329a4a2bcf29a06454c91764fe6fb0119c049f14691fb9c7c659c9150afcf8d6",
+      "signatureBase64": "hoNug4SFbIR/c4SChX+EhIRyhX+Ac3SAhIOChXNyRkZE",
+      "equivalentFrames": [
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 1
+        },
+        {
+          "resource": "WINDTRAP.WSA",
+          "frame": 11
+        }
+      ]
+    },
+    {
+      "resource": "WOR.WSA",
+      "frame": 0,
+      "pixelSha256": "089f970a9da424f7bcd5127ba969521f263028482a0d3398e836636d2c5b7b6c",
+      "signatureBase64": "XyQuVWCMWF0uKBZYimAgQlotVWBdJSNDYFVWViQgKysk",
+      "equivalentFrames": [
+        {
+          "resource": "WOR.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "WOR.WSA",
+      "frame": 1,
+      "pixelSha256": "8483954439844771cb0f7a44742574e4b685563deb331813d265927d451433ae",
+      "signatureBase64": "XyQuVWCKWF0uKBZYimAgQlotVWBdJSNDYFVWViQgKysk",
+      "equivalentFrames": [
+        {
+          "resource": "WOR.WSA",
+          "frame": 1
+        }
+      ]
+    },
+    {
+      "resource": "WOR.WSA",
+      "frame": 2,
+      "pixelSha256": "18a0c5c039be47d03ad5eb3335ce91cc7bbdee6da49682363e47d1f640e477f7",
+      "signatureBase64": "XyQuVWCMWF0uKBZYiWAgQlotVWBdJSNDYFVWViQgKysk",
+      "equivalentFrames": [
+        {
+          "resource": "WOR.WSA",
+          "frame": 2
+        }
+      ]
+    },
+    {
+      "resource": "WOR.WSA",
+      "frame": 3,
+      "pixelSha256": "41282193249e0431d89feeccff51e0b693354a7e5ba0d149eb4f51e4208427aa",
+      "signatureBase64": "XyQuVWCKWF0uKBZYimAgQloth2BdJSNDYFVWViQgKysk",
+      "equivalentFrames": [
+        {
+          "resource": "WOR.WSA",
+          "frame": 3
+        }
+      ]
+    },
+    {
+      "resource": "WOR.WSA",
+      "frame": 4,
+      "pixelSha256": "b3d253b3ac9ff509f401b747182d0b4fe0854bf6a8b6a762c0550e2b6d697cb3",
+      "signatureBase64": "XyQuVWBgWF0uKBZYimAgQlotVWBdJSNDYFVWViQgKysk",
+      "equivalentFrames": [
+        {
+          "resource": "WOR.WSA",
+          "frame": 4
+        }
+      ]
+    },
+    {
+      "resource": "WOR.WSA",
+      "frame": 5,
+      "pixelSha256": "e03bf22dafbd5954b0c4e98efefd2aebf91d3a606f3090c1188ff4c7dd9b73d2",
+      "signatureBase64": "XyQuVWCKWF0uKBZYimAgQlotVWBdJSNDYFVWhyQgKysk",
+      "equivalentFrames": [
+        {
+          "resource": "WOR.WSA",
+          "frame": 5
+        }
+      ]
+    },
+    {
+      "resource": "WOR.WSA",
+      "frame": 6,
+      "pixelSha256": "199b6f137023ae18bb3f99117f03fcaa109e4bcb270e08703b14174c14097e9a",
+      "signatureBase64": "XyQuVWCMWF0uKBZYimAgQloth2BdJSNDYFVWViQgKysk",
+      "equivalentFrames": [
+        {
+          "resource": "WOR.WSA",
+          "frame": 6
+        }
+      ]
+    },
+    {
+      "resource": "WOR.WSA",
+      "frame": 7,
+      "pixelSha256": "8a456b99c1c123212a3bdbd78b20a6e9de4763708c31d521dff40fafeed0b3f2",
+      "signatureBase64": "XyQuVWCKWF0uKBZYiWAgQlotVWBdJSNDYFVWViQgKysk",
+      "equivalentFrames": [
+        {
+          "resource": "WOR.WSA",
+          "frame": 7
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 0,
+      "pixelSha256": "9b0b103979ba7333c98e49b9becd7376e5554597d9dd958888c1e181c66647c5",
+      "signatureBase64": "puOmerOvqrCjDKm1o7JzDKWsorCwrKYMsQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 1,
+      "pixelSha256": "f128e00de3602673a32f011ecdc340400699e7a114c34a6e7dbd2e78df5bde65",
+      "signatureBase64": "puOmerKvqqmjDKm1o7JzDKWsorKprKYMsAymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 1
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 2,
+      "pixelSha256": "73bb79972cf6dd90296b2e0c997d79dcc8efd37e3dc761a4df1d5de5052f5769",
+      "signatureBase64": "puOmerGvqqmjDLC1o7BzDKWsoquprKYMoQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 2
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 3,
+      "pixelSha256": "418edeadbe4c9b6d0a954146493738443996033d85305c1fdb3f9389fb7eb885",
+      "signatureBase64": "puOmerGvsqmjDLC1o7JzDKWsoqupraYMqgymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 3
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 4,
+      "pixelSha256": "f091533a73eb11cbe530ef53d1103289d32a6eec6aa5381eb5c6467a03d42e9d",
+      "signatureBase64": "puOmeqqvsqmjDIO1o6xzDKWtoqypraYMqgymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 4
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 5,
+      "pixelSha256": "441f9d56391e93f419fcedeb92e60ea318f7dedbcf32036448c6bcb032f05663",
+      "signatureBase64": "puOmeqqvsqmjDKm1o6xzDKWtoqupraYMqQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 5
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 6,
+      "pixelSha256": "04fe749a61849b61811fcc173a0e6616658f480aa32c3f16b22fdd3f36931e68",
+      "signatureBase64": "puOmeqqvs7KjDLG1o6xzDKWtorEErKYMqgymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 6
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 7,
+      "pixelSha256": "3eba33e27d96f6ab38c66325cb4509cfb466a58a791b09d594f9626b4436813a",
+      "signatureBase64": "puOmerKvs6mjDLG1o6xzDKWsoqyprKYMsAymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 7
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 8,
+      "pixelSha256": "f2ab2d076314f4b3c2cfb6731c5b4b829fdefdce6ea0290ebc7b6101dc45d41c",
+      "signatureBase64": "puOmerGvsqmjDLK1o7FzDKWsoquprKYMsQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 9,
+      "pixelSha256": "90b6250b29ff062ea52409fa782a94601d12633989fcfdcf5cce30a51744347e",
+      "signatureBase64": "puOmerOvsqCjDLO1o6xzDKWsooOxrKYMqQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 10,
+      "pixelSha256": "6cfafb91c5e1bf6c72dbae771a1cf00a40463ea50bcec4914d914aae1dbf19fb",
+      "signatureBase64": "puOmerKvsrKjDLO1o6tzDKWtorKxraYMsQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 10
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 11,
+      "pixelSha256": "e0e67d44a62537bc00a7755eb5b02c9b42a47dae08f9f89b236fd1864845c291",
+      "signatureBase64": "puOmerOvsrGjDLK1o6FzDKWtorGyrKYMsAymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 11
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 12,
+      "pixelSha256": "f35b9f552572acac6ed0f9910821febd346ea3967cafbde7de709c3027ef6917",
+      "signatureBase64": "puOmerKvsrGjDLK1o7JzDKWtoquyraYMsQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 12
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 13,
+      "pixelSha256": "5ab9dbec017fecaca0111009a154f11b2e1485da17692a07becf8856e1300328",
+      "signatureBase64": "puOmerKvsrOjDLO1o7FzDKWtoqyyraYMsQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 13
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 14,
+      "pixelSha256": "70a19f01466686ae16f80459727e9694cc0f97e574028d42ecb0761055580007",
+      "signatureBase64": "puOmerKvs7KjDLO1o6xzDKWtoqyzrKYMsgymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 14
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 15,
+      "pixelSha256": "589354d1611204ee1c89c51151114db4b9d74088c2c145057846ff763be4192e",
+      "signatureBase64": "puOmerOvsbGjDLG1o7NzDKWtoqyyraYMsQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 16,
+      "pixelSha256": "f4d51257dadb3a2b841d4a8179ecea6390c4e5c939147ef256e8556d1fdb489e",
+      "signatureBase64": "puOmerKvsrGjDKy1o6xzDKWtooSxraYMsQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 16
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 17,
+      "pixelSha256": "a5abfb5a5cb59161432c0ef4f766d9953090701f5e9b95c923cf0ed03c757082",
+      "signatureBase64": "puOmerKvsLGjDK21o6tzDKWsorOyraYMsQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 17
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 18,
+      "pixelSha256": "58cb46aaf0545757e86cc83107dad73c5a56706d9f3611cfdcbf0ba6c47ebd81",
+      "signatureBase64": "puOmerKvrbKjDKy1o6xzDKWtoq2xrKYMsQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 18
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 19,
+      "pixelSha256": "6779f1df947a36ca3ddb7bada73332659eb0079936e3c43b5e782fddd574c2c4",
+      "signatureBase64": "puOmerOvrbKjDLK1o7JzDKWtoq2yraYMsQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 19
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 20,
+      "pixelSha256": "c334c78d9f3e94b3678eceb353f85443e699344d8f95a75a6d10d56dc06cdf67",
+      "signatureBase64": "puOmerKvrK2jDLG1o61zDKWtoq2srKYMsAymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 20
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 21,
+      "pixelSha256": "a2a653c1f366f10dd7adb2d787551d5fabff80be1b3cfc38bf1052fde24f9af1",
+      "signatureBase64": "puOmerGvrK2jDKu1o61zDKWtoq2trKYMsQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 21
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 22,
+      "pixelSha256": "2b54a50a729a238dfb0b68835acd5ac98f211b7d2f8bf56f0dbb47c41a5646da",
+      "signatureBase64": "puOmeq2vq7GjDKq1o61zDKWsoqyErKYMrQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 22
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 23,
+      "pixelSha256": "006a1baddd2d717b13546ce93a6cbcad05c22db7cfd11562a84e7f93fc847a9e",
+      "signatureBase64": "puOmeq2vq7KjDLG1o6xzDKWsoquxrKYMrAymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 23
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 24,
+      "pixelSha256": "7c3b67ebf2cd998395140b96f319d4c5572850df3f9c02a01bd75fb28b9aec1b",
+      "signatureBase64": "puOmeq2vsLOjDLG1o6tzDKWsoqurrKYMogymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 24
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 25,
+      "pixelSha256": "3c4e4f3682d35ef56c72f8a98ec027036121dea4488a0db6b59836f46c151f03",
+      "signatureBase64": "puOmequvsqujDLC1o6tzDKWtokWqrKYMsgymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 25
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 26,
+      "pixelSha256": "41e042548b9bc37e226be04eac1ea5c2b45149f73ad4a33f7c5839070c364510",
+      "signatureBase64": "puOmequvsrKjDEa1o6tzDKWsorCxrKYMqwymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 26
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 27,
+      "pixelSha256": "a12516442e4375bc0ff6f83dc54016c54d92d02c3f1d32f514b1e0286302a8a3",
+      "signatureBase64": "puOmequvs7KjDKi1o7BzDKWsoquxrKYMoQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 27
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 28,
+      "pixelSha256": "acd1633ce0a99ec3e27646540bcec660ddbd9cd3a94dffab8f2abac8978d1ab2",
+      "signatureBase64": "puOmerGvsbCjDKi1o0RzDKWsoquwrKYMoQymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 28
+        }
+      ]
+    },
+    {
+      "resource": "FARTR.WSA",
+      "frame": 29,
+      "pixelSha256": "3ab7a6c51d2027051e211c07624bcc9018e1c03b2ba22f30741c7f8fc54990aa",
+      "signatureBase64": "puOmerGvqkajDKm1o6tzDKWsorNGrKYMsgymoqNfDKZh",
+      "equivalentFrames": [
+        {
+          "resource": "FARTR.WSA",
+          "frame": 29
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 0,
+      "pixelSha256": "d094bedfbb484dad3fcb71979650772abccca06e389536765f7b2f434f607ad1",
+      "signatureBase64": "lCLWhQyDlAyTOzqVkzniDJSVkgwMDKYMlQwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 1,
+      "pixelSha256": "0d5b9fbbd5569d7fa5df033abbe48847dda8fca4711f9b3a1163900ecee08215",
+      "signatureBase64": "lCLWhQyDlJWTOzqVkwziDJQMkpWVDKYMDAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 1
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 2,
+      "pixelSha256": "51a0e4deaadf7c15183c8e5006a3a699a1c2abe81acea7d02c7538b15924893a",
+      "signatureBase64": "lCLWhQyDOjeTOzqVk5biDJQMkgw3DKYMlgwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 2
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 3,
+      "pixelSha256": "ec65ed03a04a6e2b6c62fce1ad2cd02aa5d6b9e6d3fb27e55abd0c5e90e0eabf",
+      "signatureBase64": "lCLWhZWDljiTOwyVk5biDJQMkgw2laYMOgwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 3
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 4,
+      "pixelSha256": "62adcad8249fca9bcbc143495097cb6a4cadd5e5057ecea3d2437ceb673f1cbf",
+      "signatureBase64": "lCLWhTmDljiTO5WVkwziDJQMkpY4lqYMOgwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 4
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 5,
+      "pixelSha256": "84ca4588257a2b1cec37217e5b0bf879acc3756fe6459877618f96388ec3de8b",
+      "signatureBase64": "lCLWhZSDDDqTOzqVkwziDJSVkjk6lqYMNwwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 5
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 6,
+      "pixelSha256": "d1408ce147a88dd39145600d607f78deedb124c127d1f0b831de98a5d9900817",
+      "signatureBase64": "lCLWhZSDDJaTO5WVkwziDJSWkjcMDKYMOgwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 6
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 7,
+      "pixelSha256": "ef63a9080cec3b5a3a4fe2de4df32fddde159d764426dcf84205663365e28f2d",
+      "signatureBase64": "lCLWhTqDlgyTOzmVkzriDJSWkgyVlqYMDAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 7
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 8,
+      "pixelSha256": "2974658a1216415b8da2e39b6bba14a255756c093c8837dac39da37df5ed875b",
+      "signatureBase64": "lCLWhQyDOZWTOzaVkzfiDJQMkjqVDKYMDAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 9,
+      "pixelSha256": "f2ae4e2d4c5fe4ae1d8b36f46a8972597c47267ae519138fa5106bf59ddce33b",
+      "signatureBase64": "lCLWhZaDODqTO5aVkwziDJQMkpSWDKYMDAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 10,
+      "pixelSha256": "d260f79b56950d6b09f45f21d7348eabe23fb403f449c0321d8406bc0f4040ce",
+      "signatureBase64": "lCLWhZaDNpWTOwyVk5XiDJQMkpWVDKYMDAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 10
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 11,
+      "pixelSha256": "de7f511703c227dd89db4dd6228c233f8c3d70bdfed2732082ff395b9a96b2ac",
+      "signatureBase64": "lCLWhQyDljmTOzqVk5TiDJQMkpWUDKYMlgwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 11
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 12,
+      "pixelSha256": "3580ce5acc83dd96542ddf98170425b8c7f6a0b8ecf6d9ca333a38b206553447",
+      "signatureBase64": "lCLWhZaDljaTOziVk5XiDJQMkgyWDKYMlQwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 12
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 13,
+      "pixelSha256": "07cefecb66b3987c323611714da0945ca63e5e186dc13b27952db73bc598fa5e",
+      "signatureBase64": "lCLWhTmDlgyTOzeVk5XiDJQMkgwMlaYMlAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 13
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 14,
+      "pixelSha256": "7bcc62fe6bd06d15c7a0d1c21ef0633da29a51c9fd9079851ba0ae8d63c7f219",
+      "signatureBase64": "lCLWhTaDOjqTOzaVk5biDJQMkpWWOKYMDAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 14
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 15,
+      "pixelSha256": "5e8eb912aca1caeab52e04e17f53559f741a8b222471879ce7a0e0d77c7ffdd7",
+      "signatureBase64": "lCLWhZaDOZWTOzmVk5biDJSVkjiVNaYMDAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 16,
+      "pixelSha256": "ccdfe19f26b798ae69a9e1a8a68a8579d8a8ffd8b411741ab35a1aeebbf12e3c",
+      "signatureBase64": "lCLWhQyDOTiTOwyVk5biDJQ4kjU5OKYMlQwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 16
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 17,
+      "pixelSha256": "1cb87f3c5b7d4cccdbb1dda5166affa397440617010c392881dc2cad199c252a",
+      "signatureBase64": "lCLWhZaDlTmTO5aVkzjiDJQ1kjU1laYMOQwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 17
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 18,
+      "pixelSha256": "da51f0a2f9e13ecfed37ccca3e6e4716df2fbf142e80a65415ab28a1bafce65d",
+      "signatureBase64": "lCLWhZWDDDeTOzqVkzriDJQ4kpU2DKYMNwwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 18
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 19,
+      "pixelSha256": "b1b7331c116da08da84929361f7052ec44e36f9633592abcf6392cdc35408d87",
+      "signatureBase64": "lCLWhZSDlDWTOzmVkzjiDJSVkpY6DKYMOAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 19
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 20,
+      "pixelSha256": "653ead059673818c5c3ab635c6bd248791b099c7ef9f4f2eb7431538d17c8c8e",
+      "signatureBase64": "lCLWhTmDlTqTO5aVkzniDJQMkgw6DKYMNQwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 20
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 21,
+      "pixelSha256": "4caafffea0ac6ddf7b5f20fe1cecaf03bf5b5e5a3f185c84bce1dbc5c3b09a32",
+      "signatureBase64": "lCLWhTmDODqTO5aVk5biDJQMkpY6lqYMDAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 21
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 22,
+      "pixelSha256": "1ca54da4fa16454fab3a68cff044573d53833f47e707c29bf076ac1f475b27de",
+      "signatureBase64": "lCLWhZaDOTqTO5aVkwziDJQMkgw5DKYMDAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 22
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 23,
+      "pixelSha256": "85dea4a1ccf1d6682813303389780d95a1cd6e9036355c2932d7d085835a1783",
+      "signatureBase64": "lCLWhZaDljmTO5aVk5biDJQMkgw4DKYMlAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 23
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 24,
+      "pixelSha256": "4b06766347d37760c32a971701b9e9150bcef3892f5676f8be4a4536d1c2c16a",
+      "signatureBase64": "lCLWhTmDDJaTO5aVk5biDJQMkgwMlqYMOAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 24
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 25,
+      "pixelSha256": "b28ac6422c20753bdcc42106e357cf17256aa516514d6dae35a30ed4df7e35d4",
+      "signatureBase64": "lCLWhTmDDJaTOziVk5biDJQMkjiWlaYMOQwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 25
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 26,
+      "pixelSha256": "8f57d66b23569a3e48cafc98a06b2546c9f2d1bbd83cf1e2b92576e7efd5394c",
+      "signatureBase64": "lCLWhZODDAyTOwyVkwziDJSVkpUMlaYMDAwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 26
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 27,
+      "pixelSha256": "43aa411935f16185c4c66a34ff57812734a2300b7c8b78ebaf0103cba6a7c5de",
+      "signatureBase64": "lCLWhZaDDJaTOwyVkwziDJSVkjqVlaYMlgwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 27
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 28,
+      "pixelSha256": "ee212d955aa5dbf9992af3442ca8035a0d2b66cb05c892af2563cf90b7ffefec",
+      "signatureBase64": "lCLWhZaDDDmTOzqVk5XiDJSVkjk5laYMlQwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 28
+        }
+      ]
+    },
+    {
+      "resource": "FHARK.WSA",
+      "frame": 29,
+      "pixelSha256": "e49fab010941eb9b9acb6cc90a5241e9354bfc5a953dafd8e6dceb024623416f",
+      "signatureBase64": "lCLWhQyDlTqTOzmVkzriDJSVkjqWDKYMlgwNLZRiDKZi",
+      "equivalentFrames": [
+        {
+          "resource": "FHARK.WSA",
+          "frame": 29
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 0,
+      "pixelSha256": "479242ce33f4c03ddd2eb394c340a2346f285a736fb71dd38e452890c46a7658",
+      "signatureBase64": "g2Sgr5yvnJ60DJ6us57jDLWftpyenKQMDwy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 1,
+      "pixelSha256": "b245744935ccd712abebdde7536ee891aada12cd3905415d3d92371a0237a78e",
+      "signatureBase64": "g2Sgrw+vnJ60DJ2us5zjDLWdtp8PnKQMngy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 1
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 2,
+      "pixelSha256": "a1a52dcc23ee84640a8292a50893e7c73355a05659674c1c4408531f1adc518a",
+      "signatureBase64": "g2Sgr56vnZu0DJyus5zjDLWctp6enKQMDwy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 2
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 3,
+      "pixelSha256": "8b8d073280395adaade22484b9ab7605a324449d548fdce9553d43a3e470fc42",
+      "signatureBase64": "g2Sgr5yvnp+0DJ2us5/jDLWctp2cm6QMnAy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 3
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 4,
+      "pixelSha256": "aa3ad322ca00210da957d677796175414ff82883570b81a633a62d007f113bc1",
+      "signatureBase64": "g2Sgr56vDw+0DA+usw/jDLWctp2en6QMDwy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 4
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 5,
+      "pixelSha256": "ed063b4a67faf4c7dba64b973b4642e62b64b373e011daad203fe79a62c9dd8e",
+      "signatureBase64": "g2Sgr5yvnZy0DA+us57jDLWctpycnaQMnAy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 5
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 6,
+      "pixelSha256": "26ed1a8b2680e5a783670d278c9d0ada28243b4479394096809fd7e692569d39",
+      "signatureBase64": "g2Sgr52vD5y0DJ+us57jDLWftpycD6QMnAy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 6
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 7,
+      "pixelSha256": "fe7682142abe9cb2a8ccf78efebfb3274fcc662f1d7591ebab726a877720433a",
+      "signatureBase64": "g2Sgr52vnZu0DJyus5zjDLWdtpycn6QMnQy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 7
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 8,
+      "pixelSha256": "50319069ff64efb772a361d86716d556a1d6979810e92ad432f649090f5617de",
+      "signatureBase64": "g2Sgr5+vDw+0DJyus5zjDLUPtpufn6QMDwy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 9,
+      "pixelSha256": "6f88e6cc915c27eb7af888a126b1d06ce56f934e1552459b1a9fda94e9ff212a",
+      "signatureBase64": "g2Sgr56vnQ+0DJ6us5vjDLWbtpwPD6QMDwy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 10,
+      "pixelSha256": "ba5dc0a34c62b03e8bfca6fa95b2933e858bd2d40709e59529745ac1151a9206",
+      "signatureBase64": "g2Sgr56vnA+0DJ+us53jDLWdtg+eD6QMDwy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 10
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 11,
+      "pixelSha256": "f0f127d3725d176b3198e802351c6d8ac06058d93be4046ce2ada003f6527ece",
+      "signatureBase64": "g2Sgr52vnA+0DA+us5zjDLUPtpyenqQMngy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 11
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 12,
+      "pixelSha256": "d455ee67322db5c818c892daa33a5750262d2efeb97d54da1f537d633a77c933",
+      "signatureBase64": "g2Sgr56vnZ20DA+us53jDLUPtp6cD6QMDwy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 12
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 13,
+      "pixelSha256": "69116b8acf4503ffcfc5fb5e1fca09be29d9af9d6441d81d6c6c075b05843ea8",
+      "signatureBase64": "g2Sgr56vD560DJ+us5zjDLWetg+cnqQMDwy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 13
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 14,
+      "pixelSha256": "bfc68e473e1ecabd9aad7a4574d0a8b8536110b9def70bb8c5e8220d48712da4",
+      "signatureBase64": "g2Sgr52vD560DJ2us57jDLUPtpyen6QMnAy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 14
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 15,
+      "pixelSha256": "b02934374f3014a9625a9548dbed8116b85a3b49999b306e63de350e894e5601",
+      "signatureBase64": "g2Sgr5yvDw+0DJyusw/jDLWetg8PD6QMngy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 15
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 16,
+      "pixelSha256": "3ec42669810c5cd586f28e69f02aa85d861dfdabb3916cd9d7649e30d4dac2ca",
+      "signatureBase64": "g2Sgr5yvDw+0DA+us5zjDLUPtg8PnaQMnQy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 16
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 17,
+      "pixelSha256": "f3af801a2a51bc218bdc14e346d92008b03a162e013869ba924b170d2da159e1",
+      "signatureBase64": "g2Sgr56vm5+0DJ2usw/jDLUPtpudD6QMDwy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 17
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 18,
+      "pixelSha256": "4b9c5e98cb22c4914948b94f9141cadf0fdc4167bd821e81578d2d8e2f02eaed",
+      "signatureBase64": "g2Sgrw+vnZ60DJ6usw/jDLWdtp2enKQMDwy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 18
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 19,
+      "pixelSha256": "a0e5d190e97d1703ae6cbcffa93605764a4deadc7a132d9b060143aedf1e0d89",
+      "signatureBase64": "g2Sgrw+vnp+0DJ6us53jDLWdtp6bnaQMnQy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 19
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 20,
+      "pixelSha256": "e2184a3b5fdfcb0fa2463c5c62d136bf11615125181251e4a1d174ab1ae0f98f",
+      "signatureBase64": "g2Sgr52vD560DA+us53jDLWdtp0PnaQMnQy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 20
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 21,
+      "pixelSha256": "31042c2b6b08b6418664bb3264ffbb8f81f72151f1e595e22309b0a880be7b36",
+      "signatureBase64": "g2Sgr5yvnp+0DA+us57jDLWdtpydm6QMnQy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 21
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 22,
+      "pixelSha256": "90712f001cfa375ca8522fc62945f84a1cb8bdb93367c133d76ee9bc3060288c",
+      "signatureBase64": "g2Sgr5yvnQ+0DA+us5vjDLWdtpwPm6QMmwy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 22
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 23,
+      "pixelSha256": "ab504d1b1cf3dcb7e0dc4868edaaa203f665f1b8865877d6b387c6fb623d8fac",
+      "signatureBase64": "g2Sgr5uvnJ60DJyus5zjDLWftp2enaQMngy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 23
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 24,
+      "pixelSha256": "25161c1d3aba944577fd24b9bf8095b8bac3271cfcd1101ce89490b09ea89cad",
+      "signatureBase64": "g2Sgrw+vnJ+0DJyus5vjDLWctp+fm6QMDwy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 24
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 25,
+      "pixelSha256": "5add6fbc21b5a7ec28136dd6b1453003e6efb53975eff784fe64b6cb9b629a7a",
+      "signatureBase64": "g2Sgr56vnJ20DJuus57jDLWdtp2dnqQMDwy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 25
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 26,
+      "pixelSha256": "00797a8b4a573f18ad1781f210b5ccb42e7201adc3c0528eaf8f7374eabe81d3",
+      "signatureBase64": "g2Sgrw+vm5u0DJ2us5/jDLWbtpybD6QMngy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 26
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 27,
+      "pixelSha256": "f21615bfe0e5942d010dcaa171f856e3f433cdce2aa6ee791a1a105c85f17976",
+      "signatureBase64": "g2Sgr5yvnp60DA+us5/jDLWbtp6fm6QMnAy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 27
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 28,
+      "pixelSha256": "4b554d0828386691ccd147eb3e18caff37c3230af1a0f330deb554a119f83c1c",
+      "signatureBase64": "g2Sgr5yvnJy0DJ+us53jDLUPtpucm6QMnAy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 28
+        }
+      ]
+    },
+    {
+      "resource": "FORDOS.WSA",
+      "frame": 29,
+      "pixelSha256": "676e245885e8cab1251f7e51ad74db59d211998adc28083d2b8d4844b89dcc1b",
+      "signatureBase64": "g2Sgr5uvn520DJ6us57jDLWbtp2cn6QMnQy1s5p0DKZk",
+      "equivalentFrames": [
+        {
+          "resource": "FORDOS.WSA",
+          "frame": 29
+        }
+      ]
+    },
+    {
+      "resource": "FREMEN.WSA",
+      "frame": 0,
+      "pixelSha256": "1b012e39fa88143e34a1c8674617181b91578f9d0e881cff95aa3e43cc105935",
+      "signatureBase64": "LvUuhoIvLSz2hST3+IX5QyUg+CEsISBD+Svz+CAvDIGQ",
+      "equivalentFrames": [
+        {
+          "resource": "FREMEN.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "FREMEN.WSA",
+      "frame": 1,
+      "pixelSha256": "b6a3b9b9b8e9db9450cefa2b7cdd20d6dc514cadfaa5ba50bdd39734bdc39ff7",
+      "signatureBase64": "LvUuhoIvLSz2hST3+IX5QyUg+CEsISBD+Svz+CAvDIGx",
+      "equivalentFrames": [
+        {
+          "resource": "FREMEN.WSA",
+          "frame": 1
+        }
+      ]
+    },
+    {
+      "resource": "WORM.WSA",
+      "frame": 0,
+      "pixelSha256": "acb4d1e22321d9247f243fa75035a72c8e5a6eaa149bd774dba13ec31b4cb423",
+      "signatureBase64": "FxxISBEaGnoaUBBHSBoYSUgaRx16FSJKgkhHSCFQSklJ",
+      "equivalentFrames": [
+        {
+          "resource": "WORM.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "SARDUKAR.WSA",
+      "frame": 0,
+      "pixelSha256": "e8186aa9f795acb69037405a2b16d55c673312d81ab709ccdb0a6a9dc073b31c",
+      "signatureBase64": "h4dZjYeHj4sMVwyNj42IiI+PjwyLV1aHiY+Hi1aMkbGN",
+      "equivalentFrames": [
+        {
+          "resource": "SARDUKAR.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "SARDUKAR.WSA",
+      "frame": 1,
+      "pixelSha256": "fa81fd7c29a7fefa2e43a615720fb2df793e64271df5f1d7889a01bf865cd9ac",
+      "signatureBase64": "h4dZjYeHj4sMVwyNj42IiI+PjwyLV1aHiY+Hi1aMkrCN",
+      "equivalentFrames": [
+        {
+          "resource": "SARDUKAR.WSA",
+          "frame": 1
+        }
+      ]
+    },
+    {
+      "resource": "SARDUKAR.WSA",
+      "frame": 2,
+      "pixelSha256": "cc2bdfacac4769ed6e172198d34c864ebd35ab24fb386e2925268913dfb2475d",
+      "signatureBase64": "h4dZjYeHj4sMVwyNj42IiI+PjwyLV1aHiY+Hi1aMk7GN",
+      "equivalentFrames": [
+        {
+          "resource": "SARDUKAR.WSA",
+          "frame": 2
+        }
+      ]
+    },
+    {
+      "resource": "SARDUKAR.WSA",
+      "frame": 3,
+      "pixelSha256": "1d16cc2ef9cbe9ac62d0b178257b73fc8e9e72beafe1827a0bbd812ee319c27a",
+      "signatureBase64": "h4dZjYeHj4sMVwyNj42IiI+PjwyLV1aHiY+Hi1aMlLGN",
+      "equivalentFrames": [
+        {
+          "resource": "SARDUKAR.WSA",
+          "frame": 3
+        }
+      ]
+    },
+    {
+      "resource": "SARDUKAR.WSA",
+      "frame": 4,
+      "pixelSha256": "d844c8a8c6ed2a079486e4e90a023d20e8edbbfded26b35efb3049433dadeed3",
+      "signatureBase64": "h4dZjYeHj4sMVwyNj42IiI+PjwyLV1aHiY+Hi1aMk7KN",
+      "equivalentFrames": [
+        {
+          "resource": "SARDUKAR.WSA",
+          "frame": 4
+        }
+      ]
+    },
+    {
+      "resource": "SARDUKAR.WSA",
+      "frame": 5,
+      "pixelSha256": "01a2079669a01159796b0d8b1b5acfcff7b7f0844a84ec16f392334bde0e7bd2",
+      "signatureBase64": "h4dZjYeHj4sMVwyNj42IiI+PjwyLV1aHiY+Hi1aMkrKN",
+      "equivalentFrames": [
+        {
+          "resource": "SARDUKAR.WSA",
+          "frame": 5
+        }
+      ]
+    },
+    {
+      "resource": "SARDUKAR.WSA",
+      "frame": 6,
+      "pixelSha256": "c6843731c06737785dfa83e593b42e59a86d094eccb3ccf54cbc21303c20306f",
+      "signatureBase64": "h4dZjYeHj4sMVwyNj42IiI+PjwyLV1aHiY+Hi1aMkbON",
+      "equivalentFrames": [
+        {
+          "resource": "SARDUKAR.WSA",
+          "frame": 6
+        }
+      ]
+    },
+    {
+      "resource": "SARDUKAR.WSA",
+      "frame": 7,
+      "pixelSha256": "4fe3bb3876c1350ec53676443835dbe6293fa3ef37e59c8aa2922fa7792c78f4",
+      "signatureBase64": "h4dZjYeHj4sMVwyNj42IiI+PjwyLV1aHiY+Hi1aMkLON",
+      "equivalentFrames": [
+        {
+          "resource": "SARDUKAR.WSA",
+          "frame": 7
+        }
+      ]
+    },
+    {
+      "resource": "SARDUKAR.WSA",
+      "frame": 8,
+      "pixelSha256": "005a6948544e55d8040e41476294599dd7f2cf96ef4443c3bdb6614570441352",
+      "signatureBase64": "h4dZjYeHj4sMVwyNj42IiI+PjwyLV1aHiY+Hi1aMkLKN",
+      "equivalentFrames": [
+        {
+          "resource": "SARDUKAR.WSA",
+          "frame": 8
+        }
+      ]
+    },
+    {
+      "resource": "SARDUKAR.WSA",
+      "frame": 9,
+      "pixelSha256": "363292645b282995d826965a93714ad71266883dd407f16d1b401aadedcbac91",
+      "signatureBase64": "h4dZjYeHj4sMVwyNj42IiI+PjwyLV1aHiY+Hi1aMkbKN",
+      "equivalentFrames": [
+        {
+          "resource": "SARDUKAR.WSA",
+          "frame": 9
+        }
+      ]
+    },
+    {
+      "resource": "WIN1.WSA",
+      "frame": 0,
+      "pixelSha256": "ac0c3310fb548f52b2056fed781cef5b7614e94c6780e69ad8d1d0889410e681",
+      "signatureBase64": "glYeEpcjjR1VVpcNIo5amJddIiMeYV2Zh5cJIo1XmJiY",
+      "equivalentFrames": [
+        {
+          "resource": "WIN1.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "WIN2.WSA",
+      "frame": 0,
+      "pixelSha256": "42dcc5761a11001c68c1fdb6a64434be6474e049b6a2dbcb682495b30e3d7356",
+      "signatureBase64": "Qo5Chw1HDUMhjRaJH44hSkYhHyKPKSRHgx+PH4QliIkM",
+      "equivalentFrames": [
+        {
+          "resource": "WIN2.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "LOSTBILD.WSA",
+      "frame": 0,
+      "pixelSha256": "f16ef16d5185a0d021d2df2c91fb289c7affc8bb1f0d22778dbe422333d67746",
+      "signatureBase64": "gz8dhR2FFoEXhoQYGRyDjw0cGRuBGx2PhBUYGR2BRESB",
+      "equivalentFrames": [
+        {
+          "resource": "LOSTBILD.WSA",
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "resource": "LOSTVEHC.WSA",
+      "frame": 0,
+      "pixelSha256": "7a55d2939556b81708b309da43d3f5d6713897d09bbec272fe6eb8ac0a42414c",
+      "signatureBase64": "KI8lJiQoIiSMLI2ILI6MjSWOK4ojjY2MKCYpL7ePS0qM",
+      "equivalentFrames": [
+        {
+          "resource": "LOSTVEHC.WSA",
+          "frame": 0
+        }
+      ]
+    }
+  ],
+  "matching": "Require exact values at all witness coordinates. Multiple matches are explicitly equivalent original frames. If occluded or absent, return unknown; do not pick nearest. Full-frame SHA256 may confirm a match when no UI/cursor overlays cover the crop.",
+  "sourceInventories": [
+    "motion/inventory.json",
+    "extra-motion/inventory.json",
+    "outcome-motion/inventory.json"
+  ],
+  "preserved42": {
+    "resources": 42,
+    "phases": 264,
+    "coordinates": 33,
+    "witnessBankSHA256": "51187e92c5e80ddbe9f7571039898c5c32da5271c177211eed250eeaa51e5c88"
+  }
+}
