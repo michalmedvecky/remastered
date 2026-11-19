@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/art/hd-v2/units/references/quad-south-fix.png",
+    "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/art/hd-v2/units/references/quad-style.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Image1 is the EXACT edit target: the original native SOUTH-facing QUAD vehicle, pointing DOWN. Image2 is STYLE AND DESIGN ONLY: the correctly drawn NORTH-facing version of this same FOUR-WHEELED Quad. Draw a single matching SOUTH-facing Quad from the same high-overhead orthographic tactical-game camera, preserving Image1 pose, compact shape and relative proportions.\n\nCRITICAL: this is a QUAD with FOUR TIRES TOTAL, one at each corner: two left tires and two right tires. The front pair are at bottom-left and bottom-right. There is NO centre tire and NO fifth tire. Do NOT draw the three-wheel Trike. Keep the four-wheel layout from Image2, while turning the vehicle's nose and paired small gun barrels toward the BOTTOM to match Image1. All four tires must remain individually visible, without merging into the body. The two small gun tips point DOWN between the front-left and front-right wheels. Do not confuse a front gun or bumper with another tire.\n\nKeep the same cobalt-blue armored buggy body, pale steel central hood, dark charcoal rubber tires with readable tread, restrained clean painted hard-surface shading and upper-left lighting as Image2. This is crisp HD2D game art, no pixel blocks, blurry interpolation, generic microtexture/grain, toy perspective or low camera angle. One whole connected vehicle, centered with generous truly transparent margins. No floor, backdrop, halo, long shadow, labels, text or other vehicles. Output a sharp square transparent image.",
+  "ids": [
+    242
+  ]
+}

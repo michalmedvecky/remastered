@@ -1,0 +1,3687 @@
+{
+  "schema": 1,
+  "baseHouse": 1,
+  "sources": {
+    "ICON.ICN": "435174070c9e4cc567ec32a5fd8175f069f11a8f791cc2134972b89d3e0170d6",
+    "ICON.MAP": "fed01941db04e50129c7bb8b1bbae68393fb1878c2337ef4ae9937bba77c6bd2",
+    "IBM.PAL": "219926bd453b55522db80b16fd0d0157bc398299974920e2ff17e0e865291c80",
+    "preload": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
+  },
+  "types": [
+    {
+      "id": 2,
+      "name": "Palace",
+      "group": 11,
+      "width": 48,
+      "height": 48,
+      "states": [
+        [
+          210,
+          211,
+          212,
+          220,
+          221,
+          222,
+          229,
+          230,
+          231
+        ],
+        [
+          213,
+          214,
+          215,
+          223,
+          224,
+          225,
+          232,
+          233,
+          234
+        ],
+        [
+          216,
+          217,
+          218,
+          226,
+          227,
+          228,
+          235,
+          236,
+          237
+        ],
+        [
+          219,
+          217,
+          218,
+          226,
+          227,
+          228,
+          235,
+          236,
+          237
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Light Fctry",
+      "group": 12,
+      "width": 32,
+      "height": 32,
+      "states": [
+        [
+          238,
+          239,
+          244,
+          245
+        ],
+        [
+          125,
+          240,
+          246,
+          247
+        ],
+        [
+          241,
+          242,
+          248,
+          249
+        ],
+        [
+          241,
+          243,
+          248,
+          249
+        ],
+        [
+          241,
+          242,
+          248,
+          250
+        ],
+        [
+          241,
+          243,
+          248,
+          250
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Heavy Fctry",
+      "group": 13,
+      "width": 48,
+      "height": 32,
+      "states": [
+        [
+          251,
+          252,
+          253,
+          258,
+          259,
+          260
+        ],
+        [
+          223,
+          224,
+          225,
+          232,
+          233,
+          234
+        ],
+        [
+          254,
+          255,
+          256,
+          261,
+          262,
+          263
+        ],
+        [
+          257,
+          255,
+          256,
+          261,
+          262,
+          263
+        ],
+        [
+          254,
+          255,
+          256,
+          261,
+          264,
+          265
+        ],
+        [
+          257,
+          255,
+          256,
+          261,
+          264,
+          265
+        ],
+        [
+          254,
+          255,
+          256,
+          261,
+          266,
+          267
+        ],
+        [
+          257,
+          255,
+          256,
+          261,
+          266,
+          267
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Hi-Tech",
+      "group": 14,
+      "width": 48,
+      "height": 32,
+      "states": [
+        [
+          210,
+          268,
+          269,
+          273,
+          274,
+          275
+        ],
+        [
+          223,
+          224,
+          225,
+          232,
+          233,
+          234
+        ],
+        [
+          270,
+          271,
+          272,
+          276,
+          277,
+          278
+        ],
+        [
+          270,
+          271,
+          272,
+          279,
+          277,
+          278
+        ],
+        [
+          270,
+          271,
+          272,
+          276,
+          277,
+          278
+        ],
+        [
+          270,
+          271,
+          272,
+          279,
+          277,
+          278
+        ],
+        [
+          270,
+          271,
+          272,
+          276,
+          277,
+          278
+        ],
+        [
+          270,
+          271,
+          272,
+          279,
+          277,
+          278
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "name": "IX",
+      "group": 15,
+      "width": 32,
+      "height": 32,
+      "states": [
+        [
+          238,
+          239,
+          244,
+          245
+        ],
+        [
+          125,
+          240,
+          246,
+          247
+        ],
+        [
+          280,
+          281,
+          282,
+          283
+        ],
+        [
+          280,
+          281,
+          282,
+          284
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "name": "WOR",
+      "group": 16,
+      "width": 32,
+      "height": 32,
+      "states": [
+        [
+          238,
+          239,
+          244,
+          245
+        ],
+        [
+          125,
+          240,
+          246,
+          247
+        ],
+        [
+          285,
+          286,
+          288,
+          289
+        ],
+        [
+          287,
+          286,
+          290,
+          289
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Const Yard",
+      "group": 17,
+      "width": 32,
+      "height": 32,
+      "states": [
+        [
+          143,
+          291,
+          295,
+          296
+        ],
+        [
+          125,
+          240,
+          246,
+          247
+        ],
+        [
+          292,
+          293,
+          297,
+          298
+        ],
+        [
+          294,
+          293,
+          297,
+          298
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Windtrap",
+      "group": 19,
+      "width": 32,
+      "height": 32,
+      "states": [
+        [
+          238,
+          239,
+          244,
+          245
+        ],
+        [
+          125,
+          240,
+          246,
+          247
+        ],
+        [
+          304,
+          305,
+          306,
+          307
+        ],
+        [
+          304,
+          305,
+          306,
+          308
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Barracks",
+      "group": 18,
+      "width": 32,
+      "height": 32,
+      "states": [
+        [
+          238,
+          239,
+          244,
+          245
+        ],
+        [
+          125,
+          240,
+          246,
+          247
+        ],
+        [
+          299,
+          300,
+          301,
+          302
+        ],
+        [
+          299,
+          300,
+          301,
+          303
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Starport",
+      "group": 20,
+      "width": 48,
+      "height": 48,
+      "states": [
+        [
+          210,
+          211,
+          212,
+          220,
+          221,
+          222,
+          229,
+          230,
+          231
+        ],
+        [
+          213,
+          214,
+          215,
+          223,
+          313,
+          225,
+          232,
+          233,
+          234
+        ],
+        [
+          309,
+          310,
+          311,
+          314,
+          315,
+          316,
+          319,
+          320,
+          321
+        ],
+        [
+          312,
+          310,
+          311,
+          314,
+          315,
+          316,
+          319,
+          320,
+          321
+        ],
+        [
+          309,
+          310,
+          311,
+          317,
+          318,
+          316,
+          322,
+          323,
+          321
+        ],
+        [
+          312,
+          310,
+          311,
+          317,
+          318,
+          316,
+          322,
+          323,
+          321
+        ],
+        [
+          309,
+          310,
+          311,
+          324,
+          325,
+          316,
+          328,
+          329,
+          321
+        ],
+        [
+          312,
+          310,
+          311,
+          324,
+          325,
+          316,
+          328,
+          329,
+          321
+        ],
+        [
+          309,
+          310,
+          311,
+          326,
+          327,
+          316,
+          330,
+          331,
+          321
+        ],
+        [
+          312,
+          310,
+          311,
+          326,
+          327,
+          316,
+          330,
+          331,
+          321
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Refinery",
+      "group": 21,
+      "width": 48,
+      "height": 32,
+      "states": [
+        [
+          210,
+          268,
+          269,
+          273,
+          274,
+          275
+        ],
+        [
+          223,
+          224,
+          225,
+          232,
+          233,
+          234
+        ],
+        [
+          332,
+          333,
+          334,
+          337,
+          338,
+          339
+        ],
+        [
+          332,
+          335,
+          334,
+          337,
+          338,
+          339
+        ],
+        [
+          332,
+          333,
+          336,
+          337,
+          338,
+          340
+        ],
+        [
+          332,
+          335,
+          336,
+          337,
+          338,
+          340
+        ],
+        [
+          332,
+          333,
+          341,
+          337,
+          338,
+          343
+        ],
+        [
+          332,
+          335,
+          341,
+          337,
+          338,
+          343
+        ],
+        [
+          332,
+          333,
+          342,
+          337,
+          338,
+          344
+        ],
+        [
+          332,
+          335,
+          342,
+          337,
+          338,
+          344
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Repair",
+      "group": 22,
+      "width": 48,
+      "height": 32,
+      "states": [
+        [
+          210,
+          268,
+          269,
+          273,
+          274,
+          275
+        ],
+        [
+          223,
+          224,
+          225,
+          232,
+          233,
+          234
+        ],
+        [
+          345,
+          346,
+          347,
+          349,
+          350,
+          351
+        ],
+        [
+          345,
+          348,
+          347,
+          349,
+          350,
+          351
+        ],
+        [
+          345,
+          346,
+          347,
+          349,
+          350,
+          351
+        ],
+        [
+          345,
+          348,
+          347,
+          349,
+          350,
+          351
+        ],
+        [
+          345,
+          346,
+          347,
+          349,
+          350,
+          351
+        ],
+        [
+          345,
+          348,
+          347,
+          349,
+          350,
+          351
+        ],
+        [
+          345,
+          346,
+          347,
+          349,
+          352,
+          353
+        ],
+        [
+          345,
+          348,
+          347,
+          349,
+          352,
+          353
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Turret",
+      "group": 23,
+      "width": 16,
+      "height": 16,
+      "states": [
+        [
+          354
+        ],
+        [
+          355
+        ],
+        [
+          356
+        ],
+        [
+          357
+        ],
+        [
+          358
+        ],
+        [
+          359
+        ],
+        [
+          360
+        ],
+        [
+          361
+        ],
+        [
+          362
+        ],
+        [
+          363
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "name": "R-Turret",
+      "group": 24,
+      "width": 16,
+      "height": 16,
+      "states": [
+        [
+          354
+        ],
+        [
+          355
+        ],
+        [
+          364
+        ],
+        [
+          365
+        ],
+        [
+          366
+        ],
+        [
+          367
+        ],
+        [
+          368
+        ],
+        [
+          369
+        ],
+        [
+          370
+        ],
+        [
+          371
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Spice Silo",
+      "group": 25,
+      "width": 32,
+      "height": 32,
+      "states": [
+        [
+          238,
+          239,
+          244,
+          245
+        ],
+        [
+          125,
+          240,
+          246,
+          247
+        ],
+        [
+          372,
+          373,
+          375,
+          376
+        ],
+        [
+          372,
+          374,
+          375,
+          376
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Outpost",
+      "group": 26,
+      "width": 32,
+      "height": 32,
+      "states": [
+        [
+          238,
+          239,
+          244,
+          245
+        ],
+        [
+          377,
+          378,
+          384,
+          385
+        ],
+        [
+          379,
+          380,
+          386,
+          387
+        ],
+        [
+          379,
+          381,
+          388,
+          387
+        ],
+        [
+          379,
+          382,
+          386,
+          387
+        ],
+        [
+          379,
+          383,
+          388,
+          387
+        ]
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "name": "base-a",
+      "reference": "base-a.png",
+      "columns": 2,
+      "rows": 2,
+      "cellSize": 256,
+      "gutter": 32,
+      "width": 544,
+      "height": 544,
+      "frames": [
+        {
+          "cell": 0,
+          "structureId": 2,
+          "state": 2,
+          "name": "Palace",
+          "width": 48,
+          "height": 48,
+          "tileIds": [
+            216,
+            217,
+            218,
+            226,
+            227,
+            228,
+            235,
+            236,
+            237
+          ],
+          "referenceInk": [
+            32,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 1,
+          "structureId": 3,
+          "state": 2,
+          "name": "Light Fctry",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            241,
+            242,
+            248,
+            249
+          ],
+          "referenceInk": [
+            320,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 2,
+          "structureId": 4,
+          "state": 2,
+          "name": "Heavy Fctry",
+          "width": 48,
+          "height": 32,
+          "tileIds": [
+            254,
+            255,
+            256,
+            261,
+            262,
+            263
+          ],
+          "referenceInk": [
+            32,
+            352,
+            192,
+            128
+          ]
+        },
+        {
+          "cell": 3,
+          "structureId": 5,
+          "state": 2,
+          "name": "Hi-Tech",
+          "width": 48,
+          "height": 32,
+          "tileIds": [
+            270,
+            271,
+            272,
+            276,
+            277,
+            278
+          ],
+          "referenceInk": [
+            320,
+            352,
+            192,
+            128
+          ]
+        }
+      ],
+      "sha256": "e875e2b396160a1818dbfd3f96980c5d71c65a66b32713b96460ec0902e6b707"
+    },
+    {
+      "name": "base-b",
+      "reference": "base-b.png",
+      "columns": 2,
+      "rows": 2,
+      "cellSize": 256,
+      "gutter": 32,
+      "width": 544,
+      "height": 544,
+      "frames": [
+        {
+          "cell": 0,
+          "structureId": 6,
+          "state": 2,
+          "name": "IX",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            280,
+            281,
+            282,
+            283
+          ],
+          "referenceInk": [
+            32,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 1,
+          "structureId": 7,
+          "state": 2,
+          "name": "WOR",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            285,
+            286,
+            288,
+            289
+          ],
+          "referenceInk": [
+            320,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 2,
+          "structureId": 10,
+          "state": 2,
+          "name": "Barracks",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            299,
+            300,
+            301,
+            302
+          ],
+          "referenceInk": [
+            32,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 3,
+          "structureId": 11,
+          "state": 2,
+          "name": "Starport",
+          "width": 48,
+          "height": 48,
+          "tileIds": [
+            309,
+            310,
+            311,
+            314,
+            315,
+            316,
+            319,
+            320,
+            321
+          ],
+          "referenceInk": [
+            320,
+            320,
+            192,
+            192
+          ]
+        }
+      ],
+      "sha256": "8d28e888238c04d488a24a052e6cba0d38ef3825e4df0dac4072203687ef5d26"
+    },
+    {
+      "name": "base-c",
+      "reference": "base-c.png",
+      "columns": 2,
+      "rows": 2,
+      "cellSize": 256,
+      "gutter": 32,
+      "width": 544,
+      "height": 544,
+      "frames": [
+        {
+          "cell": 0,
+          "structureId": 12,
+          "state": 2,
+          "name": "Refinery",
+          "width": 48,
+          "height": 32,
+          "tileIds": [
+            332,
+            333,
+            334,
+            337,
+            338,
+            339
+          ],
+          "referenceInk": [
+            32,
+            64,
+            192,
+            128
+          ]
+        },
+        {
+          "cell": 1,
+          "structureId": 13,
+          "state": 2,
+          "name": "Repair",
+          "width": 48,
+          "height": 32,
+          "tileIds": [
+            345,
+            346,
+            347,
+            349,
+            350,
+            351
+          ],
+          "referenceInk": [
+            320,
+            64,
+            192,
+            128
+          ]
+        },
+        {
+          "cell": 2,
+          "structureId": 17,
+          "state": 2,
+          "name": "Spice Silo",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            372,
+            373,
+            375,
+            376
+          ],
+          "referenceInk": [
+            32,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 3,
+          "structureId": 18,
+          "state": 2,
+          "name": "Outpost",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            379,
+            380,
+            386,
+            387
+          ],
+          "referenceInk": [
+            320,
+            320,
+            192,
+            192
+          ]
+        }
+      ],
+      "sha256": "c469945b809d53ac51c0dbb71658e41dec38425ed64e907cc45e0a2cf144ce99"
+    },
+    {
+      "name": "turrets",
+      "reference": "turrets.png",
+      "columns": 4,
+      "rows": 4,
+      "cellSize": 256,
+      "gutter": 32,
+      "width": 1120,
+      "height": 1120,
+      "frames": [
+        {
+          "cell": 0,
+          "structureId": 15,
+          "state": 2,
+          "name": "Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            356
+          ],
+          "referenceInk": [
+            32,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 1,
+          "structureId": 15,
+          "state": 3,
+          "name": "Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            357
+          ],
+          "referenceInk": [
+            320,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 2,
+          "structureId": 15,
+          "state": 4,
+          "name": "Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            358
+          ],
+          "referenceInk": [
+            608,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 3,
+          "structureId": 15,
+          "state": 5,
+          "name": "Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            359
+          ],
+          "referenceInk": [
+            896,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 4,
+          "structureId": 15,
+          "state": 6,
+          "name": "Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            360
+          ],
+          "referenceInk": [
+            32,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 5,
+          "structureId": 15,
+          "state": 7,
+          "name": "Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            361
+          ],
+          "referenceInk": [
+            320,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 6,
+          "structureId": 15,
+          "state": 8,
+          "name": "Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            362
+          ],
+          "referenceInk": [
+            608,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 7,
+          "structureId": 15,
+          "state": 9,
+          "name": "Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            363
+          ],
+          "referenceInk": [
+            896,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 8,
+          "structureId": 16,
+          "state": 2,
+          "name": "R-Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            364
+          ],
+          "referenceInk": [
+            32,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 9,
+          "structureId": 16,
+          "state": 3,
+          "name": "R-Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            365
+          ],
+          "referenceInk": [
+            320,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 10,
+          "structureId": 16,
+          "state": 4,
+          "name": "R-Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            366
+          ],
+          "referenceInk": [
+            608,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 11,
+          "structureId": 16,
+          "state": 5,
+          "name": "R-Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            367
+          ],
+          "referenceInk": [
+            896,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 12,
+          "structureId": 16,
+          "state": 6,
+          "name": "R-Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            368
+          ],
+          "referenceInk": [
+            32,
+            896,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 13,
+          "structureId": 16,
+          "state": 7,
+          "name": "R-Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            369
+          ],
+          "referenceInk": [
+            320,
+            896,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 14,
+          "structureId": 16,
+          "state": 8,
+          "name": "R-Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            370
+          ],
+          "referenceInk": [
+            608,
+            896,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 15,
+          "structureId": 16,
+          "state": 9,
+          "name": "R-Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            371
+          ],
+          "referenceInk": [
+            896,
+            896,
+            192,
+            192
+          ]
+        }
+      ],
+      "sha256": "a32ab75e9e13c32f8915d4d7a768e72cc47edd0d4748c756bb6205066341170f"
+    },
+    {
+      "name": "foundation-rubble",
+      "reference": "foundation-rubble.png",
+      "columns": 4,
+      "rows": 3,
+      "cellSize": 256,
+      "gutter": 32,
+      "width": 1120,
+      "height": 832,
+      "frames": [
+        {
+          "cell": 0,
+          "structureId": 2,
+          "state": 0,
+          "name": "Palace",
+          "width": 48,
+          "height": 48,
+          "tileIds": [
+            210,
+            211,
+            212,
+            220,
+            221,
+            222,
+            229,
+            230,
+            231
+          ],
+          "referenceInk": [
+            32,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 1,
+          "structureId": 2,
+          "state": 1,
+          "name": "Palace",
+          "width": 48,
+          "height": 48,
+          "tileIds": [
+            213,
+            214,
+            215,
+            223,
+            224,
+            225,
+            232,
+            233,
+            234
+          ],
+          "referenceInk": [
+            320,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 2,
+          "structureId": 4,
+          "state": 0,
+          "name": "Heavy Fctry",
+          "width": 48,
+          "height": 32,
+          "tileIds": [
+            251,
+            252,
+            253,
+            258,
+            259,
+            260
+          ],
+          "referenceInk": [
+            608,
+            64,
+            192,
+            128
+          ]
+        },
+        {
+          "cell": 3,
+          "structureId": 5,
+          "state": 0,
+          "name": "Hi-Tech",
+          "width": 48,
+          "height": 32,
+          "tileIds": [
+            210,
+            268,
+            269,
+            273,
+            274,
+            275
+          ],
+          "referenceInk": [
+            896,
+            64,
+            192,
+            128
+          ]
+        },
+        {
+          "cell": 4,
+          "structureId": 3,
+          "state": 0,
+          "name": "Light Fctry",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            238,
+            239,
+            244,
+            245
+          ],
+          "referenceInk": [
+            32,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 5,
+          "structureId": 3,
+          "state": 1,
+          "name": "Light Fctry",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            125,
+            240,
+            246,
+            247
+          ],
+          "referenceInk": [
+            320,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 6,
+          "structureId": 8,
+          "state": 0,
+          "name": "Const Yard",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            143,
+            291,
+            295,
+            296
+          ],
+          "referenceInk": [
+            608,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 7,
+          "structureId": 18,
+          "state": 1,
+          "name": "Outpost",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            377,
+            378,
+            384,
+            385
+          ],
+          "referenceInk": [
+            896,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 8,
+          "structureId": 11,
+          "state": 1,
+          "name": "Starport",
+          "width": 48,
+          "height": 48,
+          "tileIds": [
+            213,
+            214,
+            215,
+            223,
+            313,
+            225,
+            232,
+            233,
+            234
+          ],
+          "referenceInk": [
+            32,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 9,
+          "structureId": 15,
+          "state": 0,
+          "name": "Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            354
+          ],
+          "referenceInk": [
+            320,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 10,
+          "structureId": 15,
+          "state": 1,
+          "name": "Turret",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            355
+          ],
+          "referenceInk": [
+            608,
+            608,
+            192,
+            192
+          ]
+        }
+      ],
+      "sha256": "d5d6e7186645415198016a199d40a3c879f28ef0053c1b4aee2e24da279f3972"
+    },
+    {
+      "name": "alternate-major-a",
+      "reference": "alternate-major-a.png",
+      "columns": 4,
+      "rows": 2,
+      "cellSize": 256,
+      "gutter": 32,
+      "width": 1120,
+      "height": 544,
+      "frames": [
+        {
+          "cell": 0,
+          "structureId": 3,
+          "state": 4,
+          "name": "Light Fctry",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            241,
+            242,
+            248,
+            250
+          ],
+          "referenceInk": [
+            32,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 1,
+          "structureId": 4,
+          "state": 4,
+          "name": "Heavy Fctry",
+          "width": 48,
+          "height": 32,
+          "tileIds": [
+            254,
+            255,
+            256,
+            261,
+            264,
+            265
+          ],
+          "referenceInk": [
+            320,
+            64,
+            192,
+            128
+          ]
+        },
+        {
+          "cell": 2,
+          "structureId": 4,
+          "state": 6,
+          "name": "Heavy Fctry",
+          "width": 48,
+          "height": 32,
+          "tileIds": [
+            254,
+            255,
+            256,
+            261,
+            266,
+            267
+          ],
+          "referenceInk": [
+            608,
+            64,
+            192,
+            128
+          ]
+        },
+        {
+          "cell": 3,
+          "structureId": 5,
+          "state": 3,
+          "name": "Hi-Tech",
+          "width": 48,
+          "height": 32,
+          "tileIds": [
+            270,
+            271,
+            272,
+            279,
+            277,
+            278
+          ],
+          "referenceInk": [
+            896,
+            64,
+            192,
+            128
+          ]
+        },
+        {
+          "cell": 4,
+          "structureId": 7,
+          "state": 3,
+          "name": "WOR",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            287,
+            286,
+            290,
+            289
+          ],
+          "referenceInk": [
+            32,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 5,
+          "structureId": 11,
+          "state": 4,
+          "name": "Starport",
+          "width": 48,
+          "height": 48,
+          "tileIds": [
+            309,
+            310,
+            311,
+            317,
+            318,
+            316,
+            322,
+            323,
+            321
+          ],
+          "referenceInk": [
+            320,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 6,
+          "structureId": 11,
+          "state": 6,
+          "name": "Starport",
+          "width": 48,
+          "height": 48,
+          "tileIds": [
+            309,
+            310,
+            311,
+            324,
+            325,
+            316,
+            328,
+            329,
+            321
+          ],
+          "referenceInk": [
+            608,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 7,
+          "structureId": 11,
+          "state": 8,
+          "name": "Starport",
+          "width": 48,
+          "height": 48,
+          "tileIds": [
+            309,
+            310,
+            311,
+            326,
+            327,
+            316,
+            330,
+            331,
+            321
+          ],
+          "referenceInk": [
+            896,
+            320,
+            192,
+            192
+          ]
+        }
+      ],
+      "sha256": "a7c72c60bc8dd8a020f6305bebcc5a4ff50b3b70e1271ad3fc3d5fe56cb0f32b"
+    },
+    {
+      "name": "alternate-major-b",
+      "reference": "alternate-major-b.png",
+      "columns": 4,
+      "rows": 2,
+      "cellSize": 256,
+      "gutter": 32,
+      "width": 1120,
+      "height": 544,
+      "frames": [
+        {
+          "cell": 0,
+          "structureId": 12,
+          "state": 4,
+          "name": "Refinery",
+          "width": 48,
+          "height": 32,
+          "tileIds": [
+            332,
+            333,
+            336,
+            337,
+            338,
+            340
+          ],
+          "referenceInk": [
+            32,
+            64,
+            192,
+            128
+          ]
+        },
+        {
+          "cell": 1,
+          "structureId": 12,
+          "state": 6,
+          "name": "Refinery",
+          "width": 48,
+          "height": 32,
+          "tileIds": [
+            332,
+            333,
+            341,
+            337,
+            338,
+            343
+          ],
+          "referenceInk": [
+            320,
+            64,
+            192,
+            128
+          ]
+        },
+        {
+          "cell": 2,
+          "structureId": 12,
+          "state": 8,
+          "name": "Refinery",
+          "width": 48,
+          "height": 32,
+          "tileIds": [
+            332,
+            333,
+            342,
+            337,
+            338,
+            344
+          ],
+          "referenceInk": [
+            608,
+            64,
+            192,
+            128
+          ]
+        },
+        {
+          "cell": 3,
+          "structureId": 13,
+          "state": 8,
+          "name": "Repair",
+          "width": 48,
+          "height": 32,
+          "tileIds": [
+            345,
+            346,
+            347,
+            349,
+            352,
+            353
+          ],
+          "referenceInk": [
+            896,
+            64,
+            192,
+            128
+          ]
+        },
+        {
+          "cell": 4,
+          "structureId": 18,
+          "state": 3,
+          "name": "Outpost",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            379,
+            381,
+            388,
+            387
+          ],
+          "referenceInk": [
+            32,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 5,
+          "structureId": 18,
+          "state": 4,
+          "name": "Outpost",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            379,
+            382,
+            386,
+            387
+          ],
+          "referenceInk": [
+            320,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 6,
+          "structureId": 18,
+          "state": 5,
+          "name": "Outpost",
+          "width": 32,
+          "height": 32,
+          "tileIds": [
+            379,
+            383,
+            388,
+            387
+          ],
+          "referenceInk": [
+            608,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 7,
+          "structureId": 2,
+          "state": 3,
+          "name": "Palace",
+          "width": 48,
+          "height": 48,
+          "tileIds": [
+            219,
+            217,
+            218,
+            226,
+            227,
+            228,
+            235,
+            236,
+            237
+          ],
+          "referenceInk": [
+            896,
+            320,
+            192,
+            192
+          ]
+        }
+      ],
+      "sha256": "1a0c04f44e8d6fffb903575ed8df5cf6dce696d08fdf14ef47cba629b80fed88"
+    },
+    {
+      "name": "walls-0",
+      "reference": "walls-0.png",
+      "columns": 5,
+      "rows": 3,
+      "cellSize": 256,
+      "gutter": 32,
+      "width": 1408,
+      "height": 832,
+      "frames": [
+        {
+          "cell": 0,
+          "structureId": 1033,
+          "state": 0,
+          "name": "Wall 33",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            33
+          ],
+          "referenceInk": [
+            32,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 1,
+          "structureId": 1034,
+          "state": 0,
+          "name": "Wall 34",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            34
+          ],
+          "referenceInk": [
+            320,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 2,
+          "structureId": 1035,
+          "state": 0,
+          "name": "Wall 35",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            35
+          ],
+          "referenceInk": [
+            608,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 3,
+          "structureId": 1036,
+          "state": 0,
+          "name": "Wall 36",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            36
+          ],
+          "referenceInk": [
+            896,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 4,
+          "structureId": 1037,
+          "state": 0,
+          "name": "Wall 37",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            37
+          ],
+          "referenceInk": [
+            1184,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 5,
+          "structureId": 1038,
+          "state": 0,
+          "name": "Wall 38",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            38
+          ],
+          "referenceInk": [
+            32,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 6,
+          "structureId": 1039,
+          "state": 0,
+          "name": "Wall 39",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            39
+          ],
+          "referenceInk": [
+            320,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 7,
+          "structureId": 1040,
+          "state": 0,
+          "name": "Wall 40",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            40
+          ],
+          "referenceInk": [
+            608,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 8,
+          "structureId": 1041,
+          "state": 0,
+          "name": "Wall 41",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            41
+          ],
+          "referenceInk": [
+            896,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 9,
+          "structureId": 1042,
+          "state": 0,
+          "name": "Wall 42",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            42
+          ],
+          "referenceInk": [
+            1184,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 10,
+          "structureId": 1043,
+          "state": 0,
+          "name": "Wall 43",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            43
+          ],
+          "referenceInk": [
+            32,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 11,
+          "structureId": 1044,
+          "state": 0,
+          "name": "Wall 44",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            44
+          ],
+          "referenceInk": [
+            320,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 12,
+          "structureId": 1045,
+          "state": 0,
+          "name": "Wall 45",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            45
+          ],
+          "referenceInk": [
+            608,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 13,
+          "structureId": 1046,
+          "state": 0,
+          "name": "Wall 46",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            46
+          ],
+          "referenceInk": [
+            896,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 14,
+          "structureId": 1047,
+          "state": 0,
+          "name": "Wall 47",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            47
+          ],
+          "referenceInk": [
+            1184,
+            608,
+            192,
+            192
+          ]
+        }
+      ],
+      "sha256": "452dcd0e7db6f4b28ebd8664bc44f36211ac94db780ea60fee7ad30731991a0d"
+    },
+    {
+      "name": "walls-1",
+      "reference": "walls-1.png",
+      "columns": 5,
+      "rows": 3,
+      "cellSize": 256,
+      "gutter": 32,
+      "width": 1408,
+      "height": 832,
+      "frames": [
+        {
+          "cell": 0,
+          "structureId": 1048,
+          "state": 0,
+          "name": "Wall 48",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            48
+          ],
+          "referenceInk": [
+            32,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 1,
+          "structureId": 1049,
+          "state": 0,
+          "name": "Wall 49",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            49
+          ],
+          "referenceInk": [
+            320,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 2,
+          "structureId": 1050,
+          "state": 0,
+          "name": "Wall 50",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            50
+          ],
+          "referenceInk": [
+            608,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 3,
+          "structureId": 1051,
+          "state": 0,
+          "name": "Wall 51",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            51
+          ],
+          "referenceInk": [
+            896,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 4,
+          "structureId": 1052,
+          "state": 0,
+          "name": "Wall 52",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            52
+          ],
+          "referenceInk": [
+            1184,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 5,
+          "structureId": 1053,
+          "state": 0,
+          "name": "Wall 53",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            53
+          ],
+          "referenceInk": [
+            32,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 6,
+          "structureId": 1054,
+          "state": 0,
+          "name": "Wall 54",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            54
+          ],
+          "referenceInk": [
+            320,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 7,
+          "structureId": 1055,
+          "state": 0,
+          "name": "Wall 55",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            55
+          ],
+          "referenceInk": [
+            608,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 8,
+          "structureId": 1056,
+          "state": 0,
+          "name": "Wall 56",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            56
+          ],
+          "referenceInk": [
+            896,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 9,
+          "structureId": 1057,
+          "state": 0,
+          "name": "Wall 57",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            57
+          ],
+          "referenceInk": [
+            1184,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 10,
+          "structureId": 1058,
+          "state": 0,
+          "name": "Wall 58",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            58
+          ],
+          "referenceInk": [
+            32,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 11,
+          "structureId": 1059,
+          "state": 0,
+          "name": "Wall 59",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            59
+          ],
+          "referenceInk": [
+            320,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 12,
+          "structureId": 1060,
+          "state": 0,
+          "name": "Wall 60",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            60
+          ],
+          "referenceInk": [
+            608,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 13,
+          "structureId": 1061,
+          "state": 0,
+          "name": "Wall 61",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            61
+          ],
+          "referenceInk": [
+            896,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 14,
+          "structureId": 1062,
+          "state": 0,
+          "name": "Wall 62",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            62
+          ],
+          "referenceInk": [
+            1184,
+            608,
+            192,
+            192
+          ]
+        }
+      ],
+      "sha256": "6ba4cae201adb16771333ba38cd97325aec5a2ff2593f04e4bcd1ccf879b517e"
+    },
+    {
+      "name": "walls-2",
+      "reference": "walls-2.png",
+      "columns": 5,
+      "rows": 3,
+      "cellSize": 256,
+      "gutter": 32,
+      "width": 1408,
+      "height": 832,
+      "frames": [
+        {
+          "cell": 0,
+          "structureId": 1063,
+          "state": 0,
+          "name": "Wall 63",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            63
+          ],
+          "referenceInk": [
+            32,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 1,
+          "structureId": 1064,
+          "state": 0,
+          "name": "Wall 64",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            64
+          ],
+          "referenceInk": [
+            320,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 2,
+          "structureId": 1065,
+          "state": 0,
+          "name": "Wall 65",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            65
+          ],
+          "referenceInk": [
+            608,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 3,
+          "structureId": 1066,
+          "state": 0,
+          "name": "Wall 66",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            66
+          ],
+          "referenceInk": [
+            896,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 4,
+          "structureId": 1067,
+          "state": 0,
+          "name": "Wall 67",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            67
+          ],
+          "referenceInk": [
+            1184,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 5,
+          "structureId": 1068,
+          "state": 0,
+          "name": "Wall 68",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            68
+          ],
+          "referenceInk": [
+            32,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 6,
+          "structureId": 1069,
+          "state": 0,
+          "name": "Wall 69",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            69
+          ],
+          "referenceInk": [
+            320,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 7,
+          "structureId": 1070,
+          "state": 0,
+          "name": "Wall 70",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            70
+          ],
+          "referenceInk": [
+            608,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 8,
+          "structureId": 1071,
+          "state": 0,
+          "name": "Wall 71",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            71
+          ],
+          "referenceInk": [
+            896,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 9,
+          "structureId": 1072,
+          "state": 0,
+          "name": "Wall 72",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            72
+          ],
+          "referenceInk": [
+            1184,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 10,
+          "structureId": 1073,
+          "state": 0,
+          "name": "Wall 73",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            73
+          ],
+          "referenceInk": [
+            32,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 11,
+          "structureId": 1074,
+          "state": 0,
+          "name": "Wall 74",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            74
+          ],
+          "referenceInk": [
+            320,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 12,
+          "structureId": 1075,
+          "state": 0,
+          "name": "Wall 75",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            75
+          ],
+          "referenceInk": [
+            608,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 13,
+          "structureId": 1076,
+          "state": 0,
+          "name": "Wall 76",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            76
+          ],
+          "referenceInk": [
+            896,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 14,
+          "structureId": 1077,
+          "state": 0,
+          "name": "Wall 77",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            77
+          ],
+          "referenceInk": [
+            1184,
+            608,
+            192,
+            192
+          ]
+        }
+      ],
+      "sha256": "fb25e83d4b1caf98a339532fb0015ed0fac81cf066a386d22acbf0d95e3148cd"
+    },
+    {
+      "name": "walls-3",
+      "reference": "walls-3.png",
+      "columns": 5,
+      "rows": 3,
+      "cellSize": 256,
+      "gutter": 32,
+      "width": 1408,
+      "height": 832,
+      "frames": [
+        {
+          "cell": 0,
+          "structureId": 1078,
+          "state": 0,
+          "name": "Wall 78",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            78
+          ],
+          "referenceInk": [
+            32,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 1,
+          "structureId": 1079,
+          "state": 0,
+          "name": "Wall 79",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            79
+          ],
+          "referenceInk": [
+            320,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 2,
+          "structureId": 1080,
+          "state": 0,
+          "name": "Wall 80",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            80
+          ],
+          "referenceInk": [
+            608,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 3,
+          "structureId": 1081,
+          "state": 0,
+          "name": "Wall 81",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            81
+          ],
+          "referenceInk": [
+            896,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 4,
+          "structureId": 1082,
+          "state": 0,
+          "name": "Wall 82",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            82
+          ],
+          "referenceInk": [
+            1184,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 5,
+          "structureId": 1083,
+          "state": 0,
+          "name": "Wall 83",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            83
+          ],
+          "referenceInk": [
+            32,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 6,
+          "structureId": 1084,
+          "state": 0,
+          "name": "Wall 84",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            84
+          ],
+          "referenceInk": [
+            320,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 7,
+          "structureId": 1085,
+          "state": 0,
+          "name": "Wall 85",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            85
+          ],
+          "referenceInk": [
+            608,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 8,
+          "structureId": 1086,
+          "state": 0,
+          "name": "Wall 86",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            86
+          ],
+          "referenceInk": [
+            896,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 9,
+          "structureId": 1087,
+          "state": 0,
+          "name": "Wall 87",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            87
+          ],
+          "referenceInk": [
+            1184,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 10,
+          "structureId": 1088,
+          "state": 0,
+          "name": "Wall 88",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            88
+          ],
+          "referenceInk": [
+            32,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 11,
+          "structureId": 1089,
+          "state": 0,
+          "name": "Wall 89",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            89
+          ],
+          "referenceInk": [
+            320,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 12,
+          "structureId": 1090,
+          "state": 0,
+          "name": "Wall 90",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            90
+          ],
+          "referenceInk": [
+            608,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 13,
+          "structureId": 1091,
+          "state": 0,
+          "name": "Wall 91",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            91
+          ],
+          "referenceInk": [
+            896,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 14,
+          "structureId": 1092,
+          "state": 0,
+          "name": "Wall 92",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            92
+          ],
+          "referenceInk": [
+            1184,
+            608,
+            192,
+            192
+          ]
+        }
+      ],
+      "sha256": "6b4a29820ae501e5feeb7c0bf31a1ed560ee0890c201e2459d6a65d083b67c76"
+    },
+    {
+      "name": "walls-4",
+      "reference": "walls-4.png",
+      "columns": 5,
+      "rows": 3,
+      "cellSize": 256,
+      "gutter": 32,
+      "width": 1408,
+      "height": 832,
+      "frames": [
+        {
+          "cell": 0,
+          "structureId": 1093,
+          "state": 0,
+          "name": "Wall 93",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            93
+          ],
+          "referenceInk": [
+            32,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 1,
+          "structureId": 1094,
+          "state": 0,
+          "name": "Wall 94",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            94
+          ],
+          "referenceInk": [
+            320,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 2,
+          "structureId": 1095,
+          "state": 0,
+          "name": "Wall 95",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            95
+          ],
+          "referenceInk": [
+            608,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 3,
+          "structureId": 1096,
+          "state": 0,
+          "name": "Wall 96",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            96
+          ],
+          "referenceInk": [
+            896,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 4,
+          "structureId": 1097,
+          "state": 0,
+          "name": "Wall 97",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            97
+          ],
+          "referenceInk": [
+            1184,
+            32,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 5,
+          "structureId": 1098,
+          "state": 0,
+          "name": "Wall 98",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            98
+          ],
+          "referenceInk": [
+            32,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 6,
+          "structureId": 1099,
+          "state": 0,
+          "name": "Wall 99",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            99
+          ],
+          "referenceInk": [
+            320,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 7,
+          "structureId": 1100,
+          "state": 0,
+          "name": "Wall 100",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            100
+          ],
+          "referenceInk": [
+            608,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 8,
+          "structureId": 1101,
+          "state": 0,
+          "name": "Wall 101",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            101
+          ],
+          "referenceInk": [
+            896,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 9,
+          "structureId": 1102,
+          "state": 0,
+          "name": "Wall 102",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            102
+          ],
+          "referenceInk": [
+            1184,
+            320,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 10,
+          "structureId": 1103,
+          "state": 0,
+          "name": "Wall 103",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            103
+          ],
+          "referenceInk": [
+            32,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 11,
+          "structureId": 1104,
+          "state": 0,
+          "name": "Wall 104",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            104
+          ],
+          "referenceInk": [
+            320,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 12,
+          "structureId": 1105,
+          "state": 0,
+          "name": "Wall 105",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            105
+          ],
+          "referenceInk": [
+            608,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 13,
+          "structureId": 1106,
+          "state": 0,
+          "name": "Wall 106",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            106
+          ],
+          "referenceInk": [
+            896,
+            608,
+            192,
+            192
+          ]
+        },
+        {
+          "cell": 14,
+          "structureId": 1107,
+          "state": 0,
+          "name": "Wall 107",
+          "width": 16,
+          "height": 16,
+          "tileIds": [
+            107
+          ],
+          "referenceInk": [
+            1184,
+            608,
+            192,
+            192
+          ]
+        }
+      ],
+      "sha256": "5bbc42c8b534e5b0805902442354bb91f436181450a37af25866fc9ecb43a7c0"
+    }
+  ],
+  "ownedNativeIds": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388
+  ],
+  "paletteCycle223": "Native dark endpoint for references; runtime current palette supplies blue emission",
+  "coverage": {
+    "structureTypes": 19,
+    "buildingTypes": 16,
+    "wholeStateRecords": 106,
+    "nativeIds": 254
+  }
+}

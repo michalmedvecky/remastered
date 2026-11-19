@@ -1,0 +1,50 @@
+{
+  "foundation-rubble": {
+    "tool": "built-in image_gen",
+    "mode": "edit",
+    "sourceImage": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-8e8f33e2-9351-43d7-a2b2-c3b75a87d5c0.png",
+    "sha256": "52780dd1d95278626bfef808b48dbfda37c8d43b1edb5eabdfd77d7a1370cd3c",
+    "width": 1448,
+    "height": 1086,
+    "prompt": "foundation-rubble-prompt.json",
+    "reference": "../references/foundation-rubble.png",
+    "styleReference": "pilot-approved.png",
+    "status": "accepted-whole-state-redraw"
+  },
+  "turrets": {
+    "tool": "built-in image_gen",
+    "mode": "edit",
+    "sourceImage": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-3dc2225c-f4b5-4813-a044-777d010de307.png",
+    "sha256": "bb2d5e08b7a72da2cebc2d90f58aef098eb1f7e7bcc4c2f14575c3c1c0ebaf1c",
+    "width": 1254,
+    "height": 1254,
+    "prompt": "turrets-prompt.json",
+    "reference": "../references/turrets.png",
+    "styleReference": "pilot-approved.png",
+    "status": "accepted-whole-state-redraw"
+  },
+  "alternate-major-a": {
+    "tool": "built-in image_gen",
+    "mode": "edit",
+    "sourceImage": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-759ec2d8-e7b6-4b68-8cee-7619a09dcb2e.png",
+    "sha256": "96bd16e83a109bd8ee83d5dc8c139ba25a3d969fa953a33cd191f10e1ab8f6f4",
+    "width": 1774,
+    "height": 887,
+    "prompt": "alternate-major-a-prompt.json",
+    "reference": "../references/alternate-major-a.png",
+    "styleReference": "pilot-approved.png",
+    "status": "accepted-whole-state-redraw"
+  },
+  "alternate-major-b": {
+    "tool": "built-in image_gen",
+    "mode": "edit",
+    "sourceImage": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-9e1e178e-f613-4492-b30d-c8039b0d70f9.png",
+    "sha256": "0c09ccb60d6919f50b2cd92229f845c57cfecbc9c0254dae7472a05cb8d92703",
+    "width": 1774,
+    "height": 887,
+    "prompt": "alternate-major-b-prompt.json",
+    "reference": "../references/alternate-major-b.png",
+    "styleReference": "pilot-approved.png",
+    "status": "accepted-whole-state-redraw"
+  }
+}

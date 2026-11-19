@@ -1,0 +1,65 @@
+{
+  "version": "hd-v2-painted-terrain",
+  "date": "2026-11-19",
+  "workflow": "Built-in image_gen only; generated raw outputs preserved unchanged. No external API/CLI used.",
+  "generated": [
+    {
+      "tool": "built-in image_gen",
+      "mode": "generate/edit with original identity and approved style references",
+      "file": "raw/surfaces.png",
+      "sha256": "a7c5da58f86e6882a31289b5dccdb28fd79a3d2c7825f06718fe8aa03d91367a",
+      "sourceGeneratedPath": "/Users/misko/.codex/generated_images/01a1f032-c43a-7392-a132-198c08d0b62a/exec-37014748-70d0-461d-924e-3e6be93fae1c.png",
+      "promptFile": "raw/surfaces-prompt.txt",
+      "promptSha256": "0dcb892fd82cf7bfdf8717a7525877344106090a0947aab73b90a0c33a0c3471",
+      "transparentBackgroundRequested": false
+    },
+    {
+      "tool": "built-in image_gen",
+      "mode": "generate/edit with original identity and approved style references",
+      "file": "raw/industrial-surfaces.png",
+      "sha256": "a59d54c0ad0db96958fe6a093e15587cfa4c39e1768d86665783869dd3158bb4",
+      "sourceGeneratedPath": "/Users/misko/.codex/generated_images/01a1f032-c43a-7392-a132-198c08d0b62a/exec-a078b16e-1c6d-4a18-879a-97a64fd35dda.png",
+      "promptFile": "raw/industrial-surfaces-prompt.txt",
+      "promptSha256": "83ee60647d314eb215d34bb533895b7432948cbb22a797f1aca3e490ac148678",
+      "transparentBackgroundRequested": false
+    },
+    {
+      "tool": "built-in image_gen",
+      "mode": "generate/edit with original identity and approved style references",
+      "file": "raw/overlays.png",
+      "sha256": "da38e4ea549a94094d5a591441e80074c3d9dda18845951296079643e6b717ec",
+      "sourceGeneratedPath": "/Users/misko/.codex/generated_images/01a1f032-c43a-7392-a132-198c08d0b62a/exec-05d4e717-8a9a-4da0-aa6c-74574eb6ac64.png",
+      "promptFile": "raw/overlays-prompt.txt",
+      "promptSha256": "455764704b3996403e8d1bb69f5e4b5a090643e0a072cdaf53cbce81c9d8a85a",
+      "transparentBackgroundRequested": true
+    }
+  ],
+  "styleReferences": [
+    {
+      "path": "analysis/dune-2/hd-art-pilot-v2/raw/terrain.png",
+      "role": "user-approved terrain plate style; not copied into runtime map or used as a fixed level background"
+    },
+    {
+      "path": "analysis/dune-2/hd-art-pilot-v2/raw/buildings.png",
+      "role": "painted industrial concrete material/style only"
+    }
+  ],
+  "nativeReferences": [
+    {
+      "path": "references/ground-classes.png",
+      "role": "original decoded class colours, not used as runtime colour source"
+    },
+    {
+      "path": "references/ground-overlays.png",
+      "role": "original icon smudge identities; original resource inputs remain hash-verified"
+    }
+  ],
+  "processing": "Crop generated semantic cells, premultiplied-alpha area resize, periodic edge stitching, original topology masks, freshRGBA overlay art fit to original native ink bounds. No native per-pixel colour tint or source-colour embossing.",
+  "alphaCaveat": "Overlays requested transparent but built-in raw returned semiopaque white matte (all alpha133..251); builder reconstructs cutout alpha using confidence226..244 and white-matte suppression, clearing<=8 and decontaminating partial edges. Raw remains unchanged.",
+  "fidelityLimits": [
+    "Generated patterns intentionally differ from original pixels",
+    "Crater/debris/body/track/bloom states derive from six whole-object paintings using native extents/direction, not unique illustrations for each small original state",
+    "Masks preserve native class identities and approximate original borders; selective one-pixel morphological closure and boundary smoothing are visual changes",
+    "Fog masks remain exact source geometry at4x nearest; native simulation, input and collision are untouched"
+  ]
+}

@@ -1,6 +1,6 @@
-# Dune II — browser reconstruction 0.5
+# Dune II — painted HD browser reconstruction 0.6
 
-Dune II now upscales the original game image to 1280×800 using the xBR pixel-art filter. The Graphics selector switches between **Upscaled · 4×** and the unfiltered **Original · 1992** output during play. Terrain, units, text, fog, menus and movies all come from the original native framebuffer. There are no generated replacement textures or generated launch artwork in the active runtime. [Graphics](HD-GRAPHICS.md) records the filter, fallback, tests and limits.
+Dune II uses the approved painted HD style for all world buildings, units and terrain. Complete new RGBA drawings retain native footprints, pivots, facings and animation decisions. The original engine still controls game rules, input, damage, fog and timing. Graphics switches live between **HD · painted** and **Original · 1992**. [Artwork gallery](dist/artwork.html) and [graphics architecture/coverage](HD-GRAPHICS.md) distinguishes painted art, derived states and retained native effects.
 
 Dune II runs at `/dune2/` in the Remastered collection. The complete recovered OpenDUNE C core runs as WebAssembly with V1.07 compatibility fixes. Original PAKs supply campaigns, graphics, UNIT/BUILD/TEAM scripts, voices and ADL music. Native callbacks, routing, combat, WSA cutscenes and IFF saves remain in the compiled engine. The browser does not execute or interpret the DOS EXE.
 
@@ -19,15 +19,16 @@ Use left click to select/command, right click to cancel, F2 for Options and F1 f
 
 ## Rebuilding
 
-The checked-in runtime is ready to serve. Native rebuilding uses Emscripten 7.0.0, the retained sources and original game files. The upscaler is browser code with retained shader source and no asset-generation build step:
+The checked-in runtime is ready to serve. Native rebuilding uses Emscripten 7.0.0, the retained sources and original game files. The presentation is browser code with retained generated art, references and deterministic packers:
 
 ```sh
 python3 tools/build-native.py --data-dir /path/to/original/game --emcc /path/to/emcc
 python3 native/music/build.py --emcc /path/to/emcc --emxx /path/to/em++
+npm run build:art
 python3 tools/package-native-source.py
 ```
 
-Run these commands from `dune2/`. `DUNE2_DATA_DIR` and `EMCC` can replace the core build arguments. The data directory must contain the original case-preserved file names. Generated `native/data/` is ignored. The source packager uses the retained licenses, SDL2 source archive and port recipe; optional `--emscripten /path/to/sdk` refreshes those dependencies. The downloadable `dist/native/source.tar.gz` includes full matching patched source and build materials, excluding proprietary original assets. It includes the MIT-licensed xBR shader, its upstream source, adaptation notes and renderer. The rejected 0.4 generated-art experiment remains historical in Git and is excluded from this source download.
+Run these commands from `dune2/`. `DUNE2_DATA_DIR` and `EMCC` can replace the core build arguments. The data directory must contain the original case-preserved names. Generated `native/data/` is ignored. `build:art` reads verified original PAK slices from the retained native preload and saved generated art; it makes no new model calls. No external analysis directory or Prehistorik checkout is required. The source download includes full matching native source, browser adapters, PNG codec, build material, generated art, original decoded visual references and provenance. Original PAK/EXE archives are not included; owners still supply original data for a native rebuild. Retained SDL2 source and dependency licenses accompany the native engine.
 
 `npm run build` verifies the package, compiled source bindings, ADL banks, preloaded original resource hashes and every corresponding-source archive entry. An optional read-only original-input check is separate:
 

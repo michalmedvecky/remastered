@@ -1,4 +1,4 @@
-# V1.07 fidelity implementation — release 0.5
+# V1.07 fidelity implementation — release 0.6
 
 The default browser game runs the recovered C core. The historical JavaScript prototype remains at `dist/prototype.html`.
 
@@ -33,3 +33,5 @@ Remaining limits include other adjacent-memory states, full explosion distributi
 HD release0.4 adds complete original-frame asset coverage, material generation provenance, indexed pixel replay/mismatch repair, bounded native draw caches and an Original/HD switch. See `../HD-GRAPHICS.md` and `hd/` for its independent checks. Raw original DOS comparisons remain historical0.3 evidence and are not misreported as HD pixel equality.
 
 Release 0.5 responds to rejection of the material remaster: the active presentation now upscales the original complete framebuffer with xBR; generated runtime textures and cover are removed. Original mode and native binaries are unchanged. See `../HD-GRAPHICS.md` and the current `upscale/` acceptance record. Historical HD artwork/QA above does not describe the current filter.
+
+Release0.6 integrates the approved whole-object painted artwork for all world units/buildings/terrain, retaining Original mode and unchanged native simulation. Coverage/manifests and visual derivation limits are in `../HD-GRAPHICS.md`; new browser acceptance is under `painted/`. The previous material/xBR work remains historical.

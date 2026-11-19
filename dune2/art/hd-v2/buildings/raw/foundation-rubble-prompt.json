@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "references": [
+    "../references/foundation-rubble.png",
+    "pilot-approved.png"
+  ],
+  "transparent_background": true,
+  "prompt": "Use case: precise-object-edit / complete 2D RTS building sprites.\nImage1 is the edit target, a grid of exact native DuneII whole building states; Image2 is the approved painted construction-yard/windtrap STYLE reference only. Replace native pixel blocks with clean detailed hand-painted hard-surface game artwork matching Image2. Preserve every cell's object identity, native high-overhead orthographic projection, angle, shape and component layout. Exact row-major state and facing order is mandatory. No isometric camera redesign, inventedextra towers, blur, enlarged pixel mosaic, generic material grain, photonoise or thick toy outlines.\nAll objects should be crisp and readable at64–192pixel gameplay sizes, cool steel, cobalt blue house panels and native warm desert metals, upper-leftlight. Output an actual transparent sprite atlas with one whole isolated object/state in each equal cell and generous transparent gutters, no labels/text/grid/borders, outside scenery or long shadows. Attached native building platform may remain. Do not merge adjacent cells.\nOutput4columns×3rows, exactly11 objects and final bottom-rightcell EMPTY. These are unfinished/destroyed building foundation states—not complete working buildings. Preserve exact 11 native states: row1 constructionmetalbeams/materialpiles on3x3pad, rubble/charredcraters3x3, heavyfactory3x2beamfoundation,3x2hitechfoundation. Row2 small2x2beamfoundation,2x2rubble, constructionyardpartlybuiltbrownworkshops/materialpiles, Outpost2x2destroyedrubble. Row3 starport3x3rubble,1x1gun-turretconcretebasewithoutgun,1x1burnedturretcrater,blank. Whole coherent painted foundations and rocky/debris piles follow exact sourcecoverage. Keep all debris inside native square/rectangular footprints; do not grow new completed buildings or put randomflagposts. Request1536x1152."
+}

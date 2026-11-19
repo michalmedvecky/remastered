@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "references": [
+    "../references/turrets.png",
+    "pilot-approved.png"
+  ],
+  "transparent_background": true,
+  "prompt": "Use case: precise-object-edit / complete 2D RTS building sprites.\nImage1 is the edit target, a grid of exact native DuneII whole building states; Image2 is the approved painted construction-yard/windtrap STYLE reference only. Replace native pixel blocks with clean detailed hand-painted hard-surface game artwork matching Image2. Preserve every cell's object identity, native high-overhead orthographic projection, angle, shape and component layout. Exact row-major state and facing order is mandatory. No isometric camera redesign, inventedextra towers, blur, enlarged pixel mosaic, generic material grain, photonoise or thick toy outlines.\nAll objects should be crisp and readable at64–192pixel gameplay sizes, cool steel, cobalt blue house panels and native warm desert metals, upper-leftlight. Output an actual transparent sprite atlas with one whole isolated object/state in each equal cell and generous transparent gutters, no labels/text/grid/borders, outside scenery or long shadows. Attached native building platform may remain. Do not merge adjacent cells.\nOutput4columns×4rows, exactly16 complete defense turrets. FirstTWOrows are single-barrel round gun turret in8 successive facings N,NE,E,SE,S,SW,W,NW. LastTWOrows are twin rocket-pod turret in same8 successivefacings. Each must sit on the same compact square olive-concrete plinth/frame as reference, and its one gunbarrel or pair of rocketpods must visibly aim in the exact source direction. Native camera points straight down with slight front-side shading, not dramatically tilted. Same base diameter/bodyshape for all facings of each family. Clear bluepaintaccents/coolsteel, sparse controlleddetail, sharply drawn muzzles. No rotatingtheentire squareplinth, no vehicles/treads/wheels. Request1536square."
+}

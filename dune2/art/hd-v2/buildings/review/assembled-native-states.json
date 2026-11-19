@@ -1,0 +1,1356 @@
+[
+  {
+    "cell": 0,
+    "structureId": 2,
+    "name": "Palace",
+    "state": 0,
+    "tileIds": [
+      210,
+      211,
+      212,
+      220,
+      221,
+      222,
+      229,
+      230,
+      231
+    ]
+  },
+  {
+    "cell": 1,
+    "structureId": 2,
+    "name": "Palace",
+    "state": 1,
+    "tileIds": [
+      213,
+      214,
+      215,
+      223,
+      224,
+      225,
+      232,
+      233,
+      234
+    ]
+  },
+  {
+    "cell": 2,
+    "structureId": 2,
+    "name": "Palace",
+    "state": 2,
+    "tileIds": [
+      216,
+      217,
+      218,
+      226,
+      227,
+      228,
+      235,
+      236,
+      237
+    ]
+  },
+  {
+    "cell": 3,
+    "structureId": 2,
+    "name": "Palace",
+    "state": 3,
+    "tileIds": [
+      219,
+      217,
+      218,
+      226,
+      227,
+      228,
+      235,
+      236,
+      237
+    ]
+  },
+  {
+    "cell": 4,
+    "structureId": 3,
+    "name": "Light Fctry",
+    "state": 0,
+    "tileIds": [
+      238,
+      239,
+      244,
+      245
+    ]
+  },
+  {
+    "cell": 5,
+    "structureId": 3,
+    "name": "Light Fctry",
+    "state": 1,
+    "tileIds": [
+      125,
+      240,
+      246,
+      247
+    ]
+  },
+  {
+    "cell": 6,
+    "structureId": 3,
+    "name": "Light Fctry",
+    "state": 2,
+    "tileIds": [
+      241,
+      242,
+      248,
+      249
+    ]
+  },
+  {
+    "cell": 7,
+    "structureId": 3,
+    "name": "Light Fctry",
+    "state": 3,
+    "tileIds": [
+      241,
+      243,
+      248,
+      249
+    ]
+  },
+  {
+    "cell": 8,
+    "structureId": 3,
+    "name": "Light Fctry",
+    "state": 4,
+    "tileIds": [
+      241,
+      242,
+      248,
+      250
+    ]
+  },
+  {
+    "cell": 9,
+    "structureId": 3,
+    "name": "Light Fctry",
+    "state": 5,
+    "tileIds": [
+      241,
+      243,
+      248,
+      250
+    ]
+  },
+  {
+    "cell": 10,
+    "structureId": 4,
+    "name": "Heavy Fctry",
+    "state": 0,
+    "tileIds": [
+      251,
+      252,
+      253,
+      258,
+      259,
+      260
+    ]
+  },
+  {
+    "cell": 11,
+    "structureId": 4,
+    "name": "Heavy Fctry",
+    "state": 1,
+    "tileIds": [
+      223,
+      224,
+      225,
+      232,
+      233,
+      234
+    ]
+  },
+  {
+    "cell": 12,
+    "structureId": 4,
+    "name": "Heavy Fctry",
+    "state": 2,
+    "tileIds": [
+      254,
+      255,
+      256,
+      261,
+      262,
+      263
+    ]
+  },
+  {
+    "cell": 13,
+    "structureId": 4,
+    "name": "Heavy Fctry",
+    "state": 3,
+    "tileIds": [
+      257,
+      255,
+      256,
+      261,
+      262,
+      263
+    ]
+  },
+  {
+    "cell": 14,
+    "structureId": 4,
+    "name": "Heavy Fctry",
+    "state": 4,
+    "tileIds": [
+      254,
+      255,
+      256,
+      261,
+      264,
+      265
+    ]
+  },
+  {
+    "cell": 15,
+    "structureId": 4,
+    "name": "Heavy Fctry",
+    "state": 5,
+    "tileIds": [
+      257,
+      255,
+      256,
+      261,
+      264,
+      265
+    ]
+  },
+  {
+    "cell": 16,
+    "structureId": 4,
+    "name": "Heavy Fctry",
+    "state": 6,
+    "tileIds": [
+      254,
+      255,
+      256,
+      261,
+      266,
+      267
+    ]
+  },
+  {
+    "cell": 17,
+    "structureId": 4,
+    "name": "Heavy Fctry",
+    "state": 7,
+    "tileIds": [
+      257,
+      255,
+      256,
+      261,
+      266,
+      267
+    ]
+  },
+  {
+    "cell": 18,
+    "structureId": 5,
+    "name": "Hi-Tech",
+    "state": 0,
+    "tileIds": [
+      210,
+      268,
+      269,
+      273,
+      274,
+      275
+    ]
+  },
+  {
+    "cell": 19,
+    "structureId": 5,
+    "name": "Hi-Tech",
+    "state": 1,
+    "tileIds": [
+      223,
+      224,
+      225,
+      232,
+      233,
+      234
+    ]
+  },
+  {
+    "cell": 20,
+    "structureId": 5,
+    "name": "Hi-Tech",
+    "state": 2,
+    "tileIds": [
+      270,
+      271,
+      272,
+      276,
+      277,
+      278
+    ]
+  },
+  {
+    "cell": 21,
+    "structureId": 5,
+    "name": "Hi-Tech",
+    "state": 3,
+    "tileIds": [
+      270,
+      271,
+      272,
+      279,
+      277,
+      278
+    ]
+  },
+  {
+    "cell": 22,
+    "structureId": 5,
+    "name": "Hi-Tech",
+    "state": 4,
+    "tileIds": [
+      270,
+      271,
+      272,
+      276,
+      277,
+      278
+    ]
+  },
+  {
+    "cell": 23,
+    "structureId": 5,
+    "name": "Hi-Tech",
+    "state": 5,
+    "tileIds": [
+      270,
+      271,
+      272,
+      279,
+      277,
+      278
+    ]
+  },
+  {
+    "cell": 24,
+    "structureId": 5,
+    "name": "Hi-Tech",
+    "state": 6,
+    "tileIds": [
+      270,
+      271,
+      272,
+      276,
+      277,
+      278
+    ]
+  },
+  {
+    "cell": 25,
+    "structureId": 5,
+    "name": "Hi-Tech",
+    "state": 7,
+    "tileIds": [
+      270,
+      271,
+      272,
+      279,
+      277,
+      278
+    ]
+  },
+  {
+    "cell": 26,
+    "structureId": 6,
+    "name": "IX",
+    "state": 0,
+    "tileIds": [
+      238,
+      239,
+      244,
+      245
+    ]
+  },
+  {
+    "cell": 27,
+    "structureId": 6,
+    "name": "IX",
+    "state": 1,
+    "tileIds": [
+      125,
+      240,
+      246,
+      247
+    ]
+  },
+  {
+    "cell": 28,
+    "structureId": 6,
+    "name": "IX",
+    "state": 2,
+    "tileIds": [
+      280,
+      281,
+      282,
+      283
+    ]
+  },
+  {
+    "cell": 29,
+    "structureId": 6,
+    "name": "IX",
+    "state": 3,
+    "tileIds": [
+      280,
+      281,
+      282,
+      284
+    ]
+  },
+  {
+    "cell": 30,
+    "structureId": 7,
+    "name": "WOR",
+    "state": 0,
+    "tileIds": [
+      238,
+      239,
+      244,
+      245
+    ]
+  },
+  {
+    "cell": 31,
+    "structureId": 7,
+    "name": "WOR",
+    "state": 1,
+    "tileIds": [
+      125,
+      240,
+      246,
+      247
+    ]
+  },
+  {
+    "cell": 32,
+    "structureId": 7,
+    "name": "WOR",
+    "state": 2,
+    "tileIds": [
+      285,
+      286,
+      288,
+      289
+    ]
+  },
+  {
+    "cell": 33,
+    "structureId": 7,
+    "name": "WOR",
+    "state": 3,
+    "tileIds": [
+      287,
+      286,
+      290,
+      289
+    ]
+  },
+  {
+    "cell": 34,
+    "structureId": 8,
+    "name": "Const Yard",
+    "state": 0,
+    "tileIds": [
+      143,
+      291,
+      295,
+      296
+    ]
+  },
+  {
+    "cell": 35,
+    "structureId": 8,
+    "name": "Const Yard",
+    "state": 1,
+    "tileIds": [
+      125,
+      240,
+      246,
+      247
+    ]
+  },
+  {
+    "cell": 36,
+    "structureId": 8,
+    "name": "Const Yard",
+    "state": 2,
+    "tileIds": [
+      292,
+      293,
+      297,
+      298
+    ]
+  },
+  {
+    "cell": 37,
+    "structureId": 8,
+    "name": "Const Yard",
+    "state": 3,
+    "tileIds": [
+      294,
+      293,
+      297,
+      298
+    ]
+  },
+  {
+    "cell": 38,
+    "structureId": 9,
+    "name": "Windtrap",
+    "state": 0,
+    "tileIds": [
+      238,
+      239,
+      244,
+      245
+    ]
+  },
+  {
+    "cell": 39,
+    "structureId": 9,
+    "name": "Windtrap",
+    "state": 1,
+    "tileIds": [
+      125,
+      240,
+      246,
+      247
+    ]
+  },
+  {
+    "cell": 40,
+    "structureId": 9,
+    "name": "Windtrap",
+    "state": 2,
+    "tileIds": [
+      304,
+      305,
+      306,
+      307
+    ]
+  },
+  {
+    "cell": 41,
+    "structureId": 9,
+    "name": "Windtrap",
+    "state": 3,
+    "tileIds": [
+      304,
+      305,
+      306,
+      308
+    ]
+  },
+  {
+    "cell": 42,
+    "structureId": 10,
+    "name": "Barracks",
+    "state": 0,
+    "tileIds": [
+      238,
+      239,
+      244,
+      245
+    ]
+  },
+  {
+    "cell": 43,
+    "structureId": 10,
+    "name": "Barracks",
+    "state": 1,
+    "tileIds": [
+      125,
+      240,
+      246,
+      247
+    ]
+  },
+  {
+    "cell": 44,
+    "structureId": 10,
+    "name": "Barracks",
+    "state": 2,
+    "tileIds": [
+      299,
+      300,
+      301,
+      302
+    ]
+  },
+  {
+    "cell": 45,
+    "structureId": 10,
+    "name": "Barracks",
+    "state": 3,
+    "tileIds": [
+      299,
+      300,
+      301,
+      303
+    ]
+  },
+  {
+    "cell": 46,
+    "structureId": 11,
+    "name": "Starport",
+    "state": 0,
+    "tileIds": [
+      210,
+      211,
+      212,
+      220,
+      221,
+      222,
+      229,
+      230,
+      231
+    ]
+  },
+  {
+    "cell": 47,
+    "structureId": 11,
+    "name": "Starport",
+    "state": 1,
+    "tileIds": [
+      213,
+      214,
+      215,
+      223,
+      313,
+      225,
+      232,
+      233,
+      234
+    ]
+  },
+  {
+    "cell": 48,
+    "structureId": 11,
+    "name": "Starport",
+    "state": 2,
+    "tileIds": [
+      309,
+      310,
+      311,
+      314,
+      315,
+      316,
+      319,
+      320,
+      321
+    ]
+  },
+  {
+    "cell": 49,
+    "structureId": 11,
+    "name": "Starport",
+    "state": 3,
+    "tileIds": [
+      312,
+      310,
+      311,
+      314,
+      315,
+      316,
+      319,
+      320,
+      321
+    ]
+  },
+  {
+    "cell": 50,
+    "structureId": 11,
+    "name": "Starport",
+    "state": 4,
+    "tileIds": [
+      309,
+      310,
+      311,
+      317,
+      318,
+      316,
+      322,
+      323,
+      321
+    ]
+  },
+  {
+    "cell": 51,
+    "structureId": 11,
+    "name": "Starport",
+    "state": 5,
+    "tileIds": [
+      312,
+      310,
+      311,
+      317,
+      318,
+      316,
+      322,
+      323,
+      321
+    ]
+  },
+  {
+    "cell": 52,
+    "structureId": 11,
+    "name": "Starport",
+    "state": 6,
+    "tileIds": [
+      309,
+      310,
+      311,
+      324,
+      325,
+      316,
+      328,
+      329,
+      321
+    ]
+  },
+  {
+    "cell": 53,
+    "structureId": 11,
+    "name": "Starport",
+    "state": 7,
+    "tileIds": [
+      312,
+      310,
+      311,
+      324,
+      325,
+      316,
+      328,
+      329,
+      321
+    ]
+  },
+  {
+    "cell": 54,
+    "structureId": 11,
+    "name": "Starport",
+    "state": 8,
+    "tileIds": [
+      309,
+      310,
+      311,
+      326,
+      327,
+      316,
+      330,
+      331,
+      321
+    ]
+  },
+  {
+    "cell": 55,
+    "structureId": 11,
+    "name": "Starport",
+    "state": 9,
+    "tileIds": [
+      312,
+      310,
+      311,
+      326,
+      327,
+      316,
+      330,
+      331,
+      321
+    ]
+  },
+  {
+    "cell": 56,
+    "structureId": 12,
+    "name": "Refinery",
+    "state": 0,
+    "tileIds": [
+      210,
+      268,
+      269,
+      273,
+      274,
+      275
+    ]
+  },
+  {
+    "cell": 57,
+    "structureId": 12,
+    "name": "Refinery",
+    "state": 1,
+    "tileIds": [
+      223,
+      224,
+      225,
+      232,
+      233,
+      234
+    ]
+  },
+  {
+    "cell": 58,
+    "structureId": 12,
+    "name": "Refinery",
+    "state": 2,
+    "tileIds": [
+      332,
+      333,
+      334,
+      337,
+      338,
+      339
+    ]
+  },
+  {
+    "cell": 59,
+    "structureId": 12,
+    "name": "Refinery",
+    "state": 3,
+    "tileIds": [
+      332,
+      335,
+      334,
+      337,
+      338,
+      339
+    ]
+  },
+  {
+    "cell": 60,
+    "structureId": 12,
+    "name": "Refinery",
+    "state": 4,
+    "tileIds": [
+      332,
+      333,
+      336,
+      337,
+      338,
+      340
+    ]
+  },
+  {
+    "cell": 61,
+    "structureId": 12,
+    "name": "Refinery",
+    "state": 5,
+    "tileIds": [
+      332,
+      335,
+      336,
+      337,
+      338,
+      340
+    ]
+  },
+  {
+    "cell": 62,
+    "structureId": 12,
+    "name": "Refinery",
+    "state": 6,
+    "tileIds": [
+      332,
+      333,
+      341,
+      337,
+      338,
+      343
+    ]
+  },
+  {
+    "cell": 63,
+    "structureId": 12,
+    "name": "Refinery",
+    "state": 7,
+    "tileIds": [
+      332,
+      335,
+      341,
+      337,
+      338,
+      343
+    ]
+  },
+  {
+    "cell": 64,
+    "structureId": 12,
+    "name": "Refinery",
+    "state": 8,
+    "tileIds": [
+      332,
+      333,
+      342,
+      337,
+      338,
+      344
+    ]
+  },
+  {
+    "cell": 65,
+    "structureId": 12,
+    "name": "Refinery",
+    "state": 9,
+    "tileIds": [
+      332,
+      335,
+      342,
+      337,
+      338,
+      344
+    ]
+  },
+  {
+    "cell": 66,
+    "structureId": 13,
+    "name": "Repair",
+    "state": 0,
+    "tileIds": [
+      210,
+      268,
+      269,
+      273,
+      274,
+      275
+    ]
+  },
+  {
+    "cell": 67,
+    "structureId": 13,
+    "name": "Repair",
+    "state": 1,
+    "tileIds": [
+      223,
+      224,
+      225,
+      232,
+      233,
+      234
+    ]
+  },
+  {
+    "cell": 68,
+    "structureId": 13,
+    "name": "Repair",
+    "state": 2,
+    "tileIds": [
+      345,
+      346,
+      347,
+      349,
+      350,
+      351
+    ]
+  },
+  {
+    "cell": 69,
+    "structureId": 13,
+    "name": "Repair",
+    "state": 3,
+    "tileIds": [
+      345,
+      348,
+      347,
+      349,
+      350,
+      351
+    ]
+  },
+  {
+    "cell": 70,
+    "structureId": 13,
+    "name": "Repair",
+    "state": 4,
+    "tileIds": [
+      345,
+      346,
+      347,
+      349,
+      350,
+      351
+    ]
+  },
+  {
+    "cell": 71,
+    "structureId": 13,
+    "name": "Repair",
+    "state": 5,
+    "tileIds": [
+      345,
+      348,
+      347,
+      349,
+      350,
+      351
+    ]
+  },
+  {
+    "cell": 72,
+    "structureId": 13,
+    "name": "Repair",
+    "state": 6,
+    "tileIds": [
+      345,
+      346,
+      347,
+      349,
+      350,
+      351
+    ]
+  },
+  {
+    "cell": 73,
+    "structureId": 13,
+    "name": "Repair",
+    "state": 7,
+    "tileIds": [
+      345,
+      348,
+      347,
+      349,
+      350,
+      351
+    ]
+  },
+  {
+    "cell": 74,
+    "structureId": 13,
+    "name": "Repair",
+    "state": 8,
+    "tileIds": [
+      345,
+      346,
+      347,
+      349,
+      352,
+      353
+    ]
+  },
+  {
+    "cell": 75,
+    "structureId": 13,
+    "name": "Repair",
+    "state": 9,
+    "tileIds": [
+      345,
+      348,
+      347,
+      349,
+      352,
+      353
+    ]
+  },
+  {
+    "cell": 76,
+    "structureId": 15,
+    "name": "Turret",
+    "state": 0,
+    "tileIds": [
+      354
+    ]
+  },
+  {
+    "cell": 77,
+    "structureId": 15,
+    "name": "Turret",
+    "state": 1,
+    "tileIds": [
+      355
+    ]
+  },
+  {
+    "cell": 78,
+    "structureId": 15,
+    "name": "Turret",
+    "state": 2,
+    "tileIds": [
+      356
+    ]
+  },
+  {
+    "cell": 79,
+    "structureId": 15,
+    "name": "Turret",
+    "state": 3,
+    "tileIds": [
+      357
+    ]
+  },
+  {
+    "cell": 80,
+    "structureId": 15,
+    "name": "Turret",
+    "state": 4,
+    "tileIds": [
+      358
+    ]
+  },
+  {
+    "cell": 81,
+    "structureId": 15,
+    "name": "Turret",
+    "state": 5,
+    "tileIds": [
+      359
+    ]
+  },
+  {
+    "cell": 82,
+    "structureId": 15,
+    "name": "Turret",
+    "state": 6,
+    "tileIds": [
+      360
+    ]
+  },
+  {
+    "cell": 83,
+    "structureId": 15,
+    "name": "Turret",
+    "state": 7,
+    "tileIds": [
+      361
+    ]
+  },
+  {
+    "cell": 84,
+    "structureId": 15,
+    "name": "Turret",
+    "state": 8,
+    "tileIds": [
+      362
+    ]
+  },
+  {
+    "cell": 85,
+    "structureId": 15,
+    "name": "Turret",
+    "state": 9,
+    "tileIds": [
+      363
+    ]
+  },
+  {
+    "cell": 86,
+    "structureId": 16,
+    "name": "R-Turret",
+    "state": 0,
+    "tileIds": [
+      354
+    ]
+  },
+  {
+    "cell": 87,
+    "structureId": 16,
+    "name": "R-Turret",
+    "state": 1,
+    "tileIds": [
+      355
+    ]
+  },
+  {
+    "cell": 88,
+    "structureId": 16,
+    "name": "R-Turret",
+    "state": 2,
+    "tileIds": [
+      364
+    ]
+  },
+  {
+    "cell": 89,
+    "structureId": 16,
+    "name": "R-Turret",
+    "state": 3,
+    "tileIds": [
+      365
+    ]
+  },
+  {
+    "cell": 90,
+    "structureId": 16,
+    "name": "R-Turret",
+    "state": 4,
+    "tileIds": [
+      366
+    ]
+  },
+  {
+    "cell": 91,
+    "structureId": 16,
+    "name": "R-Turret",
+    "state": 5,
+    "tileIds": [
+      367
+    ]
+  },
+  {
+    "cell": 92,
+    "structureId": 16,
+    "name": "R-Turret",
+    "state": 6,
+    "tileIds": [
+      368
+    ]
+  },
+  {
+    "cell": 93,
+    "structureId": 16,
+    "name": "R-Turret",
+    "state": 7,
+    "tileIds": [
+      369
+    ]
+  },
+  {
+    "cell": 94,
+    "structureId": 16,
+    "name": "R-Turret",
+    "state": 8,
+    "tileIds": [
+      370
+    ]
+  },
+  {
+    "cell": 95,
+    "structureId": 16,
+    "name": "R-Turret",
+    "state": 9,
+    "tileIds": [
+      371
+    ]
+  },
+  {
+    "cell": 96,
+    "structureId": 17,
+    "name": "Spice Silo",
+    "state": 0,
+    "tileIds": [
+      238,
+      239,
+      244,
+      245
+    ]
+  },
+  {
+    "cell": 97,
+    "structureId": 17,
+    "name": "Spice Silo",
+    "state": 1,
+    "tileIds": [
+      125,
+      240,
+      246,
+      247
+    ]
+  },
+  {
+    "cell": 98,
+    "structureId": 17,
+    "name": "Spice Silo",
+    "state": 2,
+    "tileIds": [
+      372,
+      373,
+      375,
+      376
+    ]
+  },
+  {
+    "cell": 99,
+    "structureId": 17,
+    "name": "Spice Silo",
+    "state": 3,
+    "tileIds": [
+      372,
+      374,
+      375,
+      376
+    ]
+  },
+  {
+    "cell": 100,
+    "structureId": 18,
+    "name": "Outpost",
+    "state": 0,
+    "tileIds": [
+      238,
+      239,
+      244,
+      245
+    ]
+  },
+  {
+    "cell": 101,
+    "structureId": 18,
+    "name": "Outpost",
+    "state": 1,
+    "tileIds": [
+      377,
+      378,
+      384,
+      385
+    ]
+  },
+  {
+    "cell": 102,
+    "structureId": 18,
+    "name": "Outpost",
+    "state": 2,
+    "tileIds": [
+      379,
+      380,
+      386,
+      387
+    ]
+  },
+  {
+    "cell": 103,
+    "structureId": 18,
+    "name": "Outpost",
+    "state": 3,
+    "tileIds": [
+      379,
+      381,
+      388,
+      387
+    ]
+  },
+  {
+    "cell": 104,
+    "structureId": 18,
+    "name": "Outpost",
+    "state": 4,
+    "tileIds": [
+      379,
+      382,
+      386,
+      387
+    ]
+  },
+  {
+    "cell": 105,
+    "structureId": 18,
+    "name": "Outpost",
+    "state": 5,
+    "tileIds": [
+      379,
+      383,
+      388,
+      387
+    ]
+  }
+]

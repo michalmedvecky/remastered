@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "prompt": "Use case: identity-preserve. Production HD2D RTS SPRITE ATLAS. Image1 is the EXACT EDIT TARGET: original native poses in4 equalcolumns and the statedrowcount, row-major. Image2 is the APPROVED ART STYLE ONLY: clean cobalt/steel vehicles; never copy its subjects into this sheet. Redraw every occupiedcell as a complete coherent new hand-painted sprite with confident clean contours, restrained hard-surface/cel shading and readable mediumforms. Match the high-overhead orthographic tacticalgame camera, alloriginal facings, individual poses, relativebodyparts and nativeproportions; NO lowisometric/toy/glamour camera. Cobaltblue factionareas, coolsteel machinery, charcoal rubber; humans/effects keep their respective nativecolours. Upperleft illumination. Genuinely new continuousdrawing, NOT nativepixelmosaic, blur/smearing, originalpixelcolourmask or genericgrain/detailoverlay. Keep EXACT cellcount/order, distinctanimationphases, isolatedsprites, generous trulytransparent gutters. No labels/numbers/grid/background/floor/longshadows/halos, noextraobjects, noopaque matte. Transparentbackground. Preserve original intentionalthinstruts/barrels/emptygaps, do not completepartial effects into unrelatedobjects. This sheet has4columns by3rows with exactly10occupiedcells, then2emptytrailingcells. Subjects/roles: Ten native orange/yellow EXPLOSION frames, twoconsecutivefive-frame animationsequences. Preserve sourcevariation: tinyinitialwhitehotflash, largerfireballs, branchingmultiplelobes, then dissipating/dyingembers. Keep eachcells exactoveralloutline and occupiedsize/phase, warmyellowcentre, orangeshell anddarkredthinfringe; do notfill tinyframes intoequal-sizedblasts. Output a sharp highresolution sheet with the SAME aspectratio as Image1 and equalcellspacing. It must be readable at eachoriginalnativecanvas enlarged4×; small details stay restrained.",
+  "references": [
+    "references/explosions-a.png",
+    "approved pilot vehicles-corrected.png"
+  ],
+  "transparent_background": true,
+  "ids": [
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197
+  ]
+}

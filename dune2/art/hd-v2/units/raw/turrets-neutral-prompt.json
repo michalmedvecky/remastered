@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/art/hd-v2/units/raw/turrets.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Image1 is the EDIT TARGET: a transparent turret-only sprite sheet with4 columns and4 rows, exactly15 occupied cells. Make a MINIMAL COLOUR-ONLY correction. In the FIRST TEN row-major cells ONLY, replace the saturated COBALT-BLUE paint on the lower turret collar/base with neutral medium/dark GRAY STEEL. First five cells are the regular single-barrel Tank turrets; next five are the larger single-barrel Siege Tank turrets. Their original game sprites have neutral steel bases in every House, so absolutely no blue painted collar should remain there. Keep the existing brightness, highlights, metallic relief and antialiasing; change the material hue to neutral gray, not to another faction colour. Preserve silver barrels and caps exactly. Avoid blue-tinted saturated shadows on those neutral collars.\n\nDO NOT CHANGE the LAST FIVE cells (row3 columns3–4 and row4 columns1–3): these are the twin-barrel Devastator turrets and their blue faction-painted bases MUST stay blue, with the same shapes, colours and shading. Leave the final empty cell transparent.\n\nPreserve every individual pose/facing, original turret silhouette, barrel count and barrel length, placement/scale/spacing, native pivot alignment, clean painted linework and all transparency. No new details, no redrawing unrelated parts, no added hulls, no floor/shadows/halo/background/grid/labels. This is a targeted material-colour repair, not a new design. Keep the same square sheet dimensions and truly transparent background.",
+  "scope": "Neutralize only116..120 and126..130; preserve136..140"
+}

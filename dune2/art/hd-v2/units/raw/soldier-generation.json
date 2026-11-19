@@ -1,0 +1,19 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-3b044957-ebd1-4236-8eb2-12279f7ef0ce.png",
+  "raw": "raw/soldier.png",
+  "prompt": "soldier-prompt.json",
+  "ids": [
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319
+  ],
+  "judgment": "Distinct fullpeople andwalkphases retained; first3Nposefaces require targetedback-view correction"
+}

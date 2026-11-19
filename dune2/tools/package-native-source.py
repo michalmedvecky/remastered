@@ -1,4 +1,4 @@
-"""Bundle matching corresponding sources and licenses; exclude original game assets."""
+"""Bundle matching corresponding sources and licenses; include generated art and decoded references; exclude original game archives."""
 from pathlib import Path
 import argparse,gzip,hashlib,io,json,shutil,tarfile
 ROOT=Path(__file__).resolve().parents[1]
@@ -15,19 +15,20 @@ def main():
   if not p.is_file():parser.error('Missing retained dependency '+str(p)+'; refresh with --emscripten /path/to/sdk')
  public=ROOT/'dist/native/licenses';shutil.copytree(license_dir,public,dirs_exist_ok=True)
  files=[]
- for directory in ['native','tools','fidelity','tests']:
+ for directory in ['native','tools','fidelity','tests','art/hd-v2']:
   for p in (ROOT/directory).rglob('*'):
    if p==ROOT/'fidelity/source-package.json':continue
    if not p.is_file() or '__pycache__' in p.parts or p.suffix=='.pyc':continue
    if p.is_relative_to(ROOT/'native/data'):continue
+   if p.suffix.lower() in ['.pak','.exe','.com']:continue
    files.append(p)
  files += [ROOT/x for x in ['README.md','FIDELITY.md','COMBAT-FIDELITY.md','RESEARCH.md','HD-GRAPHICS.md','package.json']]
  files += sorted(p for p in (ROOT/'dist').rglob('*') if p.is_file() and p.suffix in ['.mjs','.html','.css'])
- files += sorted(p for p in (ROOT/'dist/upscale').rglob('*') if p.is_file() and p.suffix in ['.glsl','.txt','.json'])
- files += [ROOT/'dist/assets/README.md']
+ files += sorted(p for p in (ROOT/'dist/painted').rglob('*') if p.is_file() and p.suffix in ['.png','.json'])
+ files += [ROOT/'dist/assets/README.md',ROOT/'dist/assets/content.json']
  files=sorted(set(files))
  digest=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
- manifest={'version':json.loads((ROOT/'package.json').read_text())['version'],'originalGameAssetsIncluded':False,'generatedHDArtIncluded':False,'originalFramebufferUpscalerIncluded':True,'rebuildDataArgument':'--data-dir /path/to/owned/original/game','files':{str(p.relative_to(ROOT)):digest(p) for p in files},'binaryOutputs':json.loads((ROOT/'fidelity/native-build.json').read_text())['outputs'],'musicWasmSha256':digest(ROOT/'dist/music/adl.wasm')}
+ manifest={'version':json.loads((ROOT/'package.json').read_text())['version'],'originalGameArchivesIncluded':False,'decodedOriginalArtReferencesIncluded':True,'generatedPaintedArtIncluded':True,'rebuildDataArgument':'--data-dir /path/to/owned/original/game','files':{str(p.relative_to(ROOT)):digest(p) for p in files},'binaryOutputs':json.loads((ROOT/'fidelity/native-build.json').read_text())['outputs'],'musicWasmSha256':digest(ROOT/'dist/music/adl.wasm')}
  data=(json.dumps(manifest,indent=2)+'\n').encode()
  target=ROOT/'dist/native/source.tar.gz'
  with target.open('wb') as out,gzip.GzipFile(filename='',mode='wb',fileobj=out,mtime=0) as zipped,tarfile.open(fileobj=zipped,mode='w') as tar:

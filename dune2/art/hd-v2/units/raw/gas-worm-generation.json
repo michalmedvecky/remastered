@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-c43a-7392-a132-198c08d0b62a/exec-43cde670-c73c-41ac-b080-39f886178b45.png",
+  "raw": "raw/gas-worm.png",
+  "prompt": "gas-worm-prompt.json",
+  "ids": [
+    208,
+    209,
+    210,
+    211,
+    212,
+    218,
+    219,
+    220,
+    221,
+    222
+  ],
+  "judgment": "Ten occupied effects, two trailing empty cells. Green gas grows then dissipates through transparent holes; five top-down sandworm maw/closing-sand phases remain separate, with no invented long worm body. Thin coloured alpha fringes need normal cleanup."
+}

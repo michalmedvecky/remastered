@@ -1,0 +1,62 @@
+{
+  "walls-0": {
+    "sourceImage": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-d852587d-6ea6-4816-a7d8-db01241386c3.png",
+    "sha256": "e9ff6173bec4285813ea2f6c7a2bbebe0e0a083dd92e7df27087be1efeccfde9",
+    "width": 1536,
+    "height": 1024,
+    "zeroAlpha": 0,
+    "opaqueAlpha": 0,
+    "minimumAlpha": 3,
+    "maximumAlpha": 254,
+    "status": "accepted-with-native-ink-fit",
+    "consumedTransform": "Core-alpha160 connected component crop, original native ink offset/extent, transparent remaining tile pixels; see packing.json"
+  },
+  "walls-1": {
+    "sourceImage": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-96ebafb1-5a7d-49b4-a753-92d54380f44c.png",
+    "sha256": "76ca4b00f55c558c3684aadee3c8b9a70b527ccb9d6341011c114aa6144e741b",
+    "width": 1536,
+    "height": 1024,
+    "zeroAlpha": 794643,
+    "opaqueAlpha": 0,
+    "minimumAlpha": 0,
+    "maximumAlpha": 254,
+    "status": "accepted-with-native-ink-fit",
+    "consumedTransform": "Core-alpha160 connected component crop, original native ink offset/extent, transparent remaining tile pixels; see packing.json"
+  },
+  "walls-2": {
+    "sourceImage": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-ff9b0422-5a05-4621-b73a-95591ecf22a0.png",
+    "sha256": "0cdb46922b83b9284fb06708107ed7c413cfdb6ba212c9b3f7f6072b02548235",
+    "width": 1536,
+    "height": 1024,
+    "zeroAlpha": 8662,
+    "opaqueAlpha": 0,
+    "minimumAlpha": 0,
+    "maximumAlpha": 254,
+    "status": "accepted-with-native-ink-fit",
+    "consumedTransform": "Core-alpha160 connected component crop, original native ink offset/extent, transparent remaining tile pixels; see packing.json"
+  },
+  "walls-3": {
+    "sourceImage": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-24567399-e025-4d7c-9bb3-10168b3af453.png",
+    "sha256": "ab66bdc8fcfc325b788ebd53f8da7b275e78f575782efbf602cf203cdacb983d",
+    "width": 1536,
+    "height": 1024,
+    "zeroAlpha": 418701,
+    "opaqueAlpha": 0,
+    "minimumAlpha": 0,
+    "maximumAlpha": 254,
+    "status": "accepted-with-native-ink-fit",
+    "consumedTransform": "Core-alpha160 connected component crop, original native ink offset/extent, transparent remaining tile pixels; see packing.json"
+  },
+  "walls-4": {
+    "sourceImage": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-f0c096ca-577c-4ad6-b3db-2cea238b2dad.png",
+    "sha256": "248bc7c0df76419ea46455febc9a1be7d7fd1f2623079f79c61d22f0f7319fb5",
+    "width": 1536,
+    "height": 1024,
+    "zeroAlpha": 831861,
+    "opaqueAlpha": 0,
+    "minimumAlpha": 0,
+    "maximumAlpha": 254,
+    "status": "accepted-with-native-ink-fit",
+    "consumedTransform": "Core-alpha160 connected component crop, original native ink offset/extent, transparent remaining tile pixels; see packing.json"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "remastered-dune2",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,6 +10,7 @@
     "verify:originals": "node tools/verify-originals.mjs",
     "build:native": "python3 tools/build-native.py",
     "test:native": "python3 fidelity/combat/test-compatibility.py native/opendune",
-    "test:music": "node native/music/test-render.mjs"
+    "test:music": "node native/music/test-render.mjs",
+    "build:art": "python3 tools/build-painted-native.py && node tools/build-painted-units.mjs --require-complete && node tools/build-painted-buildings.mjs && node tools/build-painted-terrain.mjs"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-c43a-7392-a132-198c08d0b62a/exec-b3778f87-d3f6-4e50-acb2-0da2b7e87b4c.png",
+  "raw": "raw/harvest-spray.png",
+  "prompt": "harvest-spray-prompt.json",
+  "ids": [
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237
+  ],
+  "judgment": "Fifteen occupied directional harvesting plumes, one trailing empty cell. Broadly follows source wedges/flow direction and animation order; painted sand is more volumetric than source, so judge motion at native4x size. Thin coloured alpha fringes need normal cleanup."
+}

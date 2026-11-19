@@ -1,12 +1,12 @@
 # Dune II research and evidence boundaries
 
-The original collection import was the tested V1.07 reconstruction0.3. Release 0.4 added a read-only presentation observer and generated material artwork. Release 0.5 removes the generated runtime art and upscales the original framebuffer, documented in [HD-GRAPHICS.md](HD-GRAPHICS.md). Its source and native binaries were unchanged by that initial collection migration. Tests, packaging, navigation and deployment paths were adapted for a clean checkout.
+The original collection import was the tested V1.07 reconstruction0.3. Release 0.4 added a read-only presentation observer and generated material artwork. Release0.5 tried original-frame upscaling; release0.6 replaces it with the approved whole-object painted artwork, documented in [HD-GRAPHICS.md](HD-GRAPHICS.md). Its source and native binaries were unchanged by that initial collection migration. Tests, packaging, navigation and deployment paths were adapted for a clean checkout.
 
 ## Original identity
 
 * ZIP SHA-256: `f7c9048f1bee49e2d9e3690adaef027e6a2e5bd22f8c18af16408e55a2a2d228`.
 * DUNE2.EXE SHA-256: `85f22bb82ea6f755835d5a94d257a67e11a3b854ec934854a69c3eeff7d0180f`.
-* The original and all19 extracted inputs were rehashed unchanged after the authorized DOS experiments. [Recorded integrity](fidelity/original-integrity.json) is the historical observation, not a fresh ZIP check on a clone.
+* The original and all 19 extracted inputs were rehashed unchanged after the authorized DOS experiments. [Recorded integrity](fidelity/original-integrity.json) is the historical observation, not a fresh ZIP check on a clone.
 
 REA/Ghidra verified a 16-bit real-mode DOS MZ image with Borland FBOV overlays before interpretation. The saved original image evidence is `ev_69580ae9ecd41e37719ac794780b72a790698fe0d8ecd41158485ef96fe33e71`. Overlay mapping, raw pseudocode and assembly, all discovered-function manifests and unresolved classifications remain in the preserved analysis. The inventory does not prove complete function discovery.
 

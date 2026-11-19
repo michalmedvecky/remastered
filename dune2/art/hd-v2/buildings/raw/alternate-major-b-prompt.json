@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "references": [
+    "../references/alternate-major-b.png",
+    "pilot-approved.png"
+  ],
+  "transparent_background": true,
+  "prompt": "Use case: precise-object-edit / complete 2D RTS building sprites.\nImage1 is the edit target, a grid of exact native DuneII whole building states; Image2 is the approved painted construction-yard/windtrap STYLE reference only. Replace native pixel blocks with clean detailed hand-painted hard-surface game artwork matching Image2. Preserve every cell's object identity, native high-overhead orthographic projection, angle, shape and component layout. Exact row-major state and facing order is mandatory. No isometric camera redesign, inventedextra towers, blur, enlarged pixel mosaic, generic material grain, photonoise or thick toy outlines.\nAll objects should be crisp and readable at64–192pixel gameplay sizes, cool steel, cobalt blue house panels and native warm desert metals, upper-leftlight. Output an actual transparent sprite atlas with one whole isolated object/state in each equal cell and generous transparent gutters, no labels/text/grid/borders, outside scenery or long shadows. Attached native building platform may remain. Do not merge adjacent cells.\nOutput4columns×2rows, exactly8 complete alternate activebuilding states in exactsourceorder. Row1: Refinery loadingpad firstphase; SAMErefinery loadingpadnextphase; SAMErefinery withcompactblue harvester/cargo object standingnorth-south onrightunloadingbay exactly as reference; Repairhangarwithgold/yellow vehiclefront atmouthofrightentrance, hanginggrayroofunchanged. Row2: SAME RadarOutpost dishrotated towardleft-side direction shown; SAMEoutpost dishpointingdown as shown; SAMEoutpost dishpointingright as shown; HousePalace samegoldendomes withsourcebeaconblinkphase. Preserve staticwholebuildingpositions and shapes betweenframes; actuallydraw meaningful moving/door/loadingparts, do not substitute paintedclosedstaticbay. No extra unrelatedvehicles. Request1536x768."
+}

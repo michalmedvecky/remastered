@@ -1,0 +1,24 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-c43a-7392-a132-198c08d0b62a/exec-f3593852-a632-4497-a1ce-ef076ef56217.png",
+  "raw": "raw/fire-dust.png",
+  "prompt": "fire-dust-prompt.json",
+  "ids": [
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173
+  ],
+  "judgment": "Fourteen occupied effect cells, two trailing empty cells; clear separate fire/dust/flame phases and clean broad painted forms. Thin ember fringes require normal alpha cleanup."
+}

@@ -1,0 +1,13 @@
+{
+  "ready": true,
+  "house": 1,
+  "unitTypes": 27,
+  "structureTypes": 19,
+  "worldFrames": 244,
+  "terrainSurfaces": 10,
+  "frameCards": 0,
+  "animate": false,
+  "magnifyUnits": true,
+  "errors": [],
+  "atlases": 5
+}

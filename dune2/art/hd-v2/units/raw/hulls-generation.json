@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-5f01e190-6e13-405e-a93b-027acf76a293.png",
+  "raw": "raw/hulls.png",
+  "prompt": "hulls-prompt.json",
+  "ids": [
+    111,
+    112,
+    113,
+    114,
+    115,
+    121,
+    122,
+    123,
+    124,
+    125,
+    131,
+    132,
+    133,
+    134,
+    135
+  ],
+  "judgment": "Visually checked separate whole hull/turret identities, row-major facings and coherent approved cobalt/steel style; final native-scale fit/edge checks pending"
+}

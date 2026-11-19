@@ -1,0 +1,19 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-61f72437-eb25-427e-bf37-3a55e37438e3.png",
+  "raw": "raw/soldier-corrected.png",
+  "prompt": "soldier-correction-prompt.json",
+  "ids": [
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319
+  ],
+  "judgment": "First3Nframes corrected to back-of-helmet andbackplate with no face; E/Sposes unchanged anddistinctwalkingphases retained"
+}

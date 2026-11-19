@@ -1,11 +1,19 @@
 {
   "schemaVersion": 1,
-  "snapshotSHA256": "d341579c4b8a1221754f1e165ae188ff14f1f6b79c27a636cbc8e9705cb5bfd9",
+  "snapshotSHA256": "9d5f8b86c0e8daf5654fbc4d0145f2e699ad344336f7e40ae66d83570320cea2",
   "excluded": [
     "build.json (injected per build)",
     "private/redundant source files"
   ],
   "files": {
+    "artwork-gallery.mjs": {
+      "sha256": "1d9b2f397b94fd53a51d7813b4242a3d8403a2247b1fc991d2683d894ada1ec7",
+      "size": 17203
+    },
+    "artwork.html": {
+      "sha256": "5985d1b44677c1a1365fbd3e7101d43f55b760259fcd9f3952023d38ce1f48c6",
+      "size": 9023
+    },
     "assets/README.md": {
       "sha256": "61ad2cc7025a72637889bea618c37c75fc95392a2565924eee6c05ca443d248d",
       "size": 4431
@@ -1351,16 +1359,16 @@
       "size": 52685
     },
     "fidelity.html": {
-      "sha256": "10229b690fa988834406b24a22434a98cde673188413e918808917b1aa9f5452",
-      "size": 5377
+      "sha256": "a4859a18c724b71b7927892d033cb87dc0d9ffd7750414f71131de3baf8c1bc6",
+      "size": 5665
     },
     "hd-core.mjs": {
       "sha256": "c68fe0b461a15f3482d5ae4b82f07408d54d82ff5238b5a00775a435c7fdce60",
       "size": 10939
     },
     "index.html": {
-      "sha256": "b032ddab252684c12f4be814bae20be62a79fcea40d32d457b2e67637e797aeb",
-      "size": 4632
+      "sha256": "ff0d8f96dec178e4221bf6c62f8740f6f2d2eaa9d4242ed4bf55ebe397397cbe",
+      "size": 4660
     },
     "main.mjs": {
       "sha256": "850bf5f1794a151b3b16a2db5f9e02cf3ad430fecec9dc2b8f7faea61fc11c4e",
@@ -1491,24 +1499,72 @@
       "size": 884
     },
     "native/source.tar.gz": {
-      "sha256": "5d640e632406794945f3cfcd3f7d571be767a965fb728a8b54a00adecd59f449",
-      "size": 9823745
+      "sha256": "9678adf121c276d13567a15a893e5e7602f11098ab765de063aefbe595afd2b5",
+      "size": 81588717
     },
     "native-clock.mjs": {
       "sha256": "edfaa5db4d33c93f9fc2812a495716b0817cf35d860ba1ef0cfc712552648bbc",
       "size": 401
     },
     "native-host.mjs": {
-      "sha256": "ae2fa8394f1599285a6726defceff063bb2642f60587fecd59ead43b02683208",
-      "size": 7034
+      "sha256": "be86947d597d86abbbd85d27613a9386fea53d60463b778a45bf0d52a232341c",
+      "size": 7264
     },
     "native-saves.mjs": {
       "sha256": "2b064f477d1878db52358d44c343e284762ae457dd81ab194773305250b938ee",
       "size": 907
     },
     "native-shell.css": {
-      "sha256": "f4f094259b6d9363c32424ec8ddc60e18f893e19bd72759e85ebf4494bad5cff",
-      "size": 4201
+      "sha256": "400ca8f3d6222f0f889a546f991b98aa64a71059f741bdd5677d2e02627f33b2",
+      "size": 5487
+    },
+    "painted/buildings-733d96bdc1d1a864.png": {
+      "sha256": "733d96bdc1d1a864991ab7c68966aececac9d7261df8955adac4902b334a90b1",
+      "size": 2765975
+    },
+    "painted/buildings.json": {
+      "sha256": "0b78b9ccf708e03a15bb4f5055cdd182ca1810b00931b25bead854b97976ef23",
+      "size": 100633
+    },
+    "painted/native.json": {
+      "sha256": "16519dfea0fd5dc39a0cb65f1d16ec5b3349567e8bef576a4c2429a5eaf874a5",
+      "size": 1987635
+    },
+    "painted/terrain-masks-7487623e89a650c4.png": {
+      "sha256": "7487623e89a650c43328b4359cd7d586c291e941b91ff86e2032db96d5193af0",
+      "size": 20127
+    },
+    "painted/terrain-overlays-ba3b0f1f85779784.png": {
+      "sha256": "ba3b0f1f857797840095718e5582b7d9ada70c91e9fbf98161a34cc008d19ddb",
+      "size": 133045
+    },
+    "painted/terrain-surfaces-abf95e454c8c66b3.png": {
+      "sha256": "abf95e454c8c66b331b144ce13fae49ed625cba0c1e684f147f4d800b9992822",
+      "size": 5784970
+    },
+    "painted/terrain.json": {
+      "sha256": "435c0f3109bf31519293b074044a6a511d607caf7d2b2e04001ddfcab79d980e",
+      "size": 209366
+    },
+    "painted/units.json": {
+      "sha256": "a8b8a548be60b15b750b574d4051bb718b45beaa7b794661d3e4bb6044859995",
+      "size": 2586722
+    },
+    "painted/units0-41a53c9b857a74e2.png": {
+      "sha256": "41a53c9b857a74e2bb4dbfed11fe5d152038846caaa1386836e4264def490d78",
+      "size": 1637466
+    },
+    "painted-core.mjs": {
+      "sha256": "1054b9078c94c32bbd115935c1c9201e422ce9dd423adfe8e8006f353271cc35",
+      "size": 5245
+    },
+    "painted-renderer.mjs": {
+      "sha256": "7d5f0bd9015f0d2015395d5f3c3d58595045f6f01b8bd4653300a82efb4832ef",
+      "size": 10829
+    },
+    "painted-terrain.mjs": {
+      "sha256": "3262dd44cccbb12bf2fdbdc1acf00a77d299074e72d35c7f2b47f1176be25530",
+      "size": 8198
     },
     "persistence.mjs": {
       "sha256": "6423ffeca716768efe1f7a78b09a6e73f27035ac0c0890253b80586f0a0198e0",
@@ -1534,33 +1590,9 @@
       "sha256": "7bfe0c4ae9265a6eec957c68a6b6d947845109bd1c14e3c202202599fc97e0c7",
       "size": 10057
     },
-    "upscale/LICENSE.txt": {
-      "sha256": "3a0cf4abcaeeac647cebf0ca0dca75189282e7123a194b67ca8cc64b5e867bae",
-      "size": 1111
-    },
-    "upscale/provenance.json": {
-      "sha256": "b5a6d4d214a51b70ef015a5056203d81c31f1686cb4bdb99b4f215fe654992da",
-      "size": 1121
-    },
-    "upscale/xbr-lv2.fragment.glsl": {
-      "sha256": "5abc0dff9a7423024771fc6ed49d8c8eecc84de14c7e19c7eaaf643ed74c5ee1",
-      "size": 8005
-    },
-    "upscale/xbr-lv2.upstream.glsl": {
-      "sha256": "9cf5b08c7378305b558204354e898f6837c481fd5b4371dfbe6b5092cffe5062",
-      "size": 10536
-    },
-    "upscale/xbr.vertex.glsl": {
-      "sha256": "f0656afaf291a9a51810c1eacd3f6223b6f1297c8ef180e63254bd1f94f6b4d6",
-      "size": 2141
-    },
     "upscale-core.mjs": {
       "sha256": "4648d92e1699860a2a49afe10890f66c22e6d27ad742d76805dec27148877e14",
       "size": 2660
-    },
-    "upscale-renderer.mjs": {
-      "sha256": "f9ed5b6bbb1ad16c86035b11890f39a2d311132f3d9eea48ce3702d2a8f20e1d",
-      "size": 6124
     }
   }
 }
