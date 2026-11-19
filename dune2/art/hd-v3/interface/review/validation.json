@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "manifestSHA256": "b3a40ee2f494b50d74fdba2bdb4b64be7ca11ed102f3ed4d37811434a119d0d0",
+  "repeatedBuildIdentical": true,
+  "scopedTestsPassed": 5,
+  "coverage": {
+    "paintedFrames": 23,
+    "indexedSceneReferences": 14,
+    "nativeHitboxes": 19,
+    "allArchiveHashesVerified": true
+  },
+  "atlases": {
+    "chrome": {
+      "src": "painted/interface-205e4858cb0f653c.png",
+      "sha256": "205e4858cb0f653c4f318a38f6dc3201f3ffd11d165ab33ba83965da9495c5e1",
+      "w": 2560,
+      "h": 2400
+    },
+    "advisors": {
+      "src": "painted/interface-advisors-65882090de707013.png",
+      "sha256": "65882090de707013f9621ab3c1a32d654299455929c1b2f9da7aba6df8c639a4",
+      "w": 2560,
+      "h": 1600
+    },
+    "campaign": {
+      "src": "painted/interface-campaign-6b3b20023b47c8e2.png",
+      "sha256": "6b3b20023b47c8e25cb793121826579f8bc00f8556ec9221fbe7fd026a1cd2cb",
+      "w": 2560,
+      "h": 1600
+    },
+    "postgame": {
+      "src": "painted/interface-postgame-d5aca620b296eb33.png",
+      "sha256": "d5aca620b296eb3347859e7ab04e60bac6c1528c262538f8b2f79dbb3ea56fc7",
+      "w": 1280,
+      "h": 800
+    }
+  },
+  "sourceOriginalPixelColoursReimposed": false
+}

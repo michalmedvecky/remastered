@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-333a8bb6-ee87-4fdc-be6b-c6d11f6619f1.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1610,
+    977
+  ],
+  "sha256": "7cd4d3852936fbe0022abb0722ce262e0f79a2fb1e3248012c02b659ed674a84",
+  "prompt": "light-vehicles-prompt.txt",
+  "references": [
+    "../references/light-vehicles.png",
+    "../../../hd-v2/buildings/raw/pilot-approved.png",
+    "../../interface/raw/advisor-a.png"
+  ],
+  "columns": [
+    0,
+    805,
+    1610
+  ],
+  "rows": [
+    0,
+    488,
+    977
+  ],
+  "packingReview": "All four whole-picture boundaries inspected; row split measured from output, not assumed half height."
+}

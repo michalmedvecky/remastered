@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-0bd0b24d-b52d-431b-aede-b82de7be2bd6.png",
+  "raw": "raw/raider-three-wheel.png",
+  "prompt": "raw/raider-three-wheel-prompt.json",
+  "sha256": "59f02bdb7abf3364394a1d3763c82800c7e9dd868145002c186dd1552fcd9c86",
+  "width": 1448,
+  "height": 1086,
+  "originalTarget": "references/raider-three-wheel-before.png",
+  "originalTargetSha256": "17915459b52afa6e9b9430670dc7cbf9811414334b70ad4fe615430a081ce8c0",
+  "visualJudgment": "Corrected exact requested object count: three separate infantry heads, or three distinct Trike tires with wide rear axle. Original panel composition/style/frame preserved; accepted."
+}

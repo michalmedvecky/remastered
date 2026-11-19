@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-23c19a2b-19db-4b49-be12-1c8f69fc2806.png",
+  "raw": "raw/advisor-a.png",
+  "prompt": "raw/advisor-a-prompt.json",
+  "sha256": "915fa72ac200f6e1e5fbf0030fb7ab27350fb922f3e646237efe4cd479764720",
+  "width": 1672,
+  "height": 941,
+  "visualJudgment": "Matched coherent new portrait identity; five distinct eye poses including closed and five mouth poses including open/rounded/teeth, correct native order. Atreides also preserves two book/hand phases. Outside generated fringe excluded and patch edges matched to new whole base."
+}

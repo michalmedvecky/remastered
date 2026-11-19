@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-c35406cd-b647-407e-99ac-556f1a15b161.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1504,
+    1046
+  ],
+  "sha256": "85ce75dd459b8ad787a4ecd68cde24e3b5619fd74b71646db7fe43d781d1a309",
+  "prompt": "headquarters-prompt.txt",
+  "references": [
+    "../references/headquarters.png",
+    "../../../hd-v2/buildings/raw/pilot-approved.png",
+    "../../interface/raw/advisor-a.png"
+  ],
+  "columns": [
+    0,
+    752,
+    1504
+  ],
+  "rows": [
+    0,
+    523,
+    1046
+  ],
+  "packingReview": "All four whole-picture boundaries inspected; row split measured from output, not assumed half height."
+}

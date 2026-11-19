@@ -1,0 +1,386 @@
+{
+  "schema": 1,
+  "groups": {
+    "ground": [
+      "SLAB",
+      "4SLAB",
+      "WALL",
+      "WINDTRAP"
+    ],
+    "headquarters": [
+      "CONSTRUC",
+      "PALACE",
+      "BARRAC",
+      "WOR"
+    ],
+    "factories": [
+      "LITEFTRY",
+      "HVYFTRY",
+      "HITCFTRY",
+      "IX"
+    ],
+    "industry": [
+      "REFINERY",
+      "REPAIR",
+      "HEADQRTS",
+      "STORAGE"
+    ],
+    "weapons": [
+      "STARPORT",
+      "TURRET",
+      "RTURRET",
+      "GOLD-BB"
+    ],
+    "logistics": [
+      "CARRYALL",
+      "ORNI",
+      "MCV",
+      "HARVEST"
+    ],
+    "heavy-vehicles": [
+      "LTANK",
+      "HTANK",
+      "HARKTANK",
+      "STANK"
+    ],
+    "light-vehicles": [
+      "RTANK",
+      "ORDRTANK",
+      "TRIKE",
+      "OTRIKE"
+    ],
+    "people": [
+      "INFANTRY",
+      "HYINFY",
+      "SABOTURE",
+      "QUAD"
+    ]
+  },
+  "references": {
+    "SLAB.WSA": {
+      "file": "art/hd-v3/media/motion/native/slab/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/slab.png",
+      "sha256": "f791b38ff6faf5b0752aa7999fdac928aaa03bf639835fe76c88d804ac321c11",
+      "group": "ground",
+      "cell": 0,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "4SLAB.WSA": {
+      "file": "art/hd-v3/media/motion/native/4slab/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/4slab.png",
+      "sha256": "f07dee81d5a86ade7677b8e5225a9ccad7e54c40268fe198bdf6d1ed36fedefb",
+      "group": "ground",
+      "cell": 1,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "WALL.WSA": {
+      "file": "art/hd-v3/media/motion/native/wall/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/wall.png",
+      "sha256": "997b11eef9377ffc5cd8933c4c04e59c006c10e13ba5750734a4f136002d30be",
+      "group": "ground",
+      "cell": 2,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "WINDTRAP.WSA": {
+      "file": "art/hd-v3/media/motion/native/windtrap/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/windtrap.png",
+      "sha256": "7f4723db401d4dc44933b7b2178ba005815e225710649d22ea69147e906cc7b6",
+      "group": "ground",
+      "cell": 3,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "CONSTRUC.WSA": {
+      "file": "art/hd-v3/media/motion/native/construc/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/construc.png",
+      "sha256": "c40b63b99fbaefe412d2774d6858a1ab6817a20eff253dcf58eeb687decae096",
+      "group": "headquarters",
+      "cell": 0,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "PALACE.WSA": {
+      "file": "art/hd-v3/media/motion/native/palace/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/palace.png",
+      "sha256": "93d4c805a52ebbe2f72b0bfb9f4d5500024d7e11622116cadba6a17b1ff0353c",
+      "group": "headquarters",
+      "cell": 1,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "BARRAC.WSA": {
+      "file": "art/hd-v3/media/motion/native/barrac/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/barrac.png",
+      "sha256": "9ce727d737baa7cdefb38bee319a4c20270e804b3006682e108406185c8448f7",
+      "group": "headquarters",
+      "cell": 2,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "WOR.WSA": {
+      "file": "art/hd-v3/media/motion/native/wor/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/wor.png",
+      "sha256": "63ffea8d3c135f805485b8c81e207cb7546bf9c3c9350625dd429d06ada46405",
+      "group": "headquarters",
+      "cell": 3,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "LITEFTRY.WSA": {
+      "file": "art/hd-v3/media/motion/native/liteftry/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/liteftry.png",
+      "sha256": "62a9f150b83b0c12a738043b5dfa47c1c45f34c23c7205de485524191c0f0a51",
+      "group": "factories",
+      "cell": 0,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "HVYFTRY.WSA": {
+      "file": "art/hd-v3/media/motion/native/hvyftry/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/hvyftry.png",
+      "sha256": "c1a77849e7aefd5275eb96799e1434fa04e4afc3524cbdbc04127dd8be95e677",
+      "group": "factories",
+      "cell": 1,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "HITCFTRY.WSA": {
+      "file": "art/hd-v3/media/motion/native/hitcftry/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/hitcftry.png",
+      "sha256": "cdaaf4c9c55d5d766fd3b83ee42a0f433d8175402dd82f1dffe0e9e2be92f56d",
+      "group": "factories",
+      "cell": 2,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "IX.WSA": {
+      "file": "art/hd-v3/media/motion/native/ix/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/ix.png",
+      "sha256": "b4992ce1ba17c0119f0acc3a0c541345993606187f574070eceaff307ca446c3",
+      "group": "factories",
+      "cell": 3,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "REFINERY.WSA": {
+      "file": "art/hd-v3/media/motion/native/refinery/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/refinery.png",
+      "sha256": "233a0fc14dbe2dbceed2ff41ff722395191073b727737cf70cebd35f527727f7",
+      "group": "industry",
+      "cell": 0,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "REPAIR.WSA": {
+      "file": "art/hd-v3/media/motion/native/repair/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/repair.png",
+      "sha256": "b230a6d26e3720884172736a625118da63cfe309c71dd49f236577abfb585767",
+      "group": "industry",
+      "cell": 1,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "HEADQRTS.WSA": {
+      "file": "art/hd-v3/media/motion/native/headqrts/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/headqrts.png",
+      "sha256": "9ec79c42e704c71f2a57bb127a1c2b678fe6f5989aee711a51079bdbdf831626",
+      "group": "industry",
+      "cell": 2,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "STORAGE.WSA": {
+      "file": "art/hd-v3/media/motion/native/storage/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/storage.png",
+      "sha256": "31ab3e42205f21e74e68834a1ee631f54098fa8b729c5c6bdae7d8c924fad2ed",
+      "group": "industry",
+      "cell": 3,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "STARPORT.WSA": {
+      "file": "art/hd-v3/media/motion/native/starport/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/starport.png",
+      "sha256": "087c69aa1c6d9e1cfed713ba714a47c5bed4d28e28101955764b475fde8eb9fd",
+      "group": "weapons",
+      "cell": 0,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "TURRET.WSA": {
+      "file": "art/hd-v3/media/motion/native/turret/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/turret.png",
+      "sha256": "57b98af7de7d54b5cbe10e9914df05c33bb3ed655f0e60ba945e07dc006fa91d",
+      "group": "weapons",
+      "cell": 1,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "RTURRET.WSA": {
+      "file": "art/hd-v3/media/motion/native/rturret/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/rturret.png",
+      "sha256": "56eb4dcfa92ce30e5d5f971b982a794eff3dc14166d8982dbb0abc75d31cba83",
+      "group": "weapons",
+      "cell": 2,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "GOLD-BB.WSA": {
+      "file": "art/hd-v3/media/motion/native/gold-bb/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/gold-bb.png",
+      "sha256": "b2d62fe1cd98a8f7aed5d18b5c3b1135959958f2a924827afc1c883652fda1dc",
+      "group": "weapons",
+      "cell": 3,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "CARRYALL.WSA": {
+      "file": "art/hd-v3/media/motion/native/carryall/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/carryall.png",
+      "sha256": "b6489d1f432b95921d07e3723fe88aa4a037ce73500eb8b6a22681d33d254552",
+      "group": "logistics",
+      "cell": 0,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "ORNI.WSA": {
+      "file": "art/hd-v3/media/motion/native/orni/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/orni.png",
+      "sha256": "40dfb3a59933464036aa19e2117e8ce5ea0f0d323990e1db1d3830ddab563d53",
+      "group": "logistics",
+      "cell": 1,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "MCV.WSA": {
+      "file": "art/hd-v3/media/motion/native/mcv/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/mcv.png",
+      "sha256": "58839ea9be5d969741c971fd62e53d11f72089101376100a7b8f2d1ed07c10e7",
+      "group": "logistics",
+      "cell": 2,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "HARVEST.WSA": {
+      "file": "art/hd-v3/media/motion/native/harvest/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/harvest.png",
+      "sha256": "25d32bbad1a2812b45cdec2f31fe0d223cb93c17425bdf6648e4ef048f94c852",
+      "group": "logistics",
+      "cell": 3,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "LTANK.WSA": {
+      "file": "art/hd-v3/media/motion/native/ltank/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/ltank.png",
+      "sha256": "c979f3abfadc314a60f8241451501fccc3fc0e00e84ec5ddb350737838cc546a",
+      "group": "heavy-vehicles",
+      "cell": 0,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "HTANK.WSA": {
+      "file": "art/hd-v3/media/motion/native/htank/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/htank.png",
+      "sha256": "85beeb299488a39aabe1d1c808e44368f47a3f25a88532b9f545759d4dbb9896",
+      "group": "heavy-vehicles",
+      "cell": 1,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "HARKTANK.WSA": {
+      "file": "art/hd-v3/media/motion/native/harktank/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/harktank.png",
+      "sha256": "3def223d8a63829441caef4b177eedf12dc877c92455587e73b733cd810e6e21",
+      "group": "heavy-vehicles",
+      "cell": 2,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "STANK.WSA": {
+      "file": "art/hd-v3/media/motion/native/stank/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/stank.png",
+      "sha256": "835270b91f2dffacfb15d6f8e7a93d83c3caefceadb966aedb829207212f3b72",
+      "group": "heavy-vehicles",
+      "cell": 3,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "RTANK.WSA": {
+      "file": "art/hd-v3/media/motion/native/rtank/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/rtank.png",
+      "sha256": "a50f4158ee187c4100f99d194eee253b6ef4b549c543a4157f490819f2633746",
+      "group": "light-vehicles",
+      "cell": 0,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "ORDRTANK.WSA": {
+      "file": "art/hd-v3/media/motion/native/ordrtank/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/ordrtank.png",
+      "sha256": "6971fc8d50356b3f965daaa80c003322f6070e7c13d6115a4904978fa7ae4780",
+      "group": "light-vehicles",
+      "cell": 1,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "TRIKE.WSA": {
+      "file": "art/hd-v3/media/motion/native/trike/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/trike.png",
+      "sha256": "e11491badb8b0cb506aa5b3479ebea0a7da7de56de322cc55cff63abf7f917eb",
+      "group": "light-vehicles",
+      "cell": 2,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "OTRIKE.WSA": {
+      "file": "art/hd-v3/media/motion/native/otrike/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/otrike.png",
+      "sha256": "1f5f4558ebabe5863347a9b59e05fdbd8d31038a3c847cd00a48bcdb3ef88f77",
+      "group": "light-vehicles",
+      "cell": 3,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "INFANTRY.WSA": {
+      "file": "art/hd-v3/media/motion/native/infantry/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/infantry.png",
+      "sha256": "b6e00160ee43acc775db273a6f80845938de573c84a98b6d8b4aedd0f1967243",
+      "group": "people",
+      "cell": 0,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "HYINFY.WSA": {
+      "file": "art/hd-v3/media/motion/native/hyinfy/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/hyinfy.png",
+      "sha256": "9b1d53f36bc247839cbd142d49745049f2de40898819d526e3ea8ab98c7c45a5",
+      "group": "people",
+      "cell": 1,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "SABOTURE.WSA": {
+      "file": "art/hd-v3/media/motion/native/saboture/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/saboture.png",
+      "sha256": "106606d8efe5d3ad9be6324253ea634461168fe025b1daf288391af13d65aae6",
+      "group": "people",
+      "cell": 2,
+      "nativeW": 184,
+      "nativeH": 112
+    },
+    "QUAD.WSA": {
+      "file": "art/hd-v3/media/motion/native/quad/frame-000.png",
+      "normalized": "art/hd-v3/media/references/native/quad.png",
+      "sha256": "7d6b2e8505052a23366c240ec38eb67a654c0fd9a6dbb495c0dae1bf529c01eb",
+      "group": "people",
+      "cell": 3,
+      "nativeW": 184,
+      "nativeH": 112
+    }
+  },
+  "purpose": "Native first-frame whole-scene references, nearest2x only for inspection; original sources unchanged"
+}

@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-b6dcb389-958c-4cfe-a4e5-144c7432563a.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1504,
+    1046
+  ],
+  "sha256": "5811b8d4a49a44d7ccea854782e9103a7dc3565167ea4436fc3b3991fc9b8eb1",
+  "prompt": "logistics-prompt.txt",
+  "references": [
+    "../references/logistics.png",
+    "../../../hd-v2/buildings/raw/pilot-approved.png",
+    "../../interface/raw/advisor-a.png"
+  ],
+  "columns": [
+    0,
+    752,
+    1504
+  ],
+  "rows": [
+    0,
+    522,
+    1046
+  ],
+  "packingReview": "All four whole-picture boundaries inspected; row split measured from output, not assumed half height."
+}

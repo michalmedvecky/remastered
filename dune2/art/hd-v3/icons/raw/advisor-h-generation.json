@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-d779e1db-dadc-456b-9ce5-804aa2c11dae.png",
+  "raw": "raw/advisor-h.png",
+  "prompt": "raw/advisor-h-prompt.json",
+  "sha256": "ab35f884476f8054550b606b696ed0231dc48783c8b33eead679ec13b706034d",
+  "width": 1672,
+  "height": 941,
+  "visualJudgment": "Ten distinct matched Harkonnen eye/mouth poses preserve painted identity and original pose order; closed lids and changing speech openings confirmed."
+}

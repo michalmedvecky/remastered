@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "protocolVersion": 2,
+  "nativeBuildCompiler": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 7.0.0 (777e6e5db7b4990bcaeb1b9998ed642cc84e6629)",
+  "nativeSourceFilesVerified": 95,
+  "nativeOutputsVerified": {
+    "dune-native.mjs": true,
+    "dune-native.wasm": true,
+    "dune-native.data": true
+  },
+  "outputs": {
+    "dune-native.mjs": "dac4057430c2e6e874f015f010b785409d787fc306956752dabebddcd330f56f",
+    "dune-native.wasm": "3cd5679e96c900b0a22b08cc805e1060bf9020a44c6829fc7a13adc80b039ea7",
+    "dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
+  },
+  "originalInputHashManifestUnchanged": true,
+  "nativePreloadBytesUnchanged": true,
+  "executedOriginalDosBinary": false,
+  "observerSha256": "1d9dfef868c8395625ff576bbe908166dd1b72179aa0b47e28131fe43ff99cdd",
+  "checks": [
+    "AddressSanitizer observer transactions/provenance",
+    "actual EM_JS heap ABI",
+    "retained owner-cache ASan",
+    "patch idempotence",
+    "six desktop syntax checks",
+    "Emscripten full native rebuild",
+    "source/output hash verification",
+    "git diff whitespace checks",
+    "verbatim native tile raster same-index overwrite",
+    "verbatim native unfilled border preserves portrait",
+    "CPS/menu-to-world provenance invalidation",
+    "observer refresh exported by retained native build"
+  ],
+  "observerRefreshExport": "_dune_hd_refresh",
+  "directBorders": {
+    "fillFlag": true,
+    "schemaIndex": true,
+    "wrapperDuplicatesSuppressed": true,
+    "exactOuterRimPixels": 1
+  },
+  "stableTextRuns": true,
+  "cursorFreeUiWitness": true,
+  "overscan": {
+    "width": 17,
+    "height": 12,
+    "words": 816,
+    "centreUsesCommittedRaster": true
+  },
+  "viewOffsetExport": "_dune_hd_set_view_offset(dxQ8,dyQ8,packedViewport)",
+  "viewOffsetOrigin": "Explicit rendered frame.viewport; independent of Cfront and live minimap origin",
+  "outputNormalization": "Generated dune-native.mjs lines.rstrip()+newline after Emscripten link, before output hashes",
+  "mouseRestorePreservesPainterOrder": true,
+  "mentatReplacementScope": true,
+  "optionsPauseRetainsWorld": true
+}

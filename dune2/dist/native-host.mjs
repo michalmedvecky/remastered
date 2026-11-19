@@ -4,7 +4,7 @@ import {createClock} from './native-clock.mjs';
 const gameClock=createClock();
 const $=id=>document.getElementById(id);
 function focusGame(){$('canvas').focus({preventScroll:true});}
-let core,music,started=false,syncing=false,saveTimer,overlayPaused=false;
+let core,music,started=false,nativeStarted=false,syncing=false,saveTimer,overlayPaused=false;
 let painter,graphicsMode='painted';
 try{if(localStorage.getItem('dune2-graphics')==='original')graphicsMode='original';}catch{}
 $('graphics').value=graphicsMode;document.documentElement.dataset.graphics=graphicsMode;
@@ -18,8 +18,8 @@ async function sync(){if(!core||syncing)return;syncing=true;try{await new Promis
 function files(){return core?core.FS.readdir('/save').filter(x=>x!=='.'&&x!=='..'&&!core.FS.isDir(core.FS.stat('/save/'+x).mode)):[];}
 function download(name,bytes){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([bytes],{type:'application/octet-stream'}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
 async function prepare(){
-  status('Loading the original campaign data…');
-  const paintedPromise=import('./painted-renderer.mjs').then(({createPaintedRenderer})=>createPaintedRenderer($('painted-canvas'),{mode:graphicsMode,onError:error=>console.warn('Painted graphics:',error)})).catch(error=>{console.warn('Painted artwork unavailable; using original graphics.',error);return null;});
+  status('Loading campaign data and HD artwork…');
+  const paintedPromise=import('./painted-renderer.mjs').then(({createPaintedRenderer})=>createPaintedRenderer($('painted-canvas'),{mode:graphicsMode,setViewOffset:(x,y,viewport)=>core?._dune_hd_set_view_offset?.(x,y,viewport),onError:error=>console.warn('Painted graphics:',error)})).catch(error=>{console.warn('Painted artwork unavailable; using original graphics.',error);return null;});
   core=await createDuneNative({duneClock:gameClock.now,duneHdEnabled:graphicsMode==='painted',duneHdPresent:frame=>painter?.present(frame),canvas:$('canvas'),locateFile:name=>new URL('./native/'+name,import.meta.url).href,print:line=>console.info('[Dune]',line),printErr:line=>console.warn('[Dune]',line),onAbort:message=>report('Engine stopped: '+message),duneMidi:()=>{},duneMusicPlay:(file,index,volume)=>music?.play(file,index,volume),duneAdlibEffect:(file,index,volume)=>music?.effect?.(file,index,volume),duneMusicStop:()=>music?.stop(),duneMusicFade:ms=>music?.fade(ms),duneMusicIsPlaying:()=>music?.isPlaying()??false});
   core.FS.mkdir('/save');
   core.FS.mount(core.IDBFS,{autoPersist:true},'/save');
@@ -42,13 +42,14 @@ async function launch(){
     $('arrival').hidden=true;$('game-frame').hidden=false;document.body.classList.add('game-active');focusGame();
     status('Arrakis command link active.');
     core.callMain([]);
+    nativeStarted=true;
     document.title='Dune II — The Battle for Arrakis';
     saveTimer=setInterval(()=>{sync();$('canvas').dataset.engineState=JSON.stringify(globalThis.duneDiagnostics());},2500);
   }catch(e){report(e.message);}
 }
 $('launch').addEventListener('click',launch);
 $('volume').addEventListener('input',e=>music?.setVolume(Number(e.target.value)));
-$('graphics').addEventListener('change',e=>{graphicsMode=e.target.value;document.documentElement.dataset.graphics=graphicsMode;painter?.setMode(graphicsMode);if(core)core.duneHdEnabled=graphicsMode==='painted';try{localStorage.setItem('dune2-graphics',graphicsMode);}catch{}if(started)focusGame();});
+$('graphics').addEventListener('change',e=>{graphicsMode=e.target.value;document.documentElement.dataset.graphics=graphicsMode;painter?.setMode(graphicsMode);if(core)core.duneHdEnabled=graphicsMode==='painted';try{localStorage.setItem('dune2-graphics',graphicsMode);}catch{}if(started){focusGame();if(nativeStarted&&graphicsMode==='painted')core?._dune_hd_refresh?.();}});
 $('canvas').addEventListener('contextmenu',e=>e.preventDefault());
 $('fullscreen').addEventListener('click',()=>document.fullscreenElement?document.exitFullscreen():$('game-frame').requestFullscreen());
 $('help').addEventListener('click',()=>showDialog('help-dialog'));

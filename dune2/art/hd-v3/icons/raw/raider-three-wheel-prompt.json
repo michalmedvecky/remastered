@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Production Dune II HD Raider Trike portrait, 4:3 rectangular picture. Image1 is the current painted edit target that wrongly resembles a two-wheel motorcycle. Image2 is the original native vehicle pose/identity reference. Reconstruct the vehicle as the correct low open/light ARMOURED THREE-WHEEL RAIDER TRIKE BUGGY: one front steering wheel pointing right, two rear wheels on a wide axle, exactly THREE distinct chunky black tires visible in a readable triangular arrangement, low grey/coolsteel armored chassis, yellow/ochre small accents, small forward gun. Preserve original side/threequarter portrait orientation pointing right and original native proportions, no human rider sitting exposed, no motorcycle/bike handlebars or two-wheel layout, no four-wheel Quad. Same crisp continuous painted RTS icon style and upperleft lighting, muted pale khaki opaque background and very thin pale frame as Image1. Exactly one complete vehicle, no labels, text, extra objects or scenery. Entire4:3 rectangle, output approximately1024x768, no outside gutters/background.",
+  "referenced_image_paths": [
+    "art/hd-v3/icons/packed/99.png",
+    "art/hd-v3/icons/native/99.png"
+  ],
+  "transparent_background": false
+}

@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "scale": 4,
+  "source": "Manual calibration against approved new whole illustrations; native source phases identify timing, not RGB shading.",
+  "atlasHashes": {
+    "media0": "5b62f876fa973cb904162cf49f8e55417f40fc1987548eb328831f5b5f5cd153",
+    "media1": "e6d1338fcab78d04415e0a616fff8a513985c0ddfd58d4cbf4429ed7e10a04af",
+    "media2": "64c880242367c9430f449731dc4c404dab6b12b8bc161a50d7bce5c9c0f481a4",
+    "parts": "795800c801ca9c0ee2e3a3a3acbef6fe0e06eacef485d9c29bd44458e4670038",
+    "cleanplates": "ae654f0b05f4e6aaabbb309e2aaf56b876af405fe8c63ef1f1202eddcb326fa5"
+  },
+  "nativePreviewRect": [
+    128,
+    48,
+    184,
+    112
+  ],
+  "newPaintingBindings": {
+    "BARRAC.WSA": {
+      "fan": [
+        133,
+        68,
+        14,
+        8
+      ]
+    },
+    "HEADQRTS.WSA": {
+      "radar": [
+        149,
+        42,
+        24,
+        17
+      ]
+    },
+    "CARRYALL.WSA": {
+      "marshal": [
+        153,
+        83,
+        12,
+        18
+      ],
+      "footAnchor": [
+        159,
+        101
+      ]
+    },
+    "PALACE.WSA": {
+      "gate-person": [
+        91,
+        82,
+        4,
+        10
+      ],
+      "middle-person": [
+        142,
+        86,
+        3.5,
+        7
+      ],
+      "right-person": [
+        169.5,
+        91,
+        6,
+        13
+      ]
+    },
+    "STARPORT.WSA": {
+      "transportNativeY": 94,
+      "height": 5,
+      "sourceNativeY": 70,
+      "x": "observed original frame positions; inferred full hull positions16,3,-10 at final clipped phases22..24"
+    }
+  },
+  "coverage": {
+    "resources": 36,
+    "nativeFrames": 161,
+    "distinctNativeImages": 107,
+    "animatedResources": 14,
+    "newParts": 9,
+    "newCleanplates": 6
+  },
+  "limitations": [
+    "Newly painted pose geometry is an approximation, not original pixel identity.",
+    "Semantic anchors must be visually recalibrated if whole-base artwork is regenerated.",
+    "Tiny pulley, marker-strip and diagonal-flow fiction remains unresolved; exact phase/bounds evidence is saved.",
+    "No independent animation clock, original RGB shading or old full-scene upscaling is used."
+  ]
+}

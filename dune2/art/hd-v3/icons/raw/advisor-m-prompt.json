@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Production Dune II HD facial animation patches. Image1 is EXACT NEW PAINTED EDIT TARGET: 10 cropped rectangular patches, fourcolumns bythreerows row-major, 2 trailing cells empty. Image2 is ORIGINAL LOWRES POSE REFERENCE ONLY: it tells each matching cell's eye gaze or mouth shape, not drawing style or colours. Image3 is NEW PAINTED WHOLE CHARACTER for identity/style. Bene Gesserit woman with dark hair, pale skin and blue eyes, dark robe. FIRSTFIVE cells are eyes/upperface patches: baseline forward gaze, gaze left, gaze right, partially lowered eyelids, eyes fully closed. NEXTFIVE cells are lowerface/mouth patches: closed/rest mouth, slightly open talking, wider open talking, rounded/pursed talking, teeth visible talking, following corresponding original patch intention. Change ONLY eye gaze/eyelids or lip/mouth opening within each crop. Preserve every surrounding skin fold, brow, nose, chin, head pose, face scale, light direction, colour and exact crop shape/relative feature positions from Image1. Same coherent identity, no extra head, no new face angle, no smiling generic replacement. Keep all patches distinct in exactly original order. Each cropped rectangular patch must remain centered in its equal cell at SAME dimensions/aspect as Image1, generous genuinely transparent gutters, no borders, labels, numbers, full-head portraits, frames, background, glows or fringe outside patch. The outer margin skin pixels should visually match Image1 unchanged so the patches can blend into its whole new portrait. Detailed crisp continuous hand-painted illustrated game art, never pixel mosaic or smoothed original pixels. Approximately1536x1152 atlas.",
+  "referenced_image_paths": [
+    "art/hd-v3/icons/references/advisor-m-newbase.png",
+    "art/hd-v3/icons/references/advisor-m-nativeposes.png",
+    "art/hd-v3/interface/review/advisor-m-base.png"
+  ],
+  "transparent_background": true
+}

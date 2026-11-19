@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-9d17cdaf-ab62-49bd-9efd-2b4efdc8e3d8.png",
+  "raw": "raw/credits-b.png",
+  "prompt": "raw/credits-b-prompt.json",
+  "sha256": "d2ad192738659bee4390000b2d562ef5ffc0eba881ddd5324952025aa8ef3b0b",
+  "width": 1498,
+  "height": 1050,
+  "visualJudgment": "Exact11 complete illustrated scenes checked for source identity/count/order/framing and accepted. Transparent fringe outside rectangular panels excluded by explicit crops."
+}

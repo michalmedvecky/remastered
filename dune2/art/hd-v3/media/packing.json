@@ -1,0 +1,1146 @@
+{
+  "schema": 1,
+  "atlases": {
+    "media0": {
+      "src": "painted/media0-5b62f876fa973cb9.png",
+      "sha256": "5b62f876fa973cb904162cf49f8e55417f40fc1987548eb328831f5b5f5cd153",
+      "w": 2944,
+      "h": 1344
+    },
+    "media1": {
+      "src": "painted/media1-e6d1338fcab78d04.png",
+      "sha256": "e6d1338fcab78d04415e0a616fff8a513985c0ddfd58d4cbf4429ed7e10a04af",
+      "w": 2944,
+      "h": 1344
+    },
+    "media2": {
+      "src": "painted/media2-64c880242367c943.png",
+      "sha256": "64c880242367c9430f449731dc4c404dab6b12b8bc161a50d7bce5c9c0f481a4",
+      "w": 2944,
+      "h": 1344
+    },
+    "parts": {
+      "src": "painted/media-parts-795800c801ca9c0e.png",
+      "sha256": "795800c801ca9c0ee2e3a3a3acbef6fe0e06eacef485d9c29bd44458e4670038",
+      "w": 512,
+      "h": 256
+    },
+    "cleanplates": {
+      "src": "painted/media-cleanplates-ae654f0b05f4e6aa.png",
+      "sha256": "ae654f0b05f4e6aaabbb309e2aaf56b876af405fe8c63ef1f1202eddcb326fa5",
+      "w": 512,
+      "h": 128
+    },
+    "extraBases": {
+      "src": "painted/media-extra-extraBases-1742d763e86eb3b5.png",
+      "sha256": "1742d763e86eb3b5ea69ba66be3fee50abfd8dad9194a227e70a330d032c3bff",
+      "w": 2208,
+      "h": 896
+    },
+    "extraPlanet0": {
+      "src": "painted/media-extra-extraPlanet0-d6483b0406f024f0.png",
+      "sha256": "d6483b0406f024f037107f5458921ff5e4d8def934c966cbc7a50ad1477eef9b",
+      "w": 1640,
+      "h": 1848
+    },
+    "extraPlanet1": {
+      "src": "painted/media-extra-extraPlanet1-6fce28a19f418c48.png",
+      "sha256": "6fce28a19f418c48a1ba42ccb790efc6af50bdc29554667a13930330ab332eed",
+      "w": 1640,
+      "h": 1848
+    },
+    "extraPlanet2": {
+      "src": "painted/media-extra-extraPlanet2-137a43db3dacc788.png",
+      "sha256": "137a43db3dacc7882fba41c63929008ee92fc4f077580e7e59b9a57c7517a982",
+      "w": 1640,
+      "h": 1848
+    },
+    "extraIndicators": {
+      "src": "painted/media-extra-extraIndicators-077700e8c583c892.png",
+      "sha256": "077700e8c583c8925aa7e3d16c0c2a091e780e33e22f42bcb429702646c658bd",
+      "w": 512,
+      "h": 128
+    }
+  },
+  "packing": [
+    {
+      "resource": "SLAB.WSA",
+      "group": "ground",
+      "cell": 0,
+      "sourceRect": [
+        0,
+        0,
+        752,
+        474
+      ],
+      "atlas": "media0",
+      "rect": [
+        0,
+        0,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "4SLAB.WSA",
+      "group": "ground",
+      "cell": 1,
+      "sourceRect": [
+        752,
+        0,
+        752,
+        474
+      ],
+      "atlas": "media0",
+      "rect": [
+        736,
+        0,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "WALL.WSA",
+      "group": "ground",
+      "cell": 2,
+      "sourceRect": [
+        0,
+        474,
+        752,
+        572
+      ],
+      "atlas": "media0",
+      "rect": [
+        1472,
+        0,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "WINDTRAP.WSA",
+      "group": "ground",
+      "cell": 3,
+      "sourceRect": [
+        752,
+        474,
+        752,
+        572
+      ],
+      "atlas": "media0",
+      "rect": [
+        2208,
+        0,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "CONSTRUC.WSA",
+      "group": "headquarters",
+      "cell": 0,
+      "sourceRect": [
+        0,
+        0,
+        752,
+        523
+      ],
+      "atlas": "media0",
+      "rect": [
+        0,
+        448,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "PALACE.WSA",
+      "group": "headquarters",
+      "cell": 1,
+      "sourceRect": [
+        752,
+        0,
+        752,
+        523
+      ],
+      "atlas": "media0",
+      "rect": [
+        736,
+        448,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "BARRAC.WSA",
+      "group": "headquarters",
+      "cell": 2,
+      "sourceRect": [
+        0,
+        523,
+        752,
+        523
+      ],
+      "atlas": "media0",
+      "rect": [
+        1472,
+        448,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "WOR.WSA",
+      "group": "headquarters",
+      "cell": 3,
+      "sourceRect": [
+        752,
+        523,
+        752,
+        523
+      ],
+      "atlas": "media0",
+      "rect": [
+        2208,
+        448,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "LITEFTRY.WSA",
+      "group": "factories",
+      "cell": 0,
+      "sourceRect": [
+        0,
+        0,
+        805,
+        488
+      ],
+      "atlas": "media0",
+      "rect": [
+        0,
+        896,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "HVYFTRY.WSA",
+      "group": "factories",
+      "cell": 1,
+      "sourceRect": [
+        805,
+        0,
+        805,
+        488
+      ],
+      "atlas": "media0",
+      "rect": [
+        736,
+        896,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "HITCFTRY.WSA",
+      "group": "factories",
+      "cell": 2,
+      "sourceRect": [
+        0,
+        488,
+        805,
+        489
+      ],
+      "atlas": "media0",
+      "rect": [
+        1472,
+        896,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "IX.WSA",
+      "group": "factories",
+      "cell": 3,
+      "sourceRect": [
+        805,
+        488,
+        805,
+        489
+      ],
+      "atlas": "media0",
+      "rect": [
+        2208,
+        896,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "REFINERY.WSA",
+      "group": "industry",
+      "cell": 0,
+      "sourceRect": [
+        0,
+        0,
+        805,
+        488
+      ],
+      "atlas": "media1",
+      "rect": [
+        0,
+        0,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "REPAIR.WSA",
+      "group": "industry",
+      "cell": 1,
+      "sourceRect": [
+        805,
+        0,
+        805,
+        488
+      ],
+      "atlas": "media1",
+      "rect": [
+        736,
+        0,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "HEADQRTS.WSA",
+      "group": "industry",
+      "cell": 2,
+      "sourceRect": [
+        0,
+        488,
+        805,
+        489
+      ],
+      "atlas": "media1",
+      "rect": [
+        1472,
+        0,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "STORAGE.WSA",
+      "group": "industry",
+      "cell": 3,
+      "sourceRect": [
+        805,
+        488,
+        805,
+        489
+      ],
+      "atlas": "media1",
+      "rect": [
+        2208,
+        0,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "STARPORT.WSA",
+      "group": "weapons",
+      "cell": 0,
+      "sourceRect": [
+        0,
+        0,
+        805,
+        488
+      ],
+      "atlas": "media1",
+      "rect": [
+        0,
+        448,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "TURRET.WSA",
+      "group": "weapons",
+      "cell": 1,
+      "sourceRect": [
+        805,
+        0,
+        805,
+        488
+      ],
+      "atlas": "media1",
+      "rect": [
+        736,
+        448,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "RTURRET.WSA",
+      "group": "weapons",
+      "cell": 2,
+      "sourceRect": [
+        0,
+        488,
+        805,
+        489
+      ],
+      "atlas": "media1",
+      "rect": [
+        1472,
+        448,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "GOLD-BB.WSA",
+      "group": "weapons",
+      "cell": 3,
+      "sourceRect": [
+        805,
+        488,
+        805,
+        489
+      ],
+      "atlas": "media1",
+      "rect": [
+        2208,
+        448,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "CARRYALL.WSA",
+      "group": "logistics",
+      "cell": 0,
+      "sourceRect": [
+        0,
+        0,
+        752,
+        522
+      ],
+      "atlas": "media1",
+      "rect": [
+        0,
+        896,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "ORNI.WSA",
+      "group": "logistics",
+      "cell": 1,
+      "sourceRect": [
+        752,
+        0,
+        752,
+        522
+      ],
+      "atlas": "media1",
+      "rect": [
+        736,
+        896,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "MCV.WSA",
+      "group": "logistics",
+      "cell": 2,
+      "sourceRect": [
+        0,
+        522,
+        752,
+        524
+      ],
+      "atlas": "media1",
+      "rect": [
+        1472,
+        896,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "HARVEST.WSA",
+      "group": "logistics",
+      "cell": 3,
+      "sourceRect": [
+        752,
+        522,
+        752,
+        524
+      ],
+      "atlas": "media1",
+      "rect": [
+        2208,
+        896,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "LTANK.WSA",
+      "group": "heavy-vehicles",
+      "cell": 0,
+      "sourceRect": [
+        0,
+        0,
+        805,
+        488
+      ],
+      "atlas": "media2",
+      "rect": [
+        0,
+        0,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "HTANK.WSA",
+      "group": "heavy-vehicles",
+      "cell": 1,
+      "sourceRect": [
+        805,
+        0,
+        805,
+        488
+      ],
+      "atlas": "media2",
+      "rect": [
+        736,
+        0,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "HARKTANK.WSA",
+      "group": "heavy-vehicles",
+      "cell": 2,
+      "sourceRect": [
+        0,
+        488,
+        805,
+        489
+      ],
+      "atlas": "media2",
+      "rect": [
+        1472,
+        0,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "STANK.WSA",
+      "group": "heavy-vehicles",
+      "cell": 3,
+      "sourceRect": [
+        805,
+        488,
+        805,
+        489
+      ],
+      "atlas": "media2",
+      "rect": [
+        2208,
+        0,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "RTANK.WSA",
+      "group": "light-vehicles",
+      "cell": 0,
+      "sourceRect": [
+        0,
+        0,
+        805,
+        488
+      ],
+      "atlas": "media2",
+      "rect": [
+        0,
+        448,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "ORDRTANK.WSA",
+      "group": "light-vehicles",
+      "cell": 1,
+      "sourceRect": [
+        805,
+        0,
+        805,
+        488
+      ],
+      "atlas": "media2",
+      "rect": [
+        736,
+        448,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "TRIKE.WSA",
+      "group": "light-vehicles",
+      "cell": 2,
+      "sourceRect": [
+        0,
+        488,
+        805,
+        489
+      ],
+      "atlas": "media2",
+      "rect": [
+        1472,
+        448,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "OTRIKE.WSA",
+      "group": "light-vehicles",
+      "cell": 3,
+      "sourceRect": [
+        805,
+        488,
+        805,
+        489
+      ],
+      "atlas": "media2",
+      "rect": [
+        2208,
+        448,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "INFANTRY.WSA",
+      "group": "people",
+      "cell": 0,
+      "sourceRect": [
+        0,
+        0,
+        805,
+        488
+      ],
+      "atlas": "media2",
+      "rect": [
+        0,
+        896,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "HYINFY.WSA",
+      "group": "people",
+      "cell": 1,
+      "sourceRect": [
+        805,
+        0,
+        805,
+        488
+      ],
+      "atlas": "media2",
+      "rect": [
+        736,
+        896,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "SABOTURE.WSA",
+      "group": "people",
+      "cell": 2,
+      "sourceRect": [
+        0,
+        488,
+        805,
+        489
+      ],
+      "atlas": "media2",
+      "rect": [
+        1472,
+        896,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "resource": "QUAD.WSA",
+      "group": "people",
+      "cell": 3,
+      "sourceRect": [
+        805,
+        488,
+        805,
+        489
+      ],
+      "atlas": "media2",
+      "rect": [
+        2208,
+        896,
+        736,
+        448
+      ],
+      "status": "painted-whole-preview"
+    },
+    {
+      "part": "radar-0",
+      "atlas": "parts",
+      "rect": [
+        0,
+        0,
+        96,
+        68
+      ],
+      "sourceRect": [
+        87,
+        55,
+        256,
+        312
+      ]
+    },
+    {
+      "part": "radar-1",
+      "atlas": "parts",
+      "rect": [
+        96,
+        0,
+        96,
+        68
+      ],
+      "sourceRect": [
+        525,
+        58,
+        215,
+        309
+      ]
+    },
+    {
+      "part": "radar-2",
+      "atlas": "parts",
+      "rect": [
+        192,
+        0,
+        96,
+        68
+      ],
+      "sourceRect": [
+        902,
+        60,
+        277,
+        306
+      ]
+    },
+    {
+      "part": "marshal-0",
+      "atlas": "parts",
+      "rect": [
+        0,
+        68,
+        64,
+        96
+      ],
+      "sourceRect": [
+        131,
+        489,
+        169,
+        289
+      ]
+    },
+    {
+      "part": "marshal-1",
+      "atlas": "parts",
+      "rect": [
+        64,
+        68,
+        64,
+        96
+      ],
+      "sourceRect": [
+        552,
+        483,
+        165,
+        295
+      ]
+    },
+    {
+      "part": "guard-0",
+      "atlas": "parts",
+      "rect": [
+        128,
+        68,
+        24,
+        52
+      ],
+      "sourceRect": [
+        976,
+        483,
+        124,
+        295
+      ]
+    },
+    {
+      "part": "guard-1",
+      "atlas": "parts",
+      "rect": [
+        0,
+        164,
+        24,
+        52
+      ],
+      "sourceRect": [
+        156,
+        890,
+        121,
+        303
+      ]
+    },
+    {
+      "part": "guard-2",
+      "atlas": "parts",
+      "rect": [
+        24,
+        164,
+        24,
+        52
+      ],
+      "sourceRect": [
+        534,
+        887,
+        125,
+        307
+      ]
+    },
+    {
+      "part": "transport",
+      "atlas": "parts",
+      "rect": [
+        48,
+        164,
+        128,
+        20
+      ],
+      "sourceRect": [
+        826,
+        1005,
+        412,
+        98
+      ]
+    },
+    {
+      "cleanplate": "radar",
+      "atlas": "cleanplates",
+      "rect": [
+        0,
+        0,
+        108,
+        80
+      ],
+      "sourceRect": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "cleanplate": "marshal",
+      "atlas": "cleanplates",
+      "rect": [
+        108,
+        0,
+        56,
+        80
+      ],
+      "sourceRect": [
+        512,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "cleanplate": "palace-gate",
+      "atlas": "cleanplates",
+      "rect": [
+        164,
+        0,
+        28,
+        44
+      ],
+      "sourceRect": [
+        1024,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "cleanplate": "palace-foreground",
+      "atlas": "cleanplates",
+      "rect": [
+        192,
+        0,
+        32,
+        60
+      ],
+      "sourceRect": [
+        0,
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "cleanplate": "palace-middle",
+      "atlas": "cleanplates",
+      "rect": [
+        224,
+        0,
+        32,
+        52
+      ],
+      "sourceRect": [
+        512,
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "cleanplate": "starport-apron",
+      "atlas": "cleanplates",
+      "rect": [
+        256,
+        0,
+        128,
+        32
+      ],
+      "sourceRect": [
+        1024,
+        512,
+        512,
+        512
+      ]
+    }
+  ],
+  "art": {
+    "ground": {
+      "path": "art/hd-v3/media/raw/ground.png",
+      "sha256": "4ee3729d449320c1355804665d7d2508ab082b105dd4ea4323dc8f6863844754",
+      "prompt": "art/hd-v3/media/raw/ground-prompt.txt",
+      "promptSHA256": "245e21e7bcbe7adcdd9251f0c716bd85f0922156547ba018ff9aca5a3447307e",
+      "method": "built-in-imagegen-whole-preview",
+      "dimensions": [
+        1504,
+        1046
+      ]
+    },
+    "headquarters": {
+      "path": "art/hd-v3/media/raw/headquarters.png",
+      "sha256": "85ce75dd459b8ad787a4ecd68cde24e3b5619fd74b71646db7fe43d781d1a309",
+      "prompt": "art/hd-v3/media/raw/headquarters-prompt.txt",
+      "promptSHA256": "bbe57828ab5f09d2556e0ead9bb3cf96e41336bf937e96fb950fcafadf9b61d3",
+      "method": "built-in-imagegen-whole-preview",
+      "dimensions": [
+        1504,
+        1046
+      ]
+    },
+    "factories": {
+      "path": "art/hd-v3/media/raw/factories.png",
+      "sha256": "d58bbb3c02964a504b64d80e8ba9476ca5f04630ba90c498fbf122d0284ca7eb",
+      "prompt": "art/hd-v3/media/raw/factories-prompt.txt",
+      "promptSHA256": "bd8d7dfeca0a524736eaa428590e49e32133e75a932bd72effb432ee32de4613",
+      "method": "built-in-imagegen-whole-preview",
+      "dimensions": [
+        1610,
+        977
+      ]
+    },
+    "industry": {
+      "path": "art/hd-v3/media/raw/industry.png",
+      "sha256": "74c8840478511808a1fae1706dbe04894c87033a5fe86a56b939c6ba32f157e2",
+      "prompt": "art/hd-v3/media/raw/industry-prompt.txt",
+      "promptSHA256": "676654852178824ddf0d35655f68f432fffd9956cb02c7e06ca9d480492a4b59",
+      "method": "built-in-imagegen-whole-preview",
+      "dimensions": [
+        1610,
+        977
+      ]
+    },
+    "weapons": {
+      "path": "art/hd-v3/media/raw/weapons.png",
+      "sha256": "a437361abf8e3b3334a0c2d3c59653c42338c5569d460f8ef203f9ac6b8b0cc1",
+      "prompt": "art/hd-v3/media/raw/weapons-prompt.txt",
+      "promptSHA256": "b3f9bb2d02967ebe8a70c2f6ee7245b84232fdef1c3ea5a5f352bb254a7ba9a5",
+      "method": "built-in-imagegen-whole-preview",
+      "dimensions": [
+        1610,
+        977
+      ]
+    },
+    "logistics": {
+      "path": "art/hd-v3/media/raw/logistics.png",
+      "sha256": "5811b8d4a49a44d7ccea854782e9103a7dc3565167ea4436fc3b3991fc9b8eb1",
+      "prompt": "art/hd-v3/media/raw/logistics-prompt.txt",
+      "promptSHA256": "4342de816b2c0b3f02b46d1e2e9ef2d3e9c4f66274985ba12257598d2206bfd9",
+      "method": "built-in-imagegen-whole-preview",
+      "dimensions": [
+        1504,
+        1046
+      ]
+    },
+    "heavy-vehicles": {
+      "path": "art/hd-v3/media/raw/heavy-vehicles.png",
+      "sha256": "eac22234095925facf3c31910873af5062cc5df1156466efafe02e8c92726dfa",
+      "prompt": "art/hd-v3/media/raw/heavy-vehicles-prompt.txt",
+      "promptSHA256": "07fea923fa59720446d8aae8aeb596b635434b787ab4cb7dff86515686ce1e4b",
+      "method": "built-in-imagegen-whole-preview",
+      "dimensions": [
+        1610,
+        977
+      ]
+    },
+    "light-vehicles": {
+      "path": "art/hd-v3/media/raw/light-vehicles.png",
+      "sha256": "7cd4d3852936fbe0022abb0722ce262e0f79a2fb1e3248012c02b659ed674a84",
+      "prompt": "art/hd-v3/media/raw/light-vehicles-prompt.txt",
+      "promptSHA256": "9f18dabc9507b5c8f67d2aa108bd57c6aa642b8867aae869d7f9807fddb94d65",
+      "method": "built-in-imagegen-whole-preview",
+      "dimensions": [
+        1610,
+        977
+      ]
+    },
+    "people": {
+      "path": "art/hd-v3/media/raw/people.png",
+      "sha256": "de73a9becb58000fe3639b375b82ffe7c2d4447fb7259862cbc92106d08e72f1",
+      "prompt": "art/hd-v3/media/raw/people-prompt.txt",
+      "promptSHA256": "296b536d788d1bc1f0c9e5ead3a87a65889ef09dfe6f69e222d96ba493b013d8",
+      "method": "built-in-imagegen-whole-preview",
+      "dimensions": [
+        1610,
+        977
+      ]
+    },
+    "motion-parts": {
+      "path": "art/hd-v3/media/raw/motion-parts.png",
+      "sha256": "613ef8753dbc5f8b24b6502d9ca708c820836dca7f3e96f0ca2a52fb4eb46379",
+      "prompt": "art/hd-v3/media/raw/motion-parts-prompt.txt",
+      "promptSHA256": "c2cb10258c3c11968f58b5e0b41491a1dc0fdd7b903e565e30dd0bede82fa8d3",
+      "method": "built-in-imagegen-whole-motion-parts",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "motion-guard-correction": {
+      "path": "art/hd-v3/media/raw/motion-guard-correction.png",
+      "sha256": "05c7bfc527069216a813a2b1b35ec5d51aa85c10bbe1731876fae17a5aa789b3",
+      "prompt": "art/hd-v3/media/raw/motion-guard-correction-prompt.txt",
+      "promptSHA256": "40e591fe7fc1d155254b50f58e99af00974b680cd9142d602e957a2354e0e959",
+      "method": "built-in-imagegen-targeted-guard-pose-correction",
+      "consumedCells": [
+        7
+      ]
+    },
+    "cleanplates": {
+      "path": "art/hd-v3/media/raw/cleanplates.png",
+      "sha256": "d2692ee27dac2c84f95d3b2c697034dd2f4e6da3c38ac232aa983e1792a1e575",
+      "prompt": "art/hd-v3/media/raw/cleanplates-prompt.txt",
+      "promptSHA256": "36992e4f433b7045efc50eca9bdfcd38ca74e1c6b008696999d2c029a0df7a11",
+      "method": "built-in-imagegen-new-art-cleanplate-edit",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "extra-worlds": {
+      "path": "art/hd-v3/media/raw/extra-worlds.png",
+      "sha256": "cb152d95dbe122cb76eb0616412a022e972ef1ce046dd8236c11f1b48803031c",
+      "prompt": "art/hd-v3/media/raw/extra-worlds-prompt.txt",
+      "promptSHA256": "959c97588ed5c8f9f7f7ac974bcdf8e7914795e902dd5e169c4dd3e5e5e68182",
+      "method": "built-in-imagegen-whole-extra-media"
+    },
+    "extra-troops": {
+      "path": "art/hd-v3/media/raw/extra-troops.png",
+      "sha256": "56d27d960699f0add0e4c42f0899ec0422a59328056b379698594bd24a50ab0d",
+      "prompt": "art/hd-v3/media/raw/extra-troops-prompt.txt",
+      "promptSHA256": "009db2d178b8c83cee3bcc83cbe80a0fa0e19ea2c75a1c8b0c60fd987d66d542",
+      "method": "built-in-imagegen-whole-extra-media"
+    },
+    "extra-planets": {
+      "path": "art/hd-v3/media/raw/extra-planets.png",
+      "sha256": "8777fcb1d1f50885316b4c80614fd08e7a9d4db84b2b53b48f012c51300de81a",
+      "prompt": "art/hd-v3/media/raw/extra-planets-prompt.txt",
+      "promptSHA256": "d5119ad15c8bbe2bae951963044fc16ac6f2ef1a4b715edbb0200ce4d32f0715",
+      "method": "built-in-imagegen-whole-extra-media"
+    }
+  },
+  "extraPhaseBindings": "extra-motion/painted-bindings.json"
+}

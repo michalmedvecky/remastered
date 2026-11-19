@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "snapshots": [
+    "full",
+    "cursor-middle",
+    "cursor-restored",
+    "cursor-full",
+    "middle-erased",
+    "all-erased",
+    "partial-copy"
+  ],
+  "sameLayoutUnderCursor": true,
+  "mouseRestorePaintOrderStable": true,
+  "mentatHelpReplacesWorld": true,
+  "optionsPauseRetainsWorld": true,
+  "overscanCentreCoherent": true,
+  "overscanFowAndEdgesPreserved": true,
+  "explicitRenderedViewportOrigin": true,
+  "zeroOffsetOriginal": true,
+  "completeLiteralSource": true,
+  "partialCopiesRetainFullGeometry": true,
+  "erasedPaletteCoincidencesExcluded": true,
+  "fullyErasedLinesOmitted": true,
+  "overscanWords": 816,
+  "executedOriginalDosBinary": false,
+  "bridgeSha256": "1d9dfef868c8395625ff576bbe908166dd1b72179aa0b47e28131fe43ff99cdd"
+}

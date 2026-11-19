@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "resources": 36,
+  "frames": 161,
+  "distinctImages": 107,
+  "coordinates": 30,
+  "tests": [
+    "every native frame exact identification",
+    "immutable full index hashes",
+    "unknown on unmasked mismatch",
+    "occlusion never chooses nearest",
+    "all-occluded unknown"
+  ],
+  "executedOriginalDosBinary": false
+}

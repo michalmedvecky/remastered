@@ -1,0 +1,38 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-3048d3f1-58b2-4c76-b2c4-c70c68a08c8c.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1136,
+    1385
+  ],
+  "sha256": "56d27d960699f0add0e4c42f0899ec0422a59328056b379698594bd24a50ab0d",
+  "prompt": "extra-troops-prompt.txt",
+  "sourceRects": [
+    [
+      0,
+      0,
+      1136,
+      692
+    ],
+    [
+      0,
+      692,
+      1136,
+      693
+    ]
+  ],
+  "sourcePacking": "Whole scene boundaries inspected; incidental white reference frames cropped out, no sourcepixels enlarged into product.",
+  "references": [
+    {
+      "path": "art/hd-v3/media/references/extra-troops.png",
+      "sha256": "20475e737d446187bc795aa67f1140ad67f6b2d7e87b1c9481f4da4dc97b485e"
+    },
+    {
+      "path": "art/hd-v3/interface/raw/advisor-a.png",
+      "sha256": "00e8f0eb55e73f3a9f3355b3010e5ee80d6fc436e9745d23a50cd114f9ba1e0e"
+    }
+  ]
+}

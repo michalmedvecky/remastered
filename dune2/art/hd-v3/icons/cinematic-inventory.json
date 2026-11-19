@@ -1,0 +1,544 @@
+{
+  "schema": 1,
+  "sourcePreloadSha256": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071",
+  "resources": [
+    {
+      "name": "CHOAM.CPS",
+      "sha256": "94d4c072adb561fd1ac464764eb5364d7580b6b7a485171598a941506d8864bf",
+      "bytes": 9868,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "DUNEMAP.CPS",
+      "sha256": "359b3e7ec89ff76264ed52e1627f0da58dfb358920653f0126c5dab45d4a6051",
+      "bytes": 12417,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "DUNERGN.CPS",
+      "sha256": "1506ef5306c04dfa6d895d7144e402ccb2eb027527510f0f3de72728e40c1018",
+      "bytes": 13403,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "FAME.CPS",
+      "sha256": "f67db717c1bdbd6582b1a9882c87800e995bd720eaaf20068d1b85acf83a9f1c",
+      "bytes": 8090,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "LOSTBILD.WSA",
+      "sha256": "45db9dbc6bd6b337524b783a7be6c61314d3072f293152abb172b15188c0f57f",
+      "bytes": 11016,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "LOSTVEHC.WSA",
+      "sha256": "593a9d6777f8c086602cccf757cedbd5b81fb40682944df84cb323e6228e3361",
+      "bytes": 12377,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "MAPMACH.CPS",
+      "sha256": "10ff8f39191a6ea9ad507102d8e0601433956062c5672100f5048f667b9be643",
+      "bytes": 9260,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "MENTATA.CPS",
+      "sha256": "28b2eadb77887eb87980e56e84f0f1e645d63e2359ccf2a0fb4ea5598f04286b",
+      "bytes": 11314,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "MENTATH.CPS",
+      "sha256": "390e3bea7cd78ebb2d093f12bc7570e87c73fcef9d8891b26714606a9f338e5a",
+      "bytes": 10464,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "MENTATM.CPS",
+      "sha256": "cd3800db05155b6bda16d53315e02fb03d81dbca73ca343ad58e810b6bc09f2e",
+      "bytes": 14167,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "MENTATO.CPS",
+      "sha256": "b75c1d2f75b1d91f08a6e5fcc53dc3178e4edce7bf9064f4c174f4b5e61755e6",
+      "bytes": 10368,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "PLANET.CPS",
+      "sha256": "084cde07254fec7eade7960bf338376ef0ac6e46536a5b2b25cbaac57c19aec2",
+      "bytes": 6682,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "RGNCLK.CPS",
+      "sha256": "c57b5ab3bb4f5f7829bca9d2b42432c8443f2e1cc442f3e1b9d14d4efe017550",
+      "bytes": 3011,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "SCREEN.CPS",
+      "sha256": "4e736ad1859a00c3d8b018eede1ddf7fb1480c76a044f71c3a0844a734e821af",
+      "bytes": 2989,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "STATIC.WSA",
+      "sha256": "fc409f16bac8899d23e06984bd66ad80fc0e983c72905171d5ab1920d570de62",
+      "bytes": 20677,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "WIN1.WSA",
+      "sha256": "0770e4021cad9e1a9b6b90b8cbd20f81ae868202ac021b3ac8f93990b0609687",
+      "bytes": 10186,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "WIN2.WSA",
+      "sha256": "cd7dcea0b121b382f934300b1f60aad34f9e00a9952a7fdd3ac8fc7b65b98887",
+      "bytes": 10519,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "AFINALA.WSA",
+      "sha256": "e7043d6fa364b214978c9cbf9927b10b26ee91ca82159693aa87af1fd2d88282",
+      "bytes": 30651,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "AFINALB.WSA",
+      "sha256": "aa3a6eeff1334cf51384b17debff57d566bb8be3de6e5c0332def6691b3215fa",
+      "bytes": 25102,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "HFINALA.WSA",
+      "sha256": "6d10f805f0aac4f467e10c055d66862cc720fe1ca57ffac3d02a4ff8eee8cabd",
+      "bytes": 22165,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "HFINALB.WSA",
+      "sha256": "eddeb4da022d0ebb4233ff1c50b9095c88c6a8a5ab4b3c7f226980f33d0256c0",
+      "bytes": 108022,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "HFINALC.WSA",
+      "sha256": "8ebd6dd4bb550c6fa406b6e5b05025cbabb985f560938483260ad487b5e7d697",
+      "bytes": 87693,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "OFINALA.WSA",
+      "sha256": "07f6de70ad5a72a2959e16b450b9b5cae577fad015e43ddc41623d64219eb420",
+      "bytes": 39568,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "OFINALB.WSA",
+      "sha256": "c29ef8e59f015d22a1e70354fbc20cbf3e4cf6214c83818f8c338faa5238b7f4",
+      "bytes": 6075,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "OFINALC.WSA",
+      "sha256": "f0f40014e84e828e7ee4d99a17d0af3c665bc430d46fb87551a04e08d4dbe6f4",
+      "bytes": 14836,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "OFINALD.WSA",
+      "sha256": "599960786a0f7025e1f6d2d17406340a949de53dc926067540d8c1c825eab749",
+      "bytes": 35560,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "EFINALA.WSA",
+      "sha256": "ca86aee1bdb5e2123bd49505cc82dfef5349e228bf7793c02db811b20837229b",
+      "bytes": 65766,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "EFINALB.WSA",
+      "sha256": "e74b7622c0dae1cc4690e8936cc0e18bd67de1a56195947fed8f2a0e248c8998",
+      "bytes": 13056,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "MEANWHIL.WSA",
+      "sha256": "0556f79cb77ff92cea911db8d028578835d342d0299141157283340c823f9f18",
+      "bytes": 37865,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "BIGPLAN.CPS",
+      "sha256": "5e17928845d1703eff9cdd6dbf4e648d801b1d914c801d748bf42e6d7692a22d",
+      "bytes": 8339,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "MAPPLAN.CPS",
+      "sha256": "fa012883ae294d8c7c1931cfdaf8f2b4f6bd227c696693c21231866765a44322",
+      "bytes": 7778,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "INTRO1.WSA",
+      "sha256": "bcae0ec276405f29c0cb66abc71c593a8d0e81cd06347d6cef915b16c1c99bb5",
+      "bytes": 63530,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INTRO10.WSA",
+      "sha256": "248edbce17b2026b79184e9fe276289f54f087de658aa707846ec0413473dac3",
+      "bytes": 20331,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INTRO11.WSA",
+      "sha256": "e24ef18fad57446aae60c0dce11cf0c366066bff263cb18c33a9b88663cf433a",
+      "bytes": 60280,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INTRO2.WSA",
+      "sha256": "e0c54188d74f04fb438ebe45758cae461be0754ef96ad81c33c83718e2cf8ba4",
+      "bytes": 23283,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INTRO3.WSA",
+      "sha256": "963e5023ff1e08f1050bfa9cb089bcc9c97373aa59701f2d43359b094b29d659",
+      "bytes": 114757,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INTRO4.WSA",
+      "sha256": "4bb03d09742c9afddc369d9ffcc719c8e96af7ab8894abcf5d37f73699ce46ae",
+      "bytes": 71454,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INTRO5.WSA",
+      "sha256": "e01854534c01e2d26b95c45155e15fdfa477753bf898066b5122e4b893fdb63b",
+      "bytes": 47884,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INTRO6.WSA",
+      "sha256": "a39f5e8ea231ef922779df4ccd457a82a0b9ecc697c211fe02dcdcb659a84600",
+      "bytes": 94226,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INTRO7A.WSA",
+      "sha256": "0dad5526d7363c878aebfa5fb95e5f34dd756b3be111816a19e0ebd9fa4f2852",
+      "bytes": 123884,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INTRO7B.WSA",
+      "sha256": "5c63c04a8d77dc46e04e9fd16fed7b9995e782e8a01df90a0c687710e1e99258",
+      "bytes": 77045,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INTRO8A.WSA",
+      "sha256": "afe7654a1825eca9ff9d7e20b4244e4ebe9d0cd9a2336743a282e4e8f0792070",
+      "bytes": 120855,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INTRO8B.WSA",
+      "sha256": "3c3520310c2dacf8ed7610699ed9b51f02a7ec3786ee8cd5de7fe32e15f4b751",
+      "bytes": 37900,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INTRO8C.WSA",
+      "sha256": "9ba7cf1e254f0d98a812c2795ae7d35ee318e8e0562987bfdfd0017ae6d22403",
+      "bytes": 56868,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INTRO9.WSA",
+      "sha256": "5c5d597a8cf0fca199964bd9fcc00ff68a730b9b0524bb382a3a980a49a6a444",
+      "bytes": 288745,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "VIRGIN.CPS",
+      "sha256": "792c0c6d87a29c39790814e574fec5e6165851b6b336c342908ca396eacc8cd8",
+      "bytes": 9124,
+      "status": "native-screen-inspect-interface-coverage"
+    },
+    {
+      "name": "WESTWOOD.WSA",
+      "sha256": "948b371f26c0e44e57b90d6e62f2785ec0f4c4d68cf55b7af737b38ef4601479",
+      "bytes": 5167,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "4SLAB.WSA",
+      "sha256": "63fba835fa38c35d8e0ed27b447d516f08670a8d6b915037dceca90180094beb",
+      "bytes": 5948,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "BARRAC.WSA",
+      "sha256": "becc1cb07a54843f18c0a944866a6658c5702b4b62ff184785c1d864a952d472",
+      "bytes": 9572,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "CARRYALL.WSA",
+      "sha256": "c5d94e7510e0fd9a2ff6eeafbc00ebdc3fbe57522695c8770ffe08422c80ee23",
+      "bytes": 6319,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "CONSTRUC.WSA",
+      "sha256": "e199f8ef31d59a8571e30fbe0ae381d68961d3828ec1b33366ecbe67ab9f54af",
+      "bytes": 7291,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "FARTR.WSA",
+      "sha256": "b4b225de0d4a43434597b8eec7c5cc0351cc5dd6495dc66ce542a693a5051301",
+      "bytes": 81411,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "FHARK.WSA",
+      "sha256": "be33dca6cd19b121d5dfee8bb6c99bfb9e442d2a88f8fde7d2af3826b1e61449",
+      "bytes": 83764,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "FORDOS.WSA",
+      "sha256": "51fc7fe00506dd3a9e5d2b3e39b74742a00815e6bbd9949a862871edff7645b4",
+      "bytes": 96586,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "FREMEN.WSA",
+      "sha256": "4b7d60166f9ade2aa252cfcc58b4c30ebff52061bd6133f40362a7784dbe0103",
+      "bytes": 16914,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "GOLD-BB.WSA",
+      "sha256": "55198cd7184dc24aca0d2a91591d17e6bada501ce0e95bfc7b3137cd5d4f78b6",
+      "bytes": 6271,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "HARKTANK.WSA",
+      "sha256": "b9d3c3714b043a00e9ed45fa982d121458aec86b168db41181fa8c6b4d532764",
+      "bytes": 7699,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "HARVEST.WSA",
+      "sha256": "286d642a94fa7dd4b3a6bbd30de2208830281ce7af931cf81fee410a85439eaf",
+      "bytes": 7844,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "HEADQRTS.WSA",
+      "sha256": "a29738013d168ea12160d1f348a903ee2df786b269f33cab0ce91e8dae8ded65",
+      "bytes": 8208,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "HITCFTRY.WSA",
+      "sha256": "0acca5574e631c55edbe5b468eb4054e58cd6b4c86f7155e7ea0db23d860a960",
+      "bytes": 7914,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "HTANK.WSA",
+      "sha256": "727fa80b8809ff80bf3edac68b723f727cd0ca1e424caa403741698f332bca62",
+      "bytes": 7322,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "HVYFTRY.WSA",
+      "sha256": "e4f45e4026943679b41cea435e27c125db643639d82afc4e3855a78f32af94ee",
+      "bytes": 8915,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "HYINFY.WSA",
+      "sha256": "ff36b658fb4d51cbbb94d64136b5493d04554ed12effc008853264feae51ebc2",
+      "bytes": 8932,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "INFANTRY.WSA",
+      "sha256": "131a7927fb55912b5974747826cf0c469c963390f2c72a20cd5cd2a3e255325e",
+      "bytes": 8046,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "IX.WSA",
+      "sha256": "3e85e65aa3b37d50ebcc0a7b9f1bd411a06f1e4de186fa1edd0b35ab65b9945b",
+      "bytes": 5467,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "LITEFTRY.WSA",
+      "sha256": "ec0807da32d0a1fb490d97b7320e965fc73108bcd59ef4edc2f88400cbcd9a53",
+      "bytes": 10090,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "LTANK.WSA",
+      "sha256": "16fff012c2a16223474775502d4017856db9246acb3d641e7a8f9cdea2d41ae1",
+      "bytes": 7185,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "MCV.WSA",
+      "sha256": "5348e000f18c44098adb67086f9ddb9d29b76a5454e91053344c68ccb679b86b",
+      "bytes": 5120,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "ORDRTANK.WSA",
+      "sha256": "b34cb44e6da7191a3cdb10dd5329aa987490e7e12f6057558352ef1a84312925",
+      "bytes": 6492,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "ORNI.WSA",
+      "sha256": "4fc1c7389f01de18250ce37e9eb718b2210ee6534daa6bdbbbdf597ad4a68ea4",
+      "bytes": 8210,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "OTRIKE.WSA",
+      "sha256": "e9c357dacbbd29a6d052ba5177f0793b82e16f513b6b71567b1ae6fbe04e9019",
+      "bytes": 6427,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "PALACE.WSA",
+      "sha256": "d917fb99a9ff39c1565fef946833767b371ed5d2fccf630fecac518b66412de9",
+      "bytes": 8984,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "QUAD.WSA",
+      "sha256": "8003d6c7a71522c77e133a6302f70a7cb9b97cf47a8ad2749746b4bea980f2e9",
+      "bytes": 8704,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "REFINERY.WSA",
+      "sha256": "a9aee047f670a504d71e478b123a73d3cb301a5076d2f373f05306cb4fb80a4d",
+      "bytes": 7864,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "REPAIR.WSA",
+      "sha256": "c5c817bedc10d4e61fd5bfa9712082c604bb88908b776f3e99e723d0d93239c6",
+      "bytes": 9355,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "RTANK.WSA",
+      "sha256": "4b310283e945eaa3f500c962c035994cecc76a1d06058b741451e4af036b2492",
+      "bytes": 6178,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "RTURRET.WSA",
+      "sha256": "5e6ca4dd0264f41cabab1670d4539d2a9675b25891f928717bc812b29dcb6446",
+      "bytes": 5973,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "SABOTURE.WSA",
+      "sha256": "781a38819bdebc1474302237115c6088bd819a63cf29a6af4f868043b6c3e087",
+      "bytes": 7458,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "SLAB.WSA",
+      "sha256": "9074cd7a7d69007cdb9fffa98ada0448005520fa85c7f9666384a118d16e5dbd",
+      "bytes": 6098,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "STANK.WSA",
+      "sha256": "e7404345aa6e71fb6482a832f9330bf3a432569dc6167c9dbad56a201d311d17",
+      "bytes": 9519,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "STARPORT.WSA",
+      "sha256": "28981322462a8347350ac0b7cb02286094b84ee159f4699fa8f2d14d05dfc4d8",
+      "bytes": 7857,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "STORAGE.WSA",
+      "sha256": "ef7b60a4f81139a516650be3ff253187f95c356d8d3ac76f3f7d975da09da0e7",
+      "bytes": 6953,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "TRIKE.WSA",
+      "sha256": "4a0b71a8ef68e320a2ed88d2321dd796606797d0aa7a9f861abb5f668b4846bc",
+      "bytes": 8167,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "TURRET.WSA",
+      "sha256": "7204b1c33f83a10fe89603e9493ffb2efcaf4cb61b0482631e3226eef02faea4",
+      "bytes": 5496,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "WALL.WSA",
+      "sha256": "006dbe74e9220a5861e0e184464b76418c052d7ac7838f89d397f9b8cfb5cd40",
+      "bytes": 5049,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "WINDTRAP.WSA",
+      "sha256": "b5464bf35b8db4a7a5c761af495a0eb384a18aa65250ab9a5c3cab8bc2eaaddf",
+      "bytes": 12142,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "WOR.WSA",
+      "sha256": "fc2a0c3201b7fa00de1dd100d8f56fd0fd057a95300fc730aeac5bfe13881cc8",
+      "bytes": 8351,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "WORM.WSA",
+      "sha256": "a49fd192434bd33ae78ce0acb1600d6ef319f52ea97b3818a552c88c6ba44a5b",
+      "bytes": 4954,
+      "status": "native-animation-not-painted"
+    },
+    {
+      "name": "SARDUKAR.WSA",
+      "sha256": "8165714047c91a1f511e54162e3b9cdcb303436bb4a04a753fc5382c8daeb837",
+      "bytes": 9550,
+      "status": "native-animation-not-painted"
+    }
+  ],
+  "notes": [
+    "Inventory only; no claim of painted HD cinematic animation or complete visual observation.",
+    "Advisor eye/mouth SHP patches need a coherent painted whole MENTAT background before replacement; independent patch generation over native pixels would leave seams."
+  ]
+}

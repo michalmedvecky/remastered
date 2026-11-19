@@ -1,0 +1,275 @@
+{
+  "upstream_commit": "ebea79aeba025be2fe9004570e9255044aacc0be",
+  "mode": "original behavior when g_dune2_enhanced == false",
+  "changes": [
+    {
+      "file": "src/tools.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/tools.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/script/structure.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/script/structure.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/script/structure.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/script/structure.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/script/structure.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/script/unit.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/script/unit.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/script/unit.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/script/unit.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/script/unit.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/object.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/object.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/tile.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/unit.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/unit.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/unit.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/script/general.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/script/general.c",
+      "status": "already-applied"
+    }
+  ],
+  "patched_sha256": {
+    "src/dune107.h": "978ffc1de3c73f006ce061c3316909fd695c6f1f748f24eae89664f58ba47c6d",
+    "src/tools.c": "2cfa230acc3ac2fe25f571e2cffae55ca4f5185b190dffc7179a3932a0042c1a",
+    "src/object.c": "5d9b79f8a3d0be4be155e17bac8b9c051eede21908bcaca8dd9ab8063cbd3512",
+    "src/tile.c": "026a3c75ba8782c86e786bca354f545f4faa62a7a8830cca91d62bdc7a17b0e9",
+    "src/unit.c": "c7d02536ec72093c8bfea078cf08a4d126714acd8ecc12ff472e48203f45eed5",
+    "src/script/unit.c": "7c0b59e9efa276928df244ae41a94578813a4ddda868990daca731836b96d941",
+    "src/script/structure.c": "2ae4543465e25a5ef5cb77204147559df145c79957d96b406c9c669519e21ac5",
+    "src/script/general.c": "005dbdcdf05a841f1490e1424cd3124a0267b44c288439d7ff8effb66492f230"
+  },
+  "evidence": "fidelity/combat/compatibility-findings.json"
+}
+{
+  "upstream_commit": "ebea79aeba025be2fe9004570e9255044aacc0be",
+  "original_mode": "g_dune2_enhanced == false",
+  "changes": [
+    {
+      "file": "src/tile.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/tile.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/tile.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/map.c",
+      "status": "already-applied"
+    },
+    {
+      "file": "src/map.c",
+      "status": "already-applied"
+    }
+  ],
+  "patched_sha256": {
+    "src/tile.c": "026a3c75ba8782c86e786bca354f545f4faa62a7a8830cca91d62bdc7a17b0e9",
+    "src/map.c": "471564e3e40be74a292e471bf67ab99e04cd04f221526243b462ea5c1b13d3cf"
+  },
+  "scope": "instruction-verified arithmetic and edge predicate; bounded cleared-neighbor memory model, no original runtime comparison",
+  "evidence": "fidelity/terrain/source-verification.json"
+}
+{
+  "path": "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/native/opendune/src/audio/dsp_sdl.c",
+  "mode": "write",
+  "changed": false,
+  "beforeSha256": "acf02e68922e3d152e9ad81738c134ad76f64cfc08fb9b19dceba5c83e6ec2f1",
+  "afterSha256": "acf02e68922e3d152e9ad81738c134ad76f64cfc08fb9b19dceba5c83e6ec2f1",
+  "supportedVocBlocks": [
+    0,
+    1,
+    3
+  ],
+  "silenceDuration": "(LE16(count)+1)*(256-timeConstant)/1000000 seconds; nearest active-rate sample"
+}
+{
+  "sourceExeSha256": "85f22bb82ea6f755835d5a94d257a67e11a3b854ec934854a69c3eeff7d0180f",
+  "nativeTablesSha256": "7a78bb4aaaf2d1ced482285391adcffe054b2f296a831cf64d8d00410ce61f4f",
+  "mode": "write",
+  "files": [
+    {
+      "path": "src/table/houseanimation.c",
+      "changed": false,
+      "beforeSha256": "78b6480010059282ae0af3d48abcdc6bf0cd63005c484bb4a75725e8be46261d",
+      "afterSha256": "78b6480010059282ae0af3d48abcdc6bf0cd63005c484bb4a75725e8be46261d"
+    },
+    {
+      "path": "src/table/sound.c",
+      "changed": false,
+      "beforeSha256": "252bcaf0b7d4700309cc2a420d5fedc50ab24da22bbdec3b92faa93052251818",
+      "afterSha256": "252bcaf0b7d4700309cc2a420d5fedc50ab24da22bbdec3b92faa93052251818"
+    },
+    {
+      "path": "src/audio/sound.h",
+      "changed": false,
+      "beforeSha256": "e257a188da6abb487abafbc4fb5e7e463404de1d7ad587044f29e7c6b1a631d7",
+      "afterSha256": "e257a188da6abb487abafbc4fb5e7e463404de1d7ad587044f29e7c6b1a631d7"
+    }
+  ]
+}
+{
+  "path": "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/native/opendune/src/ini.c",
+  "mode": "write",
+  "changed": false,
+  "beforeSha256": "a9a5db2f4d5ba4414020f567c0b496bd974dfa065fb5ca9455be7a4032c78ce1",
+  "afterSha256": "a9a5db2f4d5ba4414020f567c0b496bd974dfa065fb5ca9455be7a4032c78ce1",
+  "reason": "ASan observed out-of-bounds missing-key probe at short final INI line"
+}
+{
+  "path": "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/native/opendune/src/wsa.c",
+  "mode": "write",
+  "changed": false,
+  "beforeSha256": "4b58af3f4db0b7ad453b002bee00ecf67549b70215695d344d5285194c108c1f",
+  "afterSha256": "4b58af3f4db0b7ad453b002bee00ecf67549b70215695d344d5285194c108c1f",
+  "reason": "ASan observed stale-buffer Format80 decode for INTRO7b/OFINALB, which have zero initial-stream length"
+}
+{
+  "scope": "native renderer observation only; no simulation changes",
+  "files": [
+    {
+      "path": "src/gui/viewport.c",
+      "changed": false,
+      "beforeSha256": "692232988cbddba38b00349639960955909561599f01b461baad79765f67dd28",
+      "afterSha256": "692232988cbddba38b00349639960955909561599f01b461baad79765f67dd28"
+    },
+    {
+      "path": "src/gui/gui.c",
+      "changed": false,
+      "beforeSha256": "c9cab41502e22137e44726445ab394c96eb78902110e57ca42e630d9a659f06f",
+      "afterSha256": "c9cab41502e22137e44726445ab394c96eb78902110e57ca42e630d9a659f06f"
+    },
+    {
+      "path": "src/gui/widget_draw.c",
+      "changed": false,
+      "beforeSha256": "9fbe3c48ff103a68d278fa7b081689fbe846796f125d6a7bb34e5af2ea52a094",
+      "afterSha256": "9fbe3c48ff103a68d278fa7b081689fbe846796f125d6a7bb34e5af2ea52a094"
+    },
+    {
+      "path": "src/gfx.c",
+      "changed": false,
+      "beforeSha256": "47a7af6e1f71f7011bd7eac2583e85fdfde82b29a9cb1827d169f4a2ecba3438",
+      "afterSha256": "47a7af6e1f71f7011bd7eac2583e85fdfde82b29a9cb1827d169f4a2ecba3438"
+    },
+    {
+      "path": "src/gui/mentat.c",
+      "changed": false,
+      "beforeSha256": "0e01f1f25c1d2d50d514c1e2a3b995c7e3436458ad28f01f4d8aadb5b92a35b6",
+      "afterSha256": "0e01f1f25c1d2d50d514c1e2a3b995c7e3436458ad28f01f4d8aadb5b92a35b6"
+    },
+    {
+      "path": "src/timer.c",
+      "changed": false,
+      "beforeSha256": "70adbffaa1903d571396b5c1fbba972534270f6eb2324732ce6f118315a4a470",
+      "afterSha256": "70adbffaa1903d571396b5c1fbba972534270f6eb2324732ce6f118315a4a470"
+    },
+    {
+      "path": "src/sprites.c",
+      "changed": false,
+      "beforeSha256": "0b2037888181dccef73f60e298568b5ce285e86cfe00297e40bd510898dd09a8",
+      "afterSha256": "0b2037888181dccef73f60e298568b5ce285e86cfe00297e40bd510898dd09a8"
+    },
+    {
+      "path": "src/video/video_sdl2.c",
+      "changed": false,
+      "beforeSha256": "00fdf4de928a9e8e53445f0fe1c5261a870422ce7fe13a972a023092920c7bf5",
+      "afterSha256": "00fdf4de928a9e8e53445f0fe1c5261a870422ce7fe13a972a023092920c7bf5"
+    }
+  ]
+}
+{
+  "schema": 1,
+  "date": "2026-11-18",
+  "checked": 198,
+  "modifiedUpstream": [
+    "native/opendune/src/audio/driver.c",
+    "native/opendune/src/audio/dsp_sdl.c",
+    "native/opendune/src/audio/sound.c",
+    "native/opendune/src/audio/sound.h",
+    "native/opendune/src/gfx.c",
+    "native/opendune/src/gui/gui.c",
+    "native/opendune/src/gui/mentat.c",
+    "native/opendune/src/gui/viewport.c",
+    "native/opendune/src/gui/widget_draw.c",
+    "native/opendune/src/ini.c",
+    "native/opendune/src/map.c",
+    "native/opendune/src/object.c",
+    "native/opendune/src/opendune.c",
+    "native/opendune/src/os/strings.h",
+    "native/opendune/src/script/general.c",
+    "native/opendune/src/script/structure.c",
+    "native/opendune/src/script/unit.c",
+    "native/opendune/src/sprites.c",
+    "native/opendune/src/table/houseanimation.c",
+    "native/opendune/src/table/sound.c",
+    "native/opendune/src/tile.c",
+    "native/opendune/src/timer.c",
+    "native/opendune/src/tools.c",
+    "native/opendune/src/unit.c",
+    "native/opendune/src/video/video_sdl2.c",
+    "native/opendune/src/wsa.c",
+    "native/music/vendor/adplug/adl.cpp",
+    "native/music/vendor/adplug/adl.h",
+    "native/music/vendor/adplug/player.h"
+  ],
+  "noticesChanged": [],
+  "missing": []
+}
+{"source_files": 95, "outputs": ["dune-native.mjs", "dune-native.wasm", "dune-native.data"]}

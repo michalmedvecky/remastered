@@ -1,0 +1,53 @@
+{
+  "scope": "native renderer observation only; no simulation changes",
+  "files": [
+    {
+      "path": "src/gui/viewport.c",
+      "changed": false,
+      "beforeSha256": "692232988cbddba38b00349639960955909561599f01b461baad79765f67dd28",
+      "afterSha256": "692232988cbddba38b00349639960955909561599f01b461baad79765f67dd28"
+    },
+    {
+      "path": "src/gui/gui.c",
+      "changed": false,
+      "beforeSha256": "c9cab41502e22137e44726445ab394c96eb78902110e57ca42e630d9a659f06f",
+      "afterSha256": "c9cab41502e22137e44726445ab394c96eb78902110e57ca42e630d9a659f06f"
+    },
+    {
+      "path": "src/gui/widget_draw.c",
+      "changed": false,
+      "beforeSha256": "9fbe3c48ff103a68d278fa7b081689fbe846796f125d6a7bb34e5af2ea52a094",
+      "afterSha256": "9fbe3c48ff103a68d278fa7b081689fbe846796f125d6a7bb34e5af2ea52a094"
+    },
+    {
+      "path": "src/gfx.c",
+      "changed": false,
+      "beforeSha256": "47a7af6e1f71f7011bd7eac2583e85fdfde82b29a9cb1827d169f4a2ecba3438",
+      "afterSha256": "47a7af6e1f71f7011bd7eac2583e85fdfde82b29a9cb1827d169f4a2ecba3438"
+    },
+    {
+      "path": "src/gui/mentat.c",
+      "changed": true,
+      "beforeSha256": "1cad5eb228f095a3ad7128eacfe17e606c76d172e2d4058e61de84a859532ef0",
+      "afterSha256": "8bd5c2f94e94fd58068809bcfac085cb3fef7642ad575ab2cb76552d486e0ac1"
+    },
+    {
+      "path": "src/timer.c",
+      "changed": false,
+      "beforeSha256": "70adbffaa1903d571396b5c1fbba972534270f6eb2324732ce6f118315a4a470",
+      "afterSha256": "70adbffaa1903d571396b5c1fbba972534270f6eb2324732ce6f118315a4a470"
+    },
+    {
+      "path": "src/sprites.c",
+      "changed": false,
+      "beforeSha256": "0b2037888181dccef73f60e298568b5ce285e86cfe00297e40bd510898dd09a8",
+      "afterSha256": "0b2037888181dccef73f60e298568b5ce285e86cfe00297e40bd510898dd09a8"
+    },
+    {
+      "path": "src/video/video_sdl2.c",
+      "changed": false,
+      "beforeSha256": "00fdf4de928a9e8e53445f0fe1c5261a870422ce7fe13a972a023092920c7bf5",
+      "afterSha256": "00fdf4de928a9e8e53445f0fe1c5261a870422ce7fe13a972a023092920c7bf5"
+    }
+  ]
+}

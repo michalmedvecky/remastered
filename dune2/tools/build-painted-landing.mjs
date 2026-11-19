@@ -1,0 +1,18 @@
+import {readFile, writeFile, readdir, unlink} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {decodePNG} from './painted-png.mjs';
+const root = new URL('../', import.meta.url);
+const sha = bytes => createHash('sha256').update(bytes).digest('hex');
+const source = 'art/hd-v3/landing/raw/arrakis-corrected.png';
+const bytes = await readFile(new URL(source, root)), image = decodePNG(bytes);
+const hash = sha(bytes), filename = 'arrakis-' + hash.slice(0, 16) + '.png';
+await writeFile(new URL('dist/painted/' + filename, root), bytes);
+const manifest = {schema: 1, purpose: 'Whole painted Arrakis opening artwork', source, sourceSHA256: hash, src: 'painted/' + filename, sha256: hash, width: image.width, height: image.height, tool: 'built-in ImageGen', prompts: ['art/hd-v3/landing/raw/arrakis-initial-prompt.json', 'art/hd-v3/landing/raw/arrakis-correction-prompt.json'], originalReference: 'dist/assets/planet.png'};
+await writeFile(new URL('dist/painted/landing.json', root), JSON.stringify(manifest, null, 2) + '\n');
+const cssURL = new URL('dist/native-shell.css', root);
+const css = await readFile(cssURL, 'utf8');
+const start = '/* Painted Arrakis opening artwork. */';
+const content = css.includes(start) ? css.slice(0, css.indexOf(start)).trimEnd() + '\n' : css.trimEnd() + '\n';
+await writeFile(cssURL, content + '\n' + start + '\nhtml[data-graphics="painted"] .arrival-art{background-image:linear-gradient(0deg,#080c0a88,transparent 45%),url("painted/' + filename + '");image-rendering:auto}\n');
+for (const name of await readdir(new URL('dist/painted/', root))) if (/^arrakis-[0-9a-f]{16}\.png$/.test(name) && name !== filename) await unlink(new URL('dist/painted/' + name, root));
+console.log(JSON.stringify({src: manifest.src, width: image.width, height: image.height, sha256: hash}));

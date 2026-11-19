@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-0c3617d3-fc12-4015-9e85-263e04b637c8.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1610,
+    977
+  ],
+  "sha256": "eac22234095925facf3c31910873af5062cc5df1156466efafe02e8c92726dfa",
+  "prompt": "heavy-vehicles-prompt.txt",
+  "references": [
+    "../references/heavy-vehicles.png",
+    "../../../hd-v2/buildings/raw/pilot-approved.png",
+    "../../interface/raw/advisor-a.png"
+  ],
+  "columns": [
+    0,
+    805,
+    1610
+  ],
+  "rows": [
+    0,
+    488,
+    977
+  ],
+  "packingReview": "All four whole-picture boundaries inspected; row split measured from output, not assumed half height."
+}

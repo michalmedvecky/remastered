@@ -1,0 +1,7 @@
+{
+  "tool": "built-in ImageGen",
+  "prompt": "Use case: precise-object-edit. Edit ONLY the geometry/framing defect in this painted Arrakis scene. Keep the same beautiful golden desert painting, blue atmosphere, sparse stars, black space and lighting. The planet currently ends in an unnatural straight horizontal cut near the lower third of the image. Fix that: the planet MUST have a complete smooth CIRCULAR lower limb, fully inside the canvas with black space clearly visible beneath it. Recompose slightly smaller if required. The planet should be a round sphere centered in the right two-thirds, its WHOLE lower curve visible, with a blue atmospheric rim smoothly wrapping around the lower-left and bottom circular edge. No rectangular crop, no horizontal shelf, no clipped bottom, no black rectangular band cutting into the planet. Keep the right limb dark, left sunlit. Preserve the overall style and sparse quiet composition. No text, logos, extra moons or spacecraft. Landscape 1536x1024, opaque.",
+  "source": "art/hd-v3/landing/raw/arrakis-initial.png",
+  "result": "arrakis-corrected.png",
+  "status": "accepted-complete-circular-limb"
+}

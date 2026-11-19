@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-a82f506c-9c96-428a-a49d-59b889b9fe5b.png",
+  "raw": "raw/units-b.png",
+  "prompt": "raw/units-b-prompt.json",
+  "sha256": "a412bf4be5072dd24ca09be558f533109ca3de3c79b633f217af951c6fefccdc",
+  "width": 1619,
+  "height": 971,
+  "visualJudgment": "Checked exact occupied panel count, order, subject identity and native composition; painted panel interiors accepted. Outer generated sheet matte/gutters are excluded by explicit panel crop."
+}

@@ -1,3 +1,7 @@
+/* Dune II browser port modifications: 2026-11-18.
+ * Changed for browser integration and/or V1.07 compatibility;
+ * original copyright and license notices are retained below.
+ */
 /** @file src/gui/mentat.c Mentat gui routines. */
 
 #include <stdlib.h>
@@ -11,6 +15,13 @@
 #include "../os/error.h"
 
 #include "mentat.h"
+#ifdef __EMSCRIPTEN__
+#include "hd_bridge.h"
+#define DUNE_HD(call) call
+#else
+#define DUNE_HD(call) ((void)0)
+#endif
+
 
 #include "font.h"
 #include "gui.h"
@@ -329,6 +340,7 @@ static void GUI_Mentat_ShowHelpList(bool proceed)
 	GUI_Mentat_Create_HelpScreen_Widgets();
 
 	GUI_Mouse_Hide_Safe();
+	DUNE_HD(DuneHD_MentatReplacement(1));
 	GUI_Screen_Copy(0, 0, 0, 0, SCREEN_WIDTH / 8, SCREEN_HEIGHT, SCREEN_1, SCREEN_0);
 	GUI_Mouse_Show_Safe();
 
@@ -389,6 +401,7 @@ bool GUI_Widget_Mentat_Click(Widget *w)
 	g_textDisplayNeedsUpdate = true;
 
 	GUI_DrawInterfaceAndRadar(SCREEN_0);
+	DUNE_HD(DuneHD_MentatReplacement(0));
 
 	Music_Play(Tools_RandomLCG_Range(0, 5) + 8);
 

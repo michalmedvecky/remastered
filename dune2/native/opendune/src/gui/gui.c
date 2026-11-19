@@ -193,7 +193,9 @@ void GUI_DrawWiredRectangle(uint16 left, uint16 top, uint16 right, uint16 bottom
 	GUI_DrawLine(left, top, left, bottom, colour);
 	GUI_DrawLine(right, top, right, bottom, colour);
 
+	DUNE_HD(DuneHD_NotifyOnly(1));
 	GFX_Screen_SetDirty(SCREEN_ACTIVE, left, top, right+1, bottom+1);
+	DUNE_HD(DuneHD_NotifyOnly(0));
 }
 
 /**
@@ -424,7 +426,9 @@ static void GUI_DrawChar(unsigned char c, uint16 x, uint16 y)
 	if (x >= SCREEN_WIDTH || (x + fc->width) > SCREEN_WIDTH) return;
 	if (y >= SCREEN_HEIGHT || (y + g_fontCurrent->height) > SCREEN_HEIGHT) return;
 
+	DUNE_HD(DuneHD_GlyphBegin());
 	GFX_Screen_SetDirty(SCREEN_ACTIVE, x, y, x + fc->width, y + g_fontCurrent->height);
+	DUNE_HD(DuneHD_GlyphEnd(c, x, y, g_colours));
 	x += y * (uint16)SCREEN_WIDTH;
 	remainingWidth = SCREEN_WIDTH - fc->width;
 
@@ -487,6 +491,7 @@ void GUI_DrawText(const char *string, int16 left, int16 top, uint8 fgColour, uin
 	colours[1] = fgColour;
 
 	GUI_InitColors(colours, 0, 1);
+	DUNE_HD(DuneHD_TextBegin(0));
 
 	s = string;
 	x = left;
@@ -509,11 +514,13 @@ void GUI_DrawText(const char *string, int16 left, int16 top, uint8 fgColour, uin
 		}
 		if (y > SCREEN_HEIGHT) break;
 
+		DUNE_HD(DuneHD_TextGlyph((unsigned char)*s, x, y, g_colours));
 		GUI_DrawChar(*s, x, y);
 
 		x += width;
 		s++;
 	}
+	DUNE_HD(DuneHD_TextEnd());
 }
 
 /**
@@ -1061,7 +1068,7 @@ void GUI_DrawSprite(Screen screenID, const uint8 *sprite, int16 posX, int16 posY
 	DUNE_HD(DuneHD_CaptureSprite(hdOriginalSprite, screenID, windowID,
 	    posX + (g_widgetProperties[windowID].xBase << 3), posY,
 	    spriteWidthZoomed, spriteHeight, flags, palette, remap, remapCount,
-	    g_widgetProperties[windowID].xBase << 3, top, width, bottom - top));
+	    g_widgetProperties[windowID].xBase << 3, top, width, bottom - top, blurOffset, blurRandomValueIncr, blurRandomValue));
 
 	if ((spriteFlags & 0x2) == 0) {
 		Format80_Decode(spriteBuffer, sprite, spriteDecodedLength);
@@ -1191,6 +1198,7 @@ void GUI_DrawSprite(Screen screenID, const uint8 *sprite, int16 posX, int16 posY
 
 	assert((flags & 0xFF) < 4);
 
+	DUNE_HD(DuneHD_SpriteBegin());
 	GFX_Screen_SetDirty(screenID,
 	                    (g_widgetProperties[windowID].xBase << 3) + posX,
 	                    posY,
@@ -1272,6 +1280,7 @@ void GUI_DrawSprite(Screen screenID, const uint8 *sprite, int16 posX, int16 posY
 							count -= v;
 						} else {
 							*buf = v;
+							DUNE_HD(DuneHD_SpritePixel(buf));
 							buf += buf_incr;
 							count--;
 						}
@@ -1290,6 +1299,7 @@ void GUI_DrawSprite(Screen screenID, const uint8 *sprite, int16 posX, int16 posY
 							int16 i;
 							for(i = 0; i < remapCount; i++) v = remap[v];
 							*buf = v;
+							DUNE_HD(DuneHD_SpritePixel(buf));
 							buf += buf_incr;
 							count--;
 						}
@@ -1313,6 +1323,7 @@ void GUI_DrawSprite(Screen screenID, const uint8 *sprite, int16 posX, int16 posY
 								blurRandomValue &= 0xFF;
 								*buf = buf[blurOffset];
 							}
+							DUNE_HD(DuneHD_SpritePixel(buf));
 							buf += buf_incr;
 							count--;
 						}
@@ -1334,6 +1345,7 @@ void GUI_DrawSprite(Screen screenID, const uint8 *sprite, int16 posX, int16 posY
 							v = *buf;
 							for(i = 0; i < remapCount; i++) v = remap[v];
 							*buf = v;
+							DUNE_HD(DuneHD_SpritePixel(buf));
 							buf += buf_incr;
 							count--;
 						}
@@ -1350,6 +1362,7 @@ void GUI_DrawSprite(Screen screenID, const uint8 *sprite, int16 posX, int16 posY
 							count -= v;
 						} else {
 							*buf = palette[v];
+							DUNE_HD(DuneHD_SpritePixel(buf));
 							buf += buf_incr;
 							count--;
 						}
@@ -1370,6 +1383,7 @@ void GUI_DrawSprite(Screen screenID, const uint8 *sprite, int16 posX, int16 posY
 							v = palette[v];
 							for(i = 0; i < remapCount; i++) v = remap[v];
 							*buf = v;
+							DUNE_HD(DuneHD_SpritePixel(buf));
 							buf += buf_incr;
 							count--;
 						}
@@ -1394,6 +1408,7 @@ void GUI_DrawSprite(Screen screenID, const uint8 *sprite, int16 posX, int16 posY
 								blurRandomValue &= 0x00FF;
 								*buf = buf[blurOffset];
 							}
+							DUNE_HD(DuneHD_SpritePixel(buf));
 							buf += buf_incr;
 							count--;
 						}
@@ -1435,6 +1450,7 @@ void GUI_DrawSprite(Screen screenID, const uint8 *sprite, int16 posX, int16 posY
 		Ycounter -= 0x100;
 		if ((Ycounter & 0xFF00) != 0) sprite = spriteSave;
 	} while (--spriteHeight > 0);
+	DUNE_HD(DuneHD_SpriteEnd());
 }
 
 /**
@@ -1993,7 +2009,9 @@ void GUI_DrawBorder(uint16 left, uint16 top, uint16 width, uint16 height, uint16
 {
 	uint16 *colourSchema;
 
+	DUNE_HD(DuneHD_NotifyOnly(1));
 	if (!fill) GFX_Screen_SetDirty(SCREEN_ACTIVE, left, top, left + width, top + height);
+	DUNE_HD(DuneHD_NotifyOnly(0));
 
 	width  -= 1;
 	height -= 1;
@@ -2009,6 +2027,7 @@ void GUI_DrawBorder(uint16 left, uint16 top, uint16 width, uint16 height, uint16
 
 	GFX_PutPixel(left, top + height, colourSchema[3] & 0xFF);
 	GFX_PutPixel(left + width, top, colourSchema[3] & 0xFF);
+	DUNE_HD(DuneHD_DirectBorder(left, top, width + 1, height + 1, colourSchemaIndex, fill));
 }
 
 /**
@@ -2547,6 +2566,7 @@ void GUI_DrawLine(int16 x1, int16 y1, int16 x2, int16 y2, uint8 colour)
 
 		screen += y1 * SCREEN_WIDTH + x1;
 
+		DUNE_HD(DuneHD_Dirty(SCREEN_ACTIVE, x1, y1, x1 + x2, y1 + 1));
 		memset(screen, colour, x2);
 		return;
 	}
@@ -2567,6 +2587,7 @@ void GUI_DrawLine(int16 x1, int16 y1, int16 x2, int16 y2, uint8 colour)
 
 		while (y2-- != 0) {
 			*screen = colour;
+			DUNE_HD(DuneHD_WritePixel(screen, SCREEN_ACTIVE));
 			screen += SCREEN_WIDTH;
 		}
 
@@ -2584,6 +2605,7 @@ void GUI_DrawLine(int16 x1, int16 y1, int16 x2, int16 y2, uint8 colour)
 		screen += x1;
 		while (true) {
 			*screen = colour;
+			DUNE_HD(DuneHD_WritePixel(screen, SCREEN_ACTIVE));
 			if (y2-- == 0) return;
 			screen += SCREEN_WIDTH;
 			half -= x2;
@@ -2598,6 +2620,7 @@ void GUI_DrawLine(int16 x1, int16 y1, int16 x2, int16 y2, uint8 colour)
 		screen += x1;
 		while (true) {
 			*screen = colour;
+			DUNE_HD(DuneHD_WritePixel(screen, SCREEN_ACTIVE));
 			if (x2-- == 0) return;
 			screen += increment;
 			half -= y2;
@@ -3506,12 +3529,14 @@ uint16 GUI_StrategicMap_Show(uint16 campaignID, bool win)
 void GUI_DrawText_Monospace(char *string, uint16 left, uint16 top, uint8 fgColour, uint8 bgColour, uint16 charWidth)
 {
 	char s[2] = " ";
+	DUNE_HD(DuneHD_TextBegin(charWidth));
 
 	while (*string != '\0') {
 		*s = *string++;
 		GUI_DrawText(s, left, top, fgColour, bgColour);
 		left += charWidth;
 	}
+	DUNE_HD(DuneHD_TextEnd());
 }
 
 void GUI_FactoryWindow_B495_0F30(void)
@@ -4148,6 +4173,7 @@ void GUI_DrawBlockedRectangle(int16 left, int16 top, int16 width, int16 height, 
 
 		for (; i > 0; i -= 2) {
 			*screen = colour;
+			DUNE_HD(DuneHD_WritePixel(screen, SCREEN_ACTIVE));
 			screen += 2;
 		}
 
@@ -4203,6 +4229,7 @@ void GUI_Palette_RemapScreen(uint16 left, uint16 top, uint16 width, uint16 heigh
 		for (i = width; i > 0; i--) {
 			uint8 pixel = *screen;
 			*screen++ = remap[pixel];
+			DUNE_HD(DuneHD_RemapPixel(screen - 1, screenID));
 		}
 		screen += SCREEN_WIDTH - width;
 	}
@@ -4542,6 +4569,7 @@ void GUI_DrawXorFilledRectangle(int16 left, int16 top, int16 right, int16 bottom
 	for (y = 0; y < height; y++) {
 		for (x = 0; x < width; x++) {
 			*screen++ ^= colour;
+			DUNE_HD(DuneHD_WritePixel(screen - 1, SCREEN_ACTIVE));
 		}
 		screen += SCREEN_WIDTH - width;
 	}

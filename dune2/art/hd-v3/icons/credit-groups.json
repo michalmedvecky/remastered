@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "groups": [
+    {
+      "id": "credits-a",
+      "ids": [
+        514,
+        515,
+        516,
+        517
+      ],
+      "columns": 2,
+      "rows": 2,
+      "reference": "references/credits-a.png",
+      "referenceSha256": "5329ccbd0e38897e7913e421518baf98a6bbd522682cff2e7ef4fa1c9ceadc8f",
+      "nativeReferences": [
+        {
+          "id": 514,
+          "sha256": "a8c4efe1c2c86c29e7f9f3d74dc448ed50ce228d0496db501f88630a029ccacf"
+        },
+        {
+          "id": 515,
+          "sha256": "7f4cb59ba1d6a7637d9c025e64f517a633aa48220fe69f246c6e7a47e790a2d2"
+        },
+        {
+          "id": 516,
+          "sha256": "9691214baf084c2198a5bd4a7b8828d963f2dcd79197529402dc3cbdfd93af71"
+        },
+        {
+          "id": 517,
+          "sha256": "de833cfb29ad7a9db0fa396a6db0e3e81c91c9d21171ab8c0f7085874ff7d6b0"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. Production HD2D painted Dune II credit/encyclopedia illustration atlas. Image1 is the EXACT ORIGINAL ART composition reference. Repaint all 4 distinct occupied rectangular scenes as crisp continuous professional 2D illustrated game art, faithful to original poses, framing, subject count, shapes, colour identity, lighting and scene. Each picture aspect ratio182:110, and centered within2columns by2rows equal cells with generous genuine transparent gutters; 0 trailing cells empty. Original row-major subjects: Large tan armoured trooper closeup holding heavy shoulder weapon, pink visor/highlights, desert rocks; Silver long launch missile tilted upward on desert launchpad, communications dish; Tan tracked launcher with two capped pale tubes, blue/purple sky and rocky desert; Golden domed House Palace entrance facade, large arched door and towers. Detailed readable medium forms, clean purposeful contours, restrained hard-surface shading, subtle surfaces, polished illustration not pixel art, not a blur/mosaic or texture overlay. No text/labels/numbers/logos/watermarks, no invented characters or props. Keep complete original framing, do not cut the subjects or change their angle. Each scene itself opaque; outside scenes genuinely transparent, no vignette/glow/backplates/shadows outside scene. Produce approximately2048x1536 sheet, no new cream picture borders (source illustrations are borderless).",
+      "status": "packed",
+      "selectedRaw": "raw/credits-a.png"
+    },
+    {
+      "id": "credits-b",
+      "ids": [
+        518,
+        519,
+        520,
+        521
+      ],
+      "columns": 2,
+      "rows": 2,
+      "reference": "references/credits-b.png",
+      "referenceSha256": "28f67c06f24227ae1ea4b39df70bc1e295f4a2a8c17f8448cb5d7180c17314d4",
+      "nativeReferences": [
+        {
+          "id": 518,
+          "sha256": "e331a253bcba34e350eeb94cac09372f48db37ba694181302c7f7fd5a4d16ce3"
+        },
+        {
+          "id": 519,
+          "sha256": "40c586fb03051c66d7a60678620b728a14d7552d96ac9a0cdc20de694a089bf0"
+        },
+        {
+          "id": 520,
+          "sha256": "109a48ba5323507734a7dc243a5c327766823ef0e8fc395bd9d78bc7f6fe73d3"
+        },
+        {
+          "id": 521,
+          "sha256": "2de4865fcb9b2b925fb256b823208694a17876f474809a5c531d1fe30b0639d4"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. Production HD2D painted Dune II credit/encyclopedia illustration atlas. Image1 is the EXACT ORIGINAL ART composition reference. Repaint all 4 distinct occupied rectangular scenes as crisp continuous professional 2D illustrated game art, faithful to original poses, framing, subject count, shapes, colour identity, lighting and scene. Each picture aspect ratio182:110, and centered within2columns by2rows equal cells with generous genuine transparent gutters; 0 trailing cells empty. Original row-major subjects: White Ornithopter aircraft with very tall folded upright wings, desert airfield and blue/purple sky; Two tan armoured troopers walking through bright desert, one holding very heavy weapon; Blue/cyan layered disc futuristic IX facility amid desert, green sky; Large tan tracked Harvester on desert flats, wide industrial vehicle side view. Detailed readable medium forms, clean purposeful contours, restrained hard-surface shading, subtle surfaces, polished illustration not pixel art, not a blur/mosaic or texture overlay. No text/labels/numbers/logos/watermarks, no invented characters or props. Keep complete original framing, do not cut the subjects or change their angle. Each scene itself opaque; outside scenes genuinely transparent, no vignette/glow/backplates/shadows outside scene. Produce approximately2048x1536 sheet, no new cream picture borders (source illustrations are borderless).",
+      "status": "packed",
+      "selectedRaw": "raw/credits-b.png"
+    },
+    {
+      "id": "credits-c",
+      "ids": [
+        522,
+        523,
+        524
+      ],
+      "columns": 2,
+      "rows": 2,
+      "reference": "references/credits-c.png",
+      "referenceSha256": "5698e5c651df8fa5137a311f725e327f6a62f8a00e5c96565679af5eddd8565a",
+      "nativeReferences": [
+        {
+          "id": 522,
+          "sha256": "3833369c7f27cb94fc6ceae097ab79040b674b75390c81cf99208c93c0183600"
+        },
+        {
+          "id": 523,
+          "sha256": "5c5961257d8ec726c31e3422f400d42534a0da847b63c090e03ffb975be07eac"
+        },
+        {
+          "id": 524,
+          "sha256": "8b28a720850cc86cb4971f391945cd5460b15632a056020e020527a14c5e78b4"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. Production HD2D painted Dune II credit/encyclopedia illustration atlas. Image1 is the EXACT ORIGINAL ART composition reference. Repaint all 3 distinct occupied rectangular scenes as crisp continuous professional 2D illustrated game art, faithful to original poses, framing, subject count, shapes, colour identity, lighting and scene. Each picture aspect ratio182:110, and centered within2columns by2rows equal cells with generous genuine transparent gutters; 1 trailing cells empty. Original row-major subjects: Curving segmented sandworm rising with toothed dark mouth, pale desert and blue sky; Two brown clothed soldiers in desert action, one foreground aiming a shoulder-fired weapon, another crouched behind sand ridge; Silver/blue industrial refinery filled with towers, piping and cranes, bright desert. Detailed readable medium forms, clean purposeful contours, restrained hard-surface shading, subtle surfaces, polished illustration not pixel art, not a blur/mosaic or texture overlay. No text/labels/numbers/logos/watermarks, no invented characters or props. Keep complete original framing, do not cut the subjects or change their angle. Each scene itself opaque; outside scenes genuinely transparent, no vignette/glow/backplates/shadows outside scene. Produce approximately2048x1536 sheet, no new cream picture borders (source illustrations are borderless).",
+      "status": "packed",
+      "selectedRaw": "raw/credits-c.png"
+    }
+  ]
+}

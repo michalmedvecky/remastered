@@ -1,0 +1,182 @@
+[
+  {
+    "row": 0,
+    "column": 0,
+    "resource": "FARTR.WSA",
+    "nativeFrame": 0
+  },
+  {
+    "row": 0,
+    "column": 1,
+    "resource": "FARTR.WSA",
+    "nativeFrame": 5
+  },
+  {
+    "row": 0,
+    "column": 2,
+    "resource": "FARTR.WSA",
+    "nativeFrame": 10
+  },
+  {
+    "row": 0,
+    "column": 3,
+    "resource": "FARTR.WSA",
+    "nativeFrame": 15
+  },
+  {
+    "row": 0,
+    "column": 4,
+    "resource": "FARTR.WSA",
+    "nativeFrame": 20
+  },
+  {
+    "row": 0,
+    "column": 5,
+    "resource": "FARTR.WSA",
+    "nativeFrame": 25
+  },
+  {
+    "row": 1,
+    "column": 0,
+    "resource": "FHARK.WSA",
+    "nativeFrame": 0
+  },
+  {
+    "row": 1,
+    "column": 1,
+    "resource": "FHARK.WSA",
+    "nativeFrame": 5
+  },
+  {
+    "row": 1,
+    "column": 2,
+    "resource": "FHARK.WSA",
+    "nativeFrame": 10
+  },
+  {
+    "row": 1,
+    "column": 3,
+    "resource": "FHARK.WSA",
+    "nativeFrame": 15
+  },
+  {
+    "row": 1,
+    "column": 4,
+    "resource": "FHARK.WSA",
+    "nativeFrame": 20
+  },
+  {
+    "row": 1,
+    "column": 5,
+    "resource": "FHARK.WSA",
+    "nativeFrame": 25
+  },
+  {
+    "row": 2,
+    "column": 0,
+    "resource": "FORDOS.WSA",
+    "nativeFrame": 0
+  },
+  {
+    "row": 2,
+    "column": 1,
+    "resource": "FORDOS.WSA",
+    "nativeFrame": 5
+  },
+  {
+    "row": 2,
+    "column": 2,
+    "resource": "FORDOS.WSA",
+    "nativeFrame": 10
+  },
+  {
+    "row": 2,
+    "column": 3,
+    "resource": "FORDOS.WSA",
+    "nativeFrame": 15
+  },
+  {
+    "row": 2,
+    "column": 4,
+    "resource": "FORDOS.WSA",
+    "nativeFrame": 20
+  },
+  {
+    "row": 2,
+    "column": 5,
+    "resource": "FORDOS.WSA",
+    "nativeFrame": 25
+  },
+  {
+    "row": 3,
+    "column": 0,
+    "resource": "FREMEN.WSA",
+    "nativeFrame": 0
+  },
+  {
+    "row": 3,
+    "column": 1,
+    "resource": "FREMEN.WSA",
+    "nativeFrame": 1
+  },
+  {
+    "row": 3,
+    "column": 2,
+    "resource": "FREMEN.WSA",
+    "nativeFrame": 0
+  },
+  {
+    "row": 3,
+    "column": 3,
+    "resource": "FREMEN.WSA",
+    "nativeFrame": 1
+  },
+  {
+    "row": 3,
+    "column": 4,
+    "resource": "FREMEN.WSA",
+    "nativeFrame": 0
+  },
+  {
+    "row": 3,
+    "column": 5,
+    "resource": "FREMEN.WSA",
+    "nativeFrame": 1
+  },
+  {
+    "row": 4,
+    "column": 0,
+    "resource": "SARDUKAR.WSA",
+    "nativeFrame": 0
+  },
+  {
+    "row": 4,
+    "column": 1,
+    "resource": "SARDUKAR.WSA",
+    "nativeFrame": 1
+  },
+  {
+    "row": 4,
+    "column": 2,
+    "resource": "SARDUKAR.WSA",
+    "nativeFrame": 3
+  },
+  {
+    "row": 4,
+    "column": 3,
+    "resource": "SARDUKAR.WSA",
+    "nativeFrame": 5
+  },
+  {
+    "row": 4,
+    "column": 4,
+    "resource": "SARDUKAR.WSA",
+    "nativeFrame": 7
+  },
+  {
+    "row": 4,
+    "column": 5,
+    "resource": "SARDUKAR.WSA",
+    "nativeFrame": 9
+  }
+]

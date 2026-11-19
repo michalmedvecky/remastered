@@ -125,7 +125,7 @@
     "-sINVOKE_RUN=0",
     "-sEXIT_RUNTIME=0",
     "-sENVIRONMENT=web,node",
-    "-sEXPORTED_FUNCTIONS=[\"_main\",\"_dune_status\",\"_dune_audio_visibility\"]",
+    "-sEXPORTED_FUNCTIONS=[\"_main\",\"_dune_status\",\"_dune_audio_visibility\",\"_dune_hd_refresh\",\"_dune_hd_set_view_offset\"]",
     "-sEXPORTED_RUNTIME_METHODS=[\"callMain\",\"FS\",\"ccall\",\"UTF8ToString\",\"IDBFS\"]",
     "-lidbfs.js",
     "--preload-file",
@@ -148,16 +148,16 @@
     "native/opendune/src/cutscene.c": "d7c5405d8f6a25ce459b651f2e3d0658b34f6ece4b7d45bd471c9ebedc4a1ac8",
     "native/opendune/src/explosion.c": "8bce3ec412083d37006138df5d7573a1820739b534f9001bf4401ba4f834826c",
     "native/opendune/src/file.c": "f2be3c2931b4515b4291f1bbeefdcdc37fde4f69ea31ac464bf774dd78ce5bbf",
-    "native/opendune/src/gfx.c": "f2c6408d7da0457fc5bfa0dba498e41fb753b893ef08c437454711c231caf080",
+    "native/opendune/src/gfx.c": "47a7af6e1f71f7011bd7eac2583e85fdfde82b29a9cb1827d169f4a2ecba3438",
     "native/opendune/src/gui/editbox.c": "25c274d959d204a16936d6c404387f3bd80af41cfbb9a4b6e7c7808a85bf62fd",
     "native/opendune/src/gui/font.c": "1b9c67bca1d82ed9ef4f94075265996cf607c0257e21331a367ac9d1f8d33f29",
-    "native/opendune/src/gui/gui.c": "d9ae040b49791abb897bfbdafbb6e5b738ad86aab7323c985bb851828060bc06",
-    "native/opendune/src/gui/mentat.c": "1cad5eb228f095a3ad7128eacfe17e606c76d172e2d4058e61de84a859532ef0",
+    "native/opendune/src/gui/gui.c": "c9cab41502e22137e44726445ab394c96eb78902110e57ca42e630d9a659f06f",
+    "native/opendune/src/gui/mentat.c": "0e01f1f25c1d2d50d514c1e2a3b995c7e3436458ad28f01f4d8aadb5b92a35b6",
     "native/opendune/src/gui/security.c": "c0a1b9ab79477120295a74a82d8b62fd9d6afa966eed5b98194c757a4362bb81",
-    "native/opendune/src/gui/viewport.c": "449304d641d7501cbd6ddd82aad4ca98461670d605737d958a6d8d1088e1e0ac",
+    "native/opendune/src/gui/viewport.c": "692232988cbddba38b00349639960955909561599f01b461baad79765f67dd28",
     "native/opendune/src/gui/widget.c": "69300f1a2a5052796a45bb67650af5495637b517a2a90b7e8bee4d1fa01aa066",
     "native/opendune/src/gui/widget_click.c": "bef912ccc4ba7a759a27c43b885546cd6f0dc1e4ad2c303f5d0564157d383be2",
-    "native/opendune/src/gui/widget_draw.c": "38a0ac4efd884c88483eab0d1e774a6de758315109dccadca9f5f90ae34ae7f8",
+    "native/opendune/src/gui/widget_draw.c": "9fbe3c48ff103a68d278fa7b081689fbe846796f125d6a7bb34e5af2ea52a094",
     "native/opendune/src/house.c": "f78fcd193eb1767834740397a7e4ebf24b96082983300355b19960a1e582c9a8",
     "native/opendune/src/ini.c": "a9a5db2f4d5ba4414020f567c0b496bd974dfa065fb5ca9455be7a4032c78ce1",
     "native/opendune/src/inifile.c": "a82ea9fc53775efaa7be44f98370e3ab29e8aca5f29351973a8568e18decaf49",
@@ -192,7 +192,7 @@
     "native/opendune/src/script/structure.c": "2ae4543465e25a5ef5cb77204147559df145c79957d96b406c9c669519e21ac5",
     "native/opendune/src/script/team.c": "815753320f6bb396851963a9258bcef0f458bb115020a58f3e482fde1e3969c2",
     "native/opendune/src/script/unit.c": "7c0b59e9efa276928df244ae41a94578813a4ddda868990daca731836b96d941",
-    "native/opendune/src/sprites.c": "f5d4f2f42c8d8dda4685037c7536169067997bbe8d92ff4bb731f192daddf248",
+    "native/opendune/src/sprites.c": "0b2037888181dccef73f60e298568b5ce285e86cfe00297e40bd510898dd09a8",
     "native/opendune/src/string.c": "63f7d2f563cc02833d049d85c23141124bf79ad686b946533eb8c609749bc8c6",
     "native/opendune/src/structure.c": "716bdd6ecd8bc7c42846569e0caff8f536ebd7b798f57186079ab1a035cbf70c",
     "native/opendune/src/table/actioninfo.c": "a9a0e228370ef480e6917975f0fbb9e5c33b8786e6cdfaf0474c53c7ddefbd08",
@@ -228,11 +228,11 @@
     "native/opendune/src/wsa.c": "4b58af3f4db0b7ad453b002bee00ecf67549b70215695d344d5285194c108c1f",
     "native/browser/probes.c": "56730b1ccefaaf382c06ab83dd8edb5400b5c6200f4339f933e6d69d682be9f5",
     "native/browser/music_bridge.c": "2cd06dc74abc7f1770e67a3ffbaa4c7863488a2e20c60b2db34c9d08840921e7",
-    "native/browser/hd_bridge.c": "0b71d67434ddd07cb341c77139b7979a545efaaf4ae6968942bd09272ead3496"
+    "native/browser/hd_bridge.c": "1d9dfef868c8395625ff576bbe908166dd1b72179aa0b47e28131fe43ff99cdd"
   },
   "outputs": {
-    "dune-native.mjs": "47a184430b0bd50030f39eb0167cdcb15b85c156a5ee5f322513bd5705d99e72",
-    "dune-native.wasm": "34ad373984de31de1bd4f28df7f6a2c594c34c9773c7820111c881c98f009158",
+    "dune-native.mjs": "dac4057430c2e6e874f015f010b785409d787fc306956752dabebddcd330f56f",
+    "dune-native.wasm": "3cd5679e96c900b0a22b08cc805e1060bf9020a44c6829fc7a13adc80b039ea7",
     "dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
   },
   "original_data": {
@@ -256,5 +256,6 @@
     "ENGLISH.PAK": "a22e19b861b3aafd855a782d63736842a4768a2406fd14d014e485ff2e52fb22",
     "DUNE2.EXE": "85f22bb82ea6f755835d5a94d257a67e11a3b854ec934854a69c3eeff7d0180f"
   },
-  "executed_dos_binary": false
+  "executed_dos_binary": false,
+  "outputNormalization": "Generated dune-native.mjs lines.rstrip()+newline after Emscripten link, before output hashes"
 }

@@ -1,0 +1,7 @@
+{
+  "tool": "built-in ImageGen",
+  "prompt": "Use case: precise-object-edit. Asset type: Dune II browser remaster opening artwork, full painted HD background. Input image is the original 1992 Arrakis planet scene and is the edit target/composition reference. Redraw the ENTIRE scene as a sharp, beautiful, coherent hand-painted high-definition game illustration matching an elegant painted classic RTS remaster. Preserve the exact original composition: the large tan/golden desert planet occupies the right two-thirds, right planetary limb in deep shadow, bright soft blue atmospheric rim on the left, sparse tiny blue-white stars in very dark space on the left. Preserve the shape, lighting direction, desert geography and proportions of the source. Add carefully painted dunes, subtle rock topography, delicate atmospheric glow and clean controlled gradients, without repeating or outlining the original pixels. Keep the star field calm and sparse, not a generic busy galaxy. This is a whole newly painted object and background, not pixel upscaling, blur or material noise over source pixels. Keep strong dark negative space toward the left for existing webpage copy. Landscape image approximately 1536x1024 or larger, no words, no logo, no text, no new moons, no spacecraft, no buildings, no lens flares, no watermark. Opaque black/dark space background.",
+  "source": "dist/assets/planet.png",
+  "result": "arrakis-initial.png",
+  "status": "rejected-horizontal-bottom-crop"
+}

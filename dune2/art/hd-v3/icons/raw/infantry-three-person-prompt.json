@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Production Dune II HD Infantry portrait, 4:3 rectangular picture. Image1 is the exact new painted edit target. Image2 is the original native semantic count/composition reference. Correct ONLY the missing third squad member: show exactly THREE distinct human infantry soldiers, keeping the existing foreground soldier raising a clenched fist and existing left/rear rifleman, adding the original third soldier behind and between them with his own visible head/upper torso. Make three heads clearly readable at128x96 pixels, no extra heads/arms, coherent anatomy, same tan/olive uniforms, red visors, muted khaki opaque background, clean painted contours/shading and thin pale frame as Image1. Retain composition, armour identity, lighting and framing. No text, no border outside existing thin picture frame, no exterior background, no giant transparent gutters. Output a single finished complete4:3 panel approximately1024x768, opaque within rectangle.",
+  "referenced_image_paths": [
+    "art/hd-v3/icons/packed/93.png",
+    "art/hd-v3/icons/native/93.png"
+  ],
+  "transparent_background": false
+}

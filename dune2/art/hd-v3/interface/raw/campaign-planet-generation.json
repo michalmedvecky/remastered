@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-0f984609-bb49-4a57-9aff-62ed3c9ebb2b.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1586,
+    992
+  ],
+  "sha256": "6167e6c67b041ce331fa88bd08b8c38e95ac75e6553898469cf037c751d8b28d",
+  "prompt": "campaign-planet-prompt.txt",
+  "references": [
+    "../references/PLANET-native.png"
+  ]
+}

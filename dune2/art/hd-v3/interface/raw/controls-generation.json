@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": true,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-bd79c8f3-dcd4-4df1-ac3f-1083e6159498.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "51100c317ce0c04da2286790e45300cf592ec5837fc69a60695172b777ea46f2",
+  "prompt": "controls-prompt.txt",
+  "references": [
+    "hud.png"
+  ]
+}

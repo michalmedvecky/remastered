@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-7f879e83-4716-44b4-9456-486b83619854.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1586,
+    992
+  ],
+  "sha256": "34ba769d2643133ef12b9a71d4f63a02e01a4af269e31e0c015963cca1d10931",
+  "prompt": "herald-prompt.txt",
+  "references": [
+    "../references/HERALD-native.png",
+    "hud.png"
+  ]
+}

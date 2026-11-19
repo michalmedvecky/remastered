@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": true,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-996e288f-c425-47ed-af23-0217c9864d9f.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1586,
+    992
+  ],
+  "sha256": "bf483f4d51941ab483983721d8aa6af1d2702f96ce51130e50c3ee0a5510e624",
+  "prompt": "hud-prompt.txt",
+  "references": [
+    "../references/SCREEN-native.png",
+    "../../../hd-v2/buildings/raw/pilot-approved.png"
+  ]
+}

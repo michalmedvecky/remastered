@@ -3,7 +3,7 @@
   "scope": "actual presentation cache under ASan; no DOS/game execution",
   "patchIdempotent": true,
   "desktopSyntaxFiles": 4,
-  "bridgeSha256": "0b71d67434ddd07cb341c77139b7979a545efaaf4ae6968942bd09272ead3496",
+  "bridgeSha256": "1d9dfef868c8395625ff576bbe908166dd1b72179aa0b47e28131fe43ff99cdd",
   "cases": [
     "stationary persistence",
     "camera translation",

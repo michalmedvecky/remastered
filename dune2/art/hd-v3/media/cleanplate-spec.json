@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "columns": 3,
+  "rows": 2,
+  "parts": [
+    {
+      "id": "radar",
+      "resource": "HEADQRTS.WSA",
+      "stem": "headqrts",
+      "nativeRect": [
+        148,
+        41,
+        27,
+        20
+      ],
+      "remove": "the entire small dish and its short dark mount; reveal matching distant sand/sky and rooftop under it"
+    },
+    {
+      "id": "marshal",
+      "resource": "CARRYALL.WSA",
+      "stem": "carryall",
+      "nativeRect": [
+        152,
+        83,
+        14,
+        20
+      ],
+      "remove": "the entire red human signalman; reveal only the unchanged grey airport apron and painted white line if present"
+    },
+    {
+      "id": "palace-gate",
+      "resource": "PALACE.WSA",
+      "stem": "palace",
+      "nativeRect": [
+        90,
+        82,
+        7,
+        11
+      ],
+      "remove": "the entire white-clothed guard; reveal matching golden gate and pale steps behind it"
+    },
+    {
+      "id": "palace-foreground",
+      "resource": "PALACE.WSA",
+      "stem": "palace",
+      "nativeRect": [
+        169,
+        90,
+        8,
+        15
+      ],
+      "remove": "the entire large foreground white-clothed guard; reveal matching tan stone ground/vehicle edge behind it"
+    },
+    {
+      "id": "palace-middle",
+      "resource": "PALACE.WSA",
+      "stem": "palace",
+      "nativeRect": [
+        140,
+        82,
+        8,
+        13
+      ],
+      "remove": "both tiny nearby people, reveal matching tan wall/ground and vehicle edge"
+    },
+    {
+      "id": "starport-apron",
+      "resource": "STARPORT.WSA",
+      "stem": "starport",
+      "nativeRect": [
+        104,
+        82,
+        32,
+        8
+      ],
+      "remove": "nothing; preserve the empty pale grey concrete apron surface"
+    }
+  ]
+}

@@ -57,6 +57,21 @@ export function effectiveHouse(source, command, fallback = 1) {
   return Number.isInteger(house) && house >= 0 && house < 6 ? house : 1;
 }
 
+/** Native pure BLUR copies the neighbour to the right, in painter scan order.
+ * Apply that observed operation to the HD destination, never to DOS pixels.
+ * The caller supplies an antialiased presentation mask and right-side padding. */
+export function distortPaintedRGBA(input, width, height, alpha, offsetPixels, rtl = false) {
+  if (!Number.isInteger(width) || !Number.isInteger(height) || width < 1 || height < 1 || input.length !== width * height * 4 || alpha.length !== width * height || !Number.isInteger(offsetPixels) || offsetPixels < 1) throw new RangeError('Invalid painted distortion surface');
+  const output = Uint8ClampedArray.from(input);
+  for (let y = 0; y < height; y++) for (let i = 0; i < width; i++) {
+    const x = rtl ? width - 1 - i : i, at = y * width + x;
+    if (!alpha[at] || x + offsetPixels >= width) continue;
+    const destination = at * 4, source = (at + offsetPixels) * 4, amount = alpha[at] / 255;
+    for (let c = 0; c < 3; c++) output[destination + c] = Math.round(output[destination + c] * (1 - amount) + output[source + c] * amount);
+  }
+  return output;
+}
+
 /** Average the real faction ramp, without treating neutral steel as faction paint. */
 export function factionColour(palette6, house) {
   if (palette6?.length !== 768 || !Number.isInteger(house) || house < 0 || house > 5) throw new RangeError('Invalid faction palette');

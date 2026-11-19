@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-2b8154d6-a631-4ae8-9893-29e9bf6d8274.png",
+  "raw": "raw/radar-terrain.png",
+  "prompt": "raw/radar-terrain-prompt.json",
+  "sha256": "5cc303169abab2f46a1265997b226f4195d41f29cb052e5177d2c2c5a31c8e1e",
+  "width": 1983,
+  "height": 793,
+  "visualJudgment": "Checked exact occupied panel count, order, subject identity and native composition; painted panel interiors accepted. Outer generated sheet matte/gutters are excluded by explicit panel crop."
+}
