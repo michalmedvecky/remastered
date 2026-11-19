@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "manifestSHA256": "5e42af94e6d4ade99e19d1b95c49a9faff420ebec182f5aa3259c1ba01d266dd",
+  "command": "node --test tests/painted-media.test.mjs tests/painted-extra-media.test.mjs tests/painted-media-assets.test.mjs",
+  "testsPassed": 12,
+  "testsFailed": 0,
+  "resources": 42,
+  "nativeFrameRecords": 264,
+  "nativeDistinctImages": 210,
+  "globalWitnessCoordinates": 33,
+  "originalSemanticResources": 36,
+  "originalSemanticFrameRecords": 161,
+  "extraBakedResources": 6,
+  "extraBakedFrameRecords": 103,
+  "extraPhasePatches": 97,
+  "canvasFixture": "fidelity/painted-polish/media-canvas-review.py",
+  "canvas42Status": "passed",
+  "nativeChanged": false,
+  "runtimeChanged": false,
+  "canvas42Evidence": "media42-canvas-results.json",
+  "canvas42Coverage": {
+    "resources": 42,
+    "framesRendered": 264,
+    "witnessCoordinates": 33,
+    "factoryFrames": 42,
+    "bakedFramesCompared": 103,
+    "bakedReverseCompared": 103,
+    "missingAssets": 0,
+    "errors": 0
+  }
+}

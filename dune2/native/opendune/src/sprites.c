@@ -323,6 +323,7 @@ static uint32 Sprites_LoadCPSFile(const char *filename, Screen screenID, uint8 *
 		return 0;
 	}
 
+	DUNE_HD(DuneHD_Dirty(screenID, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT));
 	size = File_Read_LE16(index);
 
 	File_Read(index, buffer, 8);

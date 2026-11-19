@@ -1,0 +1,8 @@
+Use case: precise-object-edit. Production2D game animation clean background patches. This supplied image has SIX existing painted scene crops in EXACT3columns x2rows, one perquartercell. Preserve the exact layout, colours, camera, surface shapes, material detail and native shadows/lighting of each crop, changing ONLY the small foreground objects specified below. Remove those objects completely and carefully paint the matching newly revealed underlying background. Do not replace any crop with a different scene or add objects. These are tiny cleanplate tiles to overlay beneath new animation sprites: edges must match the original input crop colours and structures. No text, label, borders, gutters, new framing, black fill or transparentholes. Output one opaque3x2 landscape sheet with the same six clean surface crops filling theircells,1536x1024 or comparable.
+TOP LEFT: the entire small dish and its short dark mount; reveal matching distant sand/sky and rooftop under it.
+TOP MIDDLE: the entire red human signalman; reveal only the unchanged grey airport apron and painted white line if present.
+TOP RIGHT: the entire white-clothed guard; reveal matching golden gate and pale steps behind it.
+BOTTOM LEFT: the entire large foreground white-clothed guard; reveal matching tan stone ground/vehicle edge behind it.
+BOTTOM MIDDLE: both tiny nearby people, reveal matching tan wall/ground and vehicle edge.
+BOTTOM RIGHT: nothing; preserve the empty pale grey concrete apron surface.
+The source crops are already newHD artwork, preserve their clean deliberate paintedstyle. Do not introduce old pixel blocks, filters, noise or photorealism.

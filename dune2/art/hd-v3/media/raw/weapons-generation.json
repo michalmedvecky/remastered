@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-22362808-ba3e-416f-a40a-b41fe3c776bb.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1610,
+    977
+  ],
+  "sha256": "a437361abf8e3b3334a0c2d3c59653c42338c5569d460f8ef203f9ac6b8b0cc1",
+  "prompt": "weapons-prompt.txt",
+  "references": [
+    "../references/weapons.png",
+    "../../../hd-v2/buildings/raw/pilot-approved.png",
+    "../../interface/raw/advisor-a.png"
+  ],
+  "columns": [
+    0,
+    805,
+    1610
+  ],
+  "rows": [
+    0,
+    488,
+    977
+  ],
+  "packingReview": "All four whole-picture boundaries inspected; row split measured from output, not assumed half height."
+}

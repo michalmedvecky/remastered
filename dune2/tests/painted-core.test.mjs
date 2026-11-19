@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {paintedMode, visibleNativeFrame, effectiveHouse, recolourPainted, highlightAmount, rgbaBytesBounded} from '../dist/painted-core.mjs';
+import {paintedMode, visibleNativeFrame, effectiveHouse, recolourPainted, highlightAmount, rgbaBytesBounded, distortPaintedRGBA} from '../dist/painted-core.mjs';
 
 function palette() {
   const p = new Uint8Array(768);
@@ -8,6 +8,16 @@ function palette() {
   for (let h = 0; h < 6; h++) for (let i = 0; i < 16; i++) p.set(colours[h], (144 + h * 16 + i) * 3);
   p.set([63, 63, 63], 45); return p;
 }
+
+test('native neighbour-copy distortion uses painted detail and native scan order without modifying its input', () => {
+  const rgba = Uint8ClampedArray.from([1, 2, 3, 4, 5, 6].flatMap(v => [v, v + 10, v + 20, 255]));
+  const original = rgba.slice(), mask = Uint8Array.of(0, 255, 255, 255, 0, 0);
+  const red = result => Array.from({length: 6}, (_, i) => result[i * 4]);
+  assert.deepEqual(red(distortPaintedRGBA(rgba, 6, 1, mask, 2)), [1, 4, 5, 6, 5, 6]);
+  assert.deepEqual(red(distortPaintedRGBA(rgba, 6, 1, mask, 2, true)), [1, 6, 5, 6, 5, 6]);
+  assert.deepEqual(rgba, original);
+  assert.throws(() => distortPaintedRGBA(rgba, 7, 1, mask, 2), RangeError);
+});
 
 test('approved blue artwork stays byte-identical, neutral metal and alpha survive faction changes', () => {
   const art = Uint8ClampedArray.of(15, 55, 210, 255, 145, 156, 170, 173, 3, 7, 9, 0), copy = art.slice();

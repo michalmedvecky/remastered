@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-8dd55864-d6f5-4cc9-bb96-5c322f7697ad.png",
+  "raw": "raw/infantry-three-person.png",
+  "prompt": "raw/infantry-three-person-prompt.json",
+  "sha256": "c4f8c502bc779b1d3db5251862f314ea3fb04cbe3ba73bebc72641c6321c4c37",
+  "width": 1448,
+  "height": 1086,
+  "originalTarget": "references/infantry-three-person-before.png",
+  "originalTargetSha256": "5db0dbc8e0a5a173f8e58cd3bbd4af5f77d8b95f90ba298b1f5ba1209fbf4e5f",
+  "visualJudgment": "Corrected exact requested object count: three separate infantry heads, or three distinct Trike tires with wide rear axle. Original panel composition/style/frame preserved; accepted."
+}

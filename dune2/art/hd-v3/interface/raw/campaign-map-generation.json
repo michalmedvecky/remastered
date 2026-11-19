@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-c1603c0e-c74c-4fb0-8ea2-befc0966ff52.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1991,
+    789
+  ],
+  "sha256": "7240fa224aa188fb0f96604665b02bf389ff3d10be07d47f7036fc3fcac241b3",
+  "prompt": "campaign-map-prompt.txt",
+  "references": [
+    "../references/DUNEMAP-native-crop.png"
+  ]
+}

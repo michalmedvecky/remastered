@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-865d8873-6d74-4e00-a188-72c4c6e0031b.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1586,
+    992
+  ],
+  "sha256": "5f3b77ab9c6031a158c8241e10f86cbca4cb531d3ada96c8f829aef017e61124",
+  "prompt": "advisor-a-prompt.txt",
+  "references": [
+    "../references/MENTATA-native.png",
+    "hud.png"
+  ],
+  "status": "retained-initial-placement-corrected-in-selected-output"
+}

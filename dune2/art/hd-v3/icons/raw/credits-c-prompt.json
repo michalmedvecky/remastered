@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: identity-preserve. Production HD2D painted Dune II credit/encyclopedia illustration atlas. Image1 is the EXACT ORIGINAL ART composition reference. Repaint all 3 distinct occupied rectangular scenes as crisp continuous professional 2D illustrated game art, faithful to original poses, framing, subject count, shapes, colour identity, lighting and scene. Each picture aspect ratio182:110, and centered within2columns by2rows equal cells with generous genuine transparent gutters; 1 trailing cells empty. Original row-major subjects: Curving segmented sandworm rising with toothed dark mouth, pale desert and blue sky; Two brown clothed soldiers in desert action, one foreground aiming a shoulder-fired weapon, another crouched behind sand ridge; Silver/blue industrial refinery filled with towers, piping and cranes, bright desert. Detailed readable medium forms, clean purposeful contours, restrained hard-surface shading, subtle surfaces, polished illustration not pixel art, not a blur/mosaic or texture overlay. No text/labels/numbers/logos/watermarks, no invented characters or props. Keep complete original framing, do not cut the subjects or change their angle. Each scene itself opaque; outside scenes genuinely transparent, no vignette/glow/backplates/shadows outside scene. Produce approximately2048x1536 sheet, no new cream picture borders (source illustrations are borderless).",
+  "referenced_image_paths": [
+    "art/hd-v3/icons/references/credits-c.png"
+  ],
+  "transparent_background": true
+}

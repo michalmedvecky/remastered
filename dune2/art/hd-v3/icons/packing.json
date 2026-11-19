@@ -1,0 +1,966 @@
+{
+  "schema": 1,
+  "manifestSHA256": "c899ac4cb2453d020454340523623f99921566705e2d6e152eea60de89b590d7",
+  "panels": [
+    {
+      "id": 65,
+      "group": "buildings-a",
+      "cell": 0,
+      "raw": "art/hd-v3/icons/raw/buildings-a.png",
+      "rawSHA256": "05053ba5c532d51ef4d68fdd79151495598fa859154e2b0c4c8f73ddab2ac026",
+      "reference": "references/buildings-a.png",
+      "referenceSHA256": "fd0ab001a656b717fd6ad729c0c61766f3a6df67f28dcaf008a28e7393d21b09",
+      "crop": [
+        40,
+        42,
+        328,
+        254
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 66,
+      "group": "buildings-a",
+      "cell": 1,
+      "raw": "art/hd-v3/icons/raw/buildings-a.png",
+      "rawSHA256": "05053ba5c532d51ef4d68fdd79151495598fa859154e2b0c4c8f73ddab2ac026",
+      "reference": "references/buildings-a.png",
+      "referenceSHA256": "fd0ab001a656b717fd6ad729c0c61766f3a6df67f28dcaf008a28e7393d21b09",
+      "crop": [
+        443,
+        42,
+        328,
+        254
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 67,
+      "group": "buildings-a",
+      "cell": 2,
+      "raw": "art/hd-v3/icons/raw/buildings-a.png",
+      "rawSHA256": "05053ba5c532d51ef4d68fdd79151495598fa859154e2b0c4c8f73ddab2ac026",
+      "reference": "references/buildings-a.png",
+      "referenceSHA256": "fd0ab001a656b717fd6ad729c0c61766f3a6df67f28dcaf008a28e7393d21b09",
+      "crop": [
+        848,
+        42,
+        328,
+        254
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 68,
+      "group": "buildings-a",
+      "cell": 3,
+      "raw": "art/hd-v3/icons/raw/buildings-a.png",
+      "rawSHA256": "05053ba5c532d51ef4d68fdd79151495598fa859154e2b0c4c8f73ddab2ac026",
+      "reference": "references/buildings-a.png",
+      "referenceSHA256": "fd0ab001a656b717fd6ad729c0c61766f3a6df67f28dcaf008a28e7393d21b09",
+      "crop": [
+        1253,
+        42,
+        328,
+        254
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 69,
+      "group": "buildings-a",
+      "cell": 4,
+      "raw": "art/hd-v3/icons/raw/buildings-a.png",
+      "rawSHA256": "05053ba5c532d51ef4d68fdd79151495598fa859154e2b0c4c8f73ddab2ac026",
+      "reference": "references/buildings-a.png",
+      "referenceSHA256": "fd0ab001a656b717fd6ad729c0c61766f3a6df67f28dcaf008a28e7393d21b09",
+      "crop": [
+        40,
+        355,
+        328,
+        254
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 70,
+      "group": "buildings-a",
+      "cell": 5,
+      "raw": "art/hd-v3/icons/raw/buildings-a.png",
+      "rawSHA256": "05053ba5c532d51ef4d68fdd79151495598fa859154e2b0c4c8f73ddab2ac026",
+      "reference": "references/buildings-a.png",
+      "referenceSHA256": "fd0ab001a656b717fd6ad729c0c61766f3a6df67f28dcaf008a28e7393d21b09",
+      "crop": [
+        443,
+        355,
+        328,
+        254
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 71,
+      "group": "buildings-a",
+      "cell": 6,
+      "raw": "art/hd-v3/icons/raw/buildings-a.png",
+      "rawSHA256": "05053ba5c532d51ef4d68fdd79151495598fa859154e2b0c4c8f73ddab2ac026",
+      "reference": "references/buildings-a.png",
+      "referenceSHA256": "fd0ab001a656b717fd6ad729c0c61766f3a6df67f28dcaf008a28e7393d21b09",
+      "crop": [
+        848,
+        355,
+        328,
+        254
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 72,
+      "group": "buildings-a",
+      "cell": 7,
+      "raw": "art/hd-v3/icons/raw/buildings-a.png",
+      "rawSHA256": "05053ba5c532d51ef4d68fdd79151495598fa859154e2b0c4c8f73ddab2ac026",
+      "reference": "references/buildings-a.png",
+      "referenceSHA256": "fd0ab001a656b717fd6ad729c0c61766f3a6df67f28dcaf008a28e7393d21b09",
+      "crop": [
+        1253,
+        355,
+        328,
+        254
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 73,
+      "group": "buildings-a",
+      "cell": 8,
+      "raw": "art/hd-v3/icons/raw/buildings-a.png",
+      "rawSHA256": "05053ba5c532d51ef4d68fdd79151495598fa859154e2b0c4c8f73ddab2ac026",
+      "reference": "references/buildings-a.png",
+      "referenceSHA256": "fd0ab001a656b717fd6ad729c0c61766f3a6df67f28dcaf008a28e7393d21b09",
+      "crop": [
+        40,
+        670,
+        328,
+        254
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 74,
+      "group": "buildings-a",
+      "cell": 9,
+      "raw": "art/hd-v3/icons/raw/buildings-a.png",
+      "rawSHA256": "05053ba5c532d51ef4d68fdd79151495598fa859154e2b0c4c8f73ddab2ac026",
+      "reference": "references/buildings-a.png",
+      "referenceSHA256": "fd0ab001a656b717fd6ad729c0c61766f3a6df67f28dcaf008a28e7393d21b09",
+      "crop": [
+        443,
+        670,
+        328,
+        254
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 75,
+      "group": "buildings-b",
+      "cell": 0,
+      "raw": "art/hd-v3/icons/raw/buildings-b.png",
+      "rawSHA256": "6691e0632f0b73765c56ccf97126fb63349092c86312b57ab3f1c160a6099b2f",
+      "reference": "references/buildings-b.png",
+      "referenceSHA256": "cbe0473c8933627c2f2bce1fbfda21e80bbc2e0d0b6c89bf2d64c96adefa2959",
+      "crop": [
+        35,
+        55,
+        340,
+        265
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 76,
+      "group": "buildings-b",
+      "cell": 1,
+      "raw": "art/hd-v3/icons/raw/buildings-b.png",
+      "rawSHA256": "6691e0632f0b73765c56ccf97126fb63349092c86312b57ab3f1c160a6099b2f",
+      "reference": "references/buildings-b.png",
+      "referenceSHA256": "cbe0473c8933627c2f2bce1fbfda21e80bbc2e0d0b6c89bf2d64c96adefa2959",
+      "crop": [
+        410,
+        55,
+        340,
+        265
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 77,
+      "group": "buildings-b",
+      "cell": 2,
+      "raw": "art/hd-v3/icons/raw/buildings-b.png",
+      "rawSHA256": "6691e0632f0b73765c56ccf97126fb63349092c86312b57ab3f1c160a6099b2f",
+      "reference": "references/buildings-b.png",
+      "referenceSHA256": "cbe0473c8933627c2f2bce1fbfda21e80bbc2e0d0b6c89bf2d64c96adefa2959",
+      "crop": [
+        786,
+        55,
+        340,
+        265
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 78,
+      "group": "buildings-b",
+      "cell": 3,
+      "raw": "art/hd-v3/icons/raw/buildings-b.png",
+      "rawSHA256": "6691e0632f0b73765c56ccf97126fb63349092c86312b57ab3f1c160a6099b2f",
+      "reference": "references/buildings-b.png",
+      "referenceSHA256": "cbe0473c8933627c2f2bce1fbfda21e80bbc2e0d0b6c89bf2d64c96adefa2959",
+      "crop": [
+        1161,
+        55,
+        340,
+        265
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 79,
+      "group": "buildings-b",
+      "cell": 4,
+      "raw": "art/hd-v3/icons/raw/buildings-b.png",
+      "rawSHA256": "6691e0632f0b73765c56ccf97126fb63349092c86312b57ab3f1c160a6099b2f",
+      "reference": "references/buildings-b.png",
+      "referenceSHA256": "cbe0473c8933627c2f2bce1fbfda21e80bbc2e0d0b6c89bf2d64c96adefa2959",
+      "crop": [
+        35,
+        379,
+        340,
+        265
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 80,
+      "group": "buildings-b",
+      "cell": 5,
+      "raw": "art/hd-v3/icons/raw/buildings-b.png",
+      "rawSHA256": "6691e0632f0b73765c56ccf97126fb63349092c86312b57ab3f1c160a6099b2f",
+      "reference": "references/buildings-b.png",
+      "referenceSHA256": "cbe0473c8933627c2f2bce1fbfda21e80bbc2e0d0b6c89bf2d64c96adefa2959",
+      "crop": [
+        410,
+        379,
+        340,
+        265
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 81,
+      "group": "buildings-b",
+      "cell": 6,
+      "raw": "art/hd-v3/icons/raw/buildings-b.png",
+      "rawSHA256": "6691e0632f0b73765c56ccf97126fb63349092c86312b57ab3f1c160a6099b2f",
+      "reference": "references/buildings-b.png",
+      "referenceSHA256": "cbe0473c8933627c2f2bce1fbfda21e80bbc2e0d0b6c89bf2d64c96adefa2959",
+      "crop": [
+        786,
+        379,
+        340,
+        265
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 82,
+      "group": "buildings-b",
+      "cell": 7,
+      "raw": "art/hd-v3/icons/raw/buildings-b.png",
+      "rawSHA256": "6691e0632f0b73765c56ccf97126fb63349092c86312b57ab3f1c160a6099b2f",
+      "reference": "references/buildings-b.png",
+      "referenceSHA256": "cbe0473c8933627c2f2bce1fbfda21e80bbc2e0d0b6c89bf2d64c96adefa2959",
+      "crop": [
+        1161,
+        379,
+        340,
+        265
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 83,
+      "group": "buildings-b",
+      "cell": 8,
+      "raw": "art/hd-v3/icons/raw/buildings-b.png",
+      "rawSHA256": "6691e0632f0b73765c56ccf97126fb63349092c86312b57ab3f1c160a6099b2f",
+      "reference": "references/buildings-b.png",
+      "referenceSHA256": "cbe0473c8933627c2f2bce1fbfda21e80bbc2e0d0b6c89bf2d64c96adefa2959",
+      "crop": [
+        35,
+        704,
+        340,
+        265
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 84,
+      "group": "units-a",
+      "cell": 0,
+      "raw": "art/hd-v3/icons/raw/units-a.png",
+      "rawSHA256": "316c6d94f210b807a21a9fb1e0e67934cced0cd8f638680d11db53238e9e243b",
+      "reference": "references/units-a.png",
+      "referenceSHA256": "13d931b0e63ee50778913ba135119a6cec0b5716a599e1b20cc9b4d5d199a1d4",
+      "crop": [
+        38,
+        40,
+        330,
+        253
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 85,
+      "group": "units-a",
+      "cell": 1,
+      "raw": "art/hd-v3/icons/raw/units-a.png",
+      "rawSHA256": "316c6d94f210b807a21a9fb1e0e67934cced0cd8f638680d11db53238e9e243b",
+      "reference": "references/units-a.png",
+      "referenceSHA256": "13d931b0e63ee50778913ba135119a6cec0b5716a599e1b20cc9b4d5d199a1d4",
+      "crop": [
+        443,
+        40,
+        330,
+        253
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 86,
+      "group": "units-a",
+      "cell": 2,
+      "raw": "art/hd-v3/icons/raw/units-a.png",
+      "rawSHA256": "316c6d94f210b807a21a9fb1e0e67934cced0cd8f638680d11db53238e9e243b",
+      "reference": "references/units-a.png",
+      "referenceSHA256": "13d931b0e63ee50778913ba135119a6cec0b5716a599e1b20cc9b4d5d199a1d4",
+      "crop": [
+        847,
+        40,
+        330,
+        253
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 87,
+      "group": "units-a",
+      "cell": 3,
+      "raw": "art/hd-v3/icons/raw/units-a.png",
+      "rawSHA256": "316c6d94f210b807a21a9fb1e0e67934cced0cd8f638680d11db53238e9e243b",
+      "reference": "references/units-a.png",
+      "referenceSHA256": "13d931b0e63ee50778913ba135119a6cec0b5716a599e1b20cc9b4d5d199a1d4",
+      "crop": [
+        1252,
+        40,
+        330,
+        253
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 88,
+      "group": "units-a",
+      "cell": 4,
+      "raw": "art/hd-v3/icons/raw/units-a.png",
+      "rawSHA256": "316c6d94f210b807a21a9fb1e0e67934cced0cd8f638680d11db53238e9e243b",
+      "reference": "references/units-a.png",
+      "referenceSHA256": "13d931b0e63ee50778913ba135119a6cec0b5716a599e1b20cc9b4d5d199a1d4",
+      "crop": [
+        38,
+        357,
+        330,
+        253
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 89,
+      "group": "units-a",
+      "cell": 5,
+      "raw": "art/hd-v3/icons/raw/units-a.png",
+      "rawSHA256": "316c6d94f210b807a21a9fb1e0e67934cced0cd8f638680d11db53238e9e243b",
+      "reference": "references/units-a.png",
+      "referenceSHA256": "13d931b0e63ee50778913ba135119a6cec0b5716a599e1b20cc9b4d5d199a1d4",
+      "crop": [
+        443,
+        357,
+        330,
+        253
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 90,
+      "group": "units-a",
+      "cell": 6,
+      "raw": "art/hd-v3/icons/raw/units-a.png",
+      "rawSHA256": "316c6d94f210b807a21a9fb1e0e67934cced0cd8f638680d11db53238e9e243b",
+      "reference": "references/units-a.png",
+      "referenceSHA256": "13d931b0e63ee50778913ba135119a6cec0b5716a599e1b20cc9b4d5d199a1d4",
+      "crop": [
+        847,
+        357,
+        330,
+        253
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 91,
+      "group": "units-a",
+      "cell": 7,
+      "raw": "art/hd-v3/icons/raw/units-a.png",
+      "rawSHA256": "316c6d94f210b807a21a9fb1e0e67934cced0cd8f638680d11db53238e9e243b",
+      "reference": "references/units-a.png",
+      "referenceSHA256": "13d931b0e63ee50778913ba135119a6cec0b5716a599e1b20cc9b4d5d199a1d4",
+      "crop": [
+        1252,
+        357,
+        330,
+        253
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 92,
+      "group": "units-a",
+      "cell": 8,
+      "raw": "art/hd-v3/icons/raw/units-a.png",
+      "rawSHA256": "316c6d94f210b807a21a9fb1e0e67934cced0cd8f638680d11db53238e9e243b",
+      "reference": "references/units-a.png",
+      "referenceSHA256": "13d931b0e63ee50778913ba135119a6cec0b5716a599e1b20cc9b4d5d199a1d4",
+      "crop": [
+        38,
+        681,
+        330,
+        253
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 93,
+      "group": "units-a",
+      "cell": 9,
+      "raw": "art/hd-v3/icons/raw/units-a.png",
+      "rawSHA256": "316c6d94f210b807a21a9fb1e0e67934cced0cd8f638680d11db53238e9e243b",
+      "reference": "references/units-a.png",
+      "referenceSHA256": "13d931b0e63ee50778913ba135119a6cec0b5716a599e1b20cc9b4d5d199a1d4",
+      "crop": [
+        443,
+        681,
+        330,
+        253
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 94,
+      "group": "units-a",
+      "cell": 10,
+      "raw": "art/hd-v3/icons/raw/units-a.png",
+      "rawSHA256": "316c6d94f210b807a21a9fb1e0e67934cced0cd8f638680d11db53238e9e243b",
+      "reference": "references/units-a.png",
+      "referenceSHA256": "13d931b0e63ee50778913ba135119a6cec0b5716a599e1b20cc9b4d5d199a1d4",
+      "crop": [
+        847,
+        681,
+        330,
+        253
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 95,
+      "group": "units-a",
+      "cell": 11,
+      "raw": "art/hd-v3/icons/raw/units-a.png",
+      "rawSHA256": "316c6d94f210b807a21a9fb1e0e67934cced0cd8f638680d11db53238e9e243b",
+      "reference": "references/units-a.png",
+      "referenceSHA256": "13d931b0e63ee50778913ba135119a6cec0b5716a599e1b20cc9b4d5d199a1d4",
+      "crop": [
+        1252,
+        681,
+        330,
+        253
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 96,
+      "group": "units-b",
+      "cell": 0,
+      "raw": "art/hd-v3/icons/raw/units-b.png",
+      "rawSHA256": "a412bf4be5072dd24ca09be558f533109ca3de3c79b633f217af951c6fefccdc",
+      "reference": "references/units-b.png",
+      "referenceSHA256": "34a42745888392aaab06a6c8752e931dedf3aef0ce8ba6eff77ec289e4392639",
+      "crop": [
+        32,
+        35,
+        343,
+        258
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 97,
+      "group": "units-b",
+      "cell": 1,
+      "raw": "art/hd-v3/icons/raw/units-b.png",
+      "rawSHA256": "a412bf4be5072dd24ca09be558f533109ca3de3c79b633f217af951c6fefccdc",
+      "reference": "references/units-b.png",
+      "referenceSHA256": "34a42745888392aaab06a6c8752e931dedf3aef0ce8ba6eff77ec289e4392639",
+      "crop": [
+        436,
+        35,
+        343,
+        258
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 98,
+      "group": "units-b",
+      "cell": 2,
+      "raw": "art/hd-v3/icons/raw/units-b.png",
+      "rawSHA256": "a412bf4be5072dd24ca09be558f533109ca3de3c79b633f217af951c6fefccdc",
+      "reference": "references/units-b.png",
+      "referenceSHA256": "34a42745888392aaab06a6c8752e931dedf3aef0ce8ba6eff77ec289e4392639",
+      "crop": [
+        841,
+        35,
+        343,
+        258
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 99,
+      "group": "units-b",
+      "cell": 3,
+      "raw": "art/hd-v3/icons/raw/units-b.png",
+      "rawSHA256": "a412bf4be5072dd24ca09be558f533109ca3de3c79b633f217af951c6fefccdc",
+      "reference": "references/units-b.png",
+      "referenceSHA256": "34a42745888392aaab06a6c8752e931dedf3aef0ce8ba6eff77ec289e4392639",
+      "crop": [
+        1246,
+        35,
+        343,
+        258
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 100,
+      "group": "units-b",
+      "cell": 4,
+      "raw": "art/hd-v3/icons/raw/units-b.png",
+      "rawSHA256": "a412bf4be5072dd24ca09be558f533109ca3de3c79b633f217af951c6fefccdc",
+      "reference": "references/units-b.png",
+      "referenceSHA256": "34a42745888392aaab06a6c8752e931dedf3aef0ce8ba6eff77ec289e4392639",
+      "crop": [
+        32,
+        355,
+        343,
+        258
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 101,
+      "group": "units-b",
+      "cell": 5,
+      "raw": "art/hd-v3/icons/raw/units-b.png",
+      "rawSHA256": "a412bf4be5072dd24ca09be558f533109ca3de3c79b633f217af951c6fefccdc",
+      "reference": "references/units-b.png",
+      "referenceSHA256": "34a42745888392aaab06a6c8752e931dedf3aef0ce8ba6eff77ec289e4392639",
+      "crop": [
+        436,
+        355,
+        343,
+        258
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 102,
+      "group": "units-b",
+      "cell": 6,
+      "raw": "art/hd-v3/icons/raw/units-b.png",
+      "rawSHA256": "a412bf4be5072dd24ca09be558f533109ca3de3c79b633f217af951c6fefccdc",
+      "reference": "references/units-b.png",
+      "referenceSHA256": "34a42745888392aaab06a6c8752e931dedf3aef0ce8ba6eff77ec289e4392639",
+      "crop": [
+        841,
+        355,
+        343,
+        258
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 103,
+      "group": "units-b",
+      "cell": 7,
+      "raw": "art/hd-v3/icons/raw/units-b.png",
+      "rawSHA256": "a412bf4be5072dd24ca09be558f533109ca3de3c79b633f217af951c6fefccdc",
+      "reference": "references/units-b.png",
+      "referenceSHA256": "34a42745888392aaab06a6c8752e931dedf3aef0ce8ba6eff77ec289e4392639",
+      "crop": [
+        1246,
+        355,
+        343,
+        258
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 104,
+      "group": "units-b",
+      "cell": 8,
+      "raw": "art/hd-v3/icons/raw/units-b.png",
+      "rawSHA256": "a412bf4be5072dd24ca09be558f533109ca3de3c79b633f217af951c6fefccdc",
+      "reference": "references/units-b.png",
+      "referenceSHA256": "34a42745888392aaab06a6c8752e931dedf3aef0ce8ba6eff77ec289e4392639",
+      "crop": [
+        32,
+        675,
+        343,
+        258
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 105,
+      "group": "units-b",
+      "cell": 9,
+      "raw": "art/hd-v3/icons/raw/units-b.png",
+      "rawSHA256": "a412bf4be5072dd24ca09be558f533109ca3de3c79b633f217af951c6fefccdc",
+      "reference": "references/units-b.png",
+      "referenceSHA256": "34a42745888392aaab06a6c8752e931dedf3aef0ce8ba6eff77ec289e4392639",
+      "crop": [
+        436,
+        675,
+        343,
+        258
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 28,
+      "group": "radar-terrain",
+      "cell": 0,
+      "raw": "art/hd-v3/icons/raw/radar-terrain.png",
+      "rawSHA256": "5cc303169abab2f46a1265997b226f4195d41f29cb052e5177d2c2c5a31c8e1e",
+      "reference": "references/radar-terrain.png",
+      "referenceSHA256": "e86276aae92416ed149949760dc35baebb37b7de60c97b1e95362307dfa3b698",
+      "crop": [
+        32,
+        45,
+        432,
+        322
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 29,
+      "group": "radar-terrain",
+      "cell": 1,
+      "raw": "art/hd-v3/icons/raw/radar-terrain.png",
+      "rawSHA256": "5cc303169abab2f46a1265997b226f4195d41f29cb052e5177d2c2c5a31c8e1e",
+      "reference": "references/radar-terrain.png",
+      "referenceSHA256": "e86276aae92416ed149949760dc35baebb37b7de60c97b1e95362307dfa3b698",
+      "crop": [
+        528,
+        45,
+        432,
+        322
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 30,
+      "group": "radar-terrain",
+      "cell": 2,
+      "raw": "art/hd-v3/icons/raw/radar-terrain.png",
+      "rawSHA256": "5cc303169abab2f46a1265997b226f4195d41f29cb052e5177d2c2c5a31c8e1e",
+      "reference": "references/radar-terrain.png",
+      "referenceSHA256": "e86276aae92416ed149949760dc35baebb37b7de60c97b1e95362307dfa3b698",
+      "crop": [
+        1023,
+        45,
+        432,
+        322
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 106,
+      "group": "radar-terrain",
+      "cell": 3,
+      "raw": "art/hd-v3/icons/raw/radar-terrain.png",
+      "rawSHA256": "5cc303169abab2f46a1265997b226f4195d41f29cb052e5177d2c2c5a31c8e1e",
+      "reference": "references/radar-terrain.png",
+      "referenceSHA256": "e86276aae92416ed149949760dc35baebb37b7de60c97b1e95362307dfa3b698",
+      "crop": [
+        1519,
+        45,
+        432,
+        322
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 107,
+      "group": "radar-terrain",
+      "cell": 4,
+      "raw": "art/hd-v3/icons/raw/radar-terrain.png",
+      "rawSHA256": "5cc303169abab2f46a1265997b226f4195d41f29cb052e5177d2c2c5a31c8e1e",
+      "reference": "references/radar-terrain.png",
+      "referenceSHA256": "e86276aae92416ed149949760dc35baebb37b7de60c97b1e95362307dfa3b698",
+      "crop": [
+        32,
+        433,
+        432,
+        322
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 108,
+      "group": "radar-terrain",
+      "cell": 5,
+      "raw": "art/hd-v3/icons/raw/radar-terrain.png",
+      "rawSHA256": "5cc303169abab2f46a1265997b226f4195d41f29cb052e5177d2c2c5a31c8e1e",
+      "reference": "references/radar-terrain.png",
+      "referenceSHA256": "e86276aae92416ed149949760dc35baebb37b7de60c97b1e95362307dfa3b698",
+      "crop": [
+        528,
+        433,
+        432,
+        322
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 109,
+      "group": "radar-terrain",
+      "cell": 6,
+      "raw": "art/hd-v3/icons/raw/radar-terrain.png",
+      "rawSHA256": "5cc303169abab2f46a1265997b226f4195d41f29cb052e5177d2c2c5a31c8e1e",
+      "reference": "references/radar-terrain.png",
+      "referenceSHA256": "e86276aae92416ed149949760dc35baebb37b7de60c97b1e95362307dfa3b698",
+      "crop": [
+        1023,
+        433,
+        432,
+        322
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 110,
+      "group": "radar-terrain",
+      "cell": 7,
+      "raw": "art/hd-v3/icons/raw/radar-terrain.png",
+      "rawSHA256": "5cc303169abab2f46a1265997b226f4195d41f29cb052e5177d2c2c5a31c8e1e",
+      "reference": "references/radar-terrain.png",
+      "referenceSHA256": "e86276aae92416ed149949760dc35baebb37b7de60c97b1e95362307dfa3b698",
+      "crop": [
+        1519,
+        433,
+        432,
+        322
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 514,
+      "group": "credits-a",
+      "cell": 0,
+      "raw": "art/hd-v3/icons/raw/credits-a.png",
+      "rawSHA256": "0e8348965d466acc4aa9ccd6297229c8f0b1d26f66d4bfde037eaccb4782ac49",
+      "reference": "references/credits-a.png",
+      "referenceSHA256": "5329ccbd0e38897e7913e421518baf98a6bbd522682cff2e7ef4fa1c9ceadc8f",
+      "crop": [
+        31,
+        54,
+        687,
+        412
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 515,
+      "group": "credits-a",
+      "cell": 1,
+      "raw": "art/hd-v3/icons/raw/credits-a.png",
+      "rawSHA256": "0e8348965d466acc4aa9ccd6297229c8f0b1d26f66d4bfde037eaccb4782ac49",
+      "reference": "references/credits-a.png",
+      "referenceSHA256": "5329ccbd0e38897e7913e421518baf98a6bbd522682cff2e7ef4fa1c9ceadc8f",
+      "crop": [
+        780,
+        54,
+        687,
+        412
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 516,
+      "group": "credits-a",
+      "cell": 2,
+      "raw": "art/hd-v3/icons/raw/credits-a.png",
+      "rawSHA256": "0e8348965d466acc4aa9ccd6297229c8f0b1d26f66d4bfde037eaccb4782ac49",
+      "reference": "references/credits-a.png",
+      "referenceSHA256": "5329ccbd0e38897e7913e421518baf98a6bbd522682cff2e7ef4fa1c9ceadc8f",
+      "crop": [
+        31,
+        579,
+        687,
+        412
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 517,
+      "group": "credits-a",
+      "cell": 3,
+      "raw": "art/hd-v3/icons/raw/credits-a.png",
+      "rawSHA256": "0e8348965d466acc4aa9ccd6297229c8f0b1d26f66d4bfde037eaccb4782ac49",
+      "reference": "references/credits-a.png",
+      "referenceSHA256": "5329ccbd0e38897e7913e421518baf98a6bbd522682cff2e7ef4fa1c9ceadc8f",
+      "crop": [
+        780,
+        579,
+        687,
+        412
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 518,
+      "group": "credits-b",
+      "cell": 0,
+      "raw": "art/hd-v3/icons/raw/credits-b.png",
+      "rawSHA256": "d2ad192738659bee4390000b2d562ef5ffc0eba881ddd5324952025aa8ef3b0b",
+      "reference": "references/credits-b.png",
+      "referenceSHA256": "28f67c06f24227ae1ea4b39df70bc1e295f4a2a8c17f8448cb5d7180c17314d4",
+      "crop": [
+        31,
+        54,
+        687,
+        412
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 519,
+      "group": "credits-b",
+      "cell": 1,
+      "raw": "art/hd-v3/icons/raw/credits-b.png",
+      "rawSHA256": "d2ad192738659bee4390000b2d562ef5ffc0eba881ddd5324952025aa8ef3b0b",
+      "reference": "references/credits-b.png",
+      "referenceSHA256": "28f67c06f24227ae1ea4b39df70bc1e295f4a2a8c17f8448cb5d7180c17314d4",
+      "crop": [
+        780,
+        54,
+        687,
+        412
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 520,
+      "group": "credits-b",
+      "cell": 2,
+      "raw": "art/hd-v3/icons/raw/credits-b.png",
+      "rawSHA256": "d2ad192738659bee4390000b2d562ef5ffc0eba881ddd5324952025aa8ef3b0b",
+      "reference": "references/credits-b.png",
+      "referenceSHA256": "28f67c06f24227ae1ea4b39df70bc1e295f4a2a8c17f8448cb5d7180c17314d4",
+      "crop": [
+        31,
+        579,
+        687,
+        412
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 521,
+      "group": "credits-b",
+      "cell": 3,
+      "raw": "art/hd-v3/icons/raw/credits-b.png",
+      "rawSHA256": "d2ad192738659bee4390000b2d562ef5ffc0eba881ddd5324952025aa8ef3b0b",
+      "reference": "references/credits-b.png",
+      "referenceSHA256": "28f67c06f24227ae1ea4b39df70bc1e295f4a2a8c17f8448cb5d7180c17314d4",
+      "crop": [
+        780,
+        579,
+        687,
+        412
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 522,
+      "group": "credits-c",
+      "cell": 0,
+      "raw": "art/hd-v3/icons/raw/credits-c.png",
+      "rawSHA256": "622c1dc150a2c97e44f17a89b964e44cd9aa655a20ddb7abd99c31fde4e39faa",
+      "reference": "references/credits-c.png",
+      "referenceSHA256": "5698e5c651df8fa5137a311f725e327f6a62f8a00e5c96565679af5eddd8565a",
+      "crop": [
+        31,
+        54,
+        687,
+        412
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 523,
+      "group": "credits-c",
+      "cell": 1,
+      "raw": "art/hd-v3/icons/raw/credits-c.png",
+      "rawSHA256": "622c1dc150a2c97e44f17a89b964e44cd9aa655a20ddb7abd99c31fde4e39faa",
+      "reference": "references/credits-c.png",
+      "referenceSHA256": "5698e5c651df8fa5137a311f725e327f6a62f8a00e5c96565679af5eddd8565a",
+      "crop": [
+        780,
+        54,
+        687,
+        412
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    },
+    {
+      "id": 524,
+      "group": "credits-c",
+      "cell": 2,
+      "raw": "art/hd-v3/icons/raw/credits-c.png",
+      "rawSHA256": "622c1dc150a2c97e44f17a89b964e44cd9aa655a20ddb7abd99c31fde4e39faa",
+      "reference": "references/credits-c.png",
+      "referenceSHA256": "5698e5c651df8fa5137a311f725e327f6a62f8a00e5c96565679af5eddd8565a",
+      "crop": [
+        31,
+        579,
+        687,
+        412
+      ],
+      "method": "Explicit reviewed generated picture bounds from panel-crops.json; premultiplied area minification. Generated outside matte excluded, original source pixels never reapplied."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": true,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-4e2c9a8e-b667-4abd-8ed4-d57cc7fbecdb.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "sha256": "05c7bfc527069216a813a2b1b35ec5d51aa85c10bbe1731876fae17a5aa789b3",
+  "prompt": "motion-guard-correction-prompt.txt",
+  "references": [
+    "motion-parts.png"
+  ],
+  "consumedCells": [
+    7
+  ],
+  "note": "Only corrected narrow guard gesture cell7 is packed; other8 production parts retain original selectedraw."
+}

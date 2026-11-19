@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": true,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-92532a86-ecf0-444f-8773-ecc0dbe8af45.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1568,
+    1003
+  ],
+  "sha256": "83985d77ae0fd841a1f45b4cc8fb81f016ebaf375c1201711e106c09f571a0e1",
+  "prompt": "campaign-shell-prompt.txt",
+  "references": [
+    "../references/MAPMACH-native.png",
+    "hud.png"
+  ]
+}

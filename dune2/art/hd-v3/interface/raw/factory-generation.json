@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-7d1fb5d1-f380-4b48-9598-980a97bc941e.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1586,
+    992
+  ],
+  "sha256": "8290f55258658d65e2967bdb6b284efb32b4a81e64721d212b80f561e2bdd673",
+  "prompt": "factory-prompt.txt",
+  "references": [
+    "../references/CHOAM-native.png",
+    "hud.png"
+  ]
+}

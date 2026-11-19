@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "purpose": "Whole painted Arrakis opening artwork",
+  "source": "art/hd-v3/landing/raw/arrakis-corrected.png",
+  "sourceSHA256": "3be13331eeb0ba22cba0a46499776f7c58d0d808510c6b5e9f93843cd586d251",
+  "src": "painted/arrakis-3be13331eeb0ba22.png",
+  "sha256": "3be13331eeb0ba22cba0a46499776f7c58d0d808510c6b5e9f93843cd586d251",
+  "width": 1536,
+  "height": 1024,
+  "tool": "built-in ImageGen",
+  "prompts": [
+    "art/hd-v3/landing/raw/arrakis-initial-prompt.json",
+    "art/hd-v3/landing/raw/arrakis-correction-prompt.json"
+  ],
+  "originalReference": "dist/assets/planet.png"
+}

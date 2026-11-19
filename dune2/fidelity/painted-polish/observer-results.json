@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "executedOriginalDosBinary": false,
+  "patchIdempotent": true,
+  "desktopSyntaxFiles": 7,
+  "bridgeSha256": "1d9dfef868c8395625ff576bbe908166dd1b72179aa0b47e28131fe43ff99cdd",
+  "actualTileRasterSha256": "eefd6385bdd0e50502acbeed2d739886b1411ee7e01aff06d5d3c1d0eb400d47",
+  "cases": [
+    "scene not published before copy",
+    "live map and command isolation",
+    "timer pause retains committed world",
+    "monotonic revision",
+    "copied HUD glyph relocation",
+    "same-screen overlap",
+    "partial overwrite pixel provenance",
+    "transparent copy",
+    "transparent font dirty scope",
+    "unreferenced-slot recycling preserves long-lived visible labels",
+    "mouse and modal buffer backup/restore with reference retention",
+    "Present does not read live map or collect live owners",
+    "UI sprite exact native writes share copy-aware provenance",
+    "verbatim native opaque tile invalidates coincident-index old glyph",
+    "transparent native tile preserves unwritten holes",
+    "CPS/menu to world metadata transition",
+    "verbatim unfilled native border preserves portrait interior through screen copy",
+    "pure explicit observer refresh retains last native offset before callback gate"
+  ]
+}

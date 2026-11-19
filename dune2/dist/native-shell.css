@@ -24,3 +24,6 @@ html[data-graphics="painted"] .game-active .canvas-wrap{aspect-ratio:8/5;width:m
 html[data-graphics="painted"] #game-frame:fullscreen .canvas-wrap{width:min(100%,calc((100dvh - 56px)*8/5));aspect-ratio:8/5}
 .game-active nav label,.game-active nav button{font-size:14px}
 @media(max-width:750px){.game-active .masthead{height:auto;min-height:58px;flex-wrap:wrap}.game-active .wordmark small{display:none}.game-active .canvas-wrap{width:100%}html[data-graphics="painted"] .game-active .canvas-wrap{width:100%}}
+
+/* Painted Arrakis opening artwork. */
+html[data-graphics="painted"] .arrival-art{background-image:linear-gradient(0deg,#080c0a88,transparent 45%),url("painted/arrakis-3be13331eeb0ba22.png");image-rendering:auto}

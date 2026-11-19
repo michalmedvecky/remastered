@@ -27,28 +27,10 @@ const pkg=JSON.parse(fs.readFileSync(path.join(root,'fidelity/source-package.jso
 assert.equal(sha(path.join(dist,'music/adl.wasm')),pkg.musicWasmSha256);
 for(const [name,digest]of Object.entries(pkg.coreOutputs))assert.equal(sha(path.join(dist,'native',name)),digest,name);
 const preload=verifyPreload();
-execFileSync('python3',['-c',String.raw`
-import hashlib,json,sys,tarfile
-from pathlib import Path
-root=Path(sys.argv[1])
-with tarfile.open(root/'dist/native/source.tar.gz') as tar:
-    manifest=json.load(tar.extractfile('dune2/SOURCE-MANIFEST.json'))
-    assert manifest['originalGameArchivesIncluded'] is False
-    assert manifest['decodedOriginalArtReferencesIncluded'] is True
-    assert manifest['generatedPaintedArtIncluded'] is True
-    assert 'originalGameAssetsIncluded' not in manifest
-    assert not any(name.startswith('art/hd-v1/') for name in manifest['files'])
-    for name in ['painted-core.mjs','painted-renderer.mjs','painted-terrain.mjs','painted/native.json','painted/units.json','painted/buildings.json','painted/terrain.json','assets/content.json']:
-        assert 'dist/'+name in manifest['files'],name
-    assert any(name.startswith('art/hd-v2/') for name in manifest['files'])
-    assert not any(name.lower().endswith(('.pak','.exe','.com')) for name in manifest['files'])
-    for name,digest in manifest['files'].items():
-        current=(root/name).resolve()
-        assert current.is_relative_to(root.resolve()),name
-        assert hashlib.sha256(current.read_bytes()).hexdigest()==digest,name
-        member=tar.extractfile('dune2/'+name)
-        assert hashlib.sha256(member.read()).hexdigest()==digest,name
-`,root],{stdio:'inherit'});
+assert.equal(pkg.schema,2,'Split corresponding-source schema');
+assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dist,'native/SOURCE-PACKAGE.json'))),pkg,'Public source metadata matches retained release metadata');
+for(const part of pkg.artParts){assert.equal(sha(path.join(root,part.path)),part.sha256,part.path);assert.equal(fs.statSync(path.join(root,part.path)).size,part.bytes);assert(part.uncompressedBytes<=48*1024*1024,part.path+' source volume bound');}
+execFileSync('python3',[path.join(root,'tools/verify-source-package.py'),'--root',root],{stdio:'inherit'});
 const hashes={};for(const file of fs.readdirSync(dist).filter(n=>/\.(mjs|css|html)$/.test(n)))hashes[file]=sha(path.join(dist,file));
 fs.mkdirSync(path.join(root,'test-results'),{recursive:true});fs.writeFileSync(path.join(root,'test-results/build.json'),JSON.stringify({version,painted,modules,assetReferences:urls.size,scenarios:66,units:27,structures:19,preloadedOriginalsVerified:preload.files.filter(f=>f.originalHashVerified).length,nativeSources:Object.keys(build.sources).length,nativeOutputs:build.outputs,sourcePackage:pkg.sha256,hashes},null,2));
-console.log(`Verified ${modules} modules, ${urls.size} asset references, 66 scenarios, painted terrain/buildings/units, embedded original data and matching corresponding source. Original ZIP/EXE verification is a separate explicit check.`);
+console.log(`Verified ${modules} modules, ${urls.size} asset references, 66 scenarios, painted world/UI/interface/landing assets, split source volumes, embedded original data and matching corresponding source. Original ZIP/EXE verification is a separate explicit check.`);

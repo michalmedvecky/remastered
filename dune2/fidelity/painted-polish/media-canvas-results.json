@@ -1,0 +1,245 @@
+{
+  "results": [
+    {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "BARRAC.WSA",
+      "frame": 0,
+      "status": "painted-preview",
+      "motionStatus": "painted-semantic-native-phase",
+      "missingMotionAssets": [],
+      "motionOperations": 0,
+      "visualPhase": 0,
+      "samples": 30
+    },
+    {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "BARRAC.WSA",
+      "frame": 1,
+      "status": "painted-preview",
+      "motionStatus": "painted-semantic-native-phase",
+      "missingMotionAssets": [],
+      "motionOperations": 1,
+      "visualPhase": 1,
+      "samples": 30
+    },
+    {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "HEADQRTS.WSA",
+      "frame": 5,
+      "status": "painted-preview",
+      "motionStatus": "painted-semantic-native-phase",
+      "missingMotionAssets": [],
+      "motionOperations": 1,
+      "visualPhase": 2,
+      "samples": 30
+    },
+    {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "CARRYALL.WSA",
+      "frame": 0,
+      "status": "painted-preview",
+      "motionStatus": "painted-semantic-native-phase",
+      "missingMotionAssets": [],
+      "motionOperations": 0,
+      "visualPhase": 0,
+      "samples": 30
+    },
+    {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "CARRYALL.WSA",
+      "frame": 1,
+      "status": "painted-preview",
+      "motionStatus": "painted-semantic-native-phase",
+      "missingMotionAssets": [],
+      "motionOperations": 1,
+      "visualPhase": 1,
+      "samples": 30
+    },
+    {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "PALACE.WSA",
+      "frame": 10,
+      "status": "painted-preview",
+      "motionStatus": "painted-semantic-native-phase",
+      "missingMotionAssets": [],
+      "motionOperations": 2,
+      "visualPhase": 7,
+      "samples": 30
+    },
+    {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "WINDTRAP.WSA",
+      "frame": 0,
+      "status": "painted-preview",
+      "motionStatus": "painted-semantic-native-phase",
+      "missingMotionAssets": [],
+      "motionOperations": 0,
+      "visualPhase": 0,
+      "samples": 30
+    },
+    {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "WINDTRAP.WSA",
+      "frame": 5,
+      "status": "painted-preview",
+      "motionStatus": "painted-semantic-native-phase",
+      "missingMotionAssets": [],
+      "motionOperations": 2,
+      "visualPhase": 5,
+      "samples": 30
+    },
+    {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "STARPORT.WSA",
+      "frame": 16,
+      "status": "painted-preview",
+      "motionStatus": "painted-semantic-native-phase",
+      "missingMotionAssets": [],
+      "motionOperations": 1,
+      "visualPhase": 7,
+      "samples": 30
+    },
+    {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "HARVEST.WSA",
+      "frame": 9,
+      "status": "painted-preview",
+      "motionStatus": "painted-semantic-native-phase",
+      "missingMotionAssets": [],
+      "motionOperations": 2,
+      "visualPhase": 4,
+      "samples": 30
+    },
+    {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "GOLD-BB.WSA",
+      "frame": 3,
+      "status": "painted-preview",
+      "motionStatus": "painted-semantic-native-phase",
+      "missingMotionAssets": [],
+      "motionOperations": 1,
+      "visualPhase": 3,
+      "samples": 30
+    },
+    {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "LITEFTRY.WSA",
+      "frame": 2,
+      "status": "painted-preview",
+      "motionStatus": "painted-semantic-native-phase",
+      "missingMotionAssets": [],
+      "motionOperations": 1,
+      "visualPhase": 2,
+      "samples": 30
+    }
+  ],
+  "allFrameCanvasCoverage": {
+    "resources": 36,
+    "framesRendered": 161,
+    "missingAssets": 0,
+    "errors": 0
+  },
+  "diagnostics": {
+    "ready": true,
+    "resources": 36,
+    "atlases": 5,
+    "witnessCoordinates": 30,
+    "nativeFrames": 161,
+    "semanticMotionResources": 14,
+    "motionFrameCoverage": 161,
+    "originalRGBShading": false,
+    "independentAnimationClock": false,
+    "draws": 173,
+    "unknown": 0,
+    "ambiguous": 0,
+    "last": {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "QUAD.WSA",
+      "frame": 0,
+      "status": "painted-preview",
+      "motionStatus": "painted-static",
+      "missingMotionAssets": [],
+      "motionOperations": 0,
+      "visualPhase": 0,
+      "samples": 30
+    }
+  }
+}

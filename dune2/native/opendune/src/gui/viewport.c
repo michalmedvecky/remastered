@@ -133,8 +133,18 @@ bool GUI_Widget_Viewport_Click(Widget *w)
 	}
 
 	if (w->index == 43) {
-		x =  x / 16 + Tile_GetPackedX(g_minimapPosition);
-		y = (y - 40) / 16 + Tile_GetPackedY(g_minimapPosition);
+#ifdef __EMSCRIPTEN__
+		uint16 hdPacked;
+		if (DuneHD_ViewportPick(x, (int)y - 40, Tile_GetPackedX(g_minimapPosition), Tile_GetPackedY(g_minimapPosition), &hdPacked)) {
+			if (hdPacked == 0xffff) return true;
+			x = Tile_GetPackedX(hdPacked);
+			y = Tile_GetPackedY(hdPacked);
+		} else
+#endif
+		{
+			x =  x / 16 + Tile_GetPackedX(g_minimapPosition);
+			y = (y - 40) / 16 + Tile_GetPackedY(g_minimapPosition);
+		}
 	} else if (w->index == 44) {
 		uint16 mapScale;
 		const MapInfo *mapInfo;
@@ -397,6 +407,7 @@ void GUI_Widget_Viewport_Draw(bool forceRedraw, bool hasScrolled, bool drawToMai
 
 				t = &g_map[curPos];
 				left = x << 4;
+				DUNE_HD(DuneHD_Tile(curPos));
 
 				if (!g_debugScenario && g_veiledTileID == t->overlayTileID) {
 					/* draw a black rectangle */
@@ -883,7 +894,7 @@ void GUI_Widget_Viewport_Draw(bool forceRedraw, bool hasScrolled, bool drawToMai
 	GFX_Screen_SetActive(oldScreenID);
 
 	Widget_SetCurrentWidget(oldWidgetID);
-	DUNE_HD(DuneHD_EndViewport());
+	DUNE_HD(DuneHD_EndViewport(!drawToMainScreen));
 }
 
 /**

@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "manifestSha256": "c899ac4cb2453d020454340523623f99921566705e2d6e152eea60de89b590d7",
+  "atlasSha256": {
+    "icons0": "280d75768701d5a29d2e335ceea1ab2261e0a0f606c85f978ec3a5ca8ec127e6",
+    "icons1": "99f51e709937fe742d9113ff859bd3de3b347a13f19ebbdba22466981d76ca74",
+    "icons2": "6f8e7366f7e7eb3802339d1e9ff476dcb8ed901fadd53464ece956727bad0d86"
+  },
+  "byteIdenticalRebuild": true,
+  "method": "Retained built-in ImageGen outputs and prompts, original indexed UI inventory, frozen coherent advisor bases and deterministic premultiplied area packing; no new generation",
+  "coverage": {
+    "expectedNativeSlots": 281,
+    "available": 281,
+    "paintedPortraits": 49,
+    "paintedCreditIllustrations": 11,
+    "complete": true,
+    "statuses": {
+      "analytic-vector": 105,
+      "painted": 102,
+      "painted-derived": 7,
+      "native-empty": 10,
+      "painted-native-alias": 20,
+      "semantic-text": 37
+    },
+    "remaining": []
+  }
+}

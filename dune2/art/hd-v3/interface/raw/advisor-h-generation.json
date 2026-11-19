@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-ed29e819-db1f-41b2-99e4-98ba08e33401.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1586,
+    992
+  ],
+  "sha256": "de9d161029661c44670b3669180e09e63f6c6664be6c55c3d40aec9d715862bb",
+  "prompt": "advisor-h-prompt.txt",
+  "references": [
+    "../references/MENTATH-native.png",
+    "hud.png"
+  ]
+}

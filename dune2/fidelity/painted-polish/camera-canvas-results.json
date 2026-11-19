@@ -1,0 +1,61 @@
+{
+  "source": {
+    "nativeBankSha256": "16519dfea0fd5dc39a0cb65f1d16ec5b3349567e8bef576a4c2429a5eaf874a5",
+    "module": "createPaintedRenderer",
+    "source": "Exact prepared ICON/SHP descriptors, original indexed palette and SCREEN.CPS evidence",
+    "purpose": "Synthetic presentation-only camera, current fringe, world-UV and cached-render review"
+  },
+  "executesDos": false,
+  "syntheticSourceExact": true,
+  "nativeFixtureMismatchPixels": 0,
+  "snapshots": {
+    "commits": 9,
+    "callbacks": 30
+  },
+  "canvas": {
+    "frames": 91,
+    "worldRefreshes": 9,
+    "nativeFrames": 30,
+    "cachedWorldReused": true,
+    "animationMedianMs": 16.7,
+    "movingSamples": 80,
+    "errors": []
+  },
+  "uv": {
+    "samples": 120,
+    "maxChannelDifference": 4,
+    "meanChannelDifference": 0.28428819444444453
+  },
+  "fringeWitness": {
+    "at": 400,
+    "cameraX": 209.2810457522994,
+    "nativeX": 224,
+    "currentNativeCommandX": -16,
+    "currentNativeOriginalVisiblePixels": 0,
+    "paintedBluePixels": 380
+  },
+  "goneWitness": {
+    "at": 1083.3999999999999,
+    "revision": 7,
+    "ownerRemoved": true,
+    "paintedBluePixels": 0
+  },
+  "reducedMotion": false,
+  "inputQ8": {
+    "samples": 124,
+    "maxAbs": 4574,
+    "projectionSamples": 119,
+    "maxLogicalError": 0.0019467195228060064
+  },
+  "pass": true,
+  "observedTiming": {
+    "paintMs": 0.1,
+    "maxPaintMs": 75,
+    "worldMs": 0.7,
+    "uiMs": 0.1,
+    "presentMs": 0.3,
+    "errors": 0,
+    "uiCacheHits": 29,
+    "uiRefreshes": 1
+  }
+}

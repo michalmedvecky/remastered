@@ -1,0 +1,927 @@
+{
+  "schema": 1,
+  "atlases": {
+    "chrome": {
+      "src": "painted/interface-205e4858cb0f653c.png",
+      "sha256": "205e4858cb0f653c4f318a38f6dc3201f3ffd11d165ab33ba83965da9495c5e1",
+      "w": 2560,
+      "h": 2400
+    },
+    "advisors": {
+      "src": "painted/interface-advisors-65882090de707013.png",
+      "sha256": "65882090de707013f9621ab3c1a32d654299455929c1b2f9da7aba6df8c639a4",
+      "w": 2560,
+      "h": 1600
+    },
+    "campaign": {
+      "src": "painted/interface-campaign-6b3b20023b47c8e2.png",
+      "sha256": "6b3b20023b47c8e25cb793121826579f8bc00f8556ec9221fbe7fd026a1cd2cb",
+      "w": 2560,
+      "h": 1600
+    },
+    "postgame": {
+      "src": "painted/interface-postgame-d5aca620b296eb33.png",
+      "sha256": "d5aca620b296eb3347859e7ab04e60bac6c1528c262538f8b2f79dbb3ea56fc7",
+      "w": 1280,
+      "h": 800
+    }
+  },
+  "packing": [
+    {
+      "id": "hud-shell",
+      "rect": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "nativeRect": [
+        0,
+        0,
+        320,
+        200
+      ],
+      "sourceResource": "SCREEN.CPS",
+      "housePaint": true,
+      "liveWells": [
+        {
+          "id": "mentat",
+          "nativeRect": [
+            16,
+            1,
+            78,
+            16
+          ]
+        },
+        {
+          "id": "options",
+          "nativeRect": [
+            104,
+            1,
+            78,
+            16
+          ]
+        },
+        {
+          "id": "credits",
+          "nativeRect": [
+            192,
+            0,
+            128,
+            19
+          ]
+        },
+        {
+          "id": "message",
+          "nativeRect": [
+            8,
+            21,
+            304,
+            14
+          ]
+        },
+        {
+          "id": "action-name",
+          "nativeRect": [
+            256,
+            42,
+            64,
+            9
+          ]
+        },
+        {
+          "id": "selection-picture",
+          "nativeRect": [
+            258,
+            51,
+            32,
+            24
+          ]
+        },
+        {
+          "id": "health",
+          "nativeRect": [
+            293,
+            52,
+            24,
+            7
+          ]
+        },
+        {
+          "id": "damage-label",
+          "nativeRect": [
+            292,
+            60,
+            28,
+            14
+          ]
+        },
+        {
+          "id": "actions",
+          "nativeRect": [
+            258,
+            76,
+            60,
+            46
+          ]
+        },
+        {
+          "id": "radar",
+          "nativeRect": [
+            256,
+            136,
+            64,
+            64
+          ]
+        }
+      ],
+      "transparentRects": [
+        [
+          0,
+          40,
+          240,
+          160
+        ],
+        [
+          256,
+          136,
+          64,
+          64
+        ]
+      ],
+      "evidence": "GUI_DrawInterfaceAndRadar; g_table_gameWidgetInfo; g_widgetProperties"
+    },
+    {
+      "id": "hud-frame-only",
+      "rect": [
+        1280,
+        0,
+        1280,
+        800
+      ],
+      "nativeRect": [
+        0,
+        0,
+        320,
+        200
+      ],
+      "sourceResource": "SCREEN.CPS",
+      "housePaint": true,
+      "liveWells": [
+        {
+          "id": "mentat",
+          "nativeRect": [
+            16,
+            1,
+            78,
+            16
+          ]
+        },
+        {
+          "id": "options",
+          "nativeRect": [
+            104,
+            1,
+            78,
+            16
+          ]
+        },
+        {
+          "id": "credits",
+          "nativeRect": [
+            192,
+            0,
+            128,
+            19
+          ]
+        },
+        {
+          "id": "message",
+          "nativeRect": [
+            8,
+            21,
+            304,
+            14
+          ]
+        },
+        {
+          "id": "action-name",
+          "nativeRect": [
+            256,
+            42,
+            64,
+            9
+          ]
+        },
+        {
+          "id": "selection-picture",
+          "nativeRect": [
+            258,
+            51,
+            32,
+            24
+          ]
+        },
+        {
+          "id": "health",
+          "nativeRect": [
+            293,
+            52,
+            24,
+            7
+          ]
+        },
+        {
+          "id": "damage-label",
+          "nativeRect": [
+            292,
+            60,
+            28,
+            14
+          ]
+        },
+        {
+          "id": "actions",
+          "nativeRect": [
+            258,
+            76,
+            60,
+            46
+          ]
+        },
+        {
+          "id": "radar",
+          "nativeRect": [
+            256,
+            136,
+            64,
+            64
+          ]
+        }
+      ],
+      "transparentRects": [
+        [
+          0,
+          40,
+          240,
+          160
+        ],
+        [
+          256,
+          136,
+          64,
+          64
+        ],
+        [
+          16,
+          1,
+          78,
+          16
+        ],
+        [
+          104,
+          1,
+          78,
+          16
+        ],
+        [
+          192,
+          0,
+          128,
+          19
+        ],
+        [
+          8,
+          21,
+          304,
+          14
+        ],
+        [
+          256,
+          42,
+          64,
+          82
+        ]
+      ],
+      "status": "painted-whole-object-with-native-well-cutouts"
+    },
+    {
+      "id": "factory-shell",
+      "rect": [
+        0,
+        800,
+        1280,
+        800
+      ],
+      "nativeRect": [
+        0,
+        0,
+        320,
+        200
+      ],
+      "sourceResource": "CHOAM.CPS",
+      "housePaint": true,
+      "transparentRects": [
+        [
+          128,
+          48,
+          184,
+          112
+        ]
+      ],
+      "liveWells": [
+        {
+          "id": "credits",
+          "nativeRect": [
+            192,
+            0,
+            128,
+            19
+          ]
+        },
+        {
+          "id": "order-list",
+          "nativeRect": [
+            64,
+            0,
+            48,
+            200
+          ]
+        },
+        {
+          "id": "selected-name",
+          "nativeRect": [
+            128,
+            18,
+            184,
+            20
+          ]
+        },
+        {
+          "id": "portrait-animation",
+          "nativeRect": [
+            128,
+            48,
+            184,
+            112
+          ]
+        },
+        {
+          "id": "factory-actions",
+          "nativeRect": [
+            120,
+            164,
+            200,
+            36
+          ]
+        },
+        {
+          "id": "upper-crest",
+          "nativeRect": [
+            0,
+            8,
+            56,
+            40
+          ]
+        },
+        {
+          "id": "lower-crest",
+          "nativeRect": [
+            0,
+            152,
+            56,
+            40
+          ]
+        }
+      ],
+      "evidence": "GUI_FactoryWindow_Init; native WSA_DisplayFrame128,48"
+    },
+    {
+      "id": "house-choice",
+      "rect": [
+        1280,
+        800,
+        1280,
+        800
+      ],
+      "nativeRect": [
+        0,
+        0,
+        320,
+        200
+      ],
+      "sourceResource": "HERALD.ENG",
+      "housePaint": false,
+      "labels": [
+        {
+          "text": "Select your House",
+          "anchor": [
+            160,
+            18
+          ],
+          "align": "center",
+          "style": "serif-title"
+        },
+        {
+          "text": "Atreides",
+          "anchor": [
+            61,
+            133
+          ],
+          "align": "center",
+          "style": "serif-house"
+        },
+        {
+          "text": "Ordos",
+          "anchor": [
+            158,
+            133
+          ],
+          "align": "center",
+          "style": "serif-house"
+        },
+        {
+          "text": "Harkonnen",
+          "anchor": [
+            255,
+            133
+          ],
+          "align": "center",
+          "style": "serif-house"
+        }
+      ],
+      "clickRegions": [
+        {
+          "house": 1,
+          "nativeRect": [
+            16,
+            56,
+            96,
+            104
+          ]
+        },
+        {
+          "house": 2,
+          "nativeRect": [
+            112,
+            56,
+            96,
+            104
+          ]
+        },
+        {
+          "house": 0,
+          "nativeRect": [
+            208,
+            56,
+            96,
+            104
+          ]
+        }
+      ],
+      "evidence": "GUI_PickHouse l_houses; HERALD.ENG"
+    },
+    {
+      "id": "menu-plate",
+      "rect": [
+        0,
+        1600,
+        960,
+        536
+      ],
+      "nineSlice": [
+        4,
+        20,
+        4,
+        4
+      ],
+      "sourceResource": "GUI_DrawBorder",
+      "housePaint": true,
+      "titleBaseline": 14,
+      "contentInsets": [
+        5,
+        21,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "widget-inset",
+      "rect": [
+        960,
+        1600,
+        384,
+        256
+      ],
+      "nineSlice": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "housePaint": false,
+      "sourceResource": "GUI_DrawBorder"
+    },
+    {
+      "id": "frame-border",
+      "rect": [
+        1344,
+        1600,
+        384,
+        256
+      ],
+      "nineSlice": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "transparentRects": [
+        [
+          3,
+          3,
+          90,
+          58
+        ]
+      ],
+      "housePaint": false,
+      "sourceResource": "GUI_DrawBorder"
+    },
+    {
+      "id": "widget-button",
+      "rect": [
+        960,
+        1856,
+        312,
+        64
+      ],
+      "nineSlice": [
+        8,
+        4,
+        8,
+        4
+      ],
+      "housePaint": true,
+      "sourceResource": "GUI_Widget_TextButton_Draw",
+      "nativeState": "normal"
+    },
+    {
+      "id": "widget-button-pressed",
+      "rect": [
+        960,
+        1920,
+        312,
+        64
+      ],
+      "nineSlice": [
+        8,
+        4,
+        8,
+        4
+      ],
+      "housePaint": true,
+      "sourceResource": "GUI_Widget_TextButton_Draw",
+      "nativeState": "pressed"
+    },
+    {
+      "id": "widget-button-disabled",
+      "rect": [
+        960,
+        1984,
+        312,
+        64
+      ],
+      "nineSlice": [
+        8,
+        4,
+        8,
+        4
+      ],
+      "housePaint": false,
+      "sourceResource": "GUI_Widget_TextButton_Draw",
+      "nativeState": "disabled"
+    },
+    {
+      "id": "message-inset",
+      "rect": [
+        0,
+        2136,
+        1280,
+        80
+      ],
+      "nineSlice": [
+        4,
+        3,
+        4,
+        3
+      ],
+      "housePaint": false,
+      "sourceResource": "SCREEN.CPS"
+    },
+    {
+      "id": "house-confirm-question",
+      "rect": [
+        0,
+        2216,
+        832,
+        96
+      ],
+      "nineSlice": [
+        4,
+        3,
+        4,
+        3
+      ],
+      "housePaint": false,
+      "sourceResource": "MISC.ENG",
+      "status": "painted-reused-blank-surface",
+      "sourcePlacement": [
+        0,
+        0,
+        208,
+        24
+      ],
+      "destinationNativeRect": [
+        0,
+        0,
+        208,
+        24
+      ]
+    },
+    {
+      "id": "house-confirm-name",
+      "rect": [
+        832,
+        2216,
+        416,
+        96
+      ],
+      "nineSlice": [
+        4,
+        3,
+        4,
+        3
+      ],
+      "housePaint": false,
+      "sourceResource": "MISC.ENG",
+      "status": "painted-reused-blank-surface",
+      "sourcePlacement": [
+        0,
+        24,
+        104,
+        24
+      ],
+      "destinationNativeRect": [
+        208,
+        0,
+        104,
+        24
+      ]
+    },
+    {
+      "id": "advisor-h",
+      "atlas": "advisors",
+      "rect": [
+        0,
+        0,
+        1280,
+        800
+      ]
+    },
+    {
+      "id": "advisor-a",
+      "atlas": "advisors",
+      "rect": [
+        1280,
+        0,
+        1280,
+        800
+      ]
+    },
+    {
+      "id": "advisor-o",
+      "atlas": "advisors",
+      "rect": [
+        0,
+        800,
+        1280,
+        800
+      ]
+    },
+    {
+      "id": "advisor-m",
+      "atlas": "advisors",
+      "rect": [
+        1280,
+        800,
+        1280,
+        800
+      ]
+    },
+    {
+      "id": "campaign-shell",
+      "atlas": "campaign",
+      "rect": [
+        0,
+        0,
+        1280,
+        800
+      ]
+    },
+    {
+      "id": "campaign-undivided",
+      "atlas": "campaign",
+      "rect": [
+        1280,
+        0,
+        1216,
+        480
+      ]
+    },
+    {
+      "id": "campaign-regions",
+      "atlas": "campaign",
+      "rect": [
+        1280,
+        480,
+        1216,
+        480
+      ]
+    },
+    {
+      "id": "campaign-region-lines",
+      "atlas": "campaign",
+      "rect": [
+        0,
+        800,
+        1216,
+        480
+      ]
+    },
+    {
+      "id": "campaign-planet",
+      "atlas": "campaign",
+      "rect": [
+        1280,
+        960,
+        1216,
+        480
+      ]
+    },
+    {
+      "id": "score-shell",
+      "atlas": "postgame",
+      "rect": [
+        0,
+        0,
+        1280,
+        800
+      ]
+    }
+  ],
+  "raws": {
+    "hud": {
+      "path": "art/hd-v3/interface/raw/hud.png",
+      "sha256": "bf483f4d51941ab483983721d8aa6af1d2702f96ce51130e50c3ee0a5510e624",
+      "prompt": "art/hd-v3/interface/raw/hud-prompt.txt",
+      "promptSHA256": "eeab07d95b8bdebd2638d0aca817badecd1c197b2f34a86fc395818b899a24ef",
+      "dimensions": [
+        1586,
+        992
+      ],
+      "method": "built-in-imagegen-whole-object"
+    },
+    "factory": {
+      "path": "art/hd-v3/interface/raw/factory.png",
+      "sha256": "8290f55258658d65e2967bdb6b284efb32b4a81e64721d212b80f561e2bdd673",
+      "prompt": "art/hd-v3/interface/raw/factory-prompt.txt",
+      "promptSHA256": "69007bc111fe635d7ba14753b8a6898345c1e6b0cd7aa5f7a83490244f1cb8db",
+      "dimensions": [
+        1586,
+        992
+      ],
+      "method": "built-in-imagegen-whole-object"
+    },
+    "dialog": {
+      "path": "art/hd-v3/interface/raw/dialog.png",
+      "sha256": "4984abff6bebecba603c0f38b1bb50d45a9ce5dd72b4a5d39c83f033eafbc1ad",
+      "prompt": "art/hd-v3/interface/raw/dialog-prompt.txt",
+      "promptSHA256": "d4b0f90ca57429f93deedbd769c7628d3864017797fa1d24ab922883ebc556aa",
+      "dimensions": [
+        1642,
+        958
+      ],
+      "method": "built-in-imagegen-whole-object"
+    },
+    "controls": {
+      "path": "art/hd-v3/interface/raw/controls.png",
+      "sha256": "51100c317ce0c04da2286790e45300cf592ec5837fc69a60695172b777ea46f2",
+      "prompt": "art/hd-v3/interface/raw/controls-prompt.txt",
+      "promptSHA256": "2854fe5f04cac23a2cd3f4a3be428ce4008012b1966a67bc177126595b8493a7",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "method": "built-in-imagegen-whole-object"
+    },
+    "herald": {
+      "path": "art/hd-v3/interface/raw/herald.png",
+      "sha256": "34ba769d2643133ef12b9a71d4f63a02e01a4af269e31e0c015963cca1d10931",
+      "prompt": "art/hd-v3/interface/raw/herald-prompt.txt",
+      "promptSHA256": "b63d144a1779b2ef0326170ffd8afecf6c1e137b46468f0c3b81cfdb80c529ce",
+      "dimensions": [
+        1586,
+        992
+      ],
+      "method": "built-in-imagegen-whole-object"
+    },
+    "advisor-h": {
+      "path": "art/hd-v3/interface/raw/advisor-h.png",
+      "sha256": "de9d161029661c44670b3669180e09e63f6c6664be6c55c3d40aec9d715862bb",
+      "prompt": "art/hd-v3/interface/raw/advisor-h-prompt.txt",
+      "promptSHA256": "6a60a3be0572695653b23cbfb6271dd19e57cd3ea5e0cb3db1636edfba727f4a",
+      "dimensions": [
+        1586,
+        992
+      ],
+      "method": "built-in-imagegen-whole-object"
+    },
+    "advisor-a": {
+      "path": "art/hd-v3/interface/raw/advisor-a.png",
+      "sha256": "00e8f0eb55e73f3a9f3355b3010e5ee80d6fc436e9745d23a50cd114f9ba1e0e",
+      "prompt": "art/hd-v3/interface/raw/advisor-a-correction-prompt.txt",
+      "promptSHA256": "b74f915e83926daa89858ecc2ea7adef1be107966dd0b6d8146cc16acb39b5c1",
+      "dimensions": [
+        1585,
+        992
+      ],
+      "method": "built-in-imagegen-whole-object"
+    },
+    "advisor-o": {
+      "path": "art/hd-v3/interface/raw/advisor-o.png",
+      "sha256": "dd8d29bd39e9c71d820b9f26b58f178bdd6654cbe91c7efc2de2ceae6c1ae370",
+      "prompt": "art/hd-v3/interface/raw/advisor-o-correction-prompt.txt",
+      "promptSHA256": "597e742c011f5ea6ec85c2d7a78ca7cebb4de0fed86a3ecf54928e68934c2c4c",
+      "dimensions": [
+        1585,
+        992
+      ],
+      "method": "built-in-imagegen-whole-object"
+    },
+    "advisor-m": {
+      "path": "art/hd-v3/interface/raw/advisor-m.png",
+      "sha256": "ee2c434fb6a958db3131fff02b5ba9620d3360243118d788ea6a422ad9d36ae5",
+      "prompt": "art/hd-v3/interface/raw/advisor-m-prompt.txt",
+      "promptSHA256": "3b60cae21da4e38228d2d624899e2dac4a77e81defcc95ba2893f7f13cf21ebf",
+      "dimensions": [
+        1586,
+        992
+      ],
+      "method": "built-in-imagegen-whole-object"
+    },
+    "campaign-map": {
+      "path": "art/hd-v3/interface/raw/campaign-map.png",
+      "sha256": "7240fa224aa188fb0f96604665b02bf389ff3d10be07d47f7036fc3fcac241b3",
+      "prompt": "art/hd-v3/interface/raw/campaign-map-prompt.txt",
+      "promptSHA256": "2ba2f9f698e3d7f4004660a1973e1b0180848ae848321801601bafee2e13a2a0",
+      "dimensions": [
+        1991,
+        789
+      ],
+      "method": "built-in-imagegen-whole-object"
+    },
+    "campaign-shell": {
+      "path": "art/hd-v3/interface/raw/campaign-shell.png",
+      "sha256": "83985d77ae0fd841a1f45b4cc8fb81f016ebaf375c1201711e106c09f571a0e1",
+      "prompt": "art/hd-v3/interface/raw/campaign-shell-prompt.txt",
+      "promptSHA256": "60f0ba0473eeefa2ef6912fc76c79c582ee1d0540974111b0731fddb14a3640f",
+      "dimensions": [
+        1568,
+        1003
+      ],
+      "method": "built-in-imagegen-whole-object"
+    },
+    "campaign-planet": {
+      "path": "art/hd-v3/interface/raw/campaign-planet.png",
+      "sha256": "6167e6c67b041ce331fa88bd08b8c38e95ac75e6553898469cf037c751d8b28d",
+      "prompt": "art/hd-v3/interface/raw/campaign-planet-prompt.txt",
+      "promptSHA256": "1526a2d51fd6cbb672241a413aaf2d4f36a4be2691bd1dd2e7458218638ea6c3",
+      "dimensions": [
+        1586,
+        992
+      ],
+      "method": "built-in-imagegen-whole-object"
+    },
+    "score-shell": {
+      "path": "art/hd-v3/interface/raw/score-shell.png",
+      "sha256": "b86fb4a8dd852c91fca6c0598acf422add0fb46b4eb601506f46bc305f05425c",
+      "prompt": "art/hd-v3/interface/raw/score-shell-prompt.txt",
+      "promptSHA256": "bb788b1a707f453dc9749f71bb3022155055d78e4efa09e47551f7bf2f658488",
+      "dimensions": [
+        1568,
+        1003
+      ],
+      "method": "built-in-imagegen-whole-object"
+    }
+  }
+}

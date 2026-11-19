@@ -1,3 +1,7 @@
+/* Dune II browser port modifications: 2026-11-18.
+ * Changed for browser integration and/or V1.07 compatibility;
+ * original copyright and license notices are retained below.
+ */
 /** @file src/gfx.c Graphics routines. */
 
 #include <assert.h>
@@ -6,6 +10,13 @@
 #include "types.h"
 
 #include "gfx.h"
+#ifdef __EMSCRIPTEN__
+#include "hd_bridge.h"
+#define DUNE_HD(call) call
+#else
+#define DUNE_HD(call) ((void)0)
+#endif
+
 
 #include "gui/widget.h"
 #include "house.h"
@@ -113,6 +124,7 @@ void GFX_Screen_SetDirty(Screen screenID, uint16 left, uint16 top, uint16 right,
 	uint16 y;
 #endif
 	if(screenID == SCREEN_ACTIVE) screenID = s_screenActiveID;
+	DUNE_HD(DuneHD_Dirty(screenID, left, top, right, bottom));
 	if(screenID != SCREEN_0) return;
 	s_screen0_is_dirty = true;
 	if (left < s_screen0_dirty_area.left) s_screen0_dirty_area.left = left;
@@ -250,14 +262,15 @@ void GFX_DrawTile(uint16 tileID, uint16 x, uint16 y, uint8 houseID)
 				uint8 right = icon_palette[(*rptr) & 0xF];
 				rptr++;
 
-				if (left != 0) *wptr = left;
+				if (left != 0) { *wptr = left; DUNE_HD(DuneHD_WritePixel(wptr, SCREEN_ACTIVE)); }
 				wptr++;
-				if (right != 0) *wptr = right;
+				if (right != 0) { *wptr = right; DUNE_HD(DuneHD_WritePixel(wptr, SCREEN_ACTIVE)); }
 				wptr++;
 			}
 			wptr += s_tileSpacing;
 		}
 	} else {
+		DUNE_HD(DuneHD_Dirty(SCREEN_ACTIVE, x, y, x + s_tileWidth * 2, y + s_tileHeight));
 		for (j = 0; j < s_tileHeight; j++) {
 			for (i = 0; i < s_tileWidth; i++) {
 				*wptr++ = icon_palette[(*rptr) >> 4];
@@ -308,6 +321,7 @@ void GFX_PutPixel(uint16 x, uint16 y, uint8 colour)
 	if (y >= SCREEN_HEIGHT) return;
 	if (x >= SCREEN_WIDTH) return;
 
+	DUNE_HD(DuneHD_Dirty(SCREEN_ACTIVE, x, y, x + 1, y + 1));
 	*((uint8 *)GFX_Screen_GetActive() + y * SCREEN_WIDTH + x) = colour;
 }
 
@@ -368,6 +382,7 @@ void GFX_Screen_Copy2(int16 xSrc, int16 ySrc, int16 xDst, int16 yDst, int16 widt
 	if (width < 0 || width >= SCREEN_WIDTH) return;
 	if (height < 0 || height >= SCREEN_HEIGHT) return;
 
+	DUNE_HD(DuneHD_Copy(screenSrc, screenDst, xSrc, ySrc, xDst, yDst, width, height, skipNull));
 	GFX_Screen_SetDirty(screenDst, xDst, yDst, xDst + width, yDst + height);
 
 	src = GFX_Screen_Get_ByIndex(screenSrc);
@@ -431,6 +446,7 @@ void GFX_Screen_Copy(int16 xSrc, int16 ySrc, int16 xDst, int16 yDst, int16 width
 	src += xSrc + ySrc * SCREEN_WIDTH;
 	dst += xDst + yDst * SCREEN_WIDTH;
 
+	DUNE_HD(DuneHD_Copy(screenSrc, screenDst, xSrc, ySrc, xDst, yDst, width, height, false));
 	GFX_Screen_SetDirty(screenDst, xDst, yDst, xDst + width, yDst + height);
 
 	if (width == SCREEN_WIDTH) {
@@ -541,6 +557,7 @@ void GFX_CopyFromBuffer(int16 left, int16 top, uint16 width, uint16 height, uint
 	screen = GFX_Screen_Get_ByIndex(SCREEN_0);
 	screen += top * SCREEN_WIDTH + left;
 
+	DUNE_HD(DuneHD_BufferRestore(buffer, left, top, width, height));
 	GFX_Screen_SetDirty(SCREEN_0, left, top, left + width, top + height);
 
 	while (height-- != 0) {
@@ -576,6 +593,7 @@ void GFX_CopyToBuffer(int16 left, int16 top, uint16 width, uint16 height, uint8 
 
 	screen = GFX_Screen_Get_ByIndex(SCREEN_0);
 	screen += top * SCREEN_WIDTH + left;
+	DUNE_HD(DuneHD_BufferSave(buffer, left, top, width, height));
 
 	while (height-- != 0) {
 		memcpy(buffer, screen, width);

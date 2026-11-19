@@ -1,0 +1,386 @@
+{
+  "schema": 1,
+  "review": "Manual visual review of every native frame contact plus exact delta bounds. Observed semantics are separated from new-art implementation proposals.",
+  "resources": {
+    "BARRAC.WSA": {
+      "category": "rotating-mechanism",
+      "observation": "Only the small foreground rooftop HVAC fan changes. The large troop formation and architecture are static.",
+      "parts": [
+        {
+          "id": "fan",
+          "bounds": [
+            132,
+            79,
+            9,
+            7
+          ],
+          "kind": "rotor-pose",
+          "proposal": "Paint three complete blade-disc poses inside the new fan housing; select the native phase, preserving the static roof and troops.",
+          "limits": []
+        }
+      ]
+    },
+    "CARRYALL.WSA": {
+      "category": "person-pose",
+      "observation": "The red ground marshal at lower right changes arm pose. The aircraft and gantries remain static.",
+      "parts": [
+        {
+          "id": "marshal-arms",
+          "bounds": [
+            153,
+            90,
+            11,
+            3
+          ],
+          "kind": "person-pose",
+          "proposal": "Create a clean ground plate plus two new complete red marshal poses at the original body pivot; phase from the native two-frame sequence.",
+          "limits": []
+        }
+      ]
+    },
+    "GOLD-BB.WSA": {
+      "category": "vent-plume",
+      "observation": "A white vent/steam plume projects from the lower-right side of the missile, grows and disperses. The missile and dish are static.",
+      "parts": [
+        {
+          "id": "steam",
+          "bounds": [
+            101,
+            60,
+            22,
+            10
+          ],
+          "kind": "particles",
+          "proposal": "Create new softly edged white vent/plume phases over the painted sky/launcher clean plate, including the absent phase and authored idle holds.",
+          "limits": []
+        }
+      ]
+    },
+    "HARVEST.WSA": {
+      "category": "dust-and-material-particles",
+      "observation": "Small dust/spice puffs appear at the two lower tread-contact areas. The main vehicle silhouette stays fixed.",
+      "parts": [
+        {
+          "id": "left-contact",
+          "bounds": [
+            64,
+            87,
+            27,
+            18
+          ],
+          "kind": "particles",
+          "proposal": "Paint new contact dust/spice puffs at the original left tread footprint; preserve native empty/growth/dissipation phases.",
+          "limits": []
+        },
+        {
+          "id": "right-contact",
+          "bounds": [
+            143,
+            87,
+            13,
+            13
+          ],
+          "kind": "particles",
+          "proposal": "Paint corresponding right contact dust puffs. Do not translate or bob the whole harvester.",
+          "limits": []
+        }
+      ]
+    },
+    "HEADQRTS.WSA": {
+      "category": "rotating-mechanism",
+      "observation": "The single white dish on the far-right roof rotates between oblique and face-on poses. The left roof array stays fixed.",
+      "parts": [
+        {
+          "id": "right-radar",
+          "bounds": [
+            149,
+            46,
+            24,
+            17
+          ],
+          "kind": "dish-pose",
+          "proposal": "Paint three complete coherent dish poses anchored to the unchanged roof mount; retain the authored hold/reversal sequence.",
+          "limits": []
+        }
+      ]
+    },
+    "HITCFTRY.WSA": {
+      "category": "indicator-cycle",
+      "observation": "Only two pixels in the small central status indicator change. No factory/aircraft motion is present.",
+      "parts": [
+        {
+          "id": "status-lights",
+          "bounds": [
+            103,
+            66,
+            3,
+            1
+          ],
+          "kind": "light-cycle",
+          "proposal": "Use newly painted lens/emissive accents with two native on/off colour phases. Keep all factory geometry fixed.",
+          "limits": []
+        }
+      ]
+    },
+    "HVYFTRY.WSA": {
+      "category": "flame-and-light-flicker",
+      "observation": "Two orange/yellow factory-bay glow/flame regions flicker; the large tank bodies and factory structure are fixed.",
+      "parts": [
+        {
+          "id": "left-bay-glow",
+          "bounds": [
+            22,
+            69,
+            20,
+            8
+          ],
+          "kind": "flame",
+          "proposal": "Create new four-phase flame/glow art for the left bay, including its own local light spill.",
+          "limits": []
+        },
+        {
+          "id": "right-bay-glow",
+          "bounds": [
+            164,
+            73,
+            19,
+            10
+          ],
+          "kind": "flame",
+          "proposal": "Create matching new right-bay flame phases, retaining its observed phase relationship rather than moving tanks.",
+          "limits": []
+        }
+      ]
+    },
+    "LITEFTRY.WSA": {
+      "category": "welding-flashes-and-small-mechanism",
+      "observation": "Small left/right workshop welding or exhaust flashes change, plus a tiny suspended-crane/pulley detail. Vehicle and building silhouettes stay fixed.",
+      "parts": [
+        {
+          "id": "left-flash",
+          "bounds": [
+            20,
+            56,
+            14,
+            5
+          ],
+          "kind": "welding-flash",
+          "proposal": "Create purpose-painted blue/orange welding/emissive flare phases.",
+          "limits": []
+        },
+        {
+          "id": "right-workstation",
+          "bounds": [
+            137,
+            55,
+            14,
+            12
+          ],
+          "kind": "welding-flash",
+          "proposal": "Create new right-workstation welding/worker-tool flash phases, aligned to the painted station.",
+          "limits": []
+        },
+        {
+          "id": "pulley-detail",
+          "bounds": [
+            73,
+            42,
+            4,
+            4
+          ],
+          "kind": "mechanism-detail",
+          "proposal": "Provide a small new semantic pulley/tool accent with the native discrete phases.",
+          "limits": [
+            "The exact tiny depicted physical part is not established by the indexed frames alone; no whole-crane or payload translation is observed."
+          ]
+        }
+      ]
+    },
+    "PALACE.WSA": {
+      "category": "people-poses-and-indicators",
+      "observation": "Tiny guards/people change pose at the entrance/right foreground; a small lower-left status panel also changes. The palace, door and dome remain fixed.",
+      "parts": [
+        {
+          "id": "gate-person",
+          "bounds": [
+            83,
+            86,
+            3,
+            7
+          ],
+          "kind": "person-pose",
+          "proposal": "Paint complete tiny guard poses around a fixed native foot pivot.",
+          "limits": []
+        },
+        {
+          "id": "middle-person",
+          "bounds": [
+            131,
+            88,
+            3,
+            6
+          ],
+          "kind": "person-pose",
+          "proposal": "Paint the native discrete standing/gesture phases, keeping the fixed body centre.",
+          "limits": []
+        },
+        {
+          "id": "right-person",
+          "bounds": [
+            162,
+            93,
+            6,
+            13
+          ],
+          "kind": "person-pose",
+          "proposal": "Create complete coherent gesture/walk poses and a clean plate under the original person.",
+          "limits": []
+        },
+        {
+          "id": "left-indicators",
+          "bounds": [
+            12,
+            96,
+            3,
+            1
+          ],
+          "kind": "light-cycle",
+          "proposal": "Paint two tiny indicator accents driven by original discrete phases.",
+          "limits": []
+        }
+      ]
+    },
+    "REFINERY.WSA": {
+      "category": "indicator-cycle",
+      "observation": "Two ground-level horizontal yellow/gray marker or status strips pulse. The tanks, pipes and machinery remain fixed.",
+      "parts": [
+        {
+          "id": "left-strip",
+          "bounds": [
+            114,
+            80,
+            7,
+            2
+          ],
+          "kind": "light-cycle",
+          "proposal": "Create a new smooth lamp/marker strip with the native four phase states.",
+          "limits": []
+        },
+        {
+          "id": "right-strip",
+          "bounds": [
+            176,
+            80,
+            7,
+            2
+          ],
+          "kind": "light-cycle",
+          "proposal": "Drive the separate painted strip by its original phase relationship.",
+          "limits": [
+            "These are visible changing strips; whether the fiction is a signal or moving material is unresolved. No surrounding machinery translation is observed."
+          ]
+        }
+      ]
+    },
+    "STARPORT.WSA": {
+      "category": "translating-vehicle",
+      "observation": "After ten unchanged frames, a low transport with red roof lights enters from the right and travels left through a five-pixel-high strip. All tall towers/antennas are static.",
+      "parts": [
+        {
+          "id": "ground-transport",
+          "bounds": [
+            1,
+            70,
+            182,
+            5
+          ],
+          "kind": "translation",
+          "proposal": "Paint one new complete low transport with red roof lamps and transparent alpha; use native-derived position/visibility per phase, clipping at the original scene edges. Preserve first ten idle frames and the exit.",
+          "limits": []
+        }
+      ]
+    },
+    "STORAGE.WSA": {
+      "category": "indicator-and-conveyor-detail",
+      "observation": "A small top beacon changes, while tiny highlights advance along the diagonal lower loading/ramp strip. The tanks and main loading platform are static.",
+      "parts": [
+        {
+          "id": "top-beacon",
+          "bounds": [
+            88,
+            13,
+            8,
+            2
+          ],
+          "kind": "light-cycle",
+          "proposal": "Use new painted beacon/lens states at native phases.",
+          "limits": []
+        },
+        {
+          "id": "diagonal-flow",
+          "bounds": [
+            96,
+            80,
+            8,
+            13
+          ],
+          "kind": "moving-highlight",
+          "proposal": "Use separately painted small material/highlight marks along a new diagonal ramp layer, driven by native phase locations.",
+          "limits": [
+            "The tiny source changes do not uniquely establish whether these are conveyed objects or indicator highlights; do not invent a walking person or moving whole platform."
+          ]
+        }
+      ]
+    },
+    "WINDTRAP.WSA": {
+      "category": "air-intake-cycle-and-small-rotors",
+      "observation": "The two large intake faces cycle through dark/blue flow bands; small fan details also change. Architecture and dunes remain fixed.",
+      "parts": [
+        {
+          "id": "intakes",
+          "bounds": [
+            50,
+            20,
+            116,
+            58
+          ],
+          "kind": "intensity-and-band-cycle",
+          "proposal": "Build new painted intake-face masks and smooth blue flow/emission bands with six native visual phases. Animate new face geometry/light layers; never recolour native per-pixel RGB onto the new painting.",
+          "limits": []
+        },
+        {
+          "id": "small-fans",
+          "bounds": [
+            2,
+            45,
+            48,
+            32
+          ],
+          "kind": "rotor-detail",
+          "proposal": "Use a new small fan/rotor accent with the discrete native phases; preserve the background engine housing.",
+          "limits": [
+            "Small rotor detail is difficult to distinguish from adjacent shaded intake pixels; match phase references before claiming exact rotor mechanics."
+          ]
+        }
+      ]
+    },
+    "WOR.WSA": {
+      "category": "tiny-people-patrol",
+      "observation": "A thin row of small light figures along the front base of the wall changes position/pose; the fortress itself stays fixed.",
+      "parts": [
+        {
+          "id": "front-patrol",
+          "bounds": [
+            12,
+            75,
+            116,
+            3
+          ],
+          "kind": "person-translation",
+          "proposal": "Paint new tiny light-uniform patrol figures with a small pose cycle and native-measured phase positions. Keep their footline and authored eight phases.",
+          "limits": []
+        }
+      ]
+    }
+  }
+}

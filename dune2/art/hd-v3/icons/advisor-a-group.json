@@ -1,0 +1,273 @@
+{
+  "id": "advisor-a",
+  "ids": [
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    413,
+    414
+  ],
+  "columns": 4,
+  "rows": 3,
+  "reference": "references/advisor-a-newbase.png",
+  "referenceSha256": "972e999982df298ea027bcc10254fbe86d0e23768ffc470fa727d4f0aacc3f29",
+  "poseReference": "references/advisor-a-nativeposes.png",
+  "poseReferenceSha256": "35cf973673ea8e6eec0fa0ea304897d44e498d8cedf214de820812818ca9b233",
+  "base": "art/hd-v3/interface/review/advisor-a-base.png",
+  "baseSha256": "093c8315ca9b3e783edeecc7afb4343ca9bab318d9983433dac5d6cf1edc219d",
+  "crops": [
+    {
+      "id": 402,
+      "cell": 0,
+      "origin": [
+        40,
+        80
+      ],
+      "baseRect": [
+        160,
+        320,
+        192,
+        64
+      ],
+      "referenceRect": [
+        36,
+        92,
+        312,
+        104
+      ]
+    },
+    {
+      "id": 403,
+      "cell": 1,
+      "origin": [
+        40,
+        80
+      ],
+      "baseRect": [
+        160,
+        320,
+        192,
+        64
+      ],
+      "referenceRect": [
+        420,
+        92,
+        312,
+        104
+      ]
+    },
+    {
+      "id": 404,
+      "cell": 2,
+      "origin": [
+        40,
+        80
+      ],
+      "baseRect": [
+        160,
+        320,
+        192,
+        64
+      ],
+      "referenceRect": [
+        804,
+        92,
+        312,
+        104
+      ]
+    },
+    {
+      "id": 405,
+      "cell": 3,
+      "origin": [
+        40,
+        80
+      ],
+      "baseRect": [
+        160,
+        320,
+        192,
+        64
+      ],
+      "referenceRect": [
+        1188,
+        92,
+        312,
+        104
+      ]
+    },
+    {
+      "id": 406,
+      "cell": 4,
+      "origin": [
+        40,
+        80
+      ],
+      "baseRect": [
+        160,
+        320,
+        192,
+        64
+      ],
+      "referenceRect": [
+        36,
+        380,
+        312,
+        104
+      ]
+    },
+    {
+      "id": 407,
+      "cell": 5,
+      "origin": [
+        40,
+        96
+      ],
+      "baseRect": [
+        160,
+        384,
+        192,
+        160
+      ],
+      "referenceRect": [
+        441,
+        320,
+        269,
+        224
+      ]
+    },
+    {
+      "id": 408,
+      "cell": 6,
+      "origin": [
+        40,
+        96
+      ],
+      "baseRect": [
+        160,
+        384,
+        192,
+        160
+      ],
+      "referenceRect": [
+        825,
+        320,
+        269,
+        224
+      ]
+    },
+    {
+      "id": 409,
+      "cell": 7,
+      "origin": [
+        40,
+        96
+      ],
+      "baseRect": [
+        160,
+        384,
+        192,
+        160
+      ],
+      "referenceRect": [
+        1209,
+        320,
+        269,
+        224
+      ]
+    },
+    {
+      "id": 410,
+      "cell": 8,
+      "origin": [
+        40,
+        96
+      ],
+      "baseRect": [
+        160,
+        384,
+        192,
+        160
+      ],
+      "referenceRect": [
+        57,
+        608,
+        269,
+        224
+      ]
+    },
+    {
+      "id": 411,
+      "cell": 9,
+      "origin": [
+        40,
+        96
+      ],
+      "baseRect": [
+        160,
+        384,
+        192,
+        160
+      ],
+      "referenceRect": [
+        441,
+        608,
+        269,
+        224
+      ]
+    },
+    {
+      "id": 413,
+      "cell": 10,
+      "origin": [
+        72,
+        152
+      ],
+      "baseRect": [
+        288,
+        608,
+        384,
+        192
+      ],
+      "referenceRect": [
+        804,
+        642,
+        312,
+        156
+      ]
+    },
+    {
+      "id": 414,
+      "cell": 11,
+      "origin": [
+        72,
+        152
+      ],
+      "baseRect": [
+        288,
+        608,
+        384,
+        192
+      ],
+      "referenceRect": [
+        1188,
+        642,
+        312,
+        156
+      ]
+    }
+  ],
+  "prompt": "Use case: precise-object-edit. Production Dune II HD facial animation patches. Image1 is EXACT NEW PAINTED EDIT TARGET: 12 cropped rectangular patches, fourcolumns bythreerows row-major, 0 trailing cells empty. Image2 is ORIGINAL LOWRES POSE REFERENCE ONLY: it tells each matching cell's eye gaze or mouth shape, not drawing style or colours. Image3 is NEW PAINTED WHOLE CHARACTER for identity/style. blond clean-shaven man, blue eyes, blue uniform. FIRSTFIVE cells are eyes/upperface patches: baseline forward gaze, gaze left, gaze right, partially lowered eyelids, eyes fully closed. NEXTFIVE cells are lowerface/mouth patches: closed/rest mouth, slightly open talking, wider open talking, rounded/pursed talking, teeth visible talking, following corresponding original patch intention. Change ONLY eye gaze/eyelids or lip/mouth opening within each crop. Preserve every surrounding skin fold, brow, nose, chin, head pose, face scale, light direction, colour and exact crop shape/relative feature positions from Image1. Same coherent identity, no extra head, no new face angle, no smiling generic replacement. FINAL TWO cells are the same new portrait’s hand holding its brown book: first native resting pose, then native slightly tilted pose. Preserve the new painted hand/book identity and exact crop. Keep all patches distinct in exactly original order. Each cropped rectangular patch must remain centered in its equal cell at SAME dimensions/aspect as Image1, generous genuinely transparent gutters, no borders, labels, numbers, full-head portraits, frames, background, glows or fringe outside patch. The outer margin skin pixels should visually match Image1 unchanged so the patches can blend into its whole new portrait. Detailed crisp continuous hand-painted illustrated game art, never pixel mosaic or smoothed original pixels. Approximately1536x1152 atlas.",
+  "role": "matched-painted-advisor-facial-poses",
+  "status": "packed",
+  "selectedRaw": "raw/advisor-a.png",
+  "cachedGenerationBase": "references/advisor-a-wholebase.png",
+  "cachedGenerationBaseSHA256": "093c8315ca9b3e783edeecc7afb4343ca9bab318d9983433dac5d6cf1edc219d"
+}

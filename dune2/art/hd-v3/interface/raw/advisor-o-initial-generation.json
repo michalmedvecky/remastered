@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-89b0e83a-6cbb-4643-8d81-e5325ccbd09d.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1586,
+    992
+  ],
+  "sha256": "1f256c5d785b25a639501f1e02255cd16562755d38a816b0dad25d42daef8335",
+  "prompt": "advisor-o-prompt.txt",
+  "references": [
+    "../references/MENTATO-native.png",
+    "hud.png"
+  ],
+  "status": "retained-initial-placement-corrected-in-selected-output"
+}

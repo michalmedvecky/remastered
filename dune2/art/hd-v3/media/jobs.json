@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "tool": "built-in-imagegen",
+  "jobs": {
+    "ground": {
+      "prompt": "art/hd-v3/media/raw/ground-prompt.txt",
+      "references": [
+        "art/hd-v3/media/references/ground.png",
+        "art/hd-v2/buildings/raw/pilot-approved.png",
+        "art/hd-v3/interface/raw/advisor-a.png"
+      ],
+      "output": "art/hd-v3/media/raw/ground.png",
+      "transparent_background": false
+    },
+    "headquarters": {
+      "prompt": "art/hd-v3/media/raw/headquarters-prompt.txt",
+      "references": [
+        "art/hd-v3/media/references/headquarters.png",
+        "art/hd-v2/buildings/raw/pilot-approved.png",
+        "art/hd-v3/interface/raw/advisor-a.png"
+      ],
+      "output": "art/hd-v3/media/raw/headquarters.png",
+      "transparent_background": false
+    },
+    "factories": {
+      "prompt": "art/hd-v3/media/raw/factories-prompt.txt",
+      "references": [
+        "art/hd-v3/media/references/factories.png",
+        "art/hd-v2/buildings/raw/pilot-approved.png",
+        "art/hd-v3/interface/raw/advisor-a.png"
+      ],
+      "output": "art/hd-v3/media/raw/factories.png",
+      "transparent_background": false
+    },
+    "industry": {
+      "prompt": "art/hd-v3/media/raw/industry-prompt.txt",
+      "references": [
+        "art/hd-v3/media/references/industry.png",
+        "art/hd-v2/buildings/raw/pilot-approved.png",
+        "art/hd-v3/interface/raw/advisor-a.png"
+      ],
+      "output": "art/hd-v3/media/raw/industry.png",
+      "transparent_background": false
+    },
+    "weapons": {
+      "prompt": "art/hd-v3/media/raw/weapons-prompt.txt",
+      "references": [
+        "art/hd-v3/media/references/weapons.png",
+        "art/hd-v2/buildings/raw/pilot-approved.png",
+        "art/hd-v3/interface/raw/advisor-a.png"
+      ],
+      "output": "art/hd-v3/media/raw/weapons.png",
+      "transparent_background": false
+    },
+    "logistics": {
+      "prompt": "art/hd-v3/media/raw/logistics-prompt.txt",
+      "references": [
+        "art/hd-v3/media/references/logistics.png",
+        "art/hd-v2/buildings/raw/pilot-approved.png",
+        "art/hd-v3/interface/raw/advisor-a.png"
+      ],
+      "output": "art/hd-v3/media/raw/logistics.png",
+      "transparent_background": false
+    },
+    "heavy-vehicles": {
+      "prompt": "art/hd-v3/media/raw/heavy-vehicles-prompt.txt",
+      "references": [
+        "art/hd-v3/media/references/heavy-vehicles.png",
+        "art/hd-v2/buildings/raw/pilot-approved.png",
+        "art/hd-v3/interface/raw/advisor-a.png"
+      ],
+      "output": "art/hd-v3/media/raw/heavy-vehicles.png",
+      "transparent_background": false
+    },
+    "light-vehicles": {
+      "prompt": "art/hd-v3/media/raw/light-vehicles-prompt.txt",
+      "references": [
+        "art/hd-v3/media/references/light-vehicles.png",
+        "art/hd-v2/buildings/raw/pilot-approved.png",
+        "art/hd-v3/interface/raw/advisor-a.png"
+      ],
+      "output": "art/hd-v3/media/raw/light-vehicles.png",
+      "transparent_background": false
+    },
+    "people": {
+      "prompt": "art/hd-v3/media/raw/people-prompt.txt",
+      "references": [
+        "art/hd-v3/media/references/people.png",
+        "art/hd-v2/buildings/raw/pilot-approved.png",
+        "art/hd-v3/interface/raw/advisor-a.png"
+      ],
+      "output": "art/hd-v3/media/raw/people.png",
+      "transparent_background": false
+    }
+  }
+}

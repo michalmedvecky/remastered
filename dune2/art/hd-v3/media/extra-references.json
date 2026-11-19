@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "groups": {
+    "extra-worlds": {
+      "names": [
+        "FARTR",
+        "FHARK",
+        "FORDOS",
+        "WORM"
+      ],
+      "columns": 2,
+      "rows": 2
+    },
+    "extra-troops": {
+      "names": [
+        "FREMEN",
+        "SARDUKAR"
+      ],
+      "columns": 1,
+      "rows": 2
+    }
+  },
+  "nativeInventory": "extra-motion/inventory.json",
+  "globalWitnesses": "extra-motion/global-frame-witnesses.json"
+}

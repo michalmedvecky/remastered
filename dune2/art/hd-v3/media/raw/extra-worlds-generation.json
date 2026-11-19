@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-6a23e88b-eec2-4552-a51e-e22fc1de8952.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1608,
+    978
+  ],
+  "sha256": "cb152d95dbe122cb76eb0616412a022e972ef1ce046dd8236c11f1b48803031c",
+  "prompt": "extra-worlds-prompt.txt",
+  "sourceRects": [
+    [
+      12,
+      11,
+      783,
+      464
+    ],
+    [
+      814,
+      11,
+      782,
+      464
+    ],
+    [
+      12,
+      496,
+      783,
+      469
+    ],
+    [
+      814,
+      496,
+      782,
+      469
+    ]
+  ],
+  "sourcePacking": "Whole scene boundaries inspected; incidental white reference frames cropped out, no sourcepixels enlarged into product.",
+  "references": [
+    {
+      "path": "art/hd-v3/media/references/extra-worlds.png",
+      "sha256": "2450f3f8467218c68a38726607cb86f9d976c626ca3f78cc3c30cc1ebdb92f6f"
+    },
+    {
+      "path": "art/hd-v3/interface/review/house-choice.png",
+      "sha256": "adaf3039746054e42c73f18513b5d6935bf8ecc20772b80903863ec96e44728b"
+    },
+    {
+      "path": "art/hd-v2/buildings/raw/pilot-approved.png",
+      "sha256": "ac5413d3de9f862157151c7364f9d159564e74040ea50956b0ee45e9e2569a16"
+    }
+  ]
+}

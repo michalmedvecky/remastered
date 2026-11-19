@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-3191ec30-d0be-4315-b2bc-19fc533d5fd9.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "d2692ee27dac2c84f95d3b2c697034dd2f4e6da3c38ac232aa983e1792a1e575",
+  "prompt": "cleanplates-prompt.txt",
+  "references": [
+    "../references/cleanplates.png"
+  ]
+}

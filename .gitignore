@@ -9,6 +9,8 @@ node_modules/
 deploy/config.local.json
 deploy/*.rendered.json
 !dune2/dist/native/source.tar.gz
+!dune2/dist/native/source-art-*.tar.gz
+!dune2/native/dependencies/SDL2-2.32.10-source.tar.gz
 dune2/native/data/
 dune2/test-results/
 **/__pycache__/

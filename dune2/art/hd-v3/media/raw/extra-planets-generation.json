@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-0d5a25a4-2c26-42a5-8c20-0cad5aff4b22.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "sha256": "8777fcb1d1f50885316b4c80614fd08e7a9d4db84b2b53b48f012c51300de81a",
+  "prompt": "extra-planets-prompt.txt",
+  "sourceRects": [
+    [
+      0,
+      0,
+      1024,
+      512
+    ],
+    [
+      0,
+      512,
+      1024,
+      512
+    ],
+    [
+      0,
+      1024,
+      1024,
+      512
+    ]
+  ],
+  "sourcePacking": "Whole scene boundaries inspected; incidental white reference frames cropped out, no sourcepixels enlarged into product.",
+  "references": [
+    {
+      "path": "art/hd-v3/media/references/extra-planets-native.png",
+      "sha256": "665f9dc60f25fddd726b36846b0b3c3e4ed96b9c239e225a31f16f62885d016d"
+    }
+  ]
+}

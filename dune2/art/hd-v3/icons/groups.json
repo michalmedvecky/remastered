@@ -1,0 +1,325 @@
+{
+  "schema": 1,
+  "groups": [
+    {
+      "id": "buildings-a",
+      "ids": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "columns": 4,
+      "rows": 3,
+      "reference": "references/buildings-a.png",
+      "referenceSha256": "fd0ab001a656b717fd6ad729c0c61766f3a6df67f28dcaf008a28e7393d21b09",
+      "nativeReferences": [
+        {
+          "id": 65,
+          "sha256": "e6dac20d7b935af7756bdb29fc59d2bc01dc616e1e5a200676f7e17fc41ee14a"
+        },
+        {
+          "id": 66,
+          "sha256": "6498444974314dd03498c4b1e9f8766a8223eb86f178ebf2c9ca6273528fdd2b"
+        },
+        {
+          "id": 67,
+          "sha256": "2bcbd46ace4c731d901c905fc17a404d02e5fa93a986828ccc6bbf4a566f6317"
+        },
+        {
+          "id": 68,
+          "sha256": "a6c718e08bcd46ade5e1961e29bfe68b76f5efdbf520e24b060b5af0bf67619b"
+        },
+        {
+          "id": 69,
+          "sha256": "b8962a607f11fd1a8c480353d23dc37eedafe993affdd6322eb3c3de5004d075"
+        },
+        {
+          "id": 70,
+          "sha256": "ed7171e7085974deb307640f4ca8f96dce27a85e2f0c33dfe5230e0f24330233"
+        },
+        {
+          "id": 71,
+          "sha256": "7ca7fe19fe729307f7bbf4047fdf5ae80b0ca4f534747dd4c5f7ef3713ea4e34"
+        },
+        {
+          "id": 72,
+          "sha256": "5879fa44b46669407d337112f1f01e33717d356233d5891bca9790f8401322bd"
+        },
+        {
+          "id": 73,
+          "sha256": "2c965f4f5896887d744e8542cc13f340ba90a423e7b09812f632243de712580a"
+        },
+        {
+          "id": 74,
+          "sha256": "a94e4899a5615a51edb72d5121b22944b5a3d6b845c966ab1beb4bdb2912e9e2"
+        }
+      ],
+      "subjects": "Concrete slab, House Palace, Light Factory, Heavy Factory, Hi-Tech Factory, House of IX, WOR heavy infantry building, Construction Yard, Windtrap, Barracks.",
+      "prompt": "Use case: identity-preserve. Asset type: production hand-painted HD Dune II build-menu and HUD portrait atlas. Image1 is the exact edit target, native reference portraits; Image2 is approved painted unit style only. Reconstruct the subjects as crisp detailed continuous 2D illustrated game art, never blur or enlarged pixel mosaic. Each occupied cell is one complete 4:3 rectangular portrait picture, with a very thin pale cream frame and original composition/camera, recognisable silhouette and colour identity, lighting upper left, purposeful medium forms and restrained panel details, suitable for 128x96 pixels. Faithfully preserve original per-panel scene/background: bright desert/sky for buildings, muted pale khaki for vehicle portraits, dark nocturnal Saboteur, correct terrain textures. Do not rotate tactical portrait subjects into different poses or substitute another vehicle. ORIGINAL order row-major and exact subject count. 4 columns by 3 rows, 10 occupied picture panels, 2 empty trailing cells. Subjects row-major: Concrete slab, House Palace, Light Factory, Heavy Factory, Hi-Tech Factory, House of IX, WOR heavy infantry building, Construction Yard, Windtrap, Barracks. Keep each panel centered inside its equal cell with generous genuine transparent gutters; panels remain fully opaque within their 4:3 bounds. No labels, lettering, numbers, logos, invented ornaments, floor outside panel, cast shadows outside panel, extra panels, no checkerboard or opaque sheet backdrop. Preserve exact original unit types and distinct pictures. Output landscape high-resolution atlas, approximately1536x1024. Genuine clean painted art like successful illustrated RTS icons, not a filter or generic texture overlay.",
+      "status": "packed",
+      "selectedRaw": "raw/buildings-a.png"
+    },
+    {
+      "id": "buildings-b",
+      "ids": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "columns": 4,
+      "rows": 3,
+      "reference": "references/buildings-b.png",
+      "referenceSha256": "cbe0473c8933627c2f2bce1fbfda21e80bbc2e0d0b6c89bf2d64c96adefa2959",
+      "nativeReferences": [
+        {
+          "id": 75,
+          "sha256": "32288cc493d5eb103f9a923d2f22fdc012500df389e1e2dec57991a5090df986"
+        },
+        {
+          "id": 76,
+          "sha256": "436d172f92274ffb44456953e35e38c9888aeff2693e51bb228c8762e455ea1a"
+        },
+        {
+          "id": 77,
+          "sha256": "50da6c29eb4e99588b726ccb3707d9dfd4683ac5840a26fd439e2c64316ee5e0"
+        },
+        {
+          "id": 78,
+          "sha256": "4d36c4aae19a61914d222a3512ad3afb1bf1d3cbcb5384651f973c93e5fbb2dd"
+        },
+        {
+          "id": 79,
+          "sha256": "1e1e3a2a12de845bdcac7d93de7e002af66a121e696c56e8e7532de667ad2d38"
+        },
+        {
+          "id": 80,
+          "sha256": "9c9dfca8df58ffa546e1841b3af655b3a974fff51deba2c2a2b71632629120bb"
+        },
+        {
+          "id": 81,
+          "sha256": "154df6a976f4ed43b7f498aeabb27f062958e31ac2719ddf04b3a2c318ce48f6"
+        },
+        {
+          "id": 82,
+          "sha256": "232f93f3a7e5ae13be4f20c09edb2d27f9549ea099464aeb0115dc164fe81941"
+        },
+        {
+          "id": 83,
+          "sha256": "4d3908853d9ec288c22eafc9d89978a3bcdec1fd8798018d3f59125ce7e106af"
+        }
+      ],
+      "subjects": "Starport, Spice Refinery, Repair Facility, Wall, Gun Turret, Rocket Turret, Spice Silo, Outpost radar facility, four concrete slabs.",
+      "prompt": "Use case: identity-preserve. Asset type: production hand-painted HD Dune II build-menu and HUD portrait atlas. Image1 is the exact edit target, native reference portraits; Image2 is approved painted unit style only. Reconstruct the subjects as crisp detailed continuous 2D illustrated game art, never blur or enlarged pixel mosaic. Each occupied cell is one complete 4:3 rectangular portrait picture, with a very thin pale cream frame and original composition/camera, recognisable silhouette and colour identity, lighting upper left, purposeful medium forms and restrained panel details, suitable for 128x96 pixels. Faithfully preserve original per-panel scene/background: bright desert/sky for buildings, muted pale khaki for vehicle portraits, dark nocturnal Saboteur, correct terrain textures. Do not rotate tactical portrait subjects into different poses or substitute another vehicle. ORIGINAL order row-major and exact subject count. 4 columns by 3 rows, 9 occupied picture panels, 3 empty trailing cells. Subjects row-major: Starport, Spice Refinery, Repair Facility, Wall, Gun Turret, Rocket Turret, Spice Silo, Outpost radar facility, four concrete slabs. Keep each panel centered inside its equal cell with generous genuine transparent gutters; panels remain fully opaque within their 4:3 bounds. No labels, lettering, numbers, logos, invented ornaments, floor outside panel, cast shadows outside panel, extra panels, no checkerboard or opaque sheet backdrop. Preserve exact original unit types and distinct pictures. Output landscape high-resolution atlas, approximately1536x1024. Genuine clean painted art like successful illustrated RTS icons, not a filter or generic texture overlay.",
+      "status": "packed",
+      "selectedRaw": "raw/buildings-b.png"
+    },
+    {
+      "id": "units-a",
+      "ids": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "columns": 4,
+      "rows": 3,
+      "reference": "references/units-a.png",
+      "referenceSha256": "13d931b0e63ee50778913ba135119a6cec0b5716a599e1b20cc9b4d5d199a1d4",
+      "nativeReferences": [
+        {
+          "id": 84,
+          "sha256": "974afc191e8a01d1d49210ab72ca1bc99e486562f907a669ef92b6fc89aa8900"
+        },
+        {
+          "id": 85,
+          "sha256": "920565bd66937d4fa176cd381017d46425a58ed3602e174c9c16c3d4cb0564b9"
+        },
+        {
+          "id": 86,
+          "sha256": "ac0351432ddc9f3e400e23c2b96bac66859f0626c43973c8d2bd87e09397054e"
+        },
+        {
+          "id": 87,
+          "sha256": "54f6a0308f36934be97233bad66353beb23a5909198e6a46329201a8da94ce1b"
+        },
+        {
+          "id": 88,
+          "sha256": "7e535c75a3186ff5ded9c84c95b2c7626af4dbefc6cf8a102a8fc6a2d00979f3"
+        },
+        {
+          "id": 89,
+          "sha256": "02a8da7b93f7904f451ce46a3ed1fdf26ed7be59bfb76db10766b78698070fe7"
+        },
+        {
+          "id": 90,
+          "sha256": "265ed06e501d84cd335989fc45eec04001f91b70fe323ed6a9867c9ab84b1130"
+        },
+        {
+          "id": 91,
+          "sha256": "59bbc8c13d55206449613d6ea564f17e0b97811c33f30683625f338fd26a5ddb"
+        },
+        {
+          "id": 92,
+          "sha256": "e10fcf21c6d48dabebe46c6f8e6867eae9aa81e196a933fb39f09042e99056e2"
+        },
+        {
+          "id": 93,
+          "sha256": "e95166f44dcd69191e09acafcad061f3aa8d0284255e7a47d6e1d03d794ccf1e"
+        },
+        {
+          "id": 94,
+          "sha256": "3878c71b53c3f5eb6bb7d9314648bd9699cbd176106e19b20162257d539cb013"
+        },
+        {
+          "id": 95,
+          "sha256": "9f78367f8d481e011b478f8c74c0ff9d3fd0d7841e65e2a18cb4453d4e0d75c6"
+        }
+      ],
+      "subjects": "Siege Tank single long barrel, Launcher with two capped launch tubes, four-wheel Quad, red Devastator with two parallel guns, armoured Trooper holding heavy weapon, Carryall aircraft, regular tracked Tank single gun, gold-mouth Sonic Tank, three-wheel Trike, three-person Infantry squad, source closeup of an armoured troop leader with raised hand, source heavy infantry armour detail.",
+      "prompt": "Use case: identity-preserve. Asset type: production hand-painted HD Dune II build-menu and HUD portrait atlas. Image1 is the exact edit target, native reference portraits; Image2 is approved painted unit style only. Reconstruct the subjects as crisp detailed continuous 2D illustrated game art, never blur or enlarged pixel mosaic. Each occupied cell is one complete 4:3 rectangular portrait picture, with a very thin pale cream frame and original composition/camera, recognisable silhouette and colour identity, lighting upper left, purposeful medium forms and restrained panel details, suitable for 128x96 pixels. Faithfully preserve original per-panel scene/background: bright desert/sky for buildings, muted pale khaki for vehicle portraits, dark nocturnal Saboteur, correct terrain textures. Do not rotate tactical portrait subjects into different poses or substitute another vehicle. ORIGINAL order row-major and exact subject count. 4 columns by 3 rows, 12 occupied picture panels, 0 empty trailing cells. Subjects row-major: Siege Tank single long barrel, Launcher with two capped launch tubes, four-wheel Quad, red Devastator with two parallel guns, armoured Trooper holding heavy weapon, Carryall aircraft, regular tracked Tank single gun, gold-mouth Sonic Tank, three-wheel Trike, three-person Infantry squad, source closeup of an armoured troop leader with raised hand, source heavy infantry armour detail. Keep each panel centered inside its equal cell with generous genuine transparent gutters; panels remain fully opaque within their 4:3 bounds. No labels, lettering, numbers, logos, invented ornaments, floor outside panel, cast shadows outside panel, extra panels, no checkerboard or opaque sheet backdrop. Preserve exact original unit types and distinct pictures. Output landscape high-resolution atlas, approximately1536x1024. Genuine clean painted art like successful illustrated RTS icons, not a filter or generic texture overlay.",
+      "status": "packed",
+      "selectedRaw": "raw/units-a.png"
+    },
+    {
+      "id": "units-b",
+      "ids": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "columns": 4,
+      "rows": 3,
+      "reference": "references/units-b.png",
+      "referenceSha256": "34a42745888392aaab06a6c8752e931dedf3aef0ce8ba6eff77ec289e4392639",
+      "nativeReferences": [
+        {
+          "id": 96,
+          "sha256": "ee5977dce349d3e51d9da9692ac73ac3de191207958e7532768e8c5d1e3b493a"
+        },
+        {
+          "id": 97,
+          "sha256": "f1359fe703a05e2407811bae5c287f45dee135234ebcaf3153426a59aac313d4"
+        },
+        {
+          "id": 98,
+          "sha256": "97cfdc5639a53354e714931c06aea4e299344af24f378001bec3e7ac9dda50df"
+        },
+        {
+          "id": 99,
+          "sha256": "9b902ef823f7b397308e4576c116b8e46d271d504b9b37ebbd58847418b13292"
+        },
+        {
+          "id": 100,
+          "sha256": "d41f4ccaae81bb05b54f7feca6cb6805c32846fc38062b2055abb48e10772772"
+        },
+        {
+          "id": 101,
+          "sha256": "065ef19a3ae9c2a3ccbb8ad5a76976aa121d2c37864a354e5e66fb7572b97f1d"
+        },
+        {
+          "id": 102,
+          "sha256": "6a3530fce2f3043460e8767c001577a48e18971e3c37426a825961f1ceec007c"
+        },
+        {
+          "id": 103,
+          "sha256": "8a2e886cd3f9557a4c31603015c544f185a8820ef78cd1fd71891a235946ffee"
+        },
+        {
+          "id": 104,
+          "sha256": "99ea85bcd924653067927ea78f1dd0564af705f03253752fa3e9a764b2232a18"
+        },
+        {
+          "id": 105,
+          "sha256": "c177d672658e7d0bda900e2d778554dab088150ba88ca0be24d2df153f865d7a"
+        }
+      ],
+      "subjects": "Dark-clothed Saboteur at night, white Ornithopter standing with folded vertical wings, Deviator tracked vehicle with paired launcher racks, Raider three-wheel Trike, large tracked Harvester, Mobile Construction Vehicle wheeled chassis, single Soldier, heavy Troopers squad, source closeup armoured soldier aiming rifle, desert sandworm rising from sand.",
+      "prompt": "Use case: identity-preserve. Asset type: production hand-painted HD Dune II build-menu and HUD portrait atlas. Image1 is the exact edit target, native reference portraits; Image2 is approved painted unit style only. Reconstruct the subjects as crisp detailed continuous 2D illustrated game art, never blur or enlarged pixel mosaic. Each occupied cell is one complete 4:3 rectangular portrait picture, with a very thin pale cream frame and original composition/camera, recognisable silhouette and colour identity, lighting upper left, purposeful medium forms and restrained panel details, suitable for 128x96 pixels. Faithfully preserve original per-panel scene/background: bright desert/sky for buildings, muted pale khaki for vehicle portraits, dark nocturnal Saboteur, correct terrain textures. Do not rotate tactical portrait subjects into different poses or substitute another vehicle. ORIGINAL order row-major and exact subject count. 4 columns by 3 rows, 10 occupied picture panels, 2 empty trailing cells. Subjects row-major: Dark-clothed Saboteur at night, white Ornithopter standing with folded vertical wings, Deviator tracked vehicle with paired launcher racks, Raider three-wheel Trike, large tracked Harvester, Mobile Construction Vehicle wheeled chassis, single Soldier, heavy Troopers squad, source closeup armoured soldier aiming rifle, desert sandworm rising from sand. Keep each panel centered inside its equal cell with generous genuine transparent gutters; panels remain fully opaque within their 4:3 bounds. No labels, lettering, numbers, logos, invented ornaments, floor outside panel, cast shadows outside panel, extra panels, no checkerboard or opaque sheet backdrop. Preserve exact original unit types and distinct pictures. Output landscape high-resolution atlas, approximately1536x1024. Genuine clean painted art like successful illustrated RTS icons, not a filter or generic texture overlay.",
+      "status": "packed",
+      "selectedRaw": "raw/units-b.png"
+    },
+    {
+      "id": "radar-terrain",
+      "ids": [
+        28,
+        29,
+        30,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "columns": 4,
+      "rows": 2,
+      "reference": "references/radar-terrain.png",
+      "referenceSha256": "e86276aae92416ed149949760dc35baebb37b7de60c97b1e95362307dfa3b698",
+      "nativeReferences": [
+        {
+          "id": 28,
+          "sha256": "7a539ce0706ddb1e4e3a2868d3fff7edb4d0fa5fabc7d35d693143334c8306a0"
+        },
+        {
+          "id": 29,
+          "sha256": "26d1a5a901a3724b6c215991f37eac24090c1684f1970eb53bbe2efad4fc046d"
+        },
+        {
+          "id": 30,
+          "sha256": "baef488118d2eb74cd6a899c8e8772524f12d875a8f33926b399e18fb0a89ea5"
+        },
+        {
+          "id": 106,
+          "sha256": "6152cb6648e367cd4cf6280676259e5badaca5cd24dd429fc14ee6f24472b627"
+        },
+        {
+          "id": 107,
+          "sha256": "d155f8dbc23907fbff82bfcf4f63182a11c4e3cc91cfef01cf21554e7e8bb38a"
+        },
+        {
+          "id": 108,
+          "sha256": "4d8d646d422c68a375bc5fe710d0eb231554da5c5d3aacce5fa44b4312519a27"
+        },
+        {
+          "id": 109,
+          "sha256": "398d302bce76e5a7a09f6be29c4e1d47e20c3d92cff56a7d21c1d320656a75e0"
+        },
+        {
+          "id": 110,
+          "sha256": "5a99af9794367381656849d775d1b6da6417c5772b3211d58bc83178ad710ee0"
+        }
+      ],
+      "subjects": "Radar indicator active with horizontal blue sensor shape, empty circular radar indicator, strategic launch missile on pad; then five terrain material thumbnails in exact source order: coarse red rock, fine orange sand, directional pale dunes, dark grey rubble rock, dark brown spice field.",
+      "prompt": "Use case: identity-preserve. Asset type: production hand-painted HD Dune II build-menu and HUD portrait atlas. Image1 is the exact edit target, native reference portraits; Image2 is approved painted unit style only. Reconstruct the subjects as crisp detailed continuous 2D illustrated game art, never blur or enlarged pixel mosaic. Each occupied cell is one complete 4:3 rectangular portrait picture, with a very thin pale cream frame and original composition/camera, recognisable silhouette and colour identity, lighting upper left, purposeful medium forms and restrained panel details, suitable for 128x96 pixels. Faithfully preserve original per-panel scene/background: bright desert/sky for buildings, muted pale khaki for vehicle portraits, dark nocturnal Saboteur, correct terrain textures. Do not rotate tactical portrait subjects into different poses or substitute another vehicle. ORIGINAL order row-major and exact subject count. 4 columns by 2 rows, 8 occupied picture panels, 0 empty trailing cells. Subjects row-major: Radar indicator active with horizontal blue sensor shape, empty circular radar indicator, strategic launch missile on pad; then five terrain material thumbnails in exact source order: coarse red rock, fine orange sand, directional pale dunes, dark grey rubble rock, dark brown spice field. Keep each panel centered inside its equal cell with generous genuine transparent gutters; panels remain fully opaque within their 4:3 bounds. No labels, lettering, numbers, logos, invented ornaments, floor outside panel, cast shadows outside panel, extra panels, no checkerboard or opaque sheet backdrop. Preserve exact original unit types and distinct pictures. Output landscape high-resolution atlas, approximately1536x1024. Genuine clean painted art like successful illustrated RTS icons, not a filter or generic texture overlay.",
+      "status": "packed",
+      "selectedRaw": "raw/radar-terrain.png"
+    }
+  ]
+}

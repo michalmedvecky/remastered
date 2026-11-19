@@ -1,0 +1,266 @@
+{
+  "schema": 1,
+  "controls": {
+    "FARTR.WSA": {
+      "kind": "planet-rotation",
+      "nativePhases": 30,
+      "fullTurn": true,
+      "frameAngleFormula": "nativeFrame * 2PI /30; increasinglongitude sampling produces leftward feature motion",
+      "newTextureSourceRect": [
+        0,
+        0,
+        1024,
+        512
+      ],
+      "newModel": {
+        "cx": 135.5,
+        "cy": 66.5,
+        "rx": 38,
+        "ry": 31.5,
+        "exposure": 1.12,
+        "rim": [
+          45,
+          95,
+          235
+        ]
+      },
+      "sourceEnvelope": [
+        98,
+        36,
+        73,
+        61
+      ]
+    },
+    "FHARK.WSA": {
+      "kind": "planet-rotation",
+      "nativePhases": 30,
+      "fullTurn": true,
+      "frameAngleFormula": "nativeFrame * 2PI /30; increasinglongitude sampling produces leftward feature motion",
+      "newTextureSourceRect": [
+        0,
+        512,
+        1024,
+        512
+      ],
+      "newModel": {
+        "cx": 135.5,
+        "cy": 65.5,
+        "rx": 38,
+        "ry": 32.5,
+        "exposure": 0.7,
+        "rim": [
+          90,
+          10,
+          12
+        ]
+      },
+      "sourceEnvelope": [
+        99,
+        34,
+        73,
+        63
+      ]
+    },
+    "FORDOS.WSA": {
+      "kind": "planet-rotation",
+      "nativePhases": 30,
+      "fullTurn": true,
+      "frameAngleFormula": "nativeFrame * 2PI /30; increasinglongitude sampling produces leftward feature motion",
+      "newTextureSourceRect": [
+        0,
+        1024,
+        1024,
+        512
+      ],
+      "newModel": {
+        "cx": 135.5,
+        "cy": 61,
+        "rx": 39,
+        "ry": 36.5,
+        "exposure": 1.02,
+        "rim": [
+          50,
+          150,
+          235
+        ]
+      },
+      "sourceEnvelope": [
+        97,
+        25,
+        77,
+        72
+      ]
+    },
+    "FREMEN.WSA": {
+      "kind": "equipment-indicators",
+      "nativeRect": [
+        26,
+        33,
+        4,
+        2
+      ],
+      "newTarget": [
+        28,
+        32,
+        7,
+        5
+      ],
+      "physicalAttachment": "Small equipment/status strip; no body or weapon translation",
+      "nativeControls": [
+        {
+          "frame": 0,
+          "left": "green",
+          "right": "red"
+        },
+        {
+          "frame": 1,
+          "left": "red",
+          "right": "green"
+        }
+      ]
+    },
+    "SARDUKAR.WSA": {
+      "kind": "equipment-indicators",
+      "nativeRect": [
+        32,
+        17,
+        7,
+        7
+      ],
+      "newTarget": [
+        31,
+        14,
+        11,
+        10
+      ],
+      "physicalAttachment": "Small equipment/status strip; no body or weapon translation",
+      "nativeControls": [
+        {
+          "frame": 0,
+          "blue": 0.84126984,
+          "red": 0.71428571,
+          "green": 0.71428571
+        },
+        {
+          "frame": 1,
+          "blue": 0.71428571,
+          "red": 0.6031746,
+          "green": 0.84126984
+        },
+        {
+          "frame": 2,
+          "blue": 0.84126984,
+          "red": 0.49206349,
+          "green": 0.71428571
+        },
+        {
+          "frame": 3,
+          "blue": 0.71428571,
+          "red": 0.34920635,
+          "green": 0.71428571
+        },
+        {
+          "frame": 4,
+          "blue": 0.84126984,
+          "red": 0.49206349,
+          "green": 0.6031746
+        },
+        {
+          "frame": 5,
+          "blue": 0.71428571,
+          "red": 0.6031746,
+          "green": 0.6031746
+        },
+        {
+          "frame": 6,
+          "blue": 0.84126984,
+          "red": 0.71428571,
+          "green": 0.49206349
+        },
+        {
+          "frame": 7,
+          "blue": 0.71428571,
+          "red": 0.84126984,
+          "green": 0.49206349
+        },
+        {
+          "frame": 8,
+          "blue": 0.84126984,
+          "red": 0.84126984,
+          "green": 0.6031746
+        },
+        {
+          "frame": 9,
+          "blue": 0.71428571,
+          "red": 0.71428571,
+          "green": 0.6031746
+        }
+      ]
+    }
+  },
+  "resources": [
+    "FARTR.WSA",
+    "FHARK.WSA",
+    "FORDOS.WSA",
+    "WORM.WSA",
+    "FREMEN.WSA",
+    "SARDUKAR.WSA"
+  ],
+  "art": {
+    "extra-worlds": {
+      "path": "art/hd-v3/media/raw/extra-worlds.png",
+      "sha256": "cb152d95dbe122cb76eb0616412a022e972ef1ce046dd8236c11f1b48803031c",
+      "prompt": "art/hd-v3/media/raw/extra-worlds-prompt.txt",
+      "promptSHA256": "959c97588ed5c8f9f7f7ac974bcdf8e7914795e902dd5e169c4dd3e5e5e68182",
+      "method": "built-in-imagegen-whole-extra-media"
+    },
+    "extra-troops": {
+      "path": "art/hd-v3/media/raw/extra-troops.png",
+      "sha256": "56d27d960699f0add0e4c42f0899ec0422a59328056b379698594bd24a50ab0d",
+      "prompt": "art/hd-v3/media/raw/extra-troops-prompt.txt",
+      "promptSHA256": "009db2d178b8c83cee3bcc83cbe80a0fa0e19ea2c75a1c8b0c60fd987d66d542",
+      "method": "built-in-imagegen-whole-extra-media"
+    },
+    "extra-planets": {
+      "path": "art/hd-v3/media/raw/extra-planets.png",
+      "sha256": "8777fcb1d1f50885316b4c80614fd08e7a9d4db84b2b53b48f012c51300de81a",
+      "prompt": "art/hd-v3/media/raw/extra-planets-prompt.txt",
+      "promptSHA256": "d5119ad15c8bbe2bae951963044fc16ac6f2ef1a4b715edbb0200ce4d32f0715",
+      "method": "built-in-imagegen-whole-extra-media"
+    }
+  },
+  "atlases": {
+    "extraBases": {
+      "src": "painted/media-extra-extraBases-1742d763e86eb3b5.png",
+      "sha256": "1742d763e86eb3b5ea69ba66be3fee50abfd8dad9194a227e70a330d032c3bff",
+      "w": 2208,
+      "h": 896
+    },
+    "extraPlanet0": {
+      "src": "painted/media-extra-extraPlanet0-d6483b0406f024f0.png",
+      "sha256": "d6483b0406f024f037107f5458921ff5e4d8def934c966cbc7a50ad1477eef9b",
+      "w": 1640,
+      "h": 1848
+    },
+    "extraPlanet1": {
+      "src": "painted/media-extra-extraPlanet1-6fce28a19f418c48.png",
+      "sha256": "6fce28a19f418c48a1ba42ccb790efc6af50bdc29554667a13930330ab332eed",
+      "w": 1640,
+      "h": 1848
+    },
+    "extraPlanet2": {
+      "src": "painted/media-extra-extraPlanet2-137a43db3dacc788.png",
+      "sha256": "137a43db3dacc7882fba41c63929008ee92fc4f077580e7e59b9a57c7517a982",
+      "w": 1640,
+      "h": 1848
+    },
+    "extraIndicators": {
+      "src": "painted/media-extra-extraIndicators-077700e8c583c892.png",
+      "sha256": "077700e8c583c8925aa7e3d16c0c2a091e780e33e22f42bcb429702646c658bd",
+      "w": 512,
+      "h": 128
+    }
+  },
+  "phasePatchCount": 97,
+  "originalRGBShading": false
+}

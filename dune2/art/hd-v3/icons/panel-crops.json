@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "method": "Reviewed generated rectangular picture bounds, row-major; explicit crop excludes all generated outside sheet matte. Native colours and masks are not imposed on new artwork.",
+  "groups": {
+    "buildings-a": {
+      "x": [
+        40,
+        443,
+        848,
+        1253
+      ],
+      "y": [
+        42,
+        355,
+        670
+      ],
+      "width": 328,
+      "height": 254
+    },
+    "buildings-b": {
+      "x": [
+        35,
+        410,
+        786,
+        1161
+      ],
+      "y": [
+        55,
+        379,
+        704
+      ],
+      "width": 340,
+      "height": 265
+    },
+    "units-a": {
+      "x": [
+        38,
+        443,
+        847,
+        1252
+      ],
+      "y": [
+        40,
+        357,
+        681
+      ],
+      "width": 330,
+      "height": 253
+    },
+    "units-b": {
+      "x": [
+        32,
+        436,
+        841,
+        1246
+      ],
+      "y": [
+        35,
+        355,
+        675
+      ],
+      "width": 343,
+      "height": 258
+    },
+    "radar-terrain": {
+      "x": [
+        32,
+        528,
+        1023,
+        1519
+      ],
+      "y": [
+        45,
+        433
+      ],
+      "width": 432,
+      "height": 322
+    },
+    "credits-a": {
+      "x": [
+        31,
+        780
+      ],
+      "y": [
+        54,
+        579
+      ],
+      "width": 687,
+      "height": 412
+    },
+    "credits-b": {
+      "x": [
+        31,
+        780
+      ],
+      "y": [
+        54,
+        579
+      ],
+      "width": 687,
+      "height": 412
+    },
+    "credits-c": {
+      "x": [
+        31,
+        780
+      ],
+      "y": [
+        54,
+        579
+      ],
+      "width": 687,
+      "height": 412
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-dee808a2-e704-4bfd-ae42-6809b491abc9.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1585,
+    992
+  ],
+  "sha256": "dd8d29bd39e9c71d820b9f26b58f178bdd6654cbe91c7efc2de2ceae6c1ae370",
+  "prompt": "advisor-o-correction-prompt.txt",
+  "references": [
+    "advisor-o-initial.png"
+  ]
+}

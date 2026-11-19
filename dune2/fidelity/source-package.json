@@ -1,12 +1,94 @@
 {
+  "schema": 2,
+  "version": "0.7.0",
   "path": "dist/native/source.tar.gz",
-  "files": 1313,
-  "bytes": 81588717,
-  "sha256": "9678adf121c276d13567a15a893e5e7602f11098ab765de063aefbe595afd2b5",
+  "src": "native/source.tar.gz",
+  "sha256": "ed179bfba858624f5b2b773cdcb9a6c1fa6ab6fee55888696b685c87f3f5f302",
+  "bytes": 16767775,
+  "uncompressedBytes": 38522880,
+  "unpackedBytes": 37894226,
+  "files": 3002,
   "coreOutputs": {
-    "dune-native.mjs": "47a184430b0bd50030f39eb0167cdcb15b85c156a5ee5f322513bd5705d99e72",
-    "dune-native.wasm": "34ad373984de31de1bd4f28df7f6a2c594c34c9773c7820111c881c98f009158",
+    "dune-native.mjs": "dac4057430c2e6e874f015f010b785409d787fc306956752dabebddcd330f56f",
+    "dune-native.wasm": "3cd5679e96c900b0a22b08cc805e1060bf9020a44c6829fc7a13adc80b039ea7",
     "dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
   },
-  "musicWasmSha256": "e29b0487fc72d4c7c4691f96a11229bf0976d345d0385fa1656f1f55d8e3d9ef"
+  "musicWasmSha256": "e29b0487fc72d4c7c4691f96a11229bf0976d345d0385fa1656f1f55d8e3d9ef",
+  "manifestSha256": "6eb74086aedd4699dade0b06c9eea88a88f9d7d5124ad144fa7fbe833f443c05",
+  "artParts": [
+    {
+      "sha256": "59f24e4478e8815da1d6cc5ad7bc15961e778bfa27cf2bb63c15f527722f5c8f",
+      "bytes": 46754523,
+      "uncompressedBytes": 49981440,
+      "unpackedBytes": 49439397,
+      "files": 675,
+      "archive": "source-art-01-59f24e4478e8815d.tar.gz",
+      "path": "dist/native/source-art-01-59f24e4478e8815d.tar.gz",
+      "src": "native/source-art-01-59f24e4478e8815d.tar.gz"
+    },
+    {
+      "sha256": "4f249e91ab608620090a69bbef5db51253c09f65775e359e2d49791d1cc9eb0f",
+      "bytes": 45855622,
+      "uncompressedBytes": 48793600,
+      "unpackedBytes": 48325078,
+      "files": 576,
+      "archive": "source-art-02-4f249e91ab608620.tar.gz",
+      "path": "dist/native/source-art-02-4f249e91ab608620.tar.gz",
+      "src": "native/source-art-02-4f249e91ab608620.tar.gz"
+    },
+    {
+      "sha256": "65dd46dc11102a9efff2cdca0f1136b28e45a8e302868cd99f820c7588da3142",
+      "bytes": 46920229,
+      "uncompressedBytes": 49387520,
+      "unpackedBytes": 49336140,
+      "files": 59,
+      "archive": "source-art-03-65dd46dc11102a9e.tar.gz",
+      "path": "dist/native/source-art-03-65dd46dc11102a9e.tar.gz",
+      "src": "native/source-art-03-65dd46dc11102a9e.tar.gz"
+    },
+    {
+      "sha256": "3b4f5d2b015f87bb81cdfa42c3bb7cafaee677e8efb29824ddeddb2e2887b4c3",
+      "bytes": 41829195,
+      "uncompressedBytes": 48916480,
+      "unpackedBytes": 48307051,
+      "files": 759,
+      "archive": "source-art-04-3b4f5d2b015f87bb.tar.gz",
+      "path": "dist/native/source-art-04-3b4f5d2b015f87bb.tar.gz",
+      "src": "native/source-art-04-3b4f5d2b015f87bb.tar.gz"
+    },
+    {
+      "sha256": "9801fcc9194f3bdf63f6ba985b10a7c773dafbaeaab56a3c1d7c8ea865443153",
+      "bytes": 47276649,
+      "uncompressedBytes": 47585280,
+      "unpackedBytes": 47502376,
+      "files": 99,
+      "archive": "source-art-05-9801fcc9194f3bdf.tar.gz",
+      "path": "dist/native/source-art-05-9801fcc9194f3bdf.tar.gz",
+      "src": "native/source-art-05-9801fcc9194f3bdf.tar.gz"
+    },
+    {
+      "sha256": "90b201978476321e21a3d14b55b82b61b7e8dca2ec26b9e8cc9350aa36708279",
+      "bytes": 45526054,
+      "uncompressedBytes": 45629440,
+      "unpackedBytes": 45613006,
+      "files": 13,
+      "archive": "source-art-06-90b201978476321e.tar.gz",
+      "path": "dist/native/source-art-06-90b201978476321e.tar.gz",
+      "src": "native/source-art-06-90b201978476321e.tar.gz"
+    },
+    {
+      "sha256": "d7d870976cc6fa4795662b462ea74f8a0564701ebf0267890ddde9ecebb2fbb7",
+      "bytes": 27003421,
+      "uncompressedBytes": 27033600,
+      "unpackedBytes": 27025110,
+      "files": 6,
+      "archive": "source-art-07-d7d870976cc6fa47.tar.gz",
+      "path": "dist/native/source-art-07-d7d870976cc6fa47.tar.gz",
+      "src": "native/source-art-07-d7d870976cc6fa47.tar.gz"
+    }
+  ],
+  "partUncompressedLimit": 50331648,
+  "sourceIndex": "dist/native/source.html",
+  "sourceReadme": "dist/native/SOURCE-README.md",
+  "allArchiveBytes": 317933468
 }

@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "nativeOutputs": {
+    "dune-native.mjs": "dac4057430c2e6e874f015f010b785409d787fc306956752dabebddcd330f56f",
+    "dune-native.wasm": "3cd5679e96c900b0a22b08cc805e1060bf9020a44c6829fc7a13adc80b039ea7",
+    "dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
+  },
+  "renderErrors": 0,
+  "textFitViolations": 0,
+  "buildCaption": {
+    "text": "Build it",
+    "fontSize": 29.55,
+    "nativeRect": [
+      260,
+      113,
+      56,
+      8
+    ],
+    "ink": [
+      275.7797476498286,
+      114.000174686114,
+      24.440504700342814,
+      5.999650627772013
+    ],
+    "padding": [
+      2,
+      1,
+      2,
+      1
+    ]
+  },
+  "firstVisibleConcrete": {
+    "tick": 5439,
+    "world": true,
+    "revision": 6862,
+    "commitTick": 5438,
+    "gameplayActive": true,
+    "repair": 108,
+    "tiles": 4,
+    "slabs": [
+      {
+        "cell": 66,
+        "id": 126,
+        "interiorRepairPixels": 0
+      }
+    ],
+    "errors": 0
+  },
+  "scroll": {
+    "moves": 10,
+    "observedIntervals": 120,
+    "medianMs": 16.7,
+    "p95Ms": 17.6,
+    "errors": 0,
+    "uiCacheHits": 6057,
+    "uiRefreshes": 2499
+  },
+  "acceptedTransitions": [
+    "F2 modal world retained",
+    "F1 full advisor and subject list",
+    "SLAB preview exact native match",
+    "factory CHOAM and frame-zero preview",
+    "Original/HD live switch",
+    "minimap jump and physical edge scroll",
+    "cursor over Build it"
+  ],
+  "originalDosExecuted": false,
+  "remainingNativeArt": [
+    "intro/finale WSA banks",
+    "four cinematic CPS images",
+    "semantic minimap and exact black fog masks"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/reference",
+  "transparent_background": true,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-da3ded14-12d2-4911-a594-aeadc82cfdb6.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "sha256": "613ef8753dbc5f8b24b6502d9ca708c820836dca7f3e96f0ca2a52fb4eb46379",
+  "prompt": "motion-parts-prompt.txt",
+  "references": [
+    "../references/motion-parts-native.png",
+    "../review/headqrts-base.png",
+    "../review/carryall-base.png",
+    "../review/palace-base.png",
+    "../review/starport-base.png"
+  ]
+}

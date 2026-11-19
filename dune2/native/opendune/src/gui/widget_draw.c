@@ -1,3 +1,7 @@
+/* Dune II browser port modifications: 2026-11-18.
+ * Changed for browser integration and/or V1.07 compatibility;
+ * original copyright and license notices are retained below.
+ */
 /** @file src/gui/widget_draw.c %Widget drawing routines. */
 
 #include <stdio.h>
@@ -5,6 +9,13 @@
 
 #include "font.h"
 #include "gui.h"
+#ifdef __EMSCRIPTEN__
+#include "hd_bridge.h"
+#define DUNE_HD(call) call
+#else
+#define DUNE_HD(call) ((void)0)
+#endif
+
 #include "widget.h"
 #include "../config.h"
 #include "../gfx.h"
@@ -935,6 +946,7 @@ void GUI_Widget_DrawBorder(uint16 widgetIndex, uint16 borderType, bool pressed)
 		GUI_Mouse_Hide_InRegion(left, top, left + width, top + height);
 	}
 
+	DUNE_HD(DuneHD_WidgetBorderBegin());
 	GUI_DrawBorder(left, top, width, height, colourSchemaIndex + 1, true);
 
 	size = borderIndexSize[borderType][1];
@@ -944,6 +956,7 @@ void GUI_Widget_DrawBorder(uint16 widgetIndex, uint16 borderType, bool pressed)
 		GUI_DrawBorder(left + size, top + size, width - (size * 2), height - (size * 2), colourSchemaIndex, false);
 	}
 
+	DUNE_HD(DuneHD_Border(widgetIndex, borderType, pressed, left, top, width, height));
 	if (GFX_Screen_IsActive(SCREEN_0)) {
 		GUI_Mouse_Show_InRegion();
 	}

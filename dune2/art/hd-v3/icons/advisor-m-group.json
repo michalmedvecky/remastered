@@ -1,0 +1,231 @@
+{
+  "id": "advisor-m",
+  "ids": [
+    462,
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471
+  ],
+  "columns": 4,
+  "rows": 3,
+  "reference": "references/advisor-m-newbase.png",
+  "referenceSha256": "0d7be21d597e363d1b8688519b383c459de56ba132fc42ce14b5d3c400b36a2e",
+  "poseReference": "references/advisor-m-nativeposes.png",
+  "poseReferenceSha256": "e642f3aaf12948f318ebb828d73f5d8e17fc6f0303560107b9c4ab1adefbcd3b",
+  "base": "art/hd-v3/interface/review/advisor-m-base.png",
+  "baseSha256": "b55a3d7854fed7cccb30071b82fe042dc45395058ee52e04c8a84e510ce2d060",
+  "crops": [
+    {
+      "id": 462,
+      "cell": 0,
+      "origin": [
+        64,
+        80
+      ],
+      "baseRect": [
+        256,
+        320,
+        192,
+        64
+      ],
+      "referenceRect": [
+        36,
+        92,
+        312,
+        104
+      ]
+    },
+    {
+      "id": 463,
+      "cell": 1,
+      "origin": [
+        64,
+        80
+      ],
+      "baseRect": [
+        256,
+        320,
+        192,
+        64
+      ],
+      "referenceRect": [
+        420,
+        92,
+        312,
+        104
+      ]
+    },
+    {
+      "id": 464,
+      "cell": 2,
+      "origin": [
+        64,
+        80
+      ],
+      "baseRect": [
+        256,
+        320,
+        192,
+        64
+      ],
+      "referenceRect": [
+        804,
+        92,
+        312,
+        104
+      ]
+    },
+    {
+      "id": 465,
+      "cell": 3,
+      "origin": [
+        64,
+        80
+      ],
+      "baseRect": [
+        256,
+        320,
+        192,
+        64
+      ],
+      "referenceRect": [
+        1188,
+        92,
+        312,
+        104
+      ]
+    },
+    {
+      "id": 466,
+      "cell": 4,
+      "origin": [
+        64,
+        80
+      ],
+      "baseRect": [
+        256,
+        320,
+        192,
+        64
+      ],
+      "referenceRect": [
+        36,
+        380,
+        312,
+        104
+      ]
+    },
+    {
+      "id": 467,
+      "cell": 5,
+      "origin": [
+        56,
+        96
+      ],
+      "baseRect": [
+        224,
+        384,
+        224,
+        192
+      ],
+      "referenceRect": [
+        445,
+        320,
+        261,
+        224
+      ]
+    },
+    {
+      "id": 468,
+      "cell": 6,
+      "origin": [
+        56,
+        96
+      ],
+      "baseRect": [
+        224,
+        384,
+        224,
+        192
+      ],
+      "referenceRect": [
+        829,
+        320,
+        261,
+        224
+      ]
+    },
+    {
+      "id": 469,
+      "cell": 7,
+      "origin": [
+        56,
+        96
+      ],
+      "baseRect": [
+        224,
+        384,
+        224,
+        192
+      ],
+      "referenceRect": [
+        1213,
+        320,
+        261,
+        224
+      ]
+    },
+    {
+      "id": 470,
+      "cell": 8,
+      "origin": [
+        56,
+        96
+      ],
+      "baseRect": [
+        224,
+        384,
+        224,
+        192
+      ],
+      "referenceRect": [
+        61,
+        608,
+        261,
+        224
+      ]
+    },
+    {
+      "id": 471,
+      "cell": 9,
+      "origin": [
+        56,
+        96
+      ],
+      "baseRect": [
+        224,
+        384,
+        224,
+        192
+      ],
+      "referenceRect": [
+        445,
+        608,
+        261,
+        224
+      ]
+    }
+  ],
+  "prompt": "Use case: precise-object-edit. Production Dune II HD facial animation patches. Image1 is EXACT NEW PAINTED EDIT TARGET: 10 cropped rectangular patches, fourcolumns bythreerows row-major, 2 trailing cells empty. Image2 is ORIGINAL LOWRES POSE REFERENCE ONLY: it tells each matching cell's eye gaze or mouth shape, not drawing style or colours. Image3 is NEW PAINTED WHOLE CHARACTER for identity/style. Bene Gesserit woman with dark hair, pale skin and blue eyes, dark robe. FIRSTFIVE cells are eyes/upperface patches: baseline forward gaze, gaze left, gaze right, partially lowered eyelids, eyes fully closed. NEXTFIVE cells are lowerface/mouth patches: closed/rest mouth, slightly open talking, wider open talking, rounded/pursed talking, teeth visible talking, following corresponding original patch intention. Change ONLY eye gaze/eyelids or lip/mouth opening within each crop. Preserve every surrounding skin fold, brow, nose, chin, head pose, face scale, light direction, colour and exact crop shape/relative feature positions from Image1. Same coherent identity, no extra head, no new face angle, no smiling generic replacement. Keep all patches distinct in exactly original order. Each cropped rectangular patch must remain centered in its equal cell at SAME dimensions/aspect as Image1, generous genuinely transparent gutters, no borders, labels, numbers, full-head portraits, frames, background, glows or fringe outside patch. The outer margin skin pixels should visually match Image1 unchanged so the patches can blend into its whole new portrait. Detailed crisp continuous hand-painted illustrated game art, never pixel mosaic or smoothed original pixels. Approximately1536x1152 atlas.",
+  "role": "matched-painted-advisor-facial-poses",
+  "status": "packed",
+  "selectedRaw": "raw/advisor-m.png",
+  "cachedGenerationBase": "references/advisor-m-wholebase.png",
+  "cachedGenerationBaseSHA256": "b55a3d7854fed7cccb30071b82fe042dc45395058ee52e04c8a84e510ce2d060"
+}
