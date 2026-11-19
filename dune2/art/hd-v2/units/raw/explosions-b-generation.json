@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1ee07-75dc-7141-9595-3b55bf6658e7/exec-2d319139-ba40-4cff-9f8c-7a033c42bf44.png",
+  "raw": "raw/explosions-b.png",
+  "prompt": "explosions-b-prompt.json",
+  "ids": [
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207
+  ],
+  "judgment": "Visually inspected all ten occupied cells, original size/phase order, warm fire progression and two empty trailing cells. New coherent RGBA explosions; sparse late-phase fiery remains and transparent gutters retained; final native-scale packing/alpha checks remain separate."
+}

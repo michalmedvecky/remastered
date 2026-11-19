@@ -1,0 +1,27 @@
+{
+  "manifestAndAtlasByteIdentical": true,
+  "files": {
+    "dist/painted/buildings.json": "0b78b9ccf708e03a15bb4f5055cdd182ca1810b00931b25bead854b97976ef23",
+    "dist/painted/buildings-733d96bdc1d1a864.png": "733d96bdc1d1a864991ab7c68966aececac9d7261df8955adac4902b334a90b1"
+  },
+  "method": "Strict rebuild with retained raw images, exact native preload and the same Python/zlib toolchain",
+  "tests": {
+    "nodeTests": 3,
+    "passed": 3
+  },
+  "coverage": {
+    "complete": true,
+    "expectedNativeIds": 254,
+    "coveredNativeIds": 254,
+    "missingNativeIds": [],
+    "structureTypesTotal": 19,
+    "semanticBuildingTypes": 16,
+    "nativeWholeStateRecords": 106,
+    "statuses": {
+      "painted-derived-native-flag-state": 10,
+      "painted-wall-native-connection": 75,
+      "painted-whole-alternate-native-region-composite": 33,
+      "painted-whole-object": 136
+    }
+  }
+}

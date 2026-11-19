@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "references": [
+    "../references/alternate-major-a.png",
+    "pilot-approved.png"
+  ],
+  "transparent_background": true,
+  "prompt": "Use case: precise-object-edit / complete 2D RTS building sprites.\nImage1 is the edit target, a grid of exact native DuneII whole building states; Image2 is the approved painted construction-yard/windtrap STYLE reference only. Replace native pixel blocks with clean detailed hand-painted hard-surface game artwork matching Image2. Preserve every cell's object identity, native high-overhead orthographic projection, angle, shape and component layout. Exact row-major state and facing order is mandatory. No isometric camera redesign, inventedextra towers, blur, enlarged pixel mosaic, generic material grain, photonoise or thick toy outlines.\nAll objects should be crisp and readable at64–192pixel gameplay sizes, cool steel, cobalt blue house panels and native warm desert metals, upper-leftlight. Output an actual transparent sprite atlas with one whole isolated object/state in each equal cell and generous transparent gutters, no labels/text/grid/borders, outside scenery or long shadows. Attached native building platform may remain. Do not merge adjacent cells.\nOutput4columns×2rows, exactly8 complete alternate activebuilding states in exactsourceorder. Row1: Lightvehiclefactory GREEN statuslight withsmallvehiclequeue in sourceposition; HeavyfactorywithGREENstatuslight and partlyoccupied loadingbay; SAMEHeavyfactory nextnativebayphase blueobjectmoreextended as shown; Hitechfactory in sourceblink/landingphase. Row2: WOR troopfacility atsourcehighlightphase; Starport centralpad phase1; SAMEStarport padnextphase; SAMEStarport with largeblue craft/hatchoccupying centralvertical dockingstrip. Staticbuildingmodules must remainatidentical positions between phases; only the specified nativeactive parts maychange. Preserve same steel/blue/warm-metal architecture and exact open-yard/dockingbay placement. No textonpads. Request1536x768."
+}

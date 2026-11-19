@@ -1,0 +1,18 @@
+{
+  "manifestSha256": "a8b8a548be60b15b750b574d4051bb718b45beaa7b794661d3e4bb6044859995",
+  "atlasSha256": "41a53c9b857a74e2bb4dbfed11fe5d152038846caaa1386836e4264def490d78",
+  "byteIdenticalRebuild": true,
+  "method": "Same retained model outputs including targeted neutral turret edits, decoded native inventory, accepted pilot PNGs and deterministic PNG/area-fit packer; two complete packs compare exact manifest/atlas hashes",
+  "coverage": {
+    "expected": 244,
+    "available": 244,
+    "complete": true,
+    "missing": [],
+    "statuses": {
+      "painted": 233,
+      "procedural-effect": 5,
+      "native-empty": 6
+    },
+    "nativeUnitTypes": 27
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-6c2b9606-2617-4b25-a850-8dcced2edc21.png",
+  "raw": "raw/quad-south-fix.png",
+  "prompt": "quad-south-fix-prompt.json",
+  "ids": [
+    242
+  ],
+  "judgment": "CorrectednativeQuadS: exactly4cornerwheels, pairedgunsdownward, nofifth/centrewheel; correcthighoverheadprojection/style"
+}

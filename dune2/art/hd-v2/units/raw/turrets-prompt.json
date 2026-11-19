@@ -1,0 +1,27 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/art/hd-v2/units/references/turrets.png",
+    "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/hd-art-pilot-v2/raw/vehicles-corrected.png"
+  ],
+  "prompt": "Use case: identity-preserve. Production HD2D RTS SPRITE ATLAS. Image1 is the EXACT EDIT TARGET: original native poses in4 equalcolumns and the statedrowcount, row-major. Image2 is the APPROVED ART STYLE ONLY: clean cobalt/steel vehicles; never copy its subjects into this sheet. Redraw every occupiedcell as a complete coherent new hand-painted sprite with confident clean contours, restrained hard-surface/cel shading and readable mediumforms. Match the high-overhead orthographic tacticalgame camera, alloriginal facings, individual poses, relativebodyparts and nativeproportions; NO lowisometric/toy/glamour camera. Cobaltblue factionareas, coolsteel machinery, charcoal rubber; humans/effects keep their respective nativecolours. Upperleft illumination. Genuinely new continuousdrawing, NOT nativepixelmosaic, blur/smearing, originalpixelcolourmask or genericgrain/detailoverlay. Keep EXACT cellcount/order, distinctanimationphases, isolatedsprites, generous trulytransparent gutters. No labels/numbers/grid/background/floor/longshadows/halos, noextraobjects, noopaque matte. Transparentbackground. Preserve original intentionalthinstruts/barrels/emptygaps, do not completepartial effects into unrelatedobjects. This sheet has4columns by4rows with exactly15occupiedcells, then1emptytrailingcells. Subjects/roles: Fifteen TURRET LAYERS ONLY, no hull, no wheels and no tankbody. Firstfive small regular tank turret with SINGLE longbarrel. Nextfive heavier siege turret with SINGLE heavybarrel. Finalfive wide Devastator turret with TWO parallel barrels. Eachset facings N,NE,E,SE,S. Preserve each source turret silhouette, rear cap and pivotplacement. Output a sharp highresolution sheet with the SAME aspectratio as Image1 and equalcellspacing. It must be readable at eachoriginalnativecanvas enlarged4×; small details stay restrained.",
+  "ids": [
+    116,
+    117,
+    118,
+    119,
+    120,
+    126,
+    127,
+    128,
+    129,
+    130,
+    136,
+    137,
+    138,
+    139,
+    140
+  ]
+}

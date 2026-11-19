@@ -1,0 +1,2863 @@
+{
+  "rawHashes": {
+    "pilot-approved.png": "ac5413d3de9f862157151c7364f9d159564e74040ea50956b0ee45e9e2569a16",
+    "base-a.png": "5868fc0034b81d6fb28a8caef93601532bdd1de14dae462be6ebb00e6d2f5e24",
+    "base-b.png": "0d5ef4381c83d5bee1f7e145f64188b02cf05710326f3bfa4f19204315ef18da",
+    "base-c.png": "9dee5214213177520c7e20c94be2a728118ca000611f7d92f37c9d03c2abd013",
+    "turrets.png": "bb2d5e08b7a72da2cebc2d90f58aef098eb1f7e7bcc4c2f14575c3c1c0ebaf1c",
+    "foundation-rubble.png": "52780dd1d95278626bfef808b48dbfda37c8d43b1edb5eabdfd77d7a1370cd3c",
+    "alternate-major-a.png": "96bd16e83a109bd8ee83d5dc8c139ba25a3d969fa953a33cd191f10e1ab8f6f4",
+    "alternate-major-b.png": "0c09ccb60d6919f50b2cd92229f845c57cfecbc9c0254dae7472a05cb8d92703",
+    "walls-0.png": "e9ff6173bec4285813ea2f6c7a2bbebe0e0a083dd92e7df27087be1efeccfde9",
+    "walls-1.png": "76ca4b00f55c558c3684aadee3c8b9a70b527ccb9d6341011c114aa6144e741b",
+    "walls-2.png": "0cdb46922b83b9284fb06708107ed7c413cfdb6ba212c9b3f7f6072b02548235",
+    "walls-3.png": "ab66bdc8fcfc325b788ebd53f8da7b275e78f575782efbf602cf203cdacb983d",
+    "walls-4.png": "248bc7c0df76419ea46455febc9a1be7d7fd1f2623079f79c61d22f0f7319fb5"
+  },
+  "objects": [
+    {
+      "structureId": 8,
+      "state": 2,
+      "job": "pilot-approved",
+      "cell": 0,
+      "crop": [
+        110,
+        102,
+        666,
+        682
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 9,
+      "state": 2,
+      "job": "pilot-approved",
+      "cell": 1,
+      "crop": [
+        997,
+        115,
+        667,
+        670
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 2,
+      "state": 2,
+      "job": "base-a",
+      "cell": 0,
+      "crop": [
+        89,
+        81,
+        454,
+        478
+      ],
+      "width": 192,
+      "height": 192,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 3,
+      "state": 2,
+      "job": "base-a",
+      "cell": 1,
+      "crop": [
+        709,
+        79,
+        459,
+        481
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 4,
+      "state": 2,
+      "job": "base-a",
+      "cell": 2,
+      "crop": [
+        85,
+        762,
+        461,
+        333
+      ],
+      "width": 192,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 5,
+      "state": 2,
+      "job": "base-a",
+      "cell": 3,
+      "crop": [
+        702,
+        759,
+        472,
+        340
+      ],
+      "width": 192,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 6,
+      "state": 2,
+      "job": "base-b",
+      "cell": 0,
+      "crop": [
+        78,
+        65,
+        446,
+        460
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 7,
+      "state": 2,
+      "job": "base-b",
+      "cell": 1,
+      "crop": [
+        730,
+        78,
+        447,
+        447
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 10,
+      "state": 2,
+      "job": "base-b",
+      "cell": 2,
+      "crop": [
+        78,
+        706,
+        446,
+        446
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 11,
+      "state": 2,
+      "job": "base-b",
+      "cell": 3,
+      "crop": [
+        729,
+        698,
+        448,
+        454
+      ],
+      "width": 192,
+      "height": 192,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 12,
+      "state": 2,
+      "job": "base-c",
+      "cell": 0,
+      "crop": [
+        70,
+        138,
+        460,
+        320
+      ],
+      "width": 192,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 13,
+      "state": 2,
+      "job": "base-c",
+      "cell": 1,
+      "crop": [
+        724,
+        127,
+        461,
+        328
+      ],
+      "width": 192,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 17,
+      "state": 2,
+      "job": "base-c",
+      "cell": 2,
+      "crop": [
+        68,
+        730,
+        463,
+        446
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 18,
+      "state": 2,
+      "job": "base-c",
+      "cell": 3,
+      "crop": [
+        723,
+        730,
+        463,
+        446
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 15,
+      "state": 2,
+      "job": "turrets",
+      "cell": 0,
+      "crop": [
+        47,
+        34,
+        220,
+        231
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 15,
+      "state": 3,
+      "job": "turrets",
+      "cell": 1,
+      "crop": [
+        361,
+        46,
+        219,
+        219
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 15,
+      "state": 4,
+      "job": "turrets",
+      "cell": 2,
+      "crop": [
+        674,
+        46,
+        220,
+        219
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 15,
+      "state": 5,
+      "job": "turrets",
+      "cell": 3,
+      "crop": [
+        988,
+        46,
+        219,
+        219
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 15,
+      "state": 6,
+      "job": "turrets",
+      "cell": 4,
+      "crop": [
+        47,
+        359,
+        220,
+        219
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 15,
+      "state": 7,
+      "job": "turrets",
+      "cell": 5,
+      "crop": [
+        361,
+        359,
+        219,
+        219
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 15,
+      "state": 8,
+      "job": "turrets",
+      "cell": 6,
+      "crop": [
+        674,
+        359,
+        220,
+        219
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 15,
+      "state": 9,
+      "job": "turrets",
+      "cell": 7,
+      "crop": [
+        988,
+        359,
+        219,
+        219
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 16,
+      "state": 2,
+      "job": "turrets",
+      "cell": 8,
+      "crop": [
+        47,
+        673,
+        220,
+        219
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 16,
+      "state": 3,
+      "job": "turrets",
+      "cell": 9,
+      "crop": [
+        361,
+        673,
+        219,
+        219
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 16,
+      "state": 4,
+      "job": "turrets",
+      "cell": 10,
+      "crop": [
+        674,
+        673,
+        220,
+        219
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 16,
+      "state": 5,
+      "job": "turrets",
+      "cell": 11,
+      "crop": [
+        988,
+        673,
+        219,
+        219
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 16,
+      "state": 6,
+      "job": "turrets",
+      "cell": 12,
+      "crop": [
+        47,
+        987,
+        220,
+        218
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 16,
+      "state": 7,
+      "job": "turrets",
+      "cell": 13,
+      "crop": [
+        361,
+        986,
+        219,
+        219
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 16,
+      "state": 8,
+      "job": "turrets",
+      "cell": 14,
+      "crop": [
+        675,
+        987,
+        219,
+        218
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 16,
+      "state": 9,
+      "job": "turrets",
+      "cell": 15,
+      "crop": [
+        988,
+        987,
+        219,
+        218
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 2,
+      "state": 0,
+      "job": "foundation-rubble",
+      "cell": 0,
+      "crop": [
+        57,
+        62,
+        251,
+        250
+      ],
+      "width": 192,
+      "height": 192,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 2,
+      "state": 1,
+      "job": "foundation-rubble",
+      "cell": 1,
+      "crop": [
+        412,
+        54,
+        263,
+        260
+      ],
+      "width": 192,
+      "height": 192,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 4,
+      "state": 0,
+      "job": "foundation-rubble",
+      "cell": 2,
+      "crop": [
+        775,
+        90,
+        263,
+        184
+      ],
+      "width": 192,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 5,
+      "state": 0,
+      "job": "foundation-rubble",
+      "cell": 3,
+      "crop": [
+        1136,
+        90,
+        264,
+        184
+      ],
+      "width": 192,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 3,
+      "state": 0,
+      "job": "foundation-rubble",
+      "cell": 4,
+      "crop": [
+        59,
+        414,
+        244,
+        252
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 3,
+      "state": 1,
+      "job": "foundation-rubble",
+      "cell": 5,
+      "crop": [
+        417,
+        419,
+        255,
+        249
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 8,
+      "state": 0,
+      "job": "foundation-rubble",
+      "cell": 6,
+      "crop": [
+        778,
+        419,
+        254,
+        249
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 18,
+      "state": 1,
+      "job": "foundation-rubble",
+      "cell": 7,
+      "crop": [
+        1139,
+        418,
+        257,
+        250
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 11,
+      "state": 1,
+      "job": "foundation-rubble",
+      "cell": 8,
+      "crop": [
+        50,
+        772,
+        263,
+        260
+      ],
+      "width": 192,
+      "height": 192,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 15,
+      "state": 0,
+      "job": "foundation-rubble",
+      "cell": 9,
+      "crop": [
+        419,
+        776,
+        247,
+        251
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 15,
+      "state": 1,
+      "job": "foundation-rubble",
+      "cell": 10,
+      "crop": [
+        778,
+        774,
+        256,
+        254
+      ],
+      "width": 64,
+      "height": 64,
+      "status": "painted-whole-object",
+      "nativeDeltaBounds": null
+    },
+    {
+      "structureId": 3,
+      "state": 4,
+      "job": "alternate-major-a",
+      "cell": 0,
+      "crop": [
+        63,
+        81,
+        290,
+        295
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        24,
+        20,
+        28,
+        24
+      ]
+    },
+    {
+      "structureId": 4,
+      "state": 4,
+      "job": "alternate-major-a",
+      "cell": 1,
+      "crop": [
+        504,
+        127,
+        323,
+        224
+      ],
+      "width": 192,
+      "height": 128,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        18,
+        17,
+        36,
+        31
+      ]
+    },
+    {
+      "structureId": 4,
+      "state": 6,
+      "job": "alternate-major-a",
+      "cell": 2,
+      "crop": [
+        948,
+        127,
+        323,
+        224
+      ],
+      "width": 192,
+      "height": 128,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        18,
+        16,
+        44,
+        31
+      ]
+    },
+    {
+      "structureId": 5,
+      "state": 3,
+      "job": "alternate-major-a",
+      "cell": 3,
+      "crop": [
+        1393,
+        129,
+        320,
+        222
+      ],
+      "width": 192,
+      "height": 128,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        5,
+        17,
+        10,
+        20
+      ]
+    },
+    {
+      "structureId": 7,
+      "state": 3,
+      "job": "alternate-major-a",
+      "cell": 4,
+      "crop": [
+        62,
+        504,
+        319,
+        318
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        6,
+        15,
+        10,
+        18
+      ]
+    },
+    {
+      "structureId": 11,
+      "state": 4,
+      "job": "alternate-major-a",
+      "cell": 5,
+      "crop": [
+        506,
+        504,
+        318,
+        319
+      ],
+      "width": 192,
+      "height": 192,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        2,
+        18,
+        30,
+        46
+      ]
+    },
+    {
+      "structureId": 11,
+      "state": 6,
+      "job": "alternate-major-a",
+      "cell": 6,
+      "crop": [
+        950,
+        504,
+        318,
+        319
+      ],
+      "width": 192,
+      "height": 192,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        2,
+        18,
+        30,
+        46
+      ]
+    },
+    {
+      "structureId": 11,
+      "state": 8,
+      "job": "alternate-major-a",
+      "cell": 7,
+      "crop": [
+        1393,
+        504,
+        318,
+        319
+      ],
+      "width": 192,
+      "height": 192,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        2,
+        18,
+        30,
+        46
+      ]
+    },
+    {
+      "structureId": 12,
+      "state": 4,
+      "job": "alternate-major-b",
+      "cell": 0,
+      "crop": [
+        57,
+        101,
+        314,
+        221
+      ],
+      "width": 192,
+      "height": 128,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        33,
+        2,
+        47,
+        30
+      ]
+    },
+    {
+      "structureId": 12,
+      "state": 6,
+      "job": "alternate-major-b",
+      "cell": 1,
+      "crop": [
+        500,
+        101,
+        314,
+        221
+      ],
+      "width": 192,
+      "height": 128,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        33,
+        2,
+        47,
+        30
+      ]
+    },
+    {
+      "structureId": 12,
+      "state": 8,
+      "job": "alternate-major-b",
+      "cell": 2,
+      "crop": [
+        944,
+        101,
+        314,
+        221
+      ],
+      "width": 192,
+      "height": 128,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        32,
+        2,
+        47,
+        30
+      ]
+    },
+    {
+      "structureId": 13,
+      "state": 8,
+      "job": "alternate-major-b",
+      "cell": 3,
+      "crop": [
+        1391,
+        103,
+        322,
+        222
+      ],
+      "width": 192,
+      "height": 128,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        24,
+        22,
+        43,
+        32
+      ]
+    },
+    {
+      "structureId": 18,
+      "state": 3,
+      "job": "alternate-major-b",
+      "cell": 4,
+      "crop": [
+        68,
+        544,
+        299,
+        295
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        1,
+        4,
+        27,
+        26
+      ]
+    },
+    {
+      "structureId": 18,
+      "state": 4,
+      "job": "alternate-major-b",
+      "cell": 5,
+      "crop": [
+        513,
+        544,
+        298,
+        295
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        17,
+        4,
+        27,
+        15
+      ]
+    },
+    {
+      "structureId": 18,
+      "state": 5,
+      "job": "alternate-major-b",
+      "cell": 6,
+      "crop": [
+        956,
+        544,
+        298,
+        295
+      ],
+      "width": 128,
+      "height": 128,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        1,
+        4,
+        27,
+        26
+      ]
+    },
+    {
+      "structureId": 2,
+      "state": 3,
+      "job": "alternate-major-b",
+      "cell": 7,
+      "crop": [
+        1395,
+        528,
+        311,
+        311
+      ],
+      "width": 192,
+      "height": 192,
+      "status": "painted-whole-alternate-native-region-composite",
+      "nativeDeltaBounds": [
+        9,
+        8,
+        13,
+        11
+      ]
+    },
+    {
+      "structureId": 14,
+      "state": 0,
+      "tileId": 33,
+      "job": "walls-0",
+      "cell": 0,
+      "crop": [
+        39,
+        66,
+        205,
+        174
+      ],
+      "sourceInkBounds": [
+        1,
+        0,
+        15,
+        15
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 1,
+      "tileId": 34,
+      "job": "walls-0",
+      "cell": 1,
+      "crop": [
+        339,
+        51,
+        217,
+        215
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 2,
+      "tileId": 35,
+      "job": "walls-0",
+      "cell": 2,
+      "crop": [
+        654,
+        51,
+        226,
+        206
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 3,
+      "tileId": 36,
+      "job": "walls-0",
+      "cell": 3,
+      "crop": [
+        976,
+        51,
+        221,
+        215
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 4,
+      "tileId": 37,
+      "job": "walls-0",
+      "cell": 4,
+      "crop": [
+        1288,
+        51,
+        218,
+        215
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 5,
+      "tileId": 38,
+      "job": "walls-0",
+      "cell": 5,
+      "crop": [
+        28,
+        377,
+        220,
+        215
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 6,
+      "tileId": 39,
+      "job": "walls-0",
+      "cell": 6,
+      "crop": [
+        340,
+        377,
+        220,
+        215
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 7,
+      "tileId": 40,
+      "job": "walls-0",
+      "cell": 7,
+      "crop": [
+        655,
+        377,
+        224,
+        215
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 8,
+      "tileId": 41,
+      "job": "walls-0",
+      "cell": 8,
+      "crop": [
+        975,
+        377,
+        222,
+        203
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 9,
+      "tileId": 42,
+      "job": "walls-0",
+      "cell": 9,
+      "crop": [
+        1288,
+        377,
+        221,
+        215
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 10,
+      "tileId": 43,
+      "job": "walls-0",
+      "cell": 10,
+      "crop": [
+        27,
+        706,
+        221,
+        215
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 11,
+      "tileId": 44,
+      "job": "walls-0",
+      "cell": 11,
+      "crop": [
+        340,
+        706,
+        222,
+        215
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 12,
+      "tileId": 45,
+      "job": "walls-0",
+      "cell": 12,
+      "crop": [
+        655,
+        706,
+        225,
+        215
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 13,
+      "tileId": 46,
+      "job": "walls-0",
+      "cell": 13,
+      "crop": [
+        975,
+        707,
+        221,
+        213
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 14,
+      "tileId": 47,
+      "job": "walls-0",
+      "cell": 14,
+      "crop": [
+        1288,
+        707,
+        221,
+        208
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 15,
+      "tileId": 48,
+      "job": "walls-1",
+      "cell": 0,
+      "crop": [
+        72,
+        91,
+        206,
+        204
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 16,
+      "tileId": 49,
+      "job": "walls-1",
+      "cell": 1,
+      "crop": [
+        368,
+        91,
+        208,
+        204
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 17,
+      "tileId": 50,
+      "job": "walls-1",
+      "cell": 2,
+      "crop": [
+        664,
+        91,
+        210,
+        203
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 18,
+      "tileId": 51,
+      "job": "walls-1",
+      "cell": 3,
+      "crop": [
+        960,
+        90,
+        212,
+        203
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 19,
+      "tileId": 52,
+      "job": "walls-1",
+      "cell": 4,
+      "crop": [
+        1259,
+        91,
+        209,
+        203
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 20,
+      "tileId": 53,
+      "job": "walls-1",
+      "cell": 5,
+      "crop": [
+        69,
+        401,
+        210,
+        206
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 21,
+      "tileId": 54,
+      "job": "walls-1",
+      "cell": 6,
+      "crop": [
+        368,
+        401,
+        209,
+        205
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 22,
+      "tileId": 55,
+      "job": "walls-1",
+      "cell": 7,
+      "crop": [
+        664,
+        401,
+        209,
+        204
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 23,
+      "tileId": 56,
+      "job": "walls-1",
+      "cell": 8,
+      "crop": [
+        960,
+        401,
+        209,
+        206
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 24,
+      "tileId": 57,
+      "job": "walls-1",
+      "cell": 9,
+      "crop": [
+        1259,
+        401,
+        209,
+        206
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 25,
+      "tileId": 58,
+      "job": "walls-1",
+      "cell": 10,
+      "crop": [
+        71,
+        713,
+        208,
+        209
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 26,
+      "tileId": 59,
+      "job": "walls-1",
+      "cell": 11,
+      "crop": [
+        367,
+        713,
+        209,
+        209
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 27,
+      "tileId": 60,
+      "job": "walls-1",
+      "cell": 12,
+      "crop": [
+        664,
+        713,
+        209,
+        209
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 28,
+      "tileId": 61,
+      "job": "walls-1",
+      "cell": 13,
+      "crop": [
+        960,
+        713,
+        211,
+        209
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 29,
+      "tileId": 62,
+      "job": "walls-1",
+      "cell": 14,
+      "crop": [
+        1257,
+        713,
+        211,
+        209
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 30,
+      "tileId": 63,
+      "job": "walls-2",
+      "cell": 0,
+      "crop": [
+        42,
+        63,
+        209,
+        220
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 31,
+      "tileId": 64,
+      "job": "walls-2",
+      "cell": 1,
+      "crop": [
+        353,
+        63,
+        217,
+        221
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 32,
+      "tileId": 65,
+      "job": "walls-2",
+      "cell": 2,
+      "crop": [
+        656,
+        64,
+        226,
+        220
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 33,
+      "tileId": 66,
+      "job": "walls-2",
+      "cell": 3,
+      "crop": [
+        964,
+        63,
+        214,
+        221
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 34,
+      "tileId": 67,
+      "job": "walls-2",
+      "cell": 4,
+      "crop": [
+        1279,
+        64,
+        208,
+        220
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 35,
+      "tileId": 68,
+      "job": "walls-2",
+      "cell": 5,
+      "crop": [
+        40,
+        399,
+        230,
+        219
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 36,
+      "tileId": 69,
+      "job": "walls-2",
+      "cell": 6,
+      "crop": [
+        348,
+        399,
+        229,
+        219
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 37,
+      "tileId": 70,
+      "job": "walls-2",
+      "cell": 7,
+      "crop": [
+        656,
+        399,
+        218,
+        219
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 38,
+      "tileId": 71,
+      "job": "walls-2",
+      "cell": 8,
+      "crop": [
+        963,
+        399,
+        218,
+        219
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 39,
+      "tileId": 72,
+      "job": "walls-2",
+      "cell": 9,
+      "crop": [
+        1265,
+        406,
+        235,
+        212
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 40,
+      "tileId": 73,
+      "job": "walls-2",
+      "cell": 10,
+      "crop": [
+        35,
+        748,
+        234,
+        203
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 41,
+      "tileId": 74,
+      "job": "walls-2",
+      "cell": 11,
+      "crop": [
+        346,
+        748,
+        225,
+        203
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 42,
+      "tileId": 75,
+      "job": "walls-2",
+      "cell": 12,
+      "crop": [
+        653,
+        748,
+        234,
+        213
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 43,
+      "tileId": 76,
+      "job": "walls-2",
+      "cell": 13,
+      "crop": [
+        965,
+        748,
+        220,
+        213
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 44,
+      "tileId": 77,
+      "job": "walls-2",
+      "cell": 14,
+      "crop": [
+        1272,
+        748,
+        233,
+        203
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 45,
+      "tileId": 78,
+      "job": "walls-3",
+      "cell": 0,
+      "crop": [
+        45,
+        77,
+        206,
+        210
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 46,
+      "tileId": 79,
+      "job": "walls-3",
+      "cell": 1,
+      "crop": [
+        356,
+        77,
+        208,
+        210
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 47,
+      "tileId": 80,
+      "job": "walls-3",
+      "cell": 2,
+      "crop": [
+        665,
+        75,
+        207,
+        212
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 48,
+      "tileId": 81,
+      "job": "walls-3",
+      "cell": 3,
+      "crop": [
+        973,
+        77,
+        207,
+        210
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 49,
+      "tileId": 82,
+      "job": "walls-3",
+      "cell": 4,
+      "crop": [
+        1291,
+        75,
+        206,
+        212
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 50,
+      "tileId": 83,
+      "job": "walls-3",
+      "cell": 5,
+      "crop": [
+        44,
+        402,
+        207,
+        213
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 51,
+      "tileId": 84,
+      "job": "walls-3",
+      "cell": 6,
+      "crop": [
+        357,
+        402,
+        207,
+        212
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 52,
+      "tileId": 85,
+      "job": "walls-3",
+      "cell": 7,
+      "crop": [
+        666,
+        402,
+        206,
+        212
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 53,
+      "tileId": 86,
+      "job": "walls-3",
+      "cell": 8,
+      "crop": [
+        973,
+        403,
+        208,
+        211
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 54,
+      "tileId": 87,
+      "job": "walls-3",
+      "cell": 9,
+      "crop": [
+        1286,
+        402,
+        212,
+        212
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 55,
+      "tileId": 88,
+      "job": "walls-3",
+      "cell": 10,
+      "crop": [
+        40,
+        739,
+        211,
+        213
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 56,
+      "tileId": 89,
+      "job": "walls-3",
+      "cell": 11,
+      "crop": [
+        357,
+        739,
+        207,
+        213
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 57,
+      "tileId": 90,
+      "job": "walls-3",
+      "cell": 12,
+      "crop": [
+        666,
+        739,
+        207,
+        213
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 58,
+      "tileId": 91,
+      "job": "walls-3",
+      "cell": 13,
+      "crop": [
+        973,
+        739,
+        208,
+        213
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 59,
+      "tileId": 92,
+      "job": "walls-3",
+      "cell": 14,
+      "crop": [
+        1287,
+        740,
+        212,
+        212
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 60,
+      "tileId": 93,
+      "job": "walls-4",
+      "cell": 0,
+      "crop": [
+        23,
+        63,
+        230,
+        214
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 61,
+      "tileId": 94,
+      "job": "walls-4",
+      "cell": 1,
+      "crop": [
+        338,
+        63,
+        228,
+        214
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 62,
+      "tileId": 95,
+      "job": "walls-4",
+      "cell": 2,
+      "crop": [
+        654,
+        63,
+        226,
+        214
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 63,
+      "tileId": 96,
+      "job": "walls-4",
+      "cell": 3,
+      "crop": [
+        968,
+        63,
+        231,
+        176
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 64,
+      "tileId": 97,
+      "job": "walls-4",
+      "cell": 4,
+      "crop": [
+        1283,
+        63,
+        230,
+        176
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 65,
+      "tileId": 98,
+      "job": "walls-4",
+      "cell": 5,
+      "crop": [
+        23,
+        404,
+        227,
+        176
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 66,
+      "tileId": 99,
+      "job": "walls-4",
+      "cell": 6,
+      "crop": [
+        338,
+        404,
+        228,
+        176
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 67,
+      "tileId": 100,
+      "job": "walls-4",
+      "cell": 7,
+      "crop": [
+        654,
+        404,
+        229,
+        214
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 68,
+      "tileId": 101,
+      "job": "walls-4",
+      "cell": 8,
+      "crop": [
+        969,
+        404,
+        230,
+        214
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 69,
+      "tileId": 102,
+      "job": "walls-4",
+      "cell": 9,
+      "crop": [
+        1283,
+        404,
+        228,
+        214
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 70,
+      "tileId": 103,
+      "job": "walls-4",
+      "cell": 10,
+      "crop": [
+        23,
+        747,
+        229,
+        214
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 71,
+      "tileId": 104,
+      "job": "walls-4",
+      "cell": 11,
+      "crop": [
+        339,
+        747,
+        230,
+        176
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 72,
+      "tileId": 105,
+      "job": "walls-4",
+      "cell": 12,
+      "crop": [
+        654,
+        747,
+        229,
+        176
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 73,
+      "tileId": 106,
+      "job": "walls-4",
+      "cell": 13,
+      "crop": [
+        970,
+        748,
+        227,
+        176
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 14,
+      "state": 74,
+      "tileId": 107,
+      "job": "walls-4",
+      "cell": 14,
+      "crop": [
+        1284,
+        748,
+        228,
+        176
+      ],
+      "sourceInkBounds": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "status": "painted-wall-native-connection"
+    },
+    {
+      "structureId": 3,
+      "tileId": 243,
+      "sourceTileId": 242,
+      "status": "painted-derived-native-flag-state",
+      "nativeChangedPixels": 15,
+      "paintedMarkerPixels": 775
+    },
+    {
+      "structureId": 4,
+      "tileId": 257,
+      "sourceTileId": 254,
+      "status": "painted-derived-native-flag-state",
+      "nativeChangedPixels": 9,
+      "paintedMarkerPixels": 685
+    },
+    {
+      "structureId": 6,
+      "tileId": 284,
+      "sourceTileId": 283,
+      "status": "painted-derived-native-flag-state",
+      "nativeChangedPixels": 9,
+      "paintedMarkerPixels": 825
+    },
+    {
+      "structureId": 8,
+      "tileId": 294,
+      "sourceTileId": 292,
+      "status": "painted-derived-native-flag-state",
+      "nativeChangedPixels": 9,
+      "paintedMarkerPixels": 304
+    },
+    {
+      "structureId": 10,
+      "tileId": 303,
+      "sourceTileId": 302,
+      "status": "painted-derived-native-flag-state",
+      "nativeChangedPixels": 23,
+      "paintedMarkerPixels": 224
+    },
+    {
+      "structureId": 9,
+      "tileId": 308,
+      "sourceTileId": 307,
+      "status": "painted-derived-native-flag-state",
+      "nativeChangedPixels": 9,
+      "paintedMarkerPixels": 270
+    },
+    {
+      "structureId": 11,
+      "tileId": 312,
+      "sourceTileId": 309,
+      "status": "painted-derived-native-flag-state",
+      "nativeChangedPixels": 9,
+      "paintedMarkerPixels": 190
+    },
+    {
+      "structureId": 12,
+      "tileId": 335,
+      "sourceTileId": 333,
+      "status": "painted-derived-native-flag-state",
+      "nativeChangedPixels": 9,
+      "paintedMarkerPixels": 169
+    },
+    {
+      "structureId": 13,
+      "tileId": 348,
+      "sourceTileId": 346,
+      "status": "painted-derived-native-flag-state",
+      "nativeChangedPixels": 10,
+      "paintedMarkerPixels": 128
+    },
+    {
+      "structureId": 17,
+      "tileId": 374,
+      "sourceTileId": 373,
+      "status": "painted-derived-native-flag-state",
+      "nativeChangedPixels": 9,
+      "paintedMarkerPixels": 136
+    }
+  ],
+  "atlasSha256": "733d96bdc1d1a864991ab7c68966aececac9d7261df8955adac4902b334a90b1",
+  "tileSourceHashes": {
+    "292": "37ada0844a7498f97e3edccc6ac4525e5d93fe079ccd8747f036b3b90b6d0d3a",
+    "293": "7b66c7f3905f8bb95ad7eb16a7dc96740f0bfbf2b5f5cccffc217721c534b267",
+    "297": "c0c9a86718878bce9e5194051f26ef907f7bce994c79a8e4a2c50de8e9836839",
+    "298": "2519eaab32d021f8798f74b577bb081a0f436ccd3902caa4b2c8efd3986723ab",
+    "304": "2a85c9b78170b0ad21a8aa6de0e34ec84d90b6bf349c1d2ca9bf616a499e7c56",
+    "305": "718a1d971aad401836281f339aa5e85b77bb28f54732270b57f139bcf8d39f02",
+    "306": "290934bf1889ad209acc594f15648431f00cd83bc7d6c3108da9f290e1b4b1f5",
+    "307": "8204ad78548d74cda99e5bd5e95b6a54953fe2ed527c5aa0fa6987311588ed15",
+    "216": "7a11274b7cf0bc8e75a2997dca847e3e45734a8a77cf4e6c21fdbd8fb30b3403",
+    "217": "7ae3f2cf759c291ddd4ccc79b74d98a27cbcc651ac117879c2ee758fc9122fb4",
+    "218": "a98a35bc069de4bb27adfadd84173228a1d383e096925258d6d96a32a5a3ae80",
+    "226": "390dc924d0f1db2f2fa2ebf9470fd60be99d45436e57d060a3c89abe11aad29f",
+    "227": "0251ca2c7d462fb56dc451c0927f0e1b727fe0af82b9b0dc93fc1763fc9e5e35",
+    "228": "a7d641e4a2272282c91339eb6b94c832f715d2105b0c6cba556c29badb98df46",
+    "235": "be819af33c2803d7479f33075afeb0eec66f145705eb3fee0aa457c5ba9dc9f5",
+    "236": "0e4b06b576c7321854cbc653fe1566cab5ca81b69ef84bc7d5167bcfa7536d8c",
+    "237": "b123a8f24ab5e5104bb28747e818f8f022efc733c7fced22f18a3c6bd1924c99",
+    "241": "fe2dc333eb9b4d69180edafb33f1c1989b7355a73d9dc9b671d5d032178eb9d7",
+    "242": "6c233fb29ba9b02639ca6059cd0745cccd2817b1b77e5a1a6e3ee8310e98e676",
+    "248": "19fd06a781e28d2c0a94e04a16db7581c0f9c3b78abb2a1122bb8a97a0478486",
+    "249": "996c4363b679e4f3fb6597588a0666733b1b0ed514fe6c3037caa05816ea2cf7",
+    "254": "384db7906fc3e9a1bc1ea3cf1dd4972158afddb76c011f9ac1acd8dc824d2fce",
+    "255": "ce113d8e33892237698739c88ce63eabdba9f0b80a0bc0dfd414ddfff8b2917f",
+    "256": "c3cdb3eb60616a944cfed19a99a80836ed569cef8371b47b2d548c022511fa0a",
+    "261": "252c242a480c968ebfdb80564382bf72173b09181e840367ecd54c2f582c68aa",
+    "262": "78022afc9a8434e67e8f280ee5648c0dfaae0d96b89dd01ed5236c3e34e7072b",
+    "263": "8dd00daa32e01ae0102855d861e7d2b49962bc865447b4686e69b038313c17a9",
+    "270": "a727c05b5061b8eb05b10a38c77b5978e1a952a54111662673bf19320f568775",
+    "271": "c9041089fe7e85ad51f71692c4412171c4226dcc4c44441a8a0d526e2c422a22",
+    "272": "eabcec3d97fee0f76bf40b63b785fed643c0606e8dc384a660925c88a0457219",
+    "276": "0afaba9dd2ad081fd2572dd8e95be5e7b33a1fee31a04a2e2dd6a78fac493f17",
+    "277": "19af883cfca34153a4cee8bde794fd0324e08a1277f478ff37c8bf0f7edc6be8",
+    "278": "c230b3ce1a3201679a3ffd0f55fc341662b76c9b7fe5e73d86cf4d28c66e99a7",
+    "280": "f6e6f3db65958c3f7dd133e10715ac3680bc91a71dffb78645bd103105e4f1b1",
+    "281": "b5a118e7b1a6faeb0481e7ae66e5e3ade9abafca6fce41609ce47e036b8a1606",
+    "282": "777787f9286782ca6bef1ea4ec52fade43229a539878ec361bdedd1421f908da",
+    "283": "a6530dc8c170b0fcdbce54f3b07228016e75a416b1275260febcc56d27f7e544",
+    "285": "af78ce6dc5085600d7525e4c9794d8587a89da859293a3d661c327824ee34699",
+    "286": "91943434c7ee92e9deb4dc99fbd030319cd749cb89064aa53d7d9948217486fc",
+    "288": "444eca9d27d71b1426c700fe4d1c6c99c2508389167153ae780242145b52f9dc",
+    "289": "00b5c17c43474c9808c841762b8453d312f12e2f24841c54531b7039495a7edf",
+    "299": "bf899b1887fdc2b4e51ea50dc204f66ac42fcbdb035ee308ae6b7e31607d6212",
+    "300": "b0be88adb979554596202ced8a088059368d03e768e69e38149c0e9519568d50",
+    "301": "3578b68a34b1c36ecb8c83cc6f9d855da520c54b409a238a92414154816fb3bd",
+    "302": "2ea1df823db7dcbdceb22cdbe9facdfe6f41b7dabe066df35457e77dbf3e79b1",
+    "309": "03e32a23dfdcb565477b89cd138b074a6f992281af28da6123fa765d4f29a984",
+    "310": "361addf6dfc2006d760bc3265685772d13bf327200f53873eb7077796699bd4a",
+    "311": "b5e199d4bd126f6f3e9b24b8f0014541e6cd63fa33b3f34bed10b8124ad5ed9e",
+    "314": "8bffa44a26871d47b9bfaf94a8ad14e46ffa414f1533824e9129ad82ffe4f334",
+    "315": "c475a186c266afc6c2776a126c41b534ee80bfedf5cffb246523b9cb6248e01c",
+    "316": "09abc6cf035602e77b62072b8ba6190f578ca1568b2a625395082ca69e492dc5",
+    "319": "20cf963b768a90226f572a40fa33ed63aa623804c682f3c09c0f5dded8157c4d",
+    "320": "29d5a3cbc0e5673d01cbe1d7057c2b7c037fad0c798b6daf7c52a80eba892085",
+    "321": "6cb112ebd48abb9b93a6320ad7475d7a41463750eb5fe84326ac321bf3a10e0c",
+    "332": "0d39374ee8f1a635b56efed55d3c334c5eb560c26f741311770123a4f95881ff",
+    "333": "dc7435cb0f8f42ed5776a7322d6391c80f17c85d72096d9e3ff6ff6bf0487001",
+    "334": "00839aad38f02a80a733c9bd29f4c6fe405ee0b6f84f7a8cfaac898df847e664",
+    "337": "9f3f3fd84627547cf4da0750a412d3be3d45dbe3792a2a3dd5417662978f376b",
+    "338": "8c81ff6787ad736cef872e64b57aafb0deb45aef630a41678b9e1614e32d5ab8",
+    "339": "2bf364e1447934cc3972ace55dafa7387abd1288cdc7fcbda3dbd4b2122cc83d",
+    "345": "ad0f1c977e71a233a9636a6e5ee3056d9e6e3404024381fce6ae94d0ef3c186f",
+    "346": "eefcf6471feabf07480933c51c158130d40b186cac6d3870fbdf68eedb987174",
+    "347": "e4f1d077feb118ac91ea05b18f08c8f8a59c98c8bbb07c386f2aeb1d33767c24",
+    "349": "a9fba2b5a8fa308307b6432273f9396b563a0edfb12f8d39df81b63b2c3a0427",
+    "350": "22158d76f32ae77e6c592c53e9e6c4cb8b3da56e913e822171e0d5069df19e1b",
+    "351": "952981f912a2dab3fafdafcff79f1b0aeadf48a14cc43606d0a489fa24a51594",
+    "372": "d5e5e860fe654400fbb2f953f424ad35cecc975211511d2596d9f3ba3519ebfe",
+    "373": "549ec7accad773e38eaac4b2c62c782d292452e7b93960c720be7139e7ae00d7",
+    "375": "581ee975167af02f7187e886b097157ca74c9346e9d63dfb38f31c25aa5440c9",
+    "376": "295b99035b5ad54d237e9de67acc5bf9d3c54c3718d41fb5ef097e41937d989b",
+    "379": "d1f9dbe9b58954fff9be19775c6d156d2425c862cd0d8810a43c7e117cfc9a97",
+    "380": "67e6229cf47fb6b0213fe777d4169059f4720a6cf9ba7368ca5e6f26510eca12",
+    "386": "0ac374aafc421494753b75eea3dbf8c3bfaec84f78e84558fb0490fac92d7cb0",
+    "387": "af601af581dd05678e08d6fbd9b39842c6e4a2fbff3723593521b0bcfb2e2bf2",
+    "356": "a6910cc1bb388c3c85bdbf230c90ad1ed4d98ed434fc488fa055039bd1c332af",
+    "357": "025ffbacac15fc8a84afeaf05525986d8cf24c7e856f700119708bc480286117",
+    "358": "306952ae917a9d9d7d9df92a0d8da76208b9ef49f00bdf487fea59f5c249bf80",
+    "359": "6dbc7d40f63ef07b1aaeaefb1b498950ad42bb7bebf01bcac2262d935cb42eef",
+    "360": "c7a29c13de62d975e48a70f9c57beb5da67262f30f1e2f983ed20d84ea00067f",
+    "361": "d13675a1b2b406d0f8e50e1b5d4f6dd9f99d7548a8a61d2b707a1399c7b7d71f",
+    "362": "8451413ba7dcb2008cfe1bddd2c46018f3cb3be5d017f87f7d353421f2813f64",
+    "363": "3bde493d321832af232e38bff039a26e25712f3d6f91bb8486f9ab399730fdfa",
+    "364": "b8faf07c7a6cad438a56927a310ee8eb787c3df0afe6f8f823e9fbbf7ac40dea",
+    "365": "a76fcfc151abca5abece956eb94b7658751a0ff01856ff44575fd8864d078529",
+    "366": "902c966f949c0adaf9ad5795b604e7f1ed7b378f4fa66f03f68a00d3ebd6473b",
+    "367": "fd4089881d829f4e9e41609886a3060240ad82833dcf2f797db32874e19ad73f",
+    "368": "83d1943e18a28ffd61f04c54fe22eb6348fac82b4e3e4eca3176f2f13fd7ab90",
+    "369": "591da5e9328a289e3e59c5dfcc4cde0654ddd5db4fab6ef06bb7f7a3f01541f0",
+    "370": "10c389f1201405df96c4e2d5d721863a1e5a72dd3e76c50628debbc6278b882e",
+    "371": "c058c7e0aca32e2999d8d4d900fb565132ee7e0d67112251601732ab9a165bf7",
+    "210": "ca66626dcaff3ebbb8ac52b73e446c2ad4ece6d3a6594be0801f29847016c894",
+    "211": "47c1d5d30031cb23746d10a194e47f7e509a501210f21a35c72b648a80636cb5",
+    "212": "16db660b39923d3f527215d49f000117887b51f1159c561632a2d99d0761a88c",
+    "220": "48366402bda755b4beb4258c2d0063eb974c1be84f5020951444cc02d48bbff1",
+    "221": "da99e0bc2e831f11666587bb3af73537cd013aa6c81d9656f1a6508ea7512182",
+    "222": "223363b9c6d5bd9ae2e706ab96239dd4577be4e1438603728bca60a5775de7de",
+    "229": "70eb69da4e5805f3578d6e17f6779f69dbd9e362a42cbc1be2a523f003da07c2",
+    "230": "9575c5123d617d2a7fd570355f0ed466b709fe2d74a1332b1799e9e3d57322f9",
+    "231": "e3283edefd11ad6711e4f562846f7ae5a33e7723f3b62cd3b795df4fc2d8acde",
+    "213": "fb31ff9012557491d55c84f5a116c964e718fee51e33bc2685e561c0ecd9c2cf",
+    "214": "f192868566f778ab99f908acc2f878038713d752344f8460a33b1b41e397bd67",
+    "215": "d56d96f355d6a8094555de4450e2bb8a65fb2779630eb9b14671ee386fcbe018",
+    "223": "2b8b7b3424ab542051e4540631063a2d61259555af1dfe7e7f27287d8fa5d037",
+    "224": "5b72153331d3fcb31f4bbca4ad1d0a1bb7645473da9a190b49f3069dad6516cf",
+    "225": "3ac08e1cf71f53cace9d2cef0b7ed03885bd3ed63572eda0f2251f9bd10ef0f6",
+    "232": "05eda9ce8545a2efe2dfc2793a1cd5886e4f45ad91d54f10d3be65ee45fab93a",
+    "233": "1478e968c3f364b10f979c80f8e352a96f35db932738722fb50880ca4a164cf9",
+    "234": "a649844e89a95d82add954a41a272d78768feb745c6859cd1bc0c91d182587eb",
+    "251": "8068a6d8ab160e45006ad3d0f8a3756bf2bac84e62dc93095ac09b03dc4a57a9",
+    "252": "16ac464abaef09e2ace2705446497c167cd1511216394d321a589705114b58a8",
+    "253": "494d0236fb4174a18ff4853165b50c78d6d6da27ca4df233c6700c176c534c40",
+    "258": "7a71d3809d8dd1b51f92814fb2e91da68728302c5ee8d07f0633f499dfecf258",
+    "259": "66f02216e7e7ba4dad283a79e70a85ad838f80f2c9968ef2d222b8afbed84027",
+    "260": "5559c96e5057afb38193f2807084c87fe4419699e07839bb7c4d7606f21a3841",
+    "268": "2f7543a1c7e7741fcaafd27cf35f282acc7017a0c804f859c667d55db35ea448",
+    "269": "91cdb03b27681b0d4dac8528c8890defcab8b92605aee0b97a9f9c4808d5443b",
+    "273": "ddb74a607c749a2c60a8a5fd58926d98cbc3285217ab87bf2a090e5338628cd9",
+    "274": "860dfe6ecf57098cc5ee2c1d80b5799c0b46f33540a557af1cbe42e95019c17b",
+    "275": "90ec6f860c21f33b2274577d6f753a2c3964034ae10966187a8418c44a01ca72",
+    "238": "5e5e6474d83b323082a5402db3e03a9575db02e571518e958914d6183fb30e74",
+    "239": "5f1146ffcfded19d4089c1e34d346f24b716d76ed8e48f320aa6010a248ed89a",
+    "244": "edfa3b172670fe84a0f7b08307ebe42ce28877890f8d82c0254a364aa4ae7f62",
+    "245": "43bd735ba67232c0bd0d94c7d615efc6c6b12bf95b528580c4d6d7b78dd89198",
+    "240": "545abc98dfa4ce42e4d17f9d229b9bf2cf36645a07c4527c290d9a91cc452345",
+    "246": "8cd8c9369d85a7e26268d5d0b4252dd2d9360e3aad0a158d5de9e04a4cf01415",
+    "247": "e409f4db8d83b90a1e039e9e163471fc43b1b35009ba89b170b21b69a4e220c7",
+    "291": "3f057d85491980426808d40b1e482578a7846da9daf008f2465179f4aa9c226f",
+    "295": "6183ca6ca1984f011b0c27475d82db9adf9e33e25c63b351061b74a1f797282f",
+    "296": "75d81e9757b8831e77550518097289ca9a53b417bf47cf19e697a55827888aa6",
+    "377": "b8db40ac6f937fc706d06c6537ca6985639882198b75b954de5d5122c625e227",
+    "378": "b6b15e94f6e2cd29aefa2ccf05f0db9c795632d284cd6dab11a74bbd2e9570d8",
+    "384": "2d8af8b6da67c950360cac16ab9a000b7257149b54ccc736dcc9e12e079cae75",
+    "385": "7254fc0ec7048f8a7bbe2b029d8398f5f59b016bb93a258f2f691a599c6b1a71",
+    "313": "4aa2406d651a956d8723e52e8dbe91d73bec8e13ee77a359ca2072d7c9d6e527",
+    "354": "09f48ff4850a7af6bbb7ccd42b910c7df0438195d7af5e84dd0d52eeb1ed89f9",
+    "355": "e058d96e03f9acd5bf0f96fd2fde90fb98b51b0eb848da4ee04cdb9c94280e18",
+    "250": "da678ea644708dcc84175de06a4c2fefb78483db6ba183a8539a66b5fa41f4b7",
+    "264": "b8f1a81405c6aa21fe3716f8040e8f6dc08cd2781bd0ce9b0d2961f715f07c0d",
+    "265": "2c34e00fb86412416cce65ec8c8642156411ef88bce78412ae2c7df46115b46f",
+    "266": "708cbbfd8ae3d2a328271acd9e67000c67554501f401e6b46e3a6c04ed11c0e3",
+    "267": "0bc19282ba6a39d6394e8abb2cf93521cd14beeacb66f42eec9e844a8a0663fc",
+    "279": "3b61c887b1ae8f35a07e4260f73c4dcae266412cfefda76e4b7ec626deba1bf9",
+    "287": "87ec8ca249004b3064267cd5bb57c5429262f53d13909889a013202fc53fd003",
+    "290": "47a31b76f72f6233a3aa1ea70404b5c96c716fcbbf37b014b133125a66ba5c4a",
+    "317": "5cc0d45837ecadabb96b685317e2925813f7f88070062436ae3fe67701ac2c5d",
+    "318": "126a7a940b2fd907ea440891a7fa8744b0857d8494cf5f919b4b8e24a73ec54a",
+    "322": "b35e39c18292c96c4e0c2316b7bdd2767b15ebb82bb009050b688285b50feebe",
+    "323": "296cb75c94f6b47d76a37159a015d53548f56c90cac7f14a73ae057f9ff5f61b",
+    "324": "1aef59b6709edd0c1af11f013692722933362fbda944ba1ff4ad7b71f34fc686",
+    "325": "8b6d04ce12c5b89d408dc7762ec4aa47b728161dda01fbc4f54a19a38bc1bf66",
+    "328": "4df010b9e2214245116dd717abadce0eb714f7dcd1634b640e5ea3eec6b9066a",
+    "329": "b07980c042dec0959c414c48781e3436b34d86b892996522ef358a1e429ae882",
+    "326": "1c1556cd8923e1b04d5cdef5b6ecf8974cf772c219d2cd78db7a5da8a76ff9c5",
+    "327": "222024093dba55640406a0608d7b89b7db4b0cbef7f670c986c731d628b7260e",
+    "330": "66dd86ff6dce704a23e2c06a5bc7a4441021ee7d235cd21b5d5f5f9899fe66e6",
+    "331": "eea29008845bc2277951dbdb99f191a320e63424741cf27f185c2cca9fc20fc7",
+    "336": "e758d13cdab12727265f3843a5cab001b54fa4713ba8e81bcd6c861d3b76fe38",
+    "340": "745ab419a21ca74f17807ee7c50a5f19eb151db0335f478505478c5a8a0308a0",
+    "341": "e7fd4cc01c0d66506d19ab5f5ea04640c326a163cee36a0436c4616ff07ce8bd",
+    "343": "fb1c1e941263a51bf05815016b29c5ffb3ac20f9a7afe4dbb14ba0708fd7d0c3",
+    "342": "14318f94fc6c421035636b668a2df728146a4ef50869e1d32bb1338e451b65d1",
+    "344": "71ffb29e48683ccbbff84bd64b17dcaa29aa3564742ce2bae916d05ba14e0532",
+    "352": "1a75b54990660e795f4f823af9e59846e58aa2cd243c3e42913861aadd503c68",
+    "353": "c71dddedb540831dfb65803c47be15da8a0b14f85aa9bbcdb062635c9966b69a",
+    "381": "a395c8c5119905e6cbfb688ca47a65823999d933129329639a7bb915a05a7f64",
+    "388": "0af74d4323f2051a42e5c9beba932baf9c19e20250e7dd832fef39dbe44f66c9",
+    "382": "e9b9121196e27c6612a8be49065232623f5ba0e5d2776375f8f25f477982c1ea",
+    "383": "d9fa5071be669d8e53fbd6b99962572315f231a330ac5b4a9af7d1204aa615c5",
+    "219": "08c120e9d5c7a7d1afe288c5128ac8b31c35f3a65d9c41160be5b6bac202f9bb",
+    "33": "c3b121b7d43bc636410a897055db0c1138025e73cedacfbca63a3aa449e7e6f8",
+    "34": "a3e69d3e958db2565cb6281fe7f51a3e89c89d4c360a101c4eb968e9cde5028a",
+    "35": "a5fa966362653d761a83641df038b9aa6e94437579c5654ab46ca94438de0bb6",
+    "36": "6e42d382c969cb1dd028d5e6c48d1220c5c80ec510e55b51dfd86eaa995c4456",
+    "37": "459b6304a5cf6a2f4e03369765a809317547416fb6630899e1f1fac96c1ba94c",
+    "38": "187cc2a05d8501e959a201dade07bcaa01e6b4397db6ec98401f173f39da0784",
+    "39": "587670e60cdbe0268c6ab18521d13f7db53e4a2adb920fd79f05871d12230670",
+    "40": "0e1b630354947853982996bbb44d8cf057a713b02fb932b86e6ba1b5372daa4b",
+    "41": "9ccf711ac6603843a1e49b0283b6d776b0c9d3f158de2cc872fa4faefb679dcd",
+    "42": "7c234696642f7220c6f36e81a59ffe7b4152a0e3c839a444dbb8444084040ebd",
+    "43": "80ce4fe7b89188d0f1e2acf5ad7403e75be50f66ca0d9091f9be5c81c6589652",
+    "44": "4ca217bcd334f3f682c1d3ecbd9a0675358497c2a469ad36e5596c6734fd2f5b",
+    "45": "400240da0c348d3586ba075f74c358c155ae3bb3ef8cf650ff98cb48032eeb6e",
+    "46": "859d61319d9a58db07472c8c4ca57ac210a758926d111a01f59369d52577635c",
+    "47": "a1205fcf6b6e05d0971b7e031f6820087988687eb8de78e46dcda15d4dc3826f",
+    "48": "20fc92856e63b632fe5f2d5ab6cd1f585036eebcbe56156bf0c1c40c6d50d85a",
+    "49": "4428aea898f7e3b552bc49c8e8092d77c18ca0251ee3f589735fc5a288d1fbd4",
+    "50": "14fb52d8d6ef4a1f0c979ed9b62c99ac70937650ad591d723bd730d152db4f3f",
+    "51": "9f8289a4cc18105f3f97370d88fee2c372eb976b9a76353aec11251d7cb28bdd",
+    "52": "999e4de85eba101f7d90dd811183efc551bca18e11c6a13e8e37f2e53d4dccc4",
+    "53": "5ac4a5c0c6d173b1e913532371277d53c1d6f3548938b438b3f6d6e13a72ace8",
+    "54": "f5e18b7aad7745fe8482b117fea93e5b1a788ead2eadea01a1aa36ce50ba5914",
+    "55": "b7a22e0fd8fc22d13de3bffb15eddf44d7f7cc3f693f9424bc2587bacf4095e6",
+    "56": "d399ff807d2ea398143ec9f9161332a9dbb0248fd0e17eb1be7e3c3bcad7c8d8",
+    "57": "1af94621344815c91231c6adefacfb220be39be9ce06ecf01ada7bb6d98529d6",
+    "58": "0d17223b792d0359a94befa125053bc12858cb276275364ce69e580155c70afa",
+    "59": "1685627635aec592b9e68eb296fb31796cbbc8f5a8f6d3a5c80da953837d9bf0",
+    "60": "7136c2632b8c8ca71a796fe30008a188959a89aa922d3dbff960612e1371e5cb",
+    "61": "7a79da844121749afa6b1488dd3070b4646597936af869e83a77d0a07f775f1c",
+    "62": "f7a40b8bcac6d06a6815e6f7926ff86fd6454c6bf2d2c49b86cd798cbffff0e6",
+    "63": "5e80143f99560cf87e9d00b1dcc9cdcb68c8145b94fe736a64f95973fd2c29c3",
+    "64": "6e742a5939a5495baa1848f2413b97ef55d7a0d87babae5c2b416c204b8a6a0b",
+    "65": "4565c20be6ad1ec5cf16533c0e6e93acd9ac8fcc9ac6a2c350ccd978c4d1fd24",
+    "66": "5791d564e1afe3a37dbd59b764c01bd6aff1d379e129719e5f95e1f741fb4793",
+    "67": "5ca0d72a6afb19554b8ceb16b817a2c886936e974ed9f4fc113f8e82f8388f15",
+    "68": "afe2267d777cae640c7b15f2380231b588cb8b7c78b14e35ec77601130f72294",
+    "69": "51944257b146d40be1f47c310ce327cfc722751814a6d521f9a61106c938238c",
+    "70": "487211b3348c88aafca173ef874d8faa159e2c98fd8f50561d45a7489e0fa978",
+    "71": "a18e24b8a504f309a7fb5e06d180d7d9acbbf8bb2ab89e18355055e94ac1d6f9",
+    "72": "4e9e5972a7299055e18b098183aaa82172f71119159bee5284779a836e25c382",
+    "73": "b176b6a42504d40de374be8c5c54ae8647d1a297689718a985f69193413b4082",
+    "74": "908b6c272d2d7babff7db4037c41adfdce83385ac9a61cde3f8d38b20a963146",
+    "75": "1ddef5ce6b6544558da63aefb57dcca7c72cc42166425ed36a898751eac3d597",
+    "76": "82f8f6fe528f17a45593b259fc5f96d174d93669d191358eda069e6f10cbc0bc",
+    "77": "83396fc18cddc1fc3834890efc38377f1d7fed0a1f416acea50a89589a450772",
+    "78": "d540ad101f028c4fa8344850bd9c2da95dd7b6e6e67a3b891732ca2d1381a044",
+    "79": "0c5075fa9fe91b38df760308600d478c3849ce400dec5031eefc4acc57e804bb",
+    "80": "1396d71e740e6091e7122a522e2d72b8157ade92e35e4e91e478ff9967ab2f0d",
+    "81": "ed18240a96cd4df0dc9a446e362047192f5ea1a1893c737632bfe54df6b93baa",
+    "82": "2da17f977fb131dd5457c1dc6feabb0127873d362d8207f050fbee542dcdcfd5",
+    "83": "ee04a6ea5cf51634edb8902ab6bd2fcd4c621bcb494d31332afb1675c2ee7fff",
+    "84": "b6190d986d379851963e5a9165ff123bf907265a638edfbefe47a0af87ffd752",
+    "85": "5da23ff94552296b224083ebf36ea0e74b6483fe307e653f4d970f755e684677",
+    "86": "61f712d20ac94e1f61cd4265595e6cf6abd576f354c120ac812736457aa22d4d",
+    "87": "86e1fd700a88406713d4d9d59356491a8ea8490fcdb95139c591c9e4faaa7242",
+    "88": "8420025380186031335a2b5cc3fc6dbcfa94d9e543f7e17aa3ee231965d0ad08",
+    "89": "48ce3ba6ed34465ff67aa50c0a4c2c310ebef9c959970dce30aaa9e2fe381469",
+    "90": "df5e1966d99fd441c907da3e480ac759416df2abc59732a3268c4c527f732103",
+    "91": "b656a179c62f687502161a5f51dad639a78534c7303e85543e8532178425ed77",
+    "92": "8995190e979af5add18740c963cdaf69a99800e54de9365a1065ce57705989e5",
+    "93": "5971733539da21a39c98aeb81d33416f6e3750acca39f68f755b4f3a7b36bc15",
+    "94": "d6618cc7519354e498803ca6bb5ebcf6c94587b0f87ee5d0be4957b57ea906af",
+    "95": "1716fe082015fa84f9d83553f4c5feeed8a823367db6eda96577d24d5299bedf",
+    "96": "642c4eb4379c2b3b890d0eba008c632576a7cdfe4fa33b83f6b5df1069af3df4",
+    "97": "12dcd90b49f830776873fad19ab72db19eb67791e2f41add8eab3381274f1521",
+    "98": "0bbfb12542033d1d17d8671a56ca2d17497dbe552d2376d78e1472595fd968a9",
+    "99": "f667af3b4b994c38f5c0744e0e21a24672fa9fc4cd36f19cd3201b8a08b17722",
+    "100": "87ca962390a2de652c09d11bd51aac9fb0ccda611049f283cff5d2189b97f229",
+    "101": "ad454e95c241a9b8d25aa4716910a493ca136753aa19199dd3a1e41c21e911a6",
+    "102": "9e396f3b19315e946d708ed918fca196ce5af0d6df58e2bb5ce901a74141b9f9",
+    "103": "7d2506851bafddf3d482bff24af36b5fec22281d79ac1c7f1f6fe90ce218a673",
+    "104": "40cc655ef8e23696b80987e3a83c0de6905f16a11177048d757a515ea9794b7b",
+    "105": "4e477c035b58cc7ec2487936b77f43fff1d8b2b98d530d2c916ba5e82638d9ab",
+    "106": "891f8b3a3b6e80029433c888468627aa1bfe4dfee9e92f1df6aa2a180184f089",
+    "107": "0287af117693253163e5bd0147fd62207f2e9140b96a7d042a20b5232a02155a",
+    "243": "13d432d4573bb23bcb2f7e8e57696c7858416cba031e74ba1292a26c7c596b31",
+    "257": "92627b82c560a44a3ac093cc051f285191a4468b08aa4e487900d45847b7e4d1",
+    "284": "f4c36f68a01849340f541668129118764585e397c59f63f3808598d9988d33de",
+    "294": "d11eba200f98281f0724d969d18861cc6338e93334128eb85c4c59d924ca1cb7",
+    "303": "5f5f5199000b4c9b63200fecf566975a14aff6c1c8feb2882dee647f0a7b1122",
+    "308": "905703a58ff7c15fb96750989ad149be5136ed4ec02aa04b253fe610c6e8258c",
+    "312": "7b2bcc06733468768013b6f91646a60583b675b3618a7b7449d47ec3bca3ad34",
+    "335": "bf2c0179799a908b6c5257c1f1f36153653b210c23765e958d79760a510d2ae2",
+    "348": "4876bf6692511a6790f7b6a1345a4aec3178b7a3a6f9da584ef45c39479a4bd4",
+    "374": "7733627358cd637f05070eab1f410200bbf4830a5b6daeb20bf5e09d84f2d1ae"
+  },
+  "coverage": {
+    "complete": true,
+    "expectedNativeIds": 254,
+    "coveredNativeIds": 254,
+    "missingNativeIds": [],
+    "structureTypesTotal": 19,
+    "semanticBuildingTypes": 16,
+    "nativeWholeStateRecords": 106,
+    "statuses": {
+      "painted-derived-native-flag-state": 10,
+      "painted-wall-native-connection": 75,
+      "painted-whole-alternate-native-region-composite": 33,
+      "painted-whole-object": 136
+    }
+  }
+}

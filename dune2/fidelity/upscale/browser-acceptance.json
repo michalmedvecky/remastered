@@ -1,0 +1,102 @@
+{
+  "release": "0.5.0",
+  "date": "2026-11-18",
+  "target": "http://127.0.0.1:6002/dune2/",
+  "runtime": "Rebuilt native WebAssembly; original DOS files were not executed",
+  "scenario": "Atreides mission 1 loaded from prior native save hd qa",
+  "observations": [
+    "xBR-lv2 shader compiles on WebGL2; upright title/menu/framebuffer and original colour roles observed",
+    "Original native save loaded without migration or simulation changes",
+    "Selected native Trike through pointer-transparent upscale overlay; Move command changed its visible position",
+    "Original/Upscaled selector switches live without restarting; Original hides upscale canvas",
+    "Original blue faction sprites, rock, sand, fog boundary, command text and native selection/cursor remain visible",
+    "Field manual opened and returned to mission",
+    "No generated material/cover assets are referenced by active modules or delivery manifest"
+  ],
+  "finalState": {
+    "clock": 193325.60000038147,
+    "errors": [],
+    "files": [
+      "DUNE.CFG",
+      "ONETIME.DAT",
+      "OPTIONS.CFG",
+      "_SAVE000.DAT"
+    ],
+    "graphics": {
+      "algorithm": "xBR-lv2",
+      "backend": "webgl2",
+      "contextLosses": 0,
+      "errors": 0,
+      "fallbackReason": null,
+      "frames": 4124,
+      "generatedArt": false,
+      "height": 800,
+      "maxPaintMs": 2.1,
+      "mode": "upscale",
+      "paintMs": 1.2,
+      "ready": true,
+      "scale": 4,
+      "source": "native indexed framebuffer",
+      "sourceHeight": 200,
+      "sourceWidth": 320,
+      "width": 1280
+    },
+    "hidden": false,
+    "music": {
+      "bank": "DUNE7",
+      "context": "running",
+      "generation": 4,
+      "lastError": null,
+      "loaded": true,
+      "playing": true,
+      "prefetchedBanks": 21,
+      "registerWrites": 2635,
+      "sampleRate": 48000,
+      "ticks": 12373,
+      "track": 6,
+      "volume": 0.65
+    },
+    "overlayPaused": false,
+    "started": true,
+    "status": [
+      10313,
+      10313,
+      1,
+      1,
+      1,
+      0,
+      1,
+      4
+    ]
+  },
+  "paintTimingNote": "paintMs measures upload/draw/blit submission and is not a GPU timing query or universal performance guarantee",
+  "fallbackEvidence": {
+    "observed": "Before the corrected GLSL ES const declaration, shader compilation failure correctly displayed the original image through Scale2x",
+    "reason": "global variable initializers must be constant expressions",
+    "fix": "Fixed-scale delta values declared const; final browser backend is webgl2 with fallbackReason:null",
+    "contextLossLiveTested": false
+  },
+  "screenshots": {
+    "upscaled": "analysis/dune-2/upscale/upscaled-gameplay.jpg",
+    "original": "analysis/dune-2/upscale/original-gameplay.jpg",
+    "upscaledCanvas": "analysis/dune-2/upscale/upscaled-canvas.jpg",
+    "originalCanvas": "analysis/dune-2/upscale/original-canvas.jpg",
+    "portal": "portal/dist/assets/dune2.jpg"
+  },
+  "limits": [
+    "Comparison is the same saved mission, not a frame-synchronised pixel-equality claim",
+    "First-mission/menu sample; not exhaustive campaign or cutscene acceptance",
+    "xBR smooths original neighbouring colours; it does not recover new detail"
+  ],
+  "bindings": {
+    "dist/upscale-core.mjs": "4648d92e1699860a2a49afe10890f66c22e6d27ad742d76805dec27148877e14",
+    "dist/upscale-renderer.mjs": "f9ed5b6bbb1ad16c86035b11890f39a2d311132f3d9eea48ce3702d2a8f20e1d",
+    "dist/upscale/provenance.json": "b5a6d4d214a51b70ef015a5056203d81c31f1686cb4bdb99b4f215fe654992da",
+    "dist/native-host.mjs": "ae2fa8394f1599285a6726defceff063bb2642f60587fecd59ead43b02683208",
+    "dist/native/dune-native.wasm": "34ad373984de31de1bd4f28df7f6a2c594c34c9773c7820111c881c98f009158"
+  },
+  "nativeBaseline": {
+    "commit": "3f31936457fcc4a378dcbb78cd43b8fb92fc9ca2",
+    "nativeSourcesAndWasmUnchanged": true
+  }
+}

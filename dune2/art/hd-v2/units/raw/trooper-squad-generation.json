@@ -1,0 +1,23 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-bbb3121b-b0d2-429f-b242-b262ca7b46cc.png",
+  "raw": "raw/trooper-squad.png",
+  "prompt": "trooper-squad-prompt.json",
+  "ids": [
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353
+  ],
+  "judgment": "Twelve3-trooperwalkinggroups retainNback/Eside/Sfront facings; slot353retainsdistinctnativepaleX-shapedobjectratherthanagenericgroup"
+}

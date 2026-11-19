@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/art/hd-v2/units/raw/special-turrets.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Image1 is the EDIT TARGET: a transparent turret-only sprite sheet,4columns by3rows, exactly10 occupied cells and2empty trailing cells. Make a MINIMAL COLOUR-ONLY correction across ALL TEN occupied cells: replace every saturated COBALT-BLUE collar/base/bracket area with neutral medium/dark GRAY STEEL. These original Sonic Tank and Launcher turret sprites have globally indexed fixed neutral bases rather than faction-painted collars. No saturated blue collar paint should remain. Retain the same brightness, clean metal relief, highlights, shadows and antialiasing, changing only the blue material hue to neutral gray. Do not give the neutral steel blue-tinted saturated shadows.\n\nFIRST FIVE cells: preserve the original warm gold/ochre acoustic horn/dish exactly, including its mouth, colour, aperture depth and angle. Change only the blue collar below/behind the horn; keep all gray steel unchanged. LAST FIVE cells: preserve both pale silver/white capped rocket-launcher tubes, their barrels, tips, spacing and direction; change only blue painted base/bracket accents to neutral gray steel.\n\nPreserve all10 poses/facings and their original silhouettes, scale, placement, source grid order, pivot alignment and transparency. No new design, no hulls, no new props, no floor/castshadow/halo/background, labels or grid. Leave the2empty trailing cells completely transparent. Keep the same landscape sheet dimensions and genuinely transparent background.",
+  "scope": "Neutralize141..150 while retaininggold/Silveremittermaterials"
+}

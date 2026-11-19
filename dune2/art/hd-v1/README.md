@@ -1,3 +1,5 @@
+> Historical 0.4 experiment: rejected by the user and removed from the active runtime in 0.5. These retained generated sources are excluded from the current source download. See `../../HD-GRAPHICS.md` for the original-frame upscaler.
+
 # Dune II HD materials and original geometry
 
 `materials-source.png` is the retained built-in imagegen output. `generation.json`

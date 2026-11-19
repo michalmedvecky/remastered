@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/art/hd-v2/units/references/trooper-squad.png",
+    "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/art/hd-v2/units/pilot/vehicles-corrected.png"
+  ],
+  "prompt": "Use case: identity-preserve. Production HD2D RTS SPRITE ATLAS. Image1 is the EXACT EDIT TARGET: original native poses in4 equalcolumns and the statedrowcount, row-major. Image2 is the APPROVED ART STYLE ONLY: clean cobalt/steel vehicles; never copy its subjects into this sheet. Redraw every occupiedcell as a complete coherent new hand-painted sprite with confident clean contours, restrained hard-surface/cel shading and readable mediumforms. Match the high-overhead orthographic tacticalgame camera, alloriginal facings, individual poses, relativebodyparts and nativeproportions; NO lowisometric/toy/glamour camera. Cobaltblue factionareas, coolsteel machinery, charcoal rubber; humans/effects keep their respective nativecolours. Upperleft illumination. Genuinely new continuousdrawing, NOT nativepixelmosaic, blur/smearing, originalpixelcolourmask or genericgrain/detailoverlay. Keep EXACT cellcount/order, distinctanimationphases, isolatedsprites, generous trulytransparent gutters. No labels/numbers/grid/background/floor/longshadows/halos, noextraobjects, noopaque matte. Transparentbackground. Preserve original intentionalthinstruts/barrels/emptygaps, do not completepartial effects into unrelatedobjects. This sheet has4columns by4rows with exactly13occupiedcells, then3emptytrailingcells. Subjects/roles: Thirteen TROOPER SQUAD frames: twelvewalkingframes inthree directionalsets withfourphases, followed by the native additional PALE SPECIAL SHAPE. The FIRST12 cells each have the exact source group of THREE HEAVY TROOPERS and nativeequipment. Preserve everyhumansorientation, foot/armphase andspacing. Cobaltuniforms, tanheads, paleheavyweapons; do notmerge intoonegiantperson. Output a sharp highresolution sheet with the SAME aspectratio as Image1 and equalcellspacing. It must be readable at eachoriginalnativecanvas enlarged4×; small details stay restrained. HUMAN-FACING PRIORITY: first4cells face NORTH/upward and are seen from BEHIND: back ofhelmet andbackplates, NO visiblefaces. Row2 faces EAST/right inprofile. Row3 faces SOUTH/down withfacesvisible. Specialfinalcell preserves sourcepaleuniform/pose exactly. Do not make everydirection faceviewer. FINAL CELL13 is NOT another walking group. It is the distinctive pale steel/white-and-blue roughly X/wing-shaped special object in the original bottom-left cell. Reproduce that exact complete pale silhouette and internal dark gaps faithfully; do not replace it with three people and do not invent a different generic unit. It may remain a small unusual shape; source identity takes precedence over inferred subject.",
+  "ids": [
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353
+  ]
+}

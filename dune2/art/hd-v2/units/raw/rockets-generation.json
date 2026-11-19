@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-811d649a-0344-4219-af87-7dd4d552ed6e.png",
+  "raw": "raw/rockets.png",
+  "prompt": "rockets-prompt.json",
+  "ids": [
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267
+  ],
+  "judgment": "Allnativeprojectilecells distinctbyangle/flame/size family; largeDeathHand separatefromsmallmissiles. Nativeboundsfitpendingfinalpack."
+}

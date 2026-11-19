@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-00f09a04-2584-4b5c-b39d-39a1bec9605d.png",
+  "raw": "raw/utility.png",
+  "prompt": "utility-prompt.json",
+  "ids": [
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257
+  ],
+  "judgment": "Whole complete vehicles, source grid and distinct body families checked; pilot TrikeN/NE/E are retained as approved art overrides"
+}

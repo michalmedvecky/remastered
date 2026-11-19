@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/art/hd-v2/units/raw/saboteur.png",
+    "/Users/misko/Documents/ChatGPT/Prehistorik/web/dune2/art/hd-v2/units/references/saboteur.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Image1 is the exact EDIT TARGET: the newly painted saboteur sprite sheet. Image2 is the ORIGINAL NATIVE POSE reference. Make one targeted facing correction ONLY: the FIRST THREE CELLS (top row columns1,2,3) are NORTH/upward walking poses, viewed from BEHIND. Replace their visible face/front chest with back of helmet, back of neck/back plate and back of uniform. They walk AWAY toward the top of the cell, not toward the viewer. Keep each distinct original raised-arm and leg-phase silhouette, clothing colours, equipment and high-overhead camera. Do not flip the whole sprite upside down. All other occupied cells already have the desired east/right-facing and south/down-facing poses; keep them visually unchanged, including their face visibility, pose, proportions, shading and placement. Keep exactly10 occupied cells in4columns by3rows and the same empty trailing cells. Keep sharp clean painted sprites, generous truly transparent gutters, no background/halo/shadow/labels/grid. Uniform is charcoal/slate gray, tan hands/skin, exactly as existing target. This is a production tactical-game pose sheet; preserve source facings and animation order.",
+  "ids": [
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310
+  ]
+}

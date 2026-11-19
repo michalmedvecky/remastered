@@ -1,54 +1,59 @@
-// Read-only verification of the complete Dune II HD delivery package.
+// Read-only verification of the complete painted Dune II presentation package.
 import assert from 'node:assert/strict';
-import {readFileSync} from 'node:fs';
+import {readFileSync,existsSync,readdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {resolve,relative,isAbsolute,basename} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {decodePNG} from './painted-png.mjs';
 const project=fileURLToPath(new URL('../',import.meta.url));
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 const json=path=>JSON.parse(readFileSync(path));
-const digest=value=>typeof value==='string'&&/^[a-f0-9]{64}$/.test(value);
-const pngSignature=Buffer.from([137,80,78,71,13,10,26,10]);
-function decoded(value,length,field){assert.equal(typeof value,'string',field);const bytes=Buffer.from(value,'base64');assert.equal(bytes.length,length,field+' byte count');assert.equal(bytes.toString('base64'),value,field+' canonical encoding');return bytes;}
+const digest=v=>typeof v==='string'&&/^[a-f0-9]{64}$/.test(v);
+const range=(n,start=0)=>Array.from({length:n},(_,i)=>i+start);
+const ids=object=>Object.keys(object).map(Number).sort((a,b)=>a-b);
+function bytes64(value,length,label){assert.equal(typeof value,'string',label);const b=Buffer.from(value,'base64');assert.equal(b.length,length,label+' extent');assert.equal(b.toString('base64'),value,label+' canonical base64');return b;}
+function rectangle(row,atlas,label){for(const key of ['x','y','w','h'])assert(Number.isSafeInteger(row[key]),label+' '+key);assert(row.x>=0&&row.y>=0&&row.w>0&&row.h>0,label+' positive extent');assert(row.x+row.w<=atlas.width&&row.y+row.h<=atlas.height,label+' within atlas');}
+function cropRGBA(image,rect){const result=Buffer.alloc(rect.w*rect.h*4);for(let y=0;y<rect.h;y++)Buffer.from(image.pixels.buffer,image.pixels.byteOffset+((rect.y+y)*image.width+rect.x)*4,rect.w*4).copy(result,y*rect.w*4);return result;}
 
-export function verifyHDPackage(root=project){
- root=resolve(root);const dist=resolve(root,'dist'),manifestPath=resolve(dist,'hd/manifest.json'),manifest=json(manifestPath);
- assert.equal(manifest.source.preloadSha256,json(resolve(root,'fidelity/native-build.json')).outputs['dune-native.data'],'HD geometry binds preloaded original data');
- assert.equal(manifest.schema,1);assert.equal(manifest.scale,4);assert.equal(manifest.palette.length,768);assert(manifest.palette.every(v=>Number.isInteger(v)&&v>=0&&v<=255));
- assert.deepEqual(manifest.semantics.unitHouseRange,[144,152]);assert.deepEqual(manifest.semantics.tileHouseRangeOriginalMode,[144,159]);
- const assets=[];
- function image(row,key,{atlas=false}={}){
-  assert(row&&typeof row==='object',key);assert(digest(row.sha256),key+' digest');assert.equal(typeof row.src,'string');
-  assert.match(row.src,/^hd\/[A-Za-z0-9_-]+-([a-f0-9]{16})\.png$/,key+' content-addressed PNG');assert(basename(row.src).endsWith('-'+row.sha256.slice(0,16)+'.png'),key+' name binds content');
-  const path=resolve(dist,row.src),inside=relative(dist,path);assert(inside!=='..'&&!inside.startsWith('../')&&!isAbsolute(inside),key+' public path');
-  const bytes=readFileSync(path);assert.equal(hash(bytes),row.sha256,key+' file hash');assert(bytes.subarray(0,8).equals(pngSignature),key+' PNG');assert.equal(bytes.readUInt32BE(16),row.width,key+' width');assert.equal(bytes.readUInt32BE(20),row.height,key+' height');
-  assert(Number.isInteger(row.width)&&row.width>0&&Number.isInteger(row.height)&&row.height>0);if(atlas)assert(Math.max(row.width,row.height)<=4096,key+' texture bound');if(row.bytes!==undefined)assert.equal(bytes.length,row.bytes,key+' bytes');
-  assets.push({src:row.src,sha256:row.sha256,bytes:bytes.length});
+export function verifyPaintedPackage(root=project){
+ root=resolve(root);const dist=resolve(root,'dist'),directory=resolve(dist,'painted'),files=[],assets=new Map();
+ const nativeBytes=readFileSync(resolve(directory,'native.json')),native=JSON.parse(nativeBytes),units=json(resolve(directory,'units.json')),buildings=json(resolve(directory,'buildings.json')),terrain=json(resolve(directory,'terrain.json'));
+ const preload=json(resolve(root,'fidelity/native-build.json')).outputs['dune-native.data'];
+ for(const[name,m]of Object.entries({native,units,buildings,terrain})){assert.equal(m.schema,1,name+' schema');assert.equal(m.scale,4,name+' scale');const bytes=readFileSync(resolve(directory,name+'.json'));files.push({src:'painted/'+name+'.json',sha256:hash(bytes),bytes:bytes.length});}
+ assert.equal(native.source.preloadSha256,preload);assert.equal(units.source.preloadSha256,preload);assert.equal(buildings.source.preload,preload);assert.equal(terrain.source.preloadSha256,preload);assert.equal(terrain.source.nativeBankSha256,hash(nativeBytes));assert.equal(units.source.paletteSha256,native.source.resources['IBM.PAL']);for(const[name,digest]of Object.entries(units.source.resources))assert.equal(digest,native.source.resources[name]);for(const name of ['ICON.ICN','ICON.MAP','IBM.PAL'])assert.equal(buildings.source[name],native.source.resources[name]);
+ assert.equal(native.palette.length,768);assert(native.palette.every(v=>Number.isInteger(v)&&v>=0&&v<=255));assert.deepEqual(ids(native.frames.tiles),range(389));assert.deepEqual(ids(native.frames.units),range(244,111));assert.deepEqual([...ids(native.frames.units),...ids(native.frames.ui)].sort((a,b)=>a-b),range(525));
+ for(const[kind,frames]of Object.entries(native.frames))for(const[id,f]of Object.entries(frames)){
+  assert(Number.isInteger(f.sourceW)&&f.sourceW>0&&Number.isInteger(f.sourceH)&&f.sourceH>0,kind+'/'+id+' source geometry');assert.equal(f.w,f.sourceW*4);assert.equal(f.h,f.sourceH*4);assert(digest(f.sourceSHA256),kind+'/'+id+' source digest');const size=f.sourceW*f.sourceH,codes=bytes64(f.indicesBase64,size,kind+'/'+id+' indices'),mask=bytes64(f.maskBase64,size,kind+'/'+id+' mask');assert(mask.every(v=>v===0||v===1));assert(['local16','global256'].includes(f.paletteMode));if(f.paletteMode==='local16'){assert.equal(f.palette.length,16);assert(f.palette.every(v=>Number.isInteger(v)&&v>=0&&v<=255));assert(codes.every(v=>v<=15));}
  }
- const atlases=Object.entries(manifest.atlases);assert(atlases.length>=3);for(const[key,row]of atlases)image(row,key,{atlas:true});
- const expected={tiles:389,units:244,ui:281};let shapeIds=[];
- for(const[kind,count]of Object.entries(expected)){
-  const frames=manifest.frames[kind];assert.equal(Object.keys(frames).length,count,kind+' coverage');
-  for(const[id,f]of Object.entries(frames)){
-   assert.match(id,/^(?:0|[1-9][0-9]*)$/,kind+' native ID');const atlas=manifest.atlases[f.atlas??kind];assert(atlas,kind+'/'+id+' atlas');
-   for(const key of ['x','y','w','h','sourceW','sourceH'])assert(Number.isSafeInteger(f[key]),kind+'/'+id+' '+key);
-   assert(f.x>=0&&f.y>=0&&f.sourceW>0&&f.sourceH>0);assert.equal(f.x%4,0);assert.equal(f.y%4,0);assert.equal(f.w,f.sourceW*4);assert.equal(f.h,f.sourceH*4);assert(f.x+f.w<=atlas.width&&f.y+f.h<=atlas.height,kind+'/'+id+' rectangle');
-   assert(['local16','global256'].includes(f.paletteMode));const size=f.sourceW*f.sourceH,indices=decoded(f.indicesBase64,size,kind+'/'+id+' source indices'),mask=decoded(f.maskBase64,size,kind+'/'+id+' source mask'),render=decoded(f.renderIndicesBase64,f.w*f.h,kind+'/'+id+' HD indices');
-   assert(mask.every(v=>v===0||v===1));assert(digest(f.sourceSHA256),kind+'/'+id+' original frame digest');
-   if(f.paletteMode==='local16'){assert.equal(f.palette.length,16);assert(f.palette.every(v=>Number.isInteger(v)&&v>=0&&v<=255));assert(indices.every(v=>v<=15));assert(render.every(v=>v<=15));}
-   if(kind!=='tiles')shapeIds.push(Number(id));
-  }
+ function imageAsset(row,label){
+  assert(row&&typeof row==='object',label);assert(digest(row.sha256),label+' hash');assert.match(row.src,/^painted\/[A-Za-z0-9_-]+-[a-f0-9]{16}\.png$/,label+' content address');assert(basename(row.src).endsWith('-'+row.sha256.slice(0,16)+'.png'),label+' digest filename');const p=resolve(dist,row.src),inside=relative(dist,p);assert(inside!=='..'&&!inside.startsWith('../')&&!isAbsolute(inside));
+  const bytes=readFileSync(p);assert.equal(hash(bytes),row.sha256,label+' PNG bytes');assert.equal(bytes.length,row.bytes,label+' bytes');const image=decodePNG(bytes);assert.equal(image.width,row.width,label+' width');assert.equal(image.height,row.height,label+' height');assert(Math.max(image.width,image.height)<=4096,label+' texture bound');
+  if(assets.has(row.src))assert.equal(assets.get(row.src).sha256,row.sha256);else assets.set(row.src,{src:row.src,sha256:row.sha256,bytes:bytes.length,width:image.width,height:image.height});return image;
  }
- assert.deepEqual(Object.keys(manifest.frames.tiles).map(Number).sort((a,b)=>a-b),Array.from({length:389},(_,i)=>i));assert.deepEqual(Object.keys(manifest.frames.units).map(Number).sort((a,b)=>a-b),Array.from({length:244},(_,i)=>i+111));assert.deepEqual(shapeIds.sort((a,b)=>a-b),Array.from({length:525},(_,i)=>i));
- assert.equal(Object.keys(manifest.screens).length,16);for(const[key,row]of Object.entries(manifest.screens)){assert.equal(row.width,row.sourceW*4);assert.equal(row.height,row.sourceH*4);image(row,'screen/'+key);}
- for(const key of ['brass','steel'])assert(manifest.uiMaterials[key],key+' UI material');for(const[key,row]of Object.entries(manifest.uiMaterials))image(row,'UI material/'+key);
- assert.equal(manifest.coverage.tileFrames,389);assert.equal(manifest.coverage.unitFrames,244);assert.equal(manifest.coverage.uiFrames,281);assert.equal(manifest.coverage.nativeSHPFrames,525);assert.equal(manifest.coverage.wsasStoredAsHD,0);
- const cover=readFileSync(resolve(dist,'hd/cover.png')),coverRecord=json(resolve(root,'art/hd-v1/generation-cover.json'));assert(cover.subarray(0,8).equals(pngSignature));assert.equal(hash(cover),coverRecord.sha256,'generated cover provenance');
- const materials=readFileSync(resolve(root,'art/hd-v1/materials-source.png'));assert.equal(hash(materials),manifest.source.materialsSha256,'generated material provenance');
- const html=readFileSync(resolve(dist,'index.html'),'utf8'),canvases=new Map([...html.matchAll(/<canvas\b([^>]*)>/g)].map(([,text])=>{const attrs=Object.fromEntries([...text.matchAll(/([\w-]+)="([^"]*)"/g)].map(([,k,v])=>[k,v]));return[attrs.id,attrs];}));
- assert.equal(canvases.get('canvas')?.width,'320');assert.equal(canvases.get('canvas')?.height,'200');assert.equal(canvases.get('hd-canvas')?.width,'1280');assert.equal(canvases.get('hd-canvas')?.height,'800');assert.equal(canvases.get('hd-canvas')?.['aria-hidden'],'true');
- const select=html.match(/<select\b[^>]*\bid="graphics"[^>]*>([\s\S]*?)<\/select>/);assert(select,'graphics mode control');assert.match(select[1],/value="hd"/);assert.match(select[1],/value="original"/);
- for(const file of ['hd-core.mjs','hd-renderer.mjs'])assert(readFileSync(resolve(dist,file)).length>0,file+' module');const host=readFileSync(resolve(dist,'native-host.mjs'),'utf8');assert(host.includes("import('./hd-renderer.mjs')"));assert(host.includes('duneHdPresent:'));assert(host.includes('duneHdEnabled:'));
- return{manifestSha256:hash(readFileSync(manifestPath)),scale:manifest.scale,tileFrames:389,unitFrames:244,uiFrames:281,nativeSHPFrames:525,assets:assets.length,assetBytes:assets.reduce((n,r)=>n+r.bytes,0),coverSha256:hash(cover)};
+ const unitAtlases={},buildingAtlases={},terrainAtlases={};for(const[name,row]of Object.entries(units.atlases))unitAtlases[name]=imageAsset(row,'units/'+name);for(const[name,row]of Object.entries(buildings.atlases))buildingAtlases[name]=imageAsset(row,'buildings/'+name);for(const[name,row]of Object.entries(terrain.assets))terrainAtlases[name]=imageAsset(row,'terrain/'+name);
+ assert.equal(units.coverage.complete,true);assert.equal(units.coverage.expected,244);assert.equal(units.coverage.available,244);assert.deepEqual(units.coverage.missing,[]);assert.deepEqual(ids(units.frames),range(244,111));assert.equal(units.unitBindings.length,27);
+ const unitStatuses={},specialFrames=[],artHashes=new Map();
+ const artHash=path=>{const inside=relative(root,path);assert(inside!=='..'&&!inside.startsWith('../')&&!isAbsolute(inside),'art path stays in project');if(!artHashes.has(path))artHashes.set(path,hash(readFileSync(path)));return artHashes.get(path);};
+ for(const[id,f]of Object.entries(units.frames)){
+  const source=native.frames.units[id],atlas=unitAtlases[f.atlas];assert(atlas,'unit atlas '+id);assert.equal(f.sourceW,source.sourceW);assert.equal(f.sourceH,source.sourceH);assert.equal(f.sourceSHA256,source.sourceSHA256);assert.equal(f.paletteMode,source.paletteMode);assert.deepEqual(f.sourcePalette??null,source.palette??null);assert.equal(f.sourceIndicesBase64,source.indicesBase64);assert.equal(f.sourceMaskBase64,source.maskBase64);assert.deepEqual(f.pivot,[Math.floor(source.sourceW/2),Math.floor(source.sourceH/2)]);
+  assert.equal(f.rect.length,4);const [x,y,w,h]=f.rect,rect={x,y,w,h};rectangle(rect,atlas,'unit '+id);assert.equal(w,source.sourceW*4);assert.equal(h,source.sourceH*4);assert(bytes64(f.factionMaskBase64,w*h,'unit '+id+' faction mask').every(v=>v===0||v===255));assert(['painted','procedural-effect','native-empty'].includes(f.status),'explicit unit status '+id);unitStatuses[f.status]=(unitStatuses[f.status]??0)+1;
+  const packedBytes=readFileSync(resolve(root,'art/hd-v2/units/packed',id+'.png'));assert.equal(hash(packedBytes),f.outputSha256,'unit '+id+' packed output');const packed=decodePNG(packedBytes);assert.equal(packed.width,w);assert.equal(packed.height,h);const rgba=cropRGBA(atlas,rect);assert.equal(hash(rgba),hash(Buffer.from(packed.pixels)),'unit '+id+' atlas crop matches packed frame');
+  const originalMask=Buffer.from(source.maskBase64,'base64'),alpha=Uint8Array.from({length:w*h},(_,i)=>rgba[i*4+3]);if(f.status==='native-empty'){assert(originalMask.every(v=>v===0),'native-empty has no original ink '+id);assert(alpha.every(v=>v===0),'native-empty output '+id);}else{assert(originalMask.some(v=>v),'original ink exists '+id);assert(alpha.some(v=>v>16),'new art exists '+id);}
+  assert(f.evidence&&typeof f.evidence.group==='string','unit evidence '+id);if(f.status==='painted'){const e=f.evidence;assert(digest(e.rawSHA256));assert.equal(artHash(resolve(root,e.raw)),e.rawSHA256,'raw painted source '+id);assert(digest(e.referenceSHA256));const reference=e.reference.startsWith('art/')?resolve(root,e.reference):resolve(root,'art/hd-v2/units',e.reference);assert.equal(artHash(reference),e.referenceSHA256,'original reference '+id);}if(f.status!=='painted'){assert.equal(typeof f.evidence.algorithm,'string');specialFrames.push({id:Number(id),status:f.status,algorithm:f.evidence.algorithm});}
+ }
+ assert.deepEqual(unitStatuses,units.coverage.statuses,'honest painted/analytic/empty counts');
+ assert.equal(buildings.coverage.complete,true);assert.equal(buildings.coverage.expectedNativeIds,254);assert.equal(buildings.coverage.coveredNativeIds,254);assert.deepEqual(buildings.coverage.missingNativeIds,[]);assert.equal(buildings.coverage.structureTypesTotal,19);assert.equal(Object.keys(buildings.tiles).length,254);
+ const buildingStatuses={},transparentBuildingTiles=[];
+ for(const[id,f]of Object.entries(buildings.tiles)){const atlas=buildingAtlases[f.atlas];assert(atlas,'building atlas '+id);rectangle(f,atlas,'building '+id);assert.equal(f.w,native.frames.tiles[id].w);assert.equal(f.h,native.frames.tiles[id].h);assert.equal(f.sourceTileId,Number(id));assert.match(f.status,/^painted-/,'building state '+id);buildingStatuses[f.status]=(buildingStatuses[f.status]??0)+1;const rgba=cropRGBA(atlas,f);if(!rgba.some((v,i)=>i%4===3&&v>16))transparentBuildingTiles.push(Number(id));}
+ assert.equal(terrain.coverage.ownedCount,135);assert.deepEqual(terrain.coverage.missingOwnedIDs,[]);assert.deepEqual(ids(terrain.tiles),terrain.coverage.ownedIDs);assert.deepEqual(ids(terrain.descriptors),terrain.coverage.ownedIDs);const tileUnion=[...ids(buildings.tiles),...ids(terrain.tiles)];assert.equal(new Set(tileUnion).size,389,'terrain/building disjoint ownership');assert.deepEqual(tileUnion.sort((a,b)=>a-b),range(389));assert.deepEqual(ids(buildings.tiles),terrain.coverage.otherOwnerIDs);
+ for(const[id,t]of Object.entries(terrain.tiles)){assert.equal(t.id,Number(id));assert.deepEqual(terrain.descriptors[id],native.frames.tiles[id]);assert.equal(typeof t.kind,'string');assert.equal(typeof t.base,'string');assert(Array.isArray(t.layers));for(const layer of t.layers){assert(terrain.surfaces[layer.surface]);rectangle(layer.mask,terrainAtlases.masks,'terrain mask '+id);bytes64(layer.mask.nativeMaskBase64,256,'terrain topology '+id);}if(t.fogMask)rectangle(t.fogMask,terrainAtlases.masks,'fog '+id);if(t.overlay)for(const rect of Object.values(t.overlay.variants))rectangle(rect,terrainAtlases.overlays,'terrain overlay '+id);}
+ for(const[name,s]of Object.entries(terrain.surfaces)){rectangle(s,terrainAtlases.surfaces,'semantic surface '+name);assert.equal(s.periodWorldPixels,128);assert.equal(s.w,512);assert.equal(s.h,512);}assert.equal(Object.keys(terrain.surfaces).length,10);assert.equal(terrain.coverage.overlayArchetypes,6);assert(terrain.limits.length>0,'terrain visual limits declared');
+ for(const row of assets.values())files.push(row);
+ const activeFiles=new Set(['native.json','units.json','buildings.json','terrain.json',...assets.keys()].map(p=>basename(p)));assert.deepEqual(readdirSync(directory).sort(),[...activeFiles].sort(),'only active painted runtime files');
+ const html=readFileSync(resolve(dist,'index.html'),'utf8'),css=readFileSync(resolve(dist,'native-shell.css'),'utf8');const canvases=new Map([...html.matchAll(/<canvas\b([^>]*)>/g)].map(([,text])=>{const attrs=Object.fromEntries([...text.matchAll(/([\w-]+)="([^"]*)"/g)].map(([,k,v])=>[k,v]));return[attrs.id,attrs];}));assert.equal(canvases.get('canvas')?.width,'320');assert.equal(canvases.get('canvas')?.height,'200');assert.equal(canvases.get('painted-canvas')?.width,'1280');assert.equal(canvases.get('painted-canvas')?.height,'800');assert.equal(canvases.get('painted-canvas')?.['aria-hidden'],'true');const select=html.match(/<select\b[^>]*\bid="graphics"[^>]*>([\s\S]*?)<\/select>/);assert(select);assert.match(select[1],/value="painted"/);assert.match(select[1],/value="original"/);assert(!/value="(?:hd|upscale)"/.test(select[1]));assert(!/hd\/cover\.png|hd\/manifest\.json|upscale-renderer/.test(html+css));
+ for(const file of ['hd-core.mjs','painted-core.mjs','painted-terrain.mjs','painted-renderer.mjs']){const bytes=readFileSync(resolve(dist,file));assert(bytes.length>0,file);files.push({src:file,sha256:hash(bytes),bytes:bytes.length});}
+ const host=readFileSync(resolve(dist,'native-host.mjs'),'utf8');assert(host.includes("import('./painted-renderer.mjs')"));assert(host.includes('duneHdPresent:'));assert(host.includes('duneHdEnabled:'));assert(!host.includes("import('./upscale-renderer.mjs')"));assert(css.includes('#painted-canvas'));
+ for(const retired of ['hd','hd-renderer.mjs','upscale','upscale-renderer.mjs'])assert(!existsSync(resolve(dist,retired)),'retired presentation '+retired);
+ return{scale:4,width:1280,height:800,sourceWidth:320,sourceHeight:200,originalTileDescriptors:389,originalShapeDescriptors:525,worldShapeRecords:244,unitStatuses,specialFrames,buildingTileRecords:254,buildingStatuses,transparentBuildingTiles,terrainTileRecords:135,terrainSurfaces:10,derivedTerrainOverlayArchetypes:6,originalUISlotsRetained:281,assetFiles:assets.size,checkedArtSourceFiles:artHashes.size,files,assetBytes:[...assets.values()].reduce((n,r)=>n+r.bytes,0),claims:'Complete native identity/placement inventory; analytic effects, intentional empty frames, derived states and original UI are separately reported—not all slots are unique new paintings'};
 }
-if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url))console.log(JSON.stringify(verifyHDPackage(),null,2));
+if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url))console.log(JSON.stringify(verifyPaintedPackage(),null,2));

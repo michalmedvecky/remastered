@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-23bbe27b-df82-4eb4-bf05-e0538f20193b.png",
+  "raw": "raw/wrecks.png",
+  "prompt": "wrecks-prompt.json",
+  "ids": [
+    162,
+    163,
+    164,
+    165,
+    166,
+    167
+  ],
+  "judgment": "Six distinct burneddamageposes checked, originallowwreckidentity retained"
+}

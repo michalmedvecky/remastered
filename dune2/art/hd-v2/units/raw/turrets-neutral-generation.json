@@ -1,0 +1,12 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-84baa347-bed7-4c8c-8f51-d6781ca4d242.png",
+  "raw": "raw/turrets-corrected.png",
+  "prompt": "turrets-neutral-prompt.json",
+  "scope": "Only116..120/126..130areconsumedfromthiscorrection;136..140retainoriginalunmodifiedraw",
+  "judgment": "Visuallycheckedminimalneutralsteelrecolour,nocobaltintheneutralturretbases;poses/grid/transparentbackgroundretained",
+  "sha256": "de4bd04653897b6bdfdec4f24fa3fb2d50068bc1680d01a4a83906771ca612b2",
+  "width": 1254,
+  "height": 1254
+}

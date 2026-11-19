@@ -1,0 +1,38 @@
+{
+  "base-a": {
+    "tool": "built-in image_gen",
+    "mode": "edit",
+    "sourceImage": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-56728b5f-27e6-4b96-a6bc-85f061bd6727.png",
+    "sha256": "5868fc0034b81d6fb28a8caef93601532bdd1de14dae462be6ebb00e6d2f5e24",
+    "width": 1254,
+    "height": 1254,
+    "reference": "../references/base-a.png",
+    "styleReference": "pilot-approved.png",
+    "prompt": "base-a-prompt.json",
+    "status": "accepted-whole-object-redraw"
+  },
+  "base-b": {
+    "tool": "built-in image_gen",
+    "mode": "edit",
+    "sourceImage": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-93edd5d4-7efe-4eac-b502-11785946447c.png",
+    "sha256": "0d5ef4381c83d5bee1f7e145f64188b02cf05710326f3bfa4f19204315ef18da",
+    "width": 1254,
+    "height": 1254,
+    "reference": "../references/base-b.png",
+    "styleReference": "pilot-approved.png",
+    "prompt": "base-b-prompt.json",
+    "status": "accepted-whole-object-redraw"
+  },
+  "base-c": {
+    "tool": "built-in image_gen",
+    "mode": "edit",
+    "sourceImage": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-a8bfde31-1ff3-4fc3-9bce-dd17a3c3f599.png",
+    "sha256": "9dee5214213177520c7e20c94be2a728118ca000611f7d92f37c9d03c2abd013",
+    "width": 1254,
+    "height": 1254,
+    "reference": "../references/base-c.png",
+    "styleReference": "pilot-approved.png",
+    "prompt": "base-c-prompt.json",
+    "status": "accepted-whole-object-redraw"
+  }
+}

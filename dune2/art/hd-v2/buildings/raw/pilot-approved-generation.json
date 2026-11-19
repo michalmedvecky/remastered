@@ -1,0 +1,27 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f037-2f41-7751-9c80-c34dfb2e9b29/exec-511cb6cb-26d4-480f-82ad-4e30f45e7301.png",
+  "copy": "/Users/misko/Documents/ChatGPT/Prehistorik/analysis/dune-2/hd-art-pilot-v2/raw/buildings.png",
+  "sha256": "ac5413d3de9f862157151c7364f9d159564e74040ea50956b0ee45e9e2569a16",
+  "width": 1774,
+  "height": 887,
+  "pngColorType": 6,
+  "reference": "../references/buildings-reference-darkphase.png",
+  "prompt": "buildings-prompt.json",
+  "visualJudgment": {
+    "pass": [
+      "Two whole buildings present, layout retained",
+      "Construction yard domes, workshops and crane/conduits are coherent",
+      "Windtrap retains three dark diagonal intakes",
+      "High-overhead native-facing projection preserved",
+      "Cobalt-blue faction paint and steel/warm metal palette retained",
+      "Actual new contours/shading; not enlarged source pixels or blur"
+    ],
+    "limits": [
+      "Fine detail may simplify at128px gameplay size; must inspect packed preview",
+      "Raw image has a few faint/coloured fringe specks beyond main objects; pack with conservative connected-component/gutter trimming",
+      "Visual pilot only; not a claim of complete native building-state/animation coverage"
+    ]
+  }
+}

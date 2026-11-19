@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-c43a-7392-a132-198c08d0b62a/exec-6f1d49b8-3cb9-4ddd-9a7c-b815d14a90f3.png",
+  "raw": "raw/smoke-small-explosions.png",
+  "prompt": "smoke-small-explosions-prompt.json",
+  "ids": [
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187
+  ],
+  "judgment": "Twelve occupied effects in correct source order. First cell follows original red impact flash despite description saying firstfourdebris; subsequent dark chips, smoke/fire and explosion phases distinct. Thin ember fringes require normal alpha cleanup."
+}

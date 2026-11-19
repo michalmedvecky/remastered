@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "references": [
+    "../references/walls-1.png",
+    "pilot-approved.png"
+  ],
+  "transparent_background": true,
+  "prompt": "Use case: precise-object-edit / modular 2D RTS wall sprites.\nImage1 is the edit target: exactly15 native DuneII wall connection/shadow shapes in5columns×3rows. Image2 is only approved painted industrial-building STYLE reference. Redraw every one of the15 source shapes as its matching complete high-definition olive/desert concrete defense-wall connection. Preserve exact row-major order, each shape's horizontal/vertical branches, elbows, T/cross intersections, cap silhouette, broken-end placement ifpresent, and high-overhead game camera. Each is a production wall segment, not a whole new building.\nClean beveled pale-olive concrete cap, darker vertical side faces, subtle purposeful fine seams, restrained upper-left lighting, painted hard-surface quality consistent with reference2. Native dark checkerboard pixels are old dithered SHADOWS: replace them with restrained continuous antialiased translucent shadow, not random missing wall holes or photonoise. Preserve actual cap geometry where source cap is absent. No enlarged pixel blocks, blur, generic noisy material, huge stones, red/blue lighting, invented crenellations, flags, towers or sci-fi machinery.\nOutput a true transparent5x3 sprite atlas, exactly15 isolated connection pieces with generous transparent gutters in equal square cells, no labels, text, grid/borders, ground scenery or longcastshadows. Keep intended source ink offset/proportions inside each tile; don't turn narrow vertical caps into huge square slabs. Shadow and concrete stay within each piece's original rectangular tile footprint. Approximately1536x1024. Batch 2 of5; these are distinct original geometry states, keep every cell accurately."
+}

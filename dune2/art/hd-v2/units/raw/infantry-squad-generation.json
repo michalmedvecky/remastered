@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourceImage": "/Users/misko/.codex/generated_images/01a1f032-b00a-7480-948a-b466bf0825e3/exec-c95ef791-2ffd-402a-8436-72bf764f6c49.png",
+  "raw": "raw/infantry-squad.png",
+  "prompt": "infantry-squad-prompt.json",
+  "ids": [
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340
+  ],
+  "judgment": "Northposesback-facing, Eastprofile, Southface-visible. Distinctwalkphases andfullthree-personinfantrygroups checked."
+}

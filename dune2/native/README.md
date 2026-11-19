@@ -132,6 +132,6 @@ which sequences were actually exercised. Authorized bounded DOSBox-X comparisons
 scene, music and save cases in `../FIDELITY.md`. Browser resampling, cooperative timing and OPL chip emulation
 also differ from original sound-card hardware.
 
-## HD presentation adapter
+## Painted presentation adapter
 
-Release0.4 adds `browser/hd_bridge.c` and `tools/patch-native-hd.py`, observing actual native draw calls and terrain state. `dist/hd-core.mjs` and `hd-renderer.mjs` display4× source-bound materials on a separate pointer-transparent canvas. Native simulation, original framebuffer, clipping and input remain authoritative. New generated image sources and the stdlib asset builder accompany the corresponding source archive. See `../HD-GRAPHICS.md`; movies use bounded contour scaling rather than an eager expanded WSA bank.
+Release0.4 added `browser/hd_bridge.c` and its idempotent patcher to observe native framebuffer/draw decisions without changing simulation. Release0.6 retains that exact native binary ABI and uses the actual original tile/sprite commands to display new whole-object RGBA artwork. `dist/painted-renderer.mjs`, `painted-terrain.mjs` and `painted-core.mjs` handle independent sprite layers, clipping, houses/deviation, damage highlighting, native overlays and world-coordinate ground. Native sources and WASM are unchanged for this graphics release. The corresponding-source archive retains generated art, original decoded art references, exact prompts, packers and source/output hashes; it excludes raw original PAK/EXE archives. See `../HD-GRAPHICS.md` for explicit artistic/effect/cinematic limits.
