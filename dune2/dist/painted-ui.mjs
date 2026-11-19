@@ -1,11 +1,12 @@
 // Painted interface surfaces and vector typography over native UI observations.
 // All input continues through the original 320x200 SDL canvas.
-import {intersectRect, glyphCharacter, glyphInkVisibility, observedTextRuns, observedHelpScrollbar, fitTextBox, uiSpriteVisibility, nineSlices} from './painted-ui-core.mjs';
+import {intersectRect, glyphCharacter, glyphInkVisibility, observedTextRuns, observedHelpScrollbar, observedSecurityEditBox, fitTextBox, uiSpriteVisibility, nineSlices} from './painted-ui-core.mjs';
 import {effectiveHouse, recolourPainted, rgbaBytesBounded} from './painted-core.mjs';
 import {createPaintedMedia} from './painted-media.mjs';
 import {compileSceneRecognition, recognizePaintedScene, isAdvisorSprite,compileConfirmationRecognition,recognizeConfirmationHouse} from './painted-scenes.mjs';
 import {CREDIT_COUNTER, creditDigitLayout, paintedCreditPanel, suppressNativeCreditBackground} from './painted-credits.mjs';
 import {measurePeriodText, drawPeriodText} from './painted-typography.mjs';
+import {remapTextRunClips,factoryCaptionRect} from './painted-text-layout.mjs';
 import titleLogo from './painted-title-data.mjs';
 
 const S = 4;
@@ -20,7 +21,7 @@ export async function createPaintedUI({sourceFrames,locale=null}) {
   const [chrome, icons, media] = await Promise.all([loadJSON('interface'), loadJSON('icons'), createPaintedMedia()]);
   for(const[name,patch]of Object.entries(locale?.scenes??{}))if(chrome.scenes[name])chrome.scenes[name]={...chrome.scenes[name],...patch};
   const labelText=value=>locale?.presentationLabels?.[value]??value;
-  const images = new Map(), variants = new Map(), textLayouts = new Map();
+  const images = new Map(), variants = new Map(), textLayouts = new Map(), panelSurfaces=new Map();
   const indexedScenes = new Map(Object.entries(chrome.scenes ?? {}).filter(([, row]) => row.indicesBase64).map(([name, row]) => [name, Uint8Array.from(atob(row.indicesBase64), c => c.charCodeAt(0))]));
   const creditSource=indexedScenes.get('SCREEN.CPS'),creditRect=CREDIT_COUNTER.nativeClip;
   const creditIndices=creditSource&&Uint8Array.from({length:creditRect[2]*creditRect[3]},(_,i)=>creditSource[(creditRect[1]+Math.floor(i/creditRect[2]))*320+creditRect[0]+i%creditRect[2]]);
@@ -31,7 +32,7 @@ export async function createPaintedUI({sourceFrames,locale=null}) {
   const crestCopies=Object.fromEntries(Object.entries(chrome.crestCompositions?.families??{}).map(([family,row])=>[family,Object.values(row.variants).flatMap(v=>v.copies).map(copy=>({...copy,expected:Uint8Array.from(atob(copy.expectedIndicesBase64),c=>c.charCodeAt(0))}))]));
   await Promise.all([['chrome', chrome], ['icons', icons]].flatMap(([bank, manifest]) => Object.entries(manifest.atlases).map(async ([key, row]) => images.set(bank + ':' + key, await loadImage(row.src)))));
   let rendered = 0, lastScene = 'native', glyphCount = 0, spriteCount = 0, borderCount = 0, skippedStale = 0, variantBytes = 0, evidence = {};
-  let textSamples = [], textFitViolations = 0, recognizedScene=null, skippedAdvisorPatches=0;
+  let textSamples = [], textFitViolations = 0, recognizedScene=null, skippedAdvisorPatches=0,panelVariantBytes=0;
 
   function artImage(bank, descriptor, frame, tint = false) {
     const rect = rectOf(descriptor), atlas = images.get(bank + ':' + descriptor.atlas);
@@ -102,10 +103,22 @@ export async function createPaintedUI({sourceFrames,locale=null}) {
     if (!image) return;
     const margins = descriptor.sliceMargins ?? (descriptor.nineSlice ? descriptor.nineSlice.map(n => n * S) : [12, 12, 12, 12]);
     const destinationMargins = compact ? [Math.min(margins[0], 12), 4, Math.min(margins[2], 12), 4] : margins;
-    for (const part of nineSlices([0, 0, image.width, image.height], rect.map(n => n * S), margins, destinationMargins)) {
-      if (borderOnly && part.source[0] > 0 && part.source[1] > 0 && part.source[0] + part.source[2] < image.width && part.source[1] + part.source[3] < image.height) continue;
-      ctx.drawImage(image, ...part.source, ...part.target);
+    const width=Math.max(1,Math.round(rect[2]*S)),height=Math.max(1,Math.round(rect[3]*S));
+    const house=descriptor.housePaint&&Number.isInteger(frame.playerHouse)&&frame.playerHouse>=0&&frame.playerHouse<6?frame.playerHouse:1;
+    const key=JSON.stringify([name,width,height,compact,borderOnly,house,...(house===1?[]:rgb(frame.palette,148+house*16))]);
+    let raster=panelSurfaces.get(key);
+    if(!raster){
+      raster=surface(width,height);const pc=raster.getContext('2d',{willReadFrequently:true});pc.imageSmoothingEnabled=true;
+      for (const part of nineSlices([0, 0, image.width, image.height], [0,0,width,height], margins, destinationMargins)) {
+        if (borderOnly && part.source[0] > 0 && part.source[1] > 0 && part.source[0] + part.source[2] < image.width && part.source[1] + part.source[3] < image.height) continue;
+        pc.drawImage(image, ...part.source, ...part.target);
+      }
+      // Freeze the resized rim once. Main/UI readbacks then copy identical
+      // pixels rather than selecting another filtering path on the next draw.
+      pc.putImageData(pc.getImageData(0,0,width,height),0,0);
+      panelSurfaces.set(key,raster);panelVariantBytes=rgbaBytesBounded(panelSurfaces,48,12*1024*1024);
     }
+    ctx.save();ctx.imageSmoothingEnabled=false;ctx.drawImage(raster,rect[0]*S,rect[1]*S,rect[2]*S,rect[3]*S);ctx.restore();
   }
 
   function textColour(palette, index) {
@@ -135,7 +148,7 @@ export async function createPaintedUI({sourceFrames,locale=null}) {
     if (!layout) { ctx.restore(); return; }
     const [ix, iy, iw, ih] = layout.ink, [cx, cy, cw, ch] = layout.content;
     if (ix < cx - .001 || iy < cy - .001 || ix + iw > cx + cw + .001 || iy + ih > cy + ch + .001) textFitViolations++;
-    if (textSamples.length < 100) textSamples.push({text:value,fontSize:Math.round(layout.fontSize*100)/100,nativeRect:rect.slice(),ink:layout.ink.map((n,i)=>(n+(i===0?rect[0]*S:i===1?rect[1]*S:0))/S),padding:insets.slice()});
+    if (textSamples.length < 100) textSamples.push({text:value,fontSize:Math.round(layout.fontSize*100)/100,nativeRect:rect.slice(),ink:layout.ink.map((n,i)=>(n+(i===0?rect[0]*S:i===1?rect[1]*S:0))/S),padding:insets.slice(),...(options.coverageClips?{coverageClips:options.coverageClips.map(r=>r.slice())}:{}),...(options.role?{role:options.role}:{})});
     const x = rect[0] * S + layout.x, y = rect[1] * S + layout.baseline;
     drawPeriodText(ctx,value,x,y,layout.fontSize,{face,stroke:layout.stroke,outline:'#111921',fill:options.colour ?? textColour(frame.palette, options.colourIndex ?? 15)});
     ctx.restore();
@@ -161,18 +174,33 @@ export async function createPaintedUI({sourceFrames,locale=null}) {
     }
     let rect = [run.x, run.y, run.width, run.fontHeight];
     const options = {face:run.font===1?'NEW6P.FNT':'NEW8P.FNT', colourIndex: run.colours?.[1], size: run.fontHeight * S * .97};
-    if(lastScene==='CHOAM.CPS'&&run.y===23){options.insets=[1,1,1,3];}
+    if(lastScene==='CHOAM.CPS'&&run.y===23){
+      // The painted caption plate is higher than the native caption baseline.
+      // Fixed name/quantity/cost lanes cannot reflow when another run is erased.
+      rect=factoryCaptionRect(run);options.insets=[2,3,2,3];options.size=6*S;options.role='factory-caption';
+    }
     else if (lastScene === 'hud' && run.y === 43 && run.x >= 256 && run.x + run.width <= 321) {
-      rect = [258, 43, 60, 8]; options.align = 'center'; options.insets = [2, 1, 2, 1];
-    } else if (lastScene === 'hud' && run.x >= 256 && run.y >= 76 && run.y < 124) {
-      const button = (frame.borders ?? []).filter(b => b.fill !== false && b.x >= 256 && b.width <= 64 && b.height <= 40 && run.x >= b.x && run.x + run.width <= b.x + b.width + 1 && run.y >= b.y && run.y + run.height <= b.y + b.height + 1).sort((a, b) => a.width * a.height - b.width * b.height)[0];
+      rect = [258, 43, 60, 8]; options.align = 'center'; options.insets = [2, 1, 2, 1];options.role='object-heading';
+    } else if (lastScene === 'hud' && run.x+run.width/2 >= 256 && run.x+run.width/2 < 320 && run.y >= 76 && run.y < 124) {
+      const center=run.x+run.width/2;
+      const button = (frame.borders ?? []).filter(b => b.fill !== false && b.x >= 256 && b.width <= 64 && b.height <= 40 && center >= b.x && center < b.x + b.width && run.y >= b.y && run.y < b.y + b.height).sort((a, b) => a.width * a.height - b.width * b.height)[0];
       if (button) {
-        rect = button.height > 16 ? [button.x + 2, button.y + button.height - 9, button.width - 4, 8] : [button.x, button.y, button.width, button.height];
-        options.align = 'center'; options.insets = [2, 1, 2, 1];
+        const portraitButton=button.height>16;
+        rect = portraitButton ? [button.x + 2, button.y + button.height - 9, button.width - 4, 8] : [button.x, button.y, button.width, button.height];
+        options.align = 'center'; options.insets = portraitButton?[4,1,4,1]:[4,2,4,2];options.size=(run.font===1?4.2:5.2)*S;options.role='command-button';
+      }
+    } else {
+      const button=(frame.borders??[]).filter(b=>b.fill!==false&&b.width>=20&&b.height>=10&&b.height<=20&&run.x>=b.x&&run.x<b.x+b.width&&run.y>=b.y&&run.y<b.y+b.height).sort((a,b)=>a.width*a.height-b.width*b.height)[0];
+      if(button){
+        rect=[button.x,button.y,button.width,button.height];
+        const compact=button.height<=12;
+        options.insets=compact?[4,2,4,2]:[9,4,9,4];options.size=(compact?(run.font===1?4.2:5.2):5)*S;options.role='menu-button';
       }
     }
     ctx.save();
-    if(run.stable){ctx.beginPath();for(const clip of run.clips)ctx.rect(...clip.map(n=>n*S));ctx.clip();}
+    const clips=run.stable?remapTextRunClips(run,rect):null;
+    options.coverageClips=clips;
+    if(clips){ctx.beginPath();for(const clip of clips)ctx.rect(...clip.map(n=>n*S));ctx.clip();}
     text(ctx, run.text, rect, frame, options);
     ctx.restore();
     glyphCount += run.glyphs.length;
@@ -198,7 +226,7 @@ export async function createPaintedUI({sourceFrames,locale=null}) {
       if (command.id === 12) {
         ctx.fillStyle = '#111b24'; ctx.fillRect(...rect.map(n => n * S));
       } else if (!digit) panel(ctx, rect, frame, {button: true, pressed: semantic.state === 'pressed' || semantic.state === 'selected'});
-      text(ctx, credit?.label??label, rect, frame, {align: 'center', ...(!digit?{size:Math.min(rect[3]*S*.97,9*S)}:{}), colour: digit ? '#f2d69b' : '#eee1ba', clip, insets: credit?.insets??(digit ? [.75, .75, .75, .75] : [4, 4, 4, 4])});
+      text(ctx, credit?.label??label, rect, frame, {align: 'center', ...(!digit?{size:Math.min(rect[3]*S*.97,5.2*S),role:'bitmap-button'}:{}), colour: digit ? '#f2d69b' : '#eee1ba', clip, insets: credit?.insets??(digit ? [.75, .75, .75, .75] : [9, 4, 9, 4])});
     } else if(command.id>=355&&command.id<=358){
       const pressed=command.id%2===0,up=command.id<=356;
       panel(ctx,rect,frame,{button:true,pressed});
@@ -228,7 +256,7 @@ export async function createPaintedUI({sourceFrames,locale=null}) {
       ctx.restore(); borderCount++; return;
     }
     const hudButton = lastScene === 'hud' && border.x >= 256 && border.y >= 40 && border.y < 124 && border.width <= 64;
-    panel(ctx, rect, frame, {button: border.height <= 20 || hudButton, pressed: border.pressed, compact: hudButton}); borderCount++;
+    panel(ctx, rect, frame, {button: border.height <= 20 || hudButton, pressed: border.pressed, compact: hudButton||border.height<=12}); borderCount++;
   }
 
   function cropMatches(frame, indices, source, destination) {
@@ -357,6 +385,9 @@ export async function createPaintedUI({sourceFrames,locale=null}) {
         const t=scrollbar.thumb;
         if(t){const gradient=ctx.createLinearGradient(t.x*S,0,(t.x+t.width)*S,0);gradient.addColorStop(0,'#788b98');gradient.addColorStop(.4,t.colour===10?'#c3b888':'#c5d0d2');gradient.addColorStop(1,'#4b5b68');ctx.fillStyle=gradient;ctx.fillRect(t.x*S,t.y*S,t.width*S,t.height*S);}
       }
+      const editBox=observedSecurityEditBox(frame,{cursorWidth:locale?.fonts?.['NEW8P.FNT']?.chars?.[87]?.width??10});
+      evidence.editBox=editBox;
+      if(editBox?.cursor){ctx.fillStyle=textColour(frame.palette,15);ctx.fillRect(...editBox.cursor.map(n=>n*S));}
     }
     if (scene === 'hud') healthMeter(ctx, frame);
     if (!frame.worldVisible) houseConfirmation(ctx, frame);
@@ -400,5 +431,5 @@ export async function createPaintedUI({sourceFrames,locale=null}) {
     ctx.restore(); return true;
   }
 
-  return {draw, cursor, worldControl, suppressionRects, manifests: {chrome, icons}, diagnostics: () => ({ready: true, frames: rendered, scene: lastScene, sceneRecognition:recognizedScene, skippedAdvisorPatches, glyphs: glyphCount, sprites: spriteCount, borders: borderCount, skippedStale, variantBytes, iconCoverage: icons.coverage, media:media.diagnostics(),textFit:{violations:textFitViolations,labels:textSamples},evidence})};
+  return {draw, cursor, worldControl, suppressionRects, manifests: {chrome, icons}, diagnostics: () => ({ready: true, frames: rendered, scene: lastScene, sceneRecognition:recognizedScene, skippedAdvisorPatches, glyphs: glyphCount, sprites: spriteCount, borders: borderCount, skippedStale, variantBytes:variantBytes+panelVariantBytes,panelVariantBytes, iconCoverage: icons.coverage, media:media.diagnostics(),textFit:{violations:textFitViolations,labels:textSamples},evidence})};
 }

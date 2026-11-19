@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {intersectRect, glyphCharacter, glyphInkVisibility, uiSpriteVisibility, glyphRuns, observedTextRuns, campaignScene, observedHelpScrollbar, sameUIPixels, uiPresentationSignature, fitTextBox, nineSlices} from '../dist/painted-ui-core.mjs';
+import {intersectRect, glyphCharacter, glyphInkVisibility, uiSpriteVisibility, glyphRuns, observedTextRuns, campaignScene, observedHelpScrollbar, observedSecurityEditBox, sameUIPixels, uiPresentationSignature, fitTextBox, nineSlices} from '../dist/painted-ui-core.mjs';
 
 test('UI ink witnesses reject stale strings and sprites after the native buffer is overwritten', () => {
   const pixels = new Uint8Array(64000);
@@ -39,6 +39,18 @@ test('help scrollbar follows its actual native filled thumb, including press col
  assert.deepEqual(observedHelpScrollbar(frame),{track:[296,72,8,72],thumb:{x:297,y:89,width:6,height:21,colour:10}});
  assert.equal(observedHelpScrollbar({...frame,textRuns:[]}),null,'same colours on another scene do not create a help control');
  assert.equal(observedHelpScrollbar({...frame,uiPixels:pixels}).thumb,null,'no actual observed thumb means no invented position');
+});
+
+test('security edit cursor follows the actual native filled blink without inventing a timer or accepting glyph strokes',()=>{
+ const uiPixels=new Uint8Array(64000).fill(20),borders=[[10,170,300,23],[14,174,292,15]].map(([x,y,width,height])=>({x,y,width,height}));
+ const frame={uiPixels,borders};assert.deepEqual(observedSecurityEditBox(frame),{rect:[16,176,288,11],cursor:null});
+ for(let y=176;y<187;y++)for(let x=47;x<57;x++)uiPixels[y*320+x]=15;
+ assert.deepEqual(observedSecurityEditBox(frame).cursor,[47,176,10,11]);
+ const raw=uiPixels.slice();raw[176*320+47]=20;
+ assert.deepEqual(observedSecurityEditBox({...frame,pixels:raw}).cursor,[47,176,10,11],'cursor-free saved underlay is authoritative');
+ uiPixels[176*320+47]=20;assert.equal(observedSecurityEditBox(frame).cursor,null,'incomplete block is not a cursor');
+ assert.equal(observedSecurityEditBox({...frame,borders:borders.slice(0,1)}),null,'both native security schemas required');
+ assert.equal(observedSecurityEditBox({...frame,uiPixels:new Uint8Array(10)}),null);
 });
 
 test('campaign backgrounds require independent chrome and nonzero cropped-map evidence, with actual province occlusion',()=>{

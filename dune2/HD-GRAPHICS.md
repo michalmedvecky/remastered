@@ -1,4 +1,4 @@
-# Approved painted HD — release 0.8.0
+# Approved painted HD — release 0.8.1
 
 The user approved the whole-object art pilot and requested all buildings, units and terrain in that style. The active game now uses complete painted RGBA artwork at 1280×800. It does not use the rejected generic material overlay or xBR smoothing. Original mode remains available without restarting.
 
@@ -51,3 +51,5 @@ The [source index](dist/native/source.html) links the main `source.tar.gz` plus 
 The painted UI uses scalable merged contours from the actual NEW8P/NEW6P foreground shapes instead of system serif/sans fonts. Small convex chamfers preserve the period angular forms; explicit Czech accents and punctuation share deterministic ink metrics. The real TITLE.ENG Dune II logo has its own traced outline. A matching self-contained WOFF supplies the wrapper lettering. No remote fonts or added build dependencies are required. Native text, source-slot identity, ownership and clipping still determine content and placement. House captions fit the actual 71×13 painted gold plates; a clean whole choice background removes native caption bleed. Confirmation names require a unique exact match of source pixels that differ among the three strips, rather than a background-dominated similarity score.
 
 Czech virtual resource overlays preserve original formats, native string IDs, control sequences, help selectors and picture references. The native observer decodes Czech Windows-1250 bytes to Unicode for the same vector renderer. English retains CP437. Both original and painted graphics can display Czech; the language is selected before starting so active native string pointers and mission state are not invalidated. See [localization evidence](fidelity/localization/README.md).
+
+The 0.8.1 text-layout follow-up maps observed native text coverage into the painted widget box before clipping. It preserves erased regions and partial copies while keeping Czech initial letters visible. Menu, HUD and bitmap buttons reserve their painted metal rims; the factory name/quantity/price fields sit inside their caption plate. See [text-layout verification](fidelity/text-layout/README.md).

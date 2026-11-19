@@ -1,4 +1,4 @@
-# Dune II — painted HD browser reconstruction 0.8.0
+# Dune II — painted HD browser reconstruction 0.8.1
 
 Dune II uses the approved painted HD style for all world buildings, units and terrain. Complete new RGBA drawings retain native footprints, pivots, facings and animation decisions. The original engine still controls game rules, input, damage, fog and timing. The HUD, menus, advisors, object previews and campaign interface use matching new art and fitted vector text. A render-time camera interpolates committed tile steps with a current-snapshot terrain fringe, while native world picking compensates for the displayed offset. Graphics switches live between **HD · painted** and **Original · 1992**. [Artwork gallery](dist/artwork.html) and [graphics architecture/coverage](HD-GRAPHICS.md) distinguishes painted art, derived states and retained native effects.
 
@@ -52,3 +52,5 @@ The compact golden outputs and current-source regressions are included. Full raw
 The historical JavaScript prototype remains at `dist/prototype.html`. Its JSON saves and engine documentation describe that earlier implementation, separate from the default native engine and native saves.
 
 OpenDUNE is GPLv2. ADL sources retain ScummVM GPLv2-or-later and AdPlug LGPLv2.1-or-later notices; Nuked OPL is LGPLv2.1-or-later; SDL2 is zlib licensed. Full source, notices and component licenses accompany the browser binaries. Original assets, recordings, scores and branding retain their original rights.
+
+The 0.8.1 text-layout follow-up maps observed native text coverage into the painted widget box before clipping. It preserves erased regions and partial copies while keeping Czech initial letters visible. Menu, HUD and bitmap buttons reserve their painted metal rims; the factory name/quantity/price fields sit inside their caption plate. See [text-layout verification](fidelity/text-layout/README.md).

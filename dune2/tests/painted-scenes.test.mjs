@@ -63,6 +63,30 @@ test('actual native UI ink and cursor alpha may occlude anchors; a bounding box 
  assert.equal(recognised(raw,{cursor:pointer}).scene,'MENTATO.CPS','raw fallback masks the actual native cursor shape');
 });
 
+test('all four security input compositions retain exact whole advisors through the native filled window, typing, blink and restore',()=>{
+ const outer=[10,170,300,23],inner=[14,174,292,15],font=JSON.parse(read('dist/locales/cs.json')).fonts['NEW8P.FNT'];
+ const inside=(p,r)=>p.x>=r[0]&&p.x<r[0]+r[2]&&p.y>=r[1]&&p.y<r[1]+r[3];
+ assert(compiled.advisorExclusions.some(r=>r.every((v,i)=>v===outer[i])),'exact native Security_Show widget9 border');
+ assert(!compiled.advisorPoints.some(p=>inside(p,outer)),'filled interior is not immutable CPS evidence');
+ assert.equal(compiled.advisorPoints.length,384,'independent static evidence remains full-sized');
+ function border(pixels,rect,fillInterior){
+  const[x,y,w,h]=rect,ink=[];if(fillInterior)fill(pixels,rect,20);
+  for(let yy=0;yy<h;yy++)for(let xx=0;xx<w;xx++)if(xx===0||xx===w-1||yy===0||yy===h-1){const c=yy===0?26:16;pixels[(y+yy)*320+x+xx]=c;ink.push([xx,yy,c]);}
+  return{x,y,width:w,height:h,screen:0,fill:fillInterior,visibleInk:ink.length,ink};
+ }
+ for(const key of ['h','a','o','m'])for(const[phase,answer]of ['', 'stredni','105mm kanon'].entries()){
+  const name='MENTAT'+key.toUpperCase()+'.CPS',pixels=base(name);animate(pixels,key,phase);
+  fill(pixels,[0,0,320,40],0);fill(pixels,[128,48,184,112],233);
+  const borders=[border(pixels,outer,true),border(pixels,inner,false)];
+  let pen=16;for(const c of answer){const glyph=font.chars[c.charCodeAt(0)],data=Buffer.from(glyph.nibblesBase64,'base64');for(let y=0;y<glyph.usedLines;y++)for(let x=0;x<glyph.width;x++)if(data[y*glyph.width+x]===1)pixels[(176+glyph.unusedLines+y)*320+pen+x]=15;pen+=glyph.width-1;}
+  fill(pixels,[pen,176,1,11],phase&1?15:20);
+  const result=recognised(pixels,{playerHouse:2,borders});assert.equal(result.scene,name,name+' security '+phase);assert.equal(result.method,'exact-static-advisor');assert.equal(result.matches,result.samples);
+  const wrong=pixels.slice(),point=compiled.advisorPoints.find(p=>p.values[compiled.advisors.indexOf(name)]!==222);wrong[point.at]=222;
+  assert.equal(recognised(wrong,{borders:[...borders,{x:0,y:40,width:320,height:160,fill:true,ink:[],visibleInk:1}]}).scene,'native','arbitrary filled-border box cannot hide corruption outside known security window');
+  const restored=base(name);animate(restored,key,phase);assert.equal(recognised(restored).scene,name,name+' after native restore');
+ }
+});
+
 test('unknown or partially mixed scenes never select a nearest advisor, and advisor patch identity comes from the original SHP resource',()=>{
  assert.equal(recognised(new Uint8Array(64000)).scene,'native');
  const hybrid=base('MENTATH.CPS'),a=base('MENTATA.CPS');copy(hybrid,a,[0,120,128,80],0,120);

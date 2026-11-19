@@ -1,20 +1,20 @@
 {
   "schema": 2,
-  "version": "0.8.0",
+  "version": "0.8.1",
   "path": "dist/native/source.tar.gz",
   "src": "native/source.tar.gz",
-  "sha256": "497f941164864d2f76bac6a03a9f1f8424a2be68bc7f9d5da406642fc9d38c55",
-  "bytes": 19391270,
-  "uncompressedBytes": 43878400,
-  "unpackedBytes": 43143010,
-  "files": 3155,
+  "sha256": "89ce83d1a643823b70e776ba70f4d843dbd4ba1e575cf51967d94df383c84bfe",
+  "bytes": 22549107,
+  "uncompressedBytes": 47575040,
+  "unpackedBytes": 46807420,
+  "files": 3195,
   "coreOutputs": {
     "dune-native.mjs": "851da2f19b4f68adc5e468051756d1184d4c21e7dad7561fe02d5d352f22b5c9",
     "dune-native.wasm": "1c01dc9701c592de66d8e0846060a19edf2ec56b29b387e14c56734de011a1aa",
     "dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
   },
   "musicWasmSha256": "e29b0487fc72d4c7c4691f96a11229bf0976d345d0385fa1656f1f55d8e3d9ef",
-  "manifestSha256": "7b652db20f242b176e6f19ff38de8ed72593cb2554f32096ce9eb82764fc94b8",
+  "manifestSha256": "414f4a2469c9fce1d692fc941e5aa0a3bf11d66c49d938fa1efb95067eee2e23",
   "artParts": [
     {
       "sha256": "59f24e4478e8815da1d6cc5ad7bc15961e778bfa27cf2bb63c15f527722f5c8f",
@@ -90,5 +90,5 @@
   "partUncompressedLimit": 50331648,
   "sourceIndex": "dist/native/source.html",
   "sourceReadme": "dist/native/SOURCE-README.md",
-  "allArchiveBytes": 330813266
+  "allArchiveBytes": 333971103
 }

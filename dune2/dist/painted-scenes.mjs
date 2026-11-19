@@ -20,7 +20,11 @@ export function compileSceneRecognition(chrome,{sourceFrames=null,indexedScenes=
   }
   // Native GUI_Mentat_Loop owns the complete top40; widget8 owns its whole
   // media rectangle. Bottom widget allocations use up to64x24 native pixels.
-  const exclusions=[[0,0,320,40],[128,48,184,112],[152,164,168,36]];
+  // GUI_Security_Show fills widget9's input panel plus its6px border, replacing
+  // the advisor's lower-left body too. Observer border ink is intentionally
+  // rim-only, so it cannot describe that real interior clear. Exclude this
+  // known native window when choosing static anchors, never arbitrary boxes.
+  const exclusions=[[0,0,320,40],[128,48,184,112],[152,164,168,36],[10,170,300,23]];
   for(const row of Object.values(chrome.frames??{}))if(row.kind==='painted-whole-advisor'){
     for(const rect of Object.values(row.nativePatches??{}))if(Array.isArray(rect)&&rect.length===4)exclusions.push(rect.slice());
   }

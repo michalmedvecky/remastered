@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "snapshotSHA256": "c3cf9d62452d5c1a6a79ff4650cce5bd20fdf822d1dc8aab949808b20ea2c05e",
+  "snapshotSHA256": "4dcea75176ad15e97ea5352de3ffee0512e0ee14205cb9cd51ee769eb84b019a",
   "excluded": [
     "build.json (injected per build)",
     "private/redundant source files"
@@ -1567,7 +1567,7 @@
       "size": 2660
     },
     "native/SOURCE-PACKAGE.json": {
-      "sha256": "330a758902bd92debff40d1883dd0c5e4c5503fbd13d741527385584f5599fc6",
+      "sha256": "afa04cd9e1150da140f9ad88a4682dfab2ec75ac0ed56a6b292aba09e6778cf8",
       "size": 3725
     },
     "native/SOURCE-README.md": {
@@ -1635,8 +1635,8 @@
       "size": 2455
     },
     "native/source.tar.gz": {
-      "sha256": "497f941164864d2f76bac6a03a9f1f8424a2be68bc7f9d5da406642fc9d38c55",
-      "size": 19391270
+      "sha256": "89ce83d1a643823b70e776ba70f4d843dbd4ba1e575cf51967d94df383c84bfe",
+      "size": 22549107
     },
     "native-clock.mjs": {
       "sha256": "edfaa5db4d33c93f9fc2812a495716b0817cf35d860ba1ef0cfc712552648bbc",
@@ -1823,12 +1823,16 @@
       "size": 20175
     },
     "painted-scenes.mjs": {
-      "sha256": "1d4c9909693b9f8a16e15fe258f65e7a9bca445bbd753bd4f40d52486ea361c3",
-      "size": 7992
+      "sha256": "8805a3aa3e2fc62c08b1f454a748f9f39a8f0bdee0e44f58f1c7f7c7493cc504",
+      "size": 8320
     },
     "painted-terrain.mjs": {
       "sha256": "7bf0e343f79959ec668d5533126e29ff2c5daa7a56c18d3e89ce4abac6177a08",
       "size": 10662
+    },
+    "painted-text-layout.mjs": {
+      "sha256": "c9d00f761dc8537798ceee5da5fa7b1e70d18734719c6814efca8f75f1779d0d",
+      "size": 2166
     },
     "painted-title-data.mjs": {
       "sha256": "8798600dbe11e87a0893db9190e0d098b2da26e301aaaa0a0de27214f89931bb",
@@ -1839,12 +1843,12 @@
       "size": 3243
     },
     "painted-ui-core.mjs": {
-      "sha256": "c62c32e99c413e85a4b618a8d4273ff1a44cdf6ffbddcb577f63f7b52b8f7261",
-      "size": 11915
+      "sha256": "2e496895d4c47f9f9284b8aefa3893a62412354cd04869684539b7b51b709ddc",
+      "size": 13048
     },
     "painted-ui.mjs": {
-      "sha256": "71f73994dc13fc628a73c1a36d55f465eedff980fc8808dad992f74267efef63",
-      "size": 27845
+      "sha256": "e868d15fb5ebb39d8ee58fe3d2c1b6245e5a1ce187cabb6f5ac2d1c89af73eb4",
+      "size": 30504
     },
     "period-shell.css": {
       "sha256": "c1240ffe3a7648b05d68688a045ccd3fab4d65da5a74f2834a3cc22be8a3f219",
