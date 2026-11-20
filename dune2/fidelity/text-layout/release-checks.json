@@ -1,0 +1,35 @@
+{
+  "version": "0.8.1",
+  "nativeOutputsUnchangedFrom080": {
+    "dune-native.mjs": "851da2f19b4f68adc5e468051756d1184d4c21e7dad7561fe02d5d352f22b5c9",
+    "dune-native.wasm": "1c01dc9701c592de66d8e0846060a19edf2ec56b29b387e14c56734de011a1aa",
+    "dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
+  },
+  "nativeRebuildRequired": false,
+  "originalDosExecuted": false,
+  "originalFilesVerified": 19,
+  "originalZipVerified": true,
+  "browserReview": "Original live game tab retained untouched; normal rebuilt game reviewed on isolated loopback origin port6004. Live screenshots exercise Ordos mission2 Options, unit actions, placement and factory name/cost. The inert production Canvas checks exercise final code, all reported cases and native security input.",
+  "releaseStatus": "Implementation,907 collection tests, final Dune180 tests and browser acceptance complete. Source package, clean revision and push proof are recorded in the external analysis checklist.",
+  "suiteTests": [
+    16,
+    382,
+    269,
+    26,
+    34,
+    180
+  ],
+  "totalTests": 907,
+  "failures": 0,
+  "originalsVerification": "Read-only19 files and supplied ZIP verified again in this0.8.1 pass.",
+  "finalCanvas": {
+    "captionCases": 27,
+    "securityCases": 24,
+    "pass": true,
+    "sourceHashesVerified": true,
+    "fullReferenceDifferenceBytes": 0,
+    "outsideSafeCaptionPixels": 0,
+    "textFitViolations": 0,
+    "coldRepeatDifferenceBytes": 0
+  }
+}

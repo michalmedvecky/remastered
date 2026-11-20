@@ -1,5 +1,6 @@
 // Read-only presentation helpers. Native layout and ink decide what is visible.
 import {mappedIndex} from './hd-core.mjs';
+import {decodeNativeCharacter} from './native-text.mjs';
 
 export function intersectRect(a, b) {
   const x = Math.max(a[0], b[0]), y = Math.max(a[1], b[1]);
@@ -12,12 +13,9 @@ export function insideRect(x, y, rect) {
   return x >= rect[0] && y >= rect[1] && x < rect[0] + rect[2] && y < rect[1] + rect[3];
 }
 
-export function glyphCharacter(value) {
-  if (!Number.isInteger(value) || value < 32 || value > 255) return '';
-  if (value < 127) return String.fromCharCode(value);
-  // The original DOS text is CP437, including user-entered save descriptions.
-  const high = 'ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜ¢£¥₧ƒáíóúñÑªº¿⌐¬½¼¡«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■ ';
-  return high[value - 128] ?? '';
+export function glyphCharacter(value,encoding='cp437') {
+  if (!Number.isInteger(value) || value < 32 || value === 127 || value > 255) return '';
+  return decodeNativeCharacter(value,encoding);
 }
 
 export function glyphInkVisibility(glyph, pixels) {
@@ -55,10 +53,10 @@ export function uiSpriteVisibility(command, source, pixels) {
 }
 
 /** Merge only native-adjacent glyphs. Never reflow or invent semantic text. */
-export function glyphRuns(glyphs) {
+export function glyphRuns(glyphs,{encoding='cp437'}={}) {
   const runs = [];
   for (const glyph of [...glyphs].sort((a, b) => a.serial - b.serial)) {
-    const char = glyphCharacter(glyph.char);
+    const char = glyphCharacter(glyph.char,encoding);
     if (!char || glyph.visibleInk === 0) continue;
     const previous = runs.at(-1);
     const style = [glyph.font, glyph.fontHeight ?? glyph.height, ...(glyph.colours ?? [])].join(':');
@@ -82,7 +80,7 @@ export function glyphRuns(glyphs) {
  * literal line or its layout. A missing glyph may have the same advance as a
  * space: reconstructing words from surviving ink cannot distinguish them. */
 export function observedTextRuns(frame) {
-  if (!Array.isArray(frame.textRuns)) return glyphRuns(frame.textGlyphs ?? []);
+  if (!Array.isArray(frame.textRuns)) return glyphRuns(frame.textGlyphs ?? [],{encoding:frame.textEncoding??'cp437'});
   return frame.textRuns.filter(run => typeof run.text === 'string' && run.text.length && run.visibleInk > 0 && run.width > 0 && (run.fontHeight ?? run.height) > 0 && Array.isArray(run.clips) && run.clips.length)
     .map(run => ({...run, stable: true, full: true}));
 }
@@ -132,6 +130,24 @@ export function observedHelpScrollbar(frame){
     if(thumb){if(current&&current.y+current.height===y&&current.colour===colour)current.height++;else{current={x:297,y,width:6,height:1,colour};groups.push(current);}}else current=null;
   }
   return{track:[296,72,8,72],thumb:groups.sort((a,b)=>b.height-a.height)[0]??null};
+}
+
+/** Native Security_Show schemas1/2 enclose the edit widget [16,176,288,11].
+ * Its blink is a raw filled rectangle, not a text/border observation. Recover
+ * only a complete FG15 cursor block from cursor-free native pixels; letters
+ * cannot fill every row of the eleven-pixel input cell. No private state/timer. */
+export function observedSecurityEditBox(frame,{cursorWidth=10}={}){
+  const borders=frame.uiBorders??frame.borders??[],pixels=frame.uiPixels??frame.pixels;
+  const has=r=>borders.some(b=>b.x===r[0]&&b.y===r[1]&&b.width===r[2]&&b.height===r[3]);
+  if(!has([10,170,300,23])||!has([14,174,292,15])||pixels?.length!==64000||!Number.isInteger(cursorWidth)||cursorWidth<1)return null;
+  const rect=[16,176,288,11];let start=null,cursor=null;
+  for(let x=rect[0];x<=rect[0]+rect[2];x++){
+    let solid=x<rect[0]+rect[2];
+    for(let y=rect[1];solid&&y<rect[1]+rect[3];y++)if(pixels[y*320+x]!==15)solid=false;
+    if(solid){if(start===null)start=x;}
+    else if(start!==null){if(x-start===cursorWidth){if(cursor)return{rect,cursor:null};cursor=[start,rect[1],cursorWidth,rect[3]];}start=null;}
+  }
+  return{rect,cursor};
 }
 
 /** Exact cache comparison. World-only pixels and the separate physical cursor

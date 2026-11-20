@@ -1,0 +1,18 @@
+/* Original-derived console lettering, separate from generated landing styles. */
+@font-face{font-family:"Arrakis Console";src:url("fonts/arrakis-console.woff") format("woff");font-style:normal;font-weight:400;font-display:block}
+.native-console,dialog{font-family:"Arrakis Console",monospace;font-size:17px;font-synthesis:none}
+.native-console kbd,dialog code,dialog kbd{font-family:inherit;font-size:.85em}
+.native-console .wordmark{font-family:"Arrakis Console",monospace;white-space:nowrap;flex-shrink:0;letter-spacing:2px;font-size:26px}
+.native-console .wordmark small{font-family:inherit;letter-spacing:1px;font-size:9px}
+.game-active .wordmark{font-size:20px}
+.native-console .masthead{height:auto;min-height:78px;flex-wrap:wrap}
+.game-active .masthead{min-height:58px}
+.native-console nav{flex-wrap:wrap}
+.native-console nav button{white-space:nowrap;flex-shrink:0}
+.arrival-copy h1,dialog h2{font-family:"Arrakis Console",monospace;font-weight:400;letter-spacing:0}
+.arrival-copy h1{font-size:clamp(32px,4vw,52px)}
+.arrival-copy p,dialog p,dialog li{font-size:17px}
+.native-console nav label,.native-console nav button,.game-active nav label,.game-active nav button{font-size:15px}
+.arrival-copy h1,.arrival-copy p[data-i18n="arrivalDescription"]{white-space:pre-line}
+.language-control select{min-width:84px}
+.game-active .language-control{display:none}

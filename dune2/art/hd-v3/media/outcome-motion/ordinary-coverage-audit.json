@@ -1,0 +1,1928 @@
+{
+  "schema": 1,
+  "sourcePreloadSHA256": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071",
+  "nativeEvidence": [
+    "native/opendune/src/scenario.c:Scenario_Load_General",
+    "native/opendune/src/gui/mentat.c:GUI_Mentat_ShowBriefing",
+    "native/opendune/src/gui/mentat.c:GUI_Mentat_ShowWin",
+    "native/opendune/src/gui/mentat.c:GUI_Mentat_ShowLose",
+    "native/opendune/src/gui/mentat.c:GUI_Mentat_ShowHelp",
+    "native/opendune/src/string.c:String_DecompressAndTranslate"
+  ],
+  "scenarioCount": 66,
+  "scenarios": [
+    {
+      "resource": "SCENA001.INI",
+      "sourceSHA256": "9ffa5465e913b7b928d529af7d14c45ac0bcca7adcd3fd8b8619301d76226322",
+      "pictures": {
+        "BriefPicture": "HARVEST.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA002.INI",
+      "sourceSHA256": "a897c3a559089f6f54763149512d3911de2b79981773e879d021347f350a6cde",
+      "pictures": {
+        "BriefPicture": "HEADQRTS.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA003.INI",
+      "sourceSHA256": "ea67d6f9ecaeed61cc98adcdaef573f3e1c9643f988717f176d12c74da480a8f",
+      "pictures": {
+        "BriefPicture": "HEADQRTS.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA004.INI",
+      "sourceSHA256": "c1dc9b8e3b8d677bee91c0eeb5e32e08ad197783b133baec19425eca72d34496",
+      "pictures": {
+        "BriefPicture": "HEADQRTS.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA005.INI",
+      "sourceSHA256": "e0d14febcbb190b5663076589d7e67864fda78422de7b3d25c92d3be19a6cfff",
+      "pictures": {
+        "BriefPicture": "QUAD.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA006.INI",
+      "sourceSHA256": "e4c0e9fa39777afaae5f36b0dea59aa3a89cc2a9cdcda26b23345cec638fa0bd",
+      "pictures": {
+        "BriefPicture": "QUAD.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA007.INI",
+      "sourceSHA256": "41d07f011a94af5d8ec2eb1162df641e43339f2700672a551ef08d68e604f3ab",
+      "pictures": {
+        "BriefPicture": "QUAD.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA008.INI",
+      "sourceSHA256": "78dd240ab99744378a2b40f0306ca3601dea98cfa70722d2ed52f8783e3c38ae",
+      "pictures": {
+        "BriefPicture": "LTANK.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA009.INI",
+      "sourceSHA256": "8db45623dc4a46c0528d6bc1cb04db6cc320064c2dece5f52f71c322bb6c2713",
+      "pictures": {
+        "BriefPicture": "LTANK.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA010.INI",
+      "sourceSHA256": "790f51090d89f8a6a3fdc78381402a80c7c68a0688cb1b6cae766522d0cbe7f6",
+      "pictures": {
+        "BriefPicture": "LTANK.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA011.INI",
+      "sourceSHA256": "5ad76cf369646b0592799ddf67fad512410b4ed81a46531c181b327695000bbe",
+      "pictures": {
+        "BriefPicture": "REPAIR.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA012.INI",
+      "sourceSHA256": "d9fad16f8a6af1018c530cefbfdb77ee3567551c824678a944e7079402683541",
+      "pictures": {
+        "BriefPicture": "REPAIR.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA013.INI",
+      "sourceSHA256": "fc858a44b2f29c36c738b749d58fe8e204639f19198ac48f9898b116c52b104f",
+      "pictures": {
+        "BriefPicture": "REPAIR.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA014.INI",
+      "sourceSHA256": "0a87cf8d64a06a79397d47790c9604e6002259cdeb171612e04bcd99250401bb",
+      "pictures": {
+        "BriefPicture": "HVYFTRY.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA015.INI",
+      "sourceSHA256": "1ceb135c2b7bd2b903836c1fe1db74d604e8556d5a8a75e90aaccdd6e903d9a7",
+      "pictures": {
+        "BriefPicture": "HVYFTRY.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA016.INI",
+      "sourceSHA256": "3c811292f51215e2369f63b99c3edbc668330c4879690d997825b2b5c01023aa",
+      "pictures": {
+        "BriefPicture": "HVYFTRY.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA017.INI",
+      "sourceSHA256": "fade9420ee5058e3417002df817cc95c7ee06b228dcffcb0a70424e61a4f30b0",
+      "pictures": {
+        "BriefPicture": "IX.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA018.INI",
+      "sourceSHA256": "57155d87dce017f68823f26c77d60f0711e25604b1c3f31ac61ba599a40c8e8a",
+      "pictures": {
+        "BriefPicture": "IX.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA019.INI",
+      "sourceSHA256": "35203f454be9ca3892ff467e53d92fde34e16bf57b89afdc3d0ce6f28514aa1a",
+      "pictures": {
+        "BriefPicture": "IX.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA020.INI",
+      "sourceSHA256": "fbdca22754bad3c402d747ef597b6fc16a7f4428bd0d4bb2b08e5d1a2defc6b1",
+      "pictures": {
+        "BriefPicture": "PALACE.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA021.INI",
+      "sourceSHA256": "c4d24343e3ed770f5969fd042c31ff6629c6bda0443e767031bfc4aa8d67ba8e",
+      "pictures": {
+        "BriefPicture": "PALACE.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENA022.INI",
+      "sourceSHA256": "e0ab502ead2b8e09480e29f5db386eb9144e868c190041cf4f8b94d876300297",
+      "pictures": {
+        "BriefPicture": "SARDUKAR.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH001.INI",
+      "sourceSHA256": "751f94cf4c575a5fb695c4ea1f585b6366dcf49f5ab6478644020f24e827f26c",
+      "pictures": {
+        "BriefPicture": "HARVEST.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH002.INI",
+      "sourceSHA256": "edbb61380c9235f33e4d07c538c6862dcf0f43047c8e564676934488fc8b584c",
+      "pictures": {
+        "BriefPicture": "HEADQRTS.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH003.INI",
+      "sourceSHA256": "7a36f6b78c92d038fe43b9f3d4e3028c067c3fe76adcf946eb88742614656329",
+      "pictures": {
+        "BriefPicture": "HEADQRTS.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH004.INI",
+      "sourceSHA256": "73c754564c34765caf464782b7cd4a936354409e1b7e85c13ddbbc95db354c2f",
+      "pictures": {
+        "BriefPicture": "HEADQRTS.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH005.INI",
+      "sourceSHA256": "ce32f2b2e916d212ae2309705b2729ab1aac0b43adc48a6c5a4c53d64ad48790",
+      "pictures": {
+        "BriefPicture": "QUAD.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH006.INI",
+      "sourceSHA256": "8d8476d08e2106725cc12918ee5d71ff9b3ad11c8b20b1b6ffac9bcba8c63b26",
+      "pictures": {
+        "BriefPicture": "QUAD.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH007.INI",
+      "sourceSHA256": "dabb3326021b6e46c1f692d37f24c46ee15abb1725e17514959a9d2d71aa70e5",
+      "pictures": {
+        "BriefPicture": "QUAD.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH008.INI",
+      "sourceSHA256": "3d212bd9bbbdee46c25079a79ec81a55ac039a34e46c4d14529e2ae9fb854731",
+      "pictures": {
+        "BriefPicture": "LTANK.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH009.INI",
+      "sourceSHA256": "ede18e9e26d1d75bf139781eec0168f1670e73ae008a05f369d6aa6cf776040b",
+      "pictures": {
+        "BriefPicture": "LTANK.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH010.INI",
+      "sourceSHA256": "bf61d55dd35e3eee2624b644e8f0f8a77546adf57737c34ade3bf4a4a392dd62",
+      "pictures": {
+        "BriefPicture": "LTANK.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH011.INI",
+      "sourceSHA256": "0ced5ed792e26dee7172efd37fa58e8bdd44b6bb07f11e0940770166f43beabc",
+      "pictures": {
+        "BriefPicture": "REPAIR.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH012.INI",
+      "sourceSHA256": "69dfc6a1540eca74b95fd2eb245975c84e3f30a29bb9603e1732916dba145d7b",
+      "pictures": {
+        "BriefPicture": "REPAIR.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH013.INI",
+      "sourceSHA256": "bc91467e184b5affd2b70afd3502e271dc671755d830944f318675f8919077b6",
+      "pictures": {
+        "BriefPicture": "REPAIR.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH014.INI",
+      "sourceSHA256": "f29628cddbc6cda06b5a17e561e5493c1692efe8b010c7b8778de4873bce31ca",
+      "pictures": {
+        "BriefPicture": "HVYFTRY.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH015.INI",
+      "sourceSHA256": "dfd15b6e72e42fa8cffea0f5378fff306fa388858fc6aad93bf71707487907e2",
+      "pictures": {
+        "BriefPicture": "HVYFTRY.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH016.INI",
+      "sourceSHA256": "43b0b809673031996d110dcf18c09757c1770319d9b8cff0679495cecc635812",
+      "pictures": {
+        "BriefPicture": "HVYFTRY.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH017.INI",
+      "sourceSHA256": "527c512656a4ccbe93d2cb12d457ed5145d82cbfb41776857955d0c734be3779",
+      "pictures": {
+        "BriefPicture": "IX.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH018.INI",
+      "sourceSHA256": "8a7665f6bd9e8654cff5bcbd191a86754747ba4c8167e16003c61fd1938f49dc",
+      "pictures": {
+        "BriefPicture": "IX.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH019.INI",
+      "sourceSHA256": "3d33f780ba53d2a5a804841c9e0d93841d36c6d098b274af0dc5bd775ec3671f",
+      "pictures": {
+        "BriefPicture": "IX.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH020.INI",
+      "sourceSHA256": "5711e05666a3ea3cea28311b9a9ff06be16b98b09e6db2620595fba940b11144",
+      "pictures": {
+        "BriefPicture": "PALACE.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH021.INI",
+      "sourceSHA256": "e7255e1315ac4fa2e179491583da0a22bff18fc97acd0321eb09be9d608dc1a1",
+      "pictures": {
+        "BriefPicture": "PALACE.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENH022.INI",
+      "sourceSHA256": "7223b5a128eb05945f278ee23274d68c152b412ace6a578401455e9da672d605",
+      "pictures": {
+        "BriefPicture": "SARDUKAR.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO001.INI",
+      "sourceSHA256": "396c87f84735971b72e9190d2f95d02493ccdb3c4e52b3981ba52673af5622ef",
+      "pictures": {
+        "BriefPicture": "HARVEST.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO002.INI",
+      "sourceSHA256": "87ebec35c6e9829ad7bd3822ee255edeaf13e98ecab2dca57ca7da54fc2dac8d",
+      "pictures": {
+        "BriefPicture": "HEADQRTS.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO003.INI",
+      "sourceSHA256": "58700d7e46671ed0c5d1c7ad63c04b09b55770000512acb8a490829e92cf91e8",
+      "pictures": {
+        "BriefPicture": "HEADQRTS.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO004.INI",
+      "sourceSHA256": "d128c5802acf77f5c53eb6a3bb015eb79703e3fd1272bbac6d04f114ac1b9d76",
+      "pictures": {
+        "BriefPicture": "HEADQRTS.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO005.INI",
+      "sourceSHA256": "b56f7befe3eb994c70edd05446c7230b8869b522c926d263c1023c895c55f66e",
+      "pictures": {
+        "BriefPicture": "QUAD.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO006.INI",
+      "sourceSHA256": "02c6823fc6f82baddd8b915b52b0cdae6dbefaa051d3b267ecc458ddfc69a953",
+      "pictures": {
+        "BriefPicture": "QUAD.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO007.INI",
+      "sourceSHA256": "2023e567dc352df01a758c68e6fb675dc2a25e16af5f86a728a690b33ed3e014",
+      "pictures": {
+        "BriefPicture": "QUAD.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO008.INI",
+      "sourceSHA256": "15e7873f453ea87ef5ca9c116dee318e49f7e8bdf705fb50fbe5129719b08f3a",
+      "pictures": {
+        "BriefPicture": "LTANK.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO009.INI",
+      "sourceSHA256": "c84249f2f0c45c230e49f92c71fab9457e76db6766b259d315eabdb49b3f018f",
+      "pictures": {
+        "BriefPicture": "LTANK.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO010.INI",
+      "sourceSHA256": "eefe67fa074afd224ac6bac823d528267305d71a45ed0ad5b463616c1e2f6b37",
+      "pictures": {
+        "BriefPicture": "LTANK.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO011.INI",
+      "sourceSHA256": "27ca5d8bd8048b110d6c7bf8f2aba1b9d65f745cf3a18e4d79bd579058ba7b85",
+      "pictures": {
+        "BriefPicture": "REPAIR.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO012.INI",
+      "sourceSHA256": "6d89f6d90b7c86c676e4ff29dcec63a7ec0f09e056eba9cb6ddd19f2af2cf6fd",
+      "pictures": {
+        "BriefPicture": "REPAIR.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO013.INI",
+      "sourceSHA256": "c969b0aea05e382876cb64ce752d080c734ebff3647980db5bf70210d65a96ab",
+      "pictures": {
+        "BriefPicture": "REPAIR.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO014.INI",
+      "sourceSHA256": "486f58f88e80287646303d42f8dda7b3503f11567d5d786a4627019c50e950f8",
+      "pictures": {
+        "BriefPicture": "HVYFTRY.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO015.INI",
+      "sourceSHA256": "f24b0c36cec16af3380df94ec137d2b264f23839a7bf08595400a56f0a3e79d7",
+      "pictures": {
+        "BriefPicture": "HVYFTRY.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO016.INI",
+      "sourceSHA256": "7c81002ddcf29e695d9840a8afc053caf4920e423051689ff6f3524565eaa902",
+      "pictures": {
+        "BriefPicture": "HVYFTRY.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO017.INI",
+      "sourceSHA256": "6ab8d0e870f82dcaf867eff04f8a1743c1e328605d2119781efc831ba9433ebb",
+      "pictures": {
+        "BriefPicture": "IX.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO018.INI",
+      "sourceSHA256": "f7cdaa35d1ae30901d6e316d4f8afef265d328a8c78aa5eb85dfae4fb53e7118",
+      "pictures": {
+        "BriefPicture": "IX.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO019.INI",
+      "sourceSHA256": "279da9e28e9e60f332af5413ced254e0f420614e217e0a1268fd988016018330",
+      "pictures": {
+        "BriefPicture": "IX.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTVEHC.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO020.INI",
+      "sourceSHA256": "b6455bc66e726e8a85002cc1f5f70010ae9de2c62f25d750eeb24c236d1c743c",
+      "pictures": {
+        "BriefPicture": "PALACE.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO021.INI",
+      "sourceSHA256": "2609f06fc3b8b5cc2b89ddbc785f4e82207960ed8ccde7aed982a17baed37b9f",
+      "pictures": {
+        "BriefPicture": "PALACE.WSA",
+        "WinPicture": "WIN1.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    },
+    {
+      "resource": "SCENO022.INI",
+      "sourceSHA256": "444f9b6bea0e40ac8f916cc315f326f11dd7ec3e9201b71376d78258e8e2323d",
+      "pictures": {
+        "BriefPicture": "SARDUKAR.WSA",
+        "WinPicture": "WIN2.WSA",
+        "LosePicture": "LOSTBILD.WSA"
+      },
+      "defaultsUsed": []
+    }
+  ],
+  "nativeDefaults": {
+    "BriefPicture": "HARVEST.WSA",
+    "WinPicture": "WIN1.WSA",
+    "LosePicture": "LOSTBILD.WSA"
+  },
+  "helpFiles": [
+    {
+      "resource": "MENTATA.ENG",
+      "sourceSHA256": "bd68ea75d19a58546ae62c3806f3d975473b6c23dd499eff300d6b668292a5f5",
+      "archive": "ENGLISH.PAK",
+      "subjects": [
+        {
+          "name": "Briefing",
+          "offset": 890,
+          "recordHex": "110000037a30304272696566696e670000",
+          "picture": null,
+          "scenarioPicture": true
+        },
+        {
+          "name": "Advice",
+          "offset": 960,
+          "recordHex": "0f000003c030314164766963650001",
+          "picture": null,
+          "scenarioPicture": true
+        },
+        {
+          "name": "Orders",
+          "offset": 968,
+          "recordHex": "0f000003c830314f72646572730001",
+          "picture": null,
+          "scenarioPicture": true
+        },
+        {
+          "name": "Houses",
+          "offset": 904,
+          "recordHex": "0f000003883130486f757365730000",
+          "picture": null,
+          "scenarioPicture": false
+        },
+        {
+          "name": "House Atreides",
+          "offset": 976,
+          "recordHex": "17000003d03131486f7573652041747265696465730001",
+          "picture": "FARTR.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "House Harkonnen",
+          "offset": 1155,
+          "recordHex": "18000004833131486f757365204861726b6f6e6e656e0001",
+          "picture": "FHARK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "House Ordos",
+          "offset": 1314,
+          "recordHex": "14000005223131486f757365204f72646f730001",
+          "picture": "FORDOS.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Structures",
+          "offset": 918,
+          "recordHex": "13000003963230537472756374757265730000",
+          "picture": null,
+          "scenarioPicture": false
+        },
+        {
+          "name": "Barracks",
+          "offset": 1495,
+          "recordHex": "11000005d732314261727261636b730002",
+          "picture": "BARRAC.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Concrete Slab",
+          "offset": 2582,
+          "recordHex": "1600000a163231436f6e637265746520536c61620001",
+          "picture": "SLAB.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Construction Yard",
+          "offset": 1641,
+          "recordHex": "1a000006693231436f6e737472756374696f6e20596172640001",
+          "picture": "CONSTRUC.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Heavy Factory",
+          "offset": 1849,
+          "recordHex": "16000007393231486561767920466163746f72790004",
+          "picture": "HVYFTRY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "High-Tech Factory",
+          "offset": 3561,
+          "recordHex": "1a00000de93231486967682d5465636820466163746f72790005",
+          "picture": "HITCFTRY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "IX",
+          "offset": 1992,
+          "recordHex": "0b000007c8323149580007",
+          "picture": "IX.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Light Factory",
+          "offset": 2107,
+          "recordHex": "160000083b32314c6967687420466163746f72790003",
+          "picture": "LITEFTRY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Outpost",
+          "offset": 1720,
+          "recordHex": "10000006b832314f7574706f73740002",
+          "picture": "HEADQRTS.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Palace",
+          "offset": 2229,
+          "recordHex": "0f000008b5323150616c6163650008",
+          "picture": "PALACE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Refinery",
+          "offset": 2386,
+          "recordHex": "11000009523231526566696e6572790001",
+          "picture": "REFINERY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Repair Facility",
+          "offset": 2492,
+          "recordHex": "18000009bc323152657061697220466163696c6974790005",
+          "picture": "REPAIR.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Rocket Turret",
+          "offset": 3000,
+          "recordHex": "1600000bb83231526f636b6574205475727265740006",
+          "picture": "RTURRET.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Spice Silos",
+          "offset": 2798,
+          "recordHex": "1400000aee323153706963652053696c6f730001",
+          "picture": "STORAGE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Starport",
+          "offset": 2670,
+          "recordHex": "1100000a6e323153746172706f72740006",
+          "picture": "STARPORT.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Turret",
+          "offset": 2914,
+          "recordHex": "0f00000b6232315475727265740005",
+          "picture": "TURRET.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Wall",
+          "offset": 3123,
+          "recordHex": "0d00000c33323157616c6c0004",
+          "picture": "WALL.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Wind Trap",
+          "offset": 3206,
+          "recordHex": "1200000c86323157696e6420547261700001",
+          "picture": "WINDTRAP.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Wor",
+          "offset": 3398,
+          "recordHex": "0c00000d463231576f720003",
+          "picture": "WOR.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Vehicles",
+          "offset": 932,
+          "recordHex": "11000003a4333056656869636c65730000",
+          "picture": null,
+          "scenarioPicture": false
+        },
+        {
+          "name": "Carryall",
+          "offset": 4817,
+          "recordHex": "11000012d133314361727279616c6c0001",
+          "picture": "CARRYALL.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Combat Tank",
+          "offset": 4393,
+          "recordHex": "14000011293331436f6d6261742054616e6b0004",
+          "picture": "LTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Harvester",
+          "offset": 5583,
+          "recordHex": "12000015cf33314861727665737465720001",
+          "picture": "HARVEST.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Heavy Troopers",
+          "offset": 4303,
+          "recordHex": "17000010cf333148656176792054726f6f706572730002",
+          "picture": "HYINFY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Light Infantry",
+          "offset": 3845,
+          "recordHex": "1700000f0533314c6967687420496e66616e7472790001",
+          "picture": "INFANTRY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "MCV",
+          "offset": 5753,
+          "recordHex": "0c0000167933314d43560004",
+          "picture": "MCV.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Ordos Raider",
+          "offset": 3960,
+          "recordHex": "1500000f7833314f72646f73205261696465720001",
+          "picture": "OTRIKE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Ornithopter",
+          "offset": 4956,
+          "recordHex": "140000135c33314f726e6974686f707465720007",
+          "picture": "ORNI.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Quad",
+          "offset": 4128,
+          "recordHex": "0d000010203331517561640002",
+          "picture": "QUAD.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Rocket Tank",
+          "offset": 4518,
+          "recordHex": "14000011a63331526f636b65742054616e6b0005",
+          "picture": "RTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Siege Tank",
+          "offset": 4689,
+          "recordHex": "1300001251333153696567652054616e6b0006",
+          "picture": "HTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Trike",
+          "offset": 3651,
+          "recordHex": "0e00000e4333315472696b650001",
+          "picture": "TRIKE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Specials",
+          "offset": 946,
+          "recordHex": "11000003b234305370656369616c730000",
+          "picture": null,
+          "scenarioPicture": false
+        },
+        {
+          "name": "Death Hand",
+          "offset": 6289,
+          "recordHex": "1300001891343144656174682048616e640008",
+          "picture": "GOLD-BB.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Devastator",
+          "offset": 5413,
+          "recordHex": "1300001525343144657661737461746f720008",
+          "picture": "HARKTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Deviator",
+          "offset": 5265,
+          "recordHex": "110000149134314465766961746f720007",
+          "picture": "ORDRTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Fremen",
+          "offset": 5933,
+          "recordHex": "0f0000172d34314672656d656e0008",
+          "picture": "FREMEN.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Saboteur",
+          "offset": 6080,
+          "recordHex": "11000017c034315361626f746575720008",
+          "picture": "SABOTURE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Sand Worm",
+          "offset": 6461,
+          "recordHex": "120000193d343153616e6420576f726d0001",
+          "picture": "WORM.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Sonic Tank",
+          "offset": 5091,
+          "recordHex": "13000013e33431536f6e69632054616e6b0007",
+          "picture": "STANK.WSA",
+          "scenarioPicture": false
+        }
+      ]
+    },
+    {
+      "resource": "MENTATH.ENG",
+      "sourceSHA256": "a3b934c23bbda7a3c2a7d5b8b981e52e3a8048b59380749bd900eeda0f9aaf6e",
+      "archive": "ENGLISH.PAK",
+      "subjects": [
+        {
+          "name": "Briefing",
+          "offset": 894,
+          "recordHex": "110000037e30304272696566696e670000",
+          "picture": null,
+          "scenarioPicture": true
+        },
+        {
+          "name": "Advice",
+          "offset": 964,
+          "recordHex": "0f000003c430314164766963650001",
+          "picture": null,
+          "scenarioPicture": true
+        },
+        {
+          "name": "Orders",
+          "offset": 972,
+          "recordHex": "0f000003cc30314f72646572730001",
+          "picture": null,
+          "scenarioPicture": true
+        },
+        {
+          "name": "Houses",
+          "offset": 908,
+          "recordHex": "0f0000038c3130486f757365730000",
+          "picture": null,
+          "scenarioPicture": false
+        },
+        {
+          "name": "House Atreides",
+          "offset": 980,
+          "recordHex": "17000003d43131486f7573652041747265696465730001",
+          "picture": "FARTR.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "House Harkonnen",
+          "offset": 1207,
+          "recordHex": "18000004b73131486f757365204861726b6f6e6e656e0001",
+          "picture": "FHARK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "House Ordos",
+          "offset": 1380,
+          "recordHex": "14000005643131486f757365204f72646f730001",
+          "picture": "FORDOS.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Structures",
+          "offset": 922,
+          "recordHex": "130000039a3230537472756374757265730000",
+          "picture": null,
+          "scenarioPicture": false
+        },
+        {
+          "name": "Barracks",
+          "offset": 1512,
+          "recordHex": "11000005e832314261727261636b730002",
+          "picture": "BARRAC.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Concrete Slab",
+          "offset": 2493,
+          "recordHex": "16000009bd3231436f6e637265746520536c61620001",
+          "picture": "SLAB.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Construction Yard",
+          "offset": 1663,
+          "recordHex": "1a0000067f3231436f6e737472756374696f6e20596172640001",
+          "picture": "CONSTRUC.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Heavy Factory",
+          "offset": 1879,
+          "recordHex": "16000007573231486561767920466163746f72790004",
+          "picture": "HVYFTRY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "High-Tech Factory",
+          "offset": 3343,
+          "recordHex": "1a00000d0f3231486967682d5465636820466163746f72790005",
+          "picture": "HITCFTRY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "IX",
+          "offset": 1963,
+          "recordHex": "0b000007ab323149580007",
+          "picture": "IX.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Light Factory",
+          "offset": 2039,
+          "recordHex": "16000007f732314c6967687420466163746f72790003",
+          "picture": "LITEFTRY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Outpost",
+          "offset": 1764,
+          "recordHex": "10000006e432314f7574706f73740002",
+          "picture": "HEADQRTS.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Palace",
+          "offset": 2159,
+          "recordHex": "0f0000086f323150616c6163650008",
+          "picture": "PALACE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Refinery",
+          "offset": 2298,
+          "recordHex": "11000008fa3231526566696e6572790001",
+          "picture": "REFINERY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Repair Facility",
+          "offset": 2365,
+          "recordHex": "180000093d323152657061697220466163696c6974790005",
+          "picture": "REPAIR.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Rocket Turret",
+          "offset": 2961,
+          "recordHex": "1600000b913231526f636b6574205475727265740006",
+          "picture": "RTURRET.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Spice Silos",
+          "offset": 2717,
+          "recordHex": "1400000a9d323153706963652053696c6f730001",
+          "picture": "STORAGE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Starport",
+          "offset": 2586,
+          "recordHex": "1100000a1a323153746172706f72740006",
+          "picture": "STARPORT.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Turret",
+          "offset": 2840,
+          "recordHex": "0f00000b1832315475727265740005",
+          "picture": "TURRET.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Wall",
+          "offset": 3076,
+          "recordHex": "0d00000c04323157616c6c0004",
+          "picture": "WALL.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Windtrap",
+          "offset": 3162,
+          "recordHex": "1100000c5a323157696e64747261700001",
+          "picture": "WINDTRAP.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Wor",
+          "offset": 3287,
+          "recordHex": "0c00000cd73231576f720002",
+          "picture": "WOR.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Vehicles",
+          "offset": 936,
+          "recordHex": "11000003a8333056656869636c65730000",
+          "picture": null,
+          "scenarioPicture": false
+        },
+        {
+          "name": "Carryall",
+          "offset": 4458,
+          "recordHex": "110000116a33314361727279616c6c0001",
+          "picture": "CARRYALL.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Combat Tank",
+          "offset": 4070,
+          "recordHex": "1400000fe63331436f6d6261742054616e6b0004",
+          "picture": "LTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Harvester",
+          "offset": 5107,
+          "recordHex": "12000013f333314861727665737465720001",
+          "picture": "HARVEST.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Heavy Troopers",
+          "offset": 3961,
+          "recordHex": "1700000f79333148656176792054726f6f706572730001",
+          "picture": "HYINFY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Light Infantry",
+          "offset": 3808,
+          "recordHex": "1700000ee033314c6967687420496e66616e7472790001",
+          "picture": "INFANTRY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "MCV",
+          "offset": 5304,
+          "recordHex": "0c000014b833314d43560004",
+          "picture": "MCV.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Ordos Raider",
+          "offset": 3556,
+          "recordHex": "1500000de433314f72646f73205261696465720003",
+          "picture": "OTRIKE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Ornithopter",
+          "offset": 4592,
+          "recordHex": "14000011f033314f726e6974686f707465720007",
+          "picture": "ORNI.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Quad",
+          "offset": 3688,
+          "recordHex": "0d00000e683331517561640001",
+          "picture": "QUAD.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Rocket Tank",
+          "offset": 4208,
+          "recordHex": "14000010703331526f636b65742054616e6b0005",
+          "picture": "RTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Siege Tank",
+          "offset": 4324,
+          "recordHex": "13000010e4333153696567652054616e6b0006",
+          "picture": "HTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Trike",
+          "offset": 3415,
+          "recordHex": "0e00000d5733315472696b650001",
+          "picture": "TRIKE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Specials",
+          "offset": 950,
+          "recordHex": "11000003b634305370656369616c730000",
+          "picture": null,
+          "scenarioPicture": false
+        },
+        {
+          "name": "Death Hand",
+          "offset": 5798,
+          "recordHex": "13000016a6343144656174682048616e640008",
+          "picture": "GOLD-BB.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Devastator",
+          "offset": 4941,
+          "recordHex": "130000134d343144657661737461746f720007",
+          "picture": "HARKTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Fremen",
+          "offset": 5459,
+          "recordHex": "0f0000155334314672656d656e0008",
+          "picture": "FREMEN.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Ordos Deviator",
+          "offset": 4831,
+          "recordHex": "17000012df34314f72646f73204465766961746f720008",
+          "picture": "ORDRTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Saboteur",
+          "offset": 5607,
+          "recordHex": "11000015e734315361626f746575720008",
+          "picture": "SABOTURE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Sand Worm",
+          "offset": 5960,
+          "recordHex": "1200001748343153616e6420576f726d0001",
+          "picture": "WORM.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Sonic Tank",
+          "offset": 4700,
+          "recordHex": "130000125c3431536f6e69632054616e6b0007",
+          "picture": "STANK.WSA",
+          "scenarioPicture": false
+        }
+      ]
+    },
+    {
+      "resource": "MENTATO.ENG",
+      "sourceSHA256": "99287d0477d2754cf25019cabdb9211ed7ec47cc6bb9ceef1c68b26dc1855019",
+      "archive": "ENGLISH.PAK",
+      "subjects": [
+        {
+          "name": "Briefing",
+          "offset": 888,
+          "recordHex": "110000037830304272696566696e670000",
+          "picture": null,
+          "scenarioPicture": true
+        },
+        {
+          "name": "Advice",
+          "offset": 958,
+          "recordHex": "0f000003be30314164766963650001",
+          "picture": null,
+          "scenarioPicture": true
+        },
+        {
+          "name": "Orders",
+          "offset": 966,
+          "recordHex": "0f000003c630314f72646572730001",
+          "picture": null,
+          "scenarioPicture": true
+        },
+        {
+          "name": "Houses",
+          "offset": 902,
+          "recordHex": "0f000003863130486f757365730000",
+          "picture": null,
+          "scenarioPicture": false
+        },
+        {
+          "name": "House Atreides",
+          "offset": 974,
+          "recordHex": "17000003ce3131486f7573652041747265696465730001",
+          "picture": "FARTR.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "House Harkonnen",
+          "offset": 1101,
+          "recordHex": "180000044d3131486f757365204861726b6f6e6e656e0001",
+          "picture": "FHARK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "House Ordos",
+          "offset": 1218,
+          "recordHex": "14000004c23131486f757365204f72646f730001",
+          "picture": "FORDOS.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Structures",
+          "offset": 916,
+          "recordHex": "13000003943230537472756374757265730000",
+          "picture": null,
+          "scenarioPicture": false
+        },
+        {
+          "name": "Barracks",
+          "offset": 1398,
+          "recordHex": "110000057632314261727261636b730002",
+          "picture": "BARRAC.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Concrete Slab",
+          "offset": 2437,
+          "recordHex": "16000009853231436f6e637265746520536c61620001",
+          "picture": "SLAB.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Construction Yard",
+          "offset": 1505,
+          "recordHex": "1a000005e13231436f6e737472756374696f6e20596172640001",
+          "picture": "CONSTRUC.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Heavy Factory",
+          "offset": 1729,
+          "recordHex": "16000006c13231486561767920466163746f72790004",
+          "picture": "HVYFTRY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "High-Tech Factory",
+          "offset": 3341,
+          "recordHex": "1a00000d0d3231486967682d5465636820466163746f72790005",
+          "picture": "HITCFTRY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "IX",
+          "offset": 1824,
+          "recordHex": "0b00000720323149580007",
+          "picture": "IX.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Light Factory",
+          "offset": 1950,
+          "recordHex": "160000079e32314c6967687420466163746f72790003",
+          "picture": "LITEFTRY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Outpost",
+          "offset": 1588,
+          "recordHex": "100000063432314f7574706f73740002",
+          "picture": "HEADQRTS.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Palace",
+          "offset": 2031,
+          "recordHex": "0f000007ef323150616c6163650008",
+          "picture": "PALACE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Refinery",
+          "offset": 2158,
+          "recordHex": "110000086e3231526566696e6572790001",
+          "picture": "REFINERY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Repair Facility",
+          "offset": 2288,
+          "recordHex": "18000008f0323152657061697220466163696c6974790005",
+          "picture": "REPAIR.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Rocket Turret",
+          "offset": 2895,
+          "recordHex": "1600000b4f3231526f636b6574205475727265740006",
+          "picture": "RTURRET.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Spice Silos",
+          "offset": 2661,
+          "recordHex": "1400000a65323153706963652053696c6f730001",
+          "picture": "STORAGE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Starport",
+          "offset": 2556,
+          "recordHex": "11000009fc323153746172706f72740006",
+          "picture": "STARPORT.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Turret",
+          "offset": 2790,
+          "recordHex": "0f00000ae632315475727265740005",
+          "picture": "TURRET.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Wall",
+          "offset": 3059,
+          "recordHex": "0d00000bf3323157616c6c0004",
+          "picture": "WALL.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Windtrap",
+          "offset": 3116,
+          "recordHex": "1100000c2c323157696e64747261700001",
+          "picture": "WINDTRAP.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Wor",
+          "offset": 3277,
+          "recordHex": "0c00000ccd3231576f720002",
+          "picture": "WOR.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Vehicles",
+          "offset": 930,
+          "recordHex": "11000003a2333056656869636c65730000",
+          "picture": null,
+          "scenarioPicture": false
+        },
+        {
+          "name": "Carryall",
+          "offset": 4632,
+          "recordHex": "110000121833314361727279616c6c0001",
+          "picture": "CARRYALL.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Combat Tank",
+          "offset": 4217,
+          "recordHex": "14000010793331436f6d6261742054616e6b0004",
+          "picture": "LTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Harvester",
+          "offset": 5448,
+          "recordHex": "120000154833314861727665737465720001",
+          "picture": "HARVEST.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Heavy Troopers",
+          "offset": 4068,
+          "recordHex": "1700000fe4333148656176792054726f6f706572730001",
+          "picture": "HYINFY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Light Infantry",
+          "offset": 3947,
+          "recordHex": "1700000f6b33314c6967687420496e66616e7472790001",
+          "picture": "INFANTRY.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "MCV",
+          "offset": 5686,
+          "recordHex": "0c0000163633314d43560004",
+          "picture": "MCV.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Ordos Raider",
+          "offset": 3618,
+          "recordHex": "1500000e2233314f72646f73205261696465720001",
+          "picture": "OTRIKE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Ornithopter",
+          "offset": 4787,
+          "recordHex": "14000012b333314f726e6974686f707465720007",
+          "picture": "ORNI.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Quad",
+          "offset": 3799,
+          "recordHex": "0d00000ed73331517561640001",
+          "picture": "QUAD.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Rocket Tank",
+          "offset": 4344,
+          "recordHex": "14000010f83331526f636b65742054616e6b0005",
+          "picture": "RTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Siege Tank",
+          "offset": 4503,
+          "recordHex": "1300001197333153696567652054616e6b0006",
+          "picture": "HTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Trike",
+          "offset": 3431,
+          "recordHex": "0e00000d6733315472696b650003",
+          "picture": "TRIKE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Specials",
+          "offset": 944,
+          "recordHex": "11000003b034305370656369616c730000",
+          "picture": null,
+          "scenarioPicture": false
+        },
+        {
+          "name": "Death Hand",
+          "offset": 6185,
+          "recordHex": "1300001829343144656174682048616e640008",
+          "picture": "GOLD-BB.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Devastator",
+          "offset": 5254,
+          "recordHex": "1300001486343144657661737461746f720007",
+          "picture": "HARKTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Deviator",
+          "offset": 5056,
+          "recordHex": "11000013c034314465766961746f720007",
+          "picture": "ORDRTANK.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Fremen",
+          "offset": 5853,
+          "recordHex": "0f000016dd34314672656d656e0008",
+          "picture": "FREMEN.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Saboteur",
+          "offset": 6025,
+          "recordHex": "110000178934315361626f746575720008",
+          "picture": "SABOTURE.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Sand Worm",
+          "offset": 6346,
+          "recordHex": "12000018ca343153616e6420576f726d0001",
+          "picture": "WORM.WSA",
+          "scenarioPicture": false
+        },
+        {
+          "name": "Sonic Tank",
+          "offset": 4921,
+          "recordHex": "13000013393431536f6e69632054616e6b0008",
+          "picture": "STANK.WSA",
+          "scenarioPicture": false
+        }
+      ]
+    }
+  ],
+  "scenarioResources": [
+    "HARVEST.WSA",
+    "HEADQRTS.WSA",
+    "HVYFTRY.WSA",
+    "IX.WSA",
+    "LOSTBILD.WSA",
+    "LOSTVEHC.WSA",
+    "LTANK.WSA",
+    "PALACE.WSA",
+    "QUAD.WSA",
+    "REPAIR.WSA",
+    "SARDUKAR.WSA",
+    "WIN1.WSA",
+    "WIN2.WSA"
+  ],
+  "helpResources": [
+    "BARRAC.WSA",
+    "CARRYALL.WSA",
+    "CONSTRUC.WSA",
+    "FARTR.WSA",
+    "FHARK.WSA",
+    "FORDOS.WSA",
+    "FREMEN.WSA",
+    "GOLD-BB.WSA",
+    "HARKTANK.WSA",
+    "HARVEST.WSA",
+    "HEADQRTS.WSA",
+    "HITCFTRY.WSA",
+    "HTANK.WSA",
+    "HVYFTRY.WSA",
+    "HYINFY.WSA",
+    "INFANTRY.WSA",
+    "IX.WSA",
+    "LITEFTRY.WSA",
+    "LTANK.WSA",
+    "MCV.WSA",
+    "ORDRTANK.WSA",
+    "ORNI.WSA",
+    "OTRIKE.WSA",
+    "PALACE.WSA",
+    "QUAD.WSA",
+    "REFINERY.WSA",
+    "REPAIR.WSA",
+    "RTANK.WSA",
+    "RTURRET.WSA",
+    "SABOTURE.WSA",
+    "SLAB.WSA",
+    "STANK.WSA",
+    "STARPORT.WSA",
+    "STORAGE.WSA",
+    "TRIKE.WSA",
+    "TURRET.WSA",
+    "WALL.WSA",
+    "WINDTRAP.WSA",
+    "WOR.WSA",
+    "WORM.WSA"
+  ],
+  "original36Resources": [
+    "4SLAB.WSA",
+    "BARRAC.WSA",
+    "CARRYALL.WSA",
+    "CONSTRUC.WSA",
+    "GOLD-BB.WSA",
+    "HARKTANK.WSA",
+    "HARVEST.WSA",
+    "HEADQRTS.WSA",
+    "HITCFTRY.WSA",
+    "HTANK.WSA",
+    "HVYFTRY.WSA",
+    "HYINFY.WSA",
+    "INFANTRY.WSA",
+    "IX.WSA",
+    "LITEFTRY.WSA",
+    "LTANK.WSA",
+    "MCV.WSA",
+    "ORDRTANK.WSA",
+    "ORNI.WSA",
+    "OTRIKE.WSA",
+    "PALACE.WSA",
+    "QUAD.WSA",
+    "REFINERY.WSA",
+    "REPAIR.WSA",
+    "RTANK.WSA",
+    "RTURRET.WSA",
+    "SABOTURE.WSA",
+    "SLAB.WSA",
+    "STANK.WSA",
+    "STARPORT.WSA",
+    "STORAGE.WSA",
+    "TRIKE.WSA",
+    "TURRET.WSA",
+    "WALL.WSA",
+    "WINDTRAP.WSA",
+    "WOR.WSA"
+  ],
+  "extra6Resources": [
+    "FARTR.WSA",
+    "FHARK.WSA",
+    "FORDOS.WSA",
+    "FREMEN.WSA",
+    "WORM.WSA",
+    "SARDUKAR.WSA"
+  ],
+  "outcome4Resources": [
+    "WIN1.WSA",
+    "WIN2.WSA",
+    "LOSTBILD.WSA",
+    "LOSTVEHC.WSA"
+  ],
+  "ordinaryResources": [
+    "4SLAB.WSA",
+    "BARRAC.WSA",
+    "CARRYALL.WSA",
+    "CONSTRUC.WSA",
+    "FARTR.WSA",
+    "FHARK.WSA",
+    "FORDOS.WSA",
+    "FREMEN.WSA",
+    "GOLD-BB.WSA",
+    "HARKTANK.WSA",
+    "HARVEST.WSA",
+    "HEADQRTS.WSA",
+    "HITCFTRY.WSA",
+    "HTANK.WSA",
+    "HVYFTRY.WSA",
+    "HYINFY.WSA",
+    "INFANTRY.WSA",
+    "IX.WSA",
+    "LITEFTRY.WSA",
+    "LOSTBILD.WSA",
+    "LOSTVEHC.WSA",
+    "LTANK.WSA",
+    "MCV.WSA",
+    "ORDRTANK.WSA",
+    "ORNI.WSA",
+    "OTRIKE.WSA",
+    "PALACE.WSA",
+    "QUAD.WSA",
+    "REFINERY.WSA",
+    "REPAIR.WSA",
+    "RTANK.WSA",
+    "RTURRET.WSA",
+    "SABOTURE.WSA",
+    "SARDUKAR.WSA",
+    "SLAB.WSA",
+    "STANK.WSA",
+    "STARPORT.WSA",
+    "STORAGE.WSA",
+    "TRIKE.WSA",
+    "TURRET.WSA",
+    "WALL.WSA",
+    "WIN1.WSA",
+    "WIN2.WSA",
+    "WINDTRAP.WSA",
+    "WOR.WSA",
+    "WORM.WSA"
+  ],
+  "coveredResources": [
+    "4SLAB.WSA",
+    "BARRAC.WSA",
+    "CARRYALL.WSA",
+    "CONSTRUC.WSA",
+    "FARTR.WSA",
+    "FHARK.WSA",
+    "FORDOS.WSA",
+    "FREMEN.WSA",
+    "GOLD-BB.WSA",
+    "HARKTANK.WSA",
+    "HARVEST.WSA",
+    "HEADQRTS.WSA",
+    "HITCFTRY.WSA",
+    "HTANK.WSA",
+    "HVYFTRY.WSA",
+    "HYINFY.WSA",
+    "INFANTRY.WSA",
+    "IX.WSA",
+    "LITEFTRY.WSA",
+    "LOSTBILD.WSA",
+    "LOSTVEHC.WSA",
+    "LTANK.WSA",
+    "MCV.WSA",
+    "ORDRTANK.WSA",
+    "ORNI.WSA",
+    "OTRIKE.WSA",
+    "PALACE.WSA",
+    "QUAD.WSA",
+    "REFINERY.WSA",
+    "REPAIR.WSA",
+    "RTANK.WSA",
+    "RTURRET.WSA",
+    "SABOTURE.WSA",
+    "SARDUKAR.WSA",
+    "SLAB.WSA",
+    "STANK.WSA",
+    "STARPORT.WSA",
+    "STORAGE.WSA",
+    "TRIKE.WSA",
+    "TURRET.WSA",
+    "WALL.WSA",
+    "WIN1.WSA",
+    "WIN2.WSA",
+    "WINDTRAP.WSA",
+    "WOR.WSA",
+    "WORM.WSA"
+  ],
+  "missingResources": [],
+  "useCounts": {
+    "BriefPicture": {
+      "HARVEST.WSA": 3,
+      "HEADQRTS.WSA": 9,
+      "HVYFTRY.WSA": 9,
+      "IX.WSA": 9,
+      "LTANK.WSA": 9,
+      "PALACE.WSA": 6,
+      "QUAD.WSA": 9,
+      "REPAIR.WSA": 9,
+      "SARDUKAR.WSA": 3
+    },
+    "WinPicture": {
+      "WIN1.WSA": 27,
+      "WIN2.WSA": 39
+    },
+    "LosePicture": {
+      "LOSTBILD.WSA": 36,
+      "LOSTVEHC.WSA": 30
+    }
+  },
+  "scope": "Unit/structure portraits, ordinary Mentat/help/homeworld previews, and all scenario briefing/win/loss pictures.",
+  "excluded": [
+    {
+      "resource": "STATIC.WSA",
+      "reason": "64x64 noise image; no scenario/help picture references; not an ordinary184x112 illustration."
+    },
+    {
+      "resource": "intro/finale cinematics",
+      "reason": "Separate full-screen sequence ownership; not GUI_Mentat ordinary preview inventory."
+    }
+  ]
+}

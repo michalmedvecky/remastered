@@ -1,0 +1,119 @@
+{
+  "pass": true,
+  "source": {
+    "nativeBankSHA256": "16519dfea0fd5dc39a0cb65f1d16ec5b3349567e8bef576a4c2429a5eaf874a5",
+    "nativeClasses": "map.c N1/E2/S4/W8 topology"
+  },
+  "originalDosExecuted": false,
+  "coldBuildMs": 44.09999990463257,
+  "unchangedUnitsOnlyDrawMs": 1.4000000953674316,
+  "nextCameraBuildMs": 7,
+  "cache": {
+    "firstRebuilds": 1,
+    "afterUnitRebuilds": 1
+  },
+  "overlap": {
+    "comparedRGBBytes": 1720320,
+    "maxDifference": 0
+  },
+  "fog": {
+    "hiddenRGBSum": 0
+  },
+  "nativeDescriptorBytesUnchanged": true,
+  "materialField": {
+    "dune": {
+      "meanOpacity": 0.013464228752162629,
+      "maxOpacity": 0.42745098039215684,
+      "lowOpacityPixels": 196715,
+      "samples": 208896
+    },
+    "spice": {
+      "meanOpacity": 0.18889226799788544,
+      "maxOpacity": 0.7490196078431373,
+      "lowOpacityPixels": 153517,
+      "samples": 208896
+    },
+    "denseSpice": {
+      "meanOpacity": 0.020980606167099194,
+      "maxOpacity": 0.8352941176470589,
+      "lowOpacityPixels": 202841,
+      "samples": 208896
+    }
+  },
+  "diagnostics": {
+    "ready": true,
+    "ownedStates": 135,
+    "surfaces": 10,
+    "rebuilds": 3,
+    "draws": 8,
+    "viewport": 650,
+    "gridPixels": [
+      1088,
+      768
+    ],
+    "visibleIDs": [
+      127,
+      137,
+      139,
+      141,
+      143,
+      147,
+      150,
+      151,
+      153,
+      155,
+      156,
+      157,
+      158,
+      159,
+      179,
+      180,
+      181,
+      182,
+      183,
+      185,
+      187,
+      188,
+      189,
+      190,
+      191,
+      195,
+      198,
+      199,
+      201,
+      203,
+      204,
+      205,
+      206,
+      207
+    ],
+    "unknownGroundIDs": [],
+    "unknownOverlayIDs": [],
+    "worldUV": true,
+    "generatedRGBA": true,
+    "sourceColourTint": false,
+    "continuousMaterialField": true,
+    "materialField": {
+      "dune": {
+        "meanOpacity": 0.013464228752162629,
+        "maxOpacity": 0.42745098039215684,
+        "lowOpacityPixels": 196715,
+        "samples": 208896
+      },
+      "spice": {
+        "meanOpacity": 0.1857366119701557,
+        "maxOpacity": 0.7490196078431373,
+        "lowOpacityPixels": 154419,
+        "samples": 208896
+      },
+      "denseSpice": {
+        "meanOpacity": 0.01984978734140715,
+        "maxOpacity": 0.8352941176470589,
+        "lowOpacityPixels": 203150,
+        "samples": 208896
+      }
+    },
+    "cachedClassMaskBytes": 6684672,
+    "cachedMaterialMaskBytes": 10027008
+  }
+}

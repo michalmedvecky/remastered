@@ -1,0 +1,35 @@
+{
+  "version": "0.7.1",
+  "testCommand": "npm test",
+  "suiteTests": [
+    16,
+    382,
+    269,
+    26,
+    34,
+    137
+  ],
+  "totalTests": 864,
+  "failures": 0,
+  "duneTests": 137,
+  "originals": {
+    "checkedFiles": 19,
+    "zipVerified": true,
+    "readOnly": true,
+    "originalDosExecuted": false
+  },
+  "nativeOutputsUnchanged": {
+    "dune-native.wasm": "3cd5679e96c900b0a22b08cc805e1060bf9020a44c6829fc7a13adc80b039ea7",
+    "dune-native.mjs": "dac4057430c2e6e874f015f010b785409d787fc306956752dabebddcd330f56f",
+    "dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
+  },
+  "browserCases": {
+    "advisorComposition": 35,
+    "outcomeComposition": 12,
+    "creditsComposition": 162,
+    "mediaPhases": 268,
+    "terrain": "exact camera overlap, black fog, unchanged native descriptors, cached unit-only draw"
+  },
+  "sourcePackageVerification": "Run separately against final SOURCE-PACKAGE.json; release metadata and collection snapshot bind exact bytes.",
+  "deployment": "No registry publication or cluster rollout."
+}

@@ -1,0 +1,32 @@
+{
+  "placement": {
+    "sourceFilename": "codex-clipboard-7a70af82-905b-4669-9ac3-798daa90f475.png",
+    "sha256": "424a5a5c56bf26b8865a4db61ab92c6cfd3430e012740881d5a140346624906f",
+    "saved": "reported/placement.png"
+  },
+  "factory": {
+    "sourceFilename": "codex-clipboard-b39297f2-75b0-447d-aaa0-15df1624ef11.png",
+    "sha256": "452ca9a82a0b7e555f2faaf8f241ea345dab2092a40de4e32ab511df44b99dab",
+    "saved": "reported/factory.png"
+  },
+  "repair": {
+    "sourceFilename": "codex-clipboard-3e4c2efa-2291-4529-9b4a-d027bba38b0d.png",
+    "sha256": "08c512cb71db42053625792e8d532ed4ed7e6f8c2c5e04ab0c9bee1c0f0ab265",
+    "saved": "reported/repair.png"
+  },
+  "actions": {
+    "sourceFilename": "codex-clipboard-d318b96f-36e9-4ccf-ac17-7891abe66c8d.png",
+    "sha256": "5b79bfc92750803ece0744767d2159e4ac60b54c30c1912505631a3ac8f35f85",
+    "saved": "reported/actions.png"
+  },
+  "options": {
+    "sourceFilename": "codex-clipboard-a8f597f3-2da6-4eb4-ae24-12372beddcc3.png",
+    "sha256": "025f79cf4d6ebff053e453b52c8c366d691e8f997cfacadb5f31d94719377a16",
+    "saved": "reported/options.png"
+  },
+  "back": {
+    "sourceFilename": "codex-clipboard-f5e8228c-25c0-45c4-a28c-9a3c78872ce8.png",
+    "sha256": "1b3f59ad45b444d3ec9aa3eb12a005128e79f72bded66d5e91ba173a36e6696a",
+    "saved": "reported/back.png"
+  }
+}

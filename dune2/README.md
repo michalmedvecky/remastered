@@ -1,8 +1,12 @@
-# Dune II — painted HD browser reconstruction 0.7
+# Dune II — painted HD browser reconstruction 0.8.1
 
 Dune II uses the approved painted HD style for all world buildings, units and terrain. Complete new RGBA drawings retain native footprints, pivots, facings and animation decisions. The original engine still controls game rules, input, damage, fog and timing. The HUD, menus, advisors, object previews and campaign interface use matching new art and fitted vector text. A render-time camera interpolates committed tile steps with a current-snapshot terrain fringe, while native world picking compensates for the displayed offset. Graphics switches live between **HD · painted** and **Original · 1992**. [Artwork gallery](dist/artwork.html) and [graphics architecture/coverage](HD-GRAPHICS.md) distinguishes painted art, derived states and retained native effects.
 
 Dune II runs at `/dune2/` in the Remastered collection. The complete recovered OpenDUNE C core runs as WebAssembly with V1.07 compatibility fixes. Original PAKs supply campaigns, graphics, UNIT/BUILD/TEAM scripts, voices and ADL music. Native callbacks, routing, combat, WSA cutscenes and IFF saves remain in the compiled engine. The browser does not execute or interpret the DOS EXE.
+
+Release 0.8 adds Czech text for the interface, campaigns, Mentat help and scene captions, with an English/Czech choice before launch. The original-derived angular vector font and matching local webfont include Czech diacritics. Translation files are verified in-memory overlays; original PAKs and saves retain their formats. [Localization coverage and limits](fidelity/localization/README.md).
+
+The presentation fixes keep whole advisor scenes coherent through speech, confirmation and mission results, fit all six rolling credit columns inside the painted frame, and render granular spice over continuous sand. The ordinary preview bank covers 46 resources and 268 native phases, including all four mission outcome pictures. [Presentation evidence and limits](fidelity/presentation-fixes/README.md) records complete UI checks separately from native gameplay tests.
 
 From the collection root:
 
@@ -48,3 +52,5 @@ The compact golden outputs and current-source regressions are included. Full raw
 The historical JavaScript prototype remains at `dist/prototype.html`. Its JSON saves and engine documentation describe that earlier implementation, separate from the default native engine and native saves.
 
 OpenDUNE is GPLv2. ADL sources retain ScummVM GPLv2-or-later and AdPlug LGPLv2.1-or-later notices; Nuked OPL is LGPLv2.1-or-later; SDL2 is zlib licensed. Full source, notices and component licenses accompany the browser binaries. Original assets, recordings, scores and branding retain their original rights.
+
+The 0.8.1 text-layout follow-up maps observed native text coverage into the painted widget box before clipping. It preserves erased regions and partial copies while keeping Czech initial letters visible. Menu, HUD and bitmap buttons reserve their painted metal rims; the factory name/quantity/price fields sit inside their caption plate. See [text-layout verification](fidelity/text-layout/README.md).

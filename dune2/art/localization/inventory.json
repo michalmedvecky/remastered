@@ -1,0 +1,221 @@
+{
+  "schema": 1,
+  "source": {
+    "packageSHA256": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071",
+    "pak": "ENGLISH.PAK",
+    "pakSHA256": "a22e19b861b3aafd855a782d63736842a4768a2406fd14d014e485ff2e52fb22",
+    "encoding": "CP437 after native digraph/ESC expansion; source ASCII is retained verbatim",
+    "originalDosExecuted": false
+  },
+  "records": 1347,
+  "resources": [
+    {
+      "name": "DUNE.ENG",
+      "kind": "string-table",
+      "records": 340,
+      "nonempty": 338,
+      "words": 1027,
+      "characters": 6277,
+      "sha256": "56d174c0161898bc69c8ba053d63adb9dfcad622db072bff00f6d936617c21ae",
+      "bytes": 7297,
+      "count": 340,
+      "runtimeLoaded": 339,
+      "decodedHighBytes": {}
+    },
+    {
+      "name": "MESSAGE.ENG",
+      "kind": "string-table",
+      "records": 30,
+      "nonempty": 28,
+      "words": 321,
+      "characters": 1996,
+      "sha256": "ba6a0a3e245d40296cf0d9b00bc9996547ebb7425e61bdec5a5e9de38806e360",
+      "bytes": 2086,
+      "count": 30,
+      "runtimeLoaded": 28,
+      "decodedHighBytes": {}
+    },
+    {
+      "name": "INTRO.ENG",
+      "kind": "string-table",
+      "records": 39,
+      "nonempty": 37,
+      "words": 230,
+      "characters": 1263,
+      "sha256": "cc77e3fdbf59b6f599145178fa9df47c8a79212a08ffaf37ba77805df267b446",
+      "bytes": 1380,
+      "count": 39,
+      "runtimeLoaded": 37,
+      "decodedHighBytes": {}
+    },
+    {
+      "name": "TEXTH.ENG",
+      "kind": "string-table",
+      "records": 40,
+      "nonempty": 40,
+      "words": 1161,
+      "characters": 6638,
+      "sha256": "6f3ff5a6d3dc0f2c4a1181cd5e624c549bd0f69c2d93461f34b7a0e143e14596",
+      "bytes": 4266,
+      "count": 40,
+      "runtimeLoaded": 40,
+      "decodedHighBytes": {}
+    },
+    {
+      "name": "TEXTA.ENG",
+      "kind": "string-table",
+      "records": 40,
+      "nonempty": 40,
+      "words": 1162,
+      "characters": 6732,
+      "sha256": "097e7b4ed10b7ffbd1a987fe350cd7dfb4b5867ff605e0a7c7943970729df731",
+      "bytes": 4303,
+      "count": 40,
+      "runtimeLoaded": 40,
+      "decodedHighBytes": {}
+    },
+    {
+      "name": "TEXTO.ENG",
+      "kind": "string-table",
+      "records": 40,
+      "nonempty": 40,
+      "words": 1100,
+      "characters": 6400,
+      "sha256": "0347ddb45e47d80ab23395c4235a169ed50e1cef5883d7b4e78955c30de72f51",
+      "bytes": 4070,
+      "count": 40,
+      "runtimeLoaded": 40,
+      "decodedHighBytes": {}
+    },
+    {
+      "name": "PROTECT.ENG",
+      "kind": "string-table",
+      "records": 416,
+      "nonempty": 415,
+      "words": 1618,
+      "characters": 8222,
+      "sha256": "88ccc85a0552afa779ddf1275add3c7b503e841045a5e4d77919bc1b90ecfbaa",
+      "bytes": 6393,
+      "count": 416,
+      "runtimeLoaded": 415,
+      "decodedHighBytes": {}
+    },
+    {
+      "name": "MENTATA.ENG",
+      "kind": "mentat-form",
+      "records": 94,
+      "nonempty": 91,
+      "words": 1367,
+      "characters": 8674,
+      "sha256": "bd68ea75d19a58546ae62c3806f3d975473b6c23dd499eff300d6b668292a5f5",
+      "bytes": 6620,
+      "count": 47
+    },
+    {
+      "name": "MENTATH.ENG",
+      "kind": "mentat-form",
+      "records": 94,
+      "nonempty": 91,
+      "words": 1254,
+      "characters": 7882,
+      "sha256": "a3b934c23bbda7a3c2a7d5b8b981e52e3a8048b59380749bd900eeda0f9aaf6e",
+      "bytes": 6138,
+      "count": 47
+    },
+    {
+      "name": "MENTATO.ENG",
+      "kind": "mentat-form",
+      "records": 94,
+      "nonempty": 91,
+      "words": 1323,
+      "characters": 8456,
+      "sha256": "99287d0477d2754cf25019cabdb9211ed7ec47cc6bb9ceef1c68b26dc1855019",
+      "bytes": 6506,
+      "count": 47
+    },
+    {
+      "name": "CREDITS.ENG",
+      "kind": "credits-control-stream",
+      "records": 120,
+      "nonempty": 60,
+      "words": 188,
+      "characters": 1177,
+      "sha256": "07504ffbb801f4d30a4da5a6230121c99e7021443ae6ed8b9462a7451ea15092",
+      "bytes": 1312,
+      "count": 120
+    },
+    {
+      "name": "CHOAM.ENG",
+      "kind": "localized-bitmap-resource",
+      "records": 0,
+      "nonempty": 0,
+      "words": 0,
+      "characters": 0,
+      "sha256": "d8cd6779e523fa87fb82d8d09867dbb01ca1b9a20da05bc20910d298033b47a4",
+      "bytes": 14168
+    },
+    {
+      "name": "BTTN.ENG",
+      "kind": "localized-bitmap-resource",
+      "records": 0,
+      "nonempty": 0,
+      "words": 0,
+      "characters": 0,
+      "sha256": "bbb1411a1c6db11a58180e2c395db8266df37098715dd3992a290ef4f0da477b",
+      "bytes": 1790
+    },
+    {
+      "name": "AND.ENG",
+      "kind": "localized-bitmap-resource",
+      "records": 0,
+      "nonempty": 0,
+      "words": 0,
+      "characters": 0,
+      "sha256": "f2a24ca464c97325f33f93e23c3d50d8b815b6547fea53fbba8d8de529612fed",
+      "bytes": 924
+    },
+    {
+      "name": "MENTAT.ENG",
+      "kind": "localized-bitmap-resource",
+      "records": 0,
+      "nonempty": 0,
+      "words": 0,
+      "characters": 0,
+      "sha256": "708a2f361f1a940ce81e0edac545c374b6888e977951893cf19bfe76e99e02f1",
+      "bytes": 7603
+    },
+    {
+      "name": "MISC.ENG",
+      "kind": "localized-bitmap-resource",
+      "records": 0,
+      "nonempty": 0,
+      "words": 0,
+      "characters": 0,
+      "sha256": "23346ff9a97d9419c985f6e0fd75fc87eee13ab94c5e40b088f84103c78c48c3",
+      "bytes": 3493
+    },
+    {
+      "name": "TITLE.ENG",
+      "kind": "localized-bitmap-resource",
+      "records": 0,
+      "nonempty": 0,
+      "words": 0,
+      "characters": 0,
+      "sha256": "8a0204770190c8d0f19888a69a20ed7b096b696c53d50c1b762937de4a4ab6ca",
+      "bytes": 1798
+    },
+    {
+      "name": "HERALD.ENG",
+      "kind": "localized-bitmap-resource",
+      "records": 0,
+      "nonempty": 0,
+      "words": 0,
+      "characters": 0,
+      "sha256": "a2d2b39295a284ce8dddb9eadac7e315771fd637a09dfbbb3df3a8d9781095b3",
+      "bytes": 8806
+    }
+  ],
+  "uniqueTranslatableTexts": 834,
+  "totalWords": 10751,
+  "totalCharacters": 63717
+}

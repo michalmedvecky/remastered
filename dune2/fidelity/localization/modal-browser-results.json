@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "originalDosExecuted": false,
+  "productionScenarioModified": false,
+  "isolatedOrigin": "http://127.0.0.1:6003",
+  "scope": "Controlled presentation test with16x clock and virtual quota1/WinFlags4; no original timing equivalence claimed.",
+  "modal": {
+    "clockMultiplier": 16,
+    "scenario": "SCENA001.INI quota1/WinFlags4/LoseFlags4",
+    "locale": "cs",
+    "gameTick": 125849,
+    "worldVisible": true,
+    "worldAvailable": true,
+    "worldRevision": 2,
+    "gameplayActive": false,
+    "committedCommands": 5,
+    "scene": "hud",
+    "media": {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "HARVEST.WSA",
+      "frame": 0,
+      "status": "painted-preview",
+      "motionStatus": "painted-semantic-native-phase",
+      "missingMotionAssets": [],
+      "motionOperations": 0,
+      "visualPhase": 0,
+      "samples": 33
+    },
+    "labels": [
+      "Kredity",
+      "1",
+      "0",
+      "0",
+      "0",
+      "Stav. dv\u016fr",
+      "\u0160KD",
+      "MENTAT",
+      "VOLBY",
+      "Postavit",
+      "\u00dasp\u011b\u0161n\u011b jste splnili sv\u016fj \u00fakol."
+    ],
+    "rendererErrors": 0,
+    "missingPaint": 0,
+    "textFitErrors": 0
+  },
+  "advisor": {
+    "clockMultiplier": 16,
+    "scenario": "SCENA001.INI quota1/WinFlags4/LoseFlags4",
+    "locale": "cs",
+    "gameTick": 125849,
+    "worldVisible": false,
+    "worldAvailable": true,
+    "worldRevision": 2,
+    "gameplayActive": false,
+    "committedCommands": 0,
+    "scene": "MENTATA.CPS",
+    "media": {
+      "drawn": true,
+      "nativeRect": [
+        128,
+        48,
+        184,
+        112
+      ],
+      "resource": "WIN1.WSA",
+      "frame": 0,
+      "status": "painted-preview",
+      "motionStatus": "painted-static",
+      "missingMotionAssets": [],
+      "motionOperations": 0,
+      "visualPhase": 0,
+      "samples": 33
+    },
+    "labels": [
+      "Pokra\u010dovat",
+      "Znovu"
+    ],
+    "rendererErrors": 0,
+    "missingPaint": 0,
+    "textFitErrors": 0
+  }
+}

@@ -166,7 +166,7 @@
     "native/opendune/src/load.c": "cde3ad620757b0e61fdfe2d8af9976575bd016c2a190ba836ace8590e2987e6a",
     "native/opendune/src/map.c": "471564e3e40be74a292e471bf67ab99e04cd04f221526243b462ea5c1b13d3cf",
     "native/opendune/src/object.c": "5d9b79f8a3d0be4be155e17bac8b9c051eede21908bcaca8dd9ab8063cbd3512",
-    "native/opendune/src/opendune.c": "dbcd09cea3e23ee112a42f853b64ff34b4a9cbcdfd841dd77f3349a421767530",
+    "native/opendune/src/opendune.c": "692fdb2535c52fd915cb29010cd7ece97ade76eacd192f998d5680e886caf267",
     "native/opendune/src/os/endian.c": "0b72604b144b27f18b660d457cbeecb3ee6f2b4e21a34e41e133e1c02fd59126",
     "native/opendune/src/os/error.c": "440bbd2a7e9fb8d507c7694aa506b3427683b0366863b567d763f71ed42e0da9",
     "native/opendune/src/os/readdir.c": "3fcb2a26b47c56e5d0ea050accce376bf7041abc59775933d683a53d644c86ec",
@@ -228,11 +228,11 @@
     "native/opendune/src/wsa.c": "4b58af3f4db0b7ad453b002bee00ecf67549b70215695d344d5285194c108c1f",
     "native/browser/probes.c": "56730b1ccefaaf382c06ab83dd8edb5400b5c6200f4339f933e6d69d682be9f5",
     "native/browser/music_bridge.c": "2cd06dc74abc7f1770e67a3ffbaa4c7863488a2e20c60b2db34c9d08840921e7",
-    "native/browser/hd_bridge.c": "1d9dfef868c8395625ff576bbe908166dd1b72179aa0b47e28131fe43ff99cdd"
+    "native/browser/hd_bridge.c": "c8af6657fbfcbd96d70329a5a8c8d418709abef7ea96d1ff37e2af3ebed93cd4"
   },
   "outputs": {
-    "dune-native.mjs": "dac4057430c2e6e874f015f010b785409d787fc306956752dabebddcd330f56f",
-    "dune-native.wasm": "3cd5679e96c900b0a22b08cc805e1060bf9020a44c6829fc7a13adc80b039ea7",
+    "dune-native.mjs": "851da2f19b4f68adc5e468051756d1184d4c21e7dad7561fe02d5d352f22b5c9",
+    "dune-native.wasm": "1c01dc9701c592de66d8e0846060a19edf2ec56b29b387e14c56734de011a1aa",
     "dune-native.data": "678c6d26d232f76250d9cfaa090b1519b77b6c5ba5deb20f63e651754e9ad071"
   },
   "original_data": {

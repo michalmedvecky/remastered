@@ -38,6 +38,13 @@
 
 #include "opendune.h"
 #ifdef __EMSCRIPTEN__
+#include "hd_bridge.h"
+#define DUNE_HD(call) call
+#else
+#define DUNE_HD(call) ((void)0)
+#endif
+
+#ifdef __EMSCRIPTEN__
 #include "browser_control.h"
 #endif
 
@@ -288,12 +295,14 @@ static void GameLoop_LevelEnd(void)
 
 		Sound_Output_Feedback(0xFFFE);
 
+		DUNE_HD(DuneHD_WorldModal(1));
 		GUI_ChangeSelectionType(SELECTIONTYPE_MENTAT);
 
 		if (GameLoop_IsLevelWon()) {
 			Sound_Output_Feedback(40);
 
 			GUI_DisplayModalMessage(String_Get_ByIndex(STR_YOU_HAVE_SUCCESSFULLY_COMPLETED_YOUR_MISSION), 0xFFFF);
+			DUNE_HD(DuneHD_WorldModal(0));
 
 			GUI_Mentat_ShowWin();
 
@@ -333,6 +342,7 @@ static void GameLoop_LevelEnd(void)
 			Sound_Output_Feedback(41);
 
 			GUI_DisplayModalMessage(String_Get_ByIndex(STR_YOU_HAVE_FAILED_YOUR_MISSION), 0xFFFF);
+			DUNE_HD(DuneHD_WorldModal(0));
 
 			GUI_Mentat_ShowLose();
 

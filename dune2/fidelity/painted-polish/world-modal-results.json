@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "executedOriginalDosBinary": false,
+  "actualLevelEndSha256": "8341f1ae82a048b352445da0ca6f8030c552479a3243cb8f7f52472b45f6111c",
+  "bridgeSha256": "c8af6657fbfcbd96d70329a5a8c8d418709abef7ea96d1ff37e2af3ebed93cd4",
+  "patchIdempotent": true,
+  "cases": [
+    "actual victory branch and modal selection transition",
+    "actual defeat branch and modal selection transition",
+    "committed tiles/commands unchanged despite ahead-of-raster mutations",
+    "paused timer retains explicit modal world",
+    "actual Mentat and stats/map hide old world after scope exits",
+    "missing committed world fails closed",
+    "game mode/menu and credits offsets fail closed",
+    "explicit Mentat replacement beats modal scope",
+    "scene reset clears scope and extra leave does not underflow"
+  ]
+}

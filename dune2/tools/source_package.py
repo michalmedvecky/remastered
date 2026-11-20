@@ -53,7 +53,7 @@ def repack_sdl_source(root):
 
 def collect_files(root):
  root=Path(root);files=set()
- for directory in ['native','tools','fidelity','tests','art/hd-v2','art/hd-v3']:
+ for directory in ['native','tools','fidelity','tests','art/hd-v2','art/hd-v3','art/localization']:
   for p in(root/directory).rglob('*'):
    if not p.is_file():continue
    name=p.relative_to(root).as_posix()
@@ -65,6 +65,10 @@ def collect_files(root):
   if(root/name).is_file():files.add(name)
  for p in(root/'dist').rglob('*'):
   if p.is_file()and p.suffix in['.mjs','.html','.css']:files.add(p.relative_to(root).as_posix())
+ for p in(root/'dist/fonts').rglob('*'):
+  if p.is_file()and p.suffix.lower()in['.woff','.json']:files.add(p.relative_to(root).as_posix())
+ for p in(root/'dist/locales').rglob('*'):
+  if p.is_file()and p.suffix.lower()in['.json','.eng','.fnt','.cps','.shp']:files.add(p.relative_to(root).as_posix())
  for p in(root/'dist/painted').rglob('*'):
   if p.is_file()and p.suffix in['.png','.json']:files.add(p.relative_to(root).as_posix())
  return sorted(files)

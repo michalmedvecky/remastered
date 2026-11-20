@@ -1,0 +1,58 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "composition-and-style-reference",
+  "transparent_background": false,
+  "sourceToolPath": "/Users/misko/.codex/generated_images/01a1f44a-c795-75d2-8786-fd65a0270225/exec-ea92674c-995f-4897-8df0-f37748552455.png",
+  "copiedWithoutModification": true,
+  "dimensions": [
+    1608,
+    978
+  ],
+  "sha256": "a3f048db371d594a14731d5b6032f1a87fcfff73810fbfd779bf90ae208c6c82",
+  "prompt": "outcomes-prompt.txt",
+  "promptSHA256": "9f2d172e31e6db2317ab4ed6671dff03277652a9eb43fb81261c8fe817875626",
+  "sourceRects": [
+    [
+      1,
+      1,
+      802,
+      487
+    ],
+    [
+      805,
+      1,
+      802,
+      487
+    ],
+    [
+      1,
+      490,
+      802,
+      487
+    ],
+    [
+      805,
+      490,
+      802,
+      487
+    ]
+  ],
+  "sourcePacking": "Four full scenes in native WIN1/WIN2/LOSTBILD/LOSTVEHC order. Exclude the single-pixel generated separator and outer contour; deterministic bilinear packing to736x448. Raw retained unchanged.",
+  "references": [
+    {
+      "path": "art/hd-v3/media/outcome-motion/review/all-first-frames-native.png",
+      "sha256": "c59a3da3db677cb3940efab458353a9c881560f331b308c9d844a9fb54679e95",
+      "role": "composition-only"
+    },
+    {
+      "path": "art/hd-v3/media/review/infantry-base.png",
+      "sha256": "5706d694624f9e054388b92b0128b827bdd4121d3e1bdb19cfccbf45a828d24a",
+      "role": "style-and-material-reference"
+    },
+    {
+      "path": "art/hd-v3/media/review/headqrts-base.png",
+      "sha256": "4952c2221384ac1e0ea6ec9e7b3cc9cba8a9f880acd907fe5eb710f98983f6db",
+      "role": "style-and-material-reference"
+    }
+  ]
+}

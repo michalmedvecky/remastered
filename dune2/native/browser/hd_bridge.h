@@ -11,6 +11,7 @@ void DuneHD_EndViewport(int copiedToFront);
 void DuneHD_Tile(int packed);
 void DuneHD_NotifyOnly(int enter);
 void DuneHD_MentatReplacement(int enter);
+void DuneHD_WorldModal(int enter);
 void DuneHD_WritePixel(const void *pixel,int screen);
 void DuneHD_RemapPixel(const void *pixel,int screen);
 void DuneHD_Dirty(int screen, int left, int top, int right, int bottom);

@@ -3,8 +3,8 @@ import{decodePNG}from'../tools/painted-png.mjs';
 import{compileMediaWitnesses,identifyMediaFrame}from'../dist/painted-media-core.mjs';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),read=p=>fs.readFileSync(path.join(ROOT,p)),hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 const m=JSON.parse(read('dist/painted/media.json')),frozen=JSON.parse(read('art/hd-v3/media/review/frozen-36-bank.json')),extras=JSON.parse(read('art/hd-v3/media/extra-motion/inventory.json')),atlases=Object.fromEntries(Object.entries(m.atlases).map(([id,a])=>[id,decodePNG(read('dist/'+a.src))]));
-test('42-resource extension preserves every frozen36 base, part and cleanplate byte',()=>{
- assert.equal(Object.keys(m.resources).length,42);assert.equal(m.motion.totalFrames,264);assert.equal(m.motion.distinctFrameCount,210);assert.equal(m.motion.coordinates.length,33);
+test('46-resource extension preserves every frozen36 base, part and cleanplate byte',()=>{
+ assert.equal(Object.keys(m.resources).length,46);assert.equal(m.motion.totalFrames,268);assert.equal(m.motion.distinctFrameCount,214);assert.equal(m.motion.coordinates.length,33);
  for(const[id,row]of Object.entries(frozen.atlases)){assert.deepEqual(m.atlases[id],row);assert.equal(hash(read('dist/'+row.src)),row.sha256);}
  for(const[name,row]of Object.entries(frozen.resources))assert.deepEqual(m.resources[name],row);
  assert.deepEqual(m.parts,frozen.parts);assert.deepEqual(m.cleanplates,frozen.cleanplates);
